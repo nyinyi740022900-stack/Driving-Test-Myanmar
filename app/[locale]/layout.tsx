@@ -12,17 +12,17 @@ import '../globals.css';
 const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID;
 
 export const metadata: Metadata = {
-  title: 'RoadReady — Theory Test Practice',
+  title: 'Myanpass — Theory Test Practice',
   description: 'Practice Singapore BTT/FTT/RTT and Japan driving theory tests in English, Myanmar, and Japanese.',
   openGraph: {
-    title: 'RoadReady — Theory Test Practice',
+    title: 'Myanpass — Theory Test Practice',
     description: 'Practice Singapore BTT/FTT/RTT and Japan driving theory tests in English, Myanmar, and Japanese.',
     type: 'website',
-    siteName: 'RoadReady',
+    siteName: 'Myanpass',
   },
   twitter: {
     card: 'summary',
-    title: 'RoadReady — Theory Test Practice',
+    title: 'Myanpass — Theory Test Practice',
     description: 'Practice Singapore BTT/FTT/RTT and Japan driving theory tests.',
   },
 };

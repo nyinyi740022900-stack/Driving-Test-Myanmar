@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
-export const alt = 'RoadReady — Theory Test Practice for Singapore & Japan';
+export const alt = 'Myanpass — Theory Test Practice for Singapore & Japan';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -31,7 +31,7 @@ export default function OGImage() {
           <div style={{ width: 48, height: 48, borderRadius: 12, background: '#1B9C56', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <div style={{ width: 20, height: 20, background: '#fff', borderRadius: 3 }} />
           </div>
-          <span style={{ fontSize: 32, fontWeight: 800, color: '#fff', letterSpacing: '-0.02em' }}>RoadReady</span>
+          <span style={{ fontSize: 32, fontWeight: 800, color: '#fff', letterSpacing: '-0.02em' }}>Myanpass</span>
         </div>
 
         {/* Headline */}
@@ -55,7 +55,7 @@ export default function OGImage() {
 
         {/* Bottom URL */}
         <div style={{ position: 'absolute', bottom: 48, right: 80, fontSize: 22, color: 'rgba(255,255,255,0.4)', fontWeight: 600 }}>
-          roadready.app
+          myanpass.app
         </div>
       </div>
     ),

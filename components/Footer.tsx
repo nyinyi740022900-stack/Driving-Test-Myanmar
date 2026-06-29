@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="frow" style={{ alignItems: 'flex-start', gap: '40px 60px', flexWrap: 'wrap' }}>
           <div style={{ flex: '1 1 200px' }}>
             <Link className="logo" href={`/${locale}`} style={{ color: 'var(--paint)' }}>
-              <span className="mark"><span /></span>RoadReady
+              <span className="mark"><span /></span>Myanpass
             </Link>
             <div style={{ fontSize: '.86rem', marginTop: 10, color: 'var(--ink-soft)' }}>{t('tagline')}</div>
           </div>

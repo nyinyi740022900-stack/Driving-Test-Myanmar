@@ -72,7 +72,7 @@ export default function Header() {
       <header>
         <div className="wrap bar">
           <Link className="logo" href={`/${locale}`}>
-            <span className="mark"><span /></span>RoadReady
+            <span className="mark"><span /></span>Myanpass
           </Link>
           <nav className="main">
             <a href="#tests">{t('tests')}</a>
@@ -147,7 +147,7 @@ export default function Header() {
           >
             {/* Drawer header */}
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '20px 20px 16px', borderBottom: '1px solid var(--line)' }}>
-              <span style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1rem' }}>RoadReady</span>
+              <span style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1rem' }}>Myanpass</span>
               <button onClick={() => setMenuOpen(false)} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '1.3rem', color: 'var(--ink-soft)', lineHeight: 1 }}>✕</button>
             </div>
 

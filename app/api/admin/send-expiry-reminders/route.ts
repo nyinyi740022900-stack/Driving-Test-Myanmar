@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 
 const ADMIN_EMAILS = (process.env.ADMIN_EMAILS ?? '').split(',').map(e => e.trim()).filter(Boolean);
 const RESEND_API_KEY = process.env.RESEND_API_KEY ?? '';
-const FROM_EMAIL = process.env.FROM_EMAIL ?? 'noreply@roadready.app';
+const FROM_EMAIL = process.env.FROM_EMAIL ?? 'noreply@myanpass.app';
 
 export async function POST(request: Request) {
   // Verify admin
@@ -52,22 +52,22 @@ export async function POST(request: Request) {
     const body = {
       from: FROM_EMAIL,
       to: email,
-      subject: `Your RoadReady Premium expires in ${daysLeft} day${daysLeft === 1 ? '' : 's'}`,
+      subject: `Your Myanpass Premium expires in ${daysLeft} day${daysLeft === 1 ? '' : 's'}`,
       html: `
         <div style="font-family:sans-serif;max-width:480px;margin:0 auto;padding:32px 24px">
           <h2 style="font-size:22px;font-weight:800;margin-bottom:8px">Your premium is expiring soon 🚗</h2>
           <p style="color:#555;line-height:1.6">
-            Your RoadReady <strong>${sub.plan === 'yearly' ? 'Yearly' : 'Monthly'} Premium</strong> expires on
+            Your Myanpass <strong>${sub.plan === 'yearly' ? 'Yearly' : 'Monthly'} Premium</strong> expires on
             <strong>${expiresAt.toLocaleDateString('en-SG', { day: 'numeric', month: 'long', year: 'numeric' })}</strong>
             (${daysLeft} day${daysLeft === 1 ? '' : 's'} left).
           </p>
           <p style="color:#555;line-height:1.6">Renew to keep unlimited mock tests, no ads, and quiz history tracking.</p>
-          <a href="https://roadready.app/en/premium"
+          <a href="https://myanpass.app/en/premium"
              style="display:inline-block;margin-top:20px;padding:14px 28px;background:#1B9C56;color:#fff;border-radius:10px;font-weight:700;font-size:15px;text-decoration:none">
             Renew Premium →
           </a>
           <p style="margin-top:32px;font-size:12px;color:#aaa">
-            You received this because you have an active RoadReady Premium subscription.
+            You received this because you have an active Myanpass Premium subscription.
           </p>
         </div>
       `,

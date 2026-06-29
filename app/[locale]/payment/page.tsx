@@ -180,7 +180,7 @@ export default function PaymentPage() {
                   {WALLETS.find(w => w.key === wallet)?.number}
                 </div>
                 <div style={{ fontSize: '.82rem', color: 'var(--ink-soft)', marginTop: 2 }}>
-                  {wallet} · RoadReady
+                  {wallet} · Myanpass
                 </div>
               </div>
               <button
