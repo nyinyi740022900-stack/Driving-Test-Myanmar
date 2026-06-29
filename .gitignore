@@ -1,0 +1,24 @@
+# Next.js
+.next/
+out/
+
+# Node
+node_modules/
+
+# Env files (keep .env.example, ignore real secrets)
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+tsconfig.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
+
+# Claude Code local config
+.claude/
