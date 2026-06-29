@@ -324,6 +324,7 @@ section { padding: 74px 0; }
 }
 .opt-text { display: flex; flex-direction: column; flex: 1; text-align: left; }
 .opt-my { font-size: .82em; color: var(--ink-soft); margin-top: 3px; line-height: 1.5; font-weight: 400; }
+.quiz-ad { margin-top: 20px; border-radius: 10px; overflow: hidden; }
 .quiz-q-label { font-size: .72rem; font-family: var(--display); font-weight: 700; letter-spacing: .08em; color: var(--guide); text-transform: uppercase; margin-bottom: 12px; }
 .opt.correct { border-color: var(--guide); background: rgba(27, 156, 86, .08); }
 .opt.correct .k { background: var(--guide); color: #fff; }

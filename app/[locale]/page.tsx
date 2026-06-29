@@ -9,6 +9,7 @@ import FAQ from '@/components/FAQ';
 import Pricing from '@/components/Pricing';
 import Footer from '@/components/Footer';
 import Reveal from '@/components/Reveal';
+import AdSlot from '@/components/AdSlot';
 
 export default function HomePage() {
   return (
@@ -20,6 +21,10 @@ export default function HomePage() {
       <div className="lane" aria-hidden="true" />
       <Reveal delay={60}><QuizDemo /></Reveal>
       <div className="lane" aria-hidden="true" />
+      <div className="wrap" style={{ padding: '0 24px' }}>
+        <AdSlot slot="5231752308" format="horizontal" />
+      </div>
+      <div className="lane" aria-hidden="true" />
       <Reveal delay={40}><HowItWorks /></Reveal>
       <div className="lane" aria-hidden="true" />
       <Reveal delay={40}><Centres /></Reveal>
@@ -27,6 +32,10 @@ export default function HomePage() {
       <Reveal delay={40}><Resources /></Reveal>
       <div className="lane" aria-hidden="true" />
       <Reveal delay={40}><FAQ /></Reveal>
+      <div className="lane" aria-hidden="true" />
+      <div className="wrap" style={{ padding: '0 24px' }}>
+        <AdSlot slot="5231752308" format="horizontal" />
+      </div>
       <div className="lane" aria-hidden="true" />
       <Reveal delay={40}><Pricing /></Reveal>
       <Footer />

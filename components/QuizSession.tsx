@@ -10,6 +10,7 @@ import { shuffleArray, pickLocalized } from '@/lib/questions';
 import { MediaPlaceholder } from './Signs';
 import { useAuth } from './AuthProvider';
 import ReminderBell from './ReminderBell';
+import AdSlot from './AdSlot';
 import { createClient } from '@/lib/supabase';
 import { canRunMockTest, recordMockTestUsage } from '@/lib/subscription';
 import { saveQuizResult, getBestScore, getAttemptCount } from '@/lib/progress';
@@ -370,6 +371,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
                 <StatPill color="var(--asphalt)" label={t('result_attempts') ?? 'Tries'} value={getAttemptCount(category)} />
               </div>
               <WrongReview wrongQs={wrongQs} answers={answers} pool={pool} L={L} t={t} />
+              <AdSlot slot="5231752308" format="rectangle" className="quiz-ad" />
               <div style={{ display: 'flex', gap: 10, justifyContent: 'center', marginTop: 24, flexWrap: 'wrap' }}>
                 {wrongQs.length > 0 && (
                   <button className="btn btn-primary" onClick={handleRetryWrong}>
@@ -422,7 +424,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
             )}
 
             <WrongReview wrongQs={wrongQs} answers={answers} pool={pool} L={L} t={t} showExplanation />
-
+            <AdSlot slot="5231752308" format="rectangle" className="quiz-ad" />
             <div style={{ display: 'flex', gap: 10, justifyContent: 'center', marginTop: 24, flexWrap: 'wrap' }}>
               {wrongQs.length > 0 && (
                 <button className="btn btn-primary" onClick={handleRetryWrong}>
