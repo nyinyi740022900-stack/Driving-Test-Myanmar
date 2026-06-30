@@ -29,6 +29,9 @@ export default function Footer() {
             </div>
           </nav>
         </div>
+        <div style={{ display: 'flex', gap: 20, marginTop: 24, paddingTop: 20, borderTop: '1px solid rgba(255,255,255,.1)' }}>
+          <Link href={`/${locale}/privacy`} style={{ fontSize: '.8rem', color: 'var(--ink-soft)' }}>Privacy Policy</Link>
+        </div>
         <p className="fnote">{t('note')}</p>
       </div>
     </footer>
