@@ -22,7 +22,7 @@ export default function HomePage() {
       <Reveal delay={60}><QuizDemo /></Reveal>
       <div className="lane" aria-hidden="true" />
       <div className="wrap" style={{ padding: '0 24px' }}>
-        <AdSlot slot="5231752308" format="horizontal" />
+        <AdSlot slot="5983088447" format="horizontal" />
       </div>
       <div className="lane" aria-hidden="true" />
       <Reveal delay={40}><HowItWorks /></Reveal>
@@ -34,7 +34,7 @@ export default function HomePage() {
       <Reveal delay={40}><FAQ /></Reveal>
       <div className="lane" aria-hidden="true" />
       <div className="wrap" style={{ padding: '0 24px' }}>
-        <AdSlot slot="5231752308" format="horizontal" />
+        <AdSlot slot="5983088447" format="horizontal" />
       </div>
       <div className="lane" aria-hidden="true" />
       <Reveal delay={40}><Pricing /></Reveal>
