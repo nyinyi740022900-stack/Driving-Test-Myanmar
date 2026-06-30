@@ -647,3 +647,37 @@ footer { background: #0E110B; color: rgba(245, 243, 234, .7); padding: 46px 0 30
   .hero-stats { gap: 20px; }
   .switches .seg.lang { display: none; }
 }
+
+/* ── Mobile quiz fixes ─────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  /* quiz layout */
+  .quiz-wrap { padding: 14px 12px 90px; }
+  .quiz-header { margin-bottom: 16px; gap: 8px; }
+  .quiz-card { padding: 16px 14px; border-radius: 16px; }
+
+  /* image area — smaller on mobile, no min-height jump */
+  .quiz-media { min-height: 0; padding: 12px; margin-bottom: 12px; }
+  .quiz-media img { max-width: 100%; max-height: 180px; width: auto; }
+  .quiz-media svg { width: 120px; height: 120px; }
+
+  /* fixed bottom nav — prevents buttons jumping with card height */
+  .quiz-nav-bar {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: var(--paint);
+    border-top: 1.5px solid var(--line);
+    padding: 10px 16px env(safe-area-inset-bottom, 12px);
+    z-index: 50;
+    margin-top: 0 !important;
+  }
+
+  /* result card */
+  .result-card { padding: 28px 16px 24px; }
+  .score-big { font-size: 2.6rem; }
+
+  /* centres detail panel — single column, compact */
+  .ccentres-detail-inner { grid-template-columns: 1fr !important; gap: 20px !important; padding: 16px 14px 20px !important; }
+  .ccentre-detail-header { padding: 14px 16px !important; flex-direction: column !important; align-items: flex-start !important; gap: 10px !important; }
+  .ccentre-detail-actions { width: 100%; justify-content: stretch; }
+  .ccentre-detail-actions a { flex: 1; text-align: center; }
+}

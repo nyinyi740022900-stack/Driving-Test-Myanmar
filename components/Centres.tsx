@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useCountry } from './CountryProvider';
 
@@ -278,6 +278,15 @@ export default function Centres() {
   const locale = useLocale() as Locale;
   const { country } = useCountry();
   const [expanded, setExpanded] = useState<string | null>(null);
+  const detailRef = useRef<HTMLDivElement>(null);
+
+  function handleExpand(code: string) {
+    const next = expanded === code ? null : code;
+    setExpanded(next);
+    if (next) {
+      setTimeout(() => detailRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 80);
+    }
+  }
 
   return (
     <section id="centres">
@@ -293,7 +302,7 @@ export default function Centres() {
             {/* Summary cards row */}
             <div className="ccentres-grid">
               {CENTRES_SG.map(c => (
-                <div key={c.code} className="ccentre-card" style={{ cursor: 'pointer', outline: expanded === c.code ? `2px solid ${c.color}` : undefined }} onClick={() => setExpanded(expanded === c.code ? null : c.code)}>
+                <div key={c.code} className="ccentre-card" style={{ cursor: 'pointer', outline: expanded === c.code ? `2px solid ${c.color}` : undefined }} onClick={() => handleExpand(c.code)}>
                   <div className="ccentre-header" style={{ background: `linear-gradient(135deg, ${c.color}22 0%, ${c.color}44 100%)`, borderBottom: `3px solid ${c.color}` }}>
                     <div className="ccentre-code" style={{ color: c.color }}>{c.code}</div>
                   </div>
@@ -313,7 +322,7 @@ export default function Centres() {
                       ) : <span />}
                       <button
                         style={{ background: 'none', border: 'none', cursor: 'pointer', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.82rem', color: c.color, padding: 0 }}
-                        onClick={e => { e.stopPropagation(); setExpanded(expanded === c.code ? null : c.code); }}
+                        onClick={e => { e.stopPropagation(); handleExpand(c.code); }}
                       >
                         {expanded === c.code ? t('hide_details') : t('view_details')}
                       </button>
@@ -327,9 +336,9 @@ export default function Centres() {
             {expanded && (() => {
               const c = CENTRES_SG.find(x => x.code === expanded)!;
               return (
-                <div style={{ background: '#fff', border: `2px solid ${c.color}`, borderRadius: 18, overflow: 'hidden' }}>
+                <div ref={detailRef} style={{ background: '#fff', border: `2px solid ${c.color}`, borderRadius: 18, overflow: 'hidden' }}>
                   {/* Panel header */}
-                  <div style={{ background: `linear-gradient(135deg, ${c.color}18 0%, ${c.color}30 100%)`, borderBottom: `2px solid ${c.color}30`, padding: '20px 28px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
+                  <div className="ccentre-detail-header" style={{ background: `linear-gradient(135deg, ${c.color}18 0%, ${c.color}30 100%)`, borderBottom: `2px solid ${c.color}30`, padding: '20px 28px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
                     <div>
                       <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.3rem', color: c.color }}>{c.code}</div>
                       <div style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: '1rem', color: 'var(--asphalt)' }}>{c.name}</div>
@@ -346,7 +355,7 @@ export default function Centres() {
                     </div>
                   </div>
 
-                  <div style={{ padding: '28px 28px 32px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 32 }}>
+                  <div className="ccentres-detail-inner" style={{ padding: '20px 16px 28px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 24 }}>
 
                     {/* Contact & Info */}
                     <div>

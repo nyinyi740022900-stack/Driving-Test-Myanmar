@@ -621,7 +621,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
         )}
 
         {/* Navigation — 3-column grid so Submit sits centred */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', gap: 10, marginTop: 24 }}>
+        <div className="quiz-nav-bar" style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', gap: 10, marginTop: 24 }}>
           {/* Left: Previous */}
           <div>
             <button className="btn btn-ghost" onClick={handlePrev} disabled={idx === 0}
