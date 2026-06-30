@@ -135,6 +135,10 @@ export default function QuizSession({ category, mode, questions }: Props) {
     if (pendingPick === null) return;
     const next = [...answers]; next[idx] = pendingPick; setAnswers(next);
     setPendingPick(null);
+    // In test mode there's no explanation shown — auto-advance to next question
+    if (mode === 'test' && idx < pool.length - 1) {
+      setIdx(idx + 1);
+    }
   }
   function handleNext() { if (idx < pool.length - 1) setIdx(idx + 1); }
   function handlePrev() { if (idx > 0) setIdx(idx - 1); }
@@ -658,9 +662,13 @@ export default function QuizSession({ category, mode, questions }: Props) {
           </div>
         </div>
 
-        {/* Question navigator — practice mode */}
-        {mode === 'practice' && (
-          <QuestionNavigator pool={pool} answers={answers} idx={idx} onJump={setIdx} t={t} />
+        {/* Question navigator — practice + test mode */}
+        {(mode === 'practice' || mode === 'test') && (
+          <QuestionNavigator
+            pool={pool} answers={answers} idx={idx} onJump={setIdx} t={t}
+            showResults={mode === 'practice'}
+            onSubmitTest={mode === 'test' ? handleSubmit : undefined}
+          />
         )}
 
       </div>
@@ -670,34 +678,49 @@ export default function QuizSession({ category, mode, questions }: Props) {
 
 // ── Sub-components ────────────────────────────────────────────────
 function QuestionNavigator({
-  pool, answers, idx, onJump, t,
+  pool, answers, idx, onJump, t, showResults = true, onSubmitTest,
 }: {
   pool: Question[];
   answers: (number | null)[];
   idx: number;
   onJump: (i: number) => void;
   t: (key: string) => string;
+  showResults?: boolean;
+  onSubmitTest?: () => void;
 }) {
   const answeredCount = answers.filter(a => a !== null).length;
   const correctCount  = answers.filter((a, i) => a !== null && a === pool[i]?.answer).length;
   const wrongCount    = answers.filter((a, i) => a !== null && a !== pool[i]?.answer).length;
+  const unanswered    = pool.length - answeredCount;
 
   return (
     <div style={{ marginTop: 20, background: '#fff', border: '1px solid var(--line)', borderRadius: 18, padding: '18px 20px', boxShadow: 'var(--shadow)' }}>
       {/* Summary row */}
       <div style={{ display: 'flex', gap: 1, marginBottom: 16, background: 'var(--paint-2)', borderRadius: 16, overflow: 'hidden', border: '1px solid var(--line)' }}>
-        <div style={{ flex: 1, textAlign: 'center', padding: '14px 12px', background: 'rgba(27,156,86,.06)' }}>
-          <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.6rem', color: 'var(--guide)', lineHeight: 1 }}>{correctCount}</div>
-          <div style={{ fontSize: '.65rem', fontFamily: 'var(--display)', fontWeight: 700, letterSpacing: '.1em', color: 'var(--ink-soft)', marginTop: 4, textTransform: 'uppercase' }}>Correct</div>
-        </div>
-        <div style={{ width: 1, background: 'var(--line)', alignSelf: 'stretch' }} />
-        <div style={{ flex: 1, textAlign: 'center', padding: '14px 12px', background: 'rgba(224,71,76,.05)' }}>
-          <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.6rem', color: 'var(--red)', lineHeight: 1 }}>{wrongCount}</div>
-          <div style={{ fontSize: '.65rem', fontFamily: 'var(--display)', fontWeight: 700, letterSpacing: '.1em', color: 'var(--ink-soft)', marginTop: 4, textTransform: 'uppercase' }}>Incorrect</div>
-        </div>
-        <div style={{ width: 1, background: 'var(--line)', alignSelf: 'stretch' }} />
+        {showResults ? (
+          <>
+            <div style={{ flex: 1, textAlign: 'center', padding: '14px 12px', background: 'rgba(27,156,86,.06)' }}>
+              <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.6rem', color: 'var(--guide)', lineHeight: 1 }}>{correctCount}</div>
+              <div style={{ fontSize: '.65rem', fontFamily: 'var(--display)', fontWeight: 700, letterSpacing: '.1em', color: 'var(--ink-soft)', marginTop: 4, textTransform: 'uppercase' }}>Correct</div>
+            </div>
+            <div style={{ width: 1, background: 'var(--line)', alignSelf: 'stretch' }} />
+            <div style={{ flex: 1, textAlign: 'center', padding: '14px 12px', background: 'rgba(224,71,76,.05)' }}>
+              <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.6rem', color: 'var(--red)', lineHeight: 1 }}>{wrongCount}</div>
+              <div style={{ fontSize: '.65rem', fontFamily: 'var(--display)', fontWeight: 700, letterSpacing: '.1em', color: 'var(--ink-soft)', marginTop: 4, textTransform: 'uppercase' }}>Incorrect</div>
+            </div>
+            <div style={{ width: 1, background: 'var(--line)', alignSelf: 'stretch' }} />
+          </>
+        ) : (
+          <>
+            <div style={{ flex: 1, textAlign: 'center', padding: '14px 12px', background: 'rgba(27,156,86,.06)' }}>
+              <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.6rem', color: 'var(--guide)', lineHeight: 1 }}>{answeredCount}</div>
+              <div style={{ fontSize: '.65rem', fontFamily: 'var(--display)', fontWeight: 700, letterSpacing: '.1em', color: 'var(--ink-soft)', marginTop: 4, textTransform: 'uppercase' }}>Answered</div>
+            </div>
+            <div style={{ width: 1, background: 'var(--line)', alignSelf: 'stretch' }} />
+          </>
+        )}
         <div style={{ flex: 1, textAlign: 'center', padding: '14px 12px' }}>
-          <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.6rem', color: 'var(--ink-soft)', lineHeight: 1 }}>{pool.length - answeredCount}</div>
+          <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.6rem', color: 'var(--ink-soft)', lineHeight: 1 }}>{unanswered}</div>
           <div style={{ fontSize: '.65rem', fontFamily: 'var(--display)', fontWeight: 700, letterSpacing: '.1em', color: 'var(--ink-soft)', marginTop: 4, textTransform: 'uppercase' }}>{t('unanswered') ?? 'Left'}</div>
         </div>
       </div>
@@ -707,16 +730,21 @@ function QuestionNavigator({
         {pool.map((q, i) => {
           const ans = answers[i];
           const isCurrent = i === idx;
-          const isCorrect = ans !== null && ans === q.answer;
-          const isWrong   = ans !== null && ans !== q.answer;
+          const isAnswered = ans !== null;
+          const isCorrect  = isAnswered && ans === q.answer;
+          const isWrong    = isAnswered && ans !== q.answer;
 
           let bg     = 'var(--paint-2)';
           let color  = 'var(--ink-soft)';
           let border = '2px solid transparent';
           let fontWeight = 600;
 
-          if (isCorrect) { bg = 'rgba(27,156,86,.15)'; color = 'var(--guide-deep)'; border = '2px solid transparent'; }
-          if (isWrong)   { bg = 'rgba(224,71,76,.12)'; color = 'var(--red)'; }
+          if (showResults) {
+            if (isCorrect) { bg = 'rgba(27,156,86,.15)'; color = 'var(--guide-deep)'; }
+            if (isWrong)   { bg = 'rgba(224,71,76,.12)'; color = 'var(--red)'; }
+          } else {
+            if (isAnswered) { bg = 'rgba(27,156,86,.15)'; color = 'var(--guide-deep)'; }
+          }
           if (isCurrent) { border = '2px solid var(--guide)'; fontWeight = 800; }
 
           return (
@@ -732,6 +760,21 @@ function QuestionNavigator({
           );
         })}
       </div>
+
+      {/* Submit Test button inside navigator */}
+      {onSubmitTest && (
+        <div style={{ marginTop: 16, textAlign: 'center' }}>
+          <button
+            className="btn btn-primary"
+            onClick={onSubmitTest}
+            style={{ minWidth: 180, fontWeight: 700 }}
+          >
+            {unanswered > 0
+              ? `${t('submit_test') ?? 'Submit Test'} (${unanswered} ${t('unanswered') ?? 'left'})`
+              : (t('submit_test') ?? 'Submit Test')}
+          </button>
+        </div>
+      )}
     </div>
   );
 }

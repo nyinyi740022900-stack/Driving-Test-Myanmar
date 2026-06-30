@@ -4226,12 +4226,6 @@
           "en": "Maintain full speed throughout the corner",
           "my": "ကွေ့တွင်း တစ်လျှောက် အပြည့်အမြန်နှုန်း ထိန်းသိမ်းရသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Lean away from the direction of the corner",
-          "my": "ကွေ့ ဦးတည်ရာ မှ ဝိမ်းကွင်းကာ ချိမ်းထိုးရသည်"
-        }
       }
     ],
     "answer": 1,
@@ -4266,12 +4260,6 @@
         "text": {
           "en": "Towards the right side for a right bend to improve visibility",
           "my": "မြင်ကွင်း ကောင်းစေရန် ညာကွေ့ အတွက် ညာဘက်"
-        }
-      },
-      {
-        "text": {
-          "en": "Outer edge of the lane for better grip",
-          "my": "ကောင်းသော ဆုပ်ကိုင်မှုအတွက် လမ်းကြောင်း အပြင်ဘက်"
         }
       }
     ],
@@ -4308,12 +4296,6 @@
           "en": "Reducing speed before entering the corner",
           "my": "ကွေ့ မဝင်မီ အမြန်နှုန်း လျှော့ခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Keeping a smooth throttle through the corner",
-          "my": "ကွေ့တွင်း ချောမွေ့သော အရှိန်ထိန်းချုပ်မှု ဆောင်ရွက်ခြင်း"
-        }
       }
     ],
     "answer": 1,
@@ -4348,12 +4330,6 @@
         "text": {
           "en": "Gloves and knee pads",
           "my": "လက်အိတ်နှင့် ဒူးကာ"
-        }
-      },
-      {
-        "text": {
-          "en": "Reflective vest",
-          "my": "အလင်းထိန်း ကမ်ပည်"
         }
       }
     ],
@@ -4390,12 +4366,6 @@
           "en": "It makes the motorcycle easier to handle",
           "my": "မော်တော်ဆိုင်ကယ် ကိုင်တွယ်မှု ပိုလွယ်ကူသည်"
         }
-      },
-      {
-        "text": {
-          "en": "It is required only for long-distance rides",
-          "my": "ဝေးလပ် ခရီး များအတွက်သာ လိုအပ်သည်"
-        }
       }
     ],
     "answer": 1,
@@ -4430,12 +4400,6 @@
         "text": {
           "en": "Open-face helmet",
           "my": "မျက်နှာ ဖွင့် ဦးထုပ်"
-        }
-      },
-      {
-        "text": {
-          "en": "Bicycle helmet",
-          "my": "စက်ဘီး ဦးထုပ်"
         }
       }
     ],
@@ -4472,12 +4436,6 @@
           "en": "Ride on the edge of the road to avoid puddles",
           "my": "ရေကန်ခြောက်များ ရှောင်ရန် လမ်းနားနင်း စီးရမည်"
         }
-      },
-      {
-        "text": {
-          "en": "Apply brakes frequently to test grip",
-          "my": "ဆုပ်ကိုင်မှု စစ်ဆေးရန် ဘရိတ်ကို မကြာမကြာ ဆွဲရမည်"
-        }
       }
     ],
     "answer": 1,
@@ -4512,12 +4470,6 @@
         "text": {
           "en": "Gravel roads",
           "my": "ကျောက်ချပ် လမ်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Concrete paths",
-          "my": "ကွန်ကရစ် လမ်းလျှောက် လမ်း"
         }
       }
     ],
@@ -4554,12 +4506,6 @@
           "en": "Switch to the outer lane for better visibility",
           "my": "မြင်ကွင်း ပိုကောင်းစေရန် အပြင် လမ်းကြောင်းသို့ ပြောင်းရမည်"
         }
-      },
-      {
-        "text": {
-          "en": "Turn on hazard lights and continue at normal speed",
-          "my": "အန္တရာယ် မီးကို ဖွင့်ပြီး ပုံမှန် အမြန်နှုန်းဖြင့် ဆက်သွားရမည်"
-        }
       }
     ],
     "answer": 1,
@@ -4594,12 +4540,6 @@
         "text": {
           "en": "70 km/h",
           "my": "ကီလိုမီတာ/နာရီ ၇၀"
-        }
-      },
-      {
-        "text": {
-          "en": "50 km/h",
-          "my": "ကီလိုမီတာ/နာရီ ၅၀"
         }
       }
     ],
@@ -4636,12 +4576,6 @@
           "en": "110 km/h",
           "my": "ကီလိုမီတာ/နာရီ ၁၁၀"
         }
-      },
-      {
-        "text": {
-          "en": "80 km/h",
-          "my": "ကီလိုမီတာ/နာရီ ၈၀"
-        }
       }
     ],
     "answer": 0,
@@ -4676,12 +4610,6 @@
         "text": {
           "en": "Only signal after entering the slip road",
           "my": "Slip road ဝင်ပြီးမှ သာ ဆဲဗ်နယ်ပြ"
-        }
-      },
-      {
-        "text": {
-          "en": "Keep expressway speed until the main road",
-          "my": "အဓိက လမ်းမ ရောက်သည် အထိ အမြန်လမ်းမ မြန်နှုန်း ဆက်ထိန်းပါ"
         }
       }
     ],
@@ -4718,12 +4646,6 @@
           "en": "Lane discipline only matters at night",
           "my": "လမ်းကြောင်း စည်းကမ်း သည် ညချိန် ၌ သာ အရေးကြီးသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Expressways have fewer lanes",
-          "my": "အမြန်လမ်းမ ၌ လမ်းကြောင်း နည်းသည်"
-        }
       }
     ],
     "answer": 0,
@@ -4758,12 +4680,6 @@
         "text": {
           "en": "Put on hazard lights and wait in the car",
           "my": "Hazard မီး ဖွင့်ပြီး ကား ထဲ ကျန်ဆိုင်းပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Wave at passing vehicles for help",
-          "my": "ကူညီရန် ဖြတ်သွားသော ယာဉ်များ ကို လက်ပြပါ"
         }
       }
     ],
@@ -4800,12 +4716,6 @@
           "en": "Overtaking on the left",
           "my": "ဘယ်ဘက်မှ ကျော်တက်ခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Using the emergency lane to filter through traffic",
-          "my": "ယာဉ်ကြောင်း ဖြတ်ကူးရန် အရေးပေါ် လမ်းကြောင်း သုံးခြင်း"
-        }
       }
     ],
     "answer": 0,
@@ -4840,12 +4750,6 @@
         "text": {
           "en": "50 metres",
           "my": "မီတာ ၅၀"
-        }
-      },
-      {
-        "text": {
-          "en": "No specific distance — use judgement",
-          "my": "တိကျသော ကွာဟချက် မရှိ — ဆုံးဖြတ်ချက် ကိုယ်ပိုင် သုံးပါ"
         }
       }
     ],
@@ -4882,12 +4786,6 @@
           "en": "Left lane is for slower vehicles only",
           "my": "ဘယ် လမ်းကြောင်း သည် နှေးသော ယာဉ်များ အတွက် သာ"
         }
-      },
-      {
-        "text": {
-          "en": "Use all three lanes equally",
-          "my": "လမ်းကြောင်း သုံးခု ညီမျှ သုံးပါ"
-        }
       }
     ],
     "answer": 0,
@@ -4922,12 +4820,6 @@
         "text": {
           "en": "The limit ahead is 90 km/h",
           "my": "ရှေ့ ကန့်သတ်သည် ကီလိုမီတာ/နာရီ ၉၀"
-        }
-      },
-      {
-        "text": {
-          "en": "Speed limit applies only to heavy vehicles",
-          "my": "မြန်နှုန်း ကန့်သတ် ကြီးမားသော ယာဉ်များ ကိုသာ သက်ဆိုင်သည်"
         }
       }
     ],
@@ -4964,12 +4856,6 @@
           "en": "Other drivers check mirrors less on expressways",
           "my": "အခြား ယာဉ်မောင်းများ အမြန်လမ်းမ ၌ မှန် နည်းနည်းသာ စစ်ဆေးသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Police watch mirror use on expressways",
-          "my": "ရဲ သည် အမြန်လမ်းမ ၌ မှန် သုံးမှုကို ကြည့်ရှုသည်"
-        }
       }
     ],
     "answer": 0,
@@ -5004,12 +4890,6 @@
         "text": {
           "en": "Reverse direction permitted at all times",
           "my": "မည်သည့်အချိန်မဆို ပြောင်းပြန် ဦးတည်ချက် ခွင့်ပြုသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Emergency vehicles only lane",
-          "my": "အရေးပေါ် ယာဉ်များ သာ ပါသော လမ်းကြောင်း"
         }
       }
     ],
@@ -5046,12 +4926,6 @@
           "en": "Slow vehicle parking areas",
           "my": "နှေးသော ယာဉ် ကားရပ်နေရာများ"
         }
-      },
-      {
-        "text": {
-          "en": "Emergency vehicle priority lanes",
-          "my": "အရေးပေါ် ယာဉ် ဦးစားပေး လမ်းကြောင်းများ"
-        }
       }
     ],
     "answer": 0,
@@ -5086,12 +4960,6 @@
         "text": {
           "en": "When you need to drive faster",
           "my": "သင် ပိုမြန်မြန် မောင်းရန် လိုအပ်သောအခါ"
-        }
-      },
-      {
-        "text": {
-          "en": "For motorcycles at any time",
-          "my": "မည်သည့်အချိန်မဆို မော်တော်ဆိုင်ကယ် အတွက်"
         }
       }
     ],
@@ -5128,12 +4996,6 @@
           "en": "Ambulance — do not overtake",
           "my": "သူနာပြုကား — ကျော်တက် မပါနှင့်"
         }
-      },
-      {
-        "text": {
-          "en": "Road maintenance — stop immediately",
-          "my": "လမ်း ပြုပြင်ထိန်းသိမ်းရေး — ချက်ချင်း ရပ်ပါ"
-        }
       }
     ],
     "answer": 0,
@@ -5168,12 +5030,6 @@
         "text": {
           "en": "Every day",
           "my": "နေ့တိုင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Only at annual service",
-          "my": "နှစ်ပတ်လည် ဆာဗစ် ၌ သာ"
         }
       }
     ],
@@ -5210,12 +5066,6 @@
           "en": "The rear brake light bulb has blown",
           "my": "နောက် ဘရိတ် မီး ရောင်ပြေ ကျသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Brakes are working optimally",
-          "my": "ဘရိတ်များ အကောင်းဆုံး အလုပ်လုပ်နေသည်"
-        }
       }
     ],
     "answer": 0,
@@ -5250,12 +5100,6 @@
         "text": {
           "en": "To cool the brakes",
           "my": "ဘရိတ်များ အေးစေရန်"
-        }
-      },
-      {
-        "text": {
-          "en": "To clean the windscreen",
-          "my": "ဝင်းရှိ်ဒ်ရှိ်း ကို ဆေးကြောရန်"
         }
       }
     ],
@@ -5292,12 +5136,6 @@
           "en": "Only when they break",
           "my": "ကြိုးပြတ်သောအခါ သာ"
         }
-      },
-      {
-        "text": {
-          "en": "Only in wet season",
-          "my": "ရွာသော ရာသီ ၌ သာ"
-        }
       }
     ],
     "answer": 0,
@@ -5332,12 +5170,6 @@
         "text": {
           "en": "Air conditioning needs to be switched on",
           "my": "လေ အေးစက် ဖွင့်ရန် လိုအပ်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Coolant is fine — no action needed",
-          "my": "Coolant ကောင်းသည် — ဆောင်ရွက်မှု မလိုအပ်"
         }
       }
     ],
@@ -5374,12 +5206,6 @@
           "en": "No legal requirement",
           "my": "ဥပဒေ ကြောင်း လိုအပ်ချက် မရှိ"
         }
-      },
-      {
-        "text": {
-          "en": "Minimum 2mm",
-          "my": "အနည်းဆုံး ၂ မီလီမီတာ"
-        }
       }
     ],
     "answer": 0,
@@ -5414,12 +5240,6 @@
         "text": {
           "en": "It lubricates the brakes",
           "my": "ဘရိတ်များ ချောဆေးသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "It powers the electric windows",
-          "my": "လျှပ်စစ် ပြတင်းပေါက်များ ကို စွမ်းအားပေးသည်"
         }
       }
     ],
@@ -5456,12 +5276,6 @@
           "en": "Change the battery immediately",
           "my": "ဘတ္ထရီ ချက်ချင်း ပြောင်းပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Headlights are on",
-          "my": "မီးပြင်းများ ဖွင့်ထားသည်"
-        }
       }
     ],
     "answer": 0,
@@ -5496,12 +5310,6 @@
         "text": {
           "en": "To absorb fuel",
           "my": "လောင်စာ စုပ်ယူရန်"
-        }
-      },
-      {
-        "text": {
-          "en": "To reduce engine noise",
-          "my": "အင်ဂျင် ဆူညံသံ လျှော့ချရန်"
         }
       }
     ],
@@ -5538,12 +5346,6 @@
           "en": "Only lubricate brake pads",
           "my": "ဘရိတ် ပြားများ ချော်ဆေး ၌ ထားရုံ"
         }
-      },
-      {
-        "text": {
-          "en": "Replace every year regardless of wear",
-          "my": "ပွန်းပဲ့မှု မဆိုဘဲ နှစ်ပတ်လည် အစားထိုးပါ"
-        }
       }
     ],
     "answer": 0,
@@ -5578,12 +5380,6 @@
         "text": {
           "en": "For resale value",
           "my": "ပြန်ရောင်း တန်ဖိုး အတွက်"
-        }
-      },
-      {
-        "text": {
-          "en": "No need to check spare tyres",
-          "my": "အရန် ဘီး စစ်ဆေးရန် မလိုအပ်"
         }
       }
     ],
@@ -5620,12 +5416,6 @@
           "en": "The process of changing tyres",
           "my": "ဘီး ပြောင်းလဲသော လုပ်ငန်းစဉ်"
         }
-      },
-      {
-        "text": {
-          "en": "Painting the wheel rims",
-          "my": "ဘီး ဘောင်များ ဆေးသုတ်ခြင်း"
-        }
       }
     ],
     "answer": 0,
@@ -5660,12 +5450,6 @@
         "text": {
           "en": "Driving as fast as possible to save time",
           "my": "အချိန် သက်သာရန် တတ်နိုင်သမျှ မြန်မြန် မောင်းနှင်ခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Using the air-conditioner at maximum",
-          "my": "လေ အေးစက် အများဆုံး ဖြင့် သုံးခြင်း"
         }
       }
     ],
@@ -5702,12 +5486,6 @@
           "en": "No difference — acceleration speed doesn't affect fuel use",
           "my": "ကွာခြားမှု မရှိ — အရှိန်တင် မြန်နှုန်းသည် လောင်စာ သုံးစွဲမှုကို မအကျိုးသက်ရောက်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Only affects diesel engines",
-          "my": "ဒီဇယ် အင်ဂျင်ကိုသာ သက်ဆိုင်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -5742,12 +5520,6 @@
         "text": {
           "en": "Idling is better than switching the engine off and on",
           "my": "Idling သည် အင်ဂျင် ပိတ်/ဖွင့် ထက် ပိုကောင်းသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Idling only wastes fuel on hot days",
-          "my": "Idling သည် ပူသော ရက်တွင် သာ လောင်စာ ဖြုန်းတီးသည်"
         }
       }
     ],
@@ -5784,12 +5556,6 @@
           "en": "Tyre pressure has no effect on fuel economy",
           "my": "ဘီး ဖိအား သည် လောင်စာ ချွေတာမှုကို မအကျိုးသက်ရောက်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Over-inflated tyres save the most fuel",
-          "my": "ဖိအားလွန်ကဲသော ဘီး တွင် လောင်စာ အသက်သာဆုံး"
-        }
       }
     ],
     "answer": 0,
@@ -5824,12 +5590,6 @@
         "text": {
           "en": "Second gear always",
           "my": "ဒုတိယ ဂီယာ အမြဲ"
-        }
-      },
-      {
-        "text": {
-          "en": "Gear selection has no impact on fuel economy",
-          "my": "ဂီယာ ရွေးချယ်မှုသည် လောင်စာ ချွေတာမှုကို မအကျိုးသက်ရောက်ပါ"
         }
       }
     ],
@@ -5866,12 +5626,6 @@
           "en": "Air conditioner has no impact on fuel economy",
           "my": "လေ အေးစက် သည် လောင်စာ ချွေတာမှုကို မအကျိုးသက်ရောက်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Open windows instead to save fuel in all conditions",
-          "my": "မည်သည့် အခြေအနေ ၌ မဆို လောင်စာ သက်သာရန် ပြတင်းပေါက် ဖွင့်ပါ"
-        }
       }
     ],
     "answer": 0,
@@ -5906,12 +5660,6 @@
         "text": {
           "en": "Driving in neutral to save fuel",
           "my": "လောင်စာ သက်သာရန် Neutral ၌ မောင်းနှင်ခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Coasting wastes more fuel than accelerating",
-          "my": "Coasting သည် အရှိန်တင်ခြင်းထက် လောင်စာ ပိုဖြုန်းတီးသည်"
         }
       }
     ],
@@ -5948,12 +5696,6 @@
           "en": "More weight means better fuel economy",
           "my": "ပိုမြင့်မားသော အလေးချိန် ဆိုသည်မှာ လောင်စာ ချွေတာမှု ပိုကောင်းသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Only affects electric vehicles",
-          "my": "လျှပ်စစ် ယာဉ်များ ကိုသာ သက်ဆိုင်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -5988,12 +5730,6 @@
         "text": {
           "en": "Inspect, Park, Display, Enforce",
           "my": "စစ်ဆေး၊ ရပ်နား၊ ပြပြင်ဆင်ခြင်း၊ ကြပ်မတ်ခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Insurance, Police, Document, Evidence",
-          "my": "အာမခံ၊ ရဲ၊ စာတမ်း၊ သက်သေ"
         }
       }
     ],
@@ -6030,12 +5766,6 @@
           "en": "A sleep break of 30 minutes",
           "my": "မိနစ် ၃၀ ၏ အိပ်မြည် အနားယူချိန်"
         }
-      },
-      {
-        "text": {
-          "en": "Dreaming while driving",
-          "my": "ကားမောင်းနေစဉ် အိပ်မက်မက်ခြင်း"
-        }
       }
     ],
     "answer": 0,
@@ -6070,12 +5800,6 @@
         "text": {
           "en": "No special preparation needed",
           "my": "အထူး ပြင်ဆင်မှု မလိုအပ်"
-        }
-      },
-      {
-        "text": {
-          "en": "Speed up to finish the drive sooner",
-          "my": "မောင်းနှင်ချိန် မြန်မြန် ပြီးရန် အရှိန်မြှင့်ပါ"
         }
       }
     ],
@@ -6112,12 +5836,6 @@
           "en": "Electronic stability control",
           "my": "Electronic stability control"
         }
-      },
-      {
-        "text": {
-          "en": "The ERP toll system",
-          "my": "ERP အခကြေးငွေ စနစ်"
-        }
       }
     ],
     "answer": 0,
@@ -6152,12 +5870,6 @@
         "text": {
           "en": "Talking on the phone while driving",
           "my": "ကားမောင်းနေစဉ် ဖုန်းဆင့်ချပြောဆိုခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Shouting at bad drivers",
-          "my": "ညံ့ဖျင်းသော ယာဉ်မောင်းများ ကို အော်ဟစ်ခြင်း"
         }
       }
     ],
@@ -6194,12 +5906,6 @@
           "en": "Driving faster past hazards",
           "my": "အန္တရာယ် ကျော်ပြီး ပိုမြန်မြန် မောင်းနှင်ခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Memorising all road signs",
-          "my": "လမ်း ဆိုင်းဘုတ် အားလုံး မှတ်ထားခြင်း"
-        }
       }
     ],
     "answer": 0,
@@ -6234,12 +5940,6 @@
         "text": {
           "en": "A red traffic light",
           "my": "အနီ ဓာတ်မီး"
-        }
-      },
-      {
-        "text": {
-          "en": "A vehicle travelling at speed limit",
-          "my": "မြန်နှုန်း ကန့်သတ်ဖြင့် မောင်းနှင်နေသော ယာဉ်"
         }
       }
     ],
@@ -6276,12 +5976,6 @@
           "en": "The apex of a corner",
           "my": "ကောက်ကွေ့ ၏ ထိပ်"
         }
-      },
-      {
-        "text": {
-          "en": "The point at which overtaking is prohibited",
-          "my": "ကျော်တက်ခြင်း တားမြစ်သော နေရာ"
-        }
       }
     ],
     "answer": 0,
@@ -6316,12 +6010,6 @@
         "text": {
           "en": "Sound horn frequently and proceed",
           "my": "ဟွန်း မကြာမကြာ တီးပြီး ဆက်သွားပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Only reduce speed if you see a crossing",
-          "my": "ဖြတ်ကူးရာ မြင်သောအခါ သာ မြန်နှုန်း လျှော့ပါ"
         }
       }
     ],
@@ -6358,12 +6046,6 @@
           "en": "Only in foggy conditions",
           "my": "မြူနှင်းဆိုင်ရာ အခြေအနေ ၌ သာ"
         }
-      },
-      {
-        "text": {
-          "en": "High beams are not needed in Singapore",
-          "my": "စင်ကာပူ ၌ High beam မလိုအပ်ပါ"
-        }
       }
     ],
     "answer": 0,
@@ -6398,12 +6080,6 @@
         "text": {
           "en": "Stop immediately in the road",
           "my": "လမ်းပေါ် ၌ ချက်ချင်း ရပ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Close your eyes until it passes",
-          "my": "ဖြတ်သွားသည်ထိ မျက်လုံးမှိတ်ပါ"
         }
       }
     ],
@@ -6440,12 +6116,6 @@
           "en": "Mirrors don't work at night",
           "my": "မှန်သည် ညဘက် ၌ မသုံးရပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Night reduces blind spots",
-          "my": "ညဘက် ၌ မြင်မရသောနေရာ (blind spot) လျော့ကျသည်"
-        }
       }
     ],
     "answer": 0,
@@ -6480,12 +6150,6 @@
         "text": {
           "en": "Turn on the radio loudly",
           "my": "ရေဒီယို ကျယ်ကျယ် ဖွင့်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Open windows to get fresh air and carry on",
-          "my": "လတ်ဆတ်သော လေ ရရန် ပြတင်းပေါက် ဖွင့်ပြီး ဆက်သွားပါ"
         }
       }
     ],
@@ -6522,12 +6186,6 @@
           "en": "Engine flooding when driving through deep water",
           "my": "နက်သော ရေ ၌ မောင်းနှင်သောအခါ အင်ဂျင် ရေကြီးခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Sliding sideways on a wet road",
-          "my": "စိုစွတ်သော လမ်း ၌ နောက်မှ ချော်ကျသွားခြင်း"
-        }
       }
     ],
     "answer": 0,
@@ -6562,12 +6220,6 @@
         "text": {
           "en": "No effect — ABS handles wet conditions",
           "my": "မည်သည့် သက်ရောက်မှုမျှ မရှိ — ABS သည် စိုစွတ်သော အခြေအနေ ကိုင်တွယ်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Wet roads only affect motorcycles",
-          "my": "စိုစွတ်သော လမ်းများ သည် မော်တော်ဆိုင်ကယ်ကိုသာ သက်ဆိုင်သည်"
         }
       }
     ],
@@ -6604,12 +6256,6 @@
           "en": "Steer hard in the opposite direction",
           "my": "ဆန့်ကျင်ဖက် သို့ ကားလမ်းညွှန် ကြမ်းကြမ်း ပြောင်းပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Accelerate to regain traction",
-          "my": "ဆုပ်ကိုင်မှု ပြန်ရရှိရန် အရှိန်မြှင့်ပါ"
-        }
       }
     ],
     "answer": 0,
@@ -6644,12 +6290,6 @@
         "text": {
           "en": "Use hazard lights to increase speed in rain",
           "my": "မိုးထဲ ၌ မြန်နှုန်း တိုးရန် hazard light သုံးပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Use only on expressways",
-          "my": "အဝေးပြေး လမ်းမများ ၌ သာ သုံးပါ"
         }
       }
     ],
@@ -6686,12 +6326,6 @@
           "en": "Sound horn to warn cyclist",
           "my": "စက်ဘီး ကို သတိပေးရန် ဟွန်းတီးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Cyclists are not allowed on dual carriageways",
-          "my": "Dual carriageway ၌ စက်ဘီး ခွင့်မပြုပါ"
-        }
       }
     ],
     "answer": 0,
@@ -6726,12 +6360,6 @@
         "text": {
           "en": "Sound horn to clear the road",
           "my": "လမ်း ဖြောင့်ရှင်းစေရန် ဟွန်းတီးပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Use bus lane to avoid school buses",
-          "my": "ကျောင်းကား ရှောင်ကွင်းရန် bus lane သုံးပါ"
         }
       }
     ],
@@ -6768,12 +6396,6 @@
           "en": "No obligation to give way to stationary vehicles",
           "my": "ရပ်ဆိုင်းနေသော ယာဉ်ကို လမ်းပေးရန် တာဝန် မရှိပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Use horn to signal emergency crew to move",
-          "my": "အရေးပေါ် ဝန်ထမ်းများကို ရွေ့ရန် သတိပေးသော ဟွန်းတီးပါ"
-        }
       }
     ],
     "answer": 0,
@@ -6808,12 +6430,6 @@
         "text": {
           "en": "Recommended speed",
           "my": "အကြံပြု မြန်နှုန်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Speed limit for heavy vehicles only",
-          "my": "ကြီးမားသော ယာဉ်များ ကိုသာ မြန်နှုန်း ကန့်သတ်"
         }
       }
     ],
@@ -6850,12 +6466,6 @@
           "en": "Pedestrian crossing ahead",
           "my": "ရှေ့ ၌ လမ်းလျောက်သူ ဖြတ်ကူးရာ"
         }
-      },
-      {
-        "text": {
-          "en": "Mandatory give way",
-          "my": "တာဝန်ကြောင့် လမ်းပေး"
-        }
       }
     ],
     "answer": 0,
@@ -6890,12 +6500,6 @@
         "text": {
           "en": "Railroad crossing ahead",
           "my": "ရှေ့ ၌ ရထားလမ်း ဖြတ်ကူးရာ"
-        }
-      },
-      {
-        "text": {
-          "en": "Emergency stop point",
-          "my": "အရေးပေါ် ရပ်ချိန်"
         }
       }
     ],
@@ -6932,12 +6536,6 @@
           "en": "One-way road",
           "my": "တစ်ဦးတည်း လမ်း"
         }
-      },
-      {
-        "text": {
-          "en": "Pedestrian only zone",
-          "my": "လမ်းလျောက်သူ ကိုသာ ဇုန်"
-        }
       }
     ],
     "answer": 0,
@@ -6972,12 +6570,6 @@
         "text": {
           "en": "Only bus lanes use yellow boxes",
           "my": "Bus lane ကိုသာ ဝါ box သုံးသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "No u-turns allowed in yellow box",
-          "my": "ဝါ box ၌ u-turn မပြုရ"
         }
       }
     ],
@@ -7014,12 +6606,6 @@
           "en": "Only motorcycles cannot park near junctions",
           "my": "မော်တော်ဆိုင်ကယ် ကိုသာ Junction နား ၌ မရပ်ရပ်နားရ"
         }
-      },
-      {
-        "text": {
-          "en": "No restriction on parking near junctions",
-          "my": "Junction နား ၌ ရပ်နားခြင်းကို ကန့်သတ်မှု မရှိ"
-        }
       }
     ],
     "answer": 0,
@@ -7054,12 +6640,6 @@
         "text": {
           "en": "Parking for residents only",
           "my": "နေထိုင်သူ ကိုသာ ရပ်နားခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Free parking always available",
-          "my": "အချိန်မဆိုင် အခမဲ့ ရပ်နားခြင်း ရနိုင်သည်"
         }
       }
     ],
@@ -7096,12 +6676,6 @@
           "en": "No speed limit applies to towing",
           "my": "ဆွဲ ယာဉ် ဆွဲသောအခါ မြန်နှုန်း ကန့်သတ် မကျင့်သုံးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "80 km/h on all roads",
-          "my": "လမ်းအားလုံး ၌ ကီလိုမီတာ/နာရီ ၈၀"
-        }
       }
     ],
     "answer": 0,
@@ -7136,12 +6710,6 @@
         "text": {
           "en": "No checks required for trailers",
           "my": "ဆွဲ ယာဉ် ၌ စစ်ဆေးချက်များ မလိုအပ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Check coupling only",
-          "my": "ချိတ်ဆက်မှု ကိုသာ စစ်ဆေးပါ"
         }
       }
     ],
@@ -7178,12 +6746,6 @@
           "en": "Steer aggressively to counteract the sway",
           "my": "လမ်းကွဲ ကို ဆန့်ကျင်ရန် ကားလမ်းညွှန် ကြမ်းကြမ်း ပြောင်းပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Accelerate to pull the trailer straight",
-          "my": "ဆွဲ ယာဉ် ဖြောင့်ဖြတ်ရန် အရှိန်မြှင့်ပါ"
-        }
       }
     ],
     "answer": 0,
@@ -7218,12 +6780,6 @@
         "text": {
           "en": "Only applies to trucks over 3.5 tonnes",
           "mary": "၃.၅ တန် ထက် ကြီးသော ကုန်တင် ကားများ ကိုသာ ကျင့်သုံးသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Load securing is the passenger's responsibility",
-          "my": "ဝန် ချုပ်ချည်ခြင်းသည် ခရီးသည် ၏ တာဝန် ဖြစ်သည်"
         }
       }
     ],
@@ -7260,12 +6816,6 @@
           "en": "A yellow light",
           "my": "ဝါ မီး"
         }
-      },
-      {
-        "text": {
-          "en": "Use hazard lights only",
-          "my": "Hazard light ကိုသာ သုံးပါ"
-        }
       }
     ],
     "answer": 0,
@@ -7300,12 +6850,6 @@
         "text": {
           "en": "Left-side traffic always goes first",
           "my": "ဘယ်ဘက် ယာဉ်ကြောင်း အမြဲ အရင် သွားသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "There is no right of way rule — proceed on horn",
-          "my": "ကျော်ဖြတ်ခွင့် စည်းမျဉ်း မရှိ — ဟွန်းဖြင့် ဆက်သွားပါ"
         }
       }
     ],
@@ -7342,12 +6886,6 @@
           "en": "One vehicle must stop and wait",
           "my": "ကား တစ်စီး ရပ်ပြီး စောင့်ရမည်"
         }
-      },
-      {
-        "text": {
-          "en": "The vehicle on the major road has priority",
-          "my": "အဓိက လမ်း ၌ ရှိသော ယာဉ်မှာ ဦးစားပေး ရှိသည်"
-        }
       }
     ],
     "answer": 0,
@@ -7382,12 +6920,6 @@
         "text": {
           "en": "Low tyre pressure on that side",
           "my": "ထို ဘက် ၌ ဘီး ဖိအားနည်းသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Wheel needs balancing only",
-          "my": "ဘီး ညှိ ကိုသာ လိုအပ်သည်"
         }
       }
     ],
@@ -7424,12 +6956,6 @@
           "en": "Only used to keep the dipstick moist",
           "my": "Dipstick ကို သုတ်ရန် ကိုသာ သုံးသည်"
         }
-      },
-      {
-        "text": {
-          "en": "No function — can run without oil",
-          "my": "မည်သည့် လုပ်ဆောင်ချက်မျှ မရှိ — ဆီ မပါဘဲ မောင်းနှင်နိုင်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -7464,12 +6990,6 @@
         "text": {
           "en": "Fan belt needs replacing",
           "my": "Fan belt အစားထိုး လိုအပ်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Rain water on discs",
-          "my": "ဒစ်ပေါ် မိုးရေ"
         }
       }
     ],
@@ -7506,12 +7026,6 @@
           "en": "No information needed if damage is minor",
           "my": "ပျက်စီးမှု မရောက်ပါက သတင်းအချက်အလက် မလိုအပ်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Just take a photo and drive away",
-          "my": "ဓာတ်ပုံ ရိုက်ပြီး ဆက်မောင်းနှင်သွားပါ"
-        }
       }
     ],
     "answer": 0,
@@ -7546,12 +7060,6 @@
         "text": {
           "en": "Take photos before calling for help",
           "my": "ကူညီမှု ခေါ်မည် မတိုင်မီ ဓာတ်ပုံ ရိုက်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Drive the injured to hospital yourself",
-          "my": "ဒဏ်ရာ ရသူ ကို ကိုယ်တိုင် ဆေးရုံ သို့ ယာဉ်ဖြင့် သွားပါ"
         }
       }
     ],
@@ -7588,12 +7096,6 @@
           "en": "Keeping an injured person standing upright",
           "my": "ဒဏ်ရာ ရသော သူ ကို 똑바로 ရပ်ထားပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Carrying an injured person to safety",
-          "my": "ဒဏ်ရာ ရသော သူ ကို ဘေးကင်းသော နေရာ သို့ ဆောင်ပါ"
-        }
       }
     ],
     "answer": 0,
@@ -7628,12 +7130,6 @@
         "text": {
           "en": "Sound horn to warn children",
           "my": "ကလေးများ ကို သတိပေးရန် ဟွန်းတီးပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Only stop if children are visible",
-          "my": "ကလေးများ မြင်နိုင်မှသာ ရပ်ပါ"
         }
       }
     ],
@@ -7670,12 +7166,6 @@
           "en": "Stop and ask if they need help",
           "my": "ကူညီမှု လိုအပ်သလား ရပ်မေးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Flash lights to warn oncoming traffic",
-          "my": "ရှေ့မှ လာသော ယာဉ်ကြောင်း ကို သတိပေးရန် မီးမြင့်ပြပါ"
-        }
       }
     ],
     "answer": 0,
@@ -7710,12 +7200,6 @@
         "text": {
           "en": "100mg per 100ml blood",
           "my": "သွေး ၁၀၀ မီလီလီတာ ၌ ၁၀၀ မီလီဂရမ်"
-        }
-      },
-      {
-        "text": {
-          "en": "50mg per 100ml blood",
-          "my": "သွေး ၁၀၀ မီလီလီတာ ၌ ၅၀ မီလီဂရမ်"
         }
       }
     ],
@@ -7752,12 +7236,6 @@
           "en": "Only affects drivers over 50",
           "my": "၅၀ ကျော် ယာဉ်မောင်းများ ကိုသာ သက်ဆိုင်သည်"
         }
-      },
-      {
-        "text": {
-          "en": "Has no effect below the legal limit",
-          "my": "တရားဝင် ကန့်သတ် ၌ မည်သည့် သက်ရောက်မှုမျှ မရှိ"
-        }
       }
     ],
     "answer": 0,
@@ -7792,12 +7270,6 @@
         "text": {
           "en": "No penalty for hands-free calls",
           "my": "Hands-free ဖုန်းဆင့်ချပြောဆိုမှုအတွက် ပြစ်ဒဏ် မရှိ"
-        }
-      },
-      {
-        "text": {
-          "en": "License suspension only for third offence",
-          "my": "တတိယ ကျူးလွန်မှုအတွက် သာ လိုင်စင် ဆိုင်ဆိုင်ဘဲနားပေးခြင်း"
         }
       }
     ],
@@ -7834,12 +7306,6 @@
           "en": "Speed away to escape",
           "my": "လွတ်မြောက်ရန် အရှိန်မြှင့်ပြေး"
         }
-      },
-      {
-        "text": {
-          "en": "Stop and confront the driver",
-          "my": "ရပ်ပြီး ယာဉ်မောင်း ကို မျက်နှာချင်းဆိုင် ဆွေးနွေးပါ"
-        }
       }
     ],
     "answer": 0,
@@ -7874,12 +7340,6 @@
         "text": {
           "en": "Following a vehicle to learn the route",
           "my": "လမ်းကြောင်း သိရှိရန် ယာဉ် လိုက်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Parking too close to another vehicle",
-          "my": "အခြား ယာဉ်နှင့် နီးနီး ကပ်ရပ်နားခြင်း"
         }
       }
     ],
@@ -7916,12 +7376,6 @@
           "en": "Being distracted only happens to new drivers",
           "my": "အာရုံ ပျံ့လွင့်မှုသည် ကားသစ် မောင်းသူများ ကိုသာ ဖြစ်သည်"
         }
-      },
-      {
-        "text": {
-          "en": "Distractions are only visual",
-          "my": "အာရုံ ပျံ့လွင့်မှုသည် မြင်ကွင်း ဆိုင်ရာ ကိုသာ ဖြစ်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -7956,12 +7410,6 @@
         "text": {
           "en": "Cross the central reservation to return",
           "my": "ပြန်ရန် ကြားစောင်ကန် ဖြတ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Stop and wait for gap to turn around",
-          "my": "ပြောင်းလှည့်ရန် ကွာဝေးမှု ရသည်ထိ ရပ်ပြီး စောင့်ပါ"
         }
       }
     ],
@@ -7998,12 +7446,6 @@
           "en": "Only applies to trucks",
           "my": "ကုန်တင် ကားများ ကိုသာ ကျင့်သုံးသည်"
         }
-      },
-      {
-        "text": {
-          "en": "No penalty for exceeding tunnel speed limits",
-          "my": "Tunnel မြန်နှုန်း ကန့်သတ် ကျော်ပါ ပြစ်ဒဏ် မရှိ"
-        }
       }
     ],
     "answer": 0,
@@ -8038,12 +7480,6 @@
         "text": {
           "en": "Used when towing a trailer",
           "my": "ဆွဲ ယာဉ် ဆွဲသောအခါ သုံးသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "For passing vehicles on the left",
-          "my": "ဘယ်ဘက် ၌ ရှိသော ယာဉ်ကို ကျော်ရန်"
         }
       }
     ],
@@ -8080,12 +7516,6 @@
           "en": "Double white lines indicate a bus lane",
           "my": "ဖြူ မျဉ်း နှစ်ကြောင်းသည် bus lane ညွှန်ပြသည်"
         }
-      },
-      {
-        "text": {
-          "en": "You may cross if road ahead is clear",
-          "my": "ရှေ့ လမ်း ဖောင့်ရှင်းပါ ဖြတ်နိုင်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -8120,12 +7550,6 @@
         "text": {
           "en": "Bicycle lane marker",
           "my": "စက်ဘီး lane မျဉ်းသား"
-        }
-      },
-      {
-        "text": {
-          "en": "Bus lane boundary",
-          "my": "Bus lane နယ်နိမိတ်"
         }
       }
     ],
@@ -8162,12 +7586,6 @@
           "en": "Motorcycles may filter at any speed",
           "my": "မော်တော်ဆိုင်ကယ် မည်သည့် မြန်နှုန်း ၌ မဆို filtering ပြုနိုင်သည်"
         }
-      },
-      {
-        "text": {
-          "en": "Filtering is only allowed on expressways",
-          "my": "Filtering ကို အဝေးပြေး လမ်းမ ၌ သာ ခွင့်ပြုသည်"
-        }
       }
     ],
     "answer": 0,
@@ -8202,12 +7620,6 @@
         "text": {
           "en": "Helmet only required for pillion passengers",
           "my": "Pillion ခရီးသည် ကိုသာ ဦးထုပ် လိုအပ်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "High-visibility jacket mandatory",
-          "my": "High-visibility ဂျပ်ကတ် တာဝန်ကြောင့် ဖြစ်သည်"
         }
       }
     ],
@@ -8244,12 +7656,6 @@
           "en": "Only give space on expressways",
           "my": "အဝေးပြေး လမ်းမ ၌ သာ နေရာ ပေးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Heavy vehicles have priority at all times",
-          "my": "ကြီးလေးသော ယာဉ်များ အချိန်အခါ မဆို ဦးစားပေး ရှိသည်"
-        }
       }
     ],
     "answer": 0,
@@ -8284,12 +7690,6 @@
         "text": {
           "en": "Pass on the left to get ahead of the truck",
           "my": "ကုန်တင်ကားကို ကျော်ရန် ဘယ်ဘက် ၌ ဖြတ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "No special awareness needed",
-          "my": "အထူး သတိ မလိုအပ်ပါ"
         }
       }
     ],
@@ -8326,12 +7726,6 @@
           "en": "A system to prevent brake fade",
           "my": "Brake fade တားဆီးရန် စနစ်"
         }
-      },
-      {
-        "text": {
-          "en": "Automatic emergency braking",
-          "my": "အလိုအလျောက် အရေးပေါ် ဘရိတ်"
-        }
       }
     ],
     "answer": 0,
@@ -8366,12 +7760,6 @@
         "text": {
           "en": "Low fuel warning",
           "my": "လောင်စာ နည်း သတိပေး"
-        }
-      },
-      {
-        "text": {
-          "en": "Engine fault",
-          "my": "အင်ဂျင် ချွတ်ယွင်းမှု"
         }
       }
     ],
@@ -8408,12 +7796,6 @@
           "en": "Regulates engine temperature",
           "my": "အင်ဂျင် အပူချိန် ထိန်းညှိသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Connects the handbrake system",
-          "my": "လက် ဘရိတ် စနစ် ချိတ်ဆက်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -8448,12 +7830,6 @@
         "text": {
           "en": "Brake pads wearing out completely",
           "my": "ဘရိတ် pad လုံးဝ ပွပ်ကုန်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Handbrake failing to hold on a slope",
-          "my": "လမ်းစောက် ၌ လက် ဘရိတ် ကိုင်ရန် ပျက်ကွက်မှု"
         }
       }
     ],
@@ -8490,12 +7866,6 @@
           "en": "Use horn to greet other drivers",
           "my": "အခြား ယာဉ်မောင်းများ ကို နှုတ်ဆက်ရန် ဟွန်းတီးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Use freely — no restrictions",
-          "my": "လွတ်လပ်စွာ သုံးပါ — ကန့်သတ်မှု မရှိ"
-        }
       }
     ],
     "answer": 0,
@@ -8530,12 +7900,6 @@
         "text": {
           "en": "Keep left always when on a roundabout",
           "my": "Roundabout ၌ ဘယ်ဘက် ကျန်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Indicate right on entry to every roundabout",
-          "my": "Roundabout ဝင်ချိန် မည်သည့် roundabout ၌ မဆို ညာ ဆဲဗ်နယ်ပြပါ"
         }
       }
     ],
@@ -8572,12 +7936,6 @@
           "en": "Stop in the junction and wait for a gap",
           "my": "Junction ၌ ရပ်ပြီး ကွာဝေးမှု ရသည်ထိ စောင့်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Signal right only when in the junction",
-          "my": "Junction ၌ မှသာ ညာ ဆဲဗ်နယ်ပြပါ"
-        }
       }
     ],
     "answer": 0,
@@ -8612,12 +7970,6 @@
         "text": {
           "en": "Only for cyclists",
           "my": "စက်ဘီး ကိုသာ ဖြစ်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Marked with yellow zigzag lines only",
-          "my": "ဝါ zigzag မျဉ်းများ ဖြင့် ကိုသာ မျဉ်းသားသည်"
         }
       }
     ],
@@ -8654,12 +8006,6 @@
           "en": "Prevents aquaplaning by draining water from road",
           "my": "လမ်းမှ ရေ ဆင်းကာ Aquaplaning တားဆီးသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Controls engine speed on hills",
-          "my": "ဆောင်ကုန်ပေါ် ၌ အင်ဂျင် မြန်နှုန်း ထိန်းချုပ်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -8694,12 +8040,6 @@
         "text": {
           "en": "Only works on motorways",
           "my": "Motorway ၌ ကိုသာ လည်ပတ်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Automatically steers the vehicle",
-          "my": "ယာဉ် ကို အလိုအလျောက် လမ်းညွှန်သည်"
         }
       }
     ],
@@ -8736,12 +8076,6 @@
           "en": "Prevents lane changes",
           "my": "Lane ပြောင်းလဲမှု တားဆီးသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Controls lane keeping on expressways only",
-          "my": "အဝေးပြေး လမ်းမ ၌ ကိုသာ lane ထိန်းသိမ်းမှု ထိန်းချုပ်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -8776,12 +8110,6 @@
         "text": {
           "en": "Bus stop marking",
           "my": "ကားမှတ်တိုင် မျဉ်းသား"
-        }
-      },
-      {
-        "text": {
-          "en": "Cycle lane boundary",
-          "my": "စက်ဘီး lane နယ်နိမိတ်"
         }
       }
     ],
@@ -8818,12 +8146,6 @@
           "en": "Sound horn to hurry them along",
           "my": "၎င်းတို့ မြန်မြန် သွားစေရန် ဟွန်းတီးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Only stop if on the same half of road",
-          "my": "လမ်း တူသောဘက် ၌ ဖြစ်မှသာ ရပ်ပါ"
-        }
       }
     ],
     "answer": 0,
@@ -8858,12 +8180,6 @@
         "text": {
           "en": "Sound horn to speed them up",
           "my": "မြန်မြန် သွားစေရန် ဟွန်းတီးပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Proceed as normal — it is their responsibility to clear the road",
-          "my": "ပုံမှန် ဆက်သွားပါ — လမ်း ဖောင့်ရှင်းစေရန် ၎င်းတို့ ၏ တာဝန် ဖြစ်သည်"
         }
       }
     ],
@@ -8900,12 +8216,6 @@
           "en": "Must retake the driving test",
           "my": "ကားမောင်း စာမေးပွဲ ထပ်ဖြေရမည်"
         }
-      },
-      {
-        "text": {
-          "en": "A warning letter only",
-          "my": "သတိပေးစာ ကိုသာ"
-        }
       }
     ],
     "answer": 0,
@@ -8940,12 +8250,6 @@
         "text": {
           "en": "6 demerit points",
           "my": "demerit point ၆ မှတ်"
-        }
-      },
-      {
-        "text": {
-          "en": "No demerit points — fine only",
-          "my": "demerit point မရှိ — ဒဏ်ငွေ ကိုသာ"
         }
       }
     ],
@@ -8982,12 +8286,6 @@
           "en": "No penalty for rear passengers",
           "my": "နောက်ကုလားထိုင် ခရီးသည် ၌ ပြစ်ဒဏ် မရှိ"
         }
-      },
-      {
-        "text": {
-          "en": "Demerit points only — no fine",
-          "my": "demerit point ကိုသာ — ဒဏ်ငွေ မရှိ"
-        }
       }
     ],
     "answer": 0,
@@ -9022,12 +8320,6 @@
         "text": {
           "en": "Right lane — it is the fastest",
           "my": "ညာ lane — ၎င်းသည် အမြန်ဆုံး"
-        }
-      },
-      {
-        "text": {
-          "en": "Any lane — no rules for lane choice",
-          "my": "မည်သည့် lane — lane ရွေးချယ်ရေး ဆိုင်ရာ စည်းမျဉ်း မရှိ"
         }
       }
     ],
@@ -9064,12 +8356,6 @@
           "en": "12 demerit points",
           "my": "demerit point ၁၂ မှတ်"
         }
-      },
-      {
-        "text": {
-          "en": "Only applies to heavy vehicles",
-          "my": "ကြီးလေးသော ယာဉ်များ ကိုသာ ကျင့်သုံးသည်"
-        }
       }
     ],
     "answer": 0,
@@ -9104,12 +8390,6 @@
         "text": {
           "en": "No check needed at speed",
           "my": "မြန်နှုန်း ၌ စစ်ဆေးမှု မလိုအပ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Sound horn and change lanes",
-          "my": "ဟွန်းတီးပြီး lane ပြောင်းပါ"
         }
       }
     ],
@@ -9146,12 +8426,6 @@
           "en": "Give way to oncoming traffic only",
           "my": "ရှေ့မှ လာသော ယာဉ်ကြောင်း ကိုသာ လမ်းပေးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Give way to pedestrians only",
-          "my": "လမ်းလျောက်သူများ ကိုသာ လမ်းပေးပါ"
-        }
       }
     ],
     "answer": 0,
@@ -9186,12 +8460,6 @@
         "text": {
           "en": "Industrial zone ahead",
           "my": "ရှေ့ ၌ စက်မှု ဇုန်"
-        }
-      },
-      {
-        "text": {
-          "en": "Road works ahead",
-          "my": "ရှေ့ ၌ လမ်း လုပ်ငန်းများ"
         }
       }
     ],
@@ -9228,12 +8496,6 @@
           "en": "Stop only when other vehicles are present",
           "my": "အခြား ယာဉ်များ ရှိသောအခါ ကိုသာ ရပ်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "No action required — advisory only",
-          "my": "ဆောင်ရွက်မှု မလိုအပ်ပါ — အကြံပြု ကိုသာ"
-        }
       }
     ],
     "answer": 0,
@@ -9268,12 +8530,6 @@
         "text": {
           "en": "A lane reserved for electric cars",
           "my": "လျှပ်စစ် ကားများ ကိုသာ သင်တင်ထားသော lane"
-        }
-      },
-      {
-        "text": {
-          "en": "A fixed toll payable in cash",
-          "my": "ငွေသားဖြင့် ပေးဆောင်ရသော သတ်မှတ် ဖောင်ဒေ"
         }
       }
     ],
@@ -9310,12 +8566,6 @@
           "en": "Weekends only",
           "my": "စနေ-တနင်္ဂနွေ ကိုသာ"
         }
-      },
-      {
-        "text": {
-          "en": "No specific hours — always for buses only",
-          "my": "သတ်မှတ် နာရီ မရှိ — bus ကိုသာ အမြဲ"
-        }
       }
     ],
     "answer": 0,
@@ -9350,12 +8600,6 @@
         "text": {
           "en": "Insurance required before vehicle purchase",
           "my": "ကား ဝယ်ယူမည် မတိုင်မီ လိုအပ်သော အာမခံ"
-        }
-      },
-      {
-        "text": {
-          "en": "A driving license category for heavy vehicles",
-          "my": "ကြီးလေးသော ယာဉ်များ ၌ ကားမောင်းနှင် လိုင်စင် အမျိုးအစား"
         }
       }
     ],
@@ -9392,12 +8636,6 @@
           "en": "The area covered by airbags",
           "my": "Airbag ဖြင့် ကာကွယ်သော ဧရိယာ"
         }
-      },
-      {
-        "text": {
-          "en": "Crumple zones on the car body",
-          "my": "ကားဖြောင်ပေါ် ၌ crumple zone"
-        }
       }
     ],
     "answer": 0,
@@ -9432,12 +8670,6 @@
         "text": {
           "en": "A technique for parallel parking",
           "my": "Parallel ရပ်နားခြင်း ၌ နည်းပညာ"
-        }
-      },
-      {
-        "text": {
-          "en": "Staring at GPS screen while driving",
-          "my": "ကားမောင်းနေစဉ် GPS ဖန်သားပြင် ကို မျက်ဝေ မပြောင်းကြည့်နေခြင်း"
         }
       }
     ],
@@ -9474,12 +8706,6 @@
           "en": "Distance needed to think about a route",
           "my": "လမ်းကြောင်း တွေးတောရသော အကွာအဝေး"
         }
-      },
-      {
-        "text": {
-          "en": "The length of a road sign",
-          "my": "လမ်း ဆိုင်းဘုတ် ၏ အရှည်"
-        }
       }
     ],
     "answer": 0,
@@ -9514,12 +8740,6 @@
         "text": {
           "en": "No change — ABS handles it",
           "my": "ပြောင်းလဲမှု မရှိ — ABS ကိုင်တွယ်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Stopping distance halves",
-          "my": "ရပ်ရမည့် အကွာအဝေး တစ်ဝက် ဖြစ်သည်"
         }
       }
     ],
@@ -9556,12 +8776,6 @@
           "en": "Filters the engine oil",
           "my": "Engine oil စစ်သည်"
         }
-      },
-      {
-        "text": {
-          "en": "Reduces tyre wear",
-          "my": "ဘီး ပွပ်မှဆင်မှ လျော့ချသည်"
-        }
       }
     ],
     "answer": 0,
@@ -9596,12 +8810,6 @@
         "text": {
           "en": "Open radiator cap immediately",
           "my": "Radiator cap ကို ချက်ချင်း ဖွင့်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Continue driving — it will cool down",
-          "my": "ဆက်မောင်းနှင်ပါ — အေးမြသွားမည်"
         }
       }
     ],
@@ -9638,12 +8846,6 @@
           "en": "First aid supply stations",
           "my": "ပထမ ကူညီမှု ထောက်ပံ့ရေး ဌာနများ"
         }
-      },
-      {
-        "text": {
-          "en": "Traffic information displays",
-          "my": "ယာဉ်ကြောင်း သတင်းအချက်အလက် ပြောင်းကြည့်မီတာ"
-        }
       }
     ],
     "answer": 0,
@@ -9678,12 +8880,6 @@
         "text": {
           "en": "Maximum speed only",
           "my": "အများဆုံး မြန်နှုန်း ကိုသာ"
-        }
-      },
-      {
-        "text": {
-          "en": "No minimum speed on expressways",
-          "my": "အဝေးပြေး လမ်းမ ၌ အနည်းဆုံး မြန်နှုန်း မရှိ"
         }
       }
     ],
@@ -9720,12 +8916,6 @@
           "en": "Automatic speed control",
           "my": "အလိုအလျောက် မြန်နှုန်း ထိန်းချုပ်မှု"
         }
-      },
-      {
-        "text": {
-          "en": "A one-way road system",
-          "my": "တစ်ဦးတည်း လမ်း စနစ်"
-        }
       }
     ],
     "answer": 0,
@@ -9760,12 +8950,6 @@
         "text": {
           "en": "Never permitted under any circumstances",
           "my": "မည်သည့် အခြေအနေ ၌ မဆို ခွင့်မပြုပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Permitted only on expressways",
-          "my": "အဝေးပြေး လမ်းမ ၌ ကိုသာ ခွင့်ပြု"
         }
       }
     ],
@@ -9802,12 +8986,6 @@
           "en": "Sound horn and overtake",
           "my": "ဟွန်းတီးပြီး ကျော်တက်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Flash lights and pass",
-          "my": "မီးမြင့်ပြပြီး ဖြတ်ပါ"
-        }
       }
     ],
     "answer": 0,
@@ -9842,12 +9020,6 @@
         "text": {
           "en": "Only at night",
           "my": "ညဘက် ကိုသာ"
-        }
-      },
-      {
-        "text": {
-          "en": "When another car is coming toward you at speed",
-          "my": "အခြား ကား မြန်မြန် ရှေ့ကိုလာသောအခါ"
         }
       }
     ],
@@ -9884,12 +9056,6 @@
           "en": "Sound your horn back",
           "my": "ပြန်ကာ ဟွန်းတီးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Maintain your position — emergency vehicles have their own routes",
-          "my": "သင့် နေရာ ကျန်ပါ — အရေးပေါ် ယာဉ်များ မိမိ လမ်းကြောင်း ရှိသည်"
-        }
       }
     ],
     "answer": 0,
@@ -9924,12 +9090,6 @@
         "text": {
           "en": "Oil needs topping up soon",
           "my": "ဆီ မကြာမီ ဖြည့်ရမည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Oil change is due next service",
-          "my": "နောက် service ၌ ဆီ လဲ ဆောင်ရွက်ရမည်"
         }
       }
     ],
@@ -9966,12 +9126,6 @@
           "en": "Only when the oil light comes on",
           "my": "ဆီ မီး လာသောအခါ ကိုသာ"
         }
-      },
-      {
-        "text": {
-          "en": "Every 50,000 km",
-          "my": "ကီလိုမီတာ ၅၀,၀၀၀ တိုင်း"
-        }
       }
     ],
     "answer": 0,
@@ -10006,12 +9160,6 @@
         "text": {
           "en": "Adjusts tyre pressure",
           "my": "ဘီး ဖိအား ညှိသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Aligns all four wheels",
-          "my": "ဘီး လေးဘီး အားလုံး ညှိသည်"
         }
       }
     ],
@@ -10048,12 +9196,6 @@
           "en": "A type of suspension upgrade",
           "my": "Suspension အဆင့်မြှင့်မှု ၏ အမျိုးအစား"
         }
-      },
-      {
-        "text": {
-          "en": "Only done during annual inspection",
-          "my": "နှစ်ပတ်လည် စစ်ဆေးချိန် ၌ ကိုသာ ဆောင်ရွက်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -10088,12 +9230,6 @@
         "text": {
           "en": "Route planning has no effect on fuel",
           "my": "လမ်းကြောင်း စီမံခြင်းသည် လောင်စာ ကို မအကျိုးသက်ရောက်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Always take the fastest route regardless",
-          "my": "မည်သည့်အချိန် ၌ မဆို အမြန်ဆုံး လမ်းကြောင်း ကိုသာ ရွေးပါ"
         }
       }
     ],
@@ -10130,12 +9266,6 @@
           "en": "Checking the GPS route",
           "my": "GPS လမ်းကြောင်း စစ်ဆေးခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Looking for parking spaces",
-          "my": "ရပ်နားသောနေရာ ရှာဖွေခြင်း"
-        }
       }
     ],
     "answer": 0,
@@ -10170,12 +9300,6 @@
         "text": {
           "en": "U-turns permitted anywhere if safe",
           "my": "ဘေးကင်းပါ မည်သည့်နေရာ ၌ မဆို U-turn ခွင့်ပြု"
-        }
-      },
-      {
-        "text": {
-          "en": "U-turns are illegal in Singapore",
-          "my": "စင်ကာပူ ၌ U-turn တရားမဝင်ပါ"
         }
       }
     ],
@@ -10212,12 +9336,6 @@
           "en": "Sound horn and cross",
           "my": "ဟွန်းတီးပြီး ဖြတ်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Cross if no train is visible",
-          "my": "ရထား မမြင်ပါ ဖြတ်ပါ"
-        }
       }
     ],
     "answer": 0,
@@ -10252,12 +9370,6 @@
         "text": {
           "en": "Only for cyclists and motorcycles",
           "my": "စက်ဘီးနှင့် မော်တော်ဆိုင်ကယ် ကိုသာ"
-        }
-      },
-      {
-        "text": {
-          "en": "For all vehicles including cars",
-          "my": "ကားများ အပါ ယာဉ်အားလုံး"
         }
       }
     ],
@@ -10294,12 +9406,6 @@
           "en": "E-scooters are allowed on roads under 50 km/h",
           "my": "ကီလိုမီတာ/နာရီ ၅၀ ထက် နည်းသော လမ်းများ ၌ e-scooter ခွင့်ပြု"
         }
-      },
-      {
-        "text": {
-          "en": "E-scooters need a special road permit",
-          "my": "E-scooter ကို အထူး လမ်း ခွင့်ပြုချက် လိုအပ်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -10334,12 +9440,6 @@
         "text": {
           "en": "Accelerate through the junction",
           "my": "Junction ကို ဖြတ်ကာ အရှိန်မြှင့်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "The same as a green light",
-          "my": "အစိမ်း မီး နှင့် တူသည်"
         }
       }
     ],
@@ -10376,12 +9476,6 @@
           "en": "A phase only for bus priority",
           "my": "Bus ဦးစားပေး ကိုသာ ကာလ"
         }
-      },
-      {
-        "text": {
-          "en": "When yellow box junction is activated",
-          "my": "ဝါ box junction ၌ သတ်မှတ်သောအချိန်"
-        }
       }
     ],
     "answer": 0,
@@ -10416,12 +9510,6 @@
         "text": {
           "en": "Maximum 80 km/h only",
           "my": "အများဆုံး ကီလိုမီတာ/နာရီ ၈၀ ကိုသာ"
-        }
-      },
-      {
-        "text": {
-          "en": "Maximum 100 km/h, minimum 70 km/h",
-          "my": "အများဆုံး ကီလိုမီတာ/နာရီ ၁၀၀၊ အနည်းဆုံး ကီလိုမီတာ/နာရီ ၇၀"
         }
       }
     ],
@@ -10458,12 +9546,6 @@
           "en": "A sign showing the road's design speed",
           "my": "လမ်း ၏ ဒီဇိုင်း မြန်နှုန်း ပြသသော ဆိုင်းဘုတ်"
         }
-      },
-      {
-        "text": {
-          "en": "Only applicable to heavy vehicles",
-          "my": "ကြီးလေးသော ယာဉ်များ ကိုသာ ကျင့်သုံးသည်"
-        }
       }
     ],
     "answer": 0,
@@ -10498,12 +9580,6 @@
         "text": {
           "en": "Rear wheels skidding sideways",
           "my": "နောက် ဘီး ဘေးသို့ ချောင်ကျ"
-        }
-      },
-      {
-        "text": {
-          "en": "Engine cutting out in a corner",
-          "my": "ကောက်ကွေ့ ၌ အင်ဂျင် ဖြတ်ကျသွားခြင်း"
         }
       }
     ],
@@ -10540,12 +9616,6 @@
           "en": "Increase speed to correct the oversteer",
           "my": "Oversteer ပြင်ဆင်ရန် မြန်နှုန်းမြှင့်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Brake hard to regain control",
-          "my": "ထိန်းချုပ်မှု ပြန်ရရှိရန် ဘရိတ် ကြမ်းကြမ်း ဆွဲပါ"
-        }
       }
     ],
     "answer": 0,
@@ -10580,12 +9650,6 @@
         "text": {
           "en": "Controls air conditioning",
           "my": "လေ အေးစက် ထိန်းချုပ်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Prevents rain entering the bonnet",
-          "my": "မိုးရေ bonnet ထဲ ဝင်ခြင်း တားဆီးသည်"
         }
       }
     ],
@@ -10622,12 +9686,6 @@
           "en": "Only required for diesel engines",
           "my": "ဒီဇယ် အင်ဂျင် ကိုသာ လိုအပ်သည်"
         }
-      },
-      {
-        "text": {
-          "en": "No maintenance needed — lifetime component",
-          "my": "ထိန်းသိမ်းမှု မလိုအပ်ပါ — သက်တမ်း တစ်ခုလုံး အတွက် အစိတ်အပိုင်း"
-        }
       }
     ],
     "answer": 0,
@@ -10662,12 +9720,6 @@
         "text": {
           "en": "Accelerate to maintain control",
           "my": "ထိန်းချုပ်မှု ထိန်းသိမ်းရန် အရှိန်မြှင့်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Turn sharply to the shoulder",
-          "my": "ပုခုံး ဆီ ကြမ်းကြမ်း ကွေ့ပါ"
         }
       }
     ],
@@ -10704,12 +9756,6 @@
           "en": "Cools the gearbox",
           "my": "Gearbox ကို အေးမြစေသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Only needed in older cars",
-          "my": "ဟောင်းသော ကားများ ၌ ကိုသာ လိုအပ်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -10744,12 +9790,6 @@
         "text": {
           "en": "Every 5 years",
           "my": "နှစ် ၅ ကြိမ် တစ်ကြိမ်"
-        }
-      },
-      {
-        "text": {
-          "en": "No maintenance needed — wipers are lifetime parts",
-          "my": "ထိန်းသိမ်းမှု မလိုပါ — ကိရိယာများ သည် သက်တမ်း တစ်ခုလုံး ၌ ကျန်ပိုင်းများ ဖြစ်သည်"
         }
       }
     ],
@@ -10786,12 +9826,6 @@
           "en": "70 km/h",
           "my": "ကီလိုမီတာ/နာရီ ၇၀"
         }
-      },
-      {
-        "text": {
-          "en": "No specific school zone speed limit",
-          "my": "သတ်မှတ် ကျောင်း ဇုန် မြန်နှုန်း ကန့်သတ် မရှိ"
-        }
       }
     ],
     "answer": 0,
@@ -10826,12 +9860,6 @@
         "text": {
           "en": "No special limit in hospital zones",
           "my": "ဆေးရုံ ဇုန် ၌ အထူး ကန့်သတ် မရှိ"
-        }
-      },
-      {
-        "text": {
-          "en": "30 km/h at all times",
-          "my": "မည်သည့်အချိန် ၌ မဆို ကီလိုမီတာ/နာရီ ၃၀"
         }
       }
     ],
@@ -10868,12 +9896,6 @@
           "en": "Parking restriction sign",
           "my": "ရပ်နားခြင်း ကန့်သတ် ဆိုင်းဘုတ်"
         }
-      },
-      {
-        "text": {
-          "en": "End of restricted zone",
-          "my": "ကန့်သတ် ဇုန် ဆုံးချက်"
-        }
       }
     ],
     "answer": 0,
@@ -10908,12 +9930,6 @@
         "text": {
           "en": "An information sign",
           "my": "သတင်းအချက်အလက် ဆိုင်းဘုတ်"
-        }
-      },
-      {
-        "text": {
-          "en": "A 'no entry' warning",
-          "my": "'No entry' သတိပေးချက်"
         }
       }
     ],
@@ -10950,12 +9966,6 @@
           "en": "Information only — no legal obligation",
           "my": "သတင်းအချက်အလက် ကိုသာ — ဥပဒေ ၌ တာဝန် မရှိ"
         }
-      },
-      {
-        "text": {
-          "en": "A temporary road sign",
-          "my": "ယာယီ လမ်း ဆိုင်းဘုတ်"
-        }
       }
     ],
     "answer": 0,
@@ -10990,12 +10000,6 @@
         "text": {
           "en": "Only texting is prohibited",
           "my": "SMS ကိုသာ တားမြစ်ထားသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "No penalty for bluetooth calls",
-          "my": "Bluetooth ဖုန်းဆင့်ချပြောဆိုမှုအတွက် ပြစ်ဒဏ် မရှိ"
         }
       }
     ],
@@ -11032,12 +10036,6 @@
           "en": "Only in tunnels",
           "my": "လှောင်ဥမင် ၌ ကိုသာ"
         }
-      },
-      {
-        "text": {
-          "en": "Optional — use when you feel like it",
-          "my": "ရွေးချယ်နိုင်သည် — ဆန္ဒရှိသောအချိန် ၌ သုံးပါ"
-        }
       }
     ],
     "answer": 0,
@@ -11072,12 +10070,6 @@
         "text": {
           "en": "Always use the right lane",
           "my": "ညာ lane ကို အမြဲ သုံးပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Only buses use the left lane",
-          "my": "Bus ကိုသာ ဘယ် lane သုံးသည်"
         }
       }
     ],
@@ -11114,12 +10106,6 @@
           "en": "Only stop when a STOP sign is also present",
           "my": "STOP ဆိုင်းဘုတ်လည်း ရှိသောအခါ ကိုသာ ရပ်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "No need to stop — just give way",
-          "my": "ရပ်ရန် မလိုပါ — လမ်းပေးရုံ"
-        }
       }
     ],
     "answer": 0,
@@ -11154,12 +10140,6 @@
         "text": {
           "en": "On Sundays and public holidays",
           "my": "တနင်္ဂနွေနှင့် အများသုံး ပွဲတော်များ ၌"
-        }
-      },
-      {
-        "text": {
-          "en": "If hazard lights are on",
-          "my": "Hazard light ဖွင့်ပါ"
         }
       }
     ],
@@ -11196,12 +10176,6 @@
           "en": "Same as a stop line — complete stop required",
           "my": "ရပ်ဆိုင်းမျဉ်းနှင့် တူ — လုံးဝ ရပ်ဆောင်ရွက်ချက် လိုအပ်သည်"
         }
-      },
-      {
-        "text": {
-          "en": "Marks a pedestrian crossing",
-          "my": "လမ်းလျောက်သူ ဖြတ်ကူးရာ မျဉ်းသားသည်"
-        }
       }
     ],
     "answer": 0,
@@ -11236,12 +10210,6 @@
         "text": {
           "en": "Speed up to keep distance",
           "my": "ကွာဝေးမှု ထိန်းသိမ်းရန် အရှိန်မြှင့်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Sound horn continuously",
-          "my": "ဟွန်း ဆက်တိုက် တီးပါ"
         }
       }
     ],
@@ -11278,12 +10246,6 @@
           "en": "Driving faster than usual",
           "my": "ပုံမှန်ထက် ပိုမြန်မြန် မောင်းနှင်ခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Feeling thirsty",
-          "my": "喉咙 干渴"
-        }
       }
     ],
     "answer": 0,
@@ -11318,12 +10280,6 @@
         "text": {
           "en": "Only driving on safe roads",
           "my": "ဘေးကင်းသော လမ်းများ ၌ ကိုသာ မောင်းနှင်ခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Following the car in front exactly",
-          "my": "ရှေ့ ကား ကို ေ တိကျစွာ လိုက်ပါ"
         }
       }
     ],
@@ -11360,12 +10316,6 @@
           "en": "Stop your car and confront them",
           "my": "ကား ရပ်ပြီး ၎င်းတို့ ကို မျက်နှာချင်းဆိုင် ဆွေးနွေးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Speed away to lose them",
-          "my": "၎င်းတို့ ဆုံးရှုံးရန် အရှိန်မြှင့်ပြေး"
-        }
       }
     ],
     "answer": 0,
@@ -11400,12 +10350,6 @@
         "text": {
           "en": "Expressway traffic must give way to entering vehicles",
           "my": "အဝေးပြေး လမ်းမ ယာဉ်ကြောင်းသည် ဝင်နေသော ယာဉ်ကို လမ်းပေးရမည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Merge at any speed — it's the other driver's job to avoid you",
-          "my": "မည်သည့် မြန်နှုန်း ၌ မဆို ပေါင်းဝင်ပါ — ၎င်းသည် အခြား ယာဉ်မောင်း ၏ အလုပ် သင်ကို ရှောင်ကွင်းရန်"
         }
       }
     ],
@@ -11442,12 +10386,6 @@
           "en": "Walk down the expressway to find help",
           "my": "ကူညီမှု ရှာဖွေရန် အဝေးပြေး လမ်းမ ၌ လမ်းလျောက်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Park in the overtaking lane and wait",
-          "my": "ကျော်တက် lane ၌ ရပ်ပြီး စောင့်ပါ"
-        }
       }
     ],
     "answer": 0,
@@ -11482,12 +10420,6 @@
         "text": {
           "en": "A lane for cyclists only",
           "my": "စက်ဘီး ကိုသာ lane"
-        }
-      },
-      {
-        "text": {
-          "en": "May be used to avoid traffic jams",
-          "my": "ယာဉ်ကြောင်း ပိတ်ဆို့မှု ရှောင်ကွင်းရန် သုံးနိုင်သည်"
         }
       }
     ],
@@ -11524,12 +10456,6 @@
           "en": "A type of emergency braking",
           "my": "အရေးပေါ် ဘရိတ် ၏ အမျိုးအစား"
         }
-      },
-      {
-        "text": {
-          "en": "Switching off the engine to stop",
-          "my": "ရပ်ရန် အင်ဂျင် ပိတ်ခြင်း"
-        }
       }
     ],
     "answer": 0,
@@ -11564,12 +10490,6 @@
         "text": {
           "en": "Controls the steering lock",
           "my": "Steering lock ထိန်းချုပ်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Only for automatic gearbox cars",
-          "my": "Automatic gearbox ကားများ ကိုသာ ဖြစ်သည်"
         }
       }
     ],
@@ -11606,12 +10526,6 @@
           "en": "Overtake as visibility is good in tunnels",
           "my": "Tunnel ၌ မြင်ကွင်း ကောင်းသောကြောင့် ကျော်တက်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "No special rules apply in tunnels",
-          "my": "Tunnel ၌ အထူး စည်းမျဉ်းများ မကျင့်သုံးပါ"
-        }
       }
     ],
     "answer": 0,
@@ -11646,12 +10560,6 @@
         "text": {
           "en": "No special care needed for flooded roads",
           "my": "ရေနစ်သော လမ်းများ ၌ အထူး ဂရုစိုက်မှု မလိုပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Increase speed to prevent water entering the engine",
-          "my": "ရေ အင်ဂျင် ထဲ မဝင်ရန် မြန်နှုန်းမြှင့်ပါ"
         }
       }
     ],
@@ -11688,12 +10596,6 @@
           "en": "Not relevant in Singapore's climate",
           "my": "စင်ကာပူ ၏ ရာသီဥတု ၌ မသက်ဆိုင်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "A type of road surface material",
-          "my": "လမ်းမျက်နှာပြင် ပစ္စည်းများ ၏ အမျိုးအစား"
-        }
       }
     ],
     "answer": 0,
@@ -11728,12 +10630,6 @@
         "text": {
           "en": "No demerit points apply to probationary drivers",
           "my": "ကြိုတင်ကာကွယ် ဘွဲ့ ရ ယာဉ်မောင်းများ ၌ demerit point မကျင့်သုံးပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Only a warning for first offence",
-          "my": "ပထမ ကျူးလွန်မှု ၌ သတိပေးချက် ကိုသာ"
         }
       }
     ],
@@ -11770,12 +10666,6 @@
           "en": "Police vehicle",
           "my": "ရဲ ယာဉ်"
         }
-      },
-      {
-        "text": {
-          "en": "Parking permit displayed",
-          "my": "ရပ်နားရေး ခွင့်ပြုချက် ပြထားသည်"
-        }
       }
     ],
     "answer": 0,
@@ -11810,12 +10700,6 @@
         "text": {
           "en": "60 km/h",
           "my": "ကီလိုမီတာ/နာရီ ၆၀"
-        }
-      },
-      {
-        "text": {
-          "en": "P-plate drivers cannot use expressways",
-          "my": "P-plate ယာဉ်မောင်းများ အဝေးပြေး လမ်းမ မသုံးနိုင်ပါ"
         }
       }
     ],
@@ -11852,12 +10736,6 @@
           "en": "Has no effect on fuel consumption",
           "my": "လောင်စာ သုံးစွဲမှုကို မသက်ရောက်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Only matters on long journeys",
-          "my": "ရှည်သော ခရီး ၌ ကိုသာ ဆိုင်ရာ"
-        }
       }
     ],
     "answer": 0,
@@ -11892,12 +10770,6 @@
         "text": {
           "en": "No effect on fuel consumption",
           "my": "လောင်စာ သုံးစွဲမှုကို မသက်ရောက်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Early gear change increases engine wear",
-          "my": "စောစော ဂီယာ ပြောင်းခြင်းသည် အင်ဂျင် ပွပ်မှဆင်မှ တိုးသည်"
         }
       }
     ],
@@ -11934,12 +10806,6 @@
           "en": "6 demerit points",
           "my": "demerit point ၆ မှတ်"
         }
-      },
-      {
-        "text": {
-          "en": "12 demerit points",
-          "my": "demerit point ၁၂ မှတ်"
-        }
       }
     ],
     "answer": 0,
@@ -11974,12 +10840,6 @@
         "text": {
           "en": "Proceed normally — green means go",
           "my": "ပုံမှန် ဆက်သွားပါ — မြောင်းရောင် ဆိုသည်မှာ သွားပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Only give way if the pedestrian is elderly",
-          "my": "လမ်းလျောက်သူ သက်ကြီးရွယ်အို ဖြစ်မှသာ လမ်းပေးပါ"
         }
       }
     ],
@@ -12016,12 +10876,6 @@
           "en": "Converts fuel to electricity",
           "my": "လောင်စာ ကို လျှပ်စစ် ၌ ပြောင်းသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Filters the engine oil",
-          "my": "Engine oil စစ်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -12056,12 +10910,6 @@
         "text": {
           "en": "Only check at the garage service",
           "my": "ဆိုင် service ၌ ကိုသာ စစ်ဆေးပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "No need to check — modern cars self-regulate oil",
-          "my": "စစ်ဆေးရန် မလိုပါ — ခေတ်မီ ကားများ ဆီ ကိုယ်တိုင် ထိန်းညှိသည်"
         }
       }
     ],
@@ -12098,12 +10946,6 @@
           "en": "Fill brake fluid and that will fix it",
           "my": "ဘရိတ် ရည် ဖြည့်ပြီး ၎င်းသည် ပြင်ဆင်မည်"
         }
-      },
-      {
-        "text": {
-          "en": "Normal — brakes always feel spongy in hot weather",
-          "my": "ပုံမှန် — ပူသောနေ ၌ ဘရိတ် အမြဲ spongy ပုံ ခံစားရသည်"
-        }
       }
     ],
     "answer": 0,
@@ -12138,12 +10980,6 @@
         "text": {
           "en": "As high as possible for best performance",
           "my": "ကောင်းမွန်ဆုံး စွမ်းဆောင်ရည် ၌ တတ်နိုင်သမျှ မြင့်"
-        }
-      },
-      {
-        "text": {
-          "en": "Only check when tyres look flat",
-          "my": "ဘီး ပြားနေပုံ ပေါ်သောအခါ ကိုသာ စစ်ဆေးပါ"
         }
       }
     ],
@@ -12180,12 +11016,6 @@
           "en": "Balances weight between front and rear",
           "my": "ရှေ့နှင့် နောက် ကြား အလေးချိန် ချိန်ညှိသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Prevents wheel spin on wet roads",
-          "my": "စိုစွတ်သော လမ်းများ ၌ ဘီး လည်ပတ်မှု တားဆီးသည်"
-        }
       }
     ],
     "answer": 0,
@@ -12220,12 +11050,6 @@
         "text": {
           "en": "Stop for 2 seconds at every junction",
           "my": "မည်သည့် junction ၌ မဆို ၂ စက္ကန့် ရပ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Limit of 2 seconds for overtaking manoeuvre",
-          "my": "ကျော်တက်မှု ၌ ၂ စက္ကန့် ကန့်သတ်"
         }
       }
     ],
@@ -12262,12 +11086,6 @@
           "en": "No benefit — get as close as possible in traffic",
           "my": "အကျိုး မရှိ — ယာဉ်ကြောင်း ၌ တတ်နိုင်သမျှ နီးနီး ကပ်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Parking space regulations",
-          "my": "ရပ်နားသောနေရာ စည်းမျဉ်း"
-        }
       }
     ],
     "answer": 0,
@@ -12302,12 +11120,6 @@
         "text": {
           "en": "Creeping is only dangerous for motorcyclists",
           "my": "Creeping ဆိုသည်မှာ မော်တော်ဆိုင်ကယ် စီးသူများ ကိုသာ အန္တရာယ်ရှိသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Acceptable if hazard lights are on",
-          "my": "Hazard light ဖွင့်ပါ လက်ခံနိုင်သည်"
         }
       }
     ],
@@ -12344,12 +11156,6 @@
           "en": "Motorcycles have better wet-weather braking",
           "my": "မော်တော်ဆိုင်ကယ် ၌ မိုးသောအခြေအနေ ဘရိတ် ပိုကောင်းသည်"
         }
-      },
-      {
-        "text": {
-          "en": "1 second is sufficient for motorcycles",
-          "my": "မော်တော်ဆိုင်ကယ် ၌ ၁ စက္ကန့် လုံလောက်သည်"
-        }
       }
     ],
     "answer": 0,
@@ -12384,12 +11190,6 @@
         "text": {
           "en": "Treat like a normal roundabout",
           "my": "ပုံမှန် roundabout ကဲ့သို့ ကိုင်တွယ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Speed up to pass through quickly",
-          "my": "မြန်မြန် ဖြတ်ကျော်ရန် အရှိန်မြှင့်ပါ"
         }
       }
     ],
@@ -12426,12 +11226,6 @@
           "en": "Indicates car needs more fuel",
           "my": "ကား ကို ပိုများသော လောင်စာ လိုအပ်ကြောင်း ညွှန်ပြသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Air conditioning system releasing steam",
-          "my": "လေ အေးစက် စနစ် မှုတ်ငွေ့ လွှတ်ထုတ်ခြင်း"
-        }
       }
     ],
     "answer": 0,
@@ -12466,12 +11260,6 @@
         "text": {
           "en": "Never needs replacing",
           "my": "ဘယ်တော့မျှ အစားထိုးမလိုပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Every 10 years",
-          "my": "နှစ် ၁၀ ကြိမ် တစ်ကြိမ်"
         }
       }
     ],
@@ -12508,12 +11296,6 @@
           "en": "A traffic police checkpoint",
           "my": "ယာဉ်ကြောင်း ရဲ စစ်ဆေးရေး ဌာနချုပ်"
         }
-      },
-      {
-        "text": {
-          "en": "A rest area sign",
-          "my": "ငှိမ်းနေရာ ဆိုင်းဘုတ်"
-        }
       }
     ],
     "answer": 0,
@@ -12548,12 +11330,6 @@
         "text": {
           "en": "A restriction on lorry driving hours",
           "my": "ကုန်တင်ကား မောင်းနှင်ချိန် ၌ ကန့်သတ်မှု"
-        }
-      },
-      {
-        "text": {
-          "en": "Weight limit for bridge crossings only",
-          "my": "တံတား ဖြတ်ကူးမှု ကိုသာ အလေးချိန် ကန့်သတ်"
         }
       }
     ],
@@ -12590,12 +11366,6 @@
           "en": "Ignore it — ambulance will find its own way",
           "my": "မမှတ်ပါနှင့် — မြောက်ကပ်ဆေးကုယာဉ် ကိုယ်တိုင် လမ်း ရှာမည်"
         }
-      },
-      {
-        "text": {
-          "en": "Stop in the middle of the road",
-          "my": "လမ်း အလယ် ၌ ရပ်ပါ"
-        }
       }
     ],
     "answer": 0,
@@ -12630,12 +11400,6 @@
         "text": {
           "en": "Sound horn and pass quickly",
           "my": "ဟွန်းတီးပြီး မြန်မြန် ဖြတ်ကျော်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "No special rules for overtaking cyclists",
-          "my": "စက်ဘီး ကျော်တက်ရာ ၌ အထူး စည်းမျဉ်း မရှိ"
         }
       }
     ],
@@ -12672,12 +11436,6 @@
           "en": "Merge, Stop, Move",
           "my": "ပေါင်းဝင်၊ ရပ်ဆိုင်း၊ ရွေ့ပြောင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Maximum Speed Manoeuvre",
-          "my": "အများဆုံး မြန်နှုန်း လုပ်ဆောင်ချက်"
-        }
       }
     ],
     "answer": 0,
@@ -12712,12 +11470,6 @@
         "text": {
           "en": "Only prohibited on expressways",
           "my": "အဝေးပြေး လမ်းမ ၌ ကိုသာ တားမြစ်ထားသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Only prohibited near schools",
-          "my": "ကျောင်းနား ၌ ကိုသာ တားမြစ်ထားသည်"
         }
       }
     ],
@@ -12754,12 +11506,6 @@
           "en": "No headlights needed if following closely",
           "my": "နီးနီး လိုက်ပါပါ headlight မလိုအပ်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Flash lights to warn the car ahead",
-          "my": "ရှေ့ ကားကို သတိပေးရန် မီးမြင့်ပြပါ"
-        }
       }
     ],
     "answer": 0,
@@ -12794,12 +11540,6 @@
         "text": {
           "en": "Insurance may not cover medication-related accidents",
           "my": "အာမခံ ဆေးဝါးဆိုင်ရာ မတော်မဆ ကို ကာမိမည် မဟုတ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Medications wear off quickly so it's fine to drive",
-          "my": "ဆေးဝါးများ မြန်မြန် ကြာပြီး ကားမောင်းနှင်ရန် ကောင်းသည်"
         }
       }
     ],
@@ -12836,12 +11576,6 @@
           "en": "Every 10,000 km",
           "my": "10,000 ကီလိုမီတာတိုင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Only during annual inspection",
-          "my": "နှစ်စဉ်စစ်ဆေးချိန်မှသာ"
-        }
       }
     ],
     "answer": 1,
@@ -12876,12 +11610,6 @@
         "text": {
           "en": "The air conditioning is too cold",
           "my": "လေအေးပေးစနစ် အလွန်အေးနေသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "The oil pressure is low",
-          "my": "ဆီဖိအား နည်းနေသည်"
         }
       }
     ],
@@ -12918,12 +11646,6 @@
           "en": "To lubricate the clutch only",
           "my": "Clutch ကိုသာ ချောဆီပေးရန်"
         }
-      },
-      {
-        "text": {
-          "en": "To power the power steering",
-          "my": "Power steering ကို ဖြောင့်ဆောင်ရွက်ရန်"
-        }
       }
     ],
     "answer": 1,
@@ -12958,12 +11680,6 @@
         "text": {
           "en": "Hazard lights only",
           "my": "Hazard မီးများသာ"
-        }
-      },
-      {
-        "text": {
-          "en": "No lights needed in daytime fog",
-          "my": "နေ့အချိန် မြူတွင် မီးမလိုအပ်ပါ"
         }
       }
     ],
@@ -13000,12 +11716,6 @@
           "en": "High beam blinds oncoming drivers only at night",
           "my": "High beam သည် ညနေတွင်သာ ကျော်လာသည့်ကားသမားများကို မျက်စိဖုံးစေသည်"
         }
-      },
-      {
-        "text": {
-          "en": "High beam is illegal in Singapore",
-          "my": "High beam သည် စင်္ကာပူတွင် တရားမဝင်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -13040,12 +11750,6 @@
         "text": {
           "en": "Overtaking is allowed if the road is clear",
           "my": "လမ်းလွတ်နေလျှင် ကျော်နိုင်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Only buses may cross the lines",
-          "my": "ဘတ်စ်ကားများသာ မျဉ်းများကို ဖြတ်ကူးနိုင်သည်"
         }
       }
     ],
@@ -13082,12 +11786,6 @@
           "en": "The road ahead narrows",
           "my": "ရှေ့လမ်း ကျဉ်းလာမည်"
         }
-      },
-      {
-        "text": {
-          "en": "Parking is permitted here",
-          "my": "ဒီနေရာတွင် ကားရပ်ခြင်း ပြုနိုင်သည်"
-        }
       }
     ],
     "answer": 1,
@@ -13122,12 +11820,6 @@
         "text": {
           "en": "Speed up to match their pace",
           "my": "သူတို့နှုန်းနှင့် ကိုက်ညီအောင် အမြန်နှုန်းတိုး"
-        }
-      },
-      {
-        "text": {
-          "en": "Stop the car and confront them",
-          "my": "ကားရပ်ပြီး မျက်နှာချင်းဆိုင် ဆွေးနွေး"
         }
       }
     ],
@@ -13164,12 +11856,6 @@
           "en": "Using hazard lights when broken down",
           "my": "ပျက်စီးသောအခါ hazard မီးများ ဖွင့်ခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Reducing speed in a school zone",
-          "my": "ကျောင်းဇုန်တွင် အမြန်နှုန်းလျှော့ချခြင်း"
-        }
       }
     ],
     "answer": 1,
@@ -13204,12 +11890,6 @@
         "text": {
           "en": "Only comply if there is a police car nearby",
           "my": "ရဲကားနီးနေမှသာ လိုက်နာပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Reduce speed only if it rains",
-          "my": "မိုးရွာမှသာ အမြန်နှုန်းလျှော့ပါ"
         }
       }
     ],
@@ -13246,12 +11926,6 @@
           "en": "Use the hard shoulder to bypass the queue",
           "my": "Hard shoulder ကို အသုံးပြု၍ တန်းစီမှ ကျော်ဖြတ်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Flash your lights to warn other drivers",
-          "my": "အခြားကားသမားများကို သတိပေးရန် မီးဖတ်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -13286,12 +11960,6 @@
         "text": {
           "en": "A certificate for vehicle annual inspection",
           "my": "ယာဉ်နှစ်စဉ်စစ်ဆေးမှုအတွက် လက်မှတ်"
-        }
-      },
-      {
-        "text": {
-          "en": "A licence for commercial vehicles only",
-          "my": "စီးပွားရေးယာဉ်များသာ အတွက် လိုင်စင်"
         }
       }
     ],
@@ -13328,12 +11996,6 @@
           "en": "To update the vehicle's GPS tracker",
           "my": "ယာဉ်၏ GPS ကြည့်ရှုစနစ်ကို မွမ်းမံရန်"
         }
-      },
-      {
-        "text": {
-          "en": "To renew the ERP in-vehicle unit",
-          "my": "ERP in-vehicle unit ကို သက်တမ်းတိုးရန်"
-        }
       }
     ],
     "answer": 1,
@@ -13368,12 +12030,6 @@
         "text": {
           "en": "It has no effect on fuel consumption",
           "my": "လောင်စာသုံးစွဲမှုကို သက်ရောက်မှုမရှိပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "It only affects electric vehicles",
-          "my": "လျှပ်စစ်ယာဉ်များကိုသာ သက်ရောက်သည်"
         }
       }
     ],
@@ -13410,12 +12066,6 @@
           "en": "Keeping the air conditioning at maximum",
           "my": "လေအေးပေးစနစ်ကို အမြင့်ဆုံးထားခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Driving as close to the vehicle ahead as possible",
-          "my": "ရှေ့ကယာဉ်နှင့် အတတ်နိုင်ဆုံး နီးကပ်စွာ မောင်းနှင်ခြင်း"
-        }
       }
     ],
     "answer": 1,
@@ -13450,12 +12100,6 @@
         "text": {
           "en": "Between two cars for better visibility",
           "my": "ပိုကောင်းသော မြင်ကွင်းအတွက် ကားနှစ်စီး၏ ကြားတွင်"
-        }
-      },
-      {
-        "text": {
-          "en": "On the pavement for safety",
-          "my": "ဘေးကင်းရေးအတွက် လမ်းဘေးဖြစ်သောနေရာတွင်"
         }
       }
     ],
@@ -13492,12 +12136,6 @@
           "en": "Never — motorcycles are not permitted on expressways",
           "my": "မည်သည့်အချိန်မှ မဟုတ် — မောတော်ဆိုင်ကယ်များ expressway ပေါ်တွင် ပြေးဆွဲခြင်း မပြုရ"
         }
-      },
-      {
-        "text": {
-          "en": "Only during off-peak hours",
-          "my": "နာရီပိုဆိုသောအချိန်မှသာ"
-        }
       }
     ],
     "answer": 1,
@@ -13532,12 +12170,6 @@
         "text": {
           "en": "Parking is allowed for up to 30 minutes",
           "my": "မိနစ် 30 အထိ ကားရပ်ခြင်း ပြုနိုင်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Loading and unloading only",
-          "my": "တင်ဆောင်ခြင်းနှင့် ချပြင်ခြင်းသာ ပြုနိုင်သည်"
         }
       }
     ],
@@ -13574,12 +12206,6 @@
           "en": "Call an ambulance immediately",
           "my": "ချက်ချင်း အရေးပေါ်ကားကို ဖုန်းဆက်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Leave the vehicles in place and wait for police",
-          "my": "ယာဉ်များကို နေရာတကျ ထားကာ ရဲကို စောင့်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -13614,12 +12240,6 @@
         "text": {
           "en": "7 days",
           "my": "7 ရက်"
-        }
-      },
-      {
-        "text": {
-          "en": "14 days",
-          "my": "14 ရက်"
         }
       }
     ],
@@ -13656,12 +12276,6 @@
           "en": "Only in heavy rain",
           "my": "မိုးသည်းသောအချိန်မှသာ"
         }
-      },
-      {
-        "text": {
-          "en": "Whenever you see street lights",
-          "my": "လမ်းမီးမြင်ရသည့်အချိန်တိုင်း"
-        }
       }
     ],
     "answer": 1,
@@ -13696,12 +12310,6 @@
         "text": {
           "en": "Roads are slippery at night due to dew",
           "my": "မိုးချိုးကြောင့် ညတွင် လမ်းချော်နိုင်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Traffic lights do not work properly at night",
-          "my": "ညတွင် မီးသွားမီးလာ မှန်ကန်စွာ မအလုပ်လုပ်ပါ"
         }
       }
     ],
@@ -13738,12 +12346,6 @@
           "en": "Squealing brakes",
           "my": "ဘရိတ်မြည်ဟည်းခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "The air conditioning stops working",
-          "my": "လေအေးပေးစနစ် အလုပ်မလုပ်တော့ခြင်း"
-        }
       }
     ],
     "answer": 1,
@@ -13778,12 +12380,6 @@
         "text": {
           "en": "It drives the air conditioning compressor",
           "my": "လေအေးပေးစနစ် compressor ကို မောင်းနှင်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "It regulates the fuel injection timing",
-          "my": "လောင်စာ ထိုးသွင်းချိန်ကို ထိန်းချုပ်သည်"
         }
       }
     ],
@@ -13820,12 +12416,6 @@
           "en": "Only driving when road conditions are perfect",
           "my": "လမ်းအခြေအနေ ပြည့်ဝသောအချိန်မှသာ မောင်းနှင်ခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Following other vehicles as closely as possible",
-          "my": "ရှေ့ကယာဉ်နှင့် အတတ်နိုင်ဆုံး နီးကပ်စွာ လိုက်ပါခြင်း"
-        }
       }
     ],
     "answer": 1,
@@ -13860,12 +12450,6 @@
         "text": {
           "en": "Listening to traffic reports while driving",
           "my": "မောင်းနှင်နေစဉ် ယာဉ်ကြောသတင်းများ နားထောင်ခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Using GPS navigation to narrate directions",
-          "my": "GPS navigation ဖြင့် လမ်းညွှန်ချက်များ ပြောဆိုစေခြင်း"
         }
       }
     ],
@@ -13902,12 +12486,6 @@
           "en": "At least 3 metres",
           "my": "အနည်းဆုံး 3 မီတာ"
         }
-      },
-      {
-        "text": {
-          "en": "At least 5 metres",
-          "my": "အနည်းဆုံး 5 မီတာ"
-        }
       }
     ],
     "answer": 1,
@@ -13942,12 +12520,6 @@
         "text": {
           "en": "Only at night",
           "my": "ညနေမှသာ"
-        }
-      },
-      {
-        "text": {
-          "en": "Only when there are more than 3 pedestrians",
-          "my": "လျှောက်သူ 3 ဦးကျော်မှသာ"
         }
       }
     ],
@@ -13984,12 +12556,6 @@
           "en": "Speed limit ends",
           "my": "အမြန်နှုန်းကန့်သတ်ချက် ပြီးဆုံးသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Road works ahead",
-          "my": "ရှေ့တွင် လမ်းပြုပြင်မှုရှိသည်"
-        }
       }
     ],
     "answer": 1,
@@ -14024,12 +12590,6 @@
         "text": {
           "en": "Speed limit of the road ahead",
           "my": "ရှေ့လမ်း၏ အမြန်နှုန်းကန့်သတ်ချက်"
-        }
-      },
-      {
-        "text": {
-          "en": "One-way traffic ahead",
-          "my": "ရှေ့တွင် တစ်ဘက်တည်း ယာဉ်ကြောရှိသည်"
         }
       }
     ],
@@ -14066,12 +12626,6 @@
           "en": "When the engine overheats in heavy rain",
           "my": "မိုးသည်းချိန်တွင် အင်ဂျင် အပူလွန်ကဲခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "When windscreen wipers cannot clear the rain fast enough",
-          "my": "ရေပွတ်ကိရိယာသည် မိုးရေကို မျက်နှာကြည်မှ မြန်မြန်မဖယ်ရှားနိုင်ခြင်း"
-        }
       }
     ],
     "answer": 1,
@@ -14106,12 +12660,6 @@
         "text": {
           "en": "Stopping distance decreases as wet roads are smoother",
           "my": "ရွှဲနေသောလမ်းများ ချောပြောင်သောကြောင့် ရပ်ကွက်ကိန်းများ ကျဆင်းသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Only affects motorcycles, not cars",
-          "my": "မောတော်ဆိုင်ကယ်ကိုသာ သက်ရောက်သည်၊ ကားများကို မသက်ရောက်ပါ"
         }
       }
     ],
@@ -14148,12 +12696,6 @@
           "en": "A time limit for indicating before turning; extend on expressways",
           "my": "ကွေ့ဘိုက် မတိုင်မှီ ဆိုင်နယ်ပေးချိန်ကန့်သတ်ချက်; expressway ပေါ်တွင် တိုးချဲ့ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "The time allowed to stop at a yellow traffic light",
-          "my": "အဝါရောင်မီးတွင် ရပ်ရန် ခွင့်ပြုသောအချိန်"
-        }
       }
     ],
     "answer": 1,
@@ -14188,12 +12730,6 @@
         "text": {
           "en": "The point where you must brake",
           "my": "ဘရိတ်နင်းရမည့်နေရာ"
-        }
-      },
-      {
-        "text": {
-          "en": "The start of the bend",
-          "my": "ကွေ့ချိုး၏ အစ"
         }
       }
     ],
@@ -14230,12 +12766,6 @@
           "en": "Drifting between lanes unintentionally",
           "my": "တမင်မဟုတ်ဘဲ lane ကြားတွင် ဘေးရောက်နေခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Difficulty remembering the last few kilometres driven",
-          "my": "လတ်တလော မောင်းနှင်ခဲ့သော ကီလိုမီတာများကို မမှတ်မိခြင်း"
-        }
       }
     ],
     "answer": 1,
@@ -14270,12 +12800,6 @@
         "text": {
           "en": "Drink a large cup of coffee and continue driving",
           "my": "ကော်ဖီကြီးတစ်ခွက် သောက်ပြီး ဆက်မောင်းပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Turn the radio up louder to stay alert",
-          "my": "သတိရှိနေရန် ရေဒီယိုကို ပိုကျယ်အောင် ဖွင့်ပါ"
         }
       }
     ],
@@ -14312,12 +12836,6 @@
           "en": "50 km/h",
           "my": "50 ကီလိုမီတာ/နာရီ"
         }
-      },
-      {
-        "text": {
-          "en": "60 km/h",
-          "my": "60 ကီလိုမီတာ/နာရီ"
-        }
       }
     ],
     "answer": 2,
@@ -14352,12 +12870,6 @@
         "text": {
           "en": "To ask for directions",
           "my": "လမ်းညွှန်ချက်တောင်းရန်"
-        }
-      },
-      {
-        "text": {
-          "en": "To report a road sign that needs updating",
-          "my": "မွမ်းမံရမည့် လမ်းဆိုင်းဘုတ်ကို သတင်းပို့ရန်"
         }
       }
     ],
@@ -14394,12 +12906,6 @@
           "en": "It has no effect on braking",
           "my": "ဘရိတ်ကို သက်ရောက်မှု မရှိပါ"
         }
-      },
-      {
-        "text": {
-          "en": "It only affects cornering, not braking",
-          "my": "ကွေ့ချိုးမှုကိုသာ သက်ရောက်ပြီး ဘရိတ်ကို မသက်ရောက်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -14434,12 +12940,6 @@
         "text": {
           "en": "Only check the rearview mirror and signal",
           "my": "နောက်မြင်ကွင်းမှန်ကိုသာ ကြည့်ပြီး ဆိုင်နယ်ပေးပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Move first, then signal",
-          "my": "ရွှေ့ဦးပြီးမှ ဆိုင်နယ်ပေးပါ"
         }
       }
     ],
@@ -14476,12 +12976,6 @@
           "en": "Overtake immediately to reclaim your position",
           "my": "နေရာပြန်ယူရန် ချက်ချင်း ကျော်ဖြတ်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Flash your headlights aggressively",
-          "my": "မီးကို ကြမ်းကြမ်းတမ်းတမ်း ဖတ်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -14516,12 +13010,6 @@
         "text": {
           "en": "Overtake from the right immediately",
           "my": "ချက်ချင်း ညာဘက်မှ ကျော်ဖြတ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Wait for the bus for a maximum of 2 minutes",
-          "my": "ဘတ်စ်ကားကို အများဆုံး 2 မိနစ် စောင့်ပါ"
         }
       }
     ],
@@ -14558,12 +13046,6 @@
           "en": "Sound your horn to warn children",
           "my": "ကလေးများကို သတိပေးရန် တော်တူမမြည်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Only stop if children are crossing the road",
-          "my": "ကလေးများ လမ်းဖြတ်မှသာ ရပ်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -14598,12 +13080,6 @@
         "text": {
           "en": "Load cannot project above the roof at all",
           "my": "တင်ဆောင်ပစ္စည်းသည် ခေါင်မိုးထက် လုံးဝ ထွက်မနေရ"
-        }
-      },
-      {
-        "text": {
-          "en": "2 metres",
-          "my": "2 မီတာ"
         }
       }
     ],
@@ -14640,12 +13116,6 @@
           "en": "50 milligrams of alcohol per 100ml of blood",
           "my": "သွေး 100 မီလီတာတွင် အရက် 50 မီလီဂရမ်"
         }
-      },
-      {
-        "text": {
-          "en": "100 milligrams of alcohol per 100ml of blood",
-          "my": "သွေး 100 မီလီတာတွင် အရက် 100 မီလီဂရမ်"
-        }
       }
     ],
     "answer": 1,
@@ -14680,12 +13150,6 @@
         "text": {
           "en": "Loss of two demerit points only",
           "my": "demerit point နှစ်ချက်သာ ဆုံးရှုံးသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Mandatory attendance at a driving course",
-          "my": "ကားမောင်းသင်တန်းတက်ရောက်ရမည်"
         }
       }
     ],
@@ -14722,12 +13186,6 @@
           "en": "A line that marks the start of a bus lane",
           "my": "ဘတ်စ် lane အစကို မှတ်သားသော မျဉ်း"
         }
-      },
-      {
-        "text": {
-          "en": "A line indicating no overtaking",
-          "my": "ကျော်ဖြတ်ခြင်းမပြုရကြောင်း ညွှန်ပြသောမျဉ်း"
-        }
       }
     ],
     "answer": 1,
@@ -14762,12 +13220,6 @@
         "text": {
           "en": "Braking distance is unchanged as trailers have their own brakes",
           "my": "ကားဆွဲ မိမိဘရိတ်ပိုင်သောကြောင့် ရပ်ကွက်ကိန်း မပြောင်းပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Braking distance only changes at speeds above 80 km/h",
-          "my": "80 ကီလိုမီတာ/နာရီ ထက်ကျော်မှသာ ရပ်ကွက်ကိန်း ပြောင်းသည်"
         }
       }
     ],
@@ -14804,12 +13256,6 @@
           "en": "The road number",
           "my": "လမ်းနံပါတ်"
         }
-      },
-      {
-        "text": {
-          "en": "The distance to the next town in km",
-          "my": "နီးစပ်ရာ မြို့သို့ ကီလိုမီတာဖြင့် ကွာဝေး"
-        }
       }
     ],
     "answer": 1,
@@ -14844,12 +13290,6 @@
         "text": {
           "en": "A direction sign",
           "my": "လမ်းညွှန်ဆိုင်းဘုတ်"
-        }
-      },
-      {
-        "text": {
-          "en": "A parking information sign",
-          "my": "ကားရပ်နားရာ သတင်းအချက်အလက် ဆိုင်းဘုတ်"
         }
       }
     ],
@@ -14886,12 +13326,6 @@
           "en": "Second gear for best torque",
           "my": "ကောင်းမွန်သော torque အတွက် ဒုတိယဂီယာ"
         }
-      },
-      {
-        "text": {
-          "en": "Neutral gear whenever possible",
-          "my": "တတ်နိုင်သမျှ neutral ဂီယာ"
-        }
       }
     ],
     "answer": 1,
@@ -14926,12 +13360,6 @@
         "text": {
           "en": "Tyre pressure has no effect on fuel consumption",
           "my": "တာယာဖိအားသည် လောင်စာသုံးစွဲမှုကို သက်ရောက်မှုမရှိပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Flat tyres improve fuel economy by creating more grip",
-          "my": "Flat တာယာများသည် ဆုပ်ကိုင်မှုပိုများပြီး လောင်စာချွေတာမှုကို တိုးတက်စေသည်"
         }
       }
     ],
@@ -14968,12 +13396,6 @@
           "en": "Only the tyre pressure",
           "my": "တာယာဖိအားသာ"
         }
-      },
-      {
-        "text": {
-          "en": "Only the windscreen wipers",
-          "my": "မျက်နှာကြည်ရေပွတ်ကိရိယာသာ"
-        }
       }
     ],
     "answer": 1,
@@ -15008,12 +13430,6 @@
         "text": {
           "en": "2 seconds same as other vehicles",
           "my": "အခြားယာဉ်များနည်းတူ 2 စက္ကန့်"
-        }
-      },
-      {
-        "text": {
-          "en": "Just one car length",
-          "my": "ကားတစ်စီး အလျားသာ"
         }
       }
     ],
@@ -15050,12 +13466,6 @@
           "en": "When traffic is heavy and all lanes are full",
           "my": "ယာဉ်ကြောသိပ်သည်းပြီး lane အားလုံး ပြည့်သောအခါ"
         }
-      },
-      {
-        "text": {
-          "en": "When driving a truck",
-          "my": "ထရပ်ကားမောင်းသောအခါ"
-        }
       }
     ],
     "answer": 1,
@@ -15090,12 +13500,6 @@
         "text": {
           "en": "Headlights on full beam",
           "my": "Headlight full beam"
-        }
-      },
-      {
-        "text": {
-          "en": "No lights are required when parked",
-          "my": "ကားရပ်သောအခါ မည်သည့်မီးမျှ မလိုအပ်ပါ"
         }
       }
     ],
@@ -15132,12 +13536,6 @@
           "en": "Turn the engine off to fix the issue",
           "my": "ပြဿနာဖြေရှင်းရန် အင်ဂျင်ပိတ်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Accelerate to maintain speed and control",
-          "my": "အမြန်နှုန်းနှင့် ထိန်းချုပ်မှု ထိန်းသိမ်းရန် Accelerate ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -15172,12 +13570,6 @@
         "text": {
           "en": "The engine needs more oil urgently",
           "my": "အင်ဂျင်တွင် ဆီ အရေးတကြီး ပိုထည့်ရမည်"
-        }
-      },
-      {
-        "text": {
-          "en": "The oil filter needs replacing",
-          "my": "ဆီစစ်ပစ္စည်းကို အစားထိုးရမည်"
         }
       }
     ],
@@ -15214,12 +13606,6 @@
           "en": "Give them water to drink",
           "my": "ရေသောက်ရန် ပေးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Leave them and wait for help",
-          "my": "ထားကာ အကူအညီ စောင့်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -15254,12 +13640,6 @@
         "text": {
           "en": "60 compressions per minute",
           "my": "မိနစ်တစ်ခုလျှင် နှိပ်နယ်မှု 60 ကြိမ်"
-        }
-      },
-      {
-        "text": {
-          "en": "200 compressions per minute",
-          "my": "မိနစ်တစ်ခုလျှင် နှိပ်နယ်မှု 200 ကြိမ်"
         }
       }
     ],
@@ -15296,12 +13676,6 @@
           "en": "Only hand-held phone use is dangerous",
           "my": "လက်ကိုင်ဖြင့် ဖုန်းဆက်ခြင်းသာ အန္တရာယ်ရှိသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Short calls under 1 minute are safe",
-          "my": "1 မိနစ်အောက် တိုတောင်းသောဖုန်းဆက်ခြင်းသည် လုံခြုံသည်"
-        }
       }
     ],
     "answer": 1,
@@ -15336,12 +13710,6 @@
         "text": {
           "en": "A light that is malfunctioning — treat it as a Give Way sign",
           "my": "မှားယွင်းနေသော မီး — Give Way ဆိုင်းဘုတ်အဖြစ် သဘောထားပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "A flashing green light",
-          "my": "မှိတ်တုတ်မှိတ်တုတ် green မီး"
         }
       }
     ],
@@ -15378,12 +13746,6 @@
           "en": "A CCTV system for monitoring parking violations",
           "my": "ကားရပ်ဆောင် ဖောက်ဖျက်မှုများ စောင့်ကြည့်ရန် CCTV စနစ်"
         }
-      },
-      {
-        "text": {
-          "en": "A mobile app for booking parking lots in advance",
-          "my": "ကားရပ်ဆောင် နေရာများ ကြိုတင်ဘွတ်ကင်ရန် မိုဘိုင်းအက်ပ်"
-        }
       }
     ],
     "answer": 1,
@@ -15418,12 +13780,6 @@
         "text": {
           "en": "The first vehicle to arrive has right of way",
           "my": "ပထမဆုံး ရောက်ရှိသောယာဉ်သည် ဦးစားပေးမှုရသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "All vehicles have equal right of way and must proceed simultaneously",
-          "my": "ယာဉ်အားလုံး ညီမျှသော ဦးစားပေးမှုရှိပြီး တပြိုင်နက် ဆက်ရွှေ့ရမည်"
         }
       }
     ],
@@ -15460,12 +13816,6 @@
           "en": "Pump the brakes rapidly to reset the system",
           "my": "စနစ်ကို ပြန်သတ်မှတ်ရန် ဘရိတ်ကို မြန်မြန် နှိပ်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Fill the brake fluid reservoir to full",
-          "my": "ဘရိတ်ဆီ ကန်ကို ပြည့်ပြည့်ဝဝ ဖြည့်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -15500,12 +13850,6 @@
         "text": {
           "en": "The road surface is slippery",
           "my": "လမ်းမျက်နှာပြင် ချော်နိုင်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Pedestrians have priority here",
-          "my": "ဒီနေရာတွင် လျှောက်သူများ ဦးစားရသည်"
         }
       }
     ],
@@ -15542,12 +13886,6 @@
           "en": "Drive slowly past without stopping",
           "my": "ရပ်ခြင်းမပြုဘဲ နှေးနှေး ဖြတ်ကျော်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Flash your headlights to signal it is safe to cross",
-          "my": "ဖြတ်ကူးရန် လုံခြုံကြောင်း ဆိုင်နယ်ပေးရန် မီးဖတ်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -15582,12 +13920,6 @@
         "text": {
           "en": "Road surfaces being slippery due to school grounds",
           "my": "ကျောင်းကွင်းကြောင့် လမ်းမျက်နှာပြင် ချော်နိုင်ခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Speed cameras being more active",
-          "my": "အမြန်နှုန်းကင်မရာများ ပိုတက်ကြွနေခြင်း"
         }
       }
     ],
@@ -15624,12 +13956,6 @@
           "en": "Engine braking using the motor to slow the vehicle",
           "my": "ယာဉ်ကို နှေးစေရန် မော်တာဖြင့် အင်ဂျင်ဘရိတ်"
         }
-      },
-      {
-        "text": {
-          "en": "A backup brake system for when main brakes fail",
-          "my": "အဓိကဘရိတ်ပျက်သောအခါ အတွက် အရန်ဘရိတ်စနစ်"
-        }
       }
     ],
     "answer": 1,
@@ -15664,12 +13990,6 @@
         "text": {
           "en": "Use speakerphone to keep both hands on the wheel",
           "my": "လက်နှစ်ဖက်ကို ဘီးလှည့်ကိုင်ပေါ်ထားရန် speakerphone သုံးပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Ask a passenger to answer on your behalf",
-          "my": "ခရီးသည်ကို သင့်ကိုယ်စား ဖြေရန် တောင်းဆိုပါ"
         }
       }
     ],
@@ -15706,12 +14026,6 @@
           "en": "The signal is out of order — treat as a stop sign",
           "my": "မှားယွင်းနေသည် — Stop ဆိုင်းဘုတ်အဖြစ် သဘောထားပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Accelerate to clear the junction quickly",
-          "my": "လမ်းဆုံ/လမ်းခွ မြန်မြန် ကျော်ရန် Accelerate ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -15746,12 +14060,6 @@
         "text": {
           "en": "Speed up to pass before they reach you",
           "my": "ကျော်လာမတိုင်မှီ ဖြတ်ကျော်ရန် အမြန်နှုန်းတိုး"
-        }
-      },
-      {
-        "text": {
-          "en": "Drive onto the pavement to avoid collision",
-          "my": "တိုက်မိမှု ရှောင်ရန် လမ်းဘေးပေါ်သို့ မောင်းပါ"
         }
       }
     ],
@@ -15788,12 +14096,6 @@
           "en": "The faster vehicle always has priority",
           "my": "ပိုမြန်သောယာဉ်သည် အမြဲ ဦးစားရသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Both have equal priority and must negotiate",
-          "my": "နှစ်ဘက်ညီမျှ ဦးစားပေးမှုရှိပြီး ညှိနှိုင်းဆောင်ရွက်ရမည်"
-        }
       }
     ],
     "answer": 1,
@@ -15828,12 +14130,6 @@
         "text": {
           "en": "Continue driving slowly to the next exit",
           "my": "နောက်ထွက်ပေါက်သို့ ဆက်ဆက် နှေးနှေး မောင်းပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Remain in your lane with hazard lights on",
-          "my": "Hazard မီးများ ဖွင့်ကာ မိမိ lane တွင် နေပါ"
         }
       }
     ],
@@ -15870,12 +14166,6 @@
           "en": "The headlights need replacing",
           "my": "Headlight များ အစားထိုးရမည်"
         }
-      },
-      {
-        "text": {
-          "en": "The car needs a service",
-          "my": "ကားကို ဝန်ဆောင်မှု လိုအပ်သည်"
-        }
       }
     ],
     "answer": 1,
@@ -15910,12 +14200,6 @@
         "text": {
           "en": "A reserved zone for buses only",
           "my": "ဘတ်စ်ကားများအတွက်သာ သတ်မှတ်ထားသောဇုန်"
-        }
-      },
-      {
-        "text": {
-          "en": "A pedestrianised area",
-          "my": "လျှောက်သူများအတွက် ဇုန်"
         }
       }
     ],
@@ -15952,12 +14236,6 @@
           "en": "Helmet, gloves, jacket, and boots are all mandatory",
           "my": "ဦးထုပ်၊ လက်အိတ်၊ ဂျကတ်နှင့် ဖိနပ်တို့ မဖြစ်မနေ ဆောင်ရမည်"
         }
-      },
-      {
-        "text": {
-          "en": "No protective gear is required at speeds under 50 km/h",
-          "my": "50 ကီလိုမီတာ/နာရီ အောက်တွင် ကာကွယ်ပစ္စည်း မလိုပါ"
-        }
       }
     ],
     "answer": 1,
@@ -15992,12 +14270,6 @@
         "text": {
           "en": "It is only illegal but not actually dangerous",
           "my": "တရားမဝင်ရုံသာ ဖြစ်ပြီး တကယ် အန္တရာယ်မဟုတ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "It causes damage to car mirrors",
-          "my": "ကားမှန်များကို ပျက်စီးစေသည်"
         }
       }
     ],
@@ -16034,12 +14306,6 @@
           "en": "Finding a parking space efficiently",
           "my": "ထိရောက်စွာ ကားရပ်ဆောင်နေရာ ရှာခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Only keeping distance from motorcycles",
-          "my": "မောတော်ဆိုင်ကယ်များမှ ကွာဝေးသာ ထိန်းသိမ်းခြင်း"
-        }
       }
     ],
     "answer": 1,
@@ -16074,12 +14340,6 @@
         "text": {
           "en": "Overtake from the left",
           "my": "ဘယ်ဘက်မှ ကျော်ဖြတ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Stop within 10 metres of the track",
-          "my": "လမ်းနှင့် 10 မီတာ အတွင်းတွင် ရပ်ပါ"
         }
       }
     ],
@@ -16116,12 +14376,6 @@
           "en": "Both asking someone outside and checking warning lights on the dashboard",
           "my": "ပြင်ပတွင် တစ်ဦးဦးအားမေးခြင်းနှင့် dashboard ပေါ်ရှိ သတိပေးမီးများ ကြည့်ခြင်း နှစ်မျိုးလုံး"
         }
-      },
-      {
-        "text": {
-          "en": "Listen for a clicking sound when using indicators",
-          "my": "Indicator ဖွင့်သောအခါ ကချက်ဆိုင်ရာ အသံ နားထောင်ပါ"
-        }
       }
     ],
     "answer": 2,
@@ -16156,12 +14410,6 @@
         "text": {
           "en": "Add engine oil immediately",
           "my": "ချက်ချင်း အင်ဂျင်ဆီ ဖြည့်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Add coolant immediately",
-          "my": "ချက်ချင်း coolant ဖြည့်ပါ"
         }
       }
     ],
@@ -16198,12 +14446,6 @@
           "en": "An information sign",
           "my": "သတင်းအချက်အလက်ဆိုင်းဘုတ်"
         }
-      },
-      {
-        "text": {
-          "en": "A temporary road sign",
-          "my": "ယာယီ လမ်းဆိုင်းဘုတ်"
-        }
       }
     ],
     "answer": 1,
@@ -16238,12 +14480,6 @@
         "text": {
           "en": "Reverse directly into the space from behind",
           "my": "နောက်မှ နောက်ဆုတ်ဝင်ကာ တည့်တည့် နေရာသို့ ဝင်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Park at an angle and adjust later",
-          "my": "ထောင့်ထောင့်ရပ်ကာ နောက်မှ ညှိပါ"
         }
       }
     ],
@@ -16280,12 +14516,6 @@
           "en": "A carpooling points system",
           "my": "Carpooling point စနစ်"
         }
-      },
-      {
-        "text": {
-          "en": "A rewards programme for safe drivers",
-          "my": "လုံခြုံသောကားသမားများအတွက် ဆုကြေးစနစ်"
-        }
       }
     ],
     "answer": 1,
@@ -16320,12 +14550,6 @@
         "text": {
           "en": "Sound the horn and then move",
           "my": "တော်တူမမြည်ကာ ရွှေ့ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Only check if changing to the right lane",
-          "my": "ညာဘက် lane သို့ ပြောင်းမှသာ စစ်ဆေးပါ"
         }
       }
     ],
@@ -16362,12 +14586,6 @@
           "en": "Increased pedestrian traffic",
           "my": "လျှောက်သူ ယာဉ်ကြော တိုးများလာခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "More cyclists on the road",
-          "my": "လမ်းပေါ် စက်ဘီးစီးသူ ပိုများလာခြင်း"
-        }
       }
     ],
     "answer": 1,
@@ -16402,12 +14620,6 @@
         "text": {
           "en": "The exhaust filter needs cleaning",
           "my": "ချောဆီစစ်ပစ္စည်း သန့်ရှင်းသင့်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Only a problem in cold weather",
-          "my": "အအေးရာသီတွင်သာ ပြဿနာ"
         }
       }
     ],
@@ -16444,12 +14656,6 @@
           "en": "Hazard lights may be used while driving in heavy rain",
           "my": "မိုးသည်းနေစဉ် မောင်းနှင်နေချိန်တွင် hazard မီးများ သုံးနိုင်သည်"
         }
-      },
-      {
-        "text": {
-          "en": "Hazard lights replace the need to signal when changing lanes",
-          "my": "Hazard မီးများသည် lane ပြောင်းသောအခါ ဆိုင်နယ်ပေးခြင်းကို အစားထိုးနိုင်သည်"
-        }
       }
     ],
     "answer": 1,
@@ -16484,12 +14690,6 @@
         "text": {
           "en": "Stop the car immediately",
           "my": "ကားကို ချက်ချင်းရပ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Close your eyes briefly until the car passes",
-          "my": "ကားဖြတ်ကျော်သည်အထိ မျက်လုံးကို တိုတိုမှိတ်ပါ"
         }
       }
     ],
@@ -16526,12 +14726,6 @@
           "en": "On expressways only",
           "my": "Expressway ပေါ်တွင်သာ"
         }
-      },
-      {
-        "text": {
-          "en": "When traffic is moving slowly in two lanes",
-          "my": "လမ်းကြောင်းနှစ်ကြောင်းတွင် ယာဉ်ကြောနှေးနှေးစီးဆင်းနေသောအခါ"
-        }
       }
     ],
     "answer": 1,
@@ -16566,12 +14760,6 @@
         "text": {
           "en": "It causes the driver to lose speed awareness",
           "my": "ကားသမားအား အမြန်နှုန်းသတိ ဆုံးရှုံးစေသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "It makes the driver drowsy",
-          "my": "ကားသမားကို အိပ်ငိုးနွမ်းနယ်စေသည်"
         }
       }
     ],
@@ -16608,12 +14796,6 @@
           "en": "Only when they stop working completely",
           "my": "လုံးဝ အလုပ်ပိတ်သောအခါသာ"
         }
-      },
-      {
-        "text": {
-          "en": "After exactly 12 months of use",
-          "my": "12 လ အသုံးပြုပြီးနောက်"
-        }
       }
     ],
     "answer": 1,
@@ -16648,12 +14830,6 @@
         "text": {
           "en": "Above 4,000 RPM",
           "my": "4,000 RPM အထက်"
-        }
-      },
-      {
-        "text": {
-          "en": "RPM does not affect fuel consumption",
-          "my": "RPM သည် လောင်စာသုံးစွဲမှုကို မသက်ရောက်ပါ"
         }
       }
     ],
@@ -16690,12 +14866,6 @@
           "en": "Drive past and call police from a safe distance",
           "my": "ဖြတ်ကျော်မောင်းကာ လုံခြုံသောအကွာမှ ရဲကို ဖုန်းဆက်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Wait for someone else to call for help",
-          "my": "အခြားတစ်ဦးဦး ကူညီမှုတောင်းဆိုသည်အထိ စောင့်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -16730,12 +14900,6 @@
         "text": {
           "en": "Cars must stop immediately",
           "my": "ကားများ ချက်ချင်းရပ်ရမည်"
-        }
-      },
-      {
-        "text": {
-          "en": "The crossing is out of order",
-          "my": "ဖြတ်ကူးရာမှောင် ပျက်စီးနေသည်"
         }
       }
     ],
@@ -16772,12 +14936,6 @@
           "en": "Checking your mirrors every 2 minutes",
           "my": "2 မိနစ်တိုင်း မှန်စစ်ဆေးခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Knowing the location of the nearest petrol station",
-          "my": "အနီးဆုံး ဓာတ်ဆီဆိုင်၏ တည်နေရာ သိနေခြင်း"
-        }
       }
     ],
     "answer": 1,
@@ -16812,12 +14970,6 @@
         "text": {
           "en": "The air conditioning is on",
           "my": "လေအေးပေးစနစ် ဖွင့်ထားခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Heavy load in the boot only",
-          "my": "ကားဒြောပ်တွင် ပစ္စည်းများ ကြီးမားစွာ တင်ထားခြင်းသာ"
         }
       }
     ],
@@ -16854,12 +15006,6 @@
           "en": "Do a U-turn on the expressway",
           "my": "Expressway ပေါ်တွင် U-turn ပြုပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Stop on the hard shoulder and call for directions",
-          "my": "Hard shoulder တွင် ရပ်ကာ လမ်းညွှန်ချက်ကို ဖုန်းဆက်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -16894,12 +15040,6 @@
         "text": {
           "en": "Lorries prohibited on this road",
           "my": "ဒီလမ်းပေါ် ထရပ်ကားများ တားမြစ်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Weight limit on the road ahead",
-          "my": "ရှေ့လမ်းပေါ် အလေးချိန်ကန့်သတ်ချက်"
         }
       }
     ],
@@ -16936,12 +15076,6 @@
           "en": "To replace parking fees in the CBD",
           "my": "CBD ရှိ ကားရပ်ဆောင်ကြေးကို အစားထိုးရန်"
         }
-      },
-      {
-        "text": {
-          "en": "To track stolen vehicles",
-          "my": "ခိုးယူသောယာဉ်များကို ကြည့်ရှုရှာဖွေရန်"
-        }
       }
     ],
     "answer": 1,
@@ -16976,12 +15110,6 @@
         "text": {
           "en": "Sound your horn to alert the crew",
           "my": "အဖွဲ့ကို သတိပေးရန် တော်တူမမြည်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Only slow down if there is a police officer directing traffic",
-          "my": "ရဲတပ်ဖွဲ့ ယာဉ်ကြောလမ်းညွှန်နေမှသာ နှေးကွေးပါ"
         }
       }
     ],
@@ -17018,12 +15146,6 @@
           "en": "Use the other lane to give the horse a full lane of space",
           "my": "မြင်းကို lane တစ်ကြောင်း အပြည့်နေရာပေးရန် အခြား lane ကို သုံးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Flash your headlights to signal you are passing",
-          "my": "ဖြတ်ကျော်နေကြောင်း ဆိုင်နယ်ပေးရန် မီးဖတ်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -17058,12 +15180,6 @@
         "text": {
           "en": "Only when the speed limit sign changes",
           "my": "အမြန်နှုန်းကန့်သတ်ဆိုင်းဘုတ် ပြောင်းလဲသောအခါသာ"
-        }
-      },
-      {
-        "text": {
-          "en": "After 60 seconds in the right lane",
-          "my": "ညာဘက် lane တွင် 60 စက္ကန့် ကြာပြီးနောက်"
         }
       }
     ],
@@ -17100,12 +15216,6 @@
           "en": "To control the vehicle's braking force",
           "my": "ယာဉ်၏ ဘရိတ်အား ထိန်းချုပ်ရန်"
         }
-      },
-      {
-        "text": {
-          "en": "To lubricate the suspension system",
-          "my": "Suspension စနစ်ကို ချောဆီပေးရန်"
-        }
       }
     ],
     "answer": 1,
@@ -17140,12 +15250,6 @@
         "text": {
           "en": "Only at speeds above 100 km/h",
           "my": "100 ကီလိုမီတာ/နာရီ ထက်ကျော်မှသာ"
-        }
-      },
-      {
-        "text": {
-          "en": "Air conditioning saves fuel by keeping the driver alert",
-          "my": "လေအေးပေးစနစ်သည် ကားသမားကို သတိရှိနေစေကာ လောင်စာ ချွေတာသည်"
         }
       }
     ],
@@ -17182,12 +15286,6 @@
           "en": "Take sleeping tablets the night before to ensure good sleep",
           "my": "ကောင်းသောအိပ်ချိန်ကို သေချာစေရန် ညနေတွင် အိပ်ဆေး သောက်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Leave at midnight when traffic is lightest",
-          "my": "ယာဉ်ကြောအနည်းဆုံးဖြစ်သော သန်းခေါင်တွင် ထွက်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -17222,12 +15320,6 @@
         "text": {
           "en": "Wait an extra 5 seconds before moving",
           "my": "ထွက်ခွာမတိုင်မှီ 5 စက္ကန့် ထပ်မံစောင့်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Sound your horn to signal your intention to move",
-          "my": "ထွက်ခွာမည်ကို ဆိုင်နယ်ပေးရန် တော်တူမမြည်ပါ"
         }
       }
     ],
@@ -17264,12 +15356,6 @@
           "en": "The vehicle needs an oil change",
           "my": "ယာဉ်တွင် ဆီလဲလှယ်ရမည်"
         }
-      },
-      {
-        "text": {
-          "en": "The engine is running hot",
-          "my": "အင်ဂျင် အပူတက်နေသည်"
-        }
       }
     ],
     "answer": 1,
@@ -17304,12 +15390,6 @@
         "text": {
           "en": "Leaving headlights on during daytime",
           "my": "နေ့အချိန်တွင် headlight ဖွင့်ထားခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Using aftermarket headlights that are too bright",
-          "my": "အလွန် တောက်သော aftermarket headlight သုံးစွဲခြင်း"
         }
       }
     ],
@@ -17346,12 +15426,6 @@
           "en": "To control the air conditioning temperature",
           "my": "လေအေးပေးစနစ် အပူချိန်ကို ထိန်းချုပ်ရန်"
         }
-      },
-      {
-        "text": {
-          "en": "To control oil pressure",
-          "my": "ဆီဖိအားကို ထိန်းချုပ်ရန်"
-        }
       }
     ],
     "answer": 1,
@@ -17387,12 +15461,6 @@
           "en": "A bicycle lane boundary",
           "my": "စက်ဘီး lane နယ်နိမိတ်"
         }
-      },
-      {
-        "text": {
-          "en": "The start of a no-overtaking zone",
-          "my": "ကျော်ဖြတ်ခြင်းမပြုရ ဇုန် အစ"
-        }
       }
     ],
     "answer": 0,
@@ -17427,12 +15495,6 @@
         "text": {
           "en": "Parking is prohibited here",
           "my": "ဒီနေရာတွင် ကားရပ်ခြင်း တားမြစ်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "A road closure is ahead",
-          "my": "ရှေ့တွင် လမ်းပိတ်ဆို့မည်"
         }
       }
     ],
@@ -17470,12 +15532,6 @@
           "en": "The speed of other vehicles around you",
           "my": "ပတ်ဝန်းကျင်ရှိ အခြားယာဉ်များ၏ အမြန်နှုန်း"
         }
-      },
-      {
-        "text": {
-          "en": "The maximum speed your vehicle can achieve",
-          "my": "သင့်ယာဉ် ရောက်နိုင်သောအမြင့်ဆုံး အမြန်နှုန်း"
-        }
       }
     ],
     "answer": 1,
@@ -17510,12 +15566,6 @@
         "text": {
           "en": "No stopping",
           "my": "ရပ်ခြင်းမပြုရ"
-        }
-      },
-      {
-        "text": {
-          "en": "No parking",
-          "my": "ကားရပ်ခြင်းမပြုရ"
         }
       }
     ],
@@ -17552,12 +15602,6 @@
           "en": "P-plate drivers have the same speed limit as all other drivers",
           "my": "P-plate ကားသမားများ အခြားကားသမားများနှင့် တူညီသောအမြန်နှုန်းကန့်သတ်ချက် ရှိသည်"
         }
-      },
-      {
-        "text": {
-          "en": "P-plate drivers must not exceed 50 km/h",
-          "my": "P-plate ကားသမားများသည် 50 ကီလိုမီတာ/နာရီ မကျော်ရ"
-        }
       }
     ],
     "answer": 0,
@@ -17592,12 +15636,6 @@
         "text": {
           "en": "Lay them flat on their back and start CPR",
           "my": "ကျောချပြောင်းကာ CPR စတင်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Put your fingers in their mouth to remove the obstruction",
-          "my": "ပိတ်ဆို့မှုကို ဖယ်ရှားရန် မိမိ လက်ချောင်းကို သူတို့ပါးစပ်ထဲ ထည့်ပါ"
         }
       }
     ],
@@ -17634,12 +15672,6 @@
           "en": "Ignore it — brakes always work fine after water",
           "my": "လျစ်လျူရှုပါ — ရေကြောင့် ဘရိတ်တွင် ပြဿနာ မဖြစ်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Stop the vehicle and inspect the brake pads",
-          "my": "ယာဉ်ရပ်ကာ ဘရိတ်ပဲများ စစ်ဆေးပါ"
-        }
       }
     ],
     "answer": 1,
@@ -17674,12 +15706,6 @@
         "text": {
           "en": "To comply with Singapore traffic regulations only",
           "my": "စင်္ကာပူ ယာဉ်ကြောမှုစည်းမျဉ်းများ လိုက်နာရန်သာ"
-        }
-      },
-      {
-        "text": {
-          "en": "So passengers can see out of the mirrors",
-          "my": "ခရီးသည်များ မှန်များမှ ကြည့်နိုင်ရန်"
         }
       }
     ],
@@ -17716,12 +15742,6 @@
           "en": "The handbrake is slightly on",
           "my": "လက်ဘရိတ် ကြိုးစပ်နေသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Normal sounds that can be ignored",
-          "my": "လျစ်လျူရှုနိုင်သော ပုံမှန် အသံများ"
-        }
       }
     ],
     "answer": 1,
@@ -17756,12 +15776,6 @@
         "text": {
           "en": "Maintain your current speed through the junction",
           "my": "လမ်းဆုံ/လမ်းခွ တွင် လက်ရှိ အမြန်နှုန်းကို ထိန်းကာ ဆက်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Sound your horn and proceed",
-          "my": "တော်တူမမြည်ကာ ဆက်ပါ"
         }
       }
     ],
@@ -17798,12 +15812,6 @@
           "en": "Only on expressways",
           "my": "Expressway ပေါ်တွင်သာ"
         }
-      },
-      {
-        "text": {
-          "en": "Only when other vehicles use headlights",
-          "my": "အခြားယာဉ်များ headlight ဖွင့်မှသာ"
-        }
       }
     ],
     "answer": 1,
@@ -17838,12 +15846,6 @@
         "text": {
           "en": "The higher the pressure the better for fuel economy",
           "my": "ဖိအားပိုမြင့်လျှင် လောင်စာချွေတာမှုပိုကောင်းသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Tyre pressure is not important as long as tyres are not flat",
-          "my": "တာယာပြားပြားမဖြစ်သမျှ တာယာဖိအား အရေးမကြီးပါ"
         }
       }
     ],
@@ -17880,12 +15882,6 @@
           "en": "It only affects driving above 60 km/h",
           "my": "60 ကီလိုမီတာ/နာရီ ထက်ကျော်မှသာ မောင်းနှင်မှုကို သက်ရောက်သည်"
         }
-      },
-      {
-        "text": {
-          "en": "It has no measurable effect at one drink",
-          "my": "တစ်ချောင်းဝယ်တွင် တိုင်းတာနိုင်သောသက်ရောက်မှု မရှိပါ"
-        }
       }
     ],
     "answer": 1,
@@ -17920,12 +15916,6 @@
         "text": {
           "en": "A prohibited action",
           "my": "တားမြစ်ထားသော ဆောင်ရွက်မှု"
-        }
-      },
-      {
-        "text": {
-          "en": "A parking zone",
-          "my": "ကားရပ်ဆောင်ဇုန်"
         }
       }
     ],
@@ -17962,12 +15952,6 @@
           "en": "It is only a problem for cars, not motorcycles",
           "my": "ကားများအတွက်သာ ပြဿနာဖြစ်ပြီး မောတော်ဆိုင်ကယ်ကို မသက်ရောက်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Paint markings are designed to be safe even when wet",
-          "my": "ဆေးထိုးမျဉ်းများ ရွှဲနေသောအခါပင် လုံခြုံသောပုံ ဒီဇိုင်းချထားသည်"
-        }
       }
     ],
     "answer": 1,
@@ -18002,12 +15986,6 @@
         "text": {
           "en": "To regulate fuel injection",
           "my": "လောင်စာ ထိုးသွင်းမှုကို ထိန်းညှိရန်"
-        }
-      },
-      {
-        "text": {
-          "en": "To cool the engine",
-          "my": "အင်ဂျင်ကို အအေးခံရန်"
         }
       }
     ],
@@ -18044,12 +16022,6 @@
           "en": "Only take photos and do not exchange information",
           "my": "ဓာတ်ပုံသာ ရိုက်ကာ သတင်းအချက်အလက် မဖလှယ်ပါနှင့်"
         }
-      },
-      {
-        "text": {
-          "en": "Only the other driver's vehicle registration number",
-          "my": "အခြားကားသမား၏ ယာဉ်မှတ်ပုံတင်နံပါတ်သာ"
-        }
       }
     ],
     "answer": 1,
@@ -18084,12 +16056,6 @@
         "text": {
           "en": "Coasting in neutral saves the most fuel and is recommended",
           "my": "Neutral coasting သည် လောင်စာ အများဆုံး ချွေတာပြီး အကြံပြုသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Coasting has no effect on fuel consumption",
-          "my": "Coasting သည် လောင်စာသုံးစွဲမှုကို သက်ရောက်မှုမရှိပါ"
         }
       }
     ],
@@ -18126,12 +16092,6 @@
           "en": "Close your eyes and wait for the emergency to pass",
           "my": "မျက်လုံးပိတ်ကာ အရေးပေါ်ကုန်ဆုံးသည်အထိ စောင့်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Always swerve to the right to avoid the hazard",
-          "my": "အန္တရာယ် ရှောင်ရန် အမြဲ ညာဘက်သို့ လမ်းပြောင်းပါ"
-        }
       }
     ],
     "answer": 1,
@@ -18166,12 +16126,6 @@
         "text": {
           "en": "To mark the edges of the road only",
           "my": "လမ်းနားများကိုသာ မှတ်သားရန်"
-        }
-      },
-      {
-        "text": {
-          "en": "Speed measurement markers",
-          "my": "အမြန်နှုန်းတိုင်းတာရာ မှတ်ဆိုင်းများ"
         }
       }
     ],
@@ -18208,12 +16162,6 @@
           "en": "Accelerate to regain traction",
           "my": "ဆုပ်ကိုင်မှုပြန်ရရှိရန် Accelerate ပြုပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Engage the handbrake",
-          "my": "လက်ဘရိတ် ကြိုးစပ်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -18248,12 +16196,6 @@
         "text": {
           "en": "Driving with the boot open",
           "my": "ကားဒြောပ် ဖွင့်ကာ မောင်းနှင်ခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Making hand signals while driving",
-          "my": "မောင်းနှင်နေစဉ် လက်ဟန်ဆိုင်နယ်ပေးခြင်း"
         }
       }
     ],
@@ -18290,12 +16232,6 @@
           "en": "Report the IU as stolen",
           "my": "IU ကို ခိုးယူသည်ဟု သတင်းပို့ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "The charge is automatically waived if the IU fails",
-          "my": "IU ပျက် စီးပါက ကြေးကို အလိုအလျောက် ကင်းလွတ်ပေးသည်"
-        }
       }
     ],
     "answer": 1,
@@ -18330,12 +16266,6 @@
         "text": {
           "en": "For up to 5 minutes at any time",
           "my": "မည်သည့်အချိန်မဆို 5 မိနစ်အထိ"
-        }
-      },
-      {
-        "text": {
-          "en": "Never — buses have absolute priority in bus lanes at all times",
-          "my": "မည်သည့်အချိန်မဆို — ဘတ်စ်ကားများ ဘတ်စ် lane တွင် အမြဲ အကြွင်းမဲ့ ဦးစားပေးမှုရသည်"
         }
       }
     ],
@@ -18372,12 +16302,6 @@
           "en": "To connect the engine to the gearbox",
           "my": "အင်ဂျင်ကို ဂီယာဘောက်စ်နှင့် ချိတ်ဆက်ရန်"
         }
-      },
-      {
-        "text": {
-          "en": "To align the engine for optimal performance",
-          "my": "ကောင်းမွန်သောစွမ်းဆောင်ရည်အတွက် အင်ဂျင်ကို ညှိနှိုင်းရန်"
-        }
       }
     ],
     "answer": 1,
@@ -18412,12 +16336,6 @@
         "text": {
           "en": "No U-turn",
           "my": "U-turn မပြုရ"
-        }
-      },
-      {
-        "text": {
-          "en": "Road narrows",
-          "my": "လမ်း ကျဉ်းလာမည်"
         }
       }
     ],
@@ -18454,12 +16372,6 @@
           "en": "A state where drivers become overconfident and speed excessively",
           "my": "ကားသမားများ အလွန်ယုံကြည်ကာ အမြန်နှုန်းလွန်ကဲသောအခြေအနေ"
         }
-      },
-      {
-        "text": {
-          "en": "Being hypnotized by the ERP gantry lights",
-          "my": "ERP Gantry မီးများကြောင့် ဆွဲဆောင်ခြင်း"
-        }
       }
     ],
     "answer": 1,
@@ -18494,12 +16406,6 @@
         "text": {
           "en": "10 km/h",
           "my": "10 ကီလိုမီတာ/နာရီ"
-        }
-      },
-      {
-        "text": {
-          "en": "30 km/h",
-          "my": "30 ကီလိုမီတာ/နာရီ"
         }
       }
     ],
@@ -18536,12 +16442,6 @@
           "en": "Horns may only be used on expressways",
           "my": "Expressway ပေါ်တွင်သာ တော်တူ သုံးနိုင်သည်"
         }
-      },
-      {
-        "text": {
-          "en": "Horns must be used to warn pedestrians at crossings",
-          "my": "Crossing တွင် လျှောက်သူများကို သတိပေးရန် တော်တူ မဖြစ်မနေ ဖွင့်ရမည်"
-        }
       }
     ],
     "answer": 1,
@@ -18576,12 +16476,6 @@
         "text": {
           "en": "To reduce engine noise",
           "my": "အင်ဂျင်ဆူညံသောသံကို လျှော့ချရန်"
-        }
-      },
-      {
-        "text": {
-          "en": "To filter the air entering the engine",
-          "my": "အင်ဂျင်ဝင်ရောက်သောလေကို စစ်ကြောင်းရန်"
         }
       }
     ],
@@ -18618,12 +16512,6 @@
           "en": "Only if the weight is in the boot",
           "my": "ကားဒြောပ်ထဲတွင်ရှိမှသာ"
         }
-      },
-      {
-        "text": {
-          "en": "Only in petrol cars, not diesel",
-          "my": "ဓာတ်ဆီကားများတွင်သာ, ဒီဇယ်တွင် မဟုတ်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -18658,12 +16546,6 @@
         "text": {
           "en": "Yellow lanes are emergency vehicle lanes at all times",
           "my": "အဝါရောင် lane များသည် မည်သည့်အချိန်မဆို အရေးပေါ်ယာဉ် lane များဖြစ်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Yellow lanes may be used by all vehicles at any time",
-          "my": "မည်သည့်အချိန်မဆို ယာဉ်အားလုံး အဝါရောင် lane ကို သုံးနိုင်သည်"
         }
       }
     ],
@@ -18700,12 +16582,6 @@
           "en": "Every time you change the engine oil",
           "my": "အင်ဂျင်ဆီ လဲသောတိုင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Air filters never need replacing",
-          "my": "လေစစ်ကြောင်းများ မည်သည့်အချိန်မဆို အစားထိုးရန် မလိုပါ"
-        }
       }
     ],
     "answer": 1,
@@ -18740,12 +16616,6 @@
         "text": {
           "en": "Driving in automatic mode only",
           "my": "Automatic mode တွင်သာ မောင်းနှင်ခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Using weather apps to plan your drive",
-          "my": "ခရီးစဉ်စီစဉ်ရန် ရာသီဥတုအက်ပ် သုံးစွဲခြင်း"
         }
       }
     ],
@@ -18782,12 +16652,6 @@
           "en": "The signal has broken — cross with extreme caution",
           "my": "မှောင်ပျက်စီးနေသည် — အလွန်သတိဖြင့် ဖြတ်ကူးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Pedestrians have absolute priority while the green man is showing",
-          "my": "အစိမ်းလူပုံ ပေါ်နေစဉ် လျှောက်သူများ အကြွင်းမဲ့ ဦးစားပေးမှုရသည်"
-        }
       }
     ],
     "answer": 1,
@@ -18822,12 +16686,6 @@
         "text": {
           "en": "2.5 metres",
           "my": "2.5 မီတာ"
-        }
-      },
-      {
-        "text": {
-          "en": "5.0 metres",
-          "my": "5.0 မီတာ"
         }
       }
     ],
@@ -18864,12 +16722,6 @@
           "en": "The oil filter needs replacing",
           "my": "ဆီစစ်ကြောင်း အစားထိုးရမည်"
         }
-      },
-      {
-        "text": {
-          "en": "The engine oil is too hot",
-          "my": "အင်ဂျင်ဆီ အလွန်ပူသည်"
-        }
       }
     ],
     "answer": 1,
@@ -18904,12 +16756,6 @@
         "text": {
           "en": "A fixed 10-metre gap at all speeds",
           "my": "မည်သည့်အမြန်နှုန်းတွင်မဆို 10 မီတာ ကွာဟမှု"
-        }
-      },
-      {
-        "text": {
-          "en": "Whatever feels comfortable to the driver",
-          "my": "ကားသမားအား သက်တောင့်သက်သာ ဖြစ်သမျှ"
         }
       }
     ],
@@ -18946,12 +16792,6 @@
           "en": "Provide first aid if you are trained",
           "my": "ကျွမ်းကျင်ပါက ပထမဆုံးအကူအညီ ပေးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Move injured persons to safety if there is immediate danger",
-          "my": "ချက်ချင်းအန္တရာယ်ရှိပါက ဒဏ်ရာရသူများကို လုံခြုံသောနေရာသို့ ရွှေ့ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -18986,12 +16826,6 @@
         "text": {
           "en": "Lorries travel too fast and you may be overtaken",
           "my": "ထရပ်ကားများ အလွန်မြန်ပြီး ကျော်ဖြတ်ခံနိုင်သည်"
-        }
-      },
-      {
-        "text": {
-          "en": "The exhaust fumes from lorries are dangerous only",
-          "my": "ထရပ်ကား ချောင်မောက်ကြောင်းများ ကြောင့်သာ အန္တရာယ်ရှိသည်"
         }
       }
     ],
@@ -19028,12 +16862,6 @@
           "en": "Increase speed to cool down the brakes",
           "my": "ဘရိတ်ကို အအေးခံရန် အမြန်နှုန်းတိုးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Add water to the brakes to cool them",
-          "my": "ဘရိတ်ကို အအေးခံရန် ရေ ထည့်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -19068,12 +16896,6 @@
         "text": {
           "en": "Toward the kerb (left)",
           "my": "လမ်းနားဆီသို့ (ဘယ်ဘက်)"
-        }
-      },
-      {
-        "text": {
-          "en": "It does not matter which way the wheels are turned",
-          "my": "ဘီးကို မည်သည့်ဘက်ကြည့် လှည့်သည်မဆို အရေးမကြီးပါ"
         }
       }
     ],
@@ -19110,12 +16932,6 @@
           "en": "The area where cyclists must dismount",
           "my": "စက်ဘီးစီးသူများ ဆင်းရမည့်ဧရိယာ"
         }
-      },
-      {
-        "text": {
-          "en": "Road narrowing ahead",
-          "my": "ရှေ့တွင် လမ်းကျဉ်းလာမည်"
-        }
       }
     ],
     "answer": 1,
@@ -19150,12 +16966,6 @@
         "text": {
           "en": "They are the same — different names only",
           "my": "တူညီသည် — အမည်သာ ကွဲပြားသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Disc brakes are for the rear wheels only",
-          "my": "Disc brake သည် နောက်ဘီးများအတွက်သာ"
         }
       }
     ],
@@ -19192,12 +17002,6 @@
           "en": "A zone where only emergency vehicles may pass",
           "my": "အရေးပေါ်ယာဉ်များသာ ဖြတ်ကျော်နိုင်သောဇုန်"
         }
-      },
-      {
-        "text": {
-          "en": "A restricted area for vehicles carrying hazardous materials",
-          "my": "အန္တရာယ်ရှိသောပစ္စည်း သယ်ဆောင်သောယာဉ်များအတွက် ကန့်သတ်ဧရိယာ"
-        }
       }
     ],
     "answer": 1,
@@ -19232,12 +17036,6 @@
         "text": {
           "en": "Only stop if there is a vehicle approaching",
           "my": "ယာဉ်တစ်စီး ချဉ်းကပ်လာမှသာ ရပ်ပါ"
-        }
-      },
-      {
-        "text": {
-          "en": "Stop for exactly 3 seconds then proceed",
-          "my": "3 စက္ကန့်ကြာ ရပ်ပြီးမှ ဆက်ပါ"
         }
       }
     ],
@@ -19274,12 +17072,6 @@
           "en": "It slows traffic which is beneficial",
           "my": "ယာဉ်ကြောကို နှေးစေသောကြောင့် အကျိုးရှိသည်"
         }
-      },
-      {
-        "text": {
-          "en": "It is only dangerous at night",
-          "my": "ညတွင်သာ အန္တရာယ်ရှိသည်"
-        }
       }
     ],
     "answer": 1,
@@ -19314,12 +17106,6 @@
         "text": {
           "en": "Only when the oil warning light comes on",
           "my": "ဆီသတိပေးမီး ဖွင့်လာသောအခါသာ"
-        }
-      },
-      {
-        "text": {
-          "en": "Oil never needs to be checked between services",
-          "my": "ဝန်ဆောင်မှုကြားတွင် ဆီ စစ်ဆေးရန် မလိုပါ"
         }
       }
     ],
@@ -19356,12 +17142,6 @@
           "en": "Signal left only",
           "my": "ဘယ်ဘက် ဆိုင်နယ်သာ ပေးပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Use hazard lights to indicate a U-turn",
-          "my": "U-turn ကို ညွှန်ပြရန် hazard မီးများ သုံးပါ"
-        }
       }
     ],
     "answer": 1,
@@ -19396,12 +17176,6 @@
         "text": {
           "en": "21 years old",
           "my": "21 နှစ်"
-        }
-      },
-      {
-        "text": {
-          "en": "17 years old",
-          "my": "17 နှစ်"
         }
       }
     ],
@@ -19438,12 +17212,6 @@
           "en": "Applying the handbrake to slow down",
           "my": "နှေးစေရန် လက်ဘရိတ် ကြိုးစပ်ခြင်း"
         }
-      },
-      {
-        "text": {
-          "en": "Turning off the engine while moving to slow down",
-          "my": "နှေးစေရန် ရွှေ့နေစဉ် အင်ဂျင်ပိတ်ခြင်း"
-        }
       }
     ],
     "answer": 1,
@@ -19478,12 +17246,6 @@
         "text": {
           "en": "To slow down vehicles approaching the exit",
           "my": "ထွက်ပေါက်ချဉ်းကပ်သောယာဉ်များကို နှေးစေရန်"
-        }
-      },
-      {
-        "text": {
-          "en": "To mark parking areas on the expressway",
-          "my": "Expressway ပေါ် ကားရပ်ဆောင်နေရာများ မှတ်သားရန်"
         }
       }
     ],
@@ -19520,12 +17282,6 @@
           "en": "Continue driving at high speed until the pedal releases itself",
           "my": "Pedal အလိုအလျောက် ပြန်လွတ်သည်အထိ မြင့်သောအမြန်နှုန်းဖြင့် ဆက်မောင်းပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Apply the handbrake immediately at full force",
-          "my": "ချက်ချင်း လက်ဘရိတ်ကို အပြည့်အဝ ကြိုးစပ်ပါ"
-        }
       }
     ],
     "answer": 1,
@@ -19560,12 +17316,6 @@
         "text": {
           "en": "A school zone ahead",
           "my": "ရှေ့တွင် ကျောင်းဇုန်ရှိသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "Speed cameras ahead",
-          "my": "ရှေ့တွင် အမြန်နှုန်းကင်မရာရှိသည်"
         }
       }
     ],
@@ -19602,12 +17352,6 @@
           "en": "112",
           "my": "112"
         }
-      },
-      {
-        "text": {
-          "en": "911",
-          "my": "911"
-        }
       }
     ],
     "answer": 1,
@@ -19642,12 +17386,6 @@
         "text": {
           "en": "Only on the left side of the lorry",
           "my": "ထရပ်ကား ဘယ်ဘက်ကမ်းတွင်သာ"
-        }
-      },
-      {
-        "text": {
-          "en": "Lorries have full 360-degree visibility with cameras",
-          "my": "ထရပ်ကားများ ကင်မရာဖြင့် 360 ဒီဂရီ မြင်ကွင်းရသည်"
         }
       }
     ],
@@ -19684,12 +17422,6 @@
           "en": "It helps you find parking spaces faster",
           "my": "ကားရပ်ဆောင်နေရာ မြန်မြန်ရှာနိုင်ရန် ကူညီသည်"
         }
-      },
-      {
-        "text": {
-          "en": "It is required by law but has no practical benefit",
-          "my": "ဥပဒေအရ လိုအပ်သော်လည်း လက်တွေ့ အကျိုးကျေးဇူး မရှိပါ"
-        }
       }
     ],
     "answer": 1,
@@ -19725,12 +17457,6 @@
           "en": "50% above the limit",
           "my": "ကန့်သတ်ချက်ထက် 50%"
         }
-      },
-      {
-        "text": {
-          "en": "There is no tolerance — any speed over the limit is prosecuted",
-          "my": "ခွင့်လွှတ်မှု မရှိပါ — ကန့်သတ်ချက်ကျော်သောအမြန်နှုန်းတိုင်း တရားစွဲသည်"
-        }
       }
     ],
     "answer": 1,
@@ -19765,12 +17491,6 @@
         "text": {
           "en": "Keeping the car clean and well maintained",
           "my": "ကားကို သန့်ရှင်းပြီး ကောင်းမွန်စွာ ထိန်းသိမ်းခြင်း"
-        }
-      },
-      {
-        "text": {
-          "en": "Knowing all traffic rules by heart",
-          "my": "ယာဉ်ကြောစည်းမျဉ်းများ အားလုံးကို လွတ်ကျက်ထားခြင်း"
         }
       }
     ],
