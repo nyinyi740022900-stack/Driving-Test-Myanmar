@@ -11,6 +11,7 @@ import { MediaPlaceholder } from './Signs';
 import { useAuth } from './AuthProvider';
 import ReminderBell from './ReminderBell';
 import AdSlot from './AdSlot';
+import RewardedAdButton from './RewardedAdButton';
 import { createClient } from '@/lib/supabase';
 import { canRunMockTest, recordMockTestUsage } from '@/lib/subscription';
 import { saveQuizResult, getBestScore, getAttemptCount } from '@/lib/progress';
@@ -371,14 +372,19 @@ export default function QuizSession({ category, mode, questions }: Props) {
                 <StatPill color="var(--asphalt)" label={t('result_attempts') ?? 'Tries'} value={getAttemptCount(category)} />
               </div>
               <WrongReview wrongQs={wrongQs} answers={answers} pool={pool} L={L} t={t} />
-              <AdSlot slot="5983088447" format="rectangle" className="quiz-ad" />
               <div style={{ display: 'flex', gap: 10, justifyContent: 'center', marginTop: 24, flexWrap: 'wrap' }}>
                 {wrongQs.length > 0 && (
-                  <button className="btn btn-primary" onClick={handleRetryWrong}>
-                    {t('retry_wrong') ?? `Retry ${wrongQs.length} wrong`}
-                  </button>
+                  <RewardedAdButton
+                    className="btn btn-primary"
+                    label={t('retry_wrong') ?? `Retry ${wrongQs.length} wrong`}
+                    onRewarded={handleRetryWrong}
+                  />
                 )}
-                <button className="btn btn-ghost" onClick={handleRestart}>{t('result_try_again')}</button>
+                <RewardedAdButton
+                  className="btn btn-ghost"
+                  label={t('result_try_again') ?? 'Try again'}
+                  onRewarded={handleRestart}
+                />
                 <BackButton label={t('back')} className="btn btn-ghost" />
               </div>
             </div>
