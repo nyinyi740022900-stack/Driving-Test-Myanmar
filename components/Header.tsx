@@ -77,8 +77,8 @@ export default function Header() {
           <nav className="main">
             <a href="#tests">{t('tests')}</a>
             <a href="#try">{t('try')}</a>
-            <a href="#resources">{t('res')}</a>
             <a href="#centres">{t('centre')}</a>
+            <a href="#resources">{t('res')}</a>
             <a href="#pricing">{t('pricing')}</a>
           </nav>
           <div className="spacer" />
@@ -156,8 +156,8 @@ export default function Header() {
               {([
                 ['#tests', t('tests')],
                 ['#try', t('try')],
-                ['#resources', t('res')],
                 ['#centres', t('centre')],
+                ['#resources', t('res')],
                 ['#pricing', t('pricing')],
               ] as [string, string][]).map(([href, label]) => (
                 <a
