@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { useCountry } from './CountryProvider';
-import { TEST_META } from '@/lib/types';
+import { TEST_META, getCountryBankTotal } from '@/lib/types';
 
 export default function TestCards() {
   const t = useTranslations('tests');
@@ -33,7 +33,11 @@ export default function TestCards() {
         <div className="shead">
           <div className="eyebrow">{t('eyebrow')}</div>
           <h2>{t('heading')}</h2>
-          <p>{t('sub')}</p>
+          <p>
+            {country === 'jp'
+              ? t('sub_jp', { count: getCountryBankTotal('jp') })
+              : t('sub', { count: getCountryBankTotal('sg') })}
+          </p>
         </div>
         <div className="tests">
           {tests.map(m => (
@@ -42,7 +46,8 @@ export default function TestCards() {
               <h3>{getName(m)}</h3>
               <p className="desc">{getDesc(m)}</p>
               <div className="meta">
-                <span><b>{m.questionCount}</b> {t('questions')}</span>
+                <span><b>{m.bankQuestionCount}</b> {t('practice_questions')}</span>
+                <span><b>{m.questionCount}</b> {t('mock_questions')}</span>
                 <span><b>{m.timeLimitMinutes} min</b></span>
                 <span><b>{m.passPercent}%</b> {t('to_pass')}</span>
               </div>

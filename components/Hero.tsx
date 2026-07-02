@@ -3,7 +3,12 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { useCountry } from './CountryProvider';
-import { TEST_META } from '@/lib/types';
+import { TEST_META, getCountryBankTotal } from '@/lib/types';
+
+function formatQuestionCount(n: number): string {
+  if (n >= 1000) return `${Math.floor(n / 100) * 100}+`;
+  return String(n);
+}
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -17,6 +22,7 @@ export default function Hero() {
 
   const eyebrow = country === 'sg' ? t('eyebrow_sg') : t('eyebrow_jp');
   const statLang = country === 'sg' ? t('stat_lang_sg') : t('stat_lang_jp');
+  const questionTotal = formatQuestionCount(getCountryBankTotal(country));
 
   return (
     <div className="hero">
@@ -45,7 +51,7 @@ export default function Hero() {
           </div>
           <div className="hero-stats">
             <div>
-              <div className="n">600+</div>
+              <div className="n">{questionTotal}</div>
               <div className="l">{t('stat_q')}</div>
             </div>
             <div>

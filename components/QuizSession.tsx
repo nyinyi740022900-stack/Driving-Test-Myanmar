@@ -7,6 +7,15 @@ import BackButton from './BackButton';
 import type { Category, Question } from '@/lib/types';
 import { TEST_META } from '@/lib/types';
 import { shuffleArray, pickLocalized } from '@/lib/questions';
+import type { QuizAnswer } from '@/lib/quiz-answers';
+import {
+  emptyAnswerFor,
+  isAnswerComplete,
+  isHazardQuestion,
+  isQuestionCorrect,
+  partLabel,
+  scorePool,
+} from '@/lib/quiz-answers';
 import { MediaPlaceholder } from './Signs';
 import { useAuth } from './AuthProvider';
 import ReminderBell from './ReminderBell';
@@ -25,6 +34,7 @@ const BATCH_SIZE = 50;
 const PRACTICE_MINUTES = 45;
 
 function shuffleChoices(q: Question): Question {
+  if (isHazardQuestion(q)) return q;
   const indices = q.choices.map((_, i) => i);
   for (let i = indices.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -62,9 +72,10 @@ export default function QuizSession({ category, mode, questions }: Props) {
 
   const [idx, setIdx]           = useState(0);
   const [picked, setPicked]     = useState<number | null>(null);
-  const [answers, setAnswers]   = useState<(number | null)[]>([]);
+  const [answers, setAnswers]   = useState<QuizAnswer[]>([]);
   const [submitted, setSubmitted] = useState(false);
   const [pendingPick, setPendingPick] = useState<number | null>(null);
+  const [partPicks, setPartPicks] = useState<(number | null)[]>([]);
   const [showMyanmar, setShowMyanmar] = useState(false);
   const [timeLeft, setTimeLeft] = useState(mode === 'practice' ? PRACTICE_MINUTES * 60 : meta.timeLimitMinutes * 60);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -103,14 +114,23 @@ export default function QuizSession({ category, mode, questions }: Props) {
 
   // Reset answers when pool changes
   useEffect(() => {
-    setAnswers(new Array(pool.length).fill(null));
+    setAnswers(pool.map(q => emptyAnswerFor(q)));
   }, [pool]);
 
-  // Sync picked with answer for current question
+  // Sync picked / part picks with answer for current question
   useEffect(() => {
-    setPicked(answers[idx] ?? null);
+    const current = answers[idx];
+    if (q && isHazardQuestion(q)) {
+      setPicked(null);
+      setPendingPick(null);
+      if (Array.isArray(current)) setPartPicks([...current]);
+      else setPartPicks(q.parts!.map(() => null));
+      return;
+    }
+    setPartPicks([]);
+    setPicked(typeof current === 'number' ? current : null);
     setPendingPick(null);
-  }, [idx, answers]);
+  }, [idx, answers, q]);
 
   // ── Freemium gate ─────────────────────────────────────────────────
   useEffect(() => {
@@ -148,11 +168,28 @@ export default function QuizSession({ category, mode, questions }: Props) {
     setPendingPick(i);
   }
 
+  function handlePartPick(partIndex: number, choice: number) {
+    if (mode === 'lesson') return;
+    if (q && isAnswerComplete(q, answers[idx])) return;
+    setPartPicks(prev => {
+      const next = [...prev];
+      next[partIndex] = choice;
+      return next;
+    });
+  }
+
   function handleConfirm() {
+    if (q && isHazardQuestion(q)) {
+      if (!partPicks.every(p => p !== null)) return;
+      const next = [...answers];
+      next[idx] = partPicks as number[];
+      setAnswers(next);
+      if (mode === 'test' && idx < pool.length - 1) setIdx(idx + 1);
+      return;
+    }
     if (pendingPick === null) return;
     const next = [...answers]; next[idx] = pendingPick; setAnswers(next);
     setPendingPick(null);
-    // In test mode there's no explanation shown — auto-advance to next question
     if (mode === 'test' && idx < pool.length - 1) {
       setIdx(idx + 1);
     }
@@ -163,15 +200,15 @@ export default function QuizSession({ category, mode, questions }: Props) {
   function handleSubmit() {
     if (timerRef.current) clearInterval(timerRef.current);
     if (mode === 'test') {
-      const correct = answers.filter((a, i) => a === pool[i].answer).length;
+      const scored = scorePool(pool, answers);
       if (getUnlockStatus(category) === 'granted') {
         setUnlockStatus(category, 'used');
       }
       saveQuizResult(category, {
         date: new Date().toISOString(),
-        score: correct,
-        total: pool.length,
-        passed: Math.round((correct / pool.length) * 100) >= meta.passPercent,
+        score: scored.earned,
+        total: scored.total,
+        passed: scored.percent >= meta.passPercent,
       });
     }
     setSubmitted(true);
@@ -195,7 +232,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
   }
 
   function handleRetryWrong() {
-    const wrong = pool.filter((_, i) => answers[i] !== pool[i].answer);
+    const wrong = pool.filter((q, i) => !isQuestionCorrect(q, answers[i]));
     setRetryPool(shuffleArray(wrong).map(shuffleChoices));
     setIdx(0); setPicked(null); setPendingPick(null); setSubmitted(false);
     setTimeLeft(PRACTICE_MINUTES * 60);
@@ -222,16 +259,27 @@ export default function QuizSession({ category, mode, questions }: Props) {
   }
 
   // Derived values
-  const correctCount  = answers.filter((a, i) => a === pool[i]?.answer).length;
-  const wrongCount    = pool.filter((_, i) => answers[i] !== null && answers[i] !== pool[i].answer).length;
-  const scorePercent  = pool.length ? Math.round((correctCount / pool.length) * 100) : 0;
+  const scored        = scorePool(pool, answers);
+  const correctCount  = scored.correctQuestions;
+  const wrongCount    = pool.filter((question, i) => isAnswerComplete(question, answers[i]) && !isQuestionCorrect(question, answers[i])).length;
+  const scorePercent  = scored.percent;
   const passed        = scorePercent >= meta.passPercent;
   const metaName      = locale === 'my' ? meta.nameMy : locale === 'ja' ? meta.nameJa : meta.nameEn;
   const isLastQ       = idx === pool.length - 1;
-  const showExp           = mode === 'lesson' || (mode === 'practice' && picked !== null);
-  const isCorrectPick     = picked === (q?.answer ?? -1);
-  const showSubmitConfirm = (mode === 'practice' || mode === 'test') && pendingPick !== null && picked === null;
-  const testCanSubmit     = mode === 'test' && isLastQ && pendingPick === null;
+  const hazardQ       = q ? isHazardQuestion(q) : false;
+  const hazardDone    = hazardQ && q ? isAnswerComplete(q, answers[idx]) : false;
+  const showExp           = mode === 'lesson' || (mode === 'practice' && (picked !== null || hazardDone));
+  const isCorrectPick     = hazardQ && q
+    ? isQuestionCorrect(q, answers[idx])
+    : picked === (q?.answer ?? -1);
+  const hazardReady       = hazardQ && q
+    && partPicks.length === q.parts!.length
+    && partPicks.every(p => p !== null)
+    && !hazardDone;
+  const showSubmitConfirm = (mode === 'practice' || mode === 'test') && (
+    (pendingPick !== null && picked === null) || hazardReady
+  );
+  const testCanSubmit     = mode === 'test' && isLastQ && pendingPick === null && !hazardReady;
 
   // ══════════════════════════════════════════════════════════════════
   //  GATE SCREENS
@@ -382,7 +430,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
   //  RESULTS SCREEN
   // ══════════════════════════════════════════════════════════════════
   if (submitted) {
-    const wrongQs = pool.filter((_, i) => answers[i] !== pool[i].answer);
+    const wrongQs = pool.filter((question, i) => !isQuestionCorrect(question, answers[i]));
     const isRetry = retryPool !== null;
 
     if (mode === 'test') {
@@ -403,7 +451,10 @@ export default function QuizSession({ category, mode, questions }: Props) {
               </h2>
               <div className={`score-big ${passed ? 'pass' : 'fail'}`}>{scorePercent}%</div>
               <p style={{ color: 'var(--ink-soft)', marginTop: 12 }}>
-                {correctCount} / {pool.length} {t('result_correct')}
+                {scored.earned} / {scored.total} {t('result_points')}
+                <span style={{ display: 'block', marginTop: 4, fontSize: '.85rem' }}>
+                  {correctCount} / {pool.length} {t('result_correct')}
+                </span>
               </p>
               <div style={{ display: 'flex', gap: 14, justifyContent: 'center', marginTop: 16, flexWrap: 'wrap' }}>
                 <StatPill color="var(--guide)" label={t('correct')} value={correctCount} />
@@ -572,6 +623,51 @@ export default function QuizSession({ category, mode, questions }: Props) {
               </div>
             )}
 
+            {hazardQ && q?.parts ? (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+                <div style={{ fontSize: '.78rem', fontFamily: 'var(--display)', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--guide-deep)' }}>
+                  {t('hazard_title')}
+                </div>
+                {q.parts.map((part, pi) => {
+                  const partAnswered = hazardDone && Array.isArray(answers[idx]) ? (answers[idx] as number[])[pi] : partPicks[pi];
+                  return (
+                    <div key={pi} style={{ border: '1px solid var(--line)', borderRadius: 12, padding: '12px 14px', background: 'var(--paint)' }}>
+                      <div style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.82rem', color: 'var(--guide-deep)', marginBottom: 8 }}>
+                        {part.label ?? partLabel(pi)}
+                      </div>
+                      <div style={{ fontSize: '.92rem', lineHeight: 1.6, marginBottom: 10 }}>{L(part.prompt)}</div>
+                      <div className="opts" style={{ gap: 8 }}>
+                        {[0, 1].map(choiceIdx => {
+                          let cls = 'opt';
+                          const label = choiceIdx === 0 ? t('hazard_true') : t('hazard_false');
+                          if (mode === 'lesson') {
+                            if (choiceIdx === part.answer) cls += ' correct';
+                          } else if (hazardDone && Array.isArray(answers[idx])) {
+                            const saved = (answers[idx] as number[])[pi];
+                            if (choiceIdx === part.answer) cls += ' correct';
+                            else if (choiceIdx === saved) cls += ' wrong';
+                          } else if (partPicks[pi] === choiceIdx) {
+                            cls += ' correct';
+                          }
+                          return (
+                            <button
+                              key={choiceIdx}
+                              className={cls}
+                              disabled={mode === 'lesson' || hazardDone}
+                              onClick={() => handlePartPick(pi, choiceIdx)}
+                              style={{ padding: '10px 14px' }}
+                            >
+                              <span className="k">{choiceIdx === 0 ? '○' : '×'}</span>
+                              <span className="opt-text">{label}</span>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
             <div className="opts">
               {q.choices.map((choice, i) => {
                 let cls = 'opt';
@@ -600,6 +696,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
                 );
               })}
             </div>
+            )}
 
             {/* Improved explanation UI */}
             {showExp && (
@@ -715,16 +812,16 @@ function QuestionNavigator({
   pool, answers, idx, onJump, t, showResults = true, onSubmitTest,
 }: {
   pool: Question[];
-  answers: (number | null)[];
+  answers: QuizAnswer[];
   idx: number;
   onJump: (i: number) => void;
   t: (key: string) => string;
   showResults?: boolean;
   onSubmitTest?: () => void;
 }) {
-  const answeredCount = answers.filter(a => a !== null).length;
-  const correctCount  = answers.filter((a, i) => a !== null && a === pool[i]?.answer).length;
-  const wrongCount    = answers.filter((a, i) => a !== null && a !== pool[i]?.answer).length;
+  const answeredCount = pool.filter((question, i) => isAnswerComplete(question, answers[i])).length;
+  const correctCount  = pool.filter((question, i) => isAnswerComplete(question, answers[i]) && isQuestionCorrect(question, answers[i])).length;
+  const wrongCount    = pool.filter((question, i) => isAnswerComplete(question, answers[i]) && !isQuestionCorrect(question, answers[i])).length;
   const unanswered    = pool.length - answeredCount;
 
   return (
@@ -761,12 +858,12 @@ function QuestionNavigator({
 
       {/* Number grid */}
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, justifyContent: 'center' }}>
-        {pool.map((q, i) => {
+        {pool.map((question, i) => {
           const ans = answers[i];
           const isCurrent = i === idx;
-          const isAnswered = ans !== null;
-          const isCorrect  = isAnswered && ans === q.answer;
-          const isWrong    = isAnswered && ans !== q.answer;
+          const isAnswered = isAnswerComplete(question, ans);
+          const isCorrect  = isAnswered && isQuestionCorrect(question, ans);
+          const isWrong    = isAnswered && !isQuestionCorrect(question, ans);
 
           let bg     = 'var(--paint-2)';
           let color  = 'var(--ink-soft)';
@@ -826,7 +923,7 @@ function WrongReview({
   wrongQs, answers, pool, L, t, showExplanation,
 }: {
   wrongQs: Question[];
-  answers: (number | null)[];
+  answers: QuizAnswer[];
   pool: Question[];
   L: (obj: Partial<Record<string, string>>) => string;
   t: (key: string) => string;
@@ -846,7 +943,21 @@ function WrongReview({
               <div style={{ fontFamily: 'var(--display)', fontWeight: 700, marginBottom: 8, lineHeight: 1.4 }}>
                 {wi + 1}. {L(wq.prompt)}
               </div>
-              {yourAns !== null && (
+              {isHazardQuestion(wq) && wq.parts ? (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                  {wq.parts.map((part, pi) => {
+                    const saved = Array.isArray(yourAns) ? yourAns[pi] : null;
+                    const correctLabel = part.answer === 0 ? t('hazard_true') : t('hazard_false');
+                    const yourLabel = saved === 0 ? t('hazard_true') : saved === 1 ? t('hazard_false') : '—';
+                    return (
+                      <div key={pi} style={{ fontSize: '.8rem', color: 'var(--ink-soft)' }}>
+                        <strong>{part.label ?? partLabel(pi)}</strong> {L(part.prompt)}
+                        <div>{t('your_answer') ?? 'Your answer'}: {yourLabel} · {t('correct_answer') ?? 'Correct'}: {correctLabel}</div>
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : yourAns !== null && typeof yourAns === 'number' && (
                 <div style={{ display: 'flex', gap: 6, alignItems: 'flex-start', color: 'var(--red, #e53e3e)', marginBottom: 4 }}>
                   <span style={{ flexShrink: 0 }}>✗</span>
                   <span><strong>{t('your_answer') ?? 'Your answer'}:</strong> {L(wq.choices[yourAns].text)}</span>

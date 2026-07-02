@@ -16,6 +16,14 @@ export interface Choice {
   text: Localized;
 }
 
+/** JP 危険予測問題 — three true/false sub-statements (ア/イ/ウ); all must be correct. */
+export interface QuestionPart {
+  label?: string;
+  prompt: Localized;
+  /** 0 = 正しい, 1 = 誤り */
+  answer: number;
+}
+
 export interface Question {
   id: string;
   category: Category;
@@ -26,6 +34,10 @@ export interface Question {
   answer: number;
   explanation: Localized;
   media?: Media;
+  /** Official-style hazard illustration with ア/イ/ウ sub-parts. */
+  parts?: QuestionPart[];
+  /** Points in mock scoring (hazard illustration = 2). */
+  points?: number;
 }
 
 export const CATEGORY_COUNTRY: Record<Category, Country> = {
@@ -39,7 +51,9 @@ export const CATEGORY_COUNTRY: Record<Category, Country> = {
 export interface TestMeta {
   category: Category;
   tag: string;
-  /** Questions drawn per mock test session (not total in the question bank). */
+  /** Total practice questions in the JSON bank (learn / practise modes). */
+  bankQuestionCount: number;
+  /** Questions drawn per mock test session (official exam size). */
   questionCount: number;
   /** JP 本免許試験 is officially 50 min for 95 questions; SG tests are 50 min for 50 questions. */
   timeLimitMinutes: number;
@@ -78,10 +92,21 @@ export interface PaymentSubmission {
   user_email?: string;
 }
 
+/** Japan practice question total — sum of jp_car + jp_moto bank counts (must stay 600). */
+export const JP_PRACTICE_QUESTION_TOTAL = 600;
+
+/** Practice question total for overview UI. */
+export function getCountryBankTotal(country: Country): number {
+  return TEST_META
+    .filter(m => CATEGORY_COUNTRY[m.category] === country)
+    .reduce((sum, m) => sum + m.bankQuestionCount, 0);
+}
+
 export const TEST_META: TestMeta[] = [
   {
     category: 'sg_btt',
     tag: 'BTT',
+    bankQuestionCount: 500,
     questionCount: 50,
     timeLimitMinutes: 50,
     passPercent: 90,
@@ -95,6 +120,7 @@ export const TEST_META: TestMeta[] = [
   {
     category: 'sg_ftt',
     tag: 'FTT',
+    bankQuestionCount: 500,
     questionCount: 50,
     timeLimitMinutes: 50,
     passPercent: 90,
@@ -108,6 +134,7 @@ export const TEST_META: TestMeta[] = [
   {
     category: 'sg_rtt',
     tag: 'RTT',
+    bankQuestionCount: 109,
     questionCount: 50,
     timeLimitMinutes: 50,
     passPercent: 90,
@@ -121,6 +148,7 @@ export const TEST_META: TestMeta[] = [
   {
     category: 'jp_car',
     tag: '普通免許',
+    bankQuestionCount: 350,
     questionCount: 95,
     timeLimitMinutes: 50,
     passPercent: 90,
@@ -134,6 +162,7 @@ export const TEST_META: TestMeta[] = [
   {
     category: 'jp_moto',
     tag: '二輪免許',
+    bankQuestionCount: 250,
     questionCount: 95,
     timeLimitMinutes: 50,
     passPercent: 90,

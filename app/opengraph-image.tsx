@@ -46,7 +46,7 @@ export default function OGImage() {
 
         {/* Tags */}
         <div style={{ display: 'flex', gap: 14 }}>
-          {['🇸🇬 Singapore', '🇯🇵 Japan', '600+ questions', '90% pass mark', 'Free'].map(tag => (
+          {['🇸🇬 Singapore', '🇯🇵 Japan', '1,300+ questions', '90% pass mark', 'Free'].map(tag => (
             <div key={tag} style={{ padding: '10px 18px', background: 'rgba(255,255,255,0.1)', borderRadius: 100, fontSize: 20, color: 'rgba(255,255,255,0.85)', fontWeight: 600 }}>
               {tag}
             </div>
