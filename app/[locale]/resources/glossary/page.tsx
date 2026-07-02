@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import BackButton from '@/components/BackButton';
+import { getTranslations } from 'next-intl/server';
 
 const TERMS = [
   { en: 'Traffic light',     my: 'မီးပွိုင့်',                    ja: '信号機（しんごうき）' },
@@ -36,25 +36,26 @@ const TERMS = [
 
 export default async function GlossaryPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = await getTranslations('resourcesGlossary');
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>
       <div style={{ background: 'var(--paint-2)', borderBottom: '1px solid var(--line)', padding: '20px 24px' }}>
         <div style={{ maxWidth: 900, margin: '0 auto', display: 'flex', alignItems: 'center', gap: 16 }}>
-          <BackButton label="← Home" style={{ fontSize: '.82rem', color: 'var(--ink-soft)', textDecoration: 'none', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} />
+          <BackButton label={t('breadcrumb_home')} style={{ fontSize: '.82rem', color: 'var(--ink-soft)', textDecoration: 'none', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} />
           <span style={{ color: 'var(--line)' }}>/</span>
-          <span style={{ fontSize: '.82rem', color: 'var(--ink)' }}>Bilingual Traffic Glossary</span>
+          <span style={{ fontSize: '.82rem', color: 'var(--ink)' }}>{t('breadcrumb_title')}</span>
         </div>
       </div>
 
       <div style={{ maxWidth: 900, margin: '0 auto', padding: '48px 24px' }}>
         <div style={{ marginBottom: 48, textAlign: 'center' }}>
-          <div className="eyebrow" style={{ marginBottom: 10 }}>Human-reviewed</div>
+          <div className="eyebrow" style={{ marginBottom: 10 }}>{t('hero.eyebrow')}</div>
           <h1 style={{ fontFamily: 'var(--display)', fontSize: 'clamp(1.8rem,4vw,2.6rem)', fontWeight: 800, marginBottom: 12 }}>
-            Bilingual Traffic Glossary
+            {t('hero.title')}
           </h1>
           <p style={{ color: 'var(--ink-soft)', maxWidth: '38em', margin: '0 auto', fontSize: '1.05rem' }}>
-            Every key traffic term in English, Myanmar (Burmese) and Japanese — checked by a human so a mistranslation never costs you a mark.
+            {t('hero.lead')}
           </p>
         </div>
 
@@ -62,9 +63,9 @@ export default async function GlossaryPage({ params }: { params: Promise<{ local
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '.9rem' }}>
             <thead>
               <tr style={{ background: 'var(--asphalt)', color: '#fff' }}>
-                <th style={{ padding: '12px 20px', textAlign: 'left', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.78rem', letterSpacing: '.08em', textTransform: 'uppercase' }}>English</th>
-                <th style={{ padding: '12px 20px', textAlign: 'left', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.78rem', letterSpacing: '.08em', textTransform: 'uppercase' }}>မြန်မာ</th>
-                <th style={{ padding: '12px 20px', textAlign: 'left', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.78rem', letterSpacing: '.08em', textTransform: 'uppercase' }}>日本語</th>
+                <th style={{ padding: '12px 20px', textAlign: 'left', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.78rem', letterSpacing: '.08em', textTransform: 'uppercase' }}>{t('table.english')}</th>
+                <th style={{ padding: '12px 20px', textAlign: 'left', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.78rem', letterSpacing: '.08em', textTransform: 'uppercase' }}>{t('table.my')}</th>
+                <th style={{ padding: '12px 20px', textAlign: 'left', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.78rem', letterSpacing: '.08em', textTransform: 'uppercase' }}>{t('table.ja')}</th>
               </tr>
             </thead>
             <tbody>
@@ -86,11 +87,11 @@ export default async function GlossaryPage({ params }: { params: Promise<{ local
         </div>
 
         <p style={{ marginTop: 20, fontSize: '.82rem', color: 'var(--ink-soft)', textAlign: 'center' }}>
-          30 terms · Updated June 2025 · Human-reviewed
+          {t('footer_note')}
         </p>
 
         <div style={{ marginTop: 40, textAlign: 'center' }}>
-          <BackButton label="← Back to home" style={{ color: 'var(--guide-deep)', fontWeight: 600, fontSize: '.9rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} />
+          <BackButton label={t('back_home')} style={{ color: 'var(--guide-deep)', fontWeight: 600, fontSize: '.9rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} />
         </div>
       </div>
     </div>

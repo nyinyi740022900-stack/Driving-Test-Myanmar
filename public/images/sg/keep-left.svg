@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Keep left lane on expressway">
+  <rect width="240" height="240" fill="#ffffff"/>
+  <rect x="24" y="24" width="192" height="192" rx="20" fill="#f5f7f8" stroke="#1b9c56" stroke-width="10"/>
+  <path d="M92 168 V72" stroke="#1b9c56" stroke-width="14" stroke-linecap="round"/>
+  <path d="M92 72 L72 96 M92 72 L112 96" stroke="#1b9c56" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M148 168 V92" stroke="#9aa4b2" stroke-width="10" stroke-linecap="round"/>
+  <path d="M148 92 L136 108 M148 92 L160 108" stroke="#9aa4b2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="120" y1="50" x2="120" y2="190" stroke="#e2e8f0" stroke-width="4" stroke-dasharray="6 8"/>
+</svg>

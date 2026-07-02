@@ -129,6 +129,659 @@
     "cta_monthly": "Choose Monthly",
     "cta_yearly": "Choose Yearly"
   },
+  "premium": {
+    "eyebrow": "Simple pricing",
+    "title": "Go Premium",
+    "lead": "No ads, unlimited mock tests, and quiz history tracking. Pay via KBZPay or WavePay — activated manually within a few hours.",
+    "best_value": "Best value",
+    "plan_monthly_label": "Monthly Premium",
+    "plan_yearly_label": "Yearly Premium",
+    "plan_days": "{days} days",
+    "plan_monthly_note": "Pay monthly",
+    "plan_yearly_note": "Save 30%+",
+    "feature_1": "No ads",
+    "feature_2": "Unlimited mock tests",
+    "feature_3": "Quiz history & best scores",
+    "feature_4": "Priority support",
+    "choose_plan": "Choose {plan} →",
+    "currency_ks": " Ks",
+    "back_home": "← Back to home",
+    "faq_prompt": "Questions? See our",
+    "faq_link": "FAQ"
+  },
+  "payment": {
+    "plan_monthly_label": "Monthly Premium",
+    "plan_yearly_label": "Yearly Premium",
+    "currency_ks": "Ks",
+    "eyebrow": "Complete payment",
+    "step_method": "1. Choose payment method",
+    "step_transfer": "2. Transfer {amount} Ks to",
+    "brand_name": "MyanPass",
+    "copy": "Copy",
+    "step_txn": "3. Transaction ID / Reference number",
+    "txn_placeholder": "e.g. KBZ2024XXXXXXXXXX",
+    "step_screenshot": "4. Screenshot of payment (optional but speeds up approval)",
+    "submitting": "Submitting…",
+    "submit_cta": "Submit payment details →",
+    "footer_note": "Your account will be upgraded within a few hours.",
+    "submitted_title": "Payment submitted!",
+    "submitted_desc": "We received your payment details for {plan}. Your account will be upgraded within a few hours once confirmed.",
+    "submitted_note": "Activation is done manually — usually within a few hours. Sign in and refresh the page to check your premium status.",
+    "submitted_contact": "If not activated within 24 hours, contact us at",
+    "back_home": "← Back to home",
+    "error_generic": "Something went wrong"
+  },
+  "profile": {
+    "back_home": "← Back to home",
+    "member_since": "Member since {date}",
+    "sign_out": "Sign out",
+    "current_plan": "Current plan",
+    "plan_free": "Free",
+    "plan_premium": "Premium",
+    "plan_monthly": "Monthly Premium",
+    "plan_yearly": "Yearly Premium",
+    "status_active": "● Active",
+    "status_free": "○ Free tier",
+    "upgrade_cta": "Upgrade to Premium →",
+    "expires": "Expires",
+    "features": "Features",
+    "features_value": "No ads · Unlimited mock tests · Quiz history & best scores · Priority support",
+    "free_note": "Free plan includes 1 mock test per category per day. Upgrade for unlimited access, no ads, and quiz history.",
+    "progress_heading": "Progress summary",
+    "attempts_label": "{count} attempts",
+    "no_attempts": "No attempts yet",
+    "best_score": "Best score",
+    "settings_heading": "Account settings",
+    "email_label": "Email address",
+    "account_id_label": "Account ID",
+    "email_verified_label": "Email verified",
+    "email_verified": "✓ Verified",
+    "email_not_verified": "✗ Not verified",
+    "payments_heading": "Payment history",
+    "payments_empty": "No payments yet.",
+    "view_plans": "View plans →",
+    "rejection_note": "Note: {note}",
+    "currency_ks": "Ks"
+  },
+  "resourcesGuide": {
+    "breadcrumb_home": "← Home",
+    "breadcrumb_title": "Study Guide",
+    "hero": {
+      "eyebrow": "Study material",
+      "title": "Study Guide & Key Facts",
+      "lead": "Speed limits, alcohol limits, demerit points and stopping distances — the numbers you must know for the test."
+    },
+    "note_label": "Note:",
+    "back_home": "← Back to home",
+    "sg": {
+      "title": "Singapore",
+      "speed_limits": {
+        "title": "Speed Limits",
+        "items": [
+          { "label": "Built-up areas", "value": "50 km/h", "sub": "Default urban limit" },
+          { "label": "Major roads / arterials", "value": "70 km/h", "sub": "Signed roads" },
+          { "label": "Expressways (PIE, CTE…)", "value": "90 km/h", "sub": "Unless signed otherwise" },
+          { "label": "School zones", "value": "40 km/h", "sub": "7 am – 7 pm school days" }
+        ]
+      },
+      "alcohol_limits": {
+        "title": "Alcohol Limits",
+        "items": [
+          { "label": "Breath test limit", "value": "35 µg", "sub": "per 100 ml of breath" },
+          { "label": "Blood test limit", "value": "80 mg", "sub": "per 100 ml of blood" },
+          { "label": "New drivers", "value": "0", "sub": "Zero tolerance in first year" }
+        ],
+        "note": "Exceeding the limit: fine up to S$10,000 and/or up to 12 months jail for first offence. Disqualification from driving."
+      },
+      "demerit_points": {
+        "title": "Demerit Points",
+        "items": [
+          { "label": "Suspension threshold", "value": "24 pts", "sub": "within any 2-year period" },
+          { "label": "New driver threshold", "value": "12 pts", "sub": "within first year of licence" },
+          { "label": "Suspension duration", "value": "3 months", "sub": "for 24-point accumulation" },
+          { "label": "Revocation", "value": "24 pts", "sub": "(already suspended) = revocation" }
+        ],
+        "note": "Common offences: Speeding (+30 km/h over limit = 6–24 points). Running red light = 12 points. Using mobile phone = 6 points."
+      },
+      "stopping_distances": {
+        "title": "Stopping Distances (dry road)",
+        "headers": ["Speed", "Thinking (14–15 m/s)", "Braking", "Total"],
+        "rows": [
+          ["50 km/h", "~14 m", "~14 m", "~28 m"],
+          ["70 km/h", "~19 m", "~28 m", "~47 m"],
+          ["90 km/h", "~25 m", "~46 m", "~71 m"]
+        ],
+        "note": "Double these distances on wet roads. Always maintain a 2-second following gap in normal conditions."
+      },
+      "key_rules_title": "Key Rules to Know",
+      "key_rules": [
+        "Seat belts are compulsory for ALL occupants — front and rear.",
+        "Mobile phone use while driving: illegal unless on hands-free.",
+        "Children under 1.35 m must use an approved child restraint.",
+        "Minimum following distance: 2 seconds in normal conditions.",
+        "Flashing amber at a pedestrian crossing — must yield to pedestrians.",
+        "At a stop line with a red light or STOP sign — wheels must stop completely.",
+        "Lane discipline: keep left unless overtaking.",
+        "Motorcyclists must wear an approved helmet at all times."
+      ]
+    },
+    "jp": {
+      "title": "Japan",
+      "speed_limits": {
+        "title": "Speed Limits (最高速度)",
+        "items": [
+          { "label": "Residential / school zones", "value": "30 km/h", "sub": "生活道路 / ゾーン30" },
+          { "label": "General roads", "value": "60 km/h", "sub": "一般道路 (default)" },
+          { "label": "Expressways", "value": "100 km/h", "sub": "高速道路 (default)" },
+          { "label": "Some expressways", "value": "120 km/h", "sub": "指定区間のみ" }
+        ]
+      },
+      "alcohol_limits": {
+        "title": "Alcohol Limits (飲酒運転)",
+        "items": [
+          { "label": "酒気帯び (impaired)", "value": "0.15 mg/L", "sub": "breath / 0.3 mg/dL blood" },
+          { "label": "酔い (drunk)", "value": "0.05 mg/L", "sub": "breath / 0.1 mg/dL blood — harsher penalty" },
+          { "label": "Designated drivers", "value": "0", "sub": "代行・ハンドルキーパーは飲酒不可" }
+        ],
+        "note": "Passengers who knowingly accompany a drunk driver also face penalties. Providing alcohol to someone about to drive is also illegal."
+      },
+      "demerit_points": {
+        "title": "Demerit Points (違反点数)",
+        "items": [
+          { "label": "30-day suspension", "value": "6–8 pts", "sub": "in 1 year (no prior offences)" },
+          { "label": "60-day suspension", "value": "9–11 pts", "sub": "in 1 year" },
+          { "label": "90-day suspension", "value": "12–14 pts", "sub": "in 1 year" },
+          { "label": "Revocation", "value": "15+ pts", "sub": "or prior suspension on record" }
+        ],
+        "note": "Speeding 30–50 km/h over limit = 6 points. Running a red light = 2 points. Mobile phone while driving = 3 points."
+      },
+      "key_rules_title": "Key Rules to Know (重要事項)",
+      "key_rules": [
+        "徐行 (joko) means slow to a speed where you can stop within 1 metre at any time.",
+        "At unmarked intersections, yield to vehicles approaching from the right.",
+        "Seat belts: compulsory for all seats. Child seats required for children under 6.",
+        "Mobile phone use: illegal while driving — even stopping at a red light.",
+        "Left turn: cyclists and pedestrians have priority; check mirrors and blind spots.",
+        "Horn use: only allowed in emergencies or at designated horn-use zones (警笛鳴らせ).",
+        "Headlights must be on in tunnels and at night — even if street lighting is present.",
+        "Right of way at intersections: broad road > narrow road; otherwise yield to the right."
+      ]
+    }
+  },
+  "resourcesRoadmap": {
+    "breadcrumb_home": "← Home",
+    "breadcrumb_title": "Licensing Roadmap",
+    "hero": {
+      "eyebrow": "Study material",
+      "title": "Licensing Roadmap",
+      "lead": "Every step from registration to full licence — for Singapore and Japan."
+    },
+    "sg_title": "Singapore — Class 3 / 3A Car Licence",
+    "sg_timeline_label": "Typical timeline:",
+    "sg_timeline_body": "4–12 months depending on lesson frequency. Most people take 3–6 months. The theory tests can be taken within 1–2 months of starting.",
+    "jp_title": "Japan — 普通自動車免許 (via 指定校)",
+    "jp_timeline_label": "Typical timeline:",
+    "jp_timeline_body": "2–4 months for the full course if attending regularly. The minimum course period is set by law and cannot be shortened. Peak seasons (March–April, August) may have longer waiting times.",
+    "back_home": "← Back to home",
+    "sg_steps": [
+      {
+        "n": 1,
+        "title": "Register at an Approved Centre",
+        "body": "Choose BBDC (Bukit Batok), CDC (ComfortDelGro), or SSDC (Serangoon). You will need your NRIC/FIN and pass a basic eyesight test. Min. age: 17 (car), 18 (motorcycle)."
+      },
+      {
+        "n": 2,
+        "title": "Pass the Basic Theory Test (BTT)",
+        "body": "50 multiple-choice questions, 90% pass mark (45/50). Tests traffic signs, road rules and hazard awareness. Book online via OneMotoring. Fee: $7.09 (with GST)."
+      },
+      {
+        "n": 3,
+        "title": "Start Practical Lessons",
+        "body": "Begin driving lessons at the centre. A Class 3 course typically requires 20–35 lessons depending on ability. Each lesson is 1 hour on an in-circuit or road session."
+      },
+      {
+        "n": 4,
+        "title": "Pass the Final Theory Test (FTT)",
+        "body": "50 questions on advanced driving — hazard perception, expressway rules, night driving. Must have completed at least 5 practical lessons before booking. Fee: $7.09."
+      },
+      {
+        "n": 5,
+        "title": "Complete Remaining Practical Lessons",
+        "body": "Continue lessons until the centre certifies you ready. Most centres require a minimum standard before booking the TP (Traffic Police) test."
+      },
+      {
+        "n": 6,
+        "title": "Pass the Traffic Police Driving Test",
+        "body": "A 45-min driving test with a TP evaluator. Routes are set by the centre. A score of 18 or fewer demerit points passes. Fee: $35.97 (with GST)."
+      },
+      {
+        "n": 7,
+        "title": "Collect Your Driving Licence",
+        "body": "Collect at the Traffic Police Road Safety Community Park or OneMotoring counter. The Probationary Driving Licence (PDL) is displayed on your car for 1 year."
+      }
+    ],
+    "jp_steps": [
+      {
+        "n": 1,
+        "title": "教習所に入学 — Enrol at a Driving School",
+        "body": "Choose a 公安委員会指定 (government-designated) school in your prefecture. You will need: residence card (住民票), ID photo, and pass an initial health check (eyesight, hearing, etc.)."
+      },
+      {
+        "n": 2,
+        "title": "第1段階 — Stage 1 (In-circuit training)",
+        "body": "Minimum 10 hours in-circuit driving (manual) or 9 hours (auto). Plus at least 10 hours of theory class covering road rules, signs and safety."
+      },
+      {
+        "n": 3,
+        "title": "仮免許試験 — Provisional Licence Test",
+        "body": "A theory test (50 questions, pass mark 90% = 45/50) plus an in-circuit skill test at the school. Passing grants 仮免許 (provisional licence)."
+      },
+      {
+        "n": 4,
+        "title": "第2段階 — Stage 2 (Road training with 仮免)",
+        "body": "Minimum 19 hours of on-road driving (with instructor) and at least 16 hours of theory class including emergency response and highway driving."
+      },
+      {
+        "n": 5,
+        "title": "卒業検定 — School Graduation Test",
+        "body": "A road driving test conducted by the school. Pass and receive a 卒業証明書 (graduation certificate) valid for 1 year. This exempts you from the TP skill test."
+      },
+      {
+        "n": 6,
+        "title": "本免許学科試験 — Final Theory Test at Licence Centre",
+        "body": "95 questions (car) or 95 questions (motorcycle), 90% pass mark (86/95). Tests road signs, traffic rules and case scenarios. Fee: ¥1,750. Book at your prefecture's 免許センター."
+      },
+      {
+        "n": 7,
+        "title": "免許証交付 — Receive Your Licence",
+        "body": "After passing the theory test and completing any remaining formalities (vision check, photo) at the licence centre, your 運転免許証 is issued the same day."
+      }
+    ]
+  },
+  "resourcesCosts": {
+    "breadcrumb_home": "← Home",
+    "breadcrumb_title": "Costs & Fees",
+    "hero": {
+      "eyebrow": "Licence guide",
+      "title": "Costs & Fees",
+      "lead": "Full breakdown of every test fee, lesson cost, and total budget you need to get your licence in Singapore or Japan."
+    },
+    "table_headers": {
+      "item": "Item",
+      "fee": "Fee",
+      "notes": "Notes"
+    },
+    "note_label": "Note:",
+    "sg_title": "Singapore",
+    "sg": {
+      "theory_title": "Theory Test Fees (Traffic Police)",
+      "theory_rows": [
+        { "item": "Basic Theory Test (BTT)", "fee": "S$7.09", "note": "Includes 9% GST. Payable at OneMotoring." },
+        { "item": "Final Theory Test (FTT)", "fee": "S$7.09", "note": "Can only book after ≥ 5 practical lessons." },
+        { "item": "Riding Theory Test (RTT) — motorcycle", "fee": "S$7.09", "note": "Replaces FTT for motorcycle classes." },
+        { "item": "Re-test (any theory)", "fee": "S$7.09", "note": "Same fee for each attempt." }
+      ],
+      "theory_note": "Theory test fees are set by the Traffic Police and do not vary between BBDC, CDC or SSDC.",
+      "tp_title": "Traffic Police (TP) Practical Test Fees",
+      "tp_rows": [
+        { "item": "Class 3 / 3A (car) — first attempt", "fee": "S$35.97", "note": "Includes GST." },
+        { "item": "Class 3 / 3A — re-test", "fee": "S$35.97", "note": "Re-test booked through your centre." },
+        { "item": "Class 2B / 2A / 2 (motorcycle)", "fee": "~S$33.00", "note": "Check current rate at your centre." },
+        { "item": "Class 4 / 5 (goods / bus)", "fee": "~S$40–S$55", "note": "Varies by vehicle class." }
+      ],
+      "lesson_title": "Practical Lesson Fees (per lesson, approx. 2025)",
+      "lesson_label_car": "Car (Class 3/3A)",
+      "lesson_label_moto": "Motorcycle",
+      "lesson_centres": [
+        { "centre": "BBDC", "area": "Bukit Batok", "car": "S$26–S$34", "moto": "S$19–S$26" },
+        { "centre": "CDC", "area": "Ubi", "car": "S$27–S$35", "moto": "S$20–S$27" },
+        { "centre": "SSDC", "area": "Serangoon", "car": "S$25–S$33", "moto": "S$18–S$25" }
+      ],
+      "lesson_note": "Lesson fees increase slightly during peak hours (evenings, weekends). Book off-peak to save. Prices include GST and are approximate for 2025 — check each centre's website for current rates.",
+      "total_car_title": "Total Cost Estimate — Class 3 (Car)",
+      "total_headers": {
+        "item": "Item",
+        "fast": "Fast learner",
+        "avg": "Average",
+        "slow": "More lessons"
+      },
+      "total_rows": [
+        { "item": "BTT + FTT fees", "fast": "S$14.18", "avg": "S$21.27", "slow": "S$28.36", "note": "(assume 1–2 re-tests)" },
+        { "item": "Practical lessons (×lessons)", "fast": "S$600", "avg": "S$1,000", "slow": "S$1,500", "note": "20 / 35 / 50 lessons" },
+        { "item": "TP test (1–2 attempts)", "fast": "S$36", "avg": "S$72", "slow": "S$108", "note": "" },
+        { "item": "Licence collection fee", "fast": "S$50", "avg": "S$50", "slow": "S$50", "note": "Approx." }
+      ],
+      "total_footer": "TOTAL (approx.)",
+      "total_note": "These are estimates only. Registration fees at each centre and admin charges are not included. Check the BBDC, CDC, or SSDC website for the latest lesson packages which may include bundled discounts.",
+      "total_moto_title": "Total Cost Estimate — Class 2B (Entry Motorcycle)",
+      "moto_highlight": "Total estimate",
+      "moto_rows": [
+        { "item": "BTT + RTT fees (1 attempt each)", "fee": "S$14.18", "note": "" },
+        { "item": "Practical lessons (~15–25 lessons)", "fee": "S$285–S$675", "note": "At S$19–S$27/lesson" },
+        { "item": "TP test (1–2 attempts)", "fee": "S$33–S$66", "note": "" },
+        { "item": "Helmet (if not owned)", "fee": "S$80–S$250", "note": "Approved helmet required for test and road" },
+        { "item": "Total estimate", "fee": "S$400–S$1,000", "note": "Varies significantly by ability and centre" }
+      ]
+    },
+    "jp_title": "Japan",
+    "jp": {
+      "fees_title": "Official Test & Licence Fees (免許センター)",
+      "fee_rows": [
+        { "item": "仮免許学科試験 (Provisional theory test)", "fee": "¥1,700", "note": "At the 免許センター / licence centre" },
+        { "item": "仮免許技能試験 (Provisional skill test)", "fee": "¥1,700", "note": "Per attempt. Re-test fee is same." },
+        { "item": "本免許学科試験 (Final theory test)", "fee": "¥1,750", "note": "95 questions, 90% pass mark" },
+        { "item": "本免許技能試験 (Final skill test)", "fee": "¥1,750", "note": "Only if going 一発試験 (centre-direct)" },
+        { "item": "免許証交付 (Licence issue fee)", "fee": "¥2,050", "note": "Payable at the licence centre on passing" },
+        { "item": "JAF translation (required for foreign holders)", "fee": "¥3,000", "note": "Japan Automobile Federation certified translation" }
+      ],
+      "fees_note": "Fees are set nationally and do not vary between prefectures. Additional costs (photo, 住民票 certificate) are typically ¥300–¥600 each.",
+      "paths_title": "Two Paths to a Japanese Licence",
+      "path_a": {
+        "label": "Path A",
+        "title": "指定教習所 (Driving School)",
+        "badge": "Most reliable",
+        "rows": [
+          { "label": "Tuition (Stage 1 + Stage 2)", "value": "¥250,000–¥400,000" },
+          { "label": "仮免 + school tests (included)", "value": "—" },
+          { "label": "本免学科試験 at licence centre", "value": "¥1,750" },
+          { "label": "Licence issue fee", "value": "¥2,050" },
+          { "label": "Total estimate", "value": "¥254,000–¥404,000", "bold": true }
+        ],
+        "note": "Passing the 卒業検定 exempts you from the 免許センター skill test. You only face the written theory test."
+      },
+      "path_b": {
+        "label": "Path B",
+        "title": "一発試験 (Licence Centre Direct)",
+        "badge": "Cheaper but harder",
+        "rows": [
+          { "label": "JAF translation (if needed)", "value": "¥3,000" },
+          { "label": "仮免 tests (multiple attempts typical)", "value": "¥5,000–¥15,000" },
+          { "label": "本免 skill tests (multiple attempts)", "value": "¥3,000–¥10,500" },
+          { "label": "本免学科試験", "value": "¥1,750" },
+          { "label": "Licence issue fee", "value": "¥2,050" },
+          { "label": "Total estimate", "value": "¥15,000–¥32,000", "bold": true }
+        ],
+        "note": "The skill test at the licence centre is notoriously difficult without school training. Most people need several attempts."
+      },
+      "myanmar_title": "Myanmar Nationals — Recommended Budget 🇲🇲",
+      "myanmar_intro": "Because Myanmar has no reciprocal licence agreement with Japan, you cannot convert directly. You must either attend a driving school or attempt the 一発試験. The recommended path for most people is Path A (指定教習所):",
+      "myanmar_rows": [
+        { "label": "指定教習所 full course", "value": "¥250,000–¥400,000" },
+        { "label": "本免学科試験 (theory at licence centre)", "value": "¥1,750" },
+        { "label": "免許証交付 (licence fee)", "value": "¥2,050" },
+        { "label": "住民票 + photos + misc.", "value": "~¥1,500" }
+      ],
+      "myanmar_total": "Total",
+      "myanmar_tip": "Tip: Some schools offer discount packages for foreign nationals or have staff who speak English. Ask when enrolling. The 本免学科試験 (which this app helps you prepare for) is taken at the end — after completing school."
+    },
+    "disclaimer_label": "Disclaimer:",
+    "disclaimer_text": "All fees are approximate and may change. Singapore fees include GST as of 2025. Japan fees are as published by the 警察庁. Always verify with the relevant authority (Traffic Police / OneMotoring for SG; your prefecture's 免許センター for JP) before budgeting.",
+    "back_home": "← Back to home"
+  },
+  "resourcesFaq": {
+    "breadcrumb_home": "← Home",
+    "breadcrumb_title": "FAQ & Fees",
+    "hero": {
+      "eyebrow": "Study material",
+      "title": "FAQ & Fees",
+      "lead": "Official test fees, retake rules, and the questions new drivers ask most."
+    },
+    "sg_title": "Singapore",
+    "jp_title": "Japan",
+    "sg_fees_title": "Official Test Fees (includes 9% GST)",
+    "sg_table": {
+      "test": "Test",
+      "fee": "Fee (before GST)",
+      "gst": "With 9% GST"
+    },
+    "sg_fees_note": "Fees are set by the Traffic Police and reviewed periodically. Course lesson fees vary by driving centre and are paid directly to BBDC, CDC, or SSDC.",
+    "sg_questions_title": "Common Questions",
+    "jp_fees_title": "Official Test Fees",
+    "jp_table": {
+      "test": "Test",
+      "fee": "Fee"
+    },
+    "jp_fees_note": "Fees at the licence centre are set by prefecture and may vary slightly. 指定自動車教習所 course fees are paid directly to the school.",
+    "jp_questions_title": "よくある質問 — Common Questions",
+    "sg_fees": [
+      { "test": "Basic Theory Test (BTT)", "fee": "$6.50", "gst": "$7.09", "note": "Taken before practical lessons begin" },
+      { "test": "Final Theory Test (FTT)", "fee": "$6.50", "gst": "$7.09", "note": "Taken after at least 5 practical lessons" },
+      { "test": "Riding Theory Test (RTT)", "fee": "$6.50", "gst": "$7.09", "note": "For motorcycle licence (Class 2/2A/2B)" },
+      { "test": "Class 3 Driving Test", "fee": "$33.00", "gst": "$35.97", "note": "Traffic Police practical test — car" },
+      { "test": "Class 3A Driving Test", "fee": "$33.00", "gst": "$35.97", "note": "Auto-only car licence" },
+      { "test": "Class 2/2A/2B Riding Test", "fee": "$33.00", "gst": "$35.97", "note": "Traffic Police practical test — motorcycle" }
+    ],
+    "jp_fees": [
+      { "test": "本免許学科試験", "fee": "¥1,750", "note": "Written theory test at the licence centre" },
+      { "test": "本免許技能試験", "fee": "¥7,200", "note": "Practical test at licence centre (指定校 graduates are exempt)" },
+      { "test": "仮免許試験（学科）", "fee": "¥1,700", "note": "Provisional licence theory test" },
+      { "test": "仮免許試験（技能）", "fee": "¥2,850", "note": "Provisional licence practical test" },
+      { "test": "指定校 full course", "fee": "¥250,000–¥400,000", "note": "Total cost varies by school and prefecture" }
+    ],
+    "sg_faq": [
+      { "q": "How many times can I retake the BTT/FTT/RTT?", "a": "There is no limit on retakes. You pay the fee each time and can rebook after 3 days." },
+      { "q": "Can I book the FTT before completing all practical lessons?", "a": "You must have completed at least 5 practical lessons (Class 3/3A) before booking the FTT." },
+      { "q": "How long is a Singapore licence valid?", "a": "A full Class 3/3A licence is valid for 10 years and can be renewed online via OneMotoring." },
+      { "q": "What happens if I accumulate 24 demerit points?", "a": "Your licence is suspended for 3 months. A new driver (within 1 year of passing) is suspended at 12 points." },
+      { "q": "Is there a minimum age to sit the BTT?", "a": "Yes — 17 years old for car licence (Class 3/3A) and 18 for motorcycle (Class 2/2A/2B)." },
+      { "q": "Which driving centres are Traffic Police approved?", "a": "Three centres: BBDC (Bukit Batok), CDC (ComfortDelGro), and SSDC (Serangoon). All offer the same standard." }
+    ],
+    "jp_faq": [
+      { "q": "本免許学科試験に落ちたらどうなる？", "a": "再受験できます。費用は毎回かかります。次の受験日は翌日以降に予約可能です。" },
+      { "q": "指定校を卒業すると技能試験は免除されますか？", "a": "はい。公安委員会指定の自動車教習所を卒業すると、免許センターでの技能試験が免除されます。学科試験のみ受験すれば取得できます。" },
+      { "q": "本免許の合格点は？", "a": "95問中86問以上正解（90%）で合格です（二輪は同様）。" },
+      { "q": "日本の免許証の有効期間は？", "a": "取得時の年齢や違反歴によって異なりますが、通常はゴールド免許で5年、一般免許で3年です。" },
+      { "q": "仮免許の有効期間は？", "a": "6ヶ月間です。仮免取得後6ヶ月以内に路上教習・卒業試験を修了する必要があります。" }
+    ],
+    "back_home": "← Back to home"
+  },
+  "resourcesGlossary": {
+    "breadcrumb_home": "← Home",
+    "breadcrumb_title": "Bilingual Traffic Glossary",
+    "hero": {
+      "eyebrow": "Human-reviewed",
+      "title": "Bilingual Traffic Glossary",
+      "lead": "Every key traffic term in English, Myanmar (Burmese) and Japanese — checked by a human so a mistranslation never costs you a mark."
+    },
+    "table": {
+      "english": "English",
+      "my": "မြန်မာ",
+      "ja": "日本語"
+    },
+    "footer_note": "30 terms · Updated June 2025 · Human-reviewed",
+    "back_home": "← Back to home"
+  },
+  "resourcesLicenceClasses": {
+    "breadcrumb_home": "← Home",
+    "breadcrumb_title": "Licence Classes",
+    "hero": {
+      "eyebrow": "Licence guide",
+      "title": "Licence Classes",
+      "lead": "Every class of driving licence in Singapore and Japan — what vehicle it covers, weight limits, minimum age, and key restrictions."
+    },
+    "sg_title": "Singapore",
+    "sg_intro": "Singapore licences are issued by the Traffic Police. This app covers the theory tests for the three most common classes — Class 3, 3A (cars) and Class 2B (entry motorcycle).",
+    "sg_note": "Class 3 / 3A requires BTT + FTT + TP practical test. Motorcycle classes (2B/2A/2) require BTT + RTT + TP. GVW = Gross Vehicle Weight.",
+    "jp_title": "Japan",
+    "jp_intro": "Japan's licence system is governed by the 道路交通法 (Road Traffic Act). This app covers the 本免許学科試験 for 普通自動車 and 普通二輪 — the two most common paths for Myanmar nationals in Japan.",
+    "jp_note": "Myanmar nationals cannot directly convert their licence — they must pass the 知識試験 (written test) and 技能試験 (skill test) or complete a Japanese driving school. See our",
+    "foreigners_link": "Foreigners' Guide",
+    "common_badge": "Common",
+    "compare": {
+      "title": "Quick comparison — most common class",
+      "headers": ["", "Singapore Class 3", "Singapore Class 2B", "Japan 普通免許", "Japan 普通二輪"],
+      "rows": [
+        { "label": "Theory tests", "values": ["BTT + FTT", "BTT + RTT", "仮免 + 本免 (学科)", "仮免 + 本免 (学科)"] },
+        { "label": "Practical test", "values": ["TP test", "TP test", "指定校卒 or 技能試験", "指定校卒 or 技能試験"] },
+        { "label": "Minimum age", "values": ["18", "18", "18", "18 (16 for ≤125cc)"] },
+        { "label": "Pass mark", "values": ["90% (45/50)", "90% (45/50)", "90% (86/95)", "90% (46/50)"] },
+        { "label": "Validity", "values": ["10 years", "10 years", "3 years (initial)", "3 years (initial)"] }
+      ]
+    },
+    "sg_classes": [
+      { "code": "3", "name": "Car — Manual", "vehicle": "Saloon, MPV, SUV (manual gearbox)", "limit": "Max 3,000 kg GVW · max 7 passengers", "age": "Min. 18 years", "note": "Most common licence. Requires BTT + FTT + TP test.", "highlight": true },
+      { "code": "3A", "name": "Car — Automatic", "vehicle": "Saloon, MPV, SUV (auto only)", "limit": "Max 3,000 kg GVW · max 7 passengers", "age": "Min. 18 years", "note": "Restricted to automatic vehicles only. Cannot drive manual cars.", "highlight": true },
+      { "code": "2B", "name": "Motorcycle — Entry", "vehicle": "Motorcycle / scooter", "limit": "≤ 200 cc or ≤ 30 kW power output", "age": "Min. 18 years", "note": "Entry-level motorcycle licence. Requires BTT + RTT + TP test.", "highlight": true },
+      { "code": "2A", "name": "Motorcycle — Mid", "vehicle": "Motorcycle / scooter", "limit": "201–400 cc or 26–47 kW", "age": "Min. 18 years", "note": "Must hold Class 2B for at least 1 year before upgrading." },
+      { "code": "2", "name": "Motorcycle — Full", "vehicle": "Motorcycle, any engine size", "limit": "Unlimited engine size / power", "age": "Min. 18 years", "note": "Must hold Class 2A for at least 1 year. Covers all motorcycles." },
+      { "code": "4", "name": "Light Goods Vehicle", "vehicle": "Panel van, light truck", "limit": "3,001 – 5,000 kg GVW", "age": "Min. 18 years", "note": "Separate practical test required." },
+      { "code": "4A", "name": "Light Goods — Articulated", "vehicle": "Articulated light goods", "limit": "3,001 – 5,000 kg GVW", "age": "Min. 21 years", "note": "Requires Class 3 or 4 first." },
+      { "code": "5", "name": "Bus", "vehicle": "All passenger buses", "limit": "> 7 passengers or > 3,000 kg", "age": "Min. 21 years", "note": "Requires separate bus-specific training and test." }
+    ],
+    "jp_classes": [
+      { "code": "普通免許", "name": "Regular Car", "vehicle": "普通自動車 — standard car / MPV", "limit": "≤ 3,500 kg · ≤ 10 passengers · trailer ≤ 750 kg", "age": "Min. 18 years", "note": "The standard licence obtained at a 指定教習所. Covers most everyday cars.", "highlight": true },
+      { "code": "準中型免許", "name": "Semi-medium Truck", "vehicle": "準中型自動車 — light-to-medium truck", "limit": "≤ 7,500 kg · ≤ 4 passengers", "age": "Min. 18 years", "note": "Introduced in 2017. Allows driving delivery trucks from age 18 without waiting." },
+      { "code": "中型免許", "name": "Medium Truck", "vehicle": "中型自動車 — medium truck / bus", "limit": "≤ 11,000 kg · ≤ 29 passengers", "age": "Min. 20 years · held licence ≥ 2 years", "note": "Needed for larger delivery vehicles, minibuses." },
+      { "code": "大型免許", "name": "Large Truck", "vehicle": "大型自動車 — large truck / coach", "limit": "Unlimited weight / passengers", "age": "Min. 21 years · held licence ≥ 3 years", "note": "Required for heavy goods vehicles, full-size coaches." },
+      { "code": "普通二輪", "name": "Regular Motorcycle", "vehicle": "普通自動二輪車 — motorcycle / scooter", "limit": "≤ 400 cc", "age": "Min. 16 years (小型 ≤125cc) / 18 years (full 普通二輪)", "note": "小型限定 (≤125cc) licence is available from age 16. Full licence covers up to 400cc.", "highlight": true },
+      { "code": "大型二輪", "name": "Large Motorcycle", "vehicle": "大型自動二輪車 — large motorcycle", "limit": "> 400 cc, unlimited power", "age": "Min. 18 years", "note": "Must already hold 普通二輪 (or equivalent). Covers all engine sizes." },
+      { "code": "原付免許", "name": "Moped", "vehicle": "原動機付自転車 — moped / scooter", "limit": "≤ 50 cc · max 30 km/h", "age": "Min. 16 years", "note": "Simplest licence — 1-day test at licence centre, no driving school needed." },
+      { "code": "大型特殊", "name": "Large Special", "vehicle": "大型特殊自動車 — construction machinery", "limit": "Bulldozers, cranes, forklifts on public road", "age": "Min. 18 years", "note": "Covers slow-moving construction vehicles on public roads (not off-road operation)." }
+    ],
+    "back_home": "← Back to home"
+  },
+  "resourcesForeigners": {
+    "breadcrumb_home": "← Home",
+    "breadcrumb_title": "Foreigners' Guide",
+    "hero": {
+      "eyebrow": "Study material",
+      "title": "Foreigners' Guide",
+      "lead": "Converting an overseas licence, IDP rules, and what Myanmar nationals need to legally drive in Singapore and Japan."
+    },
+    "sg_title": "Singapore",
+    "jp_title": "Japan",
+    "sg": {
+      "tourist": {
+        "title": "Using a Foreign Licence as a Tourist",
+        "p1": "Holders of a valid foreign driving licence may drive in Singapore for up to 12 months from the date of entry without converting, provided the licence is valid and in English (or accompanied by an English translation).",
+        "p2": "An International Driving Permit (IDP) issued in your home country alongside your national licence is also accepted for the same 12-month period."
+      },
+      "convert": {
+        "title": "Converting a Foreign Licence (PR / Work Pass Holders)",
+        "bullets": [
+          "Eligible if you hold a valid PR, EP, S Pass, WP, or DP.",
+          "Your foreign licence must be valid and issued by a recognised country. Myanmar is on the list — see requirements below.",
+          "Visit the Traffic Police (OneMotoring) counter at SLA Building, 8 Shenton Way.",
+          "Submit: valid foreign licence + certified English translation (if not in English), FIN card, passport, 1 passport photo.",
+          "Pay a fee of approx. S$25–S$50 (check current rates at OneMotoring).",
+          "Your Singapore provisional licence is issued; a full licence follows after 1 year with no offences."
+        ]
+      },
+      "myanmar": {
+        "title": "Myanmar Nationals — Specific Requirements 🇲🇲",
+        "bullets": [
+          "Myanmar licence is recognised for conversion — you do not need to sit the Singapore BTT or driving test.",
+          "Must have held the Myanmar licence for at least 1 year and have driven on it.",
+          "Bring: original Myanmar licence + certified English translation (by a notary or embassy), passport, FIN card.",
+          "If your Myanmar licence is not in English, get it translated at the Myanmar Embassy in Singapore or a certified translator.",
+          "If you have been in Singapore >12 months without converting, you may need to sit the BTT — check with Traffic Police."
+        ]
+      }
+    },
+    "jp": {
+      "tourist": {
+        "title": "Using a Foreign Licence / IDP in Japan",
+        "p1": "Japan accepts an International Driving Permit (IDP) issued under the Geneva Convention 1949. The IDP is valid for 1 year from the date of latest entry into Japan (not from the issue date of the IDP).",
+        "p2": "Japan does not accept IDPs issued under the Vienna Convention 1968 — check which convention your home country uses before travelling."
+      },
+      "convert": {
+        "title": "Converting a Foreign Licence (外国免許切替)",
+        "p1": "Japan has reciprocal licence conversion agreements with some countries (e.g. Germany, France, Australia). Myanmar is not on this list, which means:",
+        "bullets": [
+          "You must obtain a certified Japanese translation of your Myanmar licence from JAF (Japan Automobile Federation).",
+          "Submit to your prefecture's 免許センター: Myanmar licence + JAF translation, residence card (在留カード), passport, 住民票 (residence certificate), photo.",
+          "Take a written knowledge test (10 questions, pass mark 7/10) in Japanese or some centres allow English.",
+          "Take a practical skill test (in-circuit) at the licence centre — this tests basic car control and circuit route.",
+          "If you pass both, your Japanese licence is issued. JAF translation fee: approx. ¥3,000."
+        ]
+      },
+      "myanmar": {
+        "title": "Myanmar Nationals — Fastest Path 🇲🇲",
+        "p1": "Because Myanmar has no reciprocal agreement with Japan, the fastest legal path to a Japanese licence is:",
+        "options": [
+          "Option A — Driving School: Enrol in a 指定自動車教習所. Expensive (¥250,000–¥400,000) but the school skill test replaces the licence centre skill test. You only need to pass the 本免許学科試験 (theory) at the licence centre. This is the most reliable path.",
+          "Option B — Licence Centre Direct: Cheaper, but you must pass the skill test at the licence centre, which is harder to pass first-time without school training."
+        ],
+        "tip": "Tip: This app covers the 本免許学科試験 — use the Japan mock tests to prepare."
+      }
+    },
+    "disclaimer_label": "Disclaimer:",
+    "disclaimer_text": "This information is for general guidance only. Requirements may change — always verify with the Traffic Police (Singapore), your prefecture's 免許センター (Japan), or a registered immigration adviser before making decisions.",
+    "back_home": "← Back to home"
+  },
+  "resourcesSigns": {
+    "breadcrumb_home": "← Home",
+    "breadcrumb_title": "Road Signs Library",
+    "hero": {
+      "eyebrow": "Study material",
+      "title": "Road Signs Library",
+      "lead": "Every regulatory, warning and informational sign — with what each one means and what you must do."
+    },
+    "sg_title": "Singapore Signs",
+    "jp_title": "Japan Signs",
+    "sg_sections": [
+      {
+        "category": "Regulatory — Must Obey",
+        "signs": [
+          { "file": "stop.png", "title": "Stop", "subtitle": "ရပ်ရမည်", "desc": "Come to a complete stop at the line before proceeding." },
+          { "file": "give-way.png", "title": "Give Way", "subtitle": "လမ်းပေးရမည်", "desc": "Yield to traffic on the major road before entering." },
+          { "file": "no-entry.png", "title": "No Entry", "subtitle": "ဝင်ခွင့်မပြု", "desc": "No vehicles may enter this road." },
+          { "file": "speed-50.png", "title": "Speed Limit 50", "subtitle": "အမြန်နှုန်း ၅၀", "desc": "Maximum speed of 50 km/h on this road." },
+          { "file": "no-overtaking.png", "title": "No Overtaking", "subtitle": "ကျော်ဖြတ်ခွင့်မရှိ", "desc": "Overtaking other vehicles is prohibited ahead." },
+          { "file": "mandatory-sign.png", "title": "Mandatory Direction", "subtitle": "ညွှန်ကြားသောဘက် သွားရမည်", "desc": "Must proceed in the direction shown by the arrow." }
+        ]
+      },
+      {
+        "category": "Warning — Hazard Ahead",
+        "signs": [
+          { "file": "warning-sign.png", "title": "General Warning", "subtitle": "သတိပေး", "desc": "Exercise caution — a hazard lies ahead." },
+          { "file": "pedestrian-crossing.png", "title": "Pedestrian Crossing", "subtitle": "လမ်းဖြတ်ကူးရှိ", "desc": "Slow down; pedestrians may be crossing ahead." },
+          { "file": "school-zone.png", "title": "School Zone", "subtitle": "ကျောင်းဇုန်", "desc": "Slow to 40 km/h during school hours; children may be present." },
+          { "file": "traffic-signals-sign.png", "title": "Traffic Signals Ahead", "subtitle": "မီးပွိုင့်ရှိ", "desc": "Traffic lights at the next junction — be prepared to stop." }
+        ]
+      },
+      {
+        "category": "Informational",
+        "signs": [
+          { "file": "parking-sign.png", "title": "Parking / No Parking", "subtitle": "ကားရပ်နားခြင်း", "desc": "Check posted restrictions for times and conditions." },
+          { "file": "roundabout.png", "title": "Roundabout Ahead", "subtitle": "လည်ပတ်လမ်းဆုံ", "desc": "Give way to traffic already in the roundabout." }
+        ]
+      }
+    ],
+    "jp_sections": [
+      {
+        "category": "規制標識 — Regulatory",
+        "signs": [
+          { "file": "jp-stop.png", "title": "止まれ", "subtitle": "Stop", "desc": "Come to a complete stop at the line. — 停止線の手前で一時停止。" },
+          { "file": "jp-no-entry.png", "title": "進入禁止", "subtitle": "No Entry", "desc": "Vehicles may not enter this road. — この道路へは進入禁止。" },
+          { "file": "jp-speed-limit.png", "title": "最高速度", "subtitle": "Speed Limit", "desc": "Do not exceed the posted speed. — 表示速度を超えてはいけない。" },
+          { "file": "jp-no-overtaking.png", "title": "追い越し禁止", "subtitle": "No Overtaking", "desc": "Overtaking prohibited in this section. — この区間は追い越し禁止。" },
+          { "file": "jp-give-way.png", "title": "徐行", "subtitle": "Proceed Slowly", "desc": "Slow down and be prepared to stop at any moment. — いつでも止まれる速度で徐行。" },
+          { "file": "jp-one-way.png", "title": "一方通行", "subtitle": "One Way", "desc": "Traffic flows in one direction only. — 一方向のみ通行可。" },
+          { "file": "jp-parking.png", "title": "駐車禁止", "subtitle": "No Parking", "desc": "Stopping to park is prohibited. — 駐車は禁止。" }
+        ]
+      },
+      {
+        "category": "警戒標識 — Warning",
+        "signs": [
+          { "file": "jp-pedestrian-cross.png", "title": "横断歩道", "subtitle": "Pedestrian Crossing", "desc": "Yield to pedestrians crossing. — 横断歩道あり、歩行者優先。" },
+          { "file": "jp-school-zone.png", "title": "スクールゾーン", "subtitle": "School Zone", "desc": "Slow down; children may be present. — 子供が多い区域、徐行。" },
+          { "file": "jp-warning.png", "title": "警戒", "subtitle": "Hazard Warning", "desc": "Danger or unusual road conditions ahead. — 前方に危険箇所あり。" },
+          { "file": "jp-pedestrian.png", "title": "歩行者通行あり", "subtitle": "Pedestrians Present", "desc": "Pedestrians may be using this road. — 歩行者の通行に注意。" }
+        ]
+      }
+    ],
+    "back_home": "← Back to home"
+  },
+  "rewardedAd": {
+    "button_default": "Watch ad to retry",
+    "modal_title": "Watch a short ad",
+    "modal_body": "Watch a short ad to unlock one free retry.",
+    "modal_watch": "Watch now",
+    "modal_cancel": "No thanks",
+    "loading": "Loading ad…",
+    "skipped": "Ad skipped — retry not unlocked"
+  },
   "footer": {
     "tagline": "Theory test practice for Singapore & Japan, in your language.",
     "note": "An independent study tool. Not affiliated with the Singapore Traffic Police, Japan's National Police Agency, or any driving centre. All questions and illustrations are original."
@@ -173,6 +826,9 @@
     "gate_limit_title": "Daily limit reached",
     "gate_limit_desc1": "Come back tomorrow, or go premium for unlimited tests.",
     "gate_limit_desc2": "Premium unlocks unlimited mock tests, no ads, and quiz history tracking.",
+    "gate_ad_title": "Unlock one extra mock test",
+    "gate_ad_desc": "Watch a short ad to get one more mock test for this category today.",
+    "gate_ad_button": "Watch ad to unlock",
     "gate_premium": "Go Premium",
     "result_attempts": "Tries",
     "wrong_review": "Review wrong answers",

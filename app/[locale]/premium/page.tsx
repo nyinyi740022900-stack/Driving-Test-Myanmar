@@ -1,21 +1,34 @@
 import Link from 'next/link';
+import { getTranslations } from 'next-intl/server';
 import { PLANS } from '@/lib/subscription';
 
 export default async function PremiumPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = await getTranslations('premium');
+
+  const planLabels = {
+    monthly: t('plan_monthly_label'),
+    yearly: t('plan_yearly_label'),
+  } as const;
+
+  const features = [
+    t('feature_1'),
+    t('feature_2'),
+    t('feature_3'),
+    t('feature_4'),
+  ];
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--paint)', padding: '60px 24px' }}>
       <div style={{ maxWidth: 740, margin: '0 auto' }}>
 
         <div style={{ textAlign: 'center', marginBottom: 44 }}>
-          <div className="eyebrow" style={{ color: 'var(--guide-deep)', marginBottom: 12 }}>Simple pricing</div>
+          <div className="eyebrow" style={{ color: 'var(--guide-deep)', marginBottom: 12 }}>{t('eyebrow')}</div>
           <h1 style={{ fontFamily: 'var(--display)', fontSize: 'clamp(1.8rem,3.5vw,2.6rem)', fontWeight: 800, marginBottom: 12 }}>
-            Go Premium
+            {t('title')}
           </h1>
           <p style={{ color: 'var(--ink-soft)', fontSize: '1.05rem', maxWidth: '34em', margin: '0 auto' }}>
-            No ads, unlimited mock tests, and quiz history tracking.
-            Pay via KBZPay or WavePay — activated manually within a few hours.
+            {t('lead')}
           </p>
         </div>
 
@@ -34,19 +47,22 @@ export default async function PremiumPage({ params }: { params: Promise<{ locale
                   background: 'var(--guide)', color: '#fff', fontFamily: 'var(--display)',
                   fontWeight: 700, fontSize: '.72rem', letterSpacing: '.1em', textTransform: 'uppercase',
                   padding: '4px 14px', borderRadius: 999,
-                }}>Best value</div>
+                }}>{t('best_value')}</div>
               )}
               <div style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: '1.1rem', marginBottom: 6 }}>
-                {plan.label}
+                {planLabels[key]}
               </div>
               <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '2.2rem', lineHeight: 1, marginBottom: 4 }}>
-                {plan.price.toLocaleString()}<span style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--ink-soft)' }}> Ks</span>
+                {plan.price.toLocaleString()}
+                <span style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--ink-soft)' }}>
+                  {t('currency_ks')}
+                </span>
               </div>
               <div style={{ fontSize: '.85rem', color: 'var(--ink-soft)', marginBottom: 20 }}>
-                {plan.days} days · {key === 'yearly' ? 'Save 30%+' : 'Pay monthly'}
+                {t('plan_days', { days: plan.days })} · {key === 'yearly' ? t('plan_yearly_note') : t('plan_monthly_note')}
               </div>
               <ul style={{ listStyle: 'none', fontSize: '.9rem', color: 'var(--ink-soft)', marginBottom: 22, display: 'flex', flexDirection: 'column', gap: 8 }}>
-                {['No ads', 'Unlimited mock tests', 'Quiz history & best scores', 'Priority support'].map(f => (
+                {features.map(f => (
                   <li key={f} style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
                     <span style={{ color: 'var(--guide)', fontWeight: 700 }}>✓</span> {f}
                   </li>
@@ -57,16 +73,16 @@ export default async function PremiumPage({ params }: { params: Promise<{ locale
                 className="btn btn-primary"
                 style={{ width: '100%', justifyContent: 'center', display: 'flex' }}
               >
-                Choose {plan.label} →
+                {t('choose_plan', { plan: planLabels[key] })}
               </Link>
             </div>
           ))}
         </div>
 
         <p style={{ textAlign: 'center', marginTop: 24, fontSize: '.82rem', color: 'var(--ink-soft)' }}>
-          <Link href={`/${locale}`} style={{ color: 'var(--guide-deep)', fontWeight: 600 }}>← Back to home</Link>
+          <Link href={`/${locale}`} style={{ color: 'var(--guide-deep)', fontWeight: 600 }}>{t('back_home')}</Link>
           &nbsp;&nbsp;·&nbsp;&nbsp;
-          Questions? See our <a href="#faq" style={{ color: 'var(--guide-deep)', fontWeight: 600 }}>FAQ</a>
+          {t('faq_prompt')} <a href="#faq" style={{ color: 'var(--guide-deep)', fontWeight: 600 }}>{t('faq_link')}</a>
         </p>
       </div>
     </div>

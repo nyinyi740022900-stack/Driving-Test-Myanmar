@@ -25,8 +25,8 @@ export async function POST(request: Request) {
 
   const { data: subs, error } = await supabase
     .from('subscriptions')
-    .select('user_id, plan, expires_at')
-    .eq('status', 'active')
+    .select('user_id, expires_at')
+    .eq('status', 'premium')
     .lte('expires_at', cutoff.toISOString())
     .gte('expires_at', now.toISOString());
 
@@ -57,7 +57,7 @@ export async function POST(request: Request) {
         <div style="font-family:sans-serif;max-width:480px;margin:0 auto;padding:32px 24px">
           <h2 style="font-size:22px;font-weight:800;margin-bottom:8px">Your premium is expiring soon 🚗</h2>
           <p style="color:#555;line-height:1.6">
-            Your Myanpass <strong>${sub.plan === 'yearly' ? 'Yearly' : 'Monthly'} Premium</strong> expires on
+            Your Myanpass <strong>Premium</strong> expires on
             <strong>${expiresAt.toLocaleDateString('en-SG', { day: 'numeric', month: 'long', year: 'numeric' })}</strong>
             (${daysLeft} day${daysLeft === 1 ? '' : 's'} left).
           </p>

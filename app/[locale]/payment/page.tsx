@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useSearchParams, useRouter, useParams } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 import { useAuth } from '@/components/AuthProvider';
 import { createClient } from '@/lib/supabase';
 import { PLANS, type PlanKey } from '@/lib/subscription';
@@ -25,6 +26,7 @@ const WALLETS = [
 type WalletKey = 'KBZPay' | 'WavePay';
 
 export default function PaymentPage() {
+  const t = useTranslations('payment');
   const searchParams = useSearchParams();
   const router = useRouter();
   const params = useParams();
@@ -32,6 +34,10 @@ export default function PaymentPage() {
   const { user, loading } = useAuth();
   const planKey = (searchParams.get('plan') ?? 'monthly') as PlanKey;
   const plan = PLANS[planKey] ?? PLANS.monthly;
+  const planLabels = {
+    monthly: t('plan_monthly_label'),
+    yearly: t('plan_yearly_label'),
+  } as const;
 
   const [wallet, setWallet] = useState<WalletKey>('KBZPay');
   const [txnId, setTxnId] = useState('');
@@ -82,7 +88,7 @@ export default function PaymentPage() {
       if (insertErr) throw insertErr;
       setDone(true);
     } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : 'Something went wrong');
+      setError(err instanceof Error ? err.message : t('error_generic'));
     } finally {
       setSubmitting(false);
     }
@@ -95,21 +101,22 @@ export default function PaymentPage() {
       <div className="auth-page">
         <div className="auth-card" style={{ maxWidth: 480, textAlign: 'center' }}>
           <div style={{ fontSize: '2.4rem', marginBottom: 12 }}>🎉</div>
-          <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.5rem', marginBottom: 10 }}>Payment submitted!</h2>
+          <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.5rem', marginBottom: 10 }}>{t('submitted_title')}</h2>
           <p style={{ color: 'var(--ink-soft)', fontSize: '.95rem', marginBottom: 20 }}>
-            We received your payment details for <strong>{plan.label}</strong>.
-            Your account will be upgraded within a few hours once confirmed.
+            {t('submitted_desc', { plan: planLabels[planKey] })}
           </p>
           <p style={{ color: 'var(--ink-soft)', fontSize: '.88rem', marginBottom: 8 }}>
-            Activation is done manually — usually within a few hours. Sign in and refresh the page to check your premium status.
+            {t('submitted_note')}
           </p>
           <p style={{ color: 'var(--ink-soft)', fontSize: '.85rem', marginBottom: 24 }}>
-            If not activated within 24 hours, contact us at{' '}
+            {t('submitted_contact')}{' '}
             <a href="mailto:nyinyi1451996@icloud.com" style={{ color: 'var(--guide-deep)', fontWeight: 600 }}>
               nyinyi1451996@icloud.com
             </a>
           </p>
-          <Link href={`/${locale}`} className="btn btn-primary" style={{ display: 'inline-flex' }}>← Back to home</Link>
+          <Link href={`/${locale}`} className="btn btn-primary" style={{ display: 'inline-flex' }}>
+            {t('back_home')}
+          </Link>
         </div>
       </div>
     );
@@ -119,24 +126,24 @@ export default function PaymentPage() {
     <div className="auth-page" style={{ alignItems: 'flex-start', paddingTop: 40 }}>
       <div style={{ width: '100%', maxWidth: 500 }}>
         <Link href={`/${locale}`} style={{ display: 'inline-flex', alignItems: 'center', gap: 4, fontSize: '.82rem', color: 'var(--ink-soft)', marginBottom: 16, textDecoration: 'none' }}>
-          ← Back to home
+          {t('back_home')}
         </Link>
         <div className="auth-card">
           <div style={{ marginBottom: 24 }}>
             <div style={{ fontSize: '.78rem', fontFamily: 'var(--display)', fontWeight: 700, letterSpacing: '.12em', textTransform: 'uppercase', color: 'var(--guide-deep)', marginBottom: 6 }}>
-              Complete payment
+              {t('eyebrow')}
             </div>
             <h1 style={{ fontFamily: 'var(--display)', fontSize: '1.6rem', fontWeight: 800, marginBottom: 4 }}>
-              {plan.label}
+              {planLabels[planKey]}
             </h1>
             <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.8rem', color: 'var(--guide-deep)' }}>
-              {plan.price.toLocaleString()} Ks
+              {plan.price.toLocaleString()} {t('currency_ks')}
             </div>
           </div>
 
           {/* Wallet selector */}
           <div style={{ marginBottom: 20 }}>
-            <div className="field-label" style={{ marginBottom: 10 }}>1. Choose payment method</div>
+            <div className="field-label" style={{ marginBottom: 10 }}>{t('step_method')}</div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
               {WALLETS.map(w => (
                 <button
@@ -172,7 +179,7 @@ export default function PaymentPage() {
             marginBottom: 24,
           }}>
             <div className="field-label" style={{ marginBottom: 8 }}>
-              2. Transfer {plan.price.toLocaleString()} Ks to
+              {t('step_transfer', { amount: plan.price.toLocaleString() })}
             </div>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12 }}>
               <div>
@@ -180,7 +187,7 @@ export default function PaymentPage() {
                   {WALLETS.find(w => w.key === wallet)?.number}
                 </div>
                 <div style={{ fontSize: '.82rem', color: 'var(--ink-soft)', marginTop: 2 }}>
-                  {wallet} · Myanpass
+                  {wallet} · {t('brand_name')}
                 </div>
               </div>
               <button
@@ -188,7 +195,7 @@ export default function PaymentPage() {
                 onClick={() => navigator.clipboard.writeText(WALLETS.find(w => w.key === wallet)?.number ?? '')}
                 style={{ fontSize: '.78rem', fontFamily: 'var(--display)', fontWeight: 700, padding: '6px 12px', border: '1px solid var(--line)', borderRadius: 8, background: '#fff', cursor: 'pointer', color: 'var(--ink-soft)' }}
               >
-                Copy
+                {t('copy')}
               </button>
             </div>
           </div>
@@ -196,18 +203,20 @@ export default function PaymentPage() {
           <form onSubmit={handleSubmit}>
             {error && <div className="auth-error">{error}</div>}
 
-            <label className="field-label">3. Transaction ID / Reference number</label>
+            <label className="field-label">{t('step_txn')}</label>
             <input
               className="field-input"
               type="text"
               required
               value={txnId}
               onChange={e => setTxnId(e.target.value)}
-              placeholder="e.g. KBZ2024XXXXXXXXXX"
+              placeholder={t('txn_placeholder')}
               style={{ marginBottom: 16 }}
             />
 
-            <label className="field-label" htmlFor="screenshot-upload">4. Screenshot of payment (optional but speeds up approval)</label>
+            <label className="field-label" htmlFor="screenshot-upload">
+              {t('step_screenshot')}
+            </label>
             <input
               id="screenshot-upload"
               type="file"
@@ -232,12 +241,12 @@ export default function PaymentPage() {
               disabled={submitting}
               style={{ width: '100%', justifyContent: 'center', opacity: submitting ? .6 : 1 }}
             >
-              {submitting ? 'Submitting…' : 'Submit payment details →'}
+              {submitting ? t('submitting') : t('submit_cta')}
             </button>
           </form>
 
           <p style={{ marginTop: 16, fontSize: '.82rem', color: 'var(--ink-soft)', textAlign: 'center' }}>
-            Your account will be upgraded within a few hours.
+            {t('footer_note')}
           </p>
         </div>
       </div>

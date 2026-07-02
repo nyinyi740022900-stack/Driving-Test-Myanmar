@@ -43,22 +43,8 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <head>
-        {ADSENSE_ID && (
-          <>
-            <script
-              async
-              src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`}
-              crossOrigin="anonymous"
-            />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `window.adBreak=window.adConfig=function(o){(window.adsbygoogle=window.adsbygoogle||[]).push(o)};`,
-              }}
-            />
-          </>
-        )}
-      </head>
+      {/* eslint-disable-next-line @next/next/no-head-element */}
+      <head>{ADSENSE_ID && <><script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`} crossOrigin="anonymous" /><script dangerouslySetInnerHTML={{ __html: `window.adBreak=window.adConfig=function(o){(window.adsbygoogle=window.adsbygoogle||[]).push(o)};` }} /></>}</head>
       <body>
         <NextIntlClientProvider messages={messages}>
           <CountryProvider>

@@ -32,6 +32,14 @@
     "explanation": {
       "en": "Keep to the left unless overtaking; the rightmost lanes are for faster-moving and overtaking traffic.",
       "my": "ကျော်တက်နေချိန်မဟုတ်လျှင် ဘယ်ဘက်တွင် ဆက်လက်မောင်းနှင်ပါ — ညာဘက်လမ်းကြောင်းများသည် ပိုမြန်သော/ကျော်တက်သည့် ယာဉ်များအတွက်ဖြစ်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/sg/keep-left.svg",
+      "alt": {
+        "en": "Two-lane road with a green arrow in the left lane",
+        "my": "ဘယ်ဘက်လမ်းကြောင်းကို သုံးရန် ပြထားသော နှစ်လမ်းကြောင်းပုံ"
+      }
     }
   },
   {
@@ -2140,33 +2148,33 @@
     "topic": "expressway_driving",
     "difficulty": "medium",
     "prompt": {
-      "en": "When merging onto an expressway from a slip road, what should you do?",
-      "my": "ချိတ်ဆက်လမ်းမှ အမြန်လမ်းသို့ ပေါင်းစည်းဝင်ချိန် ဘာလုပ်သင့်သလဲ။"
+      "en": "A driver uses the expressway emergency lane to skip a traffic jam ahead. Is this permitted?",
+      "my": "ယာဉ်မောင်းသူတစ်ဦးသည် ရှေ့တွင် ယာဉ်ပိတ်ဆို့မှုကို ကျော်ရှောင်ရန် အမြန်လမ်းမ၏ အရေးပေါ်လမ်းကြောင်းကို အသုံးပြုသည်။ ၎င်းကို ခွင့်ပြုသလား?"
     },
     "choices": [
       {
         "text": {
-          "en": "Match the speed of expressway traffic before merging and signal early",
-          "my": "ပေါင်းစည်းဝင်မီ အမြန်လမ်းပေါ်ယာဉ်ကြောနှင့် အမြန်နှုန်းညီအောင်ထားပြီး စောစီးစွာ မီးပြလက္ခဏာပြသပါ"
+          "en": "No — the emergency lane is only for genuine emergencies, breakdowns or police use",
+          "my": "မပြု — အရေးပေါ်လမ်းကြောင်းသည် စစ်မှန်သော အရေးပေါ်အခြေအနေ၊ ယာဉ်ပျက်ကျခြင်း သို့မဟုတ် ရဲသုံးစွဲမှုအတွက်သာ"
         }
       },
       {
         "text": {
-          "en": "Stop at the end of the slip road and wait for a gap",
-          "my": "ချိတ်ဆက်လမ်းအဆုံးတွင် ရပ်ပြီး အကွာအဝေးတစ်ခုကို စောင့်ပါ"
+          "en": "Yes — as long as no emergency vehicles are coming",
+          "my": "ပြု — အရေးပေါ်ယာဉ်များ မလာသရွေ့"
         }
       },
       {
         "text": {
-          "en": "Merge as slowly as possible regardless of traffic speed",
-          "my": "ယာဉ်ကြောအမြန်နှုန်းမည်သို့ပင်ရှိစေ အနှေးဆုံးပေါင်းစည်းဝင်ပါ"
+          "en": "Yes — drivers may use it when traffic is at a standstill",
+          "my": "ပြု — ယာဉ်သွားလာမှု လုံးဝ ရပ်နေသောအချိန်တွင် ယာဉ်မောင်းသူများ အသုံးပြုနိုင်သည်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Merging safely means accelerating on the slip road to match expressway traffic speed and signalling early so other drivers can adjust, rather than stopping or merging too slowly.",
-      "my": "ဘေးကင်းစွာပေါင်းစည်းဝင်ခြင်းဆိုသည်မှာ ချိတ်ဆက်လမ်းပေါ်တွင် အရှိန်တင်ပြီး အမြန်လမ်းယာဉ်ကြောအမြန်နှုန်းနှင့်ညီအောင်ထားကာ အခြားယာဉ်မောင်းသူများ ညှိနိုင်ရန် စောစီးစွာ မီးပြလက္ခဏာပြသခြင်းဖြစ်သည်၊ ရပ်ခြင်း သို့မဟုတ် နှေးနှေးပေါင်းစည်းဝင်ခြင်းထက်။"
+      "en": "Using the expressway emergency lane to bypass traffic is illegal and carries a $200 fine and 4 demerit points. The emergency lane must be kept clear for ambulances, fire engines, and police vehicles.",
+      "my": "ယာဉ်ပိတ်ဆို့မှုကို ကျော်ရှောင်ရန် အမြန်လမ်းမ အရေးပေါ်လမ်းကြောင်းကို အသုံးပြုခြင်းသည် တရားမဝင်ပြီး ဒဏ်ငွေ ၂၀၀ ဒေါ်လာနှင့် ဒဏ်မှတ် ၄ မှတ် ရသည်။"
     }
   },
   {
@@ -2210,33 +2218,33 @@
     "topic": "expressway_driving",
     "difficulty": "medium",
     "prompt": {
-      "en": "What does an ERP (Electronic Road Pricing) gantry overhead sign with a flashing amber light usually indicate?",
-      "my": "မီးတောက်နေသော ရွှေဝါရောင်မီးပါသော ERP (လျှပ်စစ်လမ်းငွေပေးချေမှု) ဂိတ်ဆိုင်းဘုတ်သည် ပုံမှန်အားဖြင့် ဘာကိုညွှန်ပြသလဲ။"
+      "en": "Your IU (In-vehicle Unit) beeps and shows \"Card Error\" as you pass under an ERP gantry. What does this mean?",
+      "my": "ERP ဂိတ်တစ်ခုအောက် ဖြတ်ကျော်သောအခါ သင်၏ IU (ကားတွင်းကိရိယာ) သည် အသံပေးပြီး \"Card Error\" ပြသည်။ ၎င်းသည် ဘာကို ဆိုလိုသလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "ERP charging is currently active at that gantry",
-          "my": "ထိုဂိတ်တွင် ERP ကောက်ခံမှု လက်ရှိအလုပ်လုပ်နေသည်"
+          "en": "The CashCard is depleted, inserted wrongly, or missing — you will receive a notice of charge",
+          "my": "CashCard ငွေ ကုန်ခမ်းနေ၊ မှားယွင်းထည့်ထား သို့မဟုတ် မရှိ — သင် ကောက်ခံသည်ဟု အကြောင်းကြားချက် ရမည်"
         }
       },
       {
         "text": {
-          "en": "The expressway ahead is permanently closed",
-          "my": "ရှေ့ရှိအမြန်လမ်းသည် အမြဲတမ်းပိတ်ထားသည်"
+          "en": "There is a technical fault with the gantry — no charge applies",
+          "my": "ဂိတ်တွင် နည်းပညာချို့ယွင်းချက် ရှိသည် — ကောက်ခံမည် မဟုတ်"
         }
       },
       {
         "text": {
-          "en": "Overtaking is required at the gantry",
-          "my": "ဂိတ်တွင် ကျော်တက်ခြင်း လိုအပ်သည်"
+          "en": "You are exempt from paying ERP at this location",
+          "my": "ဤနေရာတွင် ERP ကောက်ခံမှုမှ ကင်းလွတ်ခွင့်ရှိသည်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "A flashing light on an ERP gantry signals that charging is active; drivers should ensure their in-vehicle unit has sufficient stored value to avoid a fine.",
-      "my": "ERP ဂိတ်ပေါ်ရှိ မီးတောက်သည်ခြင်းသည် ကောက်ခံမှု လက်ရှိအလုပ်လုပ်နေကြောင်းညွှန်ပြသည် — ယာဉ်မောင်းသူများသည် ဒဏ်ငွေကျသွားခြင်းမရှိစေရန် ၎င်းတို့၏ယာဉ်တွင်းကိရိယာတွင် လက်ကျန်ငွေလုံလောက်ကြောင်း သေချာစေသင့်သည်။"
+      "en": "A CashCard error means the system could not deduct the ERP charge. LTA will send a Notice of Charge (NOC) to the registered vehicle owner, who must pay the charge plus an administrative fee within the notice period.",
+      "my": "CashCard အမှားဆိုသည်မှာ ကိရိယာသည် ERP ကောက်ခံမှုကို နုတ်မရသောကြောင့် ဖြစ်သည်။ LTA သည် မှတ်ပုံတင်ထားသော ယာဉ်ပိုင်ရှင်ထံ ကောက်ခံကြောင်း အကြောင်းကြားချက် ပေးပို့မည်။"
     }
   },
   {
@@ -4666,8 +4674,8 @@
     "choices": [
       {
         "text": {
-          "en": "Move to emergency lane, switch hazard lights on, place warning triangle 50m behind, exit vehicle on left side, stay behind barrier",
-          "my": "အရေးပေါ် လမ်းကြောင်းသို့ ရွေ့၊ hazard မီး ဖွင့်၊ ၅၀ မီတာ နောက်မှ သတိပေး တြိဂံ ထား၊ ဘယ်ဘက်မှ ကား မှ ဆင်း၊ ကာရံချက် နောက် ကပ်နေပါ"
+          "en": "Move to emergency lane, switch hazard lights on, place warning triangle 20m behind, exit vehicle on left side, stay behind barrier",
+          "my": "အရေးပေါ် လမ်းကြောင်းသို့ ရွေ့၊ hazard မီး ဖွင့်၊ ၂၀ မီတာ နောက်မှ သတိပေး တြိဂံ ထား၊ ဘယ်ဘက်မှ ကား မှ ဆင်း၊ ကာရံချက် နောက် ကပ်နေပါ"
         }
       },
       {
@@ -6340,33 +6348,33 @@
     "topic": "vulnerable_road_users",
     "difficulty": "medium",
     "prompt": {
-      "en": "What should you do when approaching a school zone during school hours?",
-      "my": "ကျောင်းချိန် အတွင်း ကျောင်း ဇုန် ကို ချဉ်းကပ်သောအခါ မည်သို့ ဆောင်ရွက်ရမည်လဲ?"
+      "en": "What is a \"Silver Zone\" and what special precautions apply there?",
+      "my": "\"Silver Zone\" ဆိုသည်မှာ ဘာဆိုလိုပြီး ၎င်းတွင် မည်သည့် အထူးသတိပြုမှုများ ဆောင်ရွက်ရမည်လဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Reduce speed significantly, watch for children crossing and school buses stopping",
-          "my": "မြန်နှုန်း သိသိသာသာ လျှော့ချ၊ ဖြတ်ကူးနေသော ကလေးများနှင့် ရပ်ဆိုင်းနေသော ကျောင်းကား ကြည့်ပါ"
+          "en": "A designated zone near elderly residential areas — reduced speed limit and enhanced penalties for speeding",
+          "my": "သက်ကြီးရွယ်အိုများ နေထိုင်ရာ နေရာများ အနီးရှိ သတ်မှတ်ဇုန် — မြန်နှုန်းကန့်သတ်ချက် လျော့ချပြီး ပိုမိုပြင်းထန်သော ဒဏ်ကြေးများ"
         }
       },
       {
         "text": {
-          "en": "Keep to the speed limit and proceed normally",
-          "my": "မြန်နှုန်း ကန့်သတ် ၌ ကျန်ပြီး ပုံမှန် ဆက်သွားပါ"
+          "en": "A precious metal trading area with restricted vehicle access",
+          "my": "ယာဉ်ဝင်ရောက်မှု ကန့်သတ်ထားသော ငွေရွှေ ကုန်သွယ်ရေးနေရာ"
         }
       },
       {
         "text": {
-          "en": "Sound horn to clear the road",
-          "my": "လမ်း ဖြောင့်ရှင်းစေရန် ဟွန်းတီးပါ"
+          "en": "A zone with silver-coloured road markings for high-speed roads",
+          "my": "မြန်နှုန်းမြင့်လမ်းများအတွက် ငွေရောင်လမ်းသားများပါသော ဇုန်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "In school zones during school hours: slow to 40km/h or less, watch for children crossing unexpectedly, give way to school buses, obey school crossing guards.",
-      "my": "ကျောင်းချိန် အတွင်း ကျောင်းဇုန် ၌: ကီလိုမီတာ/နာရီ ၄၀ သို့မဟုတ် အောက် ၌ နှေးချ၊ မမျှော်မှန်းဘဲ ဖြတ်ကူးနေသော ကလေးများ ကြည့်ပါ၊ ကျောင်းကား ကို လမ်းပေးပါ၊ ကျောင်းဖြတ်ကူးရာ ကြီးကြပ်ရေးမှူး ကို လိုက်နာပါ။"
+      "en": "Silver Zones are areas near elderly residents with enhanced road safety features. Speed limits are reduced and penalty for speeding offences is higher — 2 additional demerit points compared to normal zones.",
+      "my": "Silver Zone များသည် သက်ကြီးရွယ်အိုများ ရှိသော နေရာ အနီးမှ လမ်းဘေးကင်းလုံခြုံရေးကို မြှင့်တင်ထားသော နေရာများ ဖြစ်သည်။ မြန်နှုန်းကန့်သတ်ချက်လျော့ချပြီး ကျူးလွန်မှုအတွက် ဒဏ်မှတ် ပိုမိုများသည်။"
     }
   },
   {
@@ -9770,33 +9778,33 @@
     "topic": "vehicle_maintenance",
     "difficulty": "easy",
     "prompt": {
-      "en": "When should you replace windscreen wipers?",
-      "my": "မှန်ပွတ်ကိရိယာများ ကို မည်သည့်အချိန် ၌ အစားထိုးရမည်လဲ?"
+      "en": "When is it compulsory to switch on your headlights while driving in Singapore?",
+      "my": "စင်္ကာပူတွင် ကားမောင်းရင်း မြင်ပင်မောင်ချိတ် ဖွင့်ရန် မဖြစ်မနေ လိုအပ်သောအချိန်မှာ မည်သည်?"
     },
     "choices": [
       {
         "text": {
-          "en": "When they smear, streak or fail to clear the screen properly — typically every 6-12 months",
-          "my": "မှန် ကို မှန်ကန်စွာ ရှင်းမရသောအခါ၊ ဆိုးကျိုး ဖြစ်ပေါ်သောအခါ — ပုံမှန် ၆-၁၂ လ တိုင်း"
+          "en": "Between 7pm and 7am, and whenever visibility is reduced (heavy rain, fog)",
+          "my": "ညနေ ၇ နာရီမှ မနက် ၇ နာရီအထိ၊ နှင့် မြင်နိုင်စွမ်းလျော့ကျသောအချိန်မှန်သမျှ (မိုးသည်းထနေ၊ မြူသွပ်မှု)"
         }
       },
       {
         "text": {
-          "en": "Only when they stop moving completely",
-          "my": "လုံးဝ မရွေ့တော့သောအခါ ကိုသာ"
+          "en": "Only at night after 10pm",
+          "my": "ညနေ ၁၀ နာရီနောက်မှ ည မှသာ"
         }
       },
       {
         "text": {
-          "en": "Every 5 years",
-          "my": "နှစ် ၅ ကြိမ် တစ်ကြိမ်"
+          "en": "Only when driving on expressways",
+          "my": "အမြန်လမ်းမပေါ် မောင်းနှင်သောအခါမှသာ"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Replace wipers when they smear, chatter or leave blind spots. In Singapore's heavy rain, functioning wipers are critical. Rubber degrades in tropical heat — check every 6 months.",
-      "my": "ကိရိယာများ ဆိုးကျိုး ဖြစ်ပေါ်သောအခါ၊ ကျွပ်မြည်သောအခါ သို့မဟုတ် မြင်မနေ နေရာ ကျန်ရှိစေသောအခါ အစားထိုးပါ။ စင်ကာပူ ၏ ကြီးမားသော မိုးရွာသွန်းမှု ၌ အလုပ်လုပ်သော ကိရိယာများ အရေးကြီးသည်။ ဆာပင် ကတ်ရောမ်ပ ဆေးဆိုတဲ့ ကွာဆမ်မှ ပူပြင်းသောနေ ၌ ပွပ်မှဆင်မှ — ၆ လ တိုင်း စစ်ဆေးပါ"
+      "en": "Singapore law requires headlights on between 7pm and 7am and when visibility is reduced (heavy rain, fog, etc). Never drive with only parking/position lights — full headlights must be used.",
+      "my": "စင်္ကာပူ ဥပဒေသည် ညနေ ၇ နာရီမှ မနက် ၇ နာရီအထိ နှင့် မြင်နိုင်စွမ်းလျော့ကျသောအခါ မြင်ပင်မောင်ချိတ် ဖွင့်ရန် တောင်းဆိုသည်။"
     }
   },
   {
@@ -14985,33 +14993,33 @@
     "topic": "expressway_driving",
     "difficulty": "medium",
     "prompt": {
-      "en": "What should you do if you miss your exit on an expressway?",
-      "my": "Expressway ပေါ်တွင် ထွက်ပေါက် လွတ်သွားလျှင် မည်သို့ ပြုမူသင့်သလဲ?"
+      "en": "On a 3-lane expressway, you are in the rightmost lane and wish to take the next exit (leftmost). What is the safest way to change to the left lane?",
+      "my": "လမ်းကြောင်း ၃ ကြောင်းပါ အမြန်လမ်းမပေါ် ညာဘက်ဆုံးလမ်းကြောင်းတွင် ရှိပြီး နောက်ဆုံးထွက်ပေါက် (ဘယ်ဘက်ဆုံး) ကို ယူလိုသည်။ ဘယ်ဘက်လမ်းကြောင်းသို့ ပြောင်းရွှေ့ရန် အဘယ်မျှ ဘေးကင်းနည်းဖြင့် ဆောင်ရွက်ရမည်လဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Reverse on the expressway to reach the exit",
-          "my": "ထွက်ပေါက်သို့ ရောက်ရန် expressway ပေါ်တွင် နောက်ဆုတ်ပါ"
+          "en": "Move one lane at a time — check mirrors and blind spot, signal, move to middle, then repeat for the left lane",
+          "my": "တစ်ကြောင်းစီ ပြောင်းပါ — မှန်နှင့် မြင်ကွင်းကန့်သတ်ချက် စစ်ကာ ဆင်နင်းပြောင်း၊ အလယ်သို့ ရွေ့ပြီး ဘယ်ဘက်လမ်းကြောင်းအတွက် ထပ်လုပ်ပါ"
         }
       },
       {
         "text": {
-          "en": "Continue to the next exit and use alternative routes",
-          "my": "နောက်ထွက်ပေါက်သို့ ဆက်ကာ အခြားလမ်းကြောင်းများ သုံးပါ"
+          "en": "Signal and cut across all lanes in one smooth movement to save time",
+          "my": "အချိန်ကုစားရန် ဆင်နင်းပြောင်းကာ လမ်းကြောင်းအားလုံးကို တစ်ချက်တည်းဖြင့် ဖြတ်ကျော်ပါ"
         }
       },
       {
         "text": {
-          "en": "Do a U-turn on the expressway",
-          "my": "Expressway ပေါ်တွင် U-turn ပြုပါ"
+          "en": "Flash your hazard lights while moving to the left",
+          "my": "ဘယ်ဘက်သို့ ရွေ့နေစဉ် hazard မီးများ မှိတ်တုတ်မှိတ်တုတ် ဖွင့်ပါ"
         }
       }
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": {
-      "en": "If you miss your exit on an expressway, never reverse or make a U-turn. Continue to the next exit and find an alternative route. Reversing or turning on an expressway is extremely dangerous and illegal.",
-      "my": "Expressway ပေါ်တွင် ထွက်ပေါက် လွတ်သွားလျှင် မည်သည့်အချိန်မဆို နောက်ဆုတ်ခြင်း သို့မဟုတ် U-turn မပြုပါနှင့်။ နောက်ထွက်ပေါက်သို့ ဆက်ကာ အခြားလမ်းကြောင်း ရှာပါ။"
+      "en": "Never cut across multiple lanes in a single move — change lanes one at a time. Each lane change requires a full mirror-signal-blind spot check before moving. Cutting across lanes is dangerous and a traffic offence.",
+      "my": "တစ်ကြောင်းချင်းစီ ပြောင်းပါ — တစ်ချက်တည်းဖြင့် လမ်းကြောင်းများ ဖြတ်မကျော်ပါနှင့်။ လမ်းကြောင်းတိုင်း ပြောင်းခြင်းတွင် မြင်ပင်-ဆင်နင်းပြောင်း-မြင်ကွင်းကန့်သတ် စစ်ဆေးချက် လိုအပ်သည်။"
     }
   },
   {
@@ -15195,33 +15203,33 @@
     "topic": "vehicle_maintenance",
     "difficulty": "medium",
     "prompt": {
-      "en": "What is the function of shock absorbers in a vehicle?",
-      "my": "ယာဉ်တစ်စီးတွင် shock absorber များ၏ လုပ်ဆောင်ချက်မှာ ဘာနည်း?"
+      "en": "Your power steering suddenly fails while driving. What should you do?",
+      "my": "ကားမောင်းနေစဉ် Power steering ချက်ချင်း ပျက်ကျသည်။ ဘာ ဆောင်ရွက်ရမည်လဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "To prevent the vehicle from rolling over corners",
-          "my": "ကွေ့ချိုးတွင် ယာဉ်လိမ့်ကျခြင်းကို ကာကွယ်ရန်"
+          "en": "Apply extra physical force on the steering wheel to maintain control, slow down, and pull over safely",
+          "my": "ထိန်းသိမ်းမှုထိန်းရန် လှည့်ပတ်ကိုင်တွင် ပိုမိုထိခိုက်မှုအင်အား ကိုင်ပြီး မြန်နှုန်းလျော့ကာ ဘေးကင်းစွာ ရပ်တန့်ပါ"
         }
       },
       {
         "text": {
-          "en": "To dampen spring oscillations and keep tyres in contact with the road",
-          "my": "Spring လှုပ်ယမ်းမှုကို ကြုံ့ကျစေကာ တာယာများ လမ်းနှင့် ဆက်သွယ်မှု ထိန်းသိမ်းရန်"
+          "en": "Stop immediately wherever you are on the road",
+          "my": "လမ်းပေါ်တွင် ရှိနေရာ မှ ချက်ချင်းရပ်ပါ"
         }
       },
       {
         "text": {
-          "en": "To control the vehicle's braking force",
-          "my": "ယာဉ်၏ ဘရိတ်အား ထိန်းချုပ်ရန်"
+          "en": "Continue driving — power steering failure does not affect control",
+          "my": "ဆက်မောင်းနှင်ပါ — Power steering ပျက်ကျမှုသည် ထိန်းသိမ်းမှုကို မထိခိုက်ပါ"
         }
       }
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": {
-      "en": "Shock absorbers control spring movement, dampening oscillations and keeping the tyres in contact with the road surface. Worn shock absorbers reduce grip and handling, increasing stopping distances.",
-      "my": "Shock absorber များသည် spring လှုပ်ရှားမှုကို ထိန်းချုပ်ကာ လှုပ်ယမ်းမှုကြုံ့ကျစေပြီး တာယာများ လမ်းမျက်နှာပြင်နှင့် ဆက်သွယ်မှု ထိန်းသိမ်းသည်။ Shock absorber ပျက်စီးလျှင် ဆုပ်ကိုင်မှုနှင့် ကိုင်တွယ်မှု ကျဆင်းကာ ရပ်ကွက်ကိန်း တိုးသည်။"
+      "en": "Power steering failure means steering becomes very heavy. The vehicle can still be steered using extra effort. Slow down gradually, signal, and pull over safely. Do not stop abruptly in traffic.",
+      "my": "Power steering ပျက်ကျမှုဆိုသည်မှာ လှည့်ပတ်ကိုင် အလွန်လေးလာသည်ကို ဆိုလိုသည်။ ပိုမိုအင်အားထည့်ကာ ဆက်ထိန်းနိုင်သည်။ တဖြည်းဖြည်း နှေးကြေးကာ ဆင်နင်းပြောင်းပြီး ဘေးကင်းစွာ ရပ်ပါ။"
     }
   },
   {
@@ -16036,33 +16044,33 @@
     "topic": "eco_driving",
     "difficulty": "medium",
     "prompt": {
-      "en": "What is 'coasting' and is it fuel-efficient?",
-      "my": "'Coasting' ဆိုသည်မှာ ဘာနည်း? လောင်စာချွေတာသလဲ?"
+      "en": "What is \"engine braking\" and when is it useful?",
+      "my": "\"ဆီစက် ဘရိတ်\" ဆိုသည်မှာ ဘာဆိုလိုပြီး မည်သည့်အချိန်တွင် အသုံးဝင်သလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Coasting is driving with the engine off — it is dangerous and illegal",
-          "my": "Coasting ဆိုသည်မှာ အင်ဂျင် ပိတ်ကာ မောင်းနှင်ခြင်း — အန္တရာယ်ရှိပြီး တရားမဝင်ပါ"
+          "en": "Decelerating by releasing the accelerator and downshifting — most useful on long descents to avoid brake fade",
+          "my": "Speed ကျစေ (accelerator) လွှတ်ပြီး gear ချခြင်းဖြင့် — ဘရိတ်ပူဆိုး‌ပြောင်းမှုကို ရှောင်ကွင်းရန် ရှည်လျားသောနိမ့်ဆင်းသောနေရာများတွင် အသုံးဝင်ဆုံး"
         }
       },
       {
         "text": {
-          "en": "Coasting in gear uses little fuel as modern cars cut injection on overrun — but neutral coasting is more dangerous",
-          "my": "ဂီယာနှင့် coasting ပြုလုပ်ခြင်းသည် ဆီနည်းနည်းသာ သုံးသည် — သို့သော် neutral coasting သည် ပိုအန္တရာယ်ရှိသည်"
+          "en": "Using the handbrake while the engine is running",
+          "my": "ဆီစက် လည်ပတ်နေစဉ် လက်ဘရိတ် အသုံးပြုခြင်း"
         }
       },
       {
         "text": {
-          "en": "Coasting in neutral saves the most fuel and is recommended",
-          "my": "Neutral coasting သည် လောင်စာ အများဆုံး ချွေတာပြီး အကြံပြုသည်"
+          "en": "Pressing the brake pedal all the way to the floor",
+          "my": "ဘရိတ်ကို နောက်ဆုံးအထိ ကိုင်ချခြင်း"
         }
       }
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": {
-      "en": "Modern fuel-injected cars cut fuel delivery completely when decelerating in gear (engine braking). Coasting in neutral keeps the engine idling and uses a little fuel. Engine braking in gear is more fuel-efficient.",
-      "my": "ဆေးသွင်းမြင်းသည်သည့် ခေတ်မီကားများသည် ဂီယာနှင့် အရှိန်လျှော့ချသောအခါ လောင်စာ ပေးပို့မှုကို လုံးဝ ဖြတ်တောက်သည်။ Neutral coasting သည် အင်ဂျင် idling ဆက်ထားကာ ဆီနည်းနည်း သုံးသည်။ ဂီယာဖြင့် အင်ဂျင်ဘရိတ်သည် လောင်စာ ပိုချွေတာသည်။"
+      "en": "Engine braking uses the engine's resistance to slow the vehicle. On long downhill stretches, use lower gears to let the engine brake instead of relying solely on the foot brake, which can overheat and fade.",
+      "my": "ဆီစက် ဘရိတ်သည် ယာဉ်ကို နှေးစေရန် ဆီစက်၏ ခုခံမှုကို အသုံးပြုသည်။ ရှည်လျားသောနိမ့်ဆင်းသောနေရာများတွင် ကျဲပြားဂီယာ အသုံးပြုကာ ဆီစက်ဘရိတ် ကိုင်ပါ၊ ချည်းဖေးဘရိတ်ကိုသာ မမှီခိုပါနှင့်။"
     }
   },
   {

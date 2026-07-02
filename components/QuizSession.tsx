@@ -33,6 +33,21 @@ function shuffleChoices(q: Question): Question {
   return { ...q, choices: indices.map(i => q.choices[i]), answer: indices.indexOf(q.answer) };
 }
 
+function getTodayKey(category: Category) {
+  const today = new Date().toISOString().split('T')[0];
+  return `rr_mock_unlock_${category}_${today}`;
+}
+
+function getUnlockStatus(category: Category): 'granted' | 'used' | null {
+  if (typeof window === 'undefined') return null;
+  return (localStorage.getItem(getTodayKey(category)) as 'granted' | 'used' | null) ?? null;
+}
+
+function setUnlockStatus(category: Category, status: 'granted' | 'used') {
+  if (typeof window === 'undefined') return;
+  localStorage.setItem(getTodayKey(category), status);
+}
+
 export default function QuizSession({ category, mode, questions }: Props) {
   const t = useTranslations('quiz');
   const locale = useLocale() as 'en' | 'my' | 'ja';
@@ -105,8 +120,10 @@ export default function QuizSession({ category, mode, questions }: Props) {
     if (!process.env.NEXT_PUBLIC_SUPABASE_URL) { setGate('allowed'); return; }
     const supabase = createClient();
     canRunMockTest(supabase, user.id, category).then(ok => {
-      if (ok) { recordMockTestUsage(supabase, user.id, category); setGate('allowed'); }
-      else setGate('limit_reached');
+      if (ok) { recordMockTestUsage(supabase, user.id, category); setGate('allowed'); return; }
+      const unlock = getUnlockStatus(category);
+      if (unlock === 'granted') { setGate('allowed'); return; }
+      setGate('limit_reached');
     });
   }, [mode, user, authLoading, category]);
 
@@ -147,6 +164,9 @@ export default function QuizSession({ category, mode, questions }: Props) {
     if (timerRef.current) clearInterval(timerRef.current);
     if (mode === 'test') {
       const correct = answers.filter((a, i) => a === pool[i].answer).length;
+      if (getUnlockStatus(category) === 'granted') {
+        setUnlockStatus(category, 'used');
+      }
       saveQuizResult(category, {
         date: new Date().toISOString(),
         score: correct,
@@ -243,6 +263,22 @@ export default function QuizSession({ category, mode, questions }: Props) {
         <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.5rem', marginBottom: 10 }}>{t('gate_limit_title')}</h2>
         <p style={{ color: 'var(--ink-soft)', marginBottom: 8, fontSize: '.95rem' }}><strong>{metaName}</strong> — {t('gate_limit_desc1')}</p>
         <p style={{ color: 'var(--ink-soft)', marginBottom: 24, fontSize: '.9rem' }}>{t('gate_limit_desc2')}</p>
+        <div style={{ background: 'var(--paint-2)', border: '1px solid var(--line)', borderRadius: 14, padding: '14px 16px', marginBottom: 18 }}>
+          <div style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.92rem', marginBottom: 6 }}>
+            {t('gate_ad_title')}
+          </div>
+          <p style={{ color: 'var(--ink-soft)', fontSize: '.82rem', marginBottom: 12 }}>
+            {t('gate_ad_desc')}
+          </p>
+          <RewardedAdButton
+            className="btn btn-ghost"
+            label={t('gate_ad_button')}
+            onRewarded={() => {
+              setUnlockStatus(category, 'granted');
+              setGate('allowed');
+            }}
+          />
+        </div>
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center' }}>
           <Link href={`/${locale}/premium`} className="btn btn-primary">{t('gate_premium')}</Link>
           <BackButton label={`← ${t('back')}`} className="btn btn-ghost" />
@@ -620,45 +656,43 @@ export default function QuizSession({ category, mode, questions }: Props) {
           </div>
         )}
 
-        {/* Navigation — 3-column grid so Submit sits centred */}
-        <div className="quiz-nav-bar" style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', gap: 10, marginTop: 24 }}>
-          {/* Left: Previous */}
-          <div>
+        {/* Navigation — flex row with Submit absolutely centred so Prev/Next never shift */}
+        <div className="quiz-nav-bar" style={{ marginTop: 24 }}>
+          <div style={{ position: 'relative', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            {/* Left: Previous */}
             <button className="btn btn-ghost" onClick={handlePrev} disabled={idx === 0}
               style={{ opacity: idx === 0 ? .4 : 1 }}>
               ← {t('prev')}
             </button>
-          </div>
 
-          {/* Centre: Submit Answer (only when pendingPick exists) */}
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            {/* Centre: Submit Answer — absolutely positioned so it never shifts Prev/Next */}
             {showSubmitConfirm && (
               <button className="btn btn-primary" onClick={handleConfirm}
-                style={{ minWidth: 160, fontWeight: 700 }}>
+                style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', fontWeight: 700, minWidth: 140, whiteSpace: 'nowrap' }}>
                 {t('submit') ?? 'Submit Answer'}
               </button>
             )}
-          </div>
 
-          {/* Right: Next / Finish / Submit Test */}
-          <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-            {practiceCanFinish && (
-              <button className="btn btn-primary" onClick={handleSubmit}>
-                {t('finish')} →
-              </button>
-            )}
-            {!practiceCanFinish && testCanSubmit && (
-              <button className="btn btn-primary" onClick={handleSubmit}>
-                {t('submit_test')}
-              </button>
-            )}
-            {!practiceCanFinish && !testCanSubmit && (
-              <button className="btn btn-primary" onClick={handleNext}
-                disabled={isLastQ}
-                style={{ opacity: isLastQ ? .4 : 1 }}>
-                {t('next')} →
-              </button>
-            )}
+            {/* Right: Next / Finish / Submit Test */}
+            <div>
+              {practiceCanFinish && (
+                <button className="btn btn-primary" onClick={handleSubmit}>
+                  {t('finish')} →
+                </button>
+              )}
+              {!practiceCanFinish && testCanSubmit && (
+                <button className="btn btn-primary" onClick={handleSubmit}>
+                  {t('submit_test')}
+                </button>
+              )}
+              {!practiceCanFinish && !testCanSubmit && (
+                <button className="btn btn-primary" onClick={handleNext}
+                  disabled={isLastQ}
+                  style={{ opacity: isLastQ ? .4 : 1 }}>
+                  {t('next')} →
+                </button>
+              )}
+            </div>
           </div>
         </div>
 

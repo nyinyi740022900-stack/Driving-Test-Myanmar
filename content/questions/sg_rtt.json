@@ -32,6 +32,14 @@
     "explanation": {
       "en": "A red-bordered circular sign is a prohibition sign; with a motorcycle symbol it bans motorcycles from that road or area.",
       "my": "အနီရောင်အနားသတ်ပါသော စက်ဝိုင်းဆိုင်းဘုတ်သည် တားမြစ်ဆိုင်းဘုတ်ဖြစ်ပြီး ဆိုင်ကယ်ပုံပါလျှင် ထိုလမ်း သို့မဟုတ် နေရာတွင် ဆိုင်ကယ်များ ဝင်ခွင့်မရှိကြောင်း ဆိုလိုသည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/sg/no-motorcycle.svg",
+      "alt": {
+        "en": "No motorcycles prohibition sign",
+        "my": "ဆိုင်ကယ်ဝင်ခွင့်မရှိ ဆိုင်းဘုတ်"
+      }
     }
   },
   {
@@ -3742,41 +3750,6 @@
     "explanation": {
       "en": "The first few minutes of light rain are the most dangerous — water mixes with oil, rubber dust and grit on the road surface, creating extremely slippery conditions. Slow down significantly and increase following distance.",
       "my": "ပထမ မိနစ်အနည်းငယ် ဖွဲ ဖွဲ မိုးရွာသည်မှာ အလွန် အန္တရာယ် အများဆုံးဖြစ်သည် — ရေသည် ဆီ၊ ရာဘာ ဆူဆိုင်ကယ်နှင့် သဲနှင့် ရောနှောပြီး မျက်နှာပြင် ချောလွန်းသော အခြေအနေ ဖြစ်ပေါ်စေသည်။ အများကြီး နှေးချပြီး နောက်လိုက် အကွာ တိုးပါ။"
-    }
-  },
-  {
-    "id": "sg_rtt_0108",
-    "category": "sg_rtt",
-    "topic": "lane_filtering_positioning",
-    "difficulty": "hard",
-    "prompt": {
-      "en": "When filtering between lanes of stationary or slow-moving traffic, what is the maximum speed a motorcycle should travel at?",
-      "my": "ရပ်နေသော သို့ နှေးကွေးနေသော ယာဉ်တန်းများကြားတွင် ဖြတ်ကူးသောအခါ ဆိုင်ကယ် အများဆုံး မောင်းနိုင်သော အရှိန်မှာ ဘယ်လောက်လဲ။"
-    },
-    "choices": [
-      {
-        "text": {
-          "en": "30 km/h",
-          "my": "၃၀ km/h"
-        }
-      },
-      {
-        "text": {
-          "en": "Lane filtering is prohibited in Singapore",
-          "my": "Singapore တွင် လမ်းကြောင်းကြားဖြတ်ကူးခြင်း တားမြစ်ထားသည်"
-        }
-      },
-      {
-        "text": {
-          "en": "There is no specific limit — ride at whatever speed feels safe",
-          "my": "တိကျသော ကန့်သတ်ချက် မရှိ — လုံခြုံမည်ထင်သော အရှိန်ဖြင့် မောင်းပါ"
-        }
-      }
-    ],
-    "answer": 1,
-    "explanation": {
-      "en": "In Singapore, lane filtering (splitting) between moving or stationary lanes is prohibited. Motorcycles must remain in their lane like any other vehicle.",
-      "my": "Singapore တွင် ရွေ့လျားနေသော သို့ ရပ်နေသော ယာဉ်တန်းများကြား ဖြတ်ကူးခြင်း တားမြစ်ထားသည်။ ဆိုင်ကယ်များသည် အခြားယာဉ်ကဲ့သို့ မိမိလမ်းကြောင်းတွင်သာ နေရမည်။"
     }
   },
   {

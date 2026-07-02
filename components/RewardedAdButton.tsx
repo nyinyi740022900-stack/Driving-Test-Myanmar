@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 declare global {
   interface Window {
@@ -17,9 +18,11 @@ interface Props {
 
 type State = 'idle' | 'confirm' | 'loading' | 'skipped';
 
-export default function RewardedAdButton({ onRewarded, label = 'Watch ad to retry', className = '' }: Props) {
+export default function RewardedAdButton({ onRewarded, label, className = '' }: Props) {
+  const t = useTranslations('rewardedAd');
   const [state, setState] = useState<State>('idle');
   const isDev = !process.env.NEXT_PUBLIC_ADSENSE_ID;
+  const buttonLabel = label ?? t('button_default');
 
   function handleWatchAd() {
     setState('loading');
@@ -52,7 +55,7 @@ export default function RewardedAdButton({ onRewarded, label = 'Watch ad to retr
         onRewarded();
       },
       afterAd: () => {
-        if (state !== 'skipped') setState('idle');
+        setState(prev => prev !== 'skipped' ? 'idle' : prev);
       },
     });
   }
@@ -80,10 +83,10 @@ export default function RewardedAdButton({ onRewarded, label = 'Watch ad to retr
             </svg>
           </div>
           <p style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1rem', marginBottom: 8 }}>
-            Watch a short ad
+            {t('modal_title')}
           </p>
           <p style={{ fontSize: '.85rem', color: 'var(--ink-soft)', marginBottom: 22, lineHeight: 1.5 }}>
-            Watch a short ad to unlock one free retry
+            {t('modal_body')}
           </p>
           <button
             onClick={handleWatchAd}
@@ -94,7 +97,7 @@ export default function RewardedAdButton({ onRewarded, label = 'Watch ad to retr
               fontSize: '.9rem', cursor: 'pointer',
             }}
           >
-            Watch now
+            {t('modal_watch')}
           </button>
           <button
             onClick={() => setState('idle')}
@@ -106,7 +109,7 @@ export default function RewardedAdButton({ onRewarded, label = 'Watch ad to retr
               fontSize: '.85rem', cursor: 'pointer',
             }}
           >
-            No thanks
+            {t('modal_cancel')}
           </button>
         </div>
       </div>
@@ -124,7 +127,7 @@ export default function RewardedAdButton({ onRewarded, label = 'Watch ad to retr
             <animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur=".8s" repeatCount="indefinite" />
           </path>
         </svg>
-        Loading ad…
+        {t('loading')}
       </button>
     );
   }
@@ -132,7 +135,7 @@ export default function RewardedAdButton({ onRewarded, label = 'Watch ad to retr
   if (state === 'skipped') {
     return (
       <button disabled className={className} style={{ opacity: 0.6, cursor: 'not-allowed' }}>
-        Ad skipped — retry not unlocked
+        {t('skipped')}
       </button>
     );
   }
@@ -142,7 +145,7 @@ export default function RewardedAdButton({ onRewarded, label = 'Watch ad to retr
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ display: 'inline', verticalAlign: 'middle', marginRight: 6 }}>
         <polygon points="5 3 19 12 5 21 5 3" />
       </svg>
-      {label}
+      {buttonLabel}
     </button>
   );
 }

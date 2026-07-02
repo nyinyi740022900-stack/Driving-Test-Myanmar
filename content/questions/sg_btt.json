@@ -75,6 +75,14 @@
     "explanation": {
       "en": "Unless signposted otherwise, the default speed limit on most Singapore roads is 50 km/h.",
       "my": "ဆိုင်းဘုတ်က အခြားနည်း မဖော်ပြလျှင် Singapore လမ်းအများစု၏ ပုံသေ အမြန်နှုန်းမှာ ၅၀ km/h ဖြစ်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/sg/speed-50.svg",
+      "alt": {
+        "en": "Speed limit sign showing 50",
+        "my": "၅၀ အမြန်နှုန်းကန့်သတ် ဆိုင်းဘုတ်"
+      }
     }
   },
   {
@@ -161,41 +169,33 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What shape are most mandatory instruction signs (e.g. 'turn left ahead')?",
-      "my": "မဖြစ်မနေ ဆောင်ရွက်ရမည့် ညွှန်ကြားချက် ဆိုင်းဘုတ်အများစု (ဥပမာ 'ရှေ့တွင် ဘယ်ဘက်ကွေ့') သည် ဘယ်လို ပုံသဏ္ဍာန်ရှိသလဲ။"
+      "en": "Which of the following best describes a mandatory instruction sign in Singapore?",
+      "my": "စင်္ကာပူတွင် မဖြစ်မနေ လိုက်နာရမည့် ညွှန်ကြားချက်ဆိုင်းဘုတ်ကို အကောင်းဆုံး ဖော်ပြသောအချက်မှာ ဘယ်ဒါလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Circular, usually blue with a white symbol",
-          "my": "စက်ဝိုင်းပုံ၊ များသောအားဖြင့် အပြာရောင်နောက်ခံနှင့် အဖြူရောင်သင်္ကေတ"
+          "en": "Blue circle — you must comply with the instruction shown",
+          "my": "အပြာရောင်စက်ဝိုင်း — ပြထားသော ညွှန်ကြားချက်ကို မဖြစ်မနေ လိုက်နာရမည်"
         }
       },
       {
         "text": {
-          "en": "Triangular with a red border",
-          "my": "အနီရောင်အနားသတ်ပါ တြိဂံပုံ"
+          "en": "Red triangle — warns of a hazard ahead",
+          "my": "အနီရောင်တြိဂံ — ရှေ့တွင် အန္တရာယ်ရှိကြောင်း သတိပေးသည်"
         }
       },
       {
         "text": {
-          "en": "Octagonal and red",
-          "my": "ရှစ်ဒေါင့်ပုံနှင့် အနီရောင်"
+          "en": "Red circle — prohibits a specific action",
+          "my": "အနီရောင်စက်ဝိုင်း — တစ်ခုခုကို တားမြစ်သည်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Mandatory signs in Singapore are typically circular and blue, telling drivers what they must do.",
-      "my": "Singapore ၏ မဖြစ်မနေ ဆောင်ရွက်ရမည့် ဆိုင်းဘုတ်များသည် များသောအားဖြင့် စက်ဝိုင်းပုံ အပြာရောင်ဖြစ်ပြီး ယာဉ်မောင်းသူများ ဘာလုပ်ရမည်ကို ပြောသည်။"
-    },
-    "media": {
-      "type": "image",
-      "src": "/images/btt/2.png",
-      "alt": {
-        "en": "Blue circular mandatory sign with white curved left-turn arrow",
-        "my": "အဖြူရောင်ဘယ်ကွေ့မြှားပါ အပြာရောင်စက်ဝိုင်း တာဝန်ခံဆိုင်းဘုတ်"
-      }
+      "en": "Mandatory signs in Singapore are blue circles. They tell drivers what they MUST do (e.g. keep left, turn left ahead). Unlike prohibitory signs (red circles), mandatory signs give a positive instruction.",
+      "my": "စင်္ကာပူတွင် မဖြစ်မနေ လိုက်နာရမည့် ဆိုင်းဘုတ်များသည် အပြာရောင်စက်ဝိုင်းများ ဖြစ်သည်။ ယင်းတို့သည် ယာဉ်မောင်းသူများ မဖြစ်မနေ ဆောင်ရွက်ရမည့်အရာများကို ညွှန်ပြသည်။"
     }
   },
   {
@@ -4534,33 +4534,33 @@
     "topic": "defensive_driving",
     "difficulty": "medium",
     "prompt": {
-      "en": "What is the recommended minimum following distance under normal dry conditions in Singapore?",
-      "my": "Singapore တွင် ပုံမှန် ခြောက်သောကြောင်းတွင် အနည်းဆုံး သတ်မှတ်ထားသော နောက်လိုက်အကွာအဝေးမှာ ဘာလဲ။"
+      "en": "You want to overtake the vehicle ahead. Which of these is NOT a safe condition for overtaking?",
+      "my": "ရှေ့ရှိ ယာဉ်ကို ကျော်တက်လိုသည်။ အောက်ပါတို့မှ မည်သည်သည် ကျော်တက်ရန် မဘေးကင်းသော အခြေအနေ မဟုတ်သလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "1-second gap",
-          "my": "၁ စက္ကန့် အကွာ"
+          "en": "The road ahead is clear and you have enough space to complete the manoeuvre",
+          "my": "ရှေ့လမ်းကြောင်း ကင်းသောနှင့် လုပ်ဆောင်မှု ပြီးမြောက်ရန် နေရာ လုံလောက်သည်"
         }
       },
       {
         "text": {
-          "en": "2-second gap",
-          "my": "၂ စက္ကန့် အကွာ"
+          "en": "You are approaching a bend, hill crest, or pedestrian crossing",
+          "my": "ချိုးကွေ့၊ တောင်ထိပ် သို့မဟုတ် လမ်းသွားဖြတ်လမ်းသို့ ချဉ်းကပ်နေသည်"
         }
       },
       {
         "text": {
-          "en": "5-second gap",
-          "my": "၅ စက္ကန့် အကွာ"
+          "en": "The vehicle ahead is clearly travelling much slower than you",
+          "my": "ရှေ့ရှိ ယာဉ်သည် သင်ထက် သိသိသာသာ နှေးနေသည်"
         }
       }
     ],
     "answer": 1,
     "explanation": {
-      "en": "The 2-second rule is the recommended minimum following distance on dry roads. Double it on wet roads.",
-      "my": "၂ စက္ကန့် စည်းမျဉ်းသည် ခြောက်သောသော လမ်းများတွင် အနည်းဆုံး သတ်မှတ်ထားသော နောက်လိုက်အကွာဖြစ်သည်။ ရွှံ့ပြေနေသော လမ်းများတွင် ၂ ဆ ခြားရမည်။"
+      "en": "Overtaking near bends, hill crests, junctions, or pedestrian crossings is dangerous and prohibited. You cannot see oncoming traffic in time to overtake safely.",
+      "my": "ချိုးကွေ့၊ တောင်ထိပ်၊ လမ်းဆုံ သို့မဟုတ် လမ်းသွားဖြတ်လမ်းအနီးတွင် ကျော်တက်ခြင်းသည် အန္တရာယ်ဖြစ်ပြီး တားမြစ်ထားသည်။"
     }
   },
   {
@@ -4767,7 +4767,7 @@
         }
       }
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": {
       "en": "Using a hand-held mobile phone while driving incurs 6 demerit points and a fine. The suspension threshold for regular licence holders is 24 points in 2 years.",
       "my": "ကားမောင်းရင်း လက်ကိုင် မိုဘိုင်းဖုန်း သုံးသောအတွက် ဒဏ်ကြေးနှင့်အတူ အမှတ်နုတ် ၆ မှတ် ရသည်။ ပုံမှန် လိုင်စင်ကိုင်သူများအတွက် ၂ နှစ်အတွင်း ၂၄ မှတ်ဆိုလျှင် ရပ်ဆိုင်းခြင်း ခံရသည်။"
@@ -4779,41 +4779,33 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What shape are warning signs in Singapore?",
-      "my": "စင်ကာပူတွင် သတိပေးဆိုင်းဘုတ်များ၏ သဏ္ဌာန်မှာ အဘယ်လဲ။"
+      "en": "You are driving and see a red triangular sign with a picture of a car skidding. What does this warn you about?",
+      "my": "ကားမောင်းနေစဉ် ကား ချော်နေသော ပုံပါ အနီရောင်တြိဂံဆိုင်းဘုတ်တစ်ခု မြင်သည်။ ၎င်းသည် ဘာကို သတိပေးနေသလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Triangular with red border",
-          "my": "အနီရောင်နယ်နိမိတ်ပါ တြိဂံပုံ"
+          "en": "Slippery road ahead — reduce speed and drive with caution",
+          "my": "ရှေ့တွင် လမ်းချောနေသည် — မြန်နှုန်းလျော့ကာ သတိထားမောင်းနှင်ပါ"
         }
       },
       {
         "text": {
-          "en": "Circular with red border",
-          "my": "အနီရောင်နယ်နိမိတ်ပါ စက်ဝိုင်းပုံ"
+          "en": "Road works ahead — overtaking prohibited",
+          "my": "ရှေ့တွင် လမ်းဆောက်လုပ်ရေးလုပ်ငန်း — ကျော်တက်ခြင်း တားမြစ်"
         }
       },
       {
         "text": {
-          "en": "Rectangular with blue background",
-          "my": "အပြာရောင်နောက်ခံပါ ထောင့်မှန်ကိုက်ပုံ"
+          "en": "Speed limit ends — drive at normal speed",
+          "my": "မြန်နှုန်းကန့်သတ်ချက် ပြီးဆုံးသည် — ပုံမှန်မြန်နှုန်းဖြင့် မောင်းနှင်ပါ"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Warning signs in Singapore are triangular with a red border on a yellow or white background, alerting drivers to hazards ahead.",
-      "my": "စင်ကာပူတွင် သတိပေးဆိုင်းဘုတ်များသည် အဝါ သို့မဟုတ် အဖြူနောက်ခံပေါ်တွင် အနီရောင်နယ်နိမိတ်ပါ တြိဂံပုံဖြစ်ပြီး ရှေ့ရှိ အန္တရာယ်များကို သတိပေးသည်။"
-    },
-    "media": {
-      "type": "image",
-      "src": "/images/btt/23.png",
-      "alt": {
-        "en": "Red triangular warning sign showing a right bend ahead",
-        "my": "ညာဘက်ကွေ့ ရှေ့ပိုင်းသတိပေးသည့် အနီတြိဂံဆိုင်းဘုတ် (သတိပေးဆိုင်းဘုတ်ပုံစံ)"
-      }
+      "en": "A red triangular sign with a skidding car warns of a slippery road surface ahead. Slow down, avoid sudden braking or sharp turns, and increase following distance.",
+      "my": "ကား ချော်နေသောပုံပါ အနီရောင်တြိဂံဆိုင်းဘုတ်သည် ရှေ့တွင် လမ်းချောနှိုင်ခြေရှိကြောင်း သတိပေးသည်။ မြန်နှုန်းလျော့ပြီး မတော်တဆ ဘရိတ်မကိုင်ဘဲ ပိုမိုသတိထားပါ။"
     }
   },
   {
@@ -7559,33 +7551,33 @@
     "topic": "defensive_driving",
     "difficulty": "medium",
     "prompt": {
-      "en": "How many demerit points are given for using a mobile phone while driving?",
-      "my": "မောင်းနှင်ရင်း မိုဘိုင်းဖုန်း သုံးခြင်းအတွက် ဒဏ်မှတ် မည်မျှ ပေးသလဲ။"
+      "en": "How many demerit points are given for beating a red light in Singapore?",
+      "my": "စင်္ကာပူတွင် အနီမီးကို ဖောက်ဆင်းသောအတွက် ဒဏ်မှတ် မည်မျှ ရသလဲ?"
     },
     "choices": [
       {
         "text": {
           "en": "6 demerit points",
-          "my": "ဒဏ်မှတ် 6 မှတ်"
-        }
-      },
-      {
-        "text": {
-          "en": "3 demerit points",
-          "my": "ဒဏ်မှတ် 3 မှတ်"
+          "my": "ဒဏ်မှတ် ၆ မှတ်"
         }
       },
       {
         "text": {
           "en": "12 demerit points",
-          "my": "ဒဏ်မှတ် 12 မှတ်"
+          "my": "ဒဏ်မှတ် ၁၂ မှတ်"
+        }
+      },
+      {
+        "text": {
+          "en": "3 demerit points",
+          "my": "ဒဏ်မှတ် ၃ မှတ်"
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
-      "en": "Using a mobile phone while driving carries 6 demerit points plus a fine — accumulating 24 points within a year leads to licence revocation.",
-      "my": "မောင်းနှင်ရင်း မိုဘိုင်းဖုန်း သုံးခြင်းတွင် ဒဏ်မှတ် 6 မှတ်နှင့် ဒဏ်ငွေပါဝင်သည် — တစ်နှစ်အတွင်း 24 မှတ် စုဆောင်းပါက လိုင်စင် ရုပ်သိမ်းမည်ဖြစ်သည်။"
+      "en": "Running a red light carries 12 demerit points and a composition fine in Singapore — the same as using a mobile phone while driving. Both are serious offences.",
+      "my": "အနီမီးကို ဖောက်ဆင်းခြင်းသည် ဒဏ်မှတ် ၁၂ မှတ် ရပြီး ဒဏ်ငွေပါ ရသည် — ကားမောင်းရင်း ဖုန်းသုံးသကဲ့သို့ တူညီသည်။"
     }
   },
   {
@@ -7979,33 +7971,33 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What colour are bus lane markings in Singapore?",
-      "my": "စင်ကာပူတွင် ဘတ်စ်ကားလမ်းကြောင်း မှတ်ပြုကြောင်းများ မည်သည့်အရောင်ဖြင့် မည်သလဲ။"
+      "en": "During bus lane operating hours (e.g. 7:30am–9:30am on weekdays), which vehicles may use the bus lane?",
+      "my": "Bus lane လည်ပတ်ချိန် (ဥပမာ တနင်္လာ-သောကြာ မနက် ၇:၃၀–၉:၃၀) တွင် မည်သည့်ယာဉ်များသည် bus lane ကို သုံးနိုင်သလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Yellow",
-          "my": "အဝါရောင်"
+          "en": "Buses and taxis only",
+          "my": "ဘတ်စ်ကားနှင့် တက်ဆီများသာ"
         }
       },
       {
         "text": {
-          "en": "Red",
-          "my": "အနီရောင်"
+          "en": "All vehicles at any time",
+          "my": "ယာဉ်အားလုံး မည်သည့်အချိန်မဆို"
         }
       },
       {
         "text": {
-          "en": "Blue",
-          "my": "အပြာရောင်"
+          "en": "No vehicles at all during operating hours",
+          "my": "လည်ပတ်ချိန်အတွင်း မည်သည့်ယာဉ်မဆို ဝင်ခွင့်မရှိ"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Bus lane markings in Singapore are painted yellow — private cars may use these lanes outside the restricted hours shown on nearby signs.",
-      "my": "စင်ကာပူတွင် ဘတ်စ်ကားလမ်းကြောင်း မှတ်ပြုကြောင်းများကို အဝါဆေး ထိုးထားသည် — ပုဂ္ဂလိကကားများ အနီးရှိ ဆိုင်းဘုတ်တွင် ပြသောကန့်သတ်ချိန် ပြင်ပတွင် ဒီလမ်းကြောင်းများ သုံးနိုင်သည်။"
+      "en": "During bus lane operating hours, only buses and taxis are permitted to use the bus lane. Other vehicles must stay out — but ALL vehicles may use the bus lane outside of operating hours.",
+      "my": "Bus lane လည်ပတ်ချိန်တွင် ဘတ်စ်ကားများနှင့် တက်ဆီများသာ bus lane ကို အသုံးပြုခွင့်ရှိသည်။ အခြားယာဉ်များ မဝင်ရ — သို့သော် လည်ပတ်ချိန်ပြင်ပတွင် ယာဉ်အားလုံး bus lane ကို အသုံးပြုနိုင်သည်။"
     }
   },
   {
@@ -8049,33 +8041,33 @@
     "topic": "special_situations",
     "difficulty": "medium",
     "prompt": {
-      "en": "What should you do if your vehicle breaks down on an expressway?",
-      "my": "အမြန်လမ်းပေါ်တွင် ကားပျက်ဆီးပါက ဘာလုပ်သင့်သလဲ။"
+      "en": "If your vehicle catches fire while driving, what should you do FIRST?",
+      "my": "ကားမောင်းနေစဉ် ယာဉ်တွင် မီးလောင်ပါက ပထမဆုံး ဘာ ဆောင်ရွက်ရမည်လဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Move to the hard shoulder, switch on hazard lights and stay behind the barrier",
-          "my": "မာကျောသောဘောင် (hard shoulder) သို့ ရွှေ့ပြီး အန္တရာယ်မီးဖွင့်ကာ ကာရံနောက်တွင် ရှိပါ"
+          "en": "Pull over immediately, switch off the engine, get everyone out of the vehicle and move well away",
+          "my": "ချက်ချင်း ဘေးကပ်ကာ ဆီစက် ပိတ်ပြီး လူအားလုံးကို ယာဉ်မှ ထွက်ကာ ဝေးဝေးသို့ ရွေ့ပါ"
         }
       },
       {
         "text": {
-          "en": "Stop in the left lane and wait for help",
-          "my": "ဘယ်ဘက်လမ်းကြောင်းတွင် ရပ်တန့်ပြီး အကူအညီ စောင့်ပါ"
+          "en": "Drive to the nearest petrol station to get help",
+          "my": "အကူအညီ ရရှိရန် အနီးဆုံး ဆီဆိုင်သို့ မောင်းသွားပါ"
         }
       },
       {
         "text": {
-          "en": "Attempt to push the vehicle to the next exit",
-          "my": "နောက်ထွက်ပေါက်သို့ ကားကို တွန်းရန် ကြိုးပမ်းပါ"
+          "en": "Accelerate to blow out the flames with wind speed",
+          "my": "လေ မြန်နှုန်းဖြင့် မီးငြိမ်းသတ်ရန် မြန်နှုန်းတိုးပါ"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Move to the hard shoulder, turn on hazard lights, place a warning triangle behind the vehicle and stand behind the safety barrier — never stand on the carriageway.",
-      "my": "မာကျောသောဘောင်သို့ ရွှေ့ပြီး အန္တရာယ်မီးဖွင့်ကာ ကားနောက်တွင် သတိပေးတြိဂံ တပ်ဆင်ပြီး ဘေးကင်းသောကာရံနောက်တွင် ရပ်နေပါ — လမ်းကြောင်းပေါ်တွင် ဘယ်တော့မှ မရပ်ပါနှင့်။"
+      "en": "If your vehicle is on fire, your priority is life safety. Stop immediately in a safe place away from traffic, turn off the engine (to cut fuel supply), evacuate everyone, and call 995 for the fire brigade.",
+      "my": "ယာဉ်တွင် မီးလောင်ပါက ဦးစားပေးမှာ အသက်ဘေးကင်းလုံခြုံမှုဖြစ်သည်။ ယာဉ်သွားလာမှုမှ ဝေးသောနေရာတွင် ချက်ချင်းရပ်ကာ ဆီစက်ပိတ်ပြီး လူအားလုံး ထွက်ကာ မီးသတ် ၉၉၅ ကို ခေါ်ပါ။"
     }
   },
   {
@@ -8571,41 +8563,33 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What colour and shape are mandatory signs in Singapore?",
-      "my": "စင်ကာပူတွင် မဖြစ်မနေ လိုက်နာရမည့် (mandatory) ဆိုင်းဘုတ်များ၏ အရောင်နှင့် ပုံသဏ္ဌာန် မည်သည်လဲ?"
+      "en": "You see a blue circular sign with a white downward-left arrow. What must you do?",
+      "my": "ဘယ်ဘက်အောက်ဖြင့် ညွှန်နေသော အဖြူရောင်မြှားပါ အပြာရောင်စက်ဝိုင်းဆိုင်းဘုတ်တစ်ခု မြင်သည်။ ဘာ ဆောင်ရွက်ရမည်လဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Blue circle",
-          "my": "အပြာ ဝိုင်းပတ်"
+          "en": "Keep to the left of the obstacle or divider ahead",
+          "my": "ရှေ့တွင်ရှိသော အတားအဆီး သို့မဟုတ် ခွဲကန့် ၏ ဘယ်ဘက်တွင် နေပါ"
         }
       },
       {
         "text": {
-          "en": "Red triangle",
-          "my": "အနီ တြိဂံ"
+          "en": "Turn left at the next junction",
+          "my": "နောက်ဆုံးလမ်းဆုံတွင် ဘယ်ဖက်ကွေ့ပါ"
         }
       },
       {
         "text": {
-          "en": "Red circle",
-          "my": "အနီ ဝိုင်းပတ်"
+          "en": "It is optional — turn left if you wish",
+          "my": "ရွေးချယ်နိုင်သည် — ဆန္ဒရှိပါက ဘယ်ဖက်ကွေ့ပါ"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Mandatory signs are blue circles. They indicate actions that must be followed. Non-compliance is an offence.",
-      "my": "မဖြစ်မနေ လိုက်နာရမည့် ဆိုင်းဘုတ်များ သည် အပြာ ဝိုင်းပတ် ဖြစ်သည်။ ၎င်းတို့ကို မလိုက်နာပါက ပြစ်မှု ဖြစ်သည်။"
-    },
-    "media": {
-      "type": "image",
-      "src": "/images/btt/2.png",
-      "alt": {
-        "en": "Blue circular mandatory sign with white curved left-turn arrow — mandatory signs are blue circles",
-        "my": "အပြာစက်ဝိုင်း မဖြစ်မနေဆိုင်းဘုတ် — mandatory ဆိုင်းဘုတ်များသည် အပြာစက်ဝိုင်း ဖြစ်သည်"
-      }
+      "en": "A blue circular sign with a downward-left arrow is a \"Keep Left\" mandatory sign. You MUST pass on the left side of the divider or obstacle. Blue circle signs are mandatory — you have no choice.",
+      "my": "ဘယ်ဘက်အောက်မြှားပါ အပြာရောင်စက်ဝိုင်းဆိုင်းဘုတ်သည် \"ဘယ်ဘက်နေပါ\" မဖြစ်မနေ လိုက်နာရမည့် ဆိုင်းဘုတ်ဖြစ်သည်။ ခွဲကန့် သို့မဟုတ် အတားအဆီး၏ ဘယ်ဘက်ကို ဖြတ်ကျော်ရမည်။"
     }
   },
   {
@@ -8786,41 +8770,33 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What colour and shape are prohibitory signs in Singapore?",
-      "my": "စင်ကာပူတွင် တားမြစ်သည့် (prohibitory) ဆိုင်းဘုတ်များ၏ အရောင်နှင့် ပုံသဏ္ဌာန် မည်သည်လဲ?"
+      "en": "A red circular sign with a white horizontal bar is placed at a road entrance. What does this mean for drivers?",
+      "my": "လမ်းဝင်ပေါက်တစ်ခုတွင် အဖြူရောင်အလျားတန်းပါ အနီရောင်စက်ဝိုင်းဆိုင်းဘုတ်တစ်ခု ရှိသည်။ ယာဉ်မောင်းသူများအတွက် ဘာကို ဆိုလိုသလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Red circle with a white or yellow background",
-          "my": "အဖြူ/အဝါ နောက်ခံပေါ် အနီ ဝိုင်းပတ်"
+          "en": "No vehicles may enter from this direction",
+          "my": "ဤဦးတည်ချက်မှ ယာဉ်မည်သည်မဆို ဝင်ခွင့်မရှိ"
         }
       },
       {
         "text": {
-          "en": "Blue circle",
-          "my": "အပြာ ဝိုင်းပတ်"
+          "en": "No parking along this road",
+          "my": "ဤလမ်းတလျှောက် ရပ်နားခွင့်မရှိ"
         }
       },
       {
         "text": {
-          "en": "Red triangle",
-          "my": "အနီ တြိဂံ"
+          "en": "Speed limit of 50 km/h applies",
+          "my": "မြန်နှုန်းကန့်သတ်ချက် ၅၀ ကီလိုမီတာ/နာရီ သတ်မှတ်သည်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Prohibitory signs are red circles. They indicate actions that are NOT allowed. Non-compliance is an offence.",
-      "my": "တားမြစ် ဆိုင်းဘုတ်များ သည် အနီ ဝိုင်းပတ် ဖြစ်သည်။ ၎င်းတို့ သည် မပြုလုပ်ရသော လုပ်ဆောင်ချက်များကို ညွှန်ပြသည်။"
-    },
-    "media": {
-      "type": "image",
-      "src": "/images/btt/14.png",
-      "alt": {
-        "en": "Red circular prohibitory sign (No Entry) — example of prohibitory sign shape and colour",
-        "my": "အနီစက်ဝိုင်း တားမြစ်ဆိုင်းဘုတ် (ဝင်ခွင့်မရှိ) — တားမြစ်ဆိုင်းဘုတ်ပုံစံနှင့် အရောင်နမူနာ"
-      }
+      "en": "A red circle with a white horizontal bar is the \"No Entry\" sign. No vehicles may enter from that direction. This is a prohibitory sign — a red circle means you must NOT do whatever the sign shows.",
+      "my": "အဖြူရောင်အလျားတန်းပါ အနီရောင်စက်ဝိုင်းသည် \"ဝင်ခွင့်မရှိ\" ဆိုင်းဘုတ်ဖြစ်သည်။ ဤဦးတည်ချက်မှ မည်သည့်ယာဉ်မဆို ဝင်ခွင့်မရှိ။"
     }
   },
   {
@@ -9114,41 +9090,33 @@
     "topic": "road_signs",
     "difficulty": "medium",
     "prompt": {
-      "en": "What does the 'No Overtaking' sign look like?",
-      "my": "'ကျော်တက်ခြင်း မရ' ဆိုင်းဘုတ် မည်သို့ ပုံသဏ္ဌာန် ရှိသလဲ?"
+      "en": "You are driving on a road with a \"No Overtaking\" sign. When does this restriction end?",
+      "my": "\"ကျော်တက်ခြင်း မပြုရ\" ဆိုင်းဘုတ်ရှိသော လမ်းပေါ် မောင်းနှင်နေသည်။ ဤကန့်သတ်ချက် မည်သောအခါ ပြီးဆုံးသည်?"
     },
     "choices": [
       {
         "text": {
-          "en": "Red circle with two cars — one black, one red — side by side",
-          "my": "အနက်နှင့် အနီ ကား နှစ်စီး အနားချင်းကပ် ပါသော အနီ ဝိုင်းပတ်"
+          "en": "When you see a sign cancelling the restriction, or at the end of the restricted zone",
+          "my": "ကန့်သတ်ချက် ဖျက်သိမ်းသောဆိုင်းဘုတ် မြင်ရသောအခါ သို့မဟုတ် ကန့်သတ်ဇုန် အဆုံးတွင်"
         }
       },
       {
         "text": {
-          "en": "Red triangle with two cars",
-          "my": "ကား နှစ်စီး ပါ အနီ တြိဂံ"
+          "en": "After passing any vehicle safely",
+          "my": "မည်သည့်ယာဉ်မဆို ဘေးကင်းလုံခြုံစွာ ကျော်ပြီးသောအခါ"
         }
       },
       {
         "text": {
-          "en": "Blue circle with an arrow",
-          "my": "မြှားပါ အပြာ ဝိုင်းပတ်"
+          "en": "It applies only during rush hour",
+          "my": "အသွားအလာ ရှုပ်ထွေးသောအချိန်တွင်သာ သက်ရောက်သည်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "The 'No Overtaking' sign is a red circle showing two side-by-side vehicles — one black (being overtaken) and one red (the overtaking vehicle). Overtaking is prohibited where this sign is displayed.",
-      "my": "'ကျော်တက်ခြင်း မရ' ဆိုင်းဘုတ်သည် ကား နှစ်စီး — တစ်စီး အမည်း (ကျော်ခံ)၊ တစ်စီး အနီ (ကျော်တင်) — ပါ အနီ ဝိုင်း ဆိုင်းဘုတ် ဖြစ်သည်။"
-    },
-    "media": {
-      "type": "image",
-      "src": "/images/btt/30.png",
-      "alt": {
-        "en": "Red circular sign with two car silhouettes and a diagonal bar — the No Overtaking sign",
-        "my": "ကားနှစ်စီးပုံနှင့် ကြမ်းအဆင့်ပါ အနီစက်ဝိုင်း — ကျော်တက်ခွင့်မရှိ ဆိုင်းဘုတ်"
-      }
+      "en": "A \"No Overtaking\" restriction remains in force until a cancellation sign or the end of the zone. You must never overtake while the sign is in effect — not even if the road ahead appears clear.",
+      "my": "\"ကျော်တက်ခြင်း မပြုရ\" ကန့်သတ်ချက်သည် ဖျက်သိမ်းဆိုင်းဘုတ် ပေါ်သည်အထိ သို့မဟုတ် ဇုန် အဆုံးအထိ တည်ရှိနေသည်။ ဆိုင်းဘုတ် ထိန်းကျောင်းနေသမျှ ကျော်တက်ခြင်း လုံးဝ မပြုရ။"
     }
   },
   {
@@ -9192,41 +9160,33 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What do warning signs in Singapore look like?",
-      "my": "စင်ကာပူ သတိပေး (warning) ဆိုင်းဘုတ်များ မည်သို့ ပုံသဏ္ဌာန် ရှိသလဲ?"
+      "en": "You see a red triangular warning sign near a school entrance showing a child figure. What should you do?",
+      "my": "ကျောင်းဝင်ပေါက် အနီးတွင် ကလေးပုံပါ အနီရောင်တြိဂံသတိပေးဆိုင်းဘုတ်တစ်ခု မြင်သည်။ ဘာ ဆောင်ရွက်ရမည်လဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Red-bordered triangles with a white background",
-          "my": "အဖြူ နောက်ခံ အနီ ဘောင် တြိဂံ"
+          "en": "Slow down immediately and watch carefully for children who may cross unexpectedly",
+          "my": "ချက်ချင်း မြန်နှုန်းလျော့ကာ မမျှော်လင့်ဘဲ ဖြတ်ကူးနိုင်သော ကလေးများကို သတိထားကြည့်ရှုပါ"
         }
       },
       {
         "text": {
-          "en": "Blue circles",
-          "my": "အပြာ ဝိုင်းပတ်"
+          "en": "Sound the horn to warn children and maintain speed",
+          "my": "ကလေးများကို သတိပေးရန် ဟော်တာတီးပြီး မြန်နှုန်း ထိန်းထားပါ"
         }
       },
       {
         "text": {
-          "en": "Red circles",
-          "my": "အနီ ဝိုင်းပတ်"
+          "en": "Come to a complete stop until all children have crossed",
+          "my": "ကလေးအားလုံး ဖြတ်ကူးပြီးသည်အထိ လုံးဝ ရပ်တန့်ပါ"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Warning signs are red-bordered triangles with a white or yellow background. They warn drivers of possible danger or unusual road conditions ahead.",
-      "my": "သတိပေး ဆိုင်းဘုတ်များ သည် အဖြူ/အဝါ နောက်ခံ အနီ ဘောင် တြိဂံ ဖြစ်သည်။ ၎င်းတို့ သည် ရှေ့ဆိုင် အန္တရာယ် သို့မဟုတ် မမျှော်မှန်းနိုင်သော လမ်း အခြေအနေများ ကို သတိပေးသည်။"
-    },
-    "media": {
-      "type": "image",
-      "src": "/images/btt/70.png",
-      "alt": {
-        "en": "Red-bordered triangular warning sign with white background",
-        "my": "အနီနယ်နမိတ်ပါ အဖြူနောက်ခံ တြိဂံသတိပေးဆိုင်းဘုတ်"
-      }
+      "en": "A warning sign near a school means children may cross the road unexpectedly. Reduce speed significantly, be ready to stop, and do not sound the horn unnecessarily as it may startle children.",
+      "my": "ကျောင်းအနီးရှိ သတိပေးဆိုင်းဘုတ်သည် ကလေးများ မမျှော်လင့်ဘဲ ကူးနိုင်ကြောင်း ဆိုလိုသည်။ မြန်နှုန်းသိသိသာသာ လျော့ချပြီး ရပ်ရန် အသင့်ဆင်ပြင်ထားပါ။"
     }
   },
   {
@@ -9571,33 +9531,33 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What is the background colour of expressway directional signs in Singapore?",
-      "my": "စင်ကာပူ အမြန်လမ်းမကြီး ဦးတည်ချက် ဆိုင်းဘုတ်များ၏ နောက်ခံ အရောင် မည်သည်လဲ?"
+      "en": "How can you identify that a directional sign is guiding you towards an expressway route rather than an ordinary road?",
+      "my": "ပုံမှန်လမ်းမဟုတ်ဘဲ အမြန်လမ်းမ ကို ညွှန်ပြနေသော လမ်းပြဆိုင်းဘုတ်ကို မည်သို့ ခွဲခြားသိနိုင်မည်လဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Green with white letters and blue expressway route panels",
-          "my": "အဝါ စာလုံးနှင့် အပြာ/အဖြူ အမြန်လမ်းမ သင်္ကေတပါ အစိမ်း နောက်ခံ"
+          "en": "It has a green background with white text and blue expressway route number panels",
+          "my": "အစိမ်းရောင်နောက်ခံ၊ အဖြူရောင်စာသားနှင့် အပြာရောင် အမြန်လမ်းမ နံပါတ်ကွက်များ ပါဝင်သည်"
         }
       },
       {
         "text": {
-          "en": "Blue with white letters",
-          "my": "အဖြူ စာလုံးပါ အပြာ နောက်ခံ"
+          "en": "It has a blue background with white text only",
+          "my": "အပြာရောင်နောက်ခံနှင့် အဖြူရောင်စာသားသာ ပါဝင်သည်"
         }
       },
       {
         "text": {
-          "en": "White with black letters",
-          "my": "အမည်း စာလုံးပါ အဖြူ နောက်ခံ"
+          "en": "It has a yellow background with black text",
+          "my": "အဝါရောင်နောက်ခံနှင့် အမည်းရောင်စာသား ပါဝင်သည်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Old expressway signs have a green background with yellow letters and blue/white expressway symbols. New signs have green background with white letters and blue/white symbols.",
-      "my": "ဟောင်းသော အမြန်လမ်းမ ဆိုင်းဘုတ်များ — အဝါ စာလုံးနှင့် အပြာ/အဖြူ သင်္ကေတ ပါ အစိမ်း နောက်ခံ ဖြစ်သည်။ အသစ်သော ဆိုင်းဘုတ်များ — အဖြူ စာလုံးနှင့် အပြာ/အဖြူ သင်္ကေတ ပါ အစိမ်း နောက်ခံ ဖြစ်သည်။"
+      "en": "Expressway directional signs in Singapore have a GREEN background with white text and distinctive BLUE route number panels (e.g. PIE, CTE, AYE). Non-expressway directional signs are also green but without the blue panels.",
+      "my": "စင်္ကာပူ၏ အမြန်လမ်းမ လမ်းပြဆိုင်းဘုတ်များသည် အစိမ်းရောင်နောက်ခံ၊ အဖြူရောင်စာသားနှင့် ထင်ရှားသော အပြာရောင် လမ်းနံပါတ်ကွက်များ (PIE, CTE, AYE) ပါဝင်သည်။"
     },
     "media": {
       "type": "image",
@@ -9614,33 +9574,33 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What colour background do non-expressway directional signs have?",
-      "my": "အမြန်လမ်းမ မဟုတ်သော ဦးတည်ချက် ဆိုင်းဘုတ်များ၏ နောက်ခံ အရောင် မည်သည်လဲ?"
+      "en": "A green directional sign (without any blue route panels) points to \"Orchard Road\". What type of road is it guiding you towards?",
+      "my": "\"Orchard Road\" သို့ ညွှန်ပြနေသော (အပြာရောင်လမ်းနံပါတ်ကွက် မပါဘဲ) အစိမ်းရောင်လမ်းပြဆိုင်းဘုတ်တစ်ခု ရှိသည်။ မည်သည့်လမ်းအမျိုးအစားသို့ ညွှန်ပြနေသလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Green with white letters",
-          "my": "အဖြူ စာလုံးပါ အစိမ်း နောက်ခံ"
+          "en": "A non-expressway route — an ordinary road to that destination",
+          "my": "အမြန်လမ်းမ မဟုတ်သောလမ်း — ထိုနေရာသို့ သာမန်လမ်း"
         }
       },
       {
         "text": {
-          "en": "Blue with white letters",
-          "my": "အဖြူ စာလုံးပါ အပြာ နောက်ခံ"
+          "en": "An expressway route — merge onto the expressway ahead",
+          "my": "အမြန်လမ်းမ — ရှေ့တွင် အမြန်လမ်းမသို့ ဆက်ဝင်ပါ"
         }
       },
       {
         "text": {
-          "en": "Yellow with black letters",
-          "my": "အမည်း စာလုံးပါ အဝါ နောက်ခံ"
+          "en": "A tourist attraction — brown signs are used for tourist sites",
+          "my": "ခရီးသွားဆွဲဆောင်မှုနေရာ — ခရီးသွားနေရာများအတွက် အညိုရောင်ဆိုင်းဘုတ် သုံးသည်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "On all roads leading to destinations other than expressways, directional signs have a green background with white letters.",
-      "my": "အမြန်လမ်းမ မဟုတ်သော ဦးတည်ရာ ဆီသွားသော လမ်းများပေါ် ဆိုင်းဘုတ်များ သည် အဖြူ စာလုံးပါ အစိမ်း နောက်ခံ ဖြစ်သည်။"
+      "en": "Green directional signs WITHOUT blue route panels guide you on ordinary (non-expressway) roads. Expressway signs have blue route number panels. Brown signs indicate tourist attractions.",
+      "my": "အပြာရောင်လမ်းနံပါတ်ကွက် မပါဘဲ အစိမ်းရောင်လမ်းပြဆိုင်းဘုတ်များသည် သာမန် (အမြန်လမ်းမ မဟုတ်သော) လမ်းများပေါ်တွင် ညွှန်ပြသည်။"
     }
   },
   {
@@ -11356,8 +11316,8 @@
     "choices": [
       {
         "text": {
-          "en": "6 months (renewable)",
-          "my": "၆ လ (ပြန်လည် သက်တမ်းတိုးနိုင်)"
+          "en": "24 months (2 years)",
+          "my": "၂ နှစ် (၂၄ လ)"
         }
       },
       {
@@ -11385,33 +11345,33 @@
     "topic": "defensive_driving",
     "difficulty": "easy",
     "prompt": {
-      "en": "What is the minimum age to apply for a driving licence (Class 3) in Singapore?",
-      "my": "စင်ကာပူတွင် ကားမောင်း လိုင်စင် (Class 3) လျှောက်ထားရန် အနည်းဆုံး အသက် မည်မျှ ဖြစ်ရမည်လဲ?"
+      "en": "A driver in Singapore is found to be medically unfit to drive. What happens to their licence?",
+      "my": "စင်္ကာပူတွင် ယာဉ်မောင်းသူတစ်ဦးသည် ကိုယ်ကျန်းမာရေးအရ မောင်းနှင်ရန် မသင့်လျော်ကြောင်း တွေ့ရသည်။ ၎င်းတို့၏ လိုင်စင်မှာ ဘာဖြစ်မည်လဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "18 years old",
-          "my": "အသက် ၁၈ နှစ်"
+          "en": "It may be revoked or suspended until medically cleared to drive",
+          "my": "ကျန်းမာရေးအရ မောင်းနှင်ခွင့်ရသည်အထိ ဖျက်သိမ်း သို့မဟုတ် ဆိုင်းငံ့နိုင်သည်"
         }
       },
       {
         "text": {
-          "en": "16 years old",
-          "my": "အသက် ၁၆ နှစ်"
+          "en": "They can continue driving but must carry a medical certificate",
+          "my": "ဆေးလက်မှတ် ဆောင်ထားပါက ဆက်မောင်းနှင်နိုင်သည်"
         }
       },
       {
         "text": {
-          "en": "21 years old",
-          "my": "အသက် ၂၁ နှစ်"
+          "en": "They are only prohibited from expressway driving",
+          "my": "အမြန်လမ်းမပေါ် မောင်းနှင်ခြင်းကိုသာ တားမြစ်ထားသည်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "The minimum age to apply for a driving licence in Singapore is 18 years old.",
-      "my": "စင်ကာပူတွင် ကားမောင်း လိုင်စင် လျှောက်ရန် အနည်းဆုံး အသက် ၁၈ နှစ် ဖြစ်ရမည်။"
+      "en": "If a doctor certifies a driver as unfit to drive, the Traffic Police may revoke or suspend the driving licence. Medical fitness is a legal requirement for holding a valid driving licence in Singapore.",
+      "my": "ဆရာဝန်က ယာဉ်မောင်းသူသည် မောင်းနှင်ရန် မသင့်လျော်ဟု အသိအမှတ်ပြုပါက ယာဉ်အသွားအလာရဲတပ်ဖွဲ့သည် လိုင်စင်ကို ဖျက်သိမ်း သို့မဟုတ် ဆိုင်းငံ့နိုင်သည်။"
     }
   },
   {
@@ -12610,33 +12570,33 @@
     "topic": "safe_practices",
     "difficulty": "medium",
     "prompt": {
-      "en": "What is tailgating and why is it dangerous?",
-      "my": "Tailgating ဆိုသည် မည်သည်လဲ၊ အဘယ်ကြောင့် အန္တရာယ်ရှိသလဲ?"
+      "en": "What does the \"2-second rule\" help you maintain while driving?",
+      "my": "\"၂ စက္ကန့် စည်းကမ်း\" သည် မောင်းနှင်နေစဉ် မည်သည်ကို ထိန်းသိမ်းရန် ကူညီသလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Following too closely — less time to react and stop safely if the car ahead brakes",
-          "my": "နီးလွန်းကပ်ကာ နောက်ကပ် မောင်းနှင်ခြင်း — ရှေ့ ယာဉ် ဘရိတ်ဆွဲပါက တုံ့ပြန်ပြီး ဘေးကင်းစွာ ရပ်ရန် အချိန် မလုံလောက်"
+          "en": "A safe following distance — enough time and space to stop if the car ahead brakes suddenly",
+          "my": "ဘေးကင်းသော လိုက်နေသောအကွာ — ရှေ့ကား ဘရိတ်ကိုင်ပါက ရပ်တန့်ရန် အချိန်နှင့် နေရာ လုံလောက်မှု"
         }
       },
       {
         "text": {
-          "en": "Driving too fast — you may lose control",
-          "my": "မြန်နှုန်း လွန်ကဲ မောင်းနှင်ခြင်း — ထိန်းချုပ်မှု ဆုံးနိုင်"
+          "en": "A 2-minute rest break every 2 hours of driving",
+          "my": "မောင်းနှင်မှု နာရီ ၂ တိုင်းတွင် ၂ မိနစ် နားပန်းချိန်"
         }
       },
       {
         "text": {
-          "en": "Driving on the wrong side of the road",
-          "my": "မှားယွင်းသော ဘက်တွင် မောင်းနှင်ခြင်း"
+          "en": "The maximum time allowed at a junction before moving off",
+          "my": "လမ်းဆုံတွင် ထွက်ခွာမတိုင်မီ ခွင့်ပြုသော အမြင့်ဆုံးအချိန်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Tailgating means following too closely. It reduces your reaction time and stopping distance. If you are being tailgated, change lanes safely.",
-      "my": "Tailgating ဆိုသည်မှာ နီးလွန်းကပ်ကာ နောက်ကပ် မောင်းနှင်ခြင်း ဖြစ်သည်။ ၎င်းသည် တုံ့ပြန်မှု အချိန်နှင့် ရပ်ရမည့် ကွာဟချက် ကို လျှော့ချသည်။ သင်ကို tailgate ပြုနေပါက ဘေးကင်းစွာ လမ်းကြောင်း ပြောင်းပါ။"
+      "en": "The 2-second rule: pick a fixed point ahead, when the car in front passes it, count \"one-thousand-one, one-thousand-two\" — you should not reach that point before finishing the count. In wet or heavy traffic, increase to 4+ seconds.",
+      "my": "၂ စက္ကန့် စည်းကမ်း: ရှေ့တွင် ပုံသေမှတ်ပွဲတစ်ခုကို ရွေးပါ၊ ရှေ့ကား ၎င်းကို ဖြတ်ကျော်သောအခါ \"တစ်ထောင်-တစ်၊ တစ်ထောင်-နှစ်\" ဟု ရေပါ — ရေပြီးမတိုင်မီ ထိုအမှတ်သို့ မရောက်ရ။"
     }
   },
   {
@@ -12995,33 +12955,33 @@
     "topic": "special_situations",
     "difficulty": "medium",
     "prompt": {
-      "en": "What does the start of expressway sign look like?",
-      "my": "အမြန်လမ်းမကြီး စတင်ရာ ဆိုင်းဘုတ် မည်သို့ ပုံသဏ္ဌာန် ရှိသလဲ?"
+      "en": "You see the expressway start sign (blue rectangle with a car on a divided road). Which of the following rules NOW applies?",
+      "my": "အမြန်လမ်းမ စတင်သည့် ဆိုင်းဘုတ် (ကြားတမ်းပါ လမ်းပေါ် ကားပါ အပြာရောင်ကြောင်း) မြင်သည်။ ဤနောက်မှ မည်သည့်စည်းမျဉ်းများ သက်ရောက်သလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "A blue rectangular sign showing a motorway symbol (car on a divided road)",
-          "my": "ပိုင်းခြားသော လမ်းပေါ် ကား ပြသော မော်တော်ယာဉ် လမ်းမ သင်္ကေတပါ အပြာ တြိဂံ ဆိုင်းဘုတ်"
+          "en": "Maximum speed 90 km/h; no pedestrians, cyclists or animals; keep left unless overtaking",
+          "my": "အမြင့်ဆုံး မြန်နှုန်း ၉၀ ကီလိုမီတာ/နာရီ; လမ်းသွားများ၊ စက်ဘီးနှင့် တိရစ္ဆာန် မဝင်ရ; ကျော်တက်ခြင်းမဟုတ်ပါက ဘယ်ဘက်တွင် နေပါ"
         }
       },
       {
         "text": {
-          "en": "A green sign with expressway name",
-          "my": "အမြန်လမ်းမ နာမည်ပါ အစိမ်း ဆိုင်းဘုတ်"
+          "en": "Speed limit of 50 km/h applies; normal road rules",
+          "my": "မြန်နှုန်းကန့်သတ်ချက် ၅၀ ကီလိုမီတာ/နာရီ သက်ရောက်သည်; ပုံမှန်လမ်းစည်းမျဉ်း"
         }
       },
       {
         "text": {
-          "en": "A red circle with a car symbol",
-          "my": "ကား သင်္ကေတပါ အနီ ဝိုင်းပတ်"
+          "en": "Bus lanes begin; only buses and taxis in left lane",
+          "my": "Bus lane များ စတင်သည်; ဘယ်ဘက်လမ်းကြောင်းတွင် ဘတ်စ်ကားနှင့် တက်ဆီများသာ"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "The start of expressway is marked by a blue rectangular sign showing a car on a divided road. The end of expressway sign shows a strikethrough version.",
-      "my": "အမြန်လမ်းမ စတင်ရာကို ပိုင်းခြားသော လမ်းပေါ် ကား ပြသော အပြာ တြိဂံ ဆိုင်းဘုတ် ဖြင့် မှတ်သားသည်။ အမြန်လမ်းမ ကုန်ဆုံးရာ ဆိုင်းဘုတ်သည် ဖျက်ဆီးခြင်း ပုံစံ ဖြင့် ပြသည်။"
+      "en": "Once you enter an expressway, the speed limit becomes 90 km/h for cars (80 km/h for motorcycles). Pedestrians, cyclists, and animals are prohibited. Keep left and use right lanes only for overtaking.",
+      "my": "အမြန်လမ်းမ ဝင်ပြီးနောက် ကားများအတွက် မြန်နှုန်းကန့်သတ်ချက် ၉၀ ကီလိုမီတာ/နာရီ (မော်တော်ဆိုင်ကယ်အတွက် ၈၀)။ လမ်းသွားများ၊ စက်ဘီး၊ တိရစ္ဆာန် တားမြစ်သည်။"
     }
   },
   {
@@ -15108,33 +15068,33 @@
     "topic": "traffic_rules_speed_limits",
     "difficulty": "medium",
     "prompt": {
-      "en": "What is the maximum speed limit on Singapore expressways for private cars?",
-      "my": "ကိုယ်ပိုင် ကားများ အတွက် စင်ကာပူ အမြန်လမ်းမ ၏ အများဆုံး မြန်နှုန်း ကန့်သတ် မည်မျှ ရှိသလဲ?"
+      "en": "Is there a minimum speed limit on Singapore expressways?",
+      "my": "စင်္ကာပူ အမြန်လမ်းမများတွင် အနည်းဆုံး မြန်နှုန်းကန့်သတ်ချက် ရှိပါသလား?"
     },
     "choices": [
       {
         "text": {
-          "en": "90 km/h",
-          "my": "ကီလိုမီတာ/နာရီ ၉၀"
+          "en": "No legal minimum — but you must not drive so slowly as to obstruct traffic flow",
+          "my": "တရားဝင် အနည်းဆုံးမြန်နှုန်း မရှိ — သို့သော် ယာဉ်သွားလာမှု နှောင့်နှေးအောင် မနှေးရ"
         }
       },
       {
         "text": {
-          "en": "80 km/h",
-          "my": "ကီလိုမီတာ/နာရီ ၈၀"
+          "en": "60 km/h on all expressways at all times",
+          "my": "မြန်လမ်းမအားလုံးတွင် အချိန်မရွေး ၆၀ ကီလိုမီတာ/နာရီ"
         }
       },
       {
         "text": {
-          "en": "110 km/h",
-          "my": "ကီလိုမီတာ/နာရီ ၁၁၀"
+          "en": "40 km/h is the minimum allowed",
+          "my": "ခွင့်ပြုသော အနည်းဆုံး မြန်နှုန်းမှာ ၄၀ ကီလိုမီတာ/နာရီ"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "The speed limit on Singapore expressways for private cars is 90 km/h. The default speed limit on other roads is 50 km/h unless signs state otherwise.",
-      "my": "ကိုယ်ပိုင် ကားများ အတွက် စင်ကာပူ အမြန်လမ်းမ မြန်နှုန်း ကန့်သတ်သည် ကီလိုမီတာ/နာရီ ၉၀ ဖြစ်သည်။ အခြား လမ်းများ တွင် မြန်နှုန်း ကန့်သတ် ဆိုင်းဘုတ် မပြသပါက ပုံမှန် ကီလိုမီတာ/နာရီ ၅၀ ဖြစ်သည်။"
+      "en": "Singapore expressways have no legally fixed minimum speed, but Rule 63 of the Highway Code states you must not drive so slowly as to obstruct or be likely to obstruct other vehicles.",
+      "my": "စင်္ကာပူ အမြန်လမ်းများတွင် တရားဝင် အနည်းဆုံး မြန်နှုန်းကန့်သတ်ချက် မရှိ။ သို့သော် Highway Code စည်းမျဉ်း ၆၃ အရ အခြားယာဉ်များ နှောင့်နှေးအောင် မနှေးနိုင်ပါ။"
     }
   },
   {
@@ -15178,41 +15138,33 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What shape are warning signs in Singapore?",
-      "my": "စင်ကာပူ တွင် သတိပေး ဆိုင်းဘုတ်များ မည်သည့် သဏ္ဌာန် ရှိသလဲ?"
+      "en": "A red triangular sign showing a car going off the edge of a road is posted near a bridge. What does this warn you about?",
+      "my": "တံတားအနီးတွင် လမ်းနားသို့ ကား ကျနေသောပုံပါ အနီရောင်တြိဂံဆိုင်းဘုတ်တစ်ခု ရှိသည်။ ဘာကို သတိပေးနေသလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Red equilateral triangle with white background",
-          "my": "အဖြူ နောက်ခံပါ အနီ မှန်ညီတြိဂံ"
+          "en": "Danger of falling off the road — drive carefully near the edge, especially on narrow bridges",
+          "my": "လမ်းမှ ကျနိုင်သော အန္တရာယ် — တံတားကျဉ်းကျဉ်းများပေါ်တွင် အနားတွင် သတိထားမောင်းနှင်ပါ"
         }
       },
       {
         "text": {
-          "en": "Blue circle",
-          "my": "အပြာ ဝိုင်းပတ်"
+          "en": "Low bridge ahead — check vehicle height before proceeding",
+          "my": "ရှေ့တွင် နိမ့်သောတံတား — ဆက်မသွားခင် ယာဉ်မြင့်မားမှု စစ်ဆေးပါ"
         }
       },
       {
         "text": {
-          "en": "Red circle with a diagonal bar",
-          "my": "ဘောင်ကြောင်းပါ အနီ ဝိုင်းပတ်"
+          "en": "Road narrows to one lane on the bridge",
+          "my": "တံတားပေါ်တွင် လမ်းကြောင်းတစ်ကြောင်းသာ ကျဉ်းသွားသည်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Warning signs in Singapore are red equilateral triangles with a white background and red border. They warn you of hazards or changes in road conditions ahead.",
-      "my": "စင်ကာပူ သတိပေး ဆိုင်းဘုတ်များ သည် အဖြူ နောက်ခံနှင့် အနီ နံဘောင်ပါ အနီ မှန်ညီတြိဂံ ဖြစ်သည်။ ရှေ့ ရှိ အန္တရာယ် သို့မဟုတ် လမ်း အခြေအနေ ပြောင်းလဲမှုကို သတိပေးသည်။"
-    },
-    "media": {
-      "type": "image",
-      "src": "/images/btt/23.png",
-      "alt": {
-        "en": "Red triangular warning sign — standard shape for all warning signs in Singapore",
-        "my": "Singapore ၏ သတိပေးဆိုင်းဘုတ်များ၏ မူလပုံစံ — အနီနယ်နမိတ်ပါ တြိဂံ"
-      }
+      "en": "A red triangle with a car falling off the road edge warns of a danger of running off the road. This sign is often placed near embankments, bridges, or sharp curves with a drop-off.",
+      "my": "လမ်းနားမှ ကားကျနေသောပုံပါ အနီရောင်တြိဂံသည် လမ်းမှ ထွက်ကျနိုင်သော အန္တရာယ်ရှိကြောင်း သတိပေးသည်။ ဤဆိုင်းဘုတ်ကို မြေနိမ့်မြေမြင့်နဲ့ ကျသောနေရာ၊ တံတား သို့မဟုတ် ချိုးကွေ့ကပ် နေရာများတွင် မကြာခဏ တွေ့ရသည်။"
     }
   },
   {
@@ -15221,41 +15173,33 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What shape are mandatory/prohibitory signs in Singapore?",
-      "my": "စင်ကာပူ တွင် မဖြစ်မနေ/တားမြစ် ဆိုင်းဘုတ်များ မည်သည့် သဏ္ဌာန် ရှိသလဲ?"
+      "en": "What is the key difference between a prohibitory sign and a mandatory sign in Singapore?",
+      "my": "စင်္ကာပူတွင် တားမြစ်ဆိုင်းဘုတ်နှင့် မဖြစ်မနေ လိုက်နာရမည့်ဆိုင်းဘုတ် ကြားက အဓိကကွာဟချက်ကား ဘာလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Red circle with white background — prohibitory signs have a diagonal red bar",
-          "my": "အဖြူ နောက်ခံပါ အနီ ဝိုင်းပတ် — တားမြစ် ဆိုင်းဘုတ်တွင် ဘောင်ကြောင်း အနီ ပါသည်"
+          "en": "Prohibitory signs (red circles) forbid an action; mandatory signs (blue circles) require an action",
+          "my": "တားမြစ်ဆိုင်းဘုတ် (အနီရောင်စက်ဝိုင်း) သည် လုပ်ဆောင်မှုတစ်ခုကို တားမြစ်သည်; မဖြစ်မနေ လိုက်နာရမည့်ဆိုင်းဘုတ် (အပြာရောင်စက်ဝိုင်း) သည် လုပ်ဆောင်မှုတစ်ခုကို လိုအပ်သည်"
         }
       },
       {
         "text": {
-          "en": "Blue triangle",
-          "my": "အပြာ တြိဂံ"
+          "en": "Both are the same — they both prohibit certain actions",
+          "my": "နှစ်ခုလုံး တူညီသည် — နှစ်ခုလုံး တစ်ခုခုကို တားမြစ်သည်"
         }
       },
       {
         "text": {
-          "en": "Green rectangle",
-          "my": "အစိမ်း တြိဂံချောင်း"
+          "en": "Prohibitory signs are triangular; mandatory signs are rectangular",
+          "my": "တားမြစ်ဆိုင်းဘုတ်များ တြိဂံပုံ; မဖြစ်မနေ လိုက်နာရမည့်ဆိုင်းဘုတ်များ ကြောင်းပုံ"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Mandatory instructions (e.g., turn left) use blue circles. Prohibitory signs (e.g., no entry) use red circles. Prohibitory signs have a diagonal red bar across the symbol.",
-      "my": "မဖြစ်မနေ ညွှန်ကြားချက် (ဥပမာ ဘယ် လှည့်ပါ) — အပြာ ဝိုင်းပတ် သုံးသည်။ တားမြစ် ဆိုင်းဘုတ် (ဥပမာ ဝင်ခြင်း မရ) — အနီ ဝိုင်းပတ် သုံးသည်။ တားမြစ် ဆိုင်းဘုတ်တွင် သင်္ကေတ ကို ဖြတ်ကာ ဘောင်ကြောင်း အနီ ပါသည်။"
-    },
-    "media": {
-      "type": "image",
-      "src": "/images/btt/2.png",
-      "alt": {
-        "en": "Blue circular mandatory sign — mandatory and prohibitory signs use circular shapes",
-        "my": "အပြာ/အနီ စက်ဝိုင်း — mandatory နှင့် prohibitory ဆိုင်းဘုတ်များသည် စက်ဝိုင်းပုံ ဖြစ်သည်"
-      }
+      "en": "Prohibitory signs use a RED CIRCLE and mean DO NOT do this (e.g. No Entry, No Overtaking). Mandatory signs use a BLUE CIRCLE and mean you MUST do this (e.g. Keep Left, Turn Left Ahead). Both are circular but the colour tells you whether it is a prohibition or instruction.",
+      "my": "တားမြစ်ဆိုင်းဘုတ်များသည် အနီရောင်စက်ဝိုင်းကို အသုံးပြုပြီး ဤလုပ်ဆောင်မှုကို မပြုရဟု ဆိုလိုသည်။ မဖြစ်မနေ လိုက်နာရမည့်ဆိုင်းဘုတ်များသည် အပြာရောင်စက်ဝိုင်းကို အသုံးပြုပြီး ဤလုပ်ဆောင်မှုကို မဖြစ်မနေ ဆောင်ရွက်ရမည်ဟု ဆိုလိုသည်။"
     }
   },
   {
@@ -15264,33 +15208,33 @@
     "topic": "road_signs",
     "difficulty": "medium",
     "prompt": {
-      "en": "What does a 'No Entry' sign look like?",
-      "my": "'ဝင်ခြင်း မရ' ဆိုင်းဘုတ် မည်သို့ ပုံသဏ္ဌာန် ရှိသလဲ?"
+      "en": "You are about to turn into a side road and see a \"No Entry\" sign at its entrance. What must you do?",
+      "my": "ဘေးလမ်းတစ်ခုသို့ ဝင်ရန် ကြိုးစားနေပြီး ၎င်း၏ ဝင်ပေါက်တွင် \"ဝင်ခွင့်မရှိ\" ဆိုင်းဘုတ်တစ်ခု မြင်သည်။ ဘာ ဆောင်ရွက်ရမည်လဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Red circle with a white horizontal bar in the middle",
-          "my": "အလယ် ၌ အဖြူ အလျားလိုက် ကြောင်းပါ အနီ ဝိုင်းပတ်"
+          "en": "Do not enter — look for an alternative route",
+          "my": "မဝင်ပါနှင့် — အခြားလမ်းကြောင်း ရှာဖွေပါ"
         }
       },
       {
         "text": {
-          "en": "Red triangle with an X",
-          "my": "X ပါ အနီ တြိဂံ"
+          "en": "You may enter slowly if no vehicles are coming out",
+          "my": "ထွက်လာသောယာဉ် မရှိပါက နှေးနှေးဝင်နိုင်သည်"
         }
       },
       {
         "text": {
-          "en": "Blue circle with a white arrow",
-          "my": "အဖြူ မျှားတံ ပါ အပြာ ဝိုင်းပတ်"
+          "en": "Sound the horn first, then enter carefully",
+          "my": "ဦးစွာ ဟော်တာတီးပြီး သတိထားဝင်ပါ"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "A 'No Entry' sign is a red circle with a white horizontal bar in the centre. You must not enter the road or lane bearing this sign.",
-      "my": "'ဝင်ခြင်း မရ' ဆိုင်းဘုတ်သည် အဖြူ အလျားလိုက် ကြောင်းပါ အနီ ဝိုင်းပတ် ဖြစ်သည်။ ဒီ ဆိုင်းဘုတ် ပြသသော လမ်း သို့မဟုတ် လမ်းကြောင်းသို့ ဝင်ခွင့် မရ။"
+      "en": "A \"No Entry\" sign prohibits entry from that direction for all vehicles. There are no exceptions — you must not enter regardless of whether traffic is visible. Find an alternative route.",
+      "my": "\"ဝင်ခွင့်မရှိ\" ဆိုင်းဘုတ်သည် ယာဉ်အားလုံးအတွက် ထိုဦးတည်ချက်မှ ဝင်ခြင်းကို တားမြစ်သည်။ ကင်းလွတ်ချက် မရှိ — ယာဉ်မမြင်ရစေကာမူ မဝင်ရ။"
     },
     "media": {
       "type": "image",
@@ -15377,41 +15321,33 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What colour are mandatory (must do) road signs in Singapore?",
-      "my": "စင်ကာပူ မဖြစ်မနေ ဆောင်ရွက်ရမည့် လမ်း ဆိုင်းဘုတ်များ ၏ အရောင် မည်သလဲ?"
+      "en": "A blue circular sign with a white arrow pointing straight ahead is posted on a road. What does this tell drivers?",
+      "my": "ရှေ့တည့်တည့်သို့ ညွှန်နေသော အဖြူရောင်မြှားပါ အပြာရောင်စက်ဝိုင်းဆိုင်းဘုတ်တစ်ခု လမ်းပေါ်တွင် ရှိသည်။ ၎င်းသည် ယာဉ်မောင်းသူများကို ဘာ ပြောနေသလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Blue circle",
-          "my": "အပြာ ဝိုင်းပတ်"
+          "en": "Proceed straight ahead only — turning is not permitted here",
+          "my": "တည့်တည့်သာ မောင်းနှင်ရမည် — ဤနေရာတွင် လှည့်ကွေ့ခြင်း ခွင့်မပြု"
         }
       },
       {
         "text": {
-          "en": "Red circle",
-          "my": "အနီ ဝိုင်းပတ်"
+          "en": "It is safe to go straight — but you may also turn",
+          "my": "တည့်တည့် သွားရန် ဘေးကင်းသည် — သို့သော် လှည့်ကွေ့လည်း ရသည်"
         }
       },
       {
         "text": {
-          "en": "Green rectangle",
-          "my": "အစိမ်း တြိဂံချောင်း"
+          "en": "One-way traffic coming towards you ahead",
+          "my": "ရှေ့တွင် တစ်လမ်းသွား ယာဉ်ကြောငင်ဆန့်ကျင်ဘက် သင့်ဆီ လာနေသည်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Mandatory signs (giving a positive instruction you must follow) are blue circles. For example, 'Keep Left' is a blue circle with a white arrow.",
-      "my": "မဖြစ်မနေ ဆိုင်းဘုတ် (လိုက်နာရမည့် အပြုသဘောဆောင် ညွှန်ကြားချက်ပေးသော) — အပြာ ဝိုင်းပတ် ဖြစ်သည်။ ဥပမာ 'ဘယ် ကပ်ပါ' — အဖြူ မျှားတံ ပါ အပြာ ဝိုင်းပတ် ဖြစ်သည်။"
-    },
-    "media": {
-      "type": "image",
-      "src": "/images/btt/69.png",
-      "alt": {
-        "en": "Blue circular mandatory sign — mandatory 'must do' road signs in Singapore are blue",
-        "my": "Singapore ၏ မဖြစ်မနေဆိုင်းဘုတ်များသည် အပြာရောင် ဖြစ်သည်"
-      }
+      "en": "A blue circular sign with a straight-ahead arrow is a mandatory sign meaning \"Ahead Only\". Drivers MUST go straight — no turning is permitted at that point. Blue circle signs are always compulsory instructions.",
+      "my": "တည့်တည့်မြှားပါ အပြာရောင်စက်ဝိုင်းဆိုင်းဘုတ်သည် \"ရှေ့တည့်တည့်သာ\" ဟူသော မဖြစ်မနေ ဆိုင်းဘုတ်ဖြစ်သည်။ ယာဉ်မောင်းသူများ မဖြစ်မနေ တည့်တည့်သာ မောင်းနှင်ရမည်။"
     }
   },
   {
@@ -15420,33 +15356,33 @@
     "topic": "road_signs",
     "difficulty": "medium",
     "prompt": {
-      "en": "What does a 'Keep Left' sign look like?",
-      "my": "'ဘယ် ကပ်ပါ' ဆိုင်းဘုတ် မည်သို့ ပုံသဏ္ဌာန် ရှိသလဲ?"
+      "en": "You are driving towards a traffic island with a \"Keep Left\" sign. What must you do?",
+      "my": "\"ဘယ်ဘက်နေပါ\" ဆိုင်းဘုတ်ပါ ယာဉ်ကွင်းဆက်တစ်ခုသို့ မောင်းနှင်နေသည်။ ဘာ ဆောင်ရွက်ရမည်လဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Blue circle with a white arrow pointing left and down",
-          "my": "ဘယ်ဘက် အောက်သို့ ညွှန်ပြသော အဖြူ မျှားတံ ပါ အပြာ ဝိုင်းပတ်"
+          "en": "Pass on the left side of the island — do not go to the right of it",
+          "my": "ယာဉ်ကွင်းဆက်၏ ဘယ်ဘက်ကို ဖြတ်ကျော်ရမည် — ၎င်း၏ ညာဘက်သို့ မသွားရ"
         }
       },
       {
         "text": {
-          "en": "Red triangle with a left arrow",
-          "my": "ဘယ် မျှားတံ ပါ အနီ တြိဂံ"
+          "en": "You may pass on either side depending on traffic",
+          "my": "ယာဉ်သွားလာမှုပေါ် မူတည်ပြီး မည်သည့်ဘက်မှမဆို ဖြတ်ကျော်နိုင်သည်"
         }
       },
       {
         "text": {
-          "en": "Green circle with white arrow",
-          "my": "အဖြူ မျှားတံ ပါ အစိမ်း ဝိုင်းပတ်"
+          "en": "Move completely to the left lane of the road",
+          "my": "လမ်း၏ ဘယ်ဘက်လမ်းကြောင်းသို့ လုံးဝ ရွေ့ပါ"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "'Keep Left' is a mandatory sign — blue circle with a white arrow pointing down-left, meaning traffic must pass to the left of an obstruction or island.",
-      "my": "'ဘယ် ကပ်ပါ' သည် မဖြစ်မနေ ဆိုင်းဘုတ် — ဘယ်ဘက် အောက်သို့ ညွှန်ပြသော အဖြူ မျှားတံ ပါ အပြာ ဝိုင်းပတ် ဖြစ်သည် — ယာဉ်ကြောင်း ကန့်ကွတ် သို့မဟုတ် ကျွန်းစု ဘယ်ဘက်မှ ဖြတ်ရမည် ဆိုတာပါ။"
+      "en": "The \"Keep Left\" sign (blue circle with downward-left arrow) means you must pass on the left side of the obstacle or traffic island. Passing on the right is not permitted where this sign is displayed.",
+      "my": "\"ဘယ်ဘက်နေပါ\" ဆိုင်းဘုတ်သည် အတားအဆီး သို့မဟုတ် ယာဉ်ကွင်းဆက်၏ ဘယ်ဘက်ကို ဖြတ်ကျော်ရမည်ဟု ဆိုလိုသည်။ ဤဆိုင်းဘုတ် ပြထားသောနေရာတွင် ညာဘက်ကို ဖြတ်ကျော်ခြင်း ခွင့်မပြု။"
     },
     "media": {
       "type": "image",
@@ -15687,8 +15623,8 @@
     "choices": [
       {
         "text": {
-          "en": "Move to the hard shoulder/emergency lane, switch on hazard lights, place warning triangle 50m behind",
-          "my": "Hard shoulder/အရေးပေါ် လမ်းကြောင်းသို့ ရွေ့ပြီး hazard မီး ဖွင့်ကာ သတိပေး တြိဂံကို နောက်မှ ၅၀ မီတာ ကွာဟချက်တွင် ထားပါ"
+          "en": "Move to the hard shoulder/emergency lane, switch on hazard lights, place warning triangle 20m behind",
+          "my": "Hard shoulder/အရေးပေါ် လမ်းကြောင်းသို့ ရွေ့ပြီး hazard မီး ဖွင့်ကာ သတိပေး တြိဂံကို နောက်မှ ၂၀ မီတာ ကွာဟချက်တွင် ထားပါ"
         }
       },
       {
@@ -16031,33 +15967,33 @@
     "topic": "defensive_driving",
     "difficulty": "easy",
     "prompt": {
-      "en": "When should you use your horn?",
-      "my": "ဟွန်း ကို မည်သောအခါ တီးရမည်လဲ?"
+      "en": "In which situation is it CORRECT to use your hazard warning lights?",
+      "my": "မည်သည့်အခြေအနေတွင် Hazard သတိပေးမီးများ အသုံးပြုခြင်းသည် မှန်ကန်သလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Only to warn other road users of danger — not to express anger or frustration",
-          "my": "အခြား လမ်းသုံးသူများ ကို အန္တရာယ် သတိပေးရန် သာ — အမျက် သို့မဟုတ် စိတ်ညစ်မှု ဖော်ထုတ်ရန် မဟုတ်"
+          "en": "When your vehicle breaks down on the road and you need to warn other drivers",
+          "my": "ယာဉ်ပျက်ကျပြီး အခြားယာဉ်မောင်းသူများကို သတိပေးရန် လိုသောအခါ"
         }
       },
       {
         "text": {
-          "en": "Whenever you want to pass another vehicle",
-          "my": "အခြား ယာဉ် ကျော်တက်လိုသည့် မည်သည့်အခါမဆို"
+          "en": "When driving through heavy rain so other drivers can see you better",
+          "my": "မိုးသည်းထနေသောအခါ အခြားယာဉ်မောင်းသူများ ပိုမြင်နိုင်ရန် မောင်းနှင်စဉ်"
         }
       },
       {
         "text": {
-          "en": "When entering a parking garage",
-          "my": "ကားရပ်ကွင်း ဂိုဒောင် ဝင်သောအခါ"
+          "en": "When briefly stopping in a no-parking zone to drop off a passenger",
+          "my": "ရပ်နားခွင့်မရှိသောနေရာတွင် ခဏမျှ ရပ်ကာ ခရီးသည် ဆင်းပေးသောအခါ"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "Use the horn only to warn others of danger. Do not use it to express anger, greet others, or hurry pedestrians. Excessive honking near hospitals and schools is especially prohibited.",
-      "my": "ဟွန်း ကို အခြားသူများ ကို အန္တရာယ် သတိပေးရန် သာ သုံးပါ။ အမျက် ဖော်ထုတ်ရန်၊ အခြားသူများ နှုတ်ဆက်ရန် သို့မဟုတ် လမ်းလျောက်သူများ မြန်မြန် ဆောင်ရွက်ရန် မသုံးပါနှင့်။ ဆေးရုံနှင့် ကျောင်းနား ဟွန်း အလွန်အကျွံ တီးခြင်းကို အထူးတားမြစ်သည်။"
+      "en": "Hazard lights are for genuine emergencies — breakdowns, accidents, or when stationary and posing a danger. Using them while moving in rain or as a courtesy for illegal parking is incorrect use.",
+      "my": "Hazard မီးများသည် စစ်မှန်သော အရေးပေါ်အခြေအနေများ — ယာဉ်ပျက်ကျခြင်း၊ မတော်တဆမှုများ သို့မဟုတ် ရပ်တန့်နေပြီး အန္တရာယ်ဖြစ်တတ်သောအခါ အတွက်သာ ဖြစ်သည်။"
     }
   },
   {
@@ -16334,7 +16270,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Accumulating 24 or more demerit points within a year results in licence revocation. New (probationary) drivers are revoked at 13 points within the first year.",
       "my": "တစ်နှစ်အတွင်း ဒဏ်မှတ် ၂၄ သို့မဟုတ် ထိုထက် မြင့် သောအခါ လိုင်စင် ဖျက်သိမ်းမည်ဖြစ်သည်။ ပထမ နှစ်တွင် ဒဏ်မှတ် ၁၃ ရှိပါက ယာဉ်မောင်း အသစ် (စမ်းသပ်) ကို ဖျက်သိမ်းမည်ဖြစ်သည်။"
@@ -16452,33 +16388,33 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What does a 'Pedestrian Crossing' warning sign look like?",
-      "my": "'လမ်းလျောက်သူ ဖြတ်ကူးရာ' သတိပေး ဆိုင်းဘုတ် မည်သို့ ပုံသဏ္ဌာန် ရှိသလဲ?"
+      "en": "A warning sign showing a walking figure in a red triangle is posted before an unmarked crossing. How should you drive past it?",
+      "my": "လမ်းသတ်မှတ်မထားသောဖြတ်လမ်းမတိုင်မီ လမ်းသွားပုံပါ အနီရောင်တြိဂံသတိပေးဆိုင်းဘုတ်တစ်ခု ရှိသည်။ မည်သို့ ဖြတ်ကျော်မောင်းနှင်ရမည်လဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Red triangle with a walking figure",
-          "my": "လမ်းလျောက်သူ ပုံ ပါ အနီ တြိဂံ"
+          "en": "Slow down and be prepared to stop for pedestrians crossing or about to cross",
+          "my": "မြန်နှုန်းလျော့ပြီး ဖြတ်ကူးနေသော သို့မဟုတ် ဖြတ်ကူးမည့် လမ်းသွားများအတွက် ရပ်ရန် အသင့်ဆင်ပြင်ထားပါ"
         }
       },
       {
         "text": {
-          "en": "Blue circle with a walking figure",
-          "my": "လမ်းလျောက်သူ ပုံ ပါ အပြာ ဝိုင်းပတ်"
+          "en": "Sound the horn as you approach to alert pedestrians",
+          "my": "လမ်းသွားများကို သတိပေးရန် နီးကပ်လာသည်နှင့် ဟော်တာတီးပါ"
         }
       },
       {
         "text": {
-          "en": "Green rectangle with an arrow",
-          "my": "မျှားတံ ပါ အစိမ်း တြိဂံချောင်း"
+          "en": "Maintain speed — pedestrians should wait for vehicles to pass",
+          "my": "မြန်နှုန်း ထိန်းထားပါ — လမ်းသွားများသည် ယာဉ်ဖြတ်ကျော်သည်အထိ ဆောင့်ရမည်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "A pedestrian crossing warning sign is a red triangle containing a walking figure. It warns drivers that a crossing is ahead and pedestrians may be crossing.",
-      "my": "လမ်းလျောက်သူ ဖြတ်ကူးရာ သတိပေး ဆိုင်းဘုတ်သည် လမ်းလျောက်သူ ပုံ ပါ အနီ တြိဂံ ဖြစ်သည်။ ရှေ့တွင် ဖြတ်ကူးရာ ရှိပြီး လမ်းလျောက်သူ ဖြတ်ကူးနေနိုင်ကြောင်း ယာဉ်မောင်းများ ကို သတိပေးသည်။"
+      "en": "A pedestrian warning sign means you may encounter people crossing the road. Slow down and be ready to give way. Pedestrians have priority once they have stepped onto the crossing.",
+      "my": "လမ်းသွားသတိပေးဆိုင်းဘုတ်သည် ကူးနေသောသူများ တွေ့နိုင်ကြောင်း ဆိုလိုသည်။ မြန်နှုန်းလျော့ပြီး နေရာပေးရန် အသင့်ဆင်ပြင်ထားပါ။ ဖြတ်လမ်းပေါ် ခြေချပြီးနောက် လမ်းသွားများသည် ဦးစားရသည်။"
     },
     "media": {
       "type": "image",
@@ -17203,33 +17139,33 @@
     "topic": "road_signs",
     "difficulty": "medium",
     "prompt": {
-      "en": "What does a 'Stop' sign look like and what must you do?",
-      "my": "'STOP' ဆိုင်းဘုတ် မည်သို့ ပုံသဏ္ဌာန် ရှိသည်၊ မည်သို့ ဆောင်ရွက်ရမည်လဲ?"
+      "en": "At a junction controlled by a \"Stop\" sign, a driver slows down but does not fully stop before proceeding. What rule have they broken?",
+      "my": "\"ရပ်\" ဆိုင်းဘုတ် ထိန်းချုပ်သော လမ်းဆုံတစ်ခုတွင် ယာဉ်မောင်းသူတစ်ဦးသည် မြန်နှုန်းလျော့သော်လည်း လုံးဝ မရပ်ဘဲ ဆက်မောင်းသည်။ မည်သည့်စည်းကမ်းကို ချိုးဖောက်သလဲ?"
     },
     "choices": [
       {
         "text": {
-          "en": "Red octagon with 'STOP' — you must come to a complete stop before the stop line",
-          "my": "'STOP' ပါ အနီ ဘက်ပေါင်းစုံ — ရပ် ကြောင်း ရှေ့တွင် လုံးဝ ရပ်ဆိုင်းရမည်"
+          "en": "The Stop sign rule — you must come to a complete stop at the stop line, not just slow down",
+          "my": "\"ရပ်\" ဆိုင်းဘုတ် စည်းကမ်း — မြန်နှုန်းလျော့ရုံမဟုတ်ဘဲ ရပ်တန့်မျဉ်းတွင် လုံးဝ ရပ်တန့်ရမည်"
         }
       },
       {
         "text": {
-          "en": "Red triangle with 'STOP' — slow down only",
-          "my": "'STOP' ပါ အနီ တြိဂံ — နှေးချ ရုံ"
+          "en": "No rule is broken — slowing to under 15 km/h is acceptable at a Stop sign",
+          "my": "မည်သည့်စည်းကမ်းမျှ မချိုးဖောက်ဘူး — ၁၅ ကီလိုမီတာ/နာရီ အောက် နှေးသွားလျှင် \"ရပ်\" ဆိုင်းဘုတ်တွင် လက်ခံနိုင်သည်"
         }
       },
       {
         "text": {
-          "en": "Yellow circle with 'STOP' — yield",
-          "my": "'STOP' ပါ အဝါ ဝိုင်းပတ် — ဦးစားပေး"
+          "en": "No rule is broken if no other traffic is visible",
+          "my": "အခြားယာဉ် မမြင်ရပါက မည်သည့်စည်းကမ်းမျှ မချိုးဖောက်ဘူး"
         }
       }
     ],
     "answer": 0,
     "explanation": {
-      "en": "A Stop sign is a red octagon. You must stop completely before the line, check that the road is clear, then proceed when safe. Rolling through a stop sign is an offence.",
-      "my": "STOP ဆိုင်းဘုတ်သည် အနီ ဘက်ပေါင်းစုံ ဖြစ်သည်။ ကြောင်း ရှေ့တွင် လုံးဝ ရပ်ဆိုင်းပြီး လမ်း ကြည်ကြည်ဖြင့် ဖောက်ရှင်းကြောင်း စစ်ဆေးကာ ဘေးကင်းသောအခါ ဆက်သွားပါ။ STOP ဆိုင်းဘုတ် ကို လိပ်ကာ ဖြတ်ကူးခြင်းသည် ပြစ်မှု ဖြစ်သည်။"
+      "en": "At a Stop sign, you MUST come to a complete stop at the white stop line. A slow roll without stopping fully is a traffic offence. After stopping completely, check in all directions and proceed only when it is safe.",
+      "my": "\"ရပ်\" ဆိုင်းဘုတ်တွင် အဖြူရောင် ရပ်တန့်မျဉ်းတွင် လုံးဝ ရပ်တန့်ရမည်။ ရပ်တန့်ခြင်းမပြုဘဲ နှေးနှေး ဖြတ်သွားခြင်းသည် ယာဉ်ကြောင်းဆိုင်ရာ ကျူးလွန်မှုဖြစ်သည်။"
     },
     "media": {
       "type": "image",
