@@ -813,6 +813,8 @@
     "hazard_title": "危険予測 — ア・イ・ウに答える",
     "hazard_true": "正しい（○）",
     "hazard_false": "誤り（×）",
+    "tf_true": "正しい",
+    "tf_false": "誤り",
     "your_answer": "あなたの答え",
     "result_try_again": "もう一度",
     "correct": "正解",

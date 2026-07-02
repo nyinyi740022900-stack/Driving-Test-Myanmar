@@ -6,7 +6,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import BackButton from './BackButton';
 import type { Category, Question } from '@/lib/types';
 import { TEST_META } from '@/lib/types';
-import { shuffleArray, pickLocalized } from '@/lib/questions';
+import { shuffleArray, pickLocalized, isJpTrueFalseChoice } from '@/lib/questions';
 import type { QuizAnswer } from '@/lib/quiz-answers';
 import {
   emptyAnswerFor,
@@ -110,7 +110,13 @@ export default function QuizSession({ category, mode, questions }: Props) {
   }, [retryPool, mode, selectedSet, practiceSets, lessonSets, questions, meta.questionCount, shuffleKey]);
 
   const q = pool[idx];
-  const L = (obj: Partial<Record<string, string>>) => pickLocalized(obj, locale);
+  const L = (obj: Partial<Record<string, string>>) => pickLocalized(obj, locale, category);
+  const choiceLabel = (text: Partial<Record<string, string>>) => {
+    if (locale === 'en' && isJpTrueFalseChoice(text)) {
+      return text.ja === '正しい' ? t('tf_true') : t('tf_false');
+    }
+    return L(text);
+  };
 
   // Reset answers when pool changes
   useEffect(() => {
@@ -462,7 +468,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
                 {best && <StatPill color="var(--asphalt)" label="Best" value={`${bestPct}%`} />}
                 <StatPill color="var(--asphalt)" label={t('result_attempts') ?? 'Tries'} value={getAttemptCount(category)} />
               </div>
-              <WrongReview wrongQs={wrongQs} answers={answers} pool={pool} L={L} t={t} />
+              <WrongReview wrongQs={wrongQs} answers={answers} pool={pool} L={L} choiceLabel={choiceLabel} t={t} />
               <div style={{ display: 'flex', gap: 10, justifyContent: 'center', marginTop: 24, flexWrap: 'wrap' }}>
                 {wrongQs.length > 0 && (
                   <RewardedAdButton
@@ -520,7 +526,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
               </div>
             )}
 
-            <WrongReview wrongQs={wrongQs} answers={answers} pool={pool} L={L} t={t} showExplanation />
+            <WrongReview wrongQs={wrongQs} answers={answers} pool={pool} L={L} choiceLabel={choiceLabel} t={t} showExplanation />
             <AdSlot slot="5983088447" format="rectangle" className="quiz-ad" />
             <div style={{ display: 'flex', gap: 10, justifyContent: 'center', marginTop: 24, flexWrap: 'wrap' }}>
               {wrongQs.length > 0 && (
@@ -687,7 +693,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
                       {String.fromCharCode(65 + i)}
                     </span>
                     <span className="opt-text">
-                      <span>{L(choice.text)}</span>
+                      <span>{choiceLabel(choice.text)}</span>
                       {showMyanmar && locale !== 'my' && choice.text['my'] && (
                         <span className="opt-my">{choice.text['my']}</span>
                       )}
@@ -717,7 +723,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
                     </strong>
                     {!isCorrectPick && (
                       <span style={{ color: 'var(--ink-soft)', fontSize: '.85rem' }}>
-                        · {t('correct_answer') ?? 'Correct'}: <strong style={{ color: 'var(--ink)' }}>{L(q.choices[q.answer].text)}</strong>
+                        · {t('correct_answer') ?? 'Correct'}: <strong style={{ color: 'var(--ink)' }}>{choiceLabel(q.choices[q.answer].text)}</strong>
                       </span>
                     )}
                   </div>
@@ -920,12 +926,13 @@ function StatPill({ color, label, value }: { color: string; label: string; value
 }
 
 function WrongReview({
-  wrongQs, answers, pool, L, t, showExplanation,
+  wrongQs, answers, pool, L, choiceLabel, t, showExplanation,
 }: {
   wrongQs: Question[];
   answers: QuizAnswer[];
   pool: Question[];
   L: (obj: Partial<Record<string, string>>) => string;
+  choiceLabel: (text: Partial<Record<string, string>>) => string;
   t: (key: string) => string;
   showExplanation?: boolean;
 }) {
@@ -960,12 +967,12 @@ function WrongReview({
               ) : yourAns !== null && typeof yourAns === 'number' && (
                 <div style={{ display: 'flex', gap: 6, alignItems: 'flex-start', color: 'var(--red, #e53e3e)', marginBottom: 4 }}>
                   <span style={{ flexShrink: 0 }}>✗</span>
-                  <span><strong>{t('your_answer') ?? 'Your answer'}:</strong> {L(wq.choices[yourAns].text)}</span>
+                  <span><strong>{t('your_answer') ?? 'Your answer'}:</strong> {choiceLabel(wq.choices[yourAns].text)}</span>
                 </div>
               )}
               <div style={{ display: 'flex', gap: 6, alignItems: 'flex-start', color: 'var(--guide)' }}>
                 <span style={{ flexShrink: 0 }}>✓</span>
-                <span><strong>{t('correct_answer') ?? 'Correct'}:</strong> {L(wq.choices[wq.answer].text)}</span>
+                <span><strong>{t('correct_answer') ?? 'Correct'}:</strong> {choiceLabel(wq.choices[wq.answer].text)}</span>
               </div>
               {showExplanation && wq.explanation && (
                 <div style={{ marginTop: 8, padding: '8px 10px', background: '#fff', borderRadius: 8, color: 'var(--ink-soft)', lineHeight: 1.55 }}>

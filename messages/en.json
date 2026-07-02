@@ -815,6 +815,8 @@
     "hazard_title": "Hazard prediction — answer ア, イ, ウ",
     "hazard_true": "Correct (○)",
     "hazard_false": "Incorrect (×)",
+    "tf_true": "True",
+    "tf_false": "False",
     "your_answer": "Your answer",
     "result_try_again": "Try again",
     "correct": "Correct",

@@ -59,7 +59,8 @@ export default function Header() {
     const defaultLang = c === 'sg' ? 'en' : 'ja';
     if (locale !== 'my') {
       const segments = pathname.split('/');
-      segments[1] = defaultLang;
+      const validFor = LANGS[c].map(([code]) => code);
+      segments[1] = validFor.includes(locale) ? locale : defaultLang;
       navigateWithSwap(segments.join('/'), () => setCountry(c));
     } else {
       fadeSwap(() => setCountry(c));

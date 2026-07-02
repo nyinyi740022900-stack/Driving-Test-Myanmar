@@ -24,6 +24,13 @@ const DEMO_DATA = {
     },
   },
   jp: {
+    en: {
+      q: 'What does this sign mean?',
+      choices: ['No entry for all vehicles', 'No parking at any time', 'One-way street ahead'],
+      answer: 0,
+      ok: 'Correct — this sign means no vehicles may enter.',
+      no: 'Not quite — the red circle with a white bar means no entry.',
+    },
     ja: {
       q: 'この標識の意味は？',
       choices: ['車両進入禁止', '駐車禁止', 'この先一方通行'],
@@ -50,7 +57,7 @@ export default function QuizDemo() {
   const [picked, setPicked] = useState<number | null>(null);
 
   const countryData = DEMO_DATA[country] as Record<string, typeof DEMO_DATA['sg']['en']>;
-  const d = countryData[locale] ?? countryData[country === 'sg' ? 'en' : 'ja'];
+  const d = countryData[locale] ?? countryData[country === 'sg' ? 'en' : locale === 'my' ? 'my' : 'en'];
 
   function reset() {
     setPicked(null);

@@ -813,6 +813,8 @@
     "hazard_title": "အန္တရာယ်ခန့်မှန်း — အ၊ ဣ၊ ဥ ဖြေပါ",
     "hazard_true": "မှန် (○)",
     "hazard_false": "မှား (×)",
+    "tf_true": "မှန်သည်",
+    "tf_false": "မှားသည်",
     "your_answer": "သင့်အဖြေ",
     "result_try_again": "ပြန်ကြိုးစားမည်",
     "correct": "မှန်ပါတယ်",
