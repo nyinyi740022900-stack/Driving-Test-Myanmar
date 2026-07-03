@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "id": "sg_class3_practical",
+    "title": {
+      "en": "Class 3 / 3A Final Practical Assessment",
+      "my": "Class 3 / 3A လက်တွေ့ စာမေးပွဲ အကဲဖြတ်ချက်",
+      "ja": "Class 3 / 3A 実技最終評価"
+    },
+    "subtitle": {
+      "en": "Traffic Police demerit checklist — tick penalties as on the official form.",
+      "my": "Traffic Police demerit စာရင်း — တရားဝင် form အတိုင်း အမှတ်များ မှတ်ပါ။",
+      "ja": "交通警察の減点チェックリスト — 公式用紙と同様に減点を記録。"
+    },
+    "rules": {
+      "en": "One immediate failure or 20 demerit points = FAIL. Circle ticks are immediate failures; box ticks carry demerit points shown.",
+      "my": "ချက်ချင်း ကျရှုံးမှု တစ်ခု သို့မဟုတ် demerit ၂၀ မှတ် = ကျရှုံး။ ဝိုင်းအမှတ်သည် ချက်ချင်း ကျရှုံး၊ အကွက်အမှတ်သည် ပြထားသော demerit ပေးသည်။",
+      "ja": "即失格1件または減点20点で不合格。丸印は即失格、四角印は表示された減点。"
+    }
+  },
+  "sections": [
+    {
+      "id": "narrow",
+      "title": { "en": "Narrow course", "my": "ကျဉ်းသော လမ်းကြောင်း", "ja": "狭路コース" },
+      "subtitle": { "en": "(a) S-course · (b) Crank · (c) Direction change", "my": "(က) S-course · (ခ) Crank · (ဂ) လမ်းကြောင်း ပြောင်း", "ja": "(a) S字 · (b) クランク · (c) 方向転換" },
+      "items": [
+        {
+          "id": "nc1a", "num": 1,
+          "label": { "en": "Strike kerb", "my": "လမ်းဘေးတန်း ထိခိုက်သည်", "ja": "縁石に接触" },
+          "variants": [
+            { "id": "nc1a", "label": { "en": "S-course", "my": "S-course", "ja": "S字" }, "demerits": 10 },
+            { "id": "nc1b", "label": { "en": "Crank course", "my": "Crank course", "ja": "クランク" }, "demerits": 10 },
+            { "id": "nc1c", "label": { "en": "Direction change", "my": "လမ်းကြောင်း ပြောင်း", "ja": "方向転換" }, "demerits": 10 }
+          ]
+        },
+        {
+          "id": "nc2b", "num": 2,
+          "label": { "en": "Mount kerb", "my": "လမ်းဘေးတန်း တက်သည်", "ja": "縁石に乗り上げ" },
+          "variants": [
+            { "id": "nc2b", "label": { "en": "Crank course", "my": "Crank course", "ja": "クランク" }, "demerits": 2 },
+            { "id": "nc2c", "label": { "en": "Direction change", "my": "လမ်းကြောင်း ပြောင်း", "ja": "方向転換" }, "demerits": 2 }
+          ]
+        },
+        {
+          "id": "nc3a", "num": 3,
+          "label": { "en": "Require reverse movement", "my": "နောက်ပြန်လှည့်ရန် လိုအပ်သည်", "ja": "後退が必要" },
+          "variants": [
+            { "id": "nc3a", "label": { "en": "S-course", "my": "S-course", "ja": "S字" }, "demerits": 4 },
+            { "id": "nc3b", "label": { "en": "Crank course", "my": "Crank course", "ja": "クランク" }, "demerits": 4 },
+            { "id": "nc3c", "label": { "en": "Direction change", "my": "လမ်းကြောင်း ပြောင်း", "ja": "方向転換" }, "demerits": 4 }
+          ]
+        },
+        {
+          "id": "nc4", "num": 4,
+          "label": { "en": "Require additional reverse movement", "my": "နောက်ပြန် ထပ်လှည့်ရန် လိုအပ်သည်", "ja": "追加後退が必要" },
+          "noDemerit": true, "demerits": 0
+        },
+        {
+          "id": "nc5a", "num": 5,
+          "label": { "en": "Fail to confirm safety", "my": "လုံခြုံရေး မစစ်ဆေးပါ", "ja": "安全確認不足" },
+          "variants": [
+            { "id": "nc5a", "label": { "en": "S-course", "my": "S-course", "ja": "S字" }, "demerits": 10 },
+            { "id": "nc5b", "label": { "en": "Crank course", "my": "Crank course", "ja": "クランク" }, "demerits": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parking",
+      "title": { "en": "Parking", "my": "ကားရပ်နားခြင်း", "ja": "駐車" },
+      "subtitle": { "en": "(a) Parallel · (b) Vertical", "my": "(က) ဘေးချ · (ခ) ဒေါင်လိုက်", "ja": "(a) 縦列 · (b) 直角" },
+      "items": [
+        {
+          "id": "pk6a", "num": 6,
+          "label": { "en": "Strike kerb", "my": "လမ်းဘေးတန်း ထိခိုက်သည်", "ja": "縁石に接触" },
+          "variants": [
+            { "id": "pk6a", "label": { "en": "Parallel", "my": "ဘေးချ", "ja": "縦列" }, "demerits": 2 },
+            { "id": "pk6b", "label": { "en": "Vertical", "my": "ဒေါင်လိုက်", "ja": "直角" }, "demerits": 2 }
+          ]
+        },
+        {
+          "id": "pk7a", "num": 7,
+          "label": { "en": "Mount kerb", "my": "လမ်းဘေးတန်း တက်သည်", "ja": "縁石に乗り上げ" },
+          "variants": [
+            { "id": "pk7a", "label": { "en": "Parallel", "my": "ဘေးချ", "ja": "縦列" }, "demerits": 4 },
+            { "id": "pk7b", "label": { "en": "Vertical", "my": "ဒေါင်လိုက်", "ja": "直角" }, "demerits": 4 }
+          ]
+        },
+        {
+          "id": "pk8a", "num": 8,
+          "label": { "en": "Turn steering whilst vehicle is stationary", "my": "ကား ရပ်နေစဉ် စတီယာရင် လှည့်သည်", "ja": "停車中にハンドル操作" },
+          "variants": [
+            { "id": "pk8a", "label": { "en": "Parallel", "my": "ဘေးချ", "ja": "縦列" }, "demerits": 4 },
+            { "id": "pk8b", "label": { "en": "Vertical", "my": "ဒေါင်လိုက်", "ja": "直角" }, "demerits": 4 }
+          ]
+        },
+        {
+          "id": "pk9a", "num": 9,
+          "label": { "en": "Exceed stipulated time", "my": "သတ်မှတ်ချိန် ကျော်လွန်သည်", "ja": "制限時間超過" },
+          "variants": [
+            { "id": "pk9a", "label": { "en": "Parallel (>5 min)", "my": "ဘေးချ (>၅ မိနစ်)", "ja": "縦列（5分超）" }, "demerits": 4 },
+            { "id": "pk9b", "label": { "en": "Vertical (>3 min)", "my": "ဒေါင်လိုက် (>၃ မိနစ်)", "ja": "直角（3分超）" }, "demerits": 4 }
+          ]
+        },
+        { "id": "pk10", "num": 10, "label": { "en": "Fail to confirm safety", "my": "လုံခြုံရေး မစစ်ဆေးပါ", "ja": "安全確認不足" }, "demerits": 2 },
+        { "id": "pk11", "num": 11, "label": { "en": "Fail to close door when vehicle is in motion", "my": "ကား ရွေ့နေစဉ် တံခါးမပိတ်ပါ", "ja": "走行中にドア未閉" }, "demerits": 2 }
+      ]
+    },
+    {
+      "id": "slope",
+      "title": { "en": "Slope / gradient", "my": "စောင်း / နှုန်းထား", "ja": "坂道" },
+      "subtitle": { "en": "(a) Less than 1 m · (b) 1 m or more", "my": "(က) ၁ မီတာအောက် · (ခ) ၁ မီတာ နှင့် အထက်", "ja": "(a) 1m未満 · (b) 1m以上" },
+      "items": [
+        {
+          "id": "sl12a", "num": 12,
+          "label": { "en": "Roll backwards", "my": "နောက်သို့ လှိမ့်သွားသည်", "ja": "後退（坂道）" },
+          "variants": [
+            { "id": "sl12a", "label": { "en": "< 1 metre", "my": "< ၁ မီတာ", "ja": "1m未満" }, "demerits": 4 },
+            { "id": "sl12b", "label": { "en": "≥ 1 metre", "my": "≥ ၁ မီတာ", "ja": "1m以上" }, "demerits": 4 }
+          ]
+        },
+        { "id": "sl13", "num": 13, "label": { "en": "Unable to move off after 5 attempts", "my": "၅ ကြိမ် ကြိုးစားပြီးမှ မထွက်နိုင်ပါ", "ja": "5回試行後も発進不可" }, "demerits": 2 }
+      ]
+    },
+    {
+      "id": "atv_ramp",
+      "title": { "en": "Moving / reversing up the ramp", "my": "စောင်း တက်ခြင်း / နောက်ပြန်", "ja": "ランプ上昇・後退" },
+      "subtitle": { "en": "ATV only", "my": "ATV သာ", "ja": "ATVのみ" },
+      "items": [
+        { "id": "atv14", "num": 14, "tag": "atv", "label": { "en": "Strike pole", "my": "တိုင် ထိခိုက်သည်", "ja": "ポール接触" }, "demerits": 2 },
+        { "id": "atv15", "num": 15, "tag": "atv", "label": { "en": "Run off ramp", "my": "စောင်းမှ ထွက်သွားသည်", "ja": "ランプ逸脱" }, "demerits": 2 },
+        { "id": "atv16", "num": 16, "tag": "atv", "label": { "en": "Incorrect technique", "my": "နည်းလမ်း မှားသည်", "ja": "技術不良" }, "demerits": 2 },
+        { "id": "atv17", "num": 17, "tag": "atv", "label": { "en": "Incorrect positioning", "my": "နေရာ မှားသည်", "ja": "位置不良" }, "demerits": 2 },
+        { "id": "atv18", "num": 18, "tag": "atv", "label": { "en": "Unable to drive / reverse up ramp", "my": "စောင်း တက်/နောက်ပြန် မတက်နိုင်ပါ", "ja": "ランプ上昇・後退不可" }, "demerits": 2 },
+        { "id": "atv19", "num": 19, "tag": "atv", "label": { "en": "Strike kerb", "my": "လမ်းဘေးတန်း ထိခိုက်သည်", "ja": "縁石接触" }, "demerits": 2 }
+      ]
+    },
+    {
+      "id": "emergency",
+      "title": { "en": "Emergency stop", "my": "အရေးပေါ် ရပ်ခြင်း", "ja": "急停止" },
+      "items": [
+        {
+          "id": "es20a", "num": 20,
+          "label": { "en": "Incorrect technique", "my": "နည်းလမ်း မှားသည်", "ja": "技術不良" },
+          "variants": [
+            { "id": "es20a", "label": { "en": "< 1 metre", "my": "< ၁ မီတာ", "ja": "1m未満" }, "demerits": 2 },
+            { "id": "es20b", "label": { "en": "4th attempt", "my": "၄ ကြိမ်မြောက်", "ja": "4回目" }, "demerits": 2 }
+          ]
+        },
+        {
+          "id": "es21a", "num": 21,
+          "label": { "en": "Unable to stop within stipulated distance", "my": "သတ်မှတ်အကွာအဝေးအတွင်း မရပ်နိုင်ပါ", "ja": "規定距離内に停止不可" },
+          "variants": [
+            { "id": "es21a", "label": { "en": "< 1 metre", "my": "< ၁ မီတာ", "ja": "1m未満" }, "demerits": 4 },
+            { "id": "es21b", "label": { "en": "1 metre or more", "my": "≥ ၁ မီတာ", "ja": "1m以上" }, "demerits": 6 },
+            { "id": "es21c", "label": { "en": "Straight road", "my": "ဖြောင့်လမ်း", "ja": "直線" }, "demerits": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moving",
+      "title": { "en": "Moving", "my": "ရွေ့လျားခြင်း", "ja": "走行" },
+      "items": [
+        { "id": "mv22", "num": 22, "label": { "en": "Fail to fasten seat-belt", "my": "ခါးပတ်မတပ်ပါ", "ja": "シートベルト未着用" }, "demerits": 2 },
+        { "id": "mv23", "num": 23, "label": { "en": "Fail to release handbrake", "my": "လက်နှိပ်ဘရိတ် မဖြေပါ", "ja": "サイドブレーキ未解除" }, "demerits": 2 },
+        { "id": "mv24", "num": 24, "label": { "en": "Delay in moving off", "my": "ထွက်ရန် နောက်ကျသည်", "ja": "発進遅延" }, "demerits": 2 },
+        { "id": "mv25", "num": 25, "label": { "en": "Move off in wrong gear", "my": "ဂီယာ မှားပြီး ထွက်သည်", "ja": "誤ったギアで発進" }, "demerits": 6 },
+        { "id": "mv26", "num": 26, "label": { "en": "Insufficient acceleration", "my": "အရှိန်မလုံလောက်ပါ", "ja": "加速不足" }, "demerits": 6 },
+        { "id": "mv27", "num": 27, "label": { "en": "Slow in restarting stalled engine", "my": "အင်ဂျင် ပိတ်သွားပြီး ပြန်မစမြန်ပါ", "ja": "エンスト後の再始動が遅い" }, "demerits": 6 }
+      ]
+    },
+    {
+      "id": "atm",
+      "title": { "en": "Moving off", "my": "ထွက်ခြင်း", "ja": "発進" },
+      "subtitle": { "en": "ATM (automatic) only", "my": "ATM (အလိုအလျောက်) သာ", "ja": "AT車のみ" },
+      "items": [
+        { "id": "atm28", "num": 28, "tag": "atm", "label": { "en": "Fail to ensure gear selector in N/P before start/stop engine", "my": "အင်ဂျင် မဖွင့်/မပိတ်မီ N/P မထားပါ", "ja": "始動/停止前にN/P未確認" }, "demerits": 4 },
+        { "id": "atm29", "num": 29, "tag": "atm", "label": { "en": "Move off with gear selector in wrong position", "my": "ဂီယာ မှားပြီး ထွက်သည်", "ja": "誤ったレンジで発進" }, "demerits": 4 },
+        { "id": "atm30", "num": 30, "tag": "atm", "label": { "en": "Fail to apply brake when shifting to D or R", "my": "D/R ပြောင်းစဉ် ဘရိတ်မနင်းပါ", "ja": "D/R切替時にブレーキ未操作" }, "demerits": 6 }
+      ]
+    },
+    {
+      "id": "forward",
+      "title": { "en": "Forward driving", "my": "ရှေ့သို့ မောင်းခြင်း", "ja": "前進走行" },
+      "items": [
+        { "id": "fd31", "num": 31, "label": { "en": "Fail to keep left (road hogging)", "my": "ဘယ်ဘက်မစွဲပါ (လမ်း ပိတ်သည်)", "ja": "左側通行不履行" }, "demerits": 2 },
+        { "id": "fd32", "num": 32, "label": { "en": "Fail to keep a safe following distance", "my": "လုံခြုံ အကွာအဝေး မထားပါ", "ja": "車間距離不足" }, "demerits": 2 },
+        { "id": "fd33", "num": 33, "label": { "en": "Change lane at bend", "my": "လမ်းကွေ့ရာ လမ်းကြောင်း ပြောင်းသည်", "ja": "カーブで車線変更" }, "demerits": 4 },
+        {
+          "id": "fd34a", "num": 34,
+          "label": { "en": "Fail to keep within lane", "my": "လမ်းကြောင်းအတွင်း မနေပါ", "ja": "車線外れ" },
+          "variants": [
+            { "id": "fd34a", "label": { "en": "Straight road", "my": "ဖြောင့်လမ်း", "ja": "直線" }, "demerits": 4 },
+            { "id": "fd34b", "label": { "en": "Bend", "my": "လမ်းကွေ့", "ja": "カーブ" }, "demerits": 6 }
+          ]
+        },
+        { "id": "fd35", "num": 35, "label": { "en": "Veer off course", "my": "လမ်းမှ ထွက်သွားသည်", "ja": "進路逸脱" }, "demerits": 6 },
+        { "id": "fd36", "num": 36, "label": { "en": "Fail to overtake when necessary", "my": "လိုအပ်သည့်အခါ မကျော်ပါ", "ja": "必要時に追い越さない" }, "demerits": 2 },
+        { "id": "fd37", "num": 37, "label": { "en": "Fail to slow down when approaching road hazards", "my": "လမ်းအန္တရာယ် နီးရာ နှေးမသွားပါ", "ja": "危険箇所で減速しない" }, "demerits": 2 },
+        {
+          "id": "fd38a", "num": 38,
+          "label": { "en": "Speed too slow", "my": "အလွန်နှေးသည်", "ja": "速度過慢" },
+          "variants": [
+            { "id": "fd38a", "label": { "en": "For the road", "my": "လမ်းအတွက်", "ja": "道路に対して" }, "demerits": 2 },
+            { "id": "fd38b", "label": { "en": "For traffic condition", "my": "ယာဉ်အခြေအနေအတွက်", "ja": "交通状況に対して" }, "demerits": 2 }
+          ]
+        },
+        { "id": "fd39", "num": 39, "label": { "en": "Change lane abruptly", "my": "ရုတ်တရက် လမ်းကြောင်း ပြောင်းသည်", "ja": "急な車線変更" }, "demerits": 4 },
+        { "id": "fd40", "num": 40, "label": { "en": "Change lane without due care", "my": "ဂရုမစိုက် လမ်းကြောင်း ပြောင်းသည်", "ja": "不注意な車線変更" }, "demerits": 8 },
+        { "id": "fd41", "num": 41, "label": { "en": "Fail to take precaution against pedestrian / cyclist", "my": "လမ်းလျှောက်/စက်ဘီး သတိမထားပါ", "ja": "歩行者・自転車への配慮不足" }, "demerits": 8 },
+        { "id": "fd42", "num": 42, "label": { "en": "Not enough side clearance to other road users", "my": "အခြားယာဉ်နှင့် အကွာအဝေး မလုံလောက်ပါ", "ja": "横断間隔不足" }, "demerits": 10 },
+        { "id": "fd43", "num": 43, "label": { "en": "Stop on the pedestrian crossing", "my": "လမ်းလျှောက်ပေါ် ရပ်သည်", "ja": "横断歩道内停止" }, "demerits": 2 },
+        { "id": "fd44", "num": 44, "label": { "en": "Fail to give way to pedestrian at crossing", "my": "လမ်းလျှောက်ကို လမ်းမပေးပါ", "ja": "横断歩道で歩行者優先不履行" }, "demerits": 8 },
+        { "id": "fd45", "num": 45, "label": { "en": "Drive across the centre line", "my": "လမ်းခွဲလိုင်း ဖြတ်သွားသည်", "ja": "中央線越え" }, "demerits": 2 },
+        { "id": "fd46", "num": 46, "label": { "en": "Fail to obey mandatory / prohibitory sign or traffic rule", "my": "မဖြစ်မနေ/တားမြစ်ဆိုင်းဘုတ် မလိုက်နာပါ", "ja": "規制標識・交通規則違反" }, "demerits": 2 },
+        { "id": "fd47", "num": 47, "label": { "en": "Exceed speed limit", "my": "အမြန်နှုန်း ကျော်လွန်သည်", "ja": "速度超過" }, "demerits": 6 },
+        { "id": "fd48", "num": 48, "label": { "en": "Fail to use appropriate gear", "my": "သင့်လျော်သော ဂီယာ မသုံးပါ", "ja": "適切なギア不使用" }, "demerits": 4 },
+        { "id": "fd49", "num": 49, "label": { "en": "Fail to give way to traffic with right of way", "my": "လမ်းပိုင်ခွင့်ရှိ ယာဉ်ကို လမ်းမပေးပါ", "ja": "優先道路の譲歩不履行" }, "demerits": 2 },
+        { "id": "fd50", "num": 50, "label": { "en": "Cause other vehicles to slow down or take evasive action", "my": "အခြားယာဉ်များ နှေးစေ/ရှောင်စေ လုပ်သည်", "ja": "他車に減速・回避を強いる" }, "demerits": 2 },
+        { "id": "fd51", "num": 51, "label": { "en": "Unnecessary stopping", "my": "မလိုအပ်ဘဲ ရပ်သည်", "ja": "不必要な停止" }, "demerits": 2 }
+      ]
+    },
+    {
+      "id": "junction",
+      "title": { "en": "Junction", "my": "လမ်းဆုံ", "ja": "交差点" },
+      "items": [
+        { "id": "jn52", "num": 52, "label": { "en": "Incorrect positioning", "my": "နေရာ မှားသည်", "ja": "位置不良" }, "demerits": 2 },
+        { "id": "jn53", "num": 53, "label": { "en": "Cause inconvenience to cross traffic", "my": "ဖြတ်သွားယာဉ်ကို အနှောင့်အယှက် ပေးသည်", "ja": "交差交通への迷惑" }, "demerits": 2 },
+        {
+          "id": "jn54a", "num": 54,
+          "label": { "en": "Improper turning", "my": "လှည့်မှု မှားသည်", "ja": "不適切な旋回" },
+          "variants": [
+            { "id": "jn54a", "label": { "en": "Wide turn", "my": "ကျယ်သော လှည့်", "ja": "ワイド旋回" }, "demerits": 2 },
+            { "id": "jn54b", "label": { "en": "Sharp turn", "my": "ကျဉ်းသော လှည့်", "ja": "急旋回" }, "demerits": 2 },
+            { "id": "jn54c", "label": { "en": "Incorrect turn", "my": "လှည့်မှု မှားသည်", "ja": "誤った旋回" }, "demerits": 2 }
+          ]
+        },
+        { "id": "jn55", "num": 55, "label": { "en": "Fail to stop at stop-line", "my": "ရပ်စဉ်မျဉ်း မရပ်ပါ", "ja": "停止線で停止しない" }, "demerits": 4 },
+        { "id": "jn56", "num": 56, "label": { "en": "Fail to form up correctly", "my": "မှန်ကန်စွာ မစီပါ", "ja": "正しい隊列形成不可" }, "demerits": 4 },
+        { "id": "jn57", "num": 57, "label": { "en": "Remain in junction and cause obstruction", "my": "လမ်းဆုံမှာ နေပြီး ပိတ်ဆို့သည်", "ja": "交差点内滞留・妨害" }, "demerits": 2 }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": { "en": "Safety check", "my": "လုံခြုံရေး စစ်ဆေးခြင်း", "ja": "安全確認" },
+      "items": [
+        { "id": "sf58", "num": 58, "label": { "en": "Fail to check blind spot", "my": "မျက်လုံးမမြင်ရ နေရာ မစစ်ပါ", "ja": "盲点確認不足" }, "demerits": 2 },
+        { "id": "sf59", "num": 59, "label": { "en": "Incorrect checking of blind spot / mirror", "my": "မျက်လုံးမမြင်ရ/ကြေးမုံ စစ်ဆေးမှု မှား", "ja": "盲点・ミラー確認不良" }, "demerits": 2 },
+        { "id": "sf60", "num": 60, "label": { "en": "Fail to adjust mirror before driving", "my": "မမောင်းမီ ကြေးမုံ မညှိပါ", "ja": "走行前ミラー調整不足" }, "demerits": 2 },
+        {
+          "id": "sf61a", "num": 61,
+          "label": { "en": "Fail to check mirror before", "my": "မလုပ်မီ ကြေးမုံ မစစ်ပါ", "ja": "前のミラー確認不足" },
+          "variants": [
+            { "id": "sf61a", "label": { "en": "Moving off", "my": "ထွက်ခြင်း", "ja": "発進" }, "demerits": 2 },
+            { "id": "sf61b", "label": { "en": "Slowing down", "my": "နှေးခြင်း", "ja": "減速" }, "demerits": 2 },
+            { "id": "sf61c", "label": { "en": "Turning", "my": "လှည့်ခြင်း", "ja": "旋回" }, "demerits": 2 }
+          ]
+        },
+        { "id": "sf62", "num": 62, "label": { "en": "Fail to check mirror before changing lane / overtaking", "my": "လမ်းကြောင်း ပြောင်း/ကျော်မီ ကြေးမုံ မစစ်ပါ", "ja": "車線変更・追越前ミラー未確認" }, "demerits": 2 },
+        {
+          "id": "sf63a", "num": 63,
+          "label": { "en": "Fail to look out for traffic", "my": "ယာဉ်ကို မကြည့်ပါ", "ja": "交通確認不足" },
+          "variants": [
+            { "id": "sf63a", "label": { "en": "Side road", "my": "ဘေးလမ်း", "ja": "側道" }, "demerits": 2 },
+            { "id": "sf63b", "label": { "en": "Junction", "my": "လမ်းဆုံ", "ja": "交差点" }, "demerits": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "braking",
+      "title": { "en": "Braking", "my": "ဘရိတ်နင်းခြင်း", "ja": "ブレーキ" },
+      "items": [
+        { "id": "br64", "num": 64, "label": { "en": "Fail to apply brake when vehicle is stationary", "my": "ကား ရပ်နေစဉ် ဘရိတ်မနင်းပါ", "ja": "停車中ブレーキ未操作" }, "demerits": 2 },
+        {
+          "id": "br65a", "num": 65,
+          "label": { "en": "Fail to use engine brake", "my": "အင်ဂျင် ဘရိတ် မသုံးပါ", "ja": "エンジンブレーキ不使用" },
+          "variants": [
+            { "id": "br65a", "label": { "en": "Slope", "my": "စောင်း", "ja": "坂" }, "demerits": 4 },
+            { "id": "br65b", "label": { "en": "Straight road", "my": "ဖြောင့်လမ်း", "ja": "直線" }, "demerits": 2 },
+            { "id": "br65c", "label": { "en": "Bend", "my": "လမ်းကွေ့", "ja": "カーブ" }, "demerits": 2 }
+          ]
+        },
+        { "id": "br66", "num": 66, "label": { "en": "Incorrect braking technique", "my": "ဘရိတ်နည်း မှားသည်", "ja": "ブレーキ技術不良" }, "demerits": 4 }
+      ]
+    },
+    {
+      "id": "signals",
+      "title": { "en": "Driver's signal", "my": "ယာဉ်မောင်း အချက်ပြမှု", "ja": "合図" },
+      "items": [
+        {
+          "id": "sg67a", "num": 67,
+          "label": { "en": "Fail to signal in good time", "my": "အချိန်မီ အချက်မပြပါ", "ja": "合図が遅い" },
+          "variants": [
+            { "id": "sg67a", "label": { "en": "Circuit", "my": "ကွင်းအတွင်း", "ja": "コース内" }, "demerits": 2 },
+            { "id": "sg67b", "label": { "en": "Road", "my": "လမ်း", "ja": "道路上" }, "demerits": 4 }
+          ]
+        },
+        { "id": "sg68", "num": 68, "label": { "en": "Fail to signal / give wrong signal", "my": "အချက်မပြပါ / အချက်မှား", "ja": "合図なし・誤合図" }, "demerits": 2 },
+        { "id": "sg69", "num": 69, "label": { "en": "Fail to cancel signal", "my": "အချက် မဖျောက်ပါ", "ja": "合図消灯忘れ" }, "demerits": 4 }
+      ]
+    },
+    {
+      "id": "traffic",
+      "title": { "en": "Traffic signal", "my": "ယာဉ်မီး အချက်ပြမှု", "ja": "交通信号" },
+      "items": [
+        { "id": "ts70", "num": 70, "label": { "en": "Proceed on amber light / flickering green arrow", "my": "အဝါရောင်/လှုပ်ရှားနေသော အစိမ်းမြား လမ်းဖြတ်သွား", "ja": "黄信号・点滅青矢印で進行" }, "demerits": 2 },
+        { "id": "ts71", "num": 71, "label": { "en": "Proceed on red light", "my": "အနီရောင် လမ်းဖြတ်သွား", "ja": "赤信号で進行" }, "demerits": 8, "immediateFailure": true }
+      ]
+    },
+    {
+      "id": "general",
+      "title": { "en": "General", "my": "အထွေထွေ", "ja": "一般" },
+      "items": [
+        { "id": "gn72", "num": 72, "label": { "en": "Improper action causing accident / near accident", "my": "မတော်တဆ / နီးစပ် မတော်တဆ ဖြစ်စေသော လုပ်ရပ်", "ja": "事故・ニアミスを招く行為" }, "demerits": 10, "immediateFailure": true },
+        { "id": "gn73", "num": 73, "label": { "en": "Slow reaction in avoiding danger caused by others", "my": "အခြားသူအန္တရာယ်ကို ရှောင်ရာ တုံ့ပြန်မှု နှေး", "ja": "他者の危険への反応遅れ" }, "demerits": 10 }
+      ]
+    }
+  ]
+}

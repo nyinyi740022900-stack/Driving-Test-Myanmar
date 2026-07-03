@@ -101,7 +101,9 @@
     "r9_h": "公式ハンドブック",
     "r9_p": "交通警察のハンドブックと日本の免許学習資料をダウンロード — 誰でも無料。",
     "r10_h": "会員の体験談",
-    "r10_p": "合格したプレミアム会員のリアルなアドバイス — 公開前に確認済み。"
+    "r10_p": "合格したプレミアム会員のリアルなアドバイス — 公開前に確認済み。",
+    "r11_h": "実技試験チェックリスト",
+    "r11_p": "Class 3/3A最終実技試験を交通警察の減点用紙どおりに採点 — 73項目、即時合否。"
   },
   "faq": {
     "eyebrow": "知っておきたいこと",
@@ -845,6 +847,32 @@
     "status_pending": "審査待ち",
     "status_approved": "公開済み",
     "status_rejected": "非承認"
+  },
+  "practicalChecklist": {
+    "breadcrumb_home": "← ホーム",
+    "breadcrumb_title": "実技試験チェックリスト",
+    "hero": {
+      "eyebrow": "シンガポール · Class 3 / 3A",
+      "title": "最終実技評価スコアラー"
+    },
+    "sg_only_title": "シンガポール実技試験のみ",
+    "sg_only_lead": "Class 3/3A減点チェックリストを使うには、ヘッダーで国をシンガポールに切り替えてください。",
+    "demerit_points": "減点",
+    "immediate_failures": "即失格",
+    "result": "結果",
+    "passed": "合格",
+    "failed": "不合格",
+    "show_atm": "AT車項目を表示",
+    "show_atv": "ATVランプ項目を表示",
+    "expand_all": "すべて展開",
+    "collapse_all": "すべて閉じる",
+    "reset": "リセット",
+    "reset_confirm": "すべてのチェックと備考を消しますか？",
+    "remarks": "備考",
+    "remarks_ph": "指導員メモ、受験者名、試験日…",
+    "badge_if": "即失格",
+    "badge_zero": "0点",
+    "disclaimer": "交通警察Class 3/3A最終評価用紙に基づきます。練習・自己採点用であり、公式記録ではありません。"
   },
   "quiz": {
     "lesson_title": "学習モード",

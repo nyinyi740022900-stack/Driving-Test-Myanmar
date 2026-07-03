@@ -114,6 +114,18 @@ export default function Resources() {
       ),
       star: true,
     },
+    {
+      key: 'r11',
+      path: 'resources/practical-checklist',
+      icon: (
+        <svg viewBox="0 0 24 24">
+          <rect x="4" y="3" width="16" height="18" rx="2" />
+          <path d="M8 8h8M8 12h8M8 16h5" />
+          <path d="M9 8l1.5 1.5L13 7" />
+        </svg>
+      ),
+      star: true,
+    },
   ];
 
   return (

@@ -103,7 +103,9 @@
     "r9_h": "Official handbooks",
     "r9_p": "Download the Traffic Police handbooks and Japan licence study materials — free for everyone.",
     "r10_h": "Member experiences",
-    "r10_p": "Real tips from premium members who passed their tests — moderated before publishing."
+    "r10_p": "Real tips from premium members who passed their tests — moderated before publishing.",
+    "r11_h": "Practical test checklist",
+    "r11_p": "Score your Class 3/3A final driving test like the official Traffic Police demerit form — 73 items, live pass/fail."
   },
   "faq": {
     "eyebrow": "Good to know",
@@ -847,6 +849,32 @@
     "status_pending": "Pending approval",
     "status_approved": "Published",
     "status_rejected": "Not approved"
+  },
+  "practicalChecklist": {
+    "breadcrumb_home": "← Home",
+    "breadcrumb_title": "Practical test checklist",
+    "hero": {
+      "eyebrow": "Singapore · Class 3 / 3A",
+      "title": "Final practical assessment scorer"
+    },
+    "sg_only_title": "Singapore practical test only",
+    "sg_only_lead": "Switch your country to Singapore in the header to use the Class 3 / 3A demerit checklist.",
+    "demerit_points": "Demerit points",
+    "immediate_failures": "Immediate failures",
+    "result": "Result",
+    "passed": "PASSED",
+    "failed": "FAILED",
+    "show_atm": "Show ATM (auto) items",
+    "show_atv": "Show ATV ramp items",
+    "expand_all": "Expand all",
+    "collapse_all": "Collapse all",
+    "reset": "Reset",
+    "reset_confirm": "Clear all ticks and remarks?",
+    "remarks": "Remarks",
+    "remarks_ph": "Instructor notes, candidate name, test date…",
+    "badge_if": "IF",
+    "badge_zero": "0 pts",
+    "disclaimer": "Based on the Traffic Police Class 3/3A final assessment form. For practice and self-scoring only — not an official test record."
   },
   "quiz": {
     "lesson_title": "Lesson Mode",
