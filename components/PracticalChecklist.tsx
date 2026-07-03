@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import BackButton from '@/components/BackButton';
@@ -8,12 +8,8 @@ import { useCountry } from '@/components/CountryProvider';
 import {
   SG_CLASS3_PRACTICAL,
   DEMERIT_FAIL_THRESHOLD,
-  clearChecklistState,
   filterChecklistByTags,
-  loadChecklistState,
   pickChecklistText,
-  saveChecklistState,
-  scorePracticalChecklist,
   type PracticalCheckItem,
   type PracticalCheckSection,
   type PracticalCheckVariant,
@@ -35,52 +31,25 @@ export default function PracticalChecklist() {
   const { country } = useCountry();
   const t = useTranslations('practicalChecklist');
 
-  const [checked, setChecked] = useState<Set<string>>(new Set());
-  const [remarks, setRemarks] = useState('');
   const [showAtv, setShowAtv] = useState(false);
   const [showAtm, setShowAtm] = useState(true);
   const [openSections, setOpenSections] = useState<Set<string>>(new Set(['narrow']));
   const [showGuide, setShowGuide] = useState(true);
   const [openMoment, setOpenMoment] = useState<string | null>('emergency_brake_demo');
-  const [hydrated, setHydrated] = useState(false);
-
-  useEffect(() => {
-    const saved = loadChecklistState();
-    if (saved) {
-      setChecked(new Set(saved.checked));
-      setRemarks(saved.remarks);
-      setShowAtv(saved.showAtv);
-      setShowAtm(saved.showAtm);
-      setOpenSections(new Set(saved.openSections.length ? saved.openSections : ['narrow']));
-    }
-    setHydrated(true);
-  }, []);
-
-  useEffect(() => {
-    if (!hydrated) return;
-    saveChecklistState({
-      checked: [...checked],
-      remarks,
-      showAtv,
-      showAtm,
-      openSections: [...openSections],
-    });
-  }, [checked, remarks, showAtv, showAtm, openSections, hydrated]);
 
   const data = useMemo(
     () => filterChecklistByTags(SG_CLASS3_PRACTICAL, showAtv, showAtm),
     [showAtv, showAtm]
   );
 
-  const score = useMemo(() => scorePracticalChecklist(checked, data), [checked, data]);
-
-  const toggle = useCallback((id: string) => {
-    setChecked(prev => {
-      const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
-      return next;
-    });
+  const itemCount = useMemo(() => {
+    let n = 0;
+    for (const section of SG_CLASS3_PRACTICAL.sections) {
+      for (const item of section.items) {
+        n += item.variants?.length ?? 1;
+      }
+    }
+    return n;
   }, []);
 
   const toggleSection = useCallback((id: string) => {
@@ -94,15 +63,6 @@ export default function PracticalChecklist() {
 
   const expandAll = () => setOpenSections(new Set(data.sections.map(s => s.id)));
   const collapseAll = () => setOpenSections(new Set());
-
-  const resetAll = () => {
-    if (!confirm(t('reset_confirm'))) return;
-    setChecked(new Set());
-    setRemarks('');
-    clearChecklistState();
-  };
-
-  const demeritPct = Math.min(100, (score.demeritPoints / DEMERIT_FAIL_THRESHOLD) * 100);
 
   if (country !== 'sg') {
     return (
@@ -133,30 +93,34 @@ export default function PracticalChecklist() {
         </div>
       </div>
 
-      <div className="pcl-score-sticky" role="status" aria-live="polite">
-        <div className="pcl-score-grid">
-          <div className="pcl-score-card">
-            <span className="pcl-score-label">{t('demerit_points')}</span>
-            <span className={`pcl-score-value ${score.demeritPoints >= DEMERIT_FAIL_THRESHOLD ? 'fail' : ''}`}>
-              {score.demeritPoints}
-              <small>/{DEMERIT_FAIL_THRESHOLD}</small>
-            </span>
-            <div className="pcl-meter" aria-hidden="true">
-              <div className="pcl-meter-fill" style={{ width: `${demeritPct}%` }} />
-            </div>
-          </div>
-          <div className="pcl-score-card">
-            <span className="pcl-score-label">{t('immediate_failures')}</span>
-            <span className={`pcl-score-value ${score.immediateFailures > 0 ? 'fail' : ''}`}>
-              {score.immediateFailures}
-            </span>
-          </div>
-          <div className={`pcl-result-card ${score.passed ? 'pass' : score.checkedCount > 0 ? 'fail' : 'neutral'}`}>
-            <span className="pcl-result-label">{t('result')}</span>
-            <span className="pcl-result-value">
-              {score.checkedCount === 0 ? '—' : score.passed ? t('passed') : t('failed')}
-            </span>
-          </div>
+      <div className="pcl-pass-criteria">
+        <h2>{t('pass_criteria_title')}</h2>
+        <div className="pcl-pass-grid">
+          <article className="pcl-pass-card pass">
+            <span className="pcl-pass-label">{t('pass_demerit_label')}</span>
+            <span className="pcl-pass-value">{t('pass_demerit_value', { max: DEMERIT_FAIL_THRESHOLD })}</span>
+            <p>{t('pass_demerit_detail', { max: DEMERIT_FAIL_THRESHOLD })}</p>
+          </article>
+          <article className="pcl-pass-card fail">
+            <span className="pcl-pass-label">{t('pass_immediate_label')}</span>
+            <span className="pcl-pass-value">{t('pass_immediate_value')}</span>
+            <p>{t('pass_immediate_detail')}</p>
+          </article>
+          <article className="pcl-pass-card neutral">
+            <span className="pcl-pass-label">{t('pass_items_label')}</span>
+            <span className="pcl-pass-value">{itemCount}</span>
+            <p>{t('pass_items_detail')}</p>
+          </article>
+        </div>
+        <div className="pcl-mark-legend" aria-label={t('legend_title')}>
+          <span className="pcl-legend-item">
+            <span className="pcl-badge if">{t('badge_if')}</span>
+            {t('legend_circle')}
+          </span>
+          <span className="pcl-legend-item">
+            <span className="pcl-badge pts">−2</span>
+            {t('legend_box')}
+          </span>
         </div>
         <p className="pcl-rules">{pickChecklistText(data.meta.rules, locale)}</p>
       </div>
@@ -204,36 +168,22 @@ export default function PracticalChecklist() {
         <div className="pcl-toolbar-actions">
           <button type="button" className="pcl-btn ghost" onClick={expandAll}>{t('expand_all')}</button>
           <button type="button" className="pcl-btn ghost" onClick={collapseAll}>{t('collapse_all')}</button>
-          <button type="button" className="pcl-btn danger" onClick={resetAll}>{t('reset')}</button>
         </div>
       </div>
 
       <div className="pcl-sections">
+        <p className="pcl-sections-intro">{t('sections_intro')}</p>
         {data.sections.map(section => (
           <SectionBlock
             key={section.id}
             section={section}
             locale={locale}
-            checked={checked}
             open={openSections.has(section.id)}
             showGuide={showGuide}
             onToggleSection={() => toggleSection(section.id)}
-            onToggleItem={toggle}
             t={t}
           />
         ))}
-      </div>
-
-      <div className="pcl-remarks">
-        <label className="pcl-remarks-label" htmlFor="pcl-remarks">{t('remarks')}</label>
-        <textarea
-          id="pcl-remarks"
-          className="pcl-remarks-input"
-          rows={3}
-          value={remarks}
-          onChange={e => setRemarks(e.target.value)}
-          placeholder={t('remarks_ph')}
-        />
       </div>
 
       <div className="pcl-footer-note">
@@ -379,25 +329,37 @@ function ItemGuidePanel({ guide, locale, t }: {
   );
 }
 
+function PenaltyBadges({
+  demerits,
+  immediate,
+  noDemerit,
+  t,
+}: {
+  demerits: number;
+  immediate?: boolean;
+  noDemerit?: boolean;
+  t: ReturnType<typeof useTranslations<'practicalChecklist'>>;
+}) {
+  return (
+    <span className="pcl-badges">
+      {immediate && <span className="pcl-badge if">{t('badge_if')}</span>}
+      {!noDemerit && demerits > 0 && <span className="pcl-badge pts">−{demerits}</span>}
+      {noDemerit && <span className="pcl-badge zero">{t('badge_zero')}</span>}
+    </span>
+  );
+}
+
 function SectionBlock({
-  section, locale, checked, open, showGuide, onToggleSection, onToggleItem, t,
+  section, locale, open, showGuide, onToggleSection, t,
 }: {
   section: PracticalCheckSection;
   locale: Locale;
-  checked: Set<string>;
   open: boolean;
   showGuide: boolean;
   onToggleSection: () => void;
-  onToggleItem: (id: string) => void;
   t: ReturnType<typeof useTranslations<'practicalChecklist'>>;
 }) {
   const sectionGuide = getSectionGuide(section.id);
-  const sectionChecked = section.items.reduce((n, item) => {
-    if (item.variants?.length) {
-      return n + item.variants.filter(v => checked.has(v.id)).length;
-    }
-    return n + (checked.has(item.id) ? 1 : 0);
-  }, 0);
 
   return (
     <section id={`section-${section.id}`} className={`pcl-section ${open ? 'open' : ''}`}>
@@ -408,10 +370,7 @@ function SectionBlock({
             <span className="pcl-section-sub">{pickChecklistText(section.subtitle, locale)}</span>
           )}
         </div>
-        <div className="pcl-section-meta">
-          {sectionChecked > 0 && <span className="pcl-section-count">{sectionChecked}</span>}
-          <span className="pcl-chevron" aria-hidden="true">{open ? '−' : '+'}</span>
-        </div>
+        <span className="pcl-chevron" aria-hidden="true">{open ? '−' : '+'}</span>
       </button>
       {open && (
         <div className="pcl-section-body">
@@ -424,9 +383,7 @@ function SectionBlock({
               item={item}
               sectionId={section.id}
               locale={locale}
-              checked={checked}
               showGuide={showGuide}
-              onToggle={onToggleItem}
               t={t}
             />
           ))}
@@ -437,14 +394,12 @@ function SectionBlock({
 }
 
 function ItemRow({
-  item, sectionId, locale, checked, showGuide, onToggle, t,
+  item, sectionId, locale, showGuide, t,
 }: {
   item: PracticalCheckItem;
   sectionId: string;
   locale: Locale;
-  checked: Set<string>;
   showGuide: boolean;
-  onToggle: (id: string) => void;
   t: ReturnType<typeof useTranslations<'practicalChecklist'>>;
 }) {
   const [tipsOpen, setTipsOpen] = useState(false);
@@ -472,66 +427,57 @@ function ItemRow({
         {tipsOpen && itemGuide && <ItemGuidePanel guide={itemGuide} locale={locale} t={t} />}
         <div className="pcl-variants">
           {item.variants.map(v => (
-            <VariantCheck key={v.id} variant={v} locale={locale} checked={checked.has(v.id)} onToggle={onToggle} t={t} />
+            <VariantRow key={v.id} variant={v} locale={locale} t={t} />
           ))}
         </div>
       </div>
     );
   }
 
-  const isChecked = checked.has(item.id);
-  const isImmediate = item.immediateFailure;
-  const demerits = item.noDemerit ? 0 : (item.demerits ?? 0);
-
   return (
     <div className="pcl-item-wrap">
-      <label className={`pcl-item pcl-item-single ${isChecked ? 'checked' : ''} ${isImmediate ? 'immediate' : ''}`}>
-        <input type="checkbox" checked={isChecked} onChange={() => onToggle(item.id)} className="pcl-check" />
+      <div className={`pcl-item pcl-item-static ${item.immediateFailure ? 'immediate' : ''}`}>
         <span className="pcl-num">{item.num}</span>
         <span className="pcl-item-label">{label}</span>
         {item.tag && <span className="pcl-tag">{item.tag.toUpperCase()}</span>}
-        <span className="pcl-badges">
-          {isImmediate && <span className="pcl-badge if">{t('badge_if')}</span>}
-          {!item.noDemerit && demerits > 0 && <span className="pcl-badge pts">−{demerits}</span>}
-          {item.noDemerit && <span className="pcl-badge zero">{t('badge_zero')}</span>}
-        </span>
+        <PenaltyBadges
+          demerits={item.demerits ?? 0}
+          immediate={item.immediateFailure}
+          noDemerit={item.noDemerit}
+          t={t}
+        />
         {itemGuide && (
           <button
             type="button"
             className={`pcl-tips-btn inline ${tipsOpen ? 'active' : ''}`}
-            onClick={e => { e.preventDefault(); setTipsOpen(!tipsOpen); }}
+            onClick={() => setTipsOpen(!tipsOpen)}
             aria-expanded={tipsOpen}
           >
             {tipsOpen ? '▾' : '▸'} {t('tips_short')}
           </button>
         )}
-      </label>
+      </div>
       {tipsOpen && itemGuide && <ItemGuidePanel guide={itemGuide} locale={locale} t={t} />}
     </div>
   );
 }
 
-function VariantCheck({
-  variant, locale, checked, onToggle, t,
+function VariantRow({
+  variant, locale, t,
 }: {
   variant: PracticalCheckVariant;
   locale: Locale;
-  checked: boolean;
-  onToggle: (id: string) => void;
   t: ReturnType<typeof useTranslations<'practicalChecklist'>>;
 }) {
-  const isImmediate = variant.immediateFailure;
-  const demerits = variant.noDemerit ? 0 : variant.demerits;
-
   return (
-    <label className={`pcl-variant ${checked ? 'checked' : ''} ${isImmediate ? 'immediate' : ''}`}>
-      <input type="checkbox" checked={checked} onChange={() => onToggle(variant.id)} className="pcl-check" />
+    <div className={`pcl-variant pcl-variant-static ${variant.immediateFailure ? 'immediate' : ''}`}>
       <span className="pcl-variant-label">{pickChecklistText(variant.label, locale)}</span>
-      <span className="pcl-badges">
-        {isImmediate && <span className="pcl-badge if">{t('badge_if')}</span>}
-        {!variant.noDemerit && demerits > 0 && <span className="pcl-badge pts">−{demerits}</span>}
-        {variant.noDemerit && <span className="pcl-badge zero">{t('badge_zero')}</span>}
-      </span>
-    </label>
+      <PenaltyBadges
+        demerits={variant.demerits}
+        immediate={variant.immediateFailure}
+        noDemerit={variant.noDemerit}
+        t={t}
+      />
+    </div>
   );
 }

@@ -2,19 +2,19 @@
   "meta": {
     "id": "sg_class3_practical",
     "title": {
-      "en": "Class 3 / 3A Final Practical Assessment",
-      "my": "Class 3 / 3A လက်တွေ့ စာမေးပွဲ အကဲဖြတ်ချက်",
-      "ja": "Class 3 / 3A 実技最終評価"
+      "en": "Class 3 / 3A Practical Test Scoring Guide",
+      "my": "Class 3 / 3A လက်တွေ့စာမေးပွဲ အမှတ်ပေးစည်းမျဉ်း",
+      "ja": "Class 3 / 3A 実技試験 減点ガイド"
     },
     "subtitle": {
-      "en": "Traffic Police demerit checklist — tick penalties as on the official form.",
-      "my": "ယာဉ်ထိန်းရဲ ဒီမာရစ် စာရင်း — တရားဝင်ပုံစံ အတိုင်း အမှန်ခြစ်ပါ။",
-      "ja": "交通警察の減点チェックリスト — 公式用紙と同様に減点を記録。"
+      "en": "Every mistake on the Traffic Police final assessment form and its point deduction — read-only reference.",
+      "my": "ယာဉ်ထိန်းရဲ နောက်ဆုံးလက်တွေ့စာမေးပွဲ ပုံစံအတွက် မှားယွင်းတိုင်း နှုတ်မှတ်နှင့် အမှတ်နှုတ်ချက် — ဖတ်ရှုရန် လမ်းညွှန်သာ။",
+      "ja": "交通警察の最終実技評価用紙の全項目と減点 — 参照用ガイド。"
     },
     "rules": {
-      "en": "One immediate failure or 20 demerit points = FAIL. Circle ticks are immediate failures; box ticks carry demerit points shown.",
-      "my": "ချက်ချင်း ကျရှုံးမှု တစ်ကြိမ်၊ သို့မဟုတ် အမှတ်နှုတ်မှတ် ၂၀ ရောက်ရင် ကျရှုံးသည်။ ဝိုင်းပုံစံသည် ချက်ချင်း ကျရှုံး၊ အကွက်ပုံစံသည် ပြထားသော အမှတ်အတိုင်း နှုတ်သည်။",
-      "ja": "即失格1件または減点20点で不合格。丸印は即失格、四角印は表示された減点。"
+      "en": "Pass: fewer than 20 demerit points total and no immediate-failure offence. Fail: 20+ demerits or any circled (immediate failure) item — e.g. running a red light.",
+      "my": "အောင် — အမှတ်နှုတ်မှတ် စုစုပေါင်း ၂၀ အောက်၊ ချက်ချင်းကျရှုံး ချိုးဖောက်မှု မရှိ။ ကျ — အမှတ်နှုတ်မှတ် ၂၀ သို့မဟုတ် အထက်ရှိ၊ သို့မဟုတ် ဝိုင်းပုံစံ ချိုးဖောက်မှု တစ်ခုရှိ (ဥပမာ အနီရောင်လမ်းဖြတ်)။",
+      "ja": "合格：減点合計20点未満かつ即失格なし。不合格：減点20点以上、または丸印の即失格項目（赤信号進行など）。"
     }
   },
   "sections": [

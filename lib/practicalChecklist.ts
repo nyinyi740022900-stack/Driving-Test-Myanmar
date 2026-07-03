@@ -1,6 +1,7 @@
 import checklistData from '@/content/checklists/sg-class3-practical.json';
 import type { Locale, Localized } from '@/lib/types';
 
+/** Total demerits at or above this value = fail (Traffic Police form). */
 export const DEMERIT_FAIL_THRESHOLD = 20;
 
 export interface PracticalCheckVariant {
@@ -47,59 +48,6 @@ export function pickChecklistText(text: Localized, locale: Locale): string {
   return text[locale] ?? text.en ?? '';
 }
 
-export function getAllCheckIds(data: PracticalChecklistData = SG_CLASS3_PRACTICAL): string[] {
-  const ids: string[] = [];
-  for (const section of data.sections) {
-    for (const item of section.items) {
-      if (item.variants?.length) {
-        for (const v of item.variants) ids.push(v.id);
-      } else {
-        ids.push(item.id);
-      }
-    }
-  }
-  return ids;
-}
-
-export interface PracticalScore {
-  demeritPoints: number;
-  immediateFailures: number;
-  checkedCount: number;
-  passed: boolean;
-}
-
-export function scorePracticalChecklist(
-  checked: ReadonlySet<string>,
-  data: PracticalChecklistData = SG_CLASS3_PRACTICAL
-): PracticalScore {
-  let demeritPoints = 0;
-  let immediateFailures = 0;
-
-  for (const section of data.sections) {
-    for (const item of section.items) {
-      if (item.variants?.length) {
-        for (const v of item.variants) {
-          if (!checked.has(v.id)) continue;
-          if (v.immediateFailure) immediateFailures += 1;
-          if (!v.noDemerit) demeritPoints += v.demerits;
-        }
-      } else if (checked.has(item.id)) {
-        if (item.immediateFailure) immediateFailures += 1;
-        if (!item.noDemerit) demeritPoints += item.demerits ?? 0;
-      }
-    }
-  }
-
-  const passed = immediateFailures === 0 && demeritPoints < DEMERIT_FAIL_THRESHOLD;
-
-  return {
-    demeritPoints,
-    immediateFailures,
-    checkedCount: checked.size,
-    passed,
-  };
-}
-
 export function filterChecklistByTags(
   data: PracticalChecklistData,
   showAtv: boolean,
@@ -118,43 +66,4 @@ export function filterChecklistByTags(
       }))
       .filter(section => section.items.length > 0),
   };
-}
-
-const STORAGE_KEY = 'roadready_sg_practical_checklist_v1';
-
-export interface SavedChecklistState {
-  checked: string[];
-  remarks: string;
-  showAtv: boolean;
-  showAtm: boolean;
-  openSections: string[];
-}
-
-export function loadChecklistState(): SavedChecklistState | null {
-  if (typeof window === 'undefined') return null;
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return null;
-    return JSON.parse(raw) as SavedChecklistState;
-  } catch {
-    return null;
-  }
-}
-
-export function saveChecklistState(state: SavedChecklistState): void {
-  if (typeof window === 'undefined') return;
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  } catch {
-    /* ignore quota errors */
-  }
-}
-
-export function clearChecklistState(): void {
-  if (typeof window === 'undefined') return;
-  try {
-    localStorage.removeItem(STORAGE_KEY);
-  } catch {
-    /* ignore */
-  }
 }
