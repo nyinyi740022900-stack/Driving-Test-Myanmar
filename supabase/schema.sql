@@ -215,9 +215,56 @@ insert into public.faqs (country, question_en, question_my, question_ja, answer_
 on conflict do nothing;
 
 
+-- ── member_reviews ─────────────────────────────────────────────────
+create table if not exists public.member_reviews (
+  id            uuid primary key default gen_random_uuid(),
+  user_id       uuid references auth.users(id) on delete cascade not null,
+  country       text not null check (country in ('sg', 'jp')),
+  category      text not null check (category in ('sg_btt','sg_ftt','sg_rtt','jp_car','jp_moto','general')),
+  display_name  text not null default 'Member',
+  title         text not null,
+  body          text not null,
+  rating        integer not null check (rating >= 1 and rating <= 5),
+  passed        boolean,
+  status        text not null default 'pending' check (status in ('pending','approved','rejected')),
+  reviewed_by   uuid references auth.users(id),
+  reviewed_at   timestamptz,
+  admin_notes   text,
+  created_at    timestamptz default now(),
+  unique (user_id, category)
+);
+alter table public.member_reviews enable row level security;
+
+drop policy if exists "Anyone reads approved reviews" on public.member_reviews;
+create policy "Anyone reads approved reviews"
+  on public.member_reviews for select
+  using (status = 'approved');
+
+drop policy if exists "Users read own reviews" on public.member_reviews;
+create policy "Users read own reviews"
+  on public.member_reviews for select
+  using (auth.uid() = user_id);
+
+drop policy if exists "Users insert own reviews" on public.member_reviews;
+create policy "Users insert own reviews"
+  on public.member_reviews for insert
+  with check (auth.uid() = user_id);
+
+drop policy if exists "Users update own pending or rejected" on public.member_reviews;
+create policy "Users update own pending or rejected"
+  on public.member_reviews for update
+  using (auth.uid() = user_id and status in ('pending', 'rejected'))
+  with check (auth.uid() = user_id and status = 'pending');
+
+drop policy if exists "Service role full access on member_reviews" on public.member_reviews;
+create policy "Service role full access on member_reviews"
+  on public.member_reviews for all
+  using (auth.role() = 'service_role');
+
+
 -- ── Done ───────────────────────────────────────────────────────────
--- Verify: should return 5 rows
+-- Verify: should return 6 rows
 select table_name from information_schema.tables
 where table_schema = 'public'
-  and table_name in ('subscriptions','payment_submissions','mock_test_usage','app_settings','faqs')
+  and table_name in ('subscriptions','payment_submissions','mock_test_usage','app_settings','faqs','member_reviews')
 order by table_name;

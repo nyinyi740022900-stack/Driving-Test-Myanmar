@@ -18,6 +18,22 @@ interface Submission {
   notes?: string | null;
 }
 
+interface MemberReviewRow {
+  id: string;
+  user_id: string;
+  email: string;
+  country: string;
+  category: string;
+  display_name: string;
+  title: string;
+  body: string;
+  rating: number;
+  passed: boolean | null;
+  status: 'pending' | 'approved' | 'rejected';
+  created_at: string;
+  admin_notes?: string | null;
+}
+
 interface UserRow {
   id: string;
   email: string;
@@ -30,6 +46,7 @@ interface Stats {
   totalUsers: number;
   premiumUsers: number;
   pendingPayments: number;
+  pendingReviews: number;
   totalRevenue: number;
 }
 
@@ -59,7 +76,7 @@ interface Faq {
   published: boolean;
 }
 
-type Tab = 'overview' | 'payments' | 'users' | 'content' | 'settings';
+type Tab = 'overview' | 'payments' | 'reviews' | 'users' | 'content' | 'settings';
 
 const BLANK_FAQ: Omit<Faq, 'id'> = {
   country: 'sg', question_en: '', question_my: '', question_ja: '',
@@ -101,10 +118,11 @@ function ExpiryReminderButton({ userEmail }: { userEmail: string }) {
 }
 
 export default function AdminDashboard({
-  locale, submissions: initialSubs, users, stats, settings: initialSettings, faqs: initialFaqs, config,
+  locale, submissions: initialSubs, reviews: initialReviews, users, stats, settings: initialSettings, faqs: initialFaqs, config,
 }: {
   locale: string;
   submissions: Submission[];
+  reviews: MemberReviewRow[];
   users: UserRow[];
   stats: Stats;
   settings: AppSetting[];
@@ -114,7 +132,9 @@ export default function AdminDashboard({
   const { user } = useAuth();
   const [tab, setTab] = useState<Tab>('overview');
   const [submissions, setSubmissions] = useState(initialSubs);
+  const [reviews, setReviews] = useState(initialReviews);
   const [notes, setNotes] = useState<Record<string, string>>({});
+  const [reviewNotes, setReviewNotes] = useState<Record<string, string>>({});
   const [busy, setBusy] = useState<string | null>(null);
   const [userSearch, setUserSearch] = useState('');
 
@@ -195,12 +215,34 @@ export default function AdminDashboard({
     }
   }
 
+  async function actReview(id: string, action: 'approve' | 'reject') {
+    setBusy(id);
+    try {
+      const res = await fetch(`/api/admin/reviews/${action}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ reviewId: id, notes: reviewNotes[id] ?? '' }),
+      });
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error ?? 'Failed');
+      setReviews(prev =>
+        prev.map(r => r.id === id ? { ...r, status: action === 'approve' ? 'approved' : 'rejected' } : r)
+      );
+    } catch (e) {
+      alert(e instanceof Error ? e.message : 'Error');
+    } finally {
+      setBusy(null);
+    }
+  }
+
   const pending = submissions.filter(s => s.status === 'pending');
+  const pendingReviews = reviews.filter(r => r.status === 'pending');
   const filteredUsers = users.filter(u => u.email.toLowerCase().includes(userSearch.toLowerCase()));
 
   const TABS: { key: Tab; label: string; icon: string }[] = [
     { key: 'overview', label: 'Overview', icon: '📊' },
     { key: 'payments', label: `Payments${pending.length ? ` (${pending.length})` : ''}`, icon: '💳' },
+    { key: 'reviews', label: `Reviews${pendingReviews.length ? ` (${pendingReviews.length})` : ''}`, icon: '💬' },
     { key: 'users', label: 'Users', icon: '👥' },
     { key: 'content', label: 'Content', icon: '✏️' },
     { key: 'settings', label: 'Settings', icon: '⚙️' },
@@ -218,7 +260,7 @@ export default function AdminDashboard({
           <span style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '.95rem', color: '#fff' }}>Admin Dashboard</span>
           {pending.length > 0 && (
             <span style={{ background: '#ef4444', color: '#fff', fontSize: '.72rem', fontWeight: 700, padding: '2px 8px', borderRadius: 99 }}>
-              {pending.length} pending
+              {pending.length + pendingReviews.length} pending
             </span>
           )}
         </div>
@@ -252,6 +294,7 @@ export default function AdminDashboard({
               <StatCard label="Total users" value={stats.totalUsers} icon="👤" color="#2563eb" />
               <StatCard label="Premium users" value={stats.premiumUsers} icon="⭐" color="#1B9C56" />
               <StatCard label="Pending payments" value={stats.pendingPayments} icon="⏳" color="#d97706" alert={stats.pendingPayments > 0} />
+              <StatCard label="Pending reviews" value={stats.pendingReviews} icon="💬" color="#ea580c" alert={stats.pendingReviews > 0} />
               <StatCard label="Total revenue approved" value={`${stats.totalRevenue.toLocaleString()} Ks`} icon="💰" color="#7C3AED" />
             </div>
 
@@ -366,6 +409,86 @@ export default function AdminDashboard({
                   ))}
                   {submissions.length === 0 && (
                     <tr><td colSpan={10} style={{ textAlign: 'center', padding: '40px', color: 'var(--ink-soft)' }}>No submissions yet.</td></tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+
+        {/* ── REVIEWS ── */}
+        {tab === 'reviews' && (
+          <div style={{ background: '#fff', borderRadius: 14, border: '1px solid var(--line)', overflow: 'hidden' }}>
+            <div style={{ padding: '18px 24px', borderBottom: '1px solid var(--line)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+              <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1rem' }}>Member experience reviews</div>
+              <div style={{ display: 'flex', gap: 8, fontSize: '.78rem' }}>
+                <Badge color="#d97706">Pending: {reviews.filter(r => r.status === 'pending').length}</Badge>
+                <Badge color="#1B9C56">Approved: {reviews.filter(r => r.status === 'approved').length}</Badge>
+                <Badge color="#dc2626">Rejected: {reviews.filter(r => r.status === 'rejected').length}</Badge>
+              </div>
+            </div>
+            <div style={{ overflowX: 'auto' }}>
+              <table className="admin-table">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>User</th>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Rating</th>
+                    <th>Title</th>
+                    <th>Body</th>
+                    <th>Status</th>
+                    <th>Notes</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {reviews.map(r => (
+                    <tr key={r.id}>
+                      <td style={{ whiteSpace: 'nowrap', fontSize: '.82rem', color: 'var(--ink-soft)' }}>
+                        {new Date(r.created_at).toLocaleDateString()}
+                      </td>
+                      <td style={{ fontSize: '.82rem' }}>{r.email || r.user_id.slice(0, 10) + '…'}</td>
+                      <td style={{ fontSize: '.85rem', fontWeight: 600 }}>{r.display_name}</td>
+                      <td style={{ fontSize: '.82rem' }}>{r.category}</td>
+                      <td style={{ color: '#F5A623' }}>{'★'.repeat(r.rating)}</td>
+                      <td style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.85rem', maxWidth: 140 }}>{r.title}</td>
+                      <td style={{ fontSize: '.82rem', color: 'var(--ink-soft)', maxWidth: 220, lineHeight: 1.4 }}>{r.body.slice(0, 120)}{r.body.length > 120 ? '…' : ''}</td>
+                      <td><StatusBadge status={r.status} /></td>
+                      <td>
+                        {r.status === 'pending' ? (
+                          <input
+                            className="field-input"
+                            placeholder="Optional notes"
+                            value={reviewNotes[r.id] ?? ''}
+                            onChange={e => setReviewNotes(prev => ({ ...prev, [r.id]: e.target.value }))}
+                            style={{ minWidth: 120, fontSize: '.82rem', padding: '6px 10px' }}
+                          />
+                        ) : (
+                          <span style={{ fontSize: '.82rem', color: 'var(--ink-soft)' }}>{r.admin_notes ?? '—'}</span>
+                        )}
+                      </td>
+                      <td>
+                        {r.status === 'pending' && (
+                          <div style={{ display: 'flex', gap: 6, whiteSpace: 'nowrap' }}>
+                            <button
+                              onClick={() => actReview(r.id, 'approve')}
+                              disabled={busy === r.id}
+                              style={{ padding: '5px 12px', borderRadius: 7, border: 'none', cursor: 'pointer', background: '#1B9C56', color: '#fff', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.78rem', opacity: busy === r.id ? .6 : 1 }}
+                            >✓ Approve</button>
+                            <button
+                              onClick={() => actReview(r.id, 'reject')}
+                              disabled={busy === r.id}
+                              style={{ padding: '5px 12px', borderRadius: 7, border: '1px solid #fca5a5', cursor: 'pointer', background: '#fff', color: '#dc2626', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.78rem', opacity: busy === r.id ? .6 : 1 }}
+                            >✗ Reject</button>
+                          </div>
+                        )}
+                      </td>
+                    </tr>
+                  ))}
+                  {reviews.length === 0 && (
+                    <tr><td colSpan={10} style={{ textAlign: 'center', padding: '40px', color: 'var(--ink-soft)' }}>No member reviews yet.</td></tr>
                   )}
                 </tbody>
               </table>

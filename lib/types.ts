@@ -34,6 +34,8 @@ export interface Question {
   answer: number;
   explanation: Localized;
   media?: Media;
+  /** Handbook syllabus section id (Method A coverage tracking). */
+  syllabusRef?: string;
   /** Official-style hazard illustration with ア/イ/ウ sub-parts. */
   parts?: QuestionPart[];
   /** Points in mock scoring (hazard illustration = 2). */
@@ -92,6 +94,27 @@ export interface PaymentSubmission {
   user_email?: string;
 }
 
+export type ReviewCategory = Category | 'general';
+export type ReviewStatus = 'pending' | 'approved' | 'rejected';
+
+export interface MemberReview {
+  id: string;
+  user_id: string;
+  country: Country;
+  category: ReviewCategory;
+  display_name: string;
+  title: string;
+  body: string;
+  rating: number;
+  passed: boolean | null;
+  status: ReviewStatus;
+  reviewed_by: string | null;
+  reviewed_at: string | null;
+  admin_notes: string | null;
+  created_at: string;
+  user_email?: string;
+}
+
 /** Japan practice question total — sum of jp_car + jp_moto bank counts (must stay 600). */
 export const JP_PRACTICE_QUESTION_TOTAL = 600;
 
@@ -106,7 +129,7 @@ export const TEST_META: TestMeta[] = [
   {
     category: 'sg_btt',
     tag: 'BTT',
-    bankQuestionCount: 500,
+    bankQuestionCount: 555,
     questionCount: 50,
     timeLimitMinutes: 50,
     passPercent: 90,
@@ -120,7 +143,7 @@ export const TEST_META: TestMeta[] = [
   {
     category: 'sg_ftt',
     tag: 'FTT',
-    bankQuestionCount: 500,
+    bankQuestionCount: 504,
     questionCount: 50,
     timeLimitMinutes: 50,
     passPercent: 90,

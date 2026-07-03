@@ -26,12 +26,13 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
   // All data fetches use service role (bypasses RLS)
   const service = await createServiceClient();
 
-  const [submissionsRes, usersRes, subscriptionsRes, settingsRes, faqsRes] = await Promise.all([
+  const [submissionsRes, usersRes, subscriptionsRes, settingsRes, faqsRes, reviewsRes] = await Promise.all([
     service.from('payment_submissions').select('*').order('created_at', { ascending: false }),
     service.auth.admin.listUsers({ perPage: 200 }),
     service.from('subscriptions').select('*'),
     service.from('app_settings').select('*').order('key'),
     service.from('faqs').select('*').order('country').order('sort_order'),
+    service.from('member_reviews').select('*').order('created_at', { ascending: false }),
   ]);
 
   const submissions = submissionsRes.data ?? [];
@@ -39,6 +40,7 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
   const subscriptions = subscriptionsRes.data ?? [];
   const settings = settingsRes.data ?? [];
   const faqs = faqsRes.data ?? [];
+  const reviews = reviewsRes.data ?? [];
 
   // Attach email to each submission
   const userMap = Object.fromEntries(users.map(u => [u.id, u.email ?? '']));
@@ -46,12 +48,17 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
     ...s,
     email: userMap[s.user_id] ?? '',
   }));
+  const reviewsWithEmail = reviews.map(r => ({
+    ...r,
+    email: userMap[r.user_id] ?? '',
+  }));
 
   // Stats
   const totalRevenue = submissions
     .filter(s => s.status === 'approved')
     .reduce((sum, s) => sum + (s.amount ?? 0), 0);
   const pendingCount = submissions.filter(s => s.status === 'pending').length;
+  const pendingReviewCount = reviews.filter(r => r.status === 'pending').length;
   const premiumCount = subscriptions.filter(s => s.status === 'premium' && s.expires_at && new Date(s.expires_at) > new Date()).length;
 
   const subMap = Object.fromEntries(subscriptions.map(s => [s.user_id, s]));
@@ -67,11 +74,13 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
     <AdminDashboard
       locale={locale}
       submissions={submissionsWithEmail}
+      reviews={reviewsWithEmail}
       users={usersWithSub}
       stats={{
         totalUsers: users.length,
         premiumUsers: premiumCount,
         pendingPayments: pendingCount,
+        pendingReviews: pendingReviewCount,
         totalRevenue,
       }}
       settings={settings}

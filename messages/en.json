@@ -99,7 +99,11 @@
     "r8_p": "Full breakdown of theory test fees, lesson costs and total budget for getting your licence.",
     "open": "Open →",
     "human_reviewed": "Human-reviewed",
-    "coming_soon": "Coming soon"
+    "coming_soon": "Coming soon",
+    "r9_h": "Official handbooks",
+    "r9_p": "Download the Traffic Police handbooks and Japan licence study materials — free for everyone.",
+    "r10_h": "Member experiences",
+    "r10_p": "Real tips from premium members who passed their tests — moderated before publishing."
   },
   "faq": {
     "eyebrow": "Good to know",
@@ -790,6 +794,59 @@
   "footer": {
     "tagline": "Theory test practice for Singapore & Japan, in your language.",
     "note": "An independent study tool. Not affiliated with the Singapore Traffic Police, Japan's National Police Agency, or any driving centre. All questions and illustrations are original."
+  },
+  "resourcesHandbook": {
+    "breadcrumb_home": "← Home",
+    "breadcrumb_title": "Official handbooks",
+    "hero": {
+      "eyebrow": "Study material",
+      "title": "Download official handbooks",
+      "lead": "Free links to government handbooks and study guides for Singapore and Japan theory tests."
+    },
+    "disclaimer_label": "Note:",
+    "disclaimer": "These files are hosted by the official authorities. RoadReady is an independent study tool and is not affiliated with any government agency.",
+    "download": "Download",
+    "back_home": "← Back to home"
+  },
+  "experiences": {
+    "breadcrumb_home": "← Home",
+    "breadcrumb_title": "Member experiences",
+    "hero": {
+      "eyebrow": "Community",
+      "title": "Tips from members who passed",
+      "lead": "Premium members share real study tips and test-day experiences. Every review is checked by our team before it goes live."
+    },
+    "signin_prompt": "Sign in to share your experience with other learners.",
+    "signin_btn": "Sign in",
+    "premium_prompt": "Only premium members can submit reviews. Upgrade to share your story.",
+    "premium_btn": "Go Premium",
+    "write_prompt": "Passed your test or want to help others? Share your experience.",
+    "write_btn": "Write a review",
+    "form_title": "Share your experience",
+    "field_category": "Test / topic",
+    "field_name": "Display name (public)",
+    "field_name_ph": "e.g. Ko Ko",
+    "field_title": "Headline",
+    "field_body": "Your story & tips",
+    "field_rating": "How helpful was RoadReady?",
+    "field_passed": "Did you pass the test?",
+    "passed_na": "Prefer not to say",
+    "passed_yes": "Yes, I passed",
+    "passed_no": "Still studying",
+    "submit_btn": "Submit for review",
+    "submitting": "Submitting…",
+    "cancel": "Cancel",
+    "approval_note": "Your review will appear after admin approval — usually within 24 hours.",
+    "submit_success": "Thanks! Your review is pending approval.",
+    "my_reviews": "Your submissions",
+    "published_title": "Published reviews",
+    "loading": "Loading…",
+    "empty": "No published reviews yet. Be the first premium member to share your story!",
+    "badge_passed": "✓ Passed",
+    "badge_studying": "Still studying",
+    "status_pending": "Pending approval",
+    "status_approved": "Published",
+    "status_rejected": "Not approved"
   },
   "quiz": {
     "lesson_title": "Lesson Mode",

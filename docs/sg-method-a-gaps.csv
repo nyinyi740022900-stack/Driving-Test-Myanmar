@@ -1,0 +1,24 @@
+file,sectionId,title,have,need,shortfall
+"sg_btt.json","btt.conduct.defensive","Defensive driving",2,10,8
+"sg_btt.json","btt.rules.speed","Speed limits",3,8,5
+"sg_btt.json","btt.rules.roundabout","Roundabouts",0,5,5
+"sg_btt.json","btt.rules.lights","Vehicle lights",0,5,5
+"sg_btt.json","btt.conduct.pedestrians","Pedestrians and cyclists",1,6,5
+"sg_btt.json","btt.zones.school","School zones",0,5,5
+"sg_btt.json","btt.rules.yellow_box","Yellow box junctions",0,4,4
+"sg_btt.json","btt.conduct.emergency","Emergency vehicles",0,4,4
+"sg_btt.json","btt.zones.tunnel","Driving in tunnels",0,4,4
+"sg_btt.json","btt.rules.give_way","Give way at junctions",5,8,3
+"sg_btt.json","btt.rules.u_turn","U-turns",0,3,3
+"sg_btt.json","btt.zones.silver","Silver zones",0,3,3
+"sg_btt.json","btt.zones.work","Work zones",0,3,3
+"sg_btt.json","btt.licence.basics","Licence classes and tests",2,5,3
+"sg_btt.json","btt.signs.police","Police and hand signals",1,3,2
+"sg_btt.json","btt.rules.overtaking","Overtaking rules",7,8,1
+"sg_ftt.json","ftt.skills.roundabout","Roundabouts (advanced)",1,5,4
+"sg_ftt.json","ftt.weather.fog","Fog and poor visibility",0,4,4
+"sg_ftt.json","ftt.skills.emergency_stop","Emergency stop",2,4,2
+"sg_ftt.json","ftt.behaviour","Courteous driving and road rage",3,5,2
+"sg_ftt.json","ftt.alcohol","Alcohol and drugs",2,4,2
+"sg_ftt.json","ftt.skills.slopes","Slopes and hill starts",4,5,1
+"sg_ftt.json","ftt.traffic.motorcyclists","Motorcyclists",5,6,1

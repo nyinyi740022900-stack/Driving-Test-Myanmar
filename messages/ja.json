@@ -97,7 +97,11 @@
     "r8_p": "学科試験料・教習料・免許取得にかかる総費用の完全内訳。",
     "open": "開く →",
     "human_reviewed": "人が確認済み",
-    "coming_soon": "近日公開"
+    "coming_soon": "近日公開",
+    "r9_h": "公式ハンドブック",
+    "r9_p": "交通警察のハンドブックと日本の免許学習資料をダウンロード — 誰でも無料。",
+    "r10_h": "会員の体験談",
+    "r10_p": "合格したプレミアム会員のリアルなアドバイス — 公開前に確認済み。"
   },
   "faq": {
     "eyebrow": "知っておきたいこと",
@@ -788,6 +792,59 @@
   "footer": {
     "tagline": "シンガポールと日本の学科試験対策を、あなたの言語で。",
     "note": "独立した学習ツールです。シンガポール交通警察、日本の警察庁、いかなる教習所とも提携していません。すべての問題と図はオリジナルです。"
+  },
+  "resourcesHandbook": {
+    "breadcrumb_home": "← ホーム",
+    "breadcrumb_title": "公式ハンドブック",
+    "hero": {
+      "eyebrow": "学習資料",
+      "title": "公式ハンドブックをダウンロード",
+      "lead": "シンガポールと日本の学科試験用の政府ハンドブックと学習ガイドへの無料リンク。"
+    },
+    "disclaimer_label": "注意：",
+    "disclaimer": "これらのファイルは公式機関がホストしています。RoadReadyは独立した学習ツールであり、政府機関とは提携していません。",
+    "download": "ダウンロード",
+    "back_home": "← ホームに戻る"
+  },
+  "experiences": {
+    "breadcrumb_home": "← ホーム",
+    "breadcrumb_title": "会員の体験談",
+    "hero": {
+      "eyebrow": "コミュニティ",
+      "title": "合格者からのヒント",
+      "lead": "プレミアム会員が実際の勉強法と試験当日の体験を共有。すべてのレビューは公開前にチームが確認します。"
+    },
+    "signin_prompt": "ログインして、学習者と体験を共有しましょう。",
+    "signin_btn": "ログイン",
+    "premium_prompt": "レビューの投稿はプレミアム会員のみ。アップグレードして体験を共有しましょう。",
+    "premium_btn": "プレミアムへ",
+    "write_prompt": "試験に合格しましたか？他の人を助けたいですか？体験を共有しましょう。",
+    "write_btn": "レビューを書く",
+    "form_title": "体験を共有",
+    "field_category": "試験 / トピック",
+    "field_name": "表示名（公開）",
+    "field_name_ph": "例：コーコー",
+    "field_title": "見出し",
+    "field_body": "体験とアドバイス",
+    "field_rating": "RoadReadyはどれくらい役立ちましたか？",
+    "field_passed": "試験に合格しましたか？",
+    "passed_na": "答えたくない",
+    "passed_yes": "はい、合格しました",
+    "passed_no": "まだ勉強中",
+    "submit_btn": "審査に提出",
+    "submitting": "送信中…",
+    "cancel": "キャンセル",
+    "approval_note": "レビューは管理者の承認後に表示されます — 通常24時間以内。",
+    "submit_success": "ありがとうございます。レビューは審査待ちです。",
+    "my_reviews": "あなたの投稿",
+    "published_title": "公開済みレビュー",
+    "loading": "読み込み中…",
+    "empty": "まだ公開レビューがありません。最初のプレミアム会員として体験を共有しましょう！",
+    "badge_passed": "✓ 合格",
+    "badge_studying": "勉強中",
+    "status_pending": "審査待ち",
+    "status_approved": "公開済み",
+    "status_rejected": "非承認"
   },
   "quiz": {
     "lesson_title": "学習モード",

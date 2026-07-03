@@ -94,6 +94,26 @@ export default function Resources() {
         </svg>
       ),
     },
+    {
+      key: 'r9',
+      path: 'resources/handbook',
+      icon: (
+        <svg viewBox="0 0 24 24">
+          <path d="M6 4h12a1 1 0 0 1 1 1v15a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z" />
+          <path d="M8 8h8M8 12h8M8 16h5" />
+        </svg>
+      ),
+    },
+    {
+      key: 'r10',
+      path: 'experiences',
+      icon: (
+        <svg viewBox="0 0 24 24">
+          <path d="M4 19h16M6 16l3-8 4 5 3-4 2 7" />
+        </svg>
+      ),
+      star: true,
+    },
   ];
 
   return (
