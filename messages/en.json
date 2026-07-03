@@ -800,6 +800,7 @@
   },
   "feedback": {
     "breadcrumb_home": "← Home",
+    "breadcrumb_title": "Report a problem",
     "eyebrow": "Help us improve",
     "title": "Report a problem or send feedback",
     "lead": "Found a bug, something confusing, or have a suggestion? Tell us what happened and we'll look into it.",

@@ -113,23 +113,47 @@ export default function FeedbackPage() {
   }
 
   return (
-    <div className="wrap" style={{ paddingTop: 32, paddingBottom: 64 }}>
-      <BackButton label={t('breadcrumb_home')} fallback={`/${locale}`} />
-      <div className="lane" style={{ maxWidth: 720, margin: '0 auto' }}>
-        <div className="card" style={{ padding: '28px 24px', marginBottom: 24 }}>
-          <p className="eyebrow">{t('eyebrow')}</p>
-          <h1 style={{ fontFamily: 'var(--display)', fontSize: '1.6rem', marginBottom: 8 }}>{t('title')}</h1>
-          <p style={{ color: 'var(--ink-soft)', lineHeight: 1.6, marginBottom: 0 }}>{t('lead')}</p>
+    <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>
+      <div style={{ background: 'var(--paint-2)', borderBottom: '1px solid var(--line)', padding: '20px 24px' }}>
+        <div style={{ maxWidth: 720, margin: '0 auto', display: 'flex', alignItems: 'center', gap: 16 }}>
+          <BackButton
+            label={t('breadcrumb_home')}
+            fallback={`/${locale}`}
+            style={{ fontSize: '.82rem', color: 'var(--ink-soft)', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
+          />
+          <span style={{ color: 'var(--line)' }}>/</span>
+          <span style={{ fontSize: '.82rem', color: 'var(--ink)' }}>{t('breadcrumb_title')}</span>
+        </div>
+      </div>
+
+      <div style={{ maxWidth: 720, margin: '0 auto', padding: '48px 24px' }}>
+        <div style={{ marginBottom: 32, textAlign: 'center' }}>
+          <div className="eyebrow" style={{ marginBottom: 10, color: 'var(--guide-deep)' }}>{t('eyebrow')}</div>
+          <h1 style={{ fontFamily: 'var(--display)', fontSize: 'clamp(1.6rem,4vw,2.2rem)', fontWeight: 800, marginBottom: 12 }}>
+            {t('title')}
+          </h1>
+          <p style={{ color: 'var(--ink-soft)', maxWidth: '36em', margin: '0 auto', fontSize: '1.05rem', lineHeight: 1.6 }}>
+            {t('lead')}
+          </p>
         </div>
 
         {formSuccess && (
-          <div className="card" style={{ padding: '16px 20px', marginBottom: 20, background: 'rgba(27,156,86,.08)', borderColor: 'rgba(27,156,86,.25)' }}>
+          <div style={{ padding: '16px 20px', marginBottom: 20, borderRadius: 14, border: '1px solid rgba(27,156,86,.25)', background: 'rgba(27,156,86,.08)' }}>
             <strong style={{ color: 'var(--guide-deep)' }}>{t('success_title')}</strong>
             <p style={{ margin: '6px 0 0', fontSize: '.9rem', color: 'var(--ink-soft)' }}>{t('success_body')}</p>
           </div>
         )}
 
-        <form className="card" onSubmit={handleSubmit} style={{ padding: '24px', marginBottom: 28 }}>
+        <form
+          onSubmit={handleSubmit}
+          style={{
+            background: '#fff',
+            border: '1px solid var(--line)',
+            borderRadius: 16,
+            padding: '24px',
+            marginBottom: 28,
+          }}
+        >
           <div style={{ display: 'grid', gap: 16 }}>
             <div>
               <label className="field-label" htmlFor="fb-type">{t('type_label')}</label>
@@ -225,7 +249,7 @@ export default function FeedbackPage() {
         </form>
 
         {user && (
-          <div className="card" style={{ padding: '24px' }}>
+          <div style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 16, padding: '24px' }}>
             <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.1rem', marginBottom: 16 }}>{t('my_reports')}</h2>
             {loading ? (
               <p style={{ color: 'var(--ink-soft)' }}>{t('loading')}</p>
