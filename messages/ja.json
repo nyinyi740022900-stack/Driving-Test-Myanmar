@@ -872,7 +872,21 @@
     "remarks_ph": "指導員メモ、受験者名、試験日…",
     "badge_if": "即失格",
     "badge_zero": "0点",
-    "disclaimer": "交通警察Class 3/3A最終評価用紙に基づきます。練習・自己採点用であり、公式記録ではありません。"
+    "disclaimer": "交通警察Class 3/3A最終評価用紙に基づきます。練習・自己採点用であり、公式記録ではありません。",
+    "critical_title": "重要な場面 — 試験前に必読",
+    "critical_sub": "不合格の多い場面の手順と注意点を詳しく解説。",
+    "show_guide": "ヒントと解説を表示",
+    "steps_label": "手順",
+    "warnings_label": "注意",
+    "tips_label": "ヒント",
+    "examiner_focus": "試験官が見るポイント",
+    "procedure_label": "手順",
+    "how_to_avoid": "減点を避けるには",
+    "common_mistakes": "よくあるミス",
+    "show_tips": "詳しく",
+    "hide_tips": "閉じる",
+    "tips_short": "ヒント",
+    "jump_section": "採点セクションへ"
   },
   "quiz": {
     "lesson_title": "学習モード",

@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-07-03T14:27:01.970Z",
+  "source": "web/content/questions/",
+  "banks": [
+    {
+      "file": "sg_btt.json",
+      "category": "sg_btt",
+      "country": "SG",
+      "test": "BTT",
+      "count": 565,
+      "withMedia": 565,
+      "hazardCount": 0,
+      "issueCount": 0,
+      "criticalCount": 0,
+      "status": "verified"
+    },
+    {
+      "file": "sg_ftt.json",
+      "category": "sg_ftt",
+      "country": "SG",
+      "test": "FTT",
+      "count": 516,
+      "withMedia": 516,
+      "hazardCount": 0,
+      "issueCount": 0,
+      "criticalCount": 0,
+      "status": "verified"
+    },
+    {
+      "file": "sg_rtt.json",
+      "category": "sg_rtt",
+      "country": "SG",
+      "test": "RTT",
+      "count": 109,
+      "withMedia": 109,
+      "hazardCount": 0,
+      "issueCount": 0,
+      "criticalCount": 0,
+      "status": "verified"
+    },
+    {
+      "file": "jp_car.json",
+      "category": "jp_car",
+      "country": "JP",
+      "test": "Karimen/Honmen",
+      "count": 350,
+      "withMedia": 0,
+      "hazardCount": 37,
+      "issueCount": 0,
+      "criticalCount": 0,
+      "status": "verified"
+    },
+    {
+      "file": "jp_moto.json",
+      "category": "jp_moto",
+      "country": "JP",
+      "test": "Moto",
+      "count": 250,
+      "withMedia": 0,
+      "hazardCount": 25,
+      "issueCount": 0,
+      "criticalCount": 0,
+      "status": "verified"
+    }
+  ],
+  "scripts": [
+    "scripts/audit-sg-questions.mjs",
+    "scripts/audit-jp-questions.mjs",
+    "scripts/sg-method-a.mjs",
+    "scripts/verify-and-export.mjs"
+  ]
+}

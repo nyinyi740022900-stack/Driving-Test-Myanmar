@@ -874,7 +874,21 @@
     "remarks_ph": "Instructor notes, candidate name, test date…",
     "badge_if": "IF",
     "badge_zero": "0 pts",
-    "disclaimer": "Based on the Traffic Police Class 3/3A final assessment form. For practice and self-scoring only — not an official test record."
+    "disclaimer": "Based on the Traffic Police Class 3/3A final assessment form. For practice and self-scoring only — not an official test record.",
+    "critical_title": "Critical moments — read before test day",
+    "critical_sub": "Step-by-step procedures and warnings for the situations that fail candidates most often.",
+    "show_guide": "Show tips & explanations",
+    "steps_label": "Step-by-step",
+    "warnings_label": "Warnings",
+    "tips_label": "Tips",
+    "examiner_focus": "What examiners watch",
+    "procedure_label": "Procedure",
+    "how_to_avoid": "How to avoid this penalty",
+    "common_mistakes": "Common mistakes",
+    "show_tips": "Deep dive",
+    "hide_tips": "Hide",
+    "tips_short": "Tips",
+    "jump_section": "Jump to scoring section"
   },
   "quiz": {
     "lesson_title": "Lesson Mode",
