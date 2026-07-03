@@ -3,12 +3,14 @@
 import type React from 'react';
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
+import { useCountry } from '@/components/CountryProvider';
 
-type Card = { key: string; path: string; icon: React.ReactNode; star?: boolean };
+type Card = { key: string; path: string; icon: React.ReactNode; star?: boolean; countries?: ('sg' | 'jp')[] };
 
 export default function Resources() {
   const t = useTranslations('res');
   const locale = useLocale();
+  const { country } = useCountry();
 
   const cards: Card[] = [
     {
@@ -117,6 +119,7 @@ export default function Resources() {
     {
       key: 'r11',
       path: 'resources/practical-checklist',
+      countries: ['sg'],
       icon: (
         <svg viewBox="0 0 24 24">
           <rect x="4" y="3" width="16" height="18" rx="2" />
@@ -128,6 +131,10 @@ export default function Resources() {
     },
   ];
 
+  const visibleCards = cards.filter(
+    card => !card.countries || card.countries.includes(country)
+  );
+
   return (
     <section id="resources">
       <div className="wrap">
@@ -137,7 +144,7 @@ export default function Resources() {
           <p>{t('sub')}</p>
         </div>
         <div className="res">
-          {cards.map(({ key, path, icon, star }) => (
+          {visibleCards.map(({ key, path, icon, star }) => (
             <Link
               key={key}
               href={`/${locale}/${path}`}

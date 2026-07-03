@@ -689,6 +689,16 @@ footer { background: #0E110B; color: rgba(245, 243, 234, .7); padding: 46px 0 30
   font-size: 1.02rem;
   line-height: 1.55;
 }
+.pcl-jp-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 22px;
+}
+.pcl-jp-links .pcl-btn {
+  text-decoration: none;
+}
 
 .pcl-pass-criteria {
   max-width: 900px;
