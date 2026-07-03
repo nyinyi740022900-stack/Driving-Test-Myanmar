@@ -4,36 +4,80 @@
       "id": "emergency_brake_demo",
       "title": {
         "en": "Emergency brake drill — before you leave the centre",
-        "my": "အရေးပေါ် ဘရိတ် လေ့ကျင့်ခန်း — ကျောင်းမထွက်ခင်",
+        "my": "အရေးပေါ်ဘရိတ် စမ်းသပ်ခြင်း — ကျောင်းမထွက်ခင်",
         "ja": "急ブレーキ訓練 — 教習所を出る前"
       },
       "lead": {
         "en": "This happens inside the circuit, often before road driving. The tester taps or slaps the dashboard sharply. You must brake immediately — hesitation costs demerit points or fails the stop-distance exercise later.",
-        "my": "ဤအချက်သည် ကွင်းအတွင်းမှာ ဖြစ်ပြီး လမ်းပေါ် မမောင်းခင် မကြာခဏ လုပ်ကြည့်သည်။ စစ်ဆေးသူက dashboard ကို ပြင်းပြင်း တိုက်သည်။ ချက်ချင်း ဘရိတ်နင်းရမည် — တုံ့ဆိုင်းပါက demerit သို့မဟုတ် နောက်ပိုင်း ရပ်စဉ်အကွာအဝေး စာမေးပွဲ ကျရှုံးနိုင်သည်။",
+        "my": "ဒါကို ကွင်းထဲမှာ၊ လမ်းပေါ်မမောင်းခင် မကြာခဏ လုပ်တတ်ပါတယ်။ စစ်ဆေးသူက ဒက်ရှ်ဘုတ်ကို ရုတ်ခြည်းတို့လိုက်မယ်။ ချက်ချင်း ဘရိတ်နင်းရမယ် — နှေးနေရင် အမှတ်နှုတ်ခံရမယ်၊ ဒါမှမဟုတ် နောက်ပိုင်း ရပ်တန့်အကွာအဝေး စစ်ဆေးမှုမှာ ကျရှုံးနိုင်ပါတယ်။",
         "ja": "コース内、路上走行の前によく行われます。試験官がダッシュボードを強く叩きます。即座にブレーキを踏むこと — 躊躇すると減点や後の停止距離試験不合格につながります。"
       },
       "steps": [
         {
-          "title": { "en": "1. Grip the wheel, eyes on the road", "my": "၁။ စတီယာရင် ကိုင်ထား၊ လမ်းကို ကြည့်", "ja": "1. ハンドルを握り、前方を見る" },
-          "body": { "en": "Both hands at 9 and 3 (or 10 and 2). Do not look at the examiner's hand — watch ahead so you still steer straight while braking.", "my": "လက်နှစ်ဖက် ၉ နဲ့ ၃ (သို့) ၁၀ နဲ့ ၂ တွင် ထားပါ။ စစ်ဆေးသူ လက်ကို မကြည့်ပါ — ဘရိတ်နင်းစဉ် လမ်းဖြောင့်ထားရန် ရှေ့ကို ကြည့်ပါ။", "ja": "両手は9時と3時（または10時と2時）。試験官の手を見ず、前方を見て直進を保ちます。" }
+          "title": {
+            "en": "1. Grip the wheel, eyes on the road",
+            "my": "၁။ စတီယာရင် ကိုင်ထား၊ ရှေ့ကို ကြည့်ထား",
+            "ja": "1. ハンドルを握り、前方を見る"
+          },
+          "body": {
+            "en": "Both hands at 9 and 3 (or 10 and 2). Do not look at the examiner's hand — watch ahead so you still steer straight while braking.",
+            "my": "လက်နှစ်ဖက်ကို ၉ နဲ့ ၃ (ဒါမှမဟုတ် ၁၀ နဲ့ ၂) နေရာမှာ ထားပါ။ စစ်ဆေးသူရဲ့ လက်ကို မကြည့်ပါနဲ့ — ဘရိတ်နင်းရင်းလည်း လမ်းဖြောင့်နေအောင် ရှေ့ကိုပဲ ကြည့်ထားပါ။",
+            "ja": "両手は9時と3時（または10時と2時）。試験官の手を見ず、前方を見て直進を保ちます。"
+          }
         },
         {
-          "title": { "en": "2. Brake firmly the instant you hear/feel the signal", "my": "၂။ အချက်ကို ကြားလျင်/ခံစားလျင် ချက်ချင်း ခိုင်ခိုင်နင်းပါ", "ja": "2. 合図を感じた瞬間にしっかりブレーキ" },
-          "body": { "en": "Progressive but decisive pressure — not a panic stab that locks wheels, not a gentle tap. Aim to stop smoothly within the shortest safe distance.", "my": "တ်းဖြည်း သို့မဟုတ် ပြင်းပြင်း — ကားဘီး လော့ခ်မဖြစ်အောင်၊ အားနည်းစွာလည်း မနင်းပါနှင့်။ လုံခြုံသော အနီးဆုံး အကွာအဝေးအတွင်း ချောမွေ့ရပ်ပါ။", "ja": "段階的かつ果断に — パニック全踏みや弱いタップは避け、最短の安全距離で滑らかに停止。" }
+          "title": {
+            "en": "2. Brake firmly the instant you hear/feel the signal",
+            "my": "၂။ အချက်ကို ကြားလိုက်/ခံစားလိုက်တာနဲ့ ချက်ချင်း ခိုင်ခိုင်နင်း",
+            "ja": "2. 合図を感じた瞬間にしっかりブレーキ"
+          },
+          "body": {
+            "en": "Progressive but decisive pressure — not a panic stab that locks wheels, not a gentle tap. Aim to stop smoothly within the shortest safe distance.",
+            "my": "တဖြည်းနဲ့ ခိုင်ခိုင်နင်းပါ — ဘီးလော့ခ်ကျအောင် ရုတ်တရက် ပြင်းနင်းလည်း မလုပ်ပါနဲ့၊ အားနည်းလွန်းလည်း မနင်းပါနဲ့။ လုံခြုံတဲ့ အနီးဆုံးအကွာအဝေးထဲမှာ ချောချောမွေ့မွေ့ ရပ်ဖို့ ရည်ရွယ်ပါ။",
+            "ja": "段階的かつ果断に — パニック全踏みや弱いタップは避け、最短の安全距離で滑らかに停止。"
+          }
         },
         {
-          "title": { "en": "3. Clutch down (MT) or stay in D (AT), then handbrake if fully stopped", "my": "၃။ ကလပ်ချ် နှိပ် (MT) သို့ D ထားပါ (AT)၊ ရပ်ပြီးရင် လက်နှိပ်ဘရိတ်", "ja": "3. MTはクラッチ、ATはDのまま、完全停止後はサイドブレーキ" },
-          "body": { "en": "For manual: clutch before brake to avoid stall, or brake+clutch together if trained that way. Auto: foot on brake, do not shift to P until instructed.", "my": "ဂီယာမန်နွယ် — ကလပ်ချ်ကို ဘရိတ်မတိုင်မီ နှိပ်ပါ (သို့) သင်တန်းအတိုင်း တစ်ပြိုင်နက်။ အလိုအလျောက် — ဘရိတ်ပေါ်မှာထား၊ မပြောမီ P မပြောင်းပါနှင့်။", "ja": "MTはストール防止のためクラッチ操作、ATはブレーキのまま指示があるまでPにしない。" }
+          "title": {
+            "en": "3. Clutch down (MT) or stay in D (AT), then handbrake if fully stopped",
+            "my": "၃။ ကလပ်ချ်ကို နှိပ်ထား (MT) ဒါမှမဟုတ် D မှာ ထား (AT)၊ လုံးဝရပ်ရင် လက်ဘရိတ်ဆွဲ",
+            "ja": "3. MTはクラッチ、ATはDのまま、完全停止後はサイドブレーキ"
+          },
+          "body": {
+            "en": "For manual: clutch before brake to avoid stall, or brake+clutch together if trained that way. Auto: foot on brake, do not shift to P until instructed.",
+            "my": "ဂီယာလက်နှိပ် (MT) အတွက် — အင်ဂျင်ပိတ်မသွားအောင် ဘရိတ်မနင်းခင် ကလပ်ချ်ကို ဖိထားပါ၊ ဒါမှမဟုတ် သင်ထားတဲ့အတိုင်း ဘရိတ်နဲ့ ကလပ်ချ်ကို တပြိုင်တည်းနှိပ်ပါ။ AT အတွက် — ဘရိတ်ကို ခြေနဲ့ဖိထားပြီး ညွှန်ကြားမှသာ P ကို ပြောင်းပါ။",
+            "ja": "MTはストール防止のためクラッチ操作、ATはブレーキのまま指示があるまでPにしない。"
+          }
         },
         {
-          "title": { "en": "4. Check mirrors & blind spot before moving off again", "my": "၄။ ပြန်ထွက်မီ ကြေးမုံနဲ့ မျက်လုံးမမြင်ရ နေရာ စစ်ပါ", "ja": "4. 再発進前にミラーと盲点確認" },
-          "body": { "en": "After the drill, release handbrake, signal if needed, shoulder check, then smooth move-off. Examiners often score mirror/blind-spot items right after this.", "my": "လေ့ကျင့်ပြီးနောက် လက်နှိပ်ဘရိတ်ဖြေ၊ လိုအပ်ရင် အချက်ပြပါ၊ ခါးလှည့်ကြည့်ပြီး ချောမွေ့ထွက်ပါ။ ဤအချိန်နောက်ပိုင်း ကြေးမုံ/မျက်လုံးမမြင်ရ နေရာ အများအား စစ်ဆေးကြသည်။", "ja": "訓練後はサイドブレーキ解除、必要なら合図、肩越し確認して滑らかに発進。この直後にミラー・盲点が採点されやすい。" }
+          "title": {
+            "en": "4. Check mirrors & blind spot before moving off again",
+            "my": "၄။ ပြန်ထွက်မယ့်အချိန် ကြေးမုံနဲ့ မျက်စိကွယ် နေရာကို စစ်ပါ",
+            "ja": "4. 再発進前にミラーと盲点確認"
+          },
+          "body": {
+            "en": "After the drill, release handbrake, signal if needed, shoulder check, then smooth move-off. Examiners often score mirror/blind-spot items right after this.",
+            "my": "လေ့ကျင့်ခန်း ပြီးရင် လက်ဘရိတ်ဖြေ၊ လိုအပ်ရင် အချက်ပြ၊ ပခုံးပေါ်လှမ်းကြည့်ပြီးမှ ချောချောမွေ့မွေ့ ထွက်ပါ။ ဒီနောက်မှာ ကြေးမုံနဲ့ မျက်စိကွယ် နေရာကို စစ်ဆေးသူတွေက မကြာခဏ အမှတ်ပေးလေ့ရှိပါတယ်။",
+            "ja": "訓練後はサイドブレーキ解除、必要なら合図、肩越し確認して滑らかに発進。この直後にミラー・盲点が採点されやすい。"
+          }
         }
       ],
       "warnings": [
-        { "en": "Delaying even half a second after the tap counts as 'incorrect technique' (−2 demerits).", "my": "တိုက်ပြီး နောက်ပိုင်း တစ်စက္ကန့်ပင် တုံ့ဆိုင်းပါက 'နည်းလမ်း မှား' (−၂ မှတ်) ဖြစ်နိုင်သည်။", "ja": "タップ後0.5秒の遅れでも「技術不良」（−2点）になり得ます。" },
-        { "en": "Do not brake before the signal — that is also penalised.", "my": "အချက်မရခင် ဘရိတ်မနင်းပါ — ဒါလည်း အမှတ်ပြစ်သည်။", "ja": "合図前のブレーキも減点対象です。" },
-        { "en": "On the road test later, a real emergency stop must be within the stipulated distance — practise the same sharp reaction.", "my": "နောက်ပိုင်း လမ်းပေါ် စာမေးပွဲတွင် သတ်မှတ်အကွာအဝေးအတွင်း ရပ်ရမည် — တူညီသော ချက်ချင်း တုံ့ပြန်မှု လေ့ကျင့်ပါ။", "ja": "後の路上試験では規定距離内停止が必要 — 同じ即反応を練習してください。" }
+        {
+          "en": "Delaying even half a second after the tap counts as 'incorrect technique' (−2 demerits).",
+          "my": "တို့လိုက်ပြီး တစ်စက္ကန့်ဝက်တောင် နှေးနေရင် 'နည်းလမ်းမှား' အဖြစ် (−၂ မှတ်) အမှတ်နှုတ်ခံရနိုင်ပါတယ်။",
+          "ja": "タップ後0.5秒の遅れでも「技術不良」（−2点）になり得ます。"
+        },
+        {
+          "en": "Do not brake before the signal — that is also penalised.",
+          "my": "အချက်မရခင် ဘရိတ်မနင်းပါနဲ့ — ဒါလည်း အမှတ်နှုတ်ခံရနိုင်ပါတယ်။",
+          "ja": "合図前のブレーキも減点対象です。"
+        },
+        {
+          "en": "On the road test later, a real emergency stop must be within the stipulated distance — practise the same sharp reaction.",
+          "my": "နောက်ပိုင်း လမ်းပေါ်စာမေးပွဲမှာ တကယ့်အရေးပေါ်ရပ်ရင် သတ်မှတ်ထားတဲ့ အကွာအဝေးအတွင်း ရပ်ရမယ် — အခုလိုပဲ ချက်ချင်းတုံ့ပြန်နိုင်အောင် လေ့ကျင့်ထားပါ။",
+          "ja": "後の路上試験では規定距離内停止が必要 — 同じ即反応を練習してください。"
+        }
       ],
       "relatedSection": "emergency"
     },
@@ -41,27 +85,51 @@
       "id": "leaving_centre",
       "title": {
         "en": "Leaving the driving centre gate",
-        "my": "ယာဉ်မောင်းသင်တန်းကျောင်း ဂိတ်မှ ထွက်ခြင်း",
+        "my": "ယာဉ်မောင်းကျောင်းရဲ့ ဂိတ်ကနေ ထွက်ခြင်း",
         "ja": "教習所ゲートからの出発"
       },
       "lead": {
         "en": "First impression matters. Seatbelt, mirrors, blind spot, signal, smooth merge — many demerits are scored in the first 2 minutes.",
-        "my": "ပထမအကြိမ် မှတ်ချက်သည် အရေးကြီးသည်။ ခါးပတ်၊ ကြေးမုံ၊ မျက်လုံးမမြင်ရ နေရာ၊ အချက်ပြမှု၊ ချောမွေ့စွာ ဝင်ပေါင်းခြင်း — ပထမ ၂ မိနစ်အတွင်း demerit များစွာ ရရှိနိုင်သည်။",
+        "my": "ပထမဆုံး ချက်ချင်းမြင်ရတဲ့ အချက်က အရေးကြီးပါတယ်။ ခါးပတ်၊ ကြေးမုံ၊ မျက်စိကွယ်၊ အချက်ပြမှု၊ ချောချောမွေ့မွေ့ ဝင်ပေါင်းမှု — ပထမ ၂ မိနစ်အတွင်းမှာပဲ အမှတ်နှုတ်ခံရမှု အများစု ဖြစ်တတ်ပါတယ်။",
         "ja": "最初の印象が重要。シートベルト、ミラー、盲点、合図、滑らかな合流 — 最初の2分で多くの減点がつきます。"
       },
       "steps": [
         {
-          "title": { "en": "Pre-move checklist", "my": "မထွက်မီ စစ်ဆေးစာရင်း", "ja": "発進前チェック" },
-          "body": { "en": "Seatbelt → adjust mirrors → release handbrake → gear correct (N/P for AT start) → signal → shoulder check → move off without rolling back.", "my": "ခါးပတ် → ကြေးမုံ ညှိ → လက်နှိပ်ဘရိတ်ဖြေ → ဂီယာမှန် (AT စတင်ရန် N/P) → အချက်ပြပါ → ခါးလှည့်ကြည့် → နောက်မလှိမယ် ထွက်ပါ။", "ja": "ベルト → ミター調整 → サイドブレーキ解除 → ギア確認（ATはN/P） → 合図 → 肩越し確認 → 後退せず発進。" }
+          "title": {
+            "en": "Pre-move checklist",
+            "my": "မထွက်ခင် စစ်ရမယ့်စာရင်း",
+            "ja": "発進前チェック"
+          },
+          "body": {
+            "en": "Seatbelt → adjust mirrors → release handbrake → gear correct (N/P for AT start) → signal → shoulder check → move off without rolling back.",
+            "my": "ခါးပတ် → ကြေးမုံညှိ → လက်ဘရိတ်ဖြေ → ဂီယာမှန်အောင်ထား (AT ဆို N/P ကနေစ) → အချက်ပြ → ပခုံးပေါ်လှမ်းကြည့် → နောက်ပြန်မလှိမ့်ဘဲ ထွက်ပါ။",
+            "ja": "ベルト → ミター調整 → サイドブレーキ解除 → ギア確認（ATはN/P） → 合図 → 肩越し確認 → 後退せず発進。"
+          }
         },
         {
-          "title": { "en": "Merge with traffic", "my": "ယာဉ်အသွားအလာ နှင့် ပေါင်းပါ", "ja": "交通に合流" },
-          "body": { "en": "Give way at the gate. Do not block the exit. Signal early, check blind spot, match speed of traffic.", "my": "ဂိတ်တွင် လမ်းပေးပါ။ ထွက်ပေါက် မပိတ်ပါနှင့်။ အချိန်မီ အချက်ပြပါ၊ မျက်လုံးမမြင်ရ နေရာ စစ်ပါ၊ ယာဉ်အမြန်နှုန်းနှင့် ကိုက်ညီပါ။", "ja": "ゲートで譲歩。出口を塞がない。早めの合図、盲点確認、交通の速度に合わせる。" }
+          "title": {
+            "en": "Merge with traffic",
+            "my": "ယာဉ်အသွားအလာနဲ့ ပေါင်းခြင်း",
+            "ja": "交通に合流"
+          },
+          "body": {
+            "en": "Give way at the gate. Do not block the exit. Signal early, check blind spot, match speed of traffic.",
+            "my": "ဂိတ်နားမှာ လမ်းပေးပါ။ ထွက်ပေါက်ကို မပိတ်ပါနဲ့။ စောစော အချက်ပြ၊ မျက်စိကွယ်စစ်ပြီး ယာဉ်အသွားအလာရဲ့ အမြန်နှုန်းနဲ့ ကိုက်အောင် မောင်းပါ။",
+            "ja": "ゲートで譲歩。出口を塞がない。早めの合図、盲点確認、交通の速度に合わせる。"
+          }
         }
       ],
       "warnings": [
-        { "en": "Forgetting seatbelt (−2) or handbrake (−2) is common on test nerves.", "my": "စာမေးပွဲ紧张 ဖြစ်လျှင် ခါးပတ် (−၂) သို့ လက်နှိပ်ဘရိတ် (−၂) မေ့တတ်သည်။", "ja": "緊張でベルト（−2）やサイドブレーキ（−2）忘れが多いです。" },
-        { "en": "AT candidates: shift to D only after brake applied (−6 if wrong).", "my": "AT အတွက် — ဘရိတ်နင်းပြီးမှ D သို့ ပြောင်းပါ (မှားပါက −၆)။", "ja": "ATはブレーキを踏んでからDへ（誤りは−6）。" }
+        {
+          "en": "Forgetting seatbelt (−2) or handbrake (−2) is common on test nerves.",
+          "my": "စာမေးပွဲစိတ်လှုပ်ရှားလို့ ခါးပတ် (−၂) ဒါမှမဟုတ် လက်ဘရိတ် (−၂) မေ့တတ်ကြပါတယ်။",
+          "ja": "緊張でベルト（−2）やサイドブレーキ（−2）忘れが多いです。"
+        },
+        {
+          "en": "AT candidates: shift to D only after brake applied (−6 if wrong).",
+          "my": "AT စာမေးပွဲသူများ — ဘရိတ်နင်းပြီးမှသာ D ပြောင်းပါ (မှားရင် −၆ မှတ်)။",
+          "ja": "ATはブレーキを踏んでからDへ（誤りは−6）。"
+        }
       ],
       "relatedSection": "moving"
     },
@@ -69,26 +137,46 @@
       "id": "slope_start",
       "title": {
         "en": "Slope / hill start — no rollback",
-        "my": "စောင်း တက်ခြင်း — နောက်မလှိမယ်",
+        "my": "စောင်းကုန်း တက်ထွက်ခြင်း — နောက်ပြန်မလှိမ့်ရ",
         "ja": "坂道発進 — 後退なし"
       },
       "lead": {
         "en": "Handbrake + biting point (MT) or brake-hold (AT). Rollback even slightly costs 4 demerits per distance band.",
-        "my": "လက်နှိပ်ဘရိတ် + biting point (MT) သို့ ဘရိတ်ဖိထား (AT)။ နည်းနည်းပင် နောက်လှည့်ပါက အကွာအဝေး အလိုက် ၄ မှတ် ရနိုင်သည်။",
+        "my": "လက်ဘရိတ် + ကလပ်ချ်ကိုက်မှတ် (MT) ဒါမှမဟုတ် ဘရိတ်ဖိထား (AT)။ အနည်းငယ်တောင် နောက်ပြန်လှိမ့်ရင် အကွာအဝေးအလိုက် ၄ မှတ် အမှတ်နှုတ်ခံရနိုင်ပါတယ်။",
         "ja": "サイドブレーキ＋半クラッチ（MT）またはブレーキホールド（AT）。わずかな後退でも距離帯ごとに4点。"
       },
       "steps": [
         {
-          "title": { "en": "MT sequence", "my": "MT အဆင့်များ", "ja": "MT手順" },
-          "body": { "en": "Handbrake on → clutch to bite → slight gas → release handbrake while adding gas → clutch up smoothly. If you roll back, do not panic — controlled restart within 5 attempts or −2.", "my": "လက်နှိပ်ဘရိတ်တင် → ကလပ်ချ် bite အထိ → အရှိန်အနည်းငယ် → အရှိန်တိုးရင်း လက်နှိပ်ဘရိတ်ဖြေ → ကလပ်ချ် ချောမွေ့လျှော။ နောက်လှည့်ပါက မစိုးရိမ်ပါနှင့် — ၅ ကြိမ်အတွင်း ထိန်းချုပ်ထွက်ပါ သို့မဟုတ် −၂။", "ja": "サイドブレーキ → 半クラッチ → 少しアクセル → アクセル増やしながら解除 → 滑らかにクラッチ上げ。後退しても5回以内に再試行。" }
+          "title": {
+            "en": "MT sequence",
+            "my": "MT အဆင့်များ",
+            "ja": "MT手順"
+          },
+          "body": {
+            "en": "Handbrake on → clutch to bite → slight gas → release handbrake while adding gas → clutch up smoothly. If you roll back, do not panic — controlled restart within 5 attempts or −2.",
+            "my": "လက်ဘရိတ်ဆွဲ → ကလပ်ချ်ကို ကိုက်မှတ်အထိ → ဓာတ်ဆီအနည်းငယ် → ဓာတ်ဆီတိုးရင်း လက်ဘရိတ်ဖြေ → ကလပ်ချ်ကို ချောချောမွေ့မွေ့ လွှတ်ပါ။ နောက်ပြန်လှိမ့်ရင် စိတ်မပူပါနဲ့ — ၅ ကြိမ်အတွင်း ထိန်းချုပ်ပြီး ထွက်နိုင်ရင် အိုကေပါတယ်၊ မဟုတ်ရင် −၂ မှတ်။",
+            "ja": "サイドブレーキ → 半クラッチ → 少しアクセル → アクセル増やしながら解除 → 滑らかにクラッチ上げ。後退しても5回以内に再試行。"
+          }
         },
         {
-          "title": { "en": "AT sequence", "my": "AT အဆင့်များ", "ja": "AT手順" },
-          "body": { "en": "Foot on brake → shift D → release handbrake while holding brake → move foot to accelerator smoothly. Never roll without brake.", "my": "ဘရိတ်ပေါ်ထား → D ပြောင်း → ဘရိတ်ဖိထားရင်း လက်နှိပ်ဘရိတ်ဖြေ → ချောမွေ့ accelerator သို့ ပြောင်း။ ဘရိတ်မပါ ဘယ်တော့မှ မလှည့်ပါနှင့်။", "ja": "ブレーキ → D → ブレーキ踏んだままサイドブレーキ解除 → 滑らかにアクセルへ。" }
+          "title": {
+            "en": "AT sequence",
+            "my": "AT အဆင့်များ",
+            "ja": "AT手順"
+          },
+          "body": {
+            "en": "Foot on brake → shift D → release handbrake while holding brake → move foot to accelerator smoothly. Never roll without brake.",
+            "my": "ဘရိတ်ကို ခြေနဲ့ဖိ → D ပြောင်း → ဘရိတ်ဖိထားရင်း လက်ဘရိတ်ဖြေ → ခြေကို accelerator ဆီ ချောချောမွေ့မွေ့ ရွှေ့ပါ။ ဘရိတ်မပါဘဲ ဘယ်တော့မှ နောက်ပြန်မလှိမ့်ပါနဲ့။",
+            "ja": "ブレーキ → D → ブレーキ踏んだままサイドブレーキ解除 → 滑らかにアクセルへ。"
+          }
         }
       ],
       "warnings": [
-        { "en": "More than 5 failed move-off attempts on slope = −2 demerits.", "my": "စောင်းတွင် ၅ ကြိမ်ထက် ပိုပြီး မထွက်နိုင်ပါက −၂ မှတ်။", "ja": "坂で5回超の発進失敗は−2点。" }
+        {
+          "en": "More than 5 failed move-off attempts on slope = −2 demerits.",
+          "my": "စောင်းမှာ ၅ ကြိမ်ထက်ပိုပြီး ထွက်လို့မရရင် −၂ မှတ် အမှတ်နှုတ်ခံရမယ်။",
+          "ja": "坂で5回超の発進失敗は−2点。"
+        }
       ],
       "relatedSection": "slope"
     },
@@ -96,27 +184,51 @@
       "id": "junction_turn",
       "title": {
         "en": "Junctions — positioning wins or loses points",
-        "my": "လမ်းဆုံ — နေရာမှန်မှ အမှတ်ရ၊ မှားမှ ကျရှုံး",
+        "my": "လမ်းဆုံများ — နေရာယူမှန်မှ အောင်၊ မှားရင် ကျ",
         "ja": "交差点 — 位置取りが合否を分ける"
       },
       "lead": {
         "en": "Wrong lane, wide turns, blocking the box, or missing stop-line are high-frequency demerits. Slow down early, pick your lane, stop fully at the line.",
-        "my": "လမ်းကြောင်း မှား၊ ကျယ်သော လှည့်၊ လမ်းဆုံ ပိတ်ခြင်း၊ ရပ်စဉ်မျဉ်း မရပ်ခြင်း သည် မကြာခဏ demerit ဖြစ်သည်။ အစောကြီး နှေးပါ၊ လမ်းကြောင်း ရွေးပါ၊ မျဉ်းပေါ် ပြည့်စုံရပ်ပါ။",
+        "my": "လမ်းကြောင်းမှား၊ ကျယ်လွန်းတဲ့လှည့်မှု၊ လမ်းဆုံကို ပိတ်ဆို့ခြင်း၊ ရပ်တန့်မျဉ်း လွတ်ချော်ခြင်းတွေက မကြာခဏ အမှတ်နှုတ်ခံရတတ်ပါတယ်။ စောစောနှေးပါ၊ လမ်းကြောင်းမှန်ကို ရွေးပါ၊ မျဉ်းမှာ အပြည့်ရပ်ပါ။",
         "ja": "車線ミス、ワイド旋回、交差点内滞留、停止線オーバーは頻出減点。早めに減速、車線選択、停止線で完全停止。"
       },
       "steps": [
         {
-          "title": { "en": "Approach", "my": "နီးကပ်လာခြင်း", "ja": "接近" },
-          "body": { "en": "Mirror → signal in good time → slow → check blind spot → position in correct lane (left for left turn, etc.).", "my": "ကြေးမုံ → အချိန်မီ အချက်ပြပါ → နှေးပါ → မျက်လုံးမမြင်ရ နေရာ → လမ်းကြောင်း မှန်ကန်စွာ (ဘယ်လှည့်ဆိုရင် ဘယ်ဘက်)။", "ja": "ミラー → 早めの合図 → 減速 → 盲点 → 正しい車線。" }
+          "title": {
+            "en": "Approach",
+            "my": "လမ်းဆုံကို ချဉ်းကပ်ခြင်း",
+            "ja": "接近"
+          },
+          "body": {
+            "en": "Mirror → signal in good time → slow → check blind spot → position in correct lane (left for left turn, etc.).",
+            "my": "ကြေးမုံကြည့် → အချိန်မီ အချက်ပြ → နှေး → မျက်စိကွယ်စစ် → လမ်းကြောင်းမှန်ထဲ ရောက်အောင်နေရာယူပါ (ဘယ်ကွေ့ရင် ဘယ်ဘက်လမ်းကြောင်း စသဖြင့်)။",
+            "ja": "ミラー → 早めの合図 → 減速 → 盲点 → 正しい車線。"
+          }
         },
         {
-          "title": { "en": "At stop line / give way", "my": "ရပ်စဉ်မျဉ်း / လမ်းပေးခြင်း", "ja": "停止線・譲歩" },
-          "body": { "en": "Front bumper behind the line. Full stop. Look right-left-right (or per junction). Do not inch into cross traffic.", "my": "ကားရှေ့ မျဉ်းနောက်မှာ။ ပြည့်စုံရပ်။ ညာ-ဘယ်-ညာ ကြည့်ပါ။ ဖြတ်သွားယာဉ်ကို မနှိုးပါနှင့်။", "ja": "バンパーは線の手前。完全停止。右左右確認。対向車の妨げにならない。" }
+          "title": {
+            "en": "At stop line / give way",
+            "my": "ရပ်တန့်မျဉ်း / လမ်းပေးရာမှာ",
+            "ja": "停止線・譲歩"
+          },
+          "body": {
+            "en": "Front bumper behind the line. Full stop. Look right-left-right (or per junction). Do not inch into cross traffic.",
+            "my": "ကားရှေ့ဘန်ပါကို မျဉ်းရဲ့နောက်မှာ ထားပါ။ အပြည့်ရပ်ပါ။ ညာ-ဘယ်-ညာ ကြည့်ပါ (ဒါမှမဟုတ် လမ်းဆုံအလိုက်)။ ဖြတ်သန်းနေတဲ့ယာဉ်တွေကို မနှောင့်ယှက်ပါနဲ့။",
+            "ja": "バンパーは線の手前。完全停止。右左右確認。対向車の妨げにならない。"
+          }
         }
       ],
       "warnings": [
-        { "en": "Remain in junction blocking traffic = −2; fail stop-line = −4.", "my": "လမ်းဆုံမှာ ပိတ်ဆို့ခြင်း = −၂؛ ရပ်စဉ်မျဉ်း မရပ် = −၄။", "ja": "交差点内滞留−2、停止線不履行−4。" },
-        { "en": "Red light or amber proceed = immediate fail or −8.", "my": "အနီ/အဝါ လမ်းဖြတ်သွား = ချက်ချင်း ကျရှုံး သို့မဟုတ် −၈။", "ja": "赤・黄進行は即失格または−8。" }
+        {
+          "en": "Remain in junction blocking traffic = −2; fail stop-line = −4.",
+          "my": "လမ်းဆုံထဲမှာ ပိတ်ဆို့နေရင် −၂ မှတ်၊ ရပ်တန့်မျဉ်း မလိုက်နာရင် −၄ မှတ် အမှတ်နှုတ်ခံရမယ်။",
+          "ja": "交差点内滞留−2、停止線不履行−4。"
+        },
+        {
+          "en": "Red light or amber proceed = immediate fail or −8.",
+          "my": "အနီရောင် ဒါမှမဟုတ် အဝါရောင်ကို ဖြတ်သွားရင် ချက်ချင်းကျရှုံးမယ် (ဒါမှမဟုတ် −၈ မှတ်)။",
+          "ja": "赤・黄進行は即失格または−8。"
+        }
       ],
       "relatedSection": "junction"
     }
@@ -125,182 +237,274 @@
     "narrow": {
       "overview": {
         "en": "Circuit exercises test car control at low speed. Examiners watch wheel position, kerb clearance, and whether you need extra shunts.",
-        "my": "ကွင်းအတွင်း လေ့ကျင့်ခန်းများသည် အနှေးမြှင့် ကားထိန်းချုပ်မှု စစ်ဆေးသည်။ စတီယာရင် နေရာ၊ လမ်းဘေးတန်း အကွာအဝေး၊ ထပ်လှည့်ရခြင်း ရှိမရှိ ကြည့်သည်။",
+        "my": "ကွင်းထဲက လေ့ကျင့်ခန်းတွေက အနှေးအမြန်နှုန်းမှာ ကားထိန်းချုပ်နိုင်မှုကို စမ်းသပ်ပါတယ်။ စစ်ဆေးသူတွေက စတီယာရင်နေရာ၊ လမ်းဘေးကျောက်တန်းနဲ့ အကွာအဝေး၊ ထပ်ခါထပ်ခါ ရှေ့နောက်လှုပ်ရသလား ဆိုတာကို ကြည့်ပါတယ်။",
         "ja": "コース内課題は低速での車両制御を見ます。ハンドル位置、縁石との距離、追加後退の有無を確認。"
       },
       "examinerFocus": {
         "en": "Smooth steering at walking pace, no kerb contact, shoulder checks when reversing, full stop before direction changes.",
-        "my": "လမ်းလျှောက်နှုန်းတွင် ချောမွေ့ စတီယာရင်၊ လမ်းဘေးတန်း မထိ၊ နောက်ပြန်လှည့်စဉ် ခါးကြည့်၊ လမ်းကြောင်းမပြောင်းမီ ပြည့်စုံရပ်။",
+        "my": "လမ်းလျှောက်နှုန်းလောက်မှာ ချောချောမွေ့မွေ့ ကားလှည့်ခြင်း၊ လမ်းဘေးကျောက်တန်းကို မထိခြင်း၊ နောက်ပြန်ဆွဲစဉ် ပခုံးလှမ်းကြည့်ခြင်း၊ လမ်းကြောင်းမပြောင်းခင် အပြည့်ရပ်ခြင်း။",
         "ja": "歩行速度での滑らかな操舵、縁石非接触、後退時の肩確認、方向転換前の完全停止。"
       },
       "tips": [
-        { "en": "S-course: turn the wheel only while moving; stop if you need to straighten.", "my": "S-course — ကားရွေ့နေမှ စတီယာရင် လှည့်ပါ။ ညှိရန် လိုပါက ရပ်ပါ။", "ja": "S字は動きながら操舵。直す必要があれば停止。" },
-        { "en": "Crank: use clutch bite point (MT) to crawl; avoid mounting kerb on tight angles.", "my": "Crank — ကလပ်ချ် bite ဖြင့် တ်းဖြည်း။ ထောင့်ကျဉ်းရာ လမ်းဘေးတန်း မတက်ပါနှင့်။", "ja": "クランクは半クラッチでゆっくり。急角度で縁石に乗らない。" },
-        { "en": "Always confirm safety (head check both sides) before reversing — failure costs 10 demerits.", "my": "နပြန်မီ ဘေးနှစ်ဖက် ခေါင်းလှည့်ကြည့်ပါ — မလုပ်ပါက ၁၀ မှတ်။", "ja": "後退前は両側を確認 — 不履行は10点。" }
+        {
+          "en": "S-course: turn the wheel only while moving; stop if you need to straighten.",
+          "my": "S-course — ကားရွေ့နေချိန်မှာပဲ စတီယာရင်ကို လှည့်ပါ၊ တည့်ချင်ရင် ရပ်ပြီးမှ လှည့်ပါ။",
+          "ja": "S字は動きながら操舵。直す必要があれば停止。"
+        },
+        {
+          "en": "Crank: use clutch bite point (MT) to crawl; avoid mounting kerb on tight angles.",
+          "my": "Crank — ကလပ်ချ်ကိုက်မှတ်ကို သုံးပြီး တ်းဖြည်း သွားပါ၊ ထောင့်ကျဉ်းတဲ့နေရာမှာ လမ်းဘေးကျောက်တန်းပေါ် မတက်အောင် သတိထားပါ။",
+          "ja": "クランクは半クラッチでゆっくり。急角度で縁石に乗らない。"
+        },
+        {
+          "en": "Always confirm safety (head check both sides) before reversing — failure costs 10 demerits.",
+          "my": "နောက်ပြန်ဆွဲခင် ဘေးနှစ်ဖက် ခေါင်းလှည့်ကြည့်ပြီးမှ လုံခြုံမလုံခြုံ သေချာစစ်ပါ — မလုပ်ရင် ၁၀ မှတ် အမှတ်နှုတ်ခံရမယ်။",
+          "ja": "後退前は両側を確認 — 不履行は10点。"
+        }
       ],
       "warnings": [
-        { "en": "Strike kerb = 10 demerits per sub-course — among the heaviest circuit penalties.", "my": "လမ်းဘေးတန်း ထိခိုက်ခြင်း = အပိုင်းတစ်ခုလျှင် ၁၀ မှတ် — အလေးဆုံး demerit များထဲမှ တစ်ခု။", "ja": "縁石接触は各サブコース10点 — 最重級の減点。" }
+        {
+          "en": "Strike kerb = 10 demerits per sub-course — among the heaviest circuit penalties.",
+          "my": "လမ်းဘေးကျောက်တန်းကို ထိမိရင် အပိုင်းတစ်ခုလျှင် ၁၀ မှတ် — ကွင်းထဲက အလေးဆုံး အမှတ်နှုတ်တွေထဲက တစ်ခု။",
+          "ja": "縁石接触は各サブコース10点 — 最重級の減点。"
+        }
       ]
     },
     "parking": {
       "overview": {
         "en": "Parallel and vertical bay parking within time limits. Control speed, steering while moving only, and final position within the bay.",
-        "my": "ဘေးချနှင့် ဒေါင်လိုက် ကားရပ်နားခြင်း — အချိန်ကန့်သတ်အတွင်း။ အမြန်နှုန်း ထိန်းပါ၊ ရပ်နေစဉ် စတီယာရင် မလှည့်ပါ၊ နောက်ဆုံးနေရာ မှန်ကန်စွာ။",
+        "my": "ဘေးချရပ်နားခြင်းနဲ့ ဒေါင်လိုက်ရပ်နားခြင်းကို သတ်မှတ်အချိန်အတွင်း ပြီးအောင်လုပ်ရမယ်။ အမြန်နှုန်းထိန်းပါ၊ ကားရွေ့နေချိန်မှာပဲ စတီယာရင်လှည့်ပါ၊ ရပ်ပြီးရင် နေရာမှန်အောင် ထားပါ။",
         "ja": "縦列・直角駐車は制限時間内。速度管理、停車中のハンドル操作禁止、枠内の最終位置。"
       },
       "examinerFocus": {
         "en": "Time (5 min parallel / 3 min vertical), no kerb strike, wheels straight before stop, door closed before moving.",
-        "my": "အချိန် (ဘေးချ ၅ မိနစ် / ဒေါင်လိုက် ၃ မိနစ်)၊ လမ်းဘေးတန်း မထိ၊ ရပ်မီ စတီယာရင် ချိန်ပါ၊ မရွေ့မီ တံခါးပိတ်ပါ။",
+        "my": "အချိန် (ဘေးချ ၅ မိနစ် / ဒေါင်လိုက် ၃ မိနစ်)၊ လမ်းဘေးကျောက်တန်း မထိခြင်း၊ ရပ်ခင် စတီယာရင်ဖြောင့်ထားခြင်း၊ မထွက်ခင် တံခါးပိတ်ခြင်း။",
         "ja": "時間（縦列5分・直角3分）、縁石非接触、停止前にハンドル正、走行前にドア閉。"
       },
       "tips": [
-        { "en": "Parallel: align mirror with kerb reference point taught at your school; small corrections only.", "my": "ဘေးချ — သင်တန်းကျောင်း သင်ထားသော ကြေးမုံ/လမ်းဘေးတန်း အမှတ်အသား နှင့် ညှိပါ။", "ja": "縦列は教習所の基準点でミラー合わせ。" },
-        { "en": "Vertical: enter straight, adjust before the line; do not turn wheels while stationary.", "my": "ဒေါင်လိုက် — မျဉ့်ဖြောင့် ဝင်ပါ၊ မျဉ်မတိုင်မီ ညှိပါ။ ရပ်နေစဉ် စတီယာရင် မလှည့်ပါ။", "ja": "直角はまっすぐ進入、線手前で調整、停車中操舵禁止。" }
+        {
+          "en": "Parallel: align mirror with kerb reference point taught at your school; small corrections only.",
+          "my": "ဘေးချ — သင်တန်းကျောင်းက သင်ပေးထားတဲ့ ကြေးမုံ/လမ်းဘေး အမှတ်အသားနဲ့ ချိန်ညှိပါ၊ အသေးစား ညှိမှုပဲ လုပ်ပါ။",
+          "ja": "縦列は教習所の基準点でミラー合わせ。"
+        },
+        {
+          "en": "Vertical: enter straight, adjust before the line; do not turn wheels while stationary.",
+          "my": "ဒေါင်လိုက် — ဖြောင့်ဖြောင့် ဝင်ပါ၊ မျဉ်းမတိုင်ခင် ညှိပါ၊ ရပ်နေချိန် စတီယာရင်ကို မလှည့်ပါနဲ့။",
+          "ja": "直角はまっすぐ進入、線手前で調整、停車中操舵禁止。"
+        }
       ],
       "warnings": [
-        { "en": "Exceed time = −4 each. Mount kerb = −4. Both add up fast toward 20.", "my": "အချိန်ကျော် = တစ်ခုလျှင် −၄။ လမ်းဘေးတန်း တက် = −၄။ ၂၀ မှတ်အထိ အမြန်ရောက်နိုင်သည်။", "ja": "時間超過・縁石乗り上げ各−4。20点に早く達し得ます。" }
+        {
+          "en": "Exceed time = −4 each. Mount kerb = −4. Both add up fast toward 20.",
+          "my": "အချိန်ကျော်ရင် တစ်ခုကို −၄ မှတ်။ ကျောက်တန်းတက်ရင် −၄ မှတ်။ နှစ်ခုပေါင်းရင် ၂၀ မှတ်အထိ မြန်မြန်ရောက်နိုင်ပါတယ်။",
+          "ja": "時間超過・縁石乗り上げ各−4。20点に早く達し得ます。"
+        }
       ]
     },
     "slope": {
       "overview": {
         "en": "Prove you can hold and move off on a gradient without rolling into traffic or the kerb.",
-        "my": "စောင်းတွင် ကားမလှိမယ် ထိန်းပြီး ယာဉ်အသွားအလာ သို့မဟုတ် လမ်းဘေးတန်း မတိုက်ဘဲ ထွက်နိုင်မှု ပြရသည်။",
+        "my": "စောင်းကုန်းမှာ ယာဉ်အသွားအလာဘက် ဒါမှမဟုတ် လမ်းဘေးကျောက်တန်းဘက် နောက်ပြန်မလှိမ့်ဘဲ ရပ်ထားနိုင်ပြီး ပြန်ထွက်နိုင်တာကို ပြသရမယ်။",
         "ja": "勾配で後退せず発進できることを示します。"
       },
       "examinerFocus": {
         "en": "Rollback distance measured; handbrake discipline; calm recovery if you stall.",
-        "my": "နောက်လှည့်အကွာအဝေး တိုင်းတာသည်။ လက်နှိပ်ဘရိတ်စည်းကမ်း။ အင်ဂျင်ပိတ်ပါက အေးဆေးပြန်စပါ။",
+        "my": "နောက်ပြန်လှိမ့်တဲ့ အကွာအဝေးကို တိုင်းတာမယ်။ လက်ဘရိတ် သုံးပုံသုံးနည်း မှန်ကန်မှု။ အင်ဂျင်ပိတ်သွားရင် အေးဆေးစွာ ပြန်စနိုင်မှု။",
         "ja": "後退距離を測定。サイドブレーキの使い方。エンスト時の冷静な再発進。"
       },
       "tips": [
-        { "en": "Feel the bite point in practice until it is muscle memory.", "my": "biting point ကို လေ့ကျင့်ပြီး ခန္ဓာကိုယ်မှတ်မိအောင် လုပ်ပါ။", "ja": "半クラッチ感覚を体に覚えさせる。" }
+        {
+          "en": "Feel the bite point in practice until it is muscle memory.",
+          "my": "ကိုက်မှတ်ကို ခန္ဓာကိုယ်က အလိုအလျောက် မှတ်မိအောင် အလေ့အကျင့်လုပ်ပါ။",
+          "ja": "半クラッチ感覚を体に覚えさせる。"
+        }
       ],
       "warnings": [
-        { "en": "Any rollback triggers demerits — even <1 m is −4.", "my": "နောက်လှည့်တိုင်း demerit — ၁ မီတာအောက်ပင် −၄။", "ja": "わずかな後退でも減点 — 1m未満でも−4。" }
+        {
+          "en": "Any rollback triggers demerits — even <1 m is −4.",
+          "my": "နောက်ပြန် ဘယ်လောက်ပဲလှိမ့်လှိမ့် အမှတ်နှုတ်ခံရမယ် — ၁ မီတာအောက်ဆိုရင်တောင် −၄ မှတ်။",
+          "ja": "わずかな後退でも減点 — 1m未満でも−4。"
+        }
       ]
     },
     "emergency": {
       "overview": {
         "en": "Tests reaction time and controlled braking — both the dashboard-tap drill and measured stop distance on the road.",
-        "my": "တုံ့ပြန်မှု အချိန်နှင့် ထိန်းချုပ်ထားသော ဘရိတ်နင်းခြင်း — dashboard တိုက်ခိုက်မှု လေ့ကျင့်ခန်းနှင့် လမ်းပေါ် သတ်မှတ်အကွာအဝေး ရပ်ခြင်း။",
+        "my": "တုံ့ပြန်နှုန်းနဲ့ ထိန်းချုပ်ထားတဲ့ ဘရိတ်နင်းမှုကို စမ်းသပ်ပါတယ် — ဒက်ရှ်ဘုတ်တို့တဲ့ လေ့ကျင့်ခန်းရော၊ လမ်းပေါ်မှာ သတ်မှတ်အကွာအဝေးအတွင်း ရပ်ရတာပါ ပါဝင်ပါတယ်။",
         "ja": "反応時間と制動制御 — ダッシュボードタップ訓練と路上の規定距離停止。"
       },
       "examinerFocus": {
         "en": "Instant brake on signal; wheels straight; stop within cones/markers without locking up.",
-        "my": "အချက်ရလျင် ချက်ချင်းဘရိတ်။ စတီယာရင် ချိန်ညှိထား။ ကွန်း/အမှတ်အသားအတွင်း လော့ခ်မဖြစ်အောင် ရပ်။",
+        "my": "အချက်ရလိုက်တာနဲ့ ချက်ချင်းဘရိတ်နင်းခြင်း၊ စတီယာရင်ဖြောင့်နေခြင်း၊ ဘီးလော့ခ်မကျဘဲ ကွန်း/အမှတ်အသားအတွင်း ရပ်ခြင်း။",
         "ja": "合図で即ブレーキ。ハンドル正。ロックせずマーカー内停止。"
       },
       "tips": [
-        { "en": "Practise with your instructor randomly tapping while you drive slowly in the circuit.", "my": "ကွင်းအတွင်း အနှေးမောင်းရင်း သင်တန်းဆရာ မည်သည့်အချိန်မဆို တိုက်ခိုက်သည့် ပုံစံ လေ့ကျင့်ပါ။", "ja": "コース内低速走行中に教官のランダムタップで練習。" },
-        { "en": "Road emergency stop: eyes up, both hands firm, brake hard then ease before full stop.", "my": "လမ်းပေါ် အရေးပေါ်ရပ် — ရှေ့ကြည့်၊ လက်နှစ်ဖက် ခိုင်ခိုင်၊ ခိုင်ခိုင်နင်းပြီး ရပ်မီ လျှော့ပါ။", "ja": "路上急停止は前方視線、両手固定、強ブレーキ後に緩めて停止。" }
+        {
+          "en": "Practise with your instructor randomly tapping while you drive slowly in the circuit.",
+          "my": "ကွင်းထဲမှာ အနှေးမောင်းနေချိန် သင်တန်းဆရာက အချိန်မရွေး ဒက်ရှ်ဘုတ်တို့တာကို လေ့ကျင့်ထားပါ။",
+          "ja": "コース内低速走行中に教官のランダムタップで練習。"
+        },
+        {
+          "en": "Road emergency stop: eyes up, both hands firm, brake hard then ease before full stop.",
+          "my": "လမ်းပေါ် အရေးပေါ်ရပ်ခြင်း — ရှေ့ကိုကြည့်၊ လက်နှစ်ဖက်ကို ခိုင်ခိုင်ကိုင်၊ ပြင်းပြင်းနင်းပြီး ရပ်ခါနီးမှာ လျှော့ပါ။",
+          "ja": "路上急停止は前方視線、両手固定、強ブレーキ後に緩めて停止。"
+        }
       ],
       "warnings": [
-        { "en": "Unable to stop in distance on longer band = up to −6.", "my": "ပိုဝေးသော အကွာအဝေးတွင် မရပ်နိုင် = အများဆုံး −၆။", "ja": "長い距離帯で停止できず最大−6。" }
+        {
+          "en": "Unable to stop in distance on longer band = up to −6.",
+          "my": "အကွာအဝေးရှည်ချိန်မှာ ရပ်ဖို့မအောင်မြင်ရင် အများဆုံး −၆ မှတ် အမှတ်နှုတ်ခံရနိုင်ပါတယ်။",
+          "ja": "長い距離帯で停止できず最大−6。"
+        }
       ]
     },
     "moving": {
       "overview": {
         "en": "Basic vehicle handling from standstill — seatbelt, handbrake, gears, and prompt move-off.",
-        "my": "ရပ်နေသော အခြေအနေမှ အခြေခံ ကားထိန်းချုပ်မှု — ခါးပတ်၊ လက်နှိပ်ဘရိတ်၊ ဂီယာ၊ ချက်ချင်းထွက်ခြင်း။",
+        "my": "ရပ်နေရာကနေ ကားစတင်မောင်းနှင်ဖို့ အခြေခံအချက်တွေ — ခါးပတ်၊ လက်ဘရိတ်၊ ဂီယာနဲ့ အချိန်မီ ထွက်ခြင်း။",
         "ja": "停止状態からの基本操作 — ベルト、サイドブレーキ、ギア、迅速な発進。"
       },
       "examinerFocus": {
         "en": "Routine discipline before every move-off; no stalling in traffic flow.",
-        "my": "ထွက်တိုင်း စည်းကမ်းလိုက်နာမှု။ ယာဉ်အသွားအလာ တွင် အင်ဂျင်မပိတ်ပါနှင့်။",
+        "my": "ထွက်တိုင်း စည်းကမ်းလိုက်နာမှု၊ ယာဉ်အသွားအလာထဲမှာ အင်ဂျင်မပိတ်ခြင်း။",
         "ja": "毎回の発進前ルーティン。交通の流れの中でエンストしない。"
       },
       "tips": [
-        { "en": "Say the checklist silently: belt, mirror, blind spot, signal, handbrake, gear, go.", "my": "စာရင်းကို တိတ်တိတ် ပြောပါ — ခါးပတ်၊ ကြေးမုံ၊ မျက်လုံးမမြင်ရ၊ အချက်၊ လက်နှိပ်ဘရိတ်၊ ဂီယာ၊ ထွက်။", "ja": "心の中でチェック — ベルト、ミラー、盲点、合図、サイドブレーキ、ギア、発進。" }
+        {
+          "en": "Say the checklist silently: belt, mirror, blind spot, signal, handbrake, gear, go.",
+          "my": "စိတ်ထဲမှာ တိတ်တိတ်ရွတ်ပါ — ခါးပတ်၊ ကြေးမုံ၊ မျက်စိကွယ်၊ အချက်ပြ၊ လက်ဘရိတ်၊ ဂီယာ၊ ထွက်။",
+          "ja": "心の中でチェック — ベルト、ミラー、盲点、合図、サイドブレーキ、ギア、発進。"
+        }
       ],
       "warnings": [
-        { "en": "Wrong gear move-off = −6; slow stall recovery = −6.", "my": "ဂီယာမှား ထွက်ခြင်း = −၆။ အင်ဂျင်ပိတ်ပြီး ပြန်မစမြန်ခြင်း = −၆။", "ja": "誤ギア発進−6、エンスト後の再発進遅れ−6。" }
+        {
+          "en": "Wrong gear move-off = −6; slow stall recovery = −6.",
+          "my": "ဂီယာမှားပြီးထွက်ရင် −၆ မှတ်၊ အင်ဂျင်ပိတ်ပြီးနောက် ပြန်စနှေးရင် −၆ မှတ် အမှတ်နှုတ်ခံရမယ်။",
+          "ja": "誤ギア発進−6、エンスト後の再発進遅れ−6。"
+        }
       ]
     },
     "forward": {
       "overview": {
         "en": "On-road driving is where most demerits accumulate — lane discipline, pedestrians, speed, and courtesy.",
-        "my": "လမ်းပေါ် မောင်းခြင်းတွင် demerit အများဆုံး စုဆောင်းသည် — လမ်းကြောင်း၊ လမ်းလျှောက်များ၊ အမြန်နှုန်း၊ ယဉ်ကျေးမှု။",
+        "my": "လမ်းပေါ်မောင်းနှင်ချိန်မှာပဲ အမှတ်နှုတ်အများဆုံး ဖြစ်တတ်ပါတယ် — လမ်းကြောင်းစည်းကမ်း၊ လမ်းလျှောက်သူ၊ အမြန်နှုန်းနဲ့ ယဉ်ကျေးမှု အားလုံးပါဝင်ပါတယ်။",
         "ja": "路上走行で減点が最も積み上がります — 車線、歩行者、速度、譲り合い。"
       },
       "examinerFocus": {
         "en": "Keep left unless overtaking; safe gaps; obey signs; predictable signals.",
-        "my": "မကျော်မီ ဘယ်ဘက်စွဲပါ။ လုံခြုံအကွာအဝေး။ ဆိုင်းဘုတ်လိုက်နာပါ။ ခန့်မှန်းရသော အချက်ပြမှု။",
+        "my": "ကျော်ဖြတ်တဲ့အခါမှလွဲရင် ဘယ်ဘက်စွဲမောင်းပါ။ လုံခြုံတဲ့ အကွာအဝေးထားပါ။ ဆိုင်းဘုတ်လိုက်နာပါ။ ခန့်မှန်းရလွယ်တဲ့ အချက်ပြမှု ပြပါ။",
         "ja": "追い越し以外は左寄せ。安全な間隔。標識遵守。予測可能な合図。"
       },
       "tips": [
-        { "en": "Pedestrian crossings: slow early, cover brake, never stop on the crossing itself.", "my": "လမ်းလျှောက်ဖြတ်သန်းရာ — အစောကြီး နှေးပါ၊ ဘရိတ်ပြင်ဆင်ထား၊ ဖြတ်သန်းရာပေါ် မရပ်ပါနှင့်။", "ja": "横断歩道は早めに減速、ブレーキ準備、歩道上に停止しない。" },
-        { "en": "Give cyclists 1.5 m clearance when passing — examiners watch side clearance (−10 if poor).", "my": "စက်ဘီးကျော်ရာ ၁.၅ မီတာ အကွာအဝေး — ဘေးအကွာအဝေး မလုံလောက်ပါက −၁၀။", "ja": "自転車追い越しは1.5m間隔 — 不足で−10。" }
+        {
+          "en": "Pedestrian crossings: slow early, cover brake, never stop on the crossing itself.",
+          "my": "လမ်းဖြတ်နေရာတွေမှာ — စောစောနှေးပါ၊ ဘရိတ်အသင့်ပြင်ထားပါ၊ ဖြတ်ကူးလမ်းပေါ်မှာ လုံးဝ မရပ်ပါနဲ့။",
+          "ja": "横断歩道は早めに減速、ブレーキ準備、歩道上に停止しない。"
+        },
+        {
+          "en": "Give cyclists 1.5 m clearance when passing — examiners watch side clearance (−10 if poor).",
+          "my": "စက်ဘီးကို ကျော်တဲ့အခါ ၁.၅ မီတာ ခွာပါ — ဘေးအကွာအဝေး လုံလောက်မှုကို စစ်ဆေးသူတွေက ကြည့်ပါတယ် (မလုံလောက်ရင် −၁၀ မှတ်)။",
+          "ja": "自転車追い越しは1.5m間隔 — 不足で−10。"
+        }
       ],
       "warnings": [
-        { "en": "Change lane without due care = −8. Fail to give way to pedestrian = −8.", "my": "ဂရုမစိုက် လမ်းကြောင်းပြောင်း = −၈။ လမ်းလျှောက်ကို လမ်းမပေး = −၈။", "ja": "不注意な車線変更−8、歩行者優先不履行−8。" }
+        {
+          "en": "Change lane without due care = −8. Fail to give way to pedestrian = −8.",
+          "my": "မဂရုစိုက်ဘဲ လမ်းကြောင်းပြောင်းရင် −၈ မှတ်၊ လမ်းလျှောက်သူကို လမ်းမပေးရင် −၈ မှတ်။",
+          "ja": "不注意な車線変更−8、歩行者優先不履行−8。"
+        }
       ]
     },
     "junction": {
       "overview": {
         "en": "Correct lane, clean turns, and not blocking others at intersections.",
-        "my": "လမ်းကြောင်း မှန်၊ လှည့်မှု သန့်၊ လမ်းဆုံမှာ အခြားသူ မပိတ်ဆို့ခြင်း။",
+        "my": "လမ်းကြောင်းမှန်၊ လှည့်မှုသန့်၊ လမ်းဆုံမှာ တခြားသူကို မပိတ်ဆို့ခြင်း။",
         "ja": "正しい車線、きれいな旋回、交差点での妨害なし。"
       },
       "examinerFocus": {
         "en": "Stop-line compliance, turn geometry (not too wide/sharp), form up in correct filter lane.",
-        "my": "ရပ်စဉ်မျဉ်း လိုက်နာမှု၊ လှည့်မှု ပုံသဏ္ဍာန်၊ စစ်ထုတ်လမ်း မှန်ကန်စွာ စီခြင်း။",
+        "my": "ရပ်တန့်မျဉ်း လိုက်နာမှု၊ လှည့်ပုံလှည့်နည်း (ကျယ်လွန်း/ထောင့်ကျဉ်းလွန်းမနေအောင်)၊ စစ်ထုတ်လမ်းကြောင်းထဲ မှန်ကန်စွာစီခြင်း။",
         "ja": "停止線遵守、旋回の形、正しい待ち行列。"
       },
       "tips": [],
       "warnings": [
-        { "en": "Filter lane: wait in box, do not block pedestrian crossing.", "my": "စစ်ထုတ်လမ်း — အကွက်ထဲ စောင့်ပါ၊ လမ်းလျှောက်ဖြတ်သန်းရာ မပိတ်ပါနှင့်။", "ja": "待ち行列はボックス内、横断歩道を塞がない。" }
+        {
+          "en": "Filter lane: wait in box, do not block pedestrian crossing.",
+          "my": "စစ်ထုတ်လမ်းကြောင်း — အကွက်ထဲမှာ စောင့်ပါ၊ လမ်းဖြတ်ကူးနေရာကို မပိတ်ပါနဲ့။",
+          "ja": "待ち行列はボックス内、横断歩道を塞がない。"
+        }
       ]
     },
     "safety": {
       "overview": {
         "en": "Mirror-blind-spot routine is scored repeatedly — treat every lane change and turn as a scored event.",
-        "my": "ကြေးမုံ-မျက်လုံးမမြင်ရ နေရာ စစ်ဆေးမှုကို ထပ်ခါထပ်ခါ အမှတ်ပေးသည် — လမ်းကြောင်းပြောင်း/လှည့်တိုင်း အမှတ်ရသော အခမ်းအနားဟု ထားပါ။",
+        "my": "ကြေးမုံ-မျက်စိကွယ် စစ်ဆေးမှုကို ထပ်ခါထပ်ခါ အမှတ်ပေးပါတယ် — လမ်းကြောင်းပြောင်းတိုင်း၊ လှည့်တိုင်း အမှတ်ရနိုင်တဲ့ အချိန်လို့ မှတ်ထားပါ။",
         "ja": "ミラー・盲点ルーティンは繰り返し採点 — 車線変更・旋回のたびに採点イベントと考える。"
       },
       "examinerFocus": {
         "en": "Head turn visible (not just eyes); mirror before brake/turn/lane change.",
-        "my": "ခေါင်းလှည့်ကြည့်မှု မြင်ရရမည် (မျက်စိတို့သာ မဟုတ်)။ ဘရိတ်/လှည့်/လမ်းကြောင်းပြောင်းမီ ကြေးမုံ။",
+        "my": "ခေါင်းလှည့်တာ မြင်ရရမယ် (မျက်လုံးပဲ လှည့်တာနဲ့ မရပါဘူး)။ ဘရိတ်/လှည့်/လမ်းကြောင်းပြောင်းခင် ကြေးမုံကြည့်ပါ။",
         "ja": "肩越し確認が見えること。ブレーキ・旋回・車線変更前のミラー。"
       },
       "tips": [
-        { "en": "Exaggerate shoulder check slightly so the examiner clearly sees it.", "my": "စစ်ဆေးသူ သိသိသာသာ မြင်ရစေရန် ခါးလှည့်ကြည့်မှုကို အနည်းငယ် ထင်ရှားအောင် လုပ်ပါ။", "ja": "試験官に見えるよう少し大きめの肩越し確認。" }
+        {
+          "en": "Exaggerate shoulder check slightly so the examiner clearly sees it.",
+          "my": "စစ်ဆေးသူ ရှင်းရှင်းလင်းလင်း မြင်ရအောင် ပခုံးပေါ်လှမ်းကြည့်တာကို နည်းနည်းထင်ရှားအောင် လုပ်ပါ။",
+          "ja": "試験官に見えるよう少し大きめの肩越し確認。"
+        }
       ],
       "warnings": [
-        { "en": "Each missed mirror check is typically −2; they add up across the route.", "my": "ကြေးမုံစစ်ဆေးမှု မေ့တိုင်း ပုံမှန်အားဖြင့် −၂။ လမ်းကြောင်းတစ်ခုလုံးတွင် စုပေါင်းသည်။", "ja": "ミラー確認漏れは通常−2ずつ、ルート全体で積み上がる。" }
+        {
+          "en": "Each missed mirror check is typically −2; they add up across the route.",
+          "my": "ကြေးမုံစစ်ဖို့ မေ့တိုင်း ပုံမှန် −၂ မှတ် — လမ်းတစ်လျှောက်လုံးမှာ စုပေါင်းသွားနိုင်ပါတယ်။",
+          "ja": "ミラー確認漏れは通常−2ずつ、ルート全体で積み上がる。"
+        }
       ]
     },
     "traffic": {
       "overview": {
         "en": "Traffic light discipline — amber means stop if safe; red is non-negotiable.",
-        "my": "ယာဉ်မီး စည်းမျဉ်း — အဝါရောင် ဆိုလိုသည်မှာ လုံခြုံရင် ရပ်။ အနီရောင် ဆိုလိုသည်မှာ ငြင်းမရ။",
+        "my": "ယာဉ်မီး စည်းကမ်း — အဝါရောင်ဆိုရင် လုံခြုံရင် ရပ်ရမယ်၊ အနီရောင်ဆိုရင် ဘယ်လိုမှ ဖြတ်လို့မရပါဘူး။",
         "ja": "信号遵守 — 黄は安全なら停止、赤は絶対。"
       },
       "examinerFocus": {
         "en": "Decision at amber; no crossing on red; understand flickering green arrow.",
-        "my": "အဝါရောင်တွင် ဆုံးဖြတ်ချက်။ အနီရောင်တွင် မဖြတ်။ လှုပ်ရှားနေသော အစိမ်းမြား နားလည်မှု။",
+        "my": "အဝါရောင်မှာ ဆုံးဖြတ်နိုင်စွမ်း၊ အနီရောင်တွင် လုံးဝမဖြတ်ခြင်း၊ မှိတ်တုတ်မှိတ်တုတ် အစိမ်းမြားကို နားလည်ခြင်း။",
         "ja": "黄信号の判断、赤での進行禁止、点滅青矢印の理解。"
       },
       "tips": [
-        { "en": "If you can stop safely before the line on amber, you must — creeping forward costs demerits.", "my": "အဝါရောင်တွင် မျဉ်မတိုင်မီ လုံခြုံစွာ ရပ်နိုင်ပါက ရပ်ရမည် — ရှေ့သို့ နှိုးခြင်းသည် demerit ဖြစ်သည်။", "ja": "黄で安全に停止できるなら停止必須 — 進み出しは減点。" }
+        {
+          "en": "If you can stop safely before the line on amber, you must — creeping forward costs demerits.",
+          "my": "အဝါရောင်မှာ မျဉ်းမတိုင်ခင် လုံခြုံစွာ ရပ်နိုင်ရင် ရပ်ပါ — ရှေ့ဆက်ဖိုးအားထုတ်ရင် အမှတ်နှုတ်ခံရမယ်။",
+          "ja": "黄で安全に停止できるなら停止必須 — 進み出しは減点。"
+        }
       ],
       "warnings": [
-        { "en": "Proceed on red = immediate failure (−8 demerits plus test end).", "my": "အနီရောင် လမ်းဖြတ်သွား = ချက်ချင်း ကျရှုံး (−၈ နှင့် စာမေးပွဲ အဆုံးသတ်)။", "ja": "赤信号進行は即失格（−8点かつ試験終了）。" }
+        {
+          "en": "Proceed on red = immediate failure (−8 demerits plus test end).",
+          "my": "အနီရောင်ကို ဖြတ်သွားရင် ချက်ချင်းကျရှုံးမယ် (−၈ မှတ်နဲ့ စာမေးပွဲလည်း ချက်ချင်းရပ်သွားမယ်)။",
+          "ja": "赤信号進行は即失格（−8点かつ試験終了）。"
+        }
       ]
     },
     "general": {
       "overview": {
         "en": "Serious safety breaches — accident, near-miss, or very slow hazard reaction.",
-        "my": "လုံခြုံရေး ပြင်းထန်ချိုးဖောက်မှု — မတော်တဆ၊ နီးစပ်မတော်တဆ၊ အန္တရာယ်ကို နှေးကွေးစွာ ရှောင်ခြင်း။",
+        "my": "လုံခြုံရေးအရ ပြင်းထန်တဲ့ ချိုးဖောက်မှုများ — မတော်တဆထိခိုက်မှု၊ နီးစပ်စွာလွတ်မြောက်မှု၊ ဒါမှမဟုတ် အန္တရာယ်ကို အလွန်နှေးကွေးစွာ တုံ့ပြန်ခြင်း။",
         "ja": "重大な安全違反 — 事故、ニアミス、危険への反応遅れ。"
       },
       "examinerFocus": {
         "en": "Overall risk management; examiner may intervene if you are unsafe.",
-        "my": "စုစုပေါင်း အန္တရာယ် စီမံခန့်ခွဲမှု။ မလုံခြုံပါက စစ်ဆေးသူ ဝင်ရောက်တားဆီးနိုင်သည်။",
+        "my": "စုစုပေါင်း အန္တရာယ်ထိန်းချုပ်နိုင်မှု — မလုံခြုံဘူးလို့ထင်ရင် စစ်ဆေးသူ ဝင်ရောက်တားဆီးနိုင်ပါတယ်။",
         "ja": "総合的なリスク管理。危険なら試験官が介入。"
       },
       "tips": [],
       "warnings": [
-        { "en": "Near accident = −10 and often ends the test immediately.", "my": "နီးစပ်မတော်တဆ = −၁၀ နှင့် မကြာခဏ စာမေးပွဲ ချက်ချင်း အဆုံးသတ်။", "ja": "ニアミスは−10点、多くは即終了。" }
+        {
+          "en": "Near accident = −10 and often ends the test immediately.",
+          "my": "နီးစပ်စွာ မတော်တဆလွတ်မြောက်ရင် −၁၀ မှတ်၊ ဒီအတိုင်း စာမေးပွဲ ချက်ချင်း ရပ်တတ်ပါတယ်။",
+          "ja": "ニアミスは−10点、多くは即終了。"
+        }
       ]
     }
   },
@@ -308,120 +512,196 @@
     "es20": {
       "explain": {
         "en": "Item 20 penalises slow or wrong reaction to the dashboard tap (emergency brake drill) and poor technique on the measured stop.",
-        "my": "အမှတ် ၂၀ သည် dashboard တိုက်ခိုက်မှု (အရေးပေါ်ဘရိတ် လေ့ကျင့်ခန်း) သို့မဟုတ် တိုင်းတာထားသော ရပ်ခြင်းတွင် နည်းလမ်း မှား/တုံ့ဆိုင်းခြင်းကို အပြစ်ပေးသည်။",
+        "my": "အမှတ် ၂၀ က ဒက်ရှ်ဘုတ်တို့တဲ့ လေ့ကျင့်ခန်း (အရေးပေါ်ဘရိတ်) မှာ နှေးကွေးစွာ ဒါမှမဟုတ် အမှားနည်းလမ်းနဲ့ တုံ့ပြန်ခြင်း၊ တိုင်းတာထားတဲ့ ရပ်တန့်မှုမှာ နည်းစနစ်ညံ့ခြင်းကို အမှတ်နှုတ်ပါတယ်။",
         "ja": "項目20はダッシュボードタップ（急ブレーキ訓練）や規定停止での遅れ・技術不良を減点。"
       },
       "avoid": [
-        { "en": "React the same millisecond the tap happens — practise until automatic.", "my": "တိုက်ခိုက်လျင် တစ်စက္ကန့်အတွင်း တုံ့ပြန်ပါ — အလိုအလျောက် ဖြစ်အောင် လေ့ကျင့်ပါ။", "ja": "タップと同時に反応 — 条件反射になるまで練習。" },
-        { "en": "Keep wheels straight; do not swerve while braking.", "my": "စတီယာရင် ချိန်ထားပါ။ ဘရိတ်နင်းစဉ် လမ်းမလွဲပါနှင့်။", "ja": "ハンドルはまっすぐ、制動中に切らない。" }
+        {
+          "en": "React the same millisecond the tap happens — practise until automatic.",
+          "my": "တို့လိုက်တာနဲ့ စက္ကန့်ချင်းအတွင်း တုံ့ပြန်ပါ — အလိုအလျောက်ဖြစ်လာအောင် လေ့ကျင့်ထားပါ။",
+          "ja": "タップと同時に反応 — 条件反射になるまで練習。"
+        },
+        {
+          "en": "Keep wheels straight; do not swerve while braking.",
+          "my": "စတီယာရင်ကို ဖြောင့်ထားပါ၊ ဘရိတ်နင်းနေစဉ် လမ်းမလွှဲပါနဲ့။",
+          "ja": "ハンドルはまっすぐ、制動中に切らない。"
+        }
       ],
       "mistakes": [
-        { "en": "Looking at examiner instead of braking.", "my": "ဘရိတ်မနင်းဘဲ စစ်ဆေးသူကို ကြည့်ခြင်း။", "ja": "ブレーキより試験官を見る。" },
-        { "en": "Braking too softly and rolling past the stop line.", "my": "အားနည်းစွာ ဘရိတ်နင်းပြီး ရပ်စဉ်မျဉ်း ကျော်ခြင်း။", "ja": "弱いブレーキで停止線をオーバー。" }
+        {
+          "en": "Looking at examiner instead of braking.",
+          "my": "ဘရိတ်မနင်းဘဲ စစ်ဆေးသူကို ငေးကြည့်နေခြင်း။",
+          "ja": "ブレーキより試験官を見る。"
+        },
+        {
+          "en": "Braking too softly and rolling past the stop line.",
+          "my": "ဘရိတ်ကို အားနည်းစွာနင်းပြီး ရပ်တန့်မျဉ်းကို ကျော်သွားခြင်း။",
+          "ja": "弱いブレーキで停止線をオーバー。"
+        }
       ],
       "procedure": [
         {
-          "title": { "en": "Dashboard tap drill", "my": "Dashboard တိုက်ခိုက်မှု လေ့ကျင့်ခန်း", "ja": "ダッシュボードタップ訓練" },
-          "body": { "en": "Tester taps → firm brake → clutch/brake balance → full stop → handbrake if needed → observe before moving.", "my": "စစ်ဆေးသူ တိုက် → ခိုင်ခိုင်နင်း → ကလပ်ချ်/ဘရိတ် ဟန်ချက် → ပြည့်စုံရပ် → လိုအပ်ရင် လက်နှိပ်ဘရိတ် → မရွေ့မီ စစ်ဆေးပါ။", "ja": "タップ → 強ブレーキ → クラッチ/ブレーキ調整 → 完全停止 → 必要ならサイドブレーキ → 再出発前確認。" }
+          "title": {
+            "en": "Dashboard tap drill",
+            "my": "ဒက်ရှ်ဘုတ် တို့ခြင်း လေ့ကျင့်ခန်း",
+            "ja": "ダッシュボードタップ訓練"
+          },
+          "body": {
+            "en": "Tester taps → firm brake → clutch/brake balance → full stop → handbrake if needed → observe before moving.",
+            "my": "စစ်ဆေးသူ တို့လိုက် → ခိုင်ခိုင်ဘရိတ်နင်း → ကလပ်ချ်/ဘရိတ် ဟန်ချက်ညှိ → အပြည့်ရပ် → လိုအပ်ရင် လက်ဘရိတ်ဆွဲ → မထွက်ခင် ပတ်ဝန်းကျင်ကို ကြည့်ပါ။",
+            "ja": "タップ → 強ブレーキ → クラッチ/ブレーキ調整 → 完全停止 → 必要ならサイドブレーキ → 再出発前確認。"
+          }
         }
       ]
     },
     "es21": {
       "explain": {
         "en": "Item 21 measures whether you stopped within the distance cones/markers for your speed band (<1 m vs ≥1 m vs straight road).",
-        "my": "အမှတ် ၂၁ သည် သင်၏ အမြန်နှုန်းအပိုင်းနှင့် ကိုက်ညီသော ကွန်း/အမှတ်အသား အကွာအဝေးအတွင်း ရပ်နိုင်မှု တိုင်းတာသည်။",
+        "my": "အမှတ် ၂၁ က သင့်အမြန်နှုန်းအပိုင်းနဲ့ ကိုက်ညီတဲ့ ကွန်း/အမှတ်အသား အကွာအဝေးအတွင်း ရပ်နိုင်မလား (၁ မီတာအောက်၊ ၁ မီတာနှင့်အထက်၊ လမ်းဖြောင့် စသဖြင့်) ဆိုတာကို တိုင်းတာပါတယ်။",
         "ja": "項目21は速度帯に応じたマーカー内停止を評価。"
       },
       "avoid": [
-        { "en": "Cover the brake pedal when approaching the exercise area.", "my": "လေ့ကျင့်ရာ နီးလာရင် ဘရိတ်ပေါ်တွင် ခြေထားပါ။", "ja": "課題接近時はブレーキに足を置く。" }
+        {
+          "en": "Cover the brake pedal when approaching the exercise area.",
+          "my": "လေ့ကျင့်ခန်းနေရာ နီးလာရင် ဘရိတ်ပေါ်မှာ ခြေထားပါ။",
+          "ja": "課題接近時はブレーキに足を置く。"
+        }
       ],
       "mistakes": [
-        { "en": "Stopping too late past markers (−4 to −6).", "my": "အမှတ်အသားကျော် နောက်မှ ရပ်ခြင်း (−၄ မှ −၆)။", "ja": "マーカーを越えて停止（−4〜−6）。" }
+        {
+          "en": "Stopping too late past markers (−4 to −6).",
+          "my": "အမှတ်အသားတွေကျော်ပြီး နောက်ကျမှ ရပ်ခြင်း (−၄ မှ −၆ မှတ်)။",
+          "ja": "マーカーを越えて停止（−4〜−6）。"
+        }
       ]
     },
     "mv22": {
       "explain": {
         "en": "Seatbelt must be on before the vehicle moves at any point — including adjusting in the seat after starting engine.",
-        "my": "ကား ရွေ့လျားမီ ခါးပတ် တပ်ထားရမည် — အင်ဂျင်စပြီး ထိုင်ခုံ ညှိစဉ်ပါ အပါအဝင်။",
+        "my": "ကားမရွေ့ခင် ခါးပတ်တပ်ထားရမယ် — အင်ဂျင်စထွန်းပြီး ထိုင်ခုံညှိနေချိန်ကအစ ပါဝင်ပါတယ်။",
         "ja": "車両が動く前に必ずシートベルト — エンジン始動後の調整時も含む。"
       },
       "avoid": [
-        { "en": "Belt first, every single time, before releasing handbrake.", "my": "လက်နှိပ်ဘရိတ်မဖြေမီ ခါးပတ် အမြဲပထမ။", "ja": "サイドブレーキ解除前に必ずベルト。" }
+        {
+          "en": "Belt first, every single time, before releasing handbrake.",
+          "my": "လက်ဘရိတ်မဖြေခင် ခါးပတ်ကို အမြဲပထမဆုံး တပ်ပါ။",
+          "ja": "サイドブレーキ解除前に必ずベルト。"
+        }
       ],
       "mistakes": [
-        { "en": "Pulling off from the school gate without belt.", "my": "ကျောင်း ဂိတ်မှ ခါးပတ်မတပ်ဘဲ ထွက်ခြင်း။", "ja": "ゲート発進時にベルト未着用。" }
+        {
+          "en": "Pulling off from the school gate without belt.",
+          "my": "ကျောင်းဂိတ်ကနေ ခါးပတ်မတပ်ဘဲ ထွက်ခြင်း။",
+          "ja": "ゲート発進時にベルト未着用。"
+        }
       ]
     },
     "mv23": {
       "explain": {
         "en": "Moving with handbrake still engaged damages the car and scores −2 immediately.",
-        "my": "လက်နှိပ်ဘရိတ် မဖြေဘဲ ရွေ့ခြင်းသည် ကားပျက်စီးပြီး ချက်ချင်း −၂ မှတ်။",
+        "my": "လက်ဘရိတ် မဖြေဘဲ ကားရွေ့ရင် ကားကို ပျက်စီးစေပြီး ချက်ချင်း −၂ မှတ် အမှတ်နှုတ်ခံရမယ်။",
         "ja": "サイドブレーキのまま走行は−2点。"
       },
       "avoid": [
-        { "en": "Feel for release: button/lever fully down before adding acceleration.", "my": "ဖြေပြီးမှ သာ အရှိန်တိုးပါ — ခလုတ်/ဘားလ် အပြည့်အဝ ချိုး/ဆင်းပြီးမှ။", "ja": "完全に解除してからアクセル。" }
+        {
+          "en": "Feel for release: button/lever fully down before adding acceleration.",
+          "my": "ဓာတ်ဆီမနင်းခင် ခလုတ်/ဘားလ် အပြည့်ဖြေပြီးမပြီး လက်ဖြင့်စမ်းသပ်ပါ။",
+          "ja": "完全に解除してからアクセル。"
+        }
       ],
       "mistakes": []
     },
     "sf58": {
       "explain": {
         "en": "Blind spot check before lane change, merge, or pull-out — head turn over shoulder, not mirror-only.",
-        "my": "လမ်းကြောင်းပြောင်း၊ ဝင်ပေါင်း၊ ထွက်ခြင်းမီ မျက်လုံးမမြင်ရ နေရာ — ကြေးမုံတို့သာ မဟုတ် ခါးလှည့်ကြည့်ပါ။",
+        "my": "လမ်းကြောင်းပြောင်း၊ ဝင်ပေါင်း၊ ဒါမှမဟုတ် ထွက်ခါနီးမှာ မျက်စိကွယ်ကို စစ်ပါ — ကြေးမုံပဲကြည့်တာမဟုတ်ဘဲ ပခုံးပေါ်ကနေ လှမ်းကြည့်ရမယ်။",
         "ja": "車線変更・合流・発進前の盲点確認 — ミラーのみでなく肩越し。"
       },
       "avoid": [
-        { "en": "Left shoulder for left moves, right shoulder for right — make it obvious.", "my": "ဘယ်ဘက်အတွက် ဘယ်ခါး၊ ညာဘက်အတွက် ညာခါး — ထင်ရှားအောင် လုပ်ပါ။", "ja": "左動作は左肩、右動作は右肩 — はっきり見せる。" }
+        {
+          "en": "Left shoulder for left moves, right shoulder for right — make it obvious.",
+          "my": "ဘယ်ဘက်သွားရင် ဘယ်ပခုံး၊ ညာဘက်သွားရင် ညာပခုံး — ထင်ရှားအောင် လှမ်းကြည့်ပါ။",
+          "ja": "左動作は左肩、右動作は右肩 — はっきり見せる。"
+        }
       ],
       "mistakes": [
-        { "en": "Only moving eyes in the mirror direction.", "my": "ကြေးမုံ ဘက်သို့ မျက်စိတို့သာ လှည့်ခြင်း။", "ja": "ミラー方向に目だけ動かす。" }
+        {
+          "en": "Only moving eyes in the mirror direction.",
+          "my": "ကြေးမုံဘက်ကို မျက်လုံးပဲလှည့်ကြည့်ခြင်း။",
+          "ja": "ミラー方向に目だけ動かす。"
+        }
       ]
     },
     "ts71": {
       "explain": {
         "en": "Red light infringement is treated as immediate failure — the test typically ends. −8 demerits on the form.",
-        "my": "အနီရောင် ချိုးဖောက်ခြင်းကို ချက်ချင်း ကျရှုံးမှု အဖြစ် သတ်မှတ်သည် — စာမေးပွဲ မကြာခဏ အဆုံးသတ်။ form တွင် −၈ မှတ်။",
+        "my": "အနီရောင် ချိုးဖောက်ခြင်းကို ချက်ချင်းကျရှုံးမှုအဖြစ် သတ်မှတ်ပါတယ် — စာမေးပွဲ မကြာခဏ ချက်ချင်းရပ်သွားမယ်။ ပုံစံပေါ်မှာ −၈ မှတ်။",
         "ja": "赤信号は即失格扱い — 試験終了が多い。用紙上−8点。"
       },
       "avoid": [
-        { "en": "On amber: stop if you can before the line; never accelerate to beat red.", "my": "အဝါရောင် — မျဉ်မတိုင်မီ ရပ်နိုင်ရင် ရပ်။ အနီမဖြစ်အောင် အရှိန်မတိုးပါနှင့်။", "ja": "黄信号は線手前で止まれれば停止。赤を追いかけて加速しない。" }
+        {
+          "en": "On amber: stop if you can before the line; never accelerate to beat red.",
+          "my": "အဝါရောင်မှာ မျဉ်းမတိုင်ခင် ရပ်နိုင်ရင် ရပ်ပါ — အနီမမီအောင် အရှိန်တိုးမပေးပါနဲ့။",
+          "ja": "黄信号は線手前で止まれれば停止。赤を追いかけて加速しない。"
+        }
       ],
       "mistakes": [
-        { "en": "Following front car through amber into red.", "my": "ရှေ့ကားလိုက် အဝါကို ဖြတ်၍ အနီရောက်ခြင်း။", "ja": "前車に続いて黄を抜け赤に入る。" }
+        {
+          "en": "Following front car through amber into red.",
+          "my": "ရှေ့ကားလိုက်ပြီး အဝါရောင်ကို ဖြတ်ကာ အနီရောင်ထိ ဆက်သွားခြင်း။",
+          "ja": "前車に続いて黄を抜け赤に入る。"
+        }
       ]
     },
     "gn72": {
       "explain": {
         "en": "Any contact or near-miss from your action — examiner intervention, −10, immediate fail.",
-        "my": "သင်၏ လုပ်ရပ်ကြောင့် ထိခိုက်မှု သို့မဟုတ် နီးစပ်မတော်တဆ — စစ်ဆေးသူ ဝင်ရောက်၊ −၁၀၊ ချက်ချင်း ကျရှုံး။",
+        "my": "သင့်လုပ်ရပ်ကြောင့် ထိခိုက်မှု ဒါမှမဟုတ် နီးစပ်စွာလွတ်မြောက်မှု ဖြစ်ရင် — စစ်ဆေးသူဝင်ရောက်ပြီး −၁၀ မှတ်နဲ့ ချက်ချင်းကျရှုံးမယ်။",
         "ja": "自分の行動による接触・ニアミス — 試験官介入、−10、即失格。"
       },
       "avoid": [
-        { "en": "When unsure, slow down and yield — hesitation is cheaper than collision.", "my": "မသေချာပါက နှေးပြီး လမ်းပေးပါ — မတော်တဆထက် တုံ့ဆိုင်းခြင်း ပိုသက်သာ။", "ja": "不明なら減速・譲歩 — 衝突より躊躇の方がマシ。" }
+        {
+          "en": "When unsure, slow down and yield — hesitation is cheaper than collision.",
+          "my": "မသေချာရင် နှေးပြီး လမ်းပေးပါ — တုံ့ဆိုင်းတာက တိုက်မိတာထက် ပိုသက်သာပါတယ်။",
+          "ja": "不明なら減速・譲歩 — 衝突より躊躇の方がマシ。"
+        }
       ],
       "mistakes": []
     },
     "nc5a": {
       "explain": {
         "en": "Before any reverse in narrow course, turn and look both ways — 10 demerits if skipped.",
-        "my": "ကျဉ်းသော လမ်းကြောင်းတွင် နပြန်မီ ဘေးနှစ်ဖက် ခေါင်းလှည့်ကြည့်ပါ — မလုပ်ပါက ၁၀ မှတ်။",
+        "my": "ကျဉ်းတဲ့လမ်းကြောင်းမှာ နောက်ပြန်ဆွဲခင် ဘေးနှစ်ဖက်ကို ခေါင်းလှည့်ကြည့်ပါ — မလုပ်ရင် ၁၀ မှတ် အမှတ်နှုတ်ခံရမယ်။",
         "ja": "狭路で後退前に両側確認 — 省略で10点。"
       },
       "avoid": [
-        { "en": "Stop fully, handbrake if needed, then head check left-right-left.", "my": "ပြည့်စုံရပ်၊ လိုအပ်ရင် လက်နှိပ်ဘရိတ်၊ ပြီးမှ ဘယ်-ညာ-ဘယ် ကြည့်ပါ။", "ja": "完全停止、必要ならサイドブレーキ、左右左確認。" }
+        {
+          "en": "Stop fully, handbrake if needed, then head check left-right-left.",
+          "my": "အပြည့်ရပ်ပါ၊ လိုအပ်ရင် လက်ဘရိတ်ဆွဲပါ၊ ပြီးမှ ဘယ်-ညာ-ဘယ် ကြည့်ပါ။",
+          "ja": "完全停止、必要ならサイドブレーキ、左右左確認。"
+        }
       ],
       "mistakes": []
     },
     "pk9a": {
       "explain": {
         "en": "Parallel parking limit 5 minutes, vertical 3 minutes — watch the clock mentally.",
-        "my": "ဘေးချ ၅ မိနစ်၊ ဒေါင်လိုက် ၃ မိနစ် — အချိန်ကို စိတ်ထဲ မှတ်ပါ။",
+        "my": "ဘေးချရပ်နားခြင်း ၅ မိနစ်၊ ဒေါင်လိုက်ရပ်နားခြင်း ၃ မိနစ် အချိန်ကန့်သတ်ရှိပါတယ် — စိတ်ထဲမှာ အချိန်ကို မှတ်ထားပါ။",
         "ja": "縦列5分・直角3分 — 時間を意識。"
       },
       "avoid": [
-        { "en": "If badly aligned, one clean pull-forward correction beats endless shunting.", "my": "နေရာမှားပါက ထပ်လှည့်မများဘဲ တစ်ကြိမ် သန့်သန့် ရှေ့သို့ ညှိပြီး ပြန်ဝင်ပါ။", "ja": "位置が悪ければ何度も動かさず一度前に出てやり直す。" }
+        {
+          "en": "If badly aligned, one clean pull-forward correction beats endless shunting.",
+          "my": "နေရာအဆင်မပြေရင် ထပ်ခါထပ်ခါ ရှေ့နောက်မလှုပ်ဘဲ တစ်ကြိမ်ထဲ သန့်သန့်ရှေ့ဆွဲပြီး ပြန်ဝင်တာက ပိုကောင်းပါတယ်။",
+          "ja": "位置が悪ければ何度も動かさず一度前に出てやり直す。"
+        }
       ],
       "mistakes": [
-        { "en": "Perfectionism until time runs out.", "my": "အချိန်ကုန်သည်အထိ အပြည့်အစုံ လုပ်ရဟန်ဆောင်ခြင်း။", "ja": "時間切れまで完璧を求めすぎる。" }
+        {
+          "en": "Perfectionism until time runs out.",
+          "my": "အချိန်ကုန်တဲ့အထိ အပြည့်အစုံဖြစ်အောင် ကြိုးစားနေခြင်း။",
+          "ja": "時間切れまで完璧を求めすぎる。"
+        }
       ]
     }
   }

@@ -8,12 +8,12 @@
     },
     "subtitle": {
       "en": "Traffic Police demerit checklist — tick penalties as on the official form.",
-      "my": "Traffic Police demerit စာရင်း — တရားဝင် form အတိုင်း အမှတ်များ မှတ်ပါ။",
+      "my": "ယာဉ်ထိန်းရဲ ဒီမာရစ် စာရင်း — တရားဝင်ပုံစံ အတိုင်း အမှန်ခြစ်ပါ။",
       "ja": "交通警察の減点チェックリスト — 公式用紙と同様に減点を記録。"
     },
     "rules": {
       "en": "One immediate failure or 20 demerit points = FAIL. Circle ticks are immediate failures; box ticks carry demerit points shown.",
-      "my": "ချက်ချင်း ကျရှုံးမှု တစ်ခု သို့မဟုတ် demerit ၂၀ မှတ် = ကျရှုံး။ ဝိုင်းအမှတ်သည် ချက်ချင်း ကျရှုံး၊ အကွက်အမှတ်သည် ပြထားသော demerit ပေးသည်။",
+      "my": "ချက်ချင်း ကျရှုံးမှု တစ်ကြိမ်၊ သို့မဟုတ် အမှတ်နှုတ်မှတ် ၂၀ ရောက်ရင် ကျရှုံးသည်။ ဝိုင်းပုံစံသည် ချက်ချင်း ကျရှုံး၊ အကွက်ပုံစံသည် ပြထားသော အမှတ်အတိုင်း နှုတ်သည်။",
       "ja": "即失格1件または減点20点で不合格。丸印は即失格、四角印は表示された減点。"
     }
   },
@@ -244,8 +244,8 @@
       "id": "safety",
       "title": { "en": "Safety check", "my": "လုံခြုံရေး စစ်ဆေးခြင်း", "ja": "安全確認" },
       "items": [
-        { "id": "sf58", "num": 58, "label": { "en": "Fail to check blind spot", "my": "မျက်လုံးမမြင်ရ နေရာ မစစ်ပါ", "ja": "盲点確認不足" }, "demerits": 2 },
-        { "id": "sf59", "num": 59, "label": { "en": "Incorrect checking of blind spot / mirror", "my": "မျက်လုံးမမြင်ရ/ကြေးမုံ စစ်ဆေးမှု မှား", "ja": "盲点・ミラー確認不良" }, "demerits": 2 },
+        { "id": "sf58", "num": 58, "label": { "en": "Fail to check blind spot", "my": "မျက်စိကွယ် မစစ်ပါ", "ja": "盲点確認不足" }, "demerits": 2 },
+        { "id": "sf59", "num": 59, "label": { "en": "Incorrect checking of blind spot / mirror", "my": "မျက်စိကွယ်/ကြေးမုံ စစ်ဆေးမှု မှား", "ja": "盲点・ミラー確認不良" }, "demerits": 2 },
         { "id": "sf60", "num": 60, "label": { "en": "Fail to adjust mirror before driving", "my": "မမောင်းမီ ကြေးမုံ မညှိပါ", "ja": "走行前ミラー調整不足" }, "demerits": 2 },
         {
           "id": "sf61a", "num": 61,
