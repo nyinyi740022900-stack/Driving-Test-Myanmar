@@ -28,9 +28,18 @@ create index if not exists user_feedback_user_idx on public.user_feedback (user_
 alter table public.user_feedback enable row level security;
 
 drop policy if exists "Anyone can submit feedback" on public.user_feedback;
-create policy "Anyone can submit feedback"
+drop policy if exists "Anonymous users submit feedback" on public.user_feedback;
+drop policy if exists "Authenticated users submit feedback" on public.user_feedback;
+
+create policy "Anonymous users submit feedback"
   on public.user_feedback for insert
-  with check (user_id is null or auth.uid() = user_id);
+  to anon
+  with check (user_id is null);
+
+create policy "Authenticated users submit feedback"
+  on public.user_feedback for insert
+  to authenticated
+  with check (auth.uid() = user_id);
 
 drop policy if exists "Users read own feedback" on public.user_feedback;
 create policy "Users read own feedback"

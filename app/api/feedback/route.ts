@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createClient } from '@/lib/supabase-server';
+import { createClient, createServiceClient } from '@/lib/supabase-server';
 import type { Country, FeedbackArea, FeedbackType, Locale } from '@/lib/types';
 
 const VALID_TYPES: FeedbackType[] = ['bug', 'difficulty', 'feedback', 'other'];
@@ -93,7 +93,7 @@ export async function POST(req: NextRequest) {
       priority: type === 'bug' ? 'high' as const : 'normal' as const,
     };
 
-    const { data, error } = await supabase
+    const { data, error } = await (await createServiceClient())
       .from('user_feedback')
       .insert(row)
       .select('id, status, created_at')
