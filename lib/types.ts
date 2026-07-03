@@ -115,6 +115,31 @@ export interface MemberReview {
   user_email?: string;
 }
 
+export type FeedbackType = 'bug' | 'difficulty' | 'feedback' | 'other';
+export type FeedbackArea = 'quiz' | 'account' | 'payment' | 'content' | 'ui' | 'other';
+export type FeedbackStatus = 'pending' | 'reviewing' | 'resolved' | 'dismissed';
+export type FeedbackPriority = 'low' | 'normal' | 'high';
+
+export interface UserFeedback {
+  id: string;
+  user_id: string | null;
+  country: Country | null;
+  locale: Locale | null;
+  type: FeedbackType;
+  area: FeedbackArea;
+  subject: string;
+  body: string;
+  page_url: string | null;
+  contact_email: string | null;
+  status: FeedbackStatus;
+  priority: FeedbackPriority;
+  admin_notes: string | null;
+  reviewed_by: string | null;
+  reviewed_at: string | null;
+  created_at: string;
+  user_email?: string;
+}
+
 /** Japan practice question total — sum of jp_car + jp_moto bank counts (must stay 600). */
 export const JP_PRACTICE_QUESTION_TOTAL = 600;
 

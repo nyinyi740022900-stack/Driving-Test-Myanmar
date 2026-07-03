@@ -26,13 +26,14 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
   // All data fetches use service role (bypasses RLS)
   const service = await createServiceClient();
 
-  const [submissionsRes, usersRes, subscriptionsRes, settingsRes, faqsRes, reviewsRes] = await Promise.all([
+  const [submissionsRes, usersRes, subscriptionsRes, settingsRes, faqsRes, reviewsRes, feedbackRes] = await Promise.all([
     service.from('payment_submissions').select('*').order('created_at', { ascending: false }),
     service.auth.admin.listUsers({ perPage: 200 }),
     service.from('subscriptions').select('*'),
     service.from('app_settings').select('*').order('key'),
     service.from('faqs').select('*').order('country').order('sort_order'),
     service.from('member_reviews').select('*').order('created_at', { ascending: false }),
+    service.from('user_feedback').select('*').order('created_at', { ascending: false }),
   ]);
 
   const submissions = submissionsRes.data ?? [];
@@ -41,6 +42,7 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
   const settings = settingsRes.data ?? [];
   const faqs = faqsRes.data ?? [];
   const reviews = reviewsRes.data ?? [];
+  const feedback = feedbackRes.error ? [] : (feedbackRes.data ?? []);
 
   // Attach email to each submission
   const userMap = Object.fromEntries(users.map(u => [u.id, u.email ?? '']));
@@ -52,6 +54,10 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
     ...r,
     email: userMap[r.user_id] ?? '',
   }));
+  const feedbackWithEmail = feedback.map(f => ({
+    ...f,
+    email: f.user_id ? (userMap[f.user_id] ?? '') : (f.contact_email ?? ''),
+  }));
 
   // Stats
   const totalRevenue = submissions
@@ -59,6 +65,7 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
     .reduce((sum, s) => sum + (s.amount ?? 0), 0);
   const pendingCount = submissions.filter(s => s.status === 'pending').length;
   const pendingReviewCount = reviews.filter(r => r.status === 'pending').length;
+  const pendingFeedbackCount = feedback.filter(f => f.status === 'pending').length;
   const premiumCount = subscriptions.filter(s => s.status === 'premium' && s.expires_at && new Date(s.expires_at) > new Date()).length;
 
   const subMap = Object.fromEntries(subscriptions.map(s => [s.user_id, s]));
@@ -75,12 +82,14 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
       locale={locale}
       submissions={submissionsWithEmail}
       reviews={reviewsWithEmail}
+      feedback={feedbackWithEmail}
       users={usersWithSub}
       stats={{
         totalUsers: users.length,
         premiumUsers: premiumCount,
         pendingPayments: pendingCount,
         pendingReviews: pendingReviewCount,
+        pendingFeedback: pendingFeedbackCount,
         totalRevenue,
       }}
       settings={settings}

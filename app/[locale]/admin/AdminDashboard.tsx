@@ -34,6 +34,23 @@ interface MemberReviewRow {
   admin_notes?: string | null;
 }
 
+interface FeedbackRow {
+  id: string;
+  user_id: string | null;
+  email: string;
+  country: string | null;
+  locale: string | null;
+  type: string;
+  area: string;
+  subject: string;
+  body: string;
+  page_url: string | null;
+  status: 'pending' | 'reviewing' | 'resolved' | 'dismissed';
+  priority: 'low' | 'normal' | 'high';
+  created_at: string;
+  admin_notes?: string | null;
+}
+
 interface UserRow {
   id: string;
   email: string;
@@ -47,6 +64,7 @@ interface Stats {
   premiumUsers: number;
   pendingPayments: number;
   pendingReviews: number;
+  pendingFeedback: number;
   totalRevenue: number;
 }
 
@@ -76,7 +94,7 @@ interface Faq {
   published: boolean;
 }
 
-type Tab = 'overview' | 'payments' | 'reviews' | 'users' | 'content' | 'settings';
+type Tab = 'overview' | 'payments' | 'reviews' | 'feedback' | 'users' | 'content' | 'settings';
 
 const BLANK_FAQ: Omit<Faq, 'id'> = {
   country: 'sg', question_en: '', question_my: '', question_ja: '',
@@ -118,11 +136,12 @@ function ExpiryReminderButton({ userEmail }: { userEmail: string }) {
 }
 
 export default function AdminDashboard({
-  locale, submissions: initialSubs, reviews: initialReviews, users, stats, settings: initialSettings, faqs: initialFaqs, config,
+  locale, submissions: initialSubs, reviews: initialReviews, feedback: initialFeedback, users, stats, settings: initialSettings, faqs: initialFaqs, config,
 }: {
   locale: string;
   submissions: Submission[];
   reviews: MemberReviewRow[];
+  feedback: FeedbackRow[];
   users: UserRow[];
   stats: Stats;
   settings: AppSetting[];
@@ -133,8 +152,11 @@ export default function AdminDashboard({
   const [tab, setTab] = useState<Tab>('overview');
   const [submissions, setSubmissions] = useState(initialSubs);
   const [reviews, setReviews] = useState(initialReviews);
+  const [feedback, setFeedback] = useState(initialFeedback);
   const [notes, setNotes] = useState<Record<string, string>>({});
   const [reviewNotes, setReviewNotes] = useState<Record<string, string>>({});
+  const [feedbackNotes, setFeedbackNotes] = useState<Record<string, string>>({});
+  const [feedbackFilter, setFeedbackFilter] = useState<'all' | 'pending' | 'reviewing' | 'resolved' | 'dismissed'>('pending');
   const [busy, setBusy] = useState<string | null>(null);
   const [userSearch, setUserSearch] = useState('');
 
@@ -235,14 +257,49 @@ export default function AdminDashboard({
     }
   }
 
+  async function actFeedback(id: string, status: FeedbackRow['status'], priority?: FeedbackRow['priority']) {
+    setBusy(id);
+    try {
+      const res = await fetch('/api/admin/feedback/update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          feedbackId: id,
+          status,
+          priority,
+          admin_notes: feedbackNotes[id] ?? '',
+        }),
+      });
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error ?? 'Failed');
+      setFeedback(prev =>
+        prev.map(f => f.id === id ? {
+          ...f,
+          status,
+          priority: priority ?? f.priority,
+          admin_notes: feedbackNotes[id] ?? f.admin_notes ?? null,
+        } : f)
+      );
+    } catch (e) {
+      alert(e instanceof Error ? e.message : 'Error');
+    } finally {
+      setBusy(null);
+    }
+  }
+
   const pending = submissions.filter(s => s.status === 'pending');
   const pendingReviews = reviews.filter(r => r.status === 'pending');
+  const pendingFeedback = feedback.filter(f => f.status === 'pending');
+  const filteredFeedback = feedbackFilter === 'all'
+    ? feedback
+    : feedback.filter(f => f.status === feedbackFilter);
   const filteredUsers = users.filter(u => u.email.toLowerCase().includes(userSearch.toLowerCase()));
 
   const TABS: { key: Tab; label: string; icon: string }[] = [
     { key: 'overview', label: 'Overview', icon: '📊' },
     { key: 'payments', label: `Payments${pending.length ? ` (${pending.length})` : ''}`, icon: '💳' },
     { key: 'reviews', label: `Reviews${pendingReviews.length ? ` (${pendingReviews.length})` : ''}`, icon: '💬' },
+    { key: 'feedback', label: `Feedback${pendingFeedback.length ? ` (${pendingFeedback.length})` : ''}`, icon: '🐛' },
     { key: 'users', label: 'Users', icon: '👥' },
     { key: 'content', label: 'Content', icon: '✏️' },
     { key: 'settings', label: 'Settings', icon: '⚙️' },
@@ -258,9 +315,9 @@ export default function AdminDashboard({
           </Link>
           <div style={{ width: 1, height: 18, background: '#333' }} />
           <span style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '.95rem', color: '#fff' }}>Admin Dashboard</span>
-          {pending.length > 0 && (
+          {(pending.length > 0 || pendingReviews.length > 0 || pendingFeedback.length > 0) && (
             <span style={{ background: '#ef4444', color: '#fff', fontSize: '.72rem', fontWeight: 700, padding: '2px 8px', borderRadius: 99 }}>
-              {pending.length + pendingReviews.length} pending
+              {pending.length + pendingReviews.length + pendingFeedback.length} pending
             </span>
           )}
         </div>
@@ -295,6 +352,7 @@ export default function AdminDashboard({
               <StatCard label="Premium users" value={stats.premiumUsers} icon="⭐" color="#1B9C56" />
               <StatCard label="Pending payments" value={stats.pendingPayments} icon="⏳" color="#d97706" alert={stats.pendingPayments > 0} />
               <StatCard label="Pending reviews" value={stats.pendingReviews} icon="💬" color="#ea580c" alert={stats.pendingReviews > 0} />
+              <StatCard label="Pending feedback" value={stats.pendingFeedback} icon="🐛" color="#dc2626" alert={stats.pendingFeedback > 0} />
               <StatCard label="Total revenue approved" value={`${stats.totalRevenue.toLocaleString()} Ks`} icon="💰" color="#7C3AED" />
             </div>
 
@@ -322,9 +380,32 @@ export default function AdminDashboard({
               </div>
             )}
 
-            {pending.length === 0 && (
+            {pending.length === 0 && pendingFeedback.length === 0 && (
               <div style={{ background: '#fff', borderRadius: 14, padding: '32px', textAlign: 'center', border: '1px solid var(--line)', color: 'var(--ink-soft)' }}>
-                ✓ No pending payments
+                ✓ No pending payments or feedback
+              </div>
+            )}
+
+            {pendingFeedback.length > 0 && (
+              <div style={{ background: '#fff', borderRadius: 14, border: '1.5px solid #fecaca', overflow: 'hidden', marginTop: pending.length > 0 ? 16 : 0 }}>
+                <div style={{ background: '#fef2f2', padding: '14px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                  <span style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.9rem', color: '#991b1b' }}>
+                    🐛 {pendingFeedback.length} report{pendingFeedback.length > 1 ? 's' : ''} awaiting review
+                  </span>
+                  <button onClick={() => setTab('feedback')} style={{ fontSize: '.82rem', fontFamily: 'var(--display)', fontWeight: 700, color: '#991b1b', background: 'none', border: 'none', cursor: 'pointer' }}>
+                    Review now →
+                  </button>
+                </div>
+                <div style={{ padding: '16px 20px', display: 'flex', flexDirection: 'column', gap: 10 }}>
+                  {pendingFeedback.slice(0, 3).map(f => (
+                    <div key={f.id} style={{ display: 'flex', alignItems: 'center', gap: 12, fontSize: '.85rem', flexWrap: 'wrap' }}>
+                      <span style={{ color: 'var(--ink-soft)', minWidth: 80 }}>{new Date(f.created_at).toLocaleDateString()}</span>
+                      <span style={{ fontFamily: 'var(--display)', fontWeight: 600, flex: 1 }}>{f.subject}</span>
+                      <Badge color={f.type === 'bug' ? '#dc2626' : '#d97706'}>{f.type}</Badge>
+                      <span style={{ color: 'var(--ink-soft)' }}>{f.email || 'Guest'}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
           </div>
@@ -489,6 +570,125 @@ export default function AdminDashboard({
                   ))}
                   {reviews.length === 0 && (
                     <tr><td colSpan={10} style={{ textAlign: 'center', padding: '40px', color: 'var(--ink-soft)' }}>No member reviews yet.</td></tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+
+        {/* ── FEEDBACK ── */}
+        {tab === 'feedback' && (
+          <div style={{ background: '#fff', borderRadius: 14, border: '1px solid var(--line)', overflow: 'hidden' }}>
+            <div style={{ padding: '18px 24px', borderBottom: '1px solid var(--line)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
+              <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1rem' }}>User reports & feedback</div>
+              <div style={{ display: 'flex', gap: 8, alignItems: 'center', flexWrap: 'wrap' }}>
+                <select
+                  className="field-input"
+                  value={feedbackFilter}
+                  onChange={e => setFeedbackFilter(e.target.value as typeof feedbackFilter)}
+                  style={{ fontSize: '.82rem', padding: '6px 10px' }}
+                >
+                  <option value="pending">Pending ({pendingFeedback.length})</option>
+                  <option value="reviewing">Reviewing ({feedback.filter(f => f.status === 'reviewing').length})</option>
+                  <option value="resolved">Resolved ({feedback.filter(f => f.status === 'resolved').length})</option>
+                  <option value="dismissed">Dismissed ({feedback.filter(f => f.status === 'dismissed').length})</option>
+                  <option value="all">All ({feedback.length})</option>
+                </select>
+                <Badge color="#d97706">Bug: {feedback.filter(f => f.type === 'bug').length}</Badge>
+                <Badge color="#2563eb">Difficulty: {feedback.filter(f => f.type === 'difficulty').length}</Badge>
+              </div>
+            </div>
+            <div style={{ overflowX: 'auto' }}>
+              <table className="admin-table">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>User</th>
+                    <th>Type</th>
+                    <th>Area</th>
+                    <th>Priority</th>
+                    <th>Subject</th>
+                    <th>Details</th>
+                    <th>Page</th>
+                    <th>Status</th>
+                    <th>Notes</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {filteredFeedback.map(f => (
+                    <tr key={f.id}>
+                      <td style={{ whiteSpace: 'nowrap', fontSize: '.82rem', color: 'var(--ink-soft)' }}>
+                        {new Date(f.created_at).toLocaleDateString()}
+                      </td>
+                      <td style={{ fontSize: '.82rem', maxWidth: 140 }}>
+                        {f.email || 'Guest'}
+                        {f.country && <div style={{ color: 'var(--ink-soft)', fontSize: '.75rem' }}>{f.country.toUpperCase()} · {f.locale ?? '—'}</div>}
+                      </td>
+                      <td><Badge color={f.type === 'bug' ? '#dc2626' : f.type === 'difficulty' ? '#d97706' : '#2563eb'}>{f.type}</Badge></td>
+                      <td style={{ fontSize: '.82rem' }}>{f.area}</td>
+                      <td>
+                        <select
+                          className="field-input"
+                          value={f.priority}
+                          onChange={e => actFeedback(f.id, f.status, e.target.value as FeedbackRow['priority'])}
+                          disabled={busy === f.id}
+                          style={{ fontSize: '.78rem', padding: '4px 8px', minWidth: 80 }}
+                        >
+                          <option value="low">Low</option>
+                          <option value="normal">Normal</option>
+                          <option value="high">High</option>
+                        </select>
+                      </td>
+                      <td style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.85rem', maxWidth: 140 }}>{f.subject}</td>
+                      <td style={{ fontSize: '.82rem', color: 'var(--ink-soft)', maxWidth: 220, lineHeight: 1.4 }}>{f.body.slice(0, 140)}{f.body.length > 140 ? '…' : ''}</td>
+                      <td style={{ fontSize: '.75rem', maxWidth: 120 }}>
+                        {f.page_url ? (
+                          <a href={f.page_url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--guide-deep)', wordBreak: 'break-all' }}>
+                            Link
+                          </a>
+                        ) : '—'}
+                      </td>
+                      <td><StatusBadge status={f.status} /></td>
+                      <td>
+                        <input
+                          className="field-input"
+                          placeholder="Admin notes"
+                          value={feedbackNotes[f.id] ?? f.admin_notes ?? ''}
+                          onChange={e => setFeedbackNotes(prev => ({ ...prev, [f.id]: e.target.value }))}
+                          style={{ minWidth: 120, fontSize: '.82rem', padding: '6px 10px' }}
+                        />
+                      </td>
+                      <td>
+                        <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', whiteSpace: 'nowrap' }}>
+                          {f.status === 'pending' && (
+                            <button
+                              onClick={() => actFeedback(f.id, 'reviewing')}
+                              disabled={busy === f.id}
+                              style={{ padding: '5px 10px', borderRadius: 7, border: 'none', cursor: 'pointer', background: '#2563eb', color: '#fff', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.75rem', opacity: busy === f.id ? .6 : 1 }}
+                            >Review</button>
+                          )}
+                          {f.status !== 'resolved' && (
+                            <button
+                              onClick={() => actFeedback(f.id, 'resolved')}
+                              disabled={busy === f.id}
+                              style={{ padding: '5px 10px', borderRadius: 7, border: 'none', cursor: 'pointer', background: '#1B9C56', color: '#fff', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.75rem', opacity: busy === f.id ? .6 : 1 }}
+                            >Resolve</button>
+                          )}
+                          {f.status !== 'dismissed' && (
+                            <button
+                              onClick={() => actFeedback(f.id, 'dismissed')}
+                              disabled={busy === f.id}
+                              style={{ padding: '5px 10px', borderRadius: 7, border: '1px solid #fca5a5', cursor: 'pointer', background: '#fff', color: '#dc2626', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.75rem', opacity: busy === f.id ? .6 : 1 }}
+                            >Dismiss</button>
+                          )}
+                        </div>
+                      </td>
+                    </tr>
+                  ))}
+                  {filteredFeedback.length === 0 && (
+                    <tr><td colSpan={11} style={{ textAlign: 'center', padding: '40px', color: 'var(--ink-soft)' }}>No feedback in this filter.</td></tr>
                   )}
                 </tbody>
               </table>
@@ -805,6 +1005,9 @@ function StatusBadge({ status }: { status: string }) {
     pending: { bg: '#fef3c7', color: '#92400e' },
     approved: { bg: '#d1fae5', color: '#065f46' },
     rejected: { bg: '#fee2e2', color: '#991b1b' },
+    reviewing: { bg: '#dbeafe', color: '#1e40af' },
+    resolved: { bg: '#d1fae5', color: '#065f46' },
+    dismissed: { bg: '#f3f4f6', color: '#6b7280' },
   };
   const s = map[status] ?? { bg: '#f3f4f6', color: '#374151' };
   return (
