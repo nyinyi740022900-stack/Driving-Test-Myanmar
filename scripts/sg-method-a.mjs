@@ -33,6 +33,14 @@ function questionText(q) {
   ].join(' ');
 }
 
+const GAP_FILL_PATH = path.join(SYLLABUS_DIR, 'sg-method-a-gap-fill.json');
+
+function loadGapFillRefs() {
+  if (!fs.existsSync(GAP_FILL_PATH)) return new Map();
+  const gapFill = loadJson(GAP_FILL_PATH);
+  return new Map(gapFill.filter((q) => q.syllabusRef).map((q) => [q.id, q.syllabusRef]));
+}
+
 function tagQuestion(q, sections) {
   const text = questionText(q).toLowerCase();
   for (const section of sections) {
@@ -47,8 +55,18 @@ function tagBank({ file, syllabus }) {
   const sections = loadJson(path.join(SYLLABUS_DIR, syllabus)).sections;
   const filePath = path.join(QUESTIONS_DIR, file);
   const questions = loadJson(filePath);
+  const gapRefs = loadGapFillRefs();
   let changed = 0;
   for (const q of questions) {
+    if (gapRefs.has(q.id)) {
+      const ref = gapRefs.get(q.id);
+      if (q.syllabusRef !== ref) {
+        q.syllabusRef = ref;
+        changed++;
+      }
+      continue;
+    }
+    if (q.syllabusRef && !q.syllabusRef.startsWith('legacy.')) continue;
     const ref = tagQuestion(q, sections);
     if (q.syllabusRef !== ref) {
       q.syllabusRef = ref;
@@ -94,13 +112,15 @@ function cmdTag() {
 
 function cmdGap() {
   const csvArg = process.argv.indexOf('--csv');
-  const csvPath = csvArg >= 0 ? process.argv[csvArg + 1] : null;
+  const csvPath = csvArg >= 0 ? process.argv[csvArg + 1] : 'docs/sg-method-a-gaps.csv';
   const allGaps = [];
+  let totalGaps = 0;
 
   for (const bank of BANKS) {
     const sections = loadJson(path.join(SYLLABUS_DIR, bank.syllabus)).sections;
     const questions = loadJson(path.join(QUESTIONS_DIR, bank.file));
     const report = coverageReport({ file: bank.file, questions, sections });
+    totalGaps += report.gaps.length;
     console.log(`\n${report.file} (${report.total} questions, ${report.legacyCount} legacy-tagged)`);
     console.log(`  Sections below minimum: ${report.gaps.length}`);
     for (const g of report.gaps.sort((a, b) => b.shortfall - a.shortfall).slice(0, 12)) {
@@ -109,15 +129,14 @@ function cmdGap() {
     allGaps.push(...report.gaps);
   }
 
-  if (csvPath) {
-    const header = 'file,sectionId,title,have,need,shortfall\n';
-    const body = allGaps
-      .map((g) => `"${g.file}","${g.sectionId}","${g.title}",${g.have},${g.need},${g.shortfall}`)
-      .join('\n');
-    fs.mkdirSync(path.dirname(path.join(ROOT, csvPath)), { recursive: true });
-    fs.writeFileSync(path.join(ROOT, csvPath), header + body + '\n', 'utf8');
-    console.log(`\nWrote ${csvPath}`);
-  }
+  const header = 'file,sectionId,title,have,need,shortfall\n';
+  const body = allGaps
+    .map((g) => `"${g.file}","${g.sectionId}","${g.title}",${g.have},${g.need},${g.shortfall}`)
+    .join('\n');
+  const outPath = path.isAbsolute(csvPath) ? csvPath : path.join(ROOT, csvPath);
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
+  fs.writeFileSync(outPath, header + body + (body ? '\n' : ''), 'utf8');
+  console.log(`\nWrote ${csvPath} (${totalGaps} gaps)`);
 }
 
 const cmd = process.argv[2] ?? 'gap';

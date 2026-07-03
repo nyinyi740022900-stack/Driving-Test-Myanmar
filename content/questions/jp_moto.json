@@ -7,7 +7,7 @@
     "prompt": {
       "ja": "「二輪車通行禁止」の標識がある道路は、原動機付自転車も通行することができる。",
       "my": "\"နှစ်ဘီးယာဉ် ဖြတ်သန်းခွင့်မရှိ\" ဆိုင်းဘုတ်ရှိသောလမ်းတွင် အင်ဂျင်တပ် စက်ဘီးလည်း ဖြတ်သန်းခွင့်မရှိပါ။",
-      "en": "mopeds are also allowed on roads marked with \"No Motorcycles Allowed\" signs."
+      "en": "Mopeds are also allowed on roads marked with \"No Motorcycles Allowed\" signs."
     },
     "choices": [
       {
@@ -30,7 +30,8 @@
       "ja": "「二輪車通行禁止」の標識は大型・普通自動二輪車だけでなく原動機付自転車も対象となるため、この標識がある道路は原付も通行できない。",
       "my": "\"နှစ်ဘီးယာဉ် ဖြတ်သန်းခွင့်မရှိ\" ဆိုင်းဘုတ်သည် မော်တော်ဆိုင်ကယ်များအပြင် အင်ဂျင်တပ် စက်ဘီးများကိုလည်း ပါဝင်သောကြောင့် ထိုလမ်းတွင် ဖြတ်သန်းခွင့်မရှိပါ။",
       "en": "The \"No Motorcycles Allowed\" sign applies not only to large and regular motorcycles, but also to mopeds, so even mopeds are not allowed on roads with this sign."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0002",
@@ -63,7 +64,8 @@
       "ja": "黄色の点滅信号は、他の交通に注意しながら進行してよいことを示す信号である。",
       "my": "အဝါရောင် မှိတ်တုတ်မီးသည် အခြားယာဉ်များကို သတိပြုလျက် ဆက်လက် သွားနိုင်ကြောင်း ပြသည်။",
       "en": "A flashing yellow signal indicates that you may proceed while paying attention to other traffic."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0003",
@@ -96,7 +98,8 @@
       "ja": "徐行とは、直ちに停止できる速度で進行することを意味し、おおむね歩く速度程度まで落とす必要がある。",
       "my": "ဖြည်းညင်းစွာမောင်းခြင်းဆိုသည်မှာ ချက်ချင်းရပ်တန့်နိုင်သော အမြန်နှုန်းဖြင့် ဆက်လက်သွားခြင်းကို ဆိုလိုပြီး၊ အကြမ်းဖျင်းအားဖြင့် လူလမ်းလျှောက်နှုန်းအထိ လျှော့ရန် လိုအပ်သည်။",
       "en": "Slowing down means moving at a speed that allows you to stop immediately, and it is necessary to slow down to approximately walking speed."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0004",
@@ -129,7 +132,8 @@
       "ja": "警察官が右腕を垂直に上げる手信号は、その正面・背面の交通に対しては赤信号と同じく停止を意味する。",
       "my": "ရဲတပ်ဖွဲ့ဝင်၏ ညာလက်ကို ဒေါင်လိုက်မြှောက်သော လက်ဖြင့်အချက်ပြမှုသည် သူ့ရှေ့/နောက်ဘက်ယာဉ်များအတွက် မီးနီကဲ့သို့ ရပ်တန့်ရန် ဆိုလိုသည်။",
       "en": "A hand signal in which a police officer raises his right arm vertically indicates a stop for traffic in front and behind him, just like a red light."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0005",
@@ -162,7 +166,8 @@
       "ja": "この標識は矢印で示された方向にしか進行できないことを示し、それ以外の方向へ進むことは禁止されている。",
       "my": "ဤဆိုင်းဘုတ်သည် မြှားဖြင့်ညွှန်ပြထားသော ဦးတည်ရာသို့သာ သွားနိုင်ကြောင်း ပြသပြီး အခြားဦးတည်ရာများကို တားမြစ်ထားသည်။",
       "en": "This sign indicates that you may only proceed in the direction indicated by the arrow; proceeding in any other direction is prohibited."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0006",
@@ -195,7 +200,8 @@
       "ja": "黄色の中央線（追い越しのための右側部分通行禁止）は、はみ出して追い越すことを禁止する規制であり、これに従わなければならない。",
       "my": "အဝါရောင် အလယ်လိုင်းသည် ကျော်တက်ရန် ညာဘက်ခြမ်းသို့ ဖြတ်ဝင်ခြင်းကို တားမြစ်ထားသော စည်းမျဉ်းဖြစ်ပြီး လိုက်နာရမည်။",
       "en": "The yellow center line (no passing on the right side for overtaking) is a regulation that prohibits overtaking and must be followed."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0007",
@@ -228,7 +234,8 @@
       "ja": "一方通行の規制は車両の種類を問わず適用されるため、二輪車も指定方向以外に進行してはならない。",
       "my": "တစ်လမ်းသွားစည်းမျဉ်းသည် ယာဉ်အမျိုးအစားမရွေး အကျုံးဝင်သောကြောင့် နှစ်ဘီးယာဉ်များလည်း သတ်မှတ်ဦးတည်ရာမှလွဲ၍ မသွားရ။",
       "en": "One-way traffic regulations apply regardless of vehicle type, so motorcycles must not proceed in any direction other than the designated direction."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0008",
@@ -261,7 +268,8 @@
       "ja": "踏切あり標識は前方に踏切があることを警告し、速度を落として安全に通過できるよう備えるためのものである。",
       "my": "ရထားလမ်းဖြတ်ရှိသည် ဆိုင်းဘုတ်သည် ရှေ့တွင် ရထားလမ်းဖြတ်ရှိကြောင်း သတိပေးပြီး ဘေးကင်းစွာ ဖြတ်သန်းနိုင်ရန် ပြင်ဆင်ရန်အတွက်ဖြစ်သည်။",
       "en": "A railroad crossing sign warns you that there is a railroad crossing ahead and tells you to slow down and prepare to cross safely."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0009",
@@ -294,7 +302,8 @@
       "ja": "速度標識がない場合でも、原動機付自転車には法定最高速度（時速30キロ）が常に適用される。",
       "my": "အမြန်နှုန်းဆိုင်းဘုတ်မရှိသည့်တိုင် အင်ဂျင်တပ်စက်ဘီးအတွက် ဥပဒေသတ်မှတ် အမြန်နှုန်းအများဆုံး (နာရီ၃၀ကီလိုမီတာ) ကို အမြဲသက်ဆိုင်စေသည်။",
       "en": "Even if there are no speed signs, the legal maximum speed (30 km/h) applies to mopeds at all times."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0010",
@@ -327,7 +336,8 @@
       "ja": "右左折の合図は、その行為をしようとする地点（交差点等）の30メートル手前で出すのが基本だが、進路変更の合図はその約3秒前に出す必要がある。",
       "my": "ညာ/ဘယ်ကွေ့ခြင်းအတွက် အချက်ပြမှုကို လမ်းဆုံမတိုင်မီ မီတာ၃၀ခန့်တွင် ပြုလုပ်ရပြီး၊ လမ်းကြောင်းပြောင်းရန် အချက်ပြမှုကို ၃စက္ကန့်ခန့်အလိုတွင် ပြုလုပ်ရမည်။",
       "en": "Basically, the signal to turn left or right should be given 30 meters before the point (intersection, etc.) where you intend to make the turn, but the signal to change direction must be given about 3 seconds before that point."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0011",
@@ -360,7 +370,8 @@
       "ja": "優先道路を通行する車両がある場合、そうでない道路から進入する車両は一時停止し、優先道路の通行を妨げないようにしなければならない。",
       "my": "ဦးစားပေးလမ်းပေါ်၌ သွားနေသောယာဉ်ရှိပါက အခြားလမ်းမှဝင်လာသောယာဉ်သည် ခေတ္တရပ်ပြီး ဦးစားပေးလမ်း၏ သွားလာမှုကို မနှောင့်ယှက်ရ။",
       "en": "If there is a vehicle traveling on the priority road, vehicles approaching from other roads must stop temporarily so as not to obstruct traffic on the priority road."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0012",
@@ -393,7 +404,8 @@
       "ja": "道幅が同程度の道路同士が交わる交差点では、右方から来る車は左方から来る車に道を譲らなければならない。",
       "my": "လမ်းအကျယ်တူသော လမ်းများ ဆုံသည့်လမ်းဆုံတွင် ညာဘက်မှလာသောယာဉ်သည် ဘယ်ဘက်မှလာသောယာဉ်ကို လမ်းပေးရမည်။",
       "en": "At intersections where roads of similar width intersect, vehicles coming from the right must yield to vehicles coming from the left."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0013",
@@ -425,8 +437,9 @@
     "explanation": {
       "ja": "駐車禁止場所はあくまで長時間の駐車を禁止する場所であるが、標識が「駐停車禁止」であれば短時間の停車も禁止されており、標識をよく確認する必要がある。",
       "my": "ကားရပ်ခွင့်မရှိသောနေရာသည် ကြာရှည်ရပ်နားခြင်းကိုသာ တားမြစ်သော်လည်း \"ရပ်နားခြင်း/ကားရပ်ခွင့်မရှိ\" ဆိုင်းဘုတ်ဖြစ်ပါက အချိန်တိုရပ်နားခြင်းကိုလည်း တားမြစ်သောကြောင့် ဆိုင်းဘုတ်ကို သေချာစစ်ဆေးရန် လိုအပ်သည်။",
-      "en": "A no-parking area is a place where long-term parking is prohibited, but if the sign says \"No Parking', short-term parking is also prohibited, so you need to check the sign carefully."
-    }
+      "en": "A no-parking area is a place where long-term parking is prohibited, but if the sign says \"No Parking\", short-term parking is also prohibited, so you need to check the sign carefully."
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0014",
@@ -459,7 +472,8 @@
       "ja": "交差点内やその付近にいるときは、交差点を避け、道路の左側に寄って一時停止し、緊急自動車に進路を譲らなければならない。",
       "my": "လမ်းဆုံအတွင်း သို့မဟုတ် အနီးတွင်ရှိနေပါက လမ်းဆုံကို ရှောင်ပြီး လမ်းဘယ်ဘက်သို့ ကပ်၍ ခေတ္တရပ်ကာ အရေးပေါ်ယာဉ်အတွက် လမ်းဖွင့်ပေးရမည်။",
       "en": "If you are in or near an intersection, you must avoid the intersection, move to the left side of the road, stop, and yield to emergency vehicles."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0015",
@@ -491,8 +505,9 @@
     "explanation": {
       "ja": "原動機付自転車は自動車専用道路及び高速自動車国道を通行することができない。",
       "my": "အင်ဂျင်တပ်စက်ဘီးများသည် မော်တော်ကားအထူးလမ်းမနှင့် အမြန်လမ်းမကြီးများတွင် ဖြတ်သန်းခွင့်မရှိပါ။",
-      "en": "mopeds are not allowed on expressways and national highways."
-    }
+      "en": "Mopeds are not allowed on expressways and national highways."
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0016",
@@ -525,7 +540,8 @@
       "ja": "横断歩道を横断しようとする歩行者がいる場合、車両は必ず一時停止して歩行者の安全を確保しなければならない。",
       "my": "လူသွားလမ်းကို ဖြတ်ကူးရန်ရှိသူရှိပါက ယာဉ်သည် မဖြစ်မနေ ခေတ္တရပ်ပြီး လူသွားလမ်းသွားသူများ၏ ဘေးကင်းမှုကို သေချာစေရမည်။",
       "en": "When a pedestrian attempts to cross a crosswalk, vehicles must stop temporarily to ensure the safety of the pedestrian."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0017",
@@ -558,7 +574,8 @@
       "ja": "前車が右折のため右側に寄って進行している場合、その左側を通行して進むことは追い越しに該当せず、許される。",
       "my": "ရှေ့ယာဉ်သည် ညာကွေ့ရန် ညာဘက်သို့ ကပ်ပြီးသွားနေပါက ၎င်း၏ ဘယ်ဘက်ဖြင့် ဖြတ်သွားခြင်းသည် ကျော်တက်ခြင်းအဖြစ် မသတ်မှတ်ဘဲ ခွင့်ပြုသည်။",
       "en": "If the vehicle in front of you is making a right turn and is proceeding on the right side, passing on the left side of the vehicle does not constitute overtaking and is permitted."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0018",
@@ -591,7 +608,8 @@
       "ja": "一定の条件を満たした自動二輪車は二人乗りが認められているが、標識で二人乗り禁止とされている高速道路区間などでは禁止される。",
       "my": "သတ်မှတ်အခြေအနေများ ပြည့်မီသော မော်တော်ဆိုင်ကယ်များသည် လူနှစ်ယောက်တင်ခွင့်ရှိသော်လည်း ဆိုင်းဘုတ်ဖြင့် လူနှစ်ယောက်တင်ခွင့်မရှိဆိုသော အမြန်လမ်းမကဏ္ဍများတွင် တားမြစ်ထားသည်။",
       "en": "Motorcycles that meet certain conditions are permitted to carry two people, but this is prohibited on expressway sections where signs prohibit two-person riding."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0019",
@@ -624,7 +642,8 @@
       "ja": "後方の車両の速度や方向を急に変えさせるおそれがあるときは、合図を出していても進路変更をしてはならない。",
       "my": "နောက်ဘက်ယာဉ်၏ အမြန်နှုန်း သို့မဟုတ် ဦးတည်ရာကို ရုတ်တရက်ပြောင်းလဲစေနိုင်ချေရှိပါက အချက်ပြထားသည့်တိုင် လမ်းကြောင်းမပြောင်းရ။",
       "en": "If there is a risk that the vehicle behind you will suddenly change speed or direction, do not change course even if you give a signal."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0020",
@@ -657,7 +676,8 @@
       "ja": "環状交差点では、すでに内部を通行している車両が優先されるため、進入する車両は徐行し、安全を確認してから入らなければならない。",
       "my": "လမ်းဝန်းကွက်တွင် အတွင်းမှ ရှိနှင့်သော ယာဉ်များကို ဦးစားပေးသောကြောင့် ဝင်လာမည့်ယာဉ်သည် ဖြည်းညင်းစွာသွားပြီး ဘေးကင်းမှုကို စစ်ဆေးပြီးမှ ဝင်ရမည်။",
       "en": "At roundabouts, vehicles already passing through the intersection have priority, so vehicles entering the intersection must drive slowly and ensure it is safe before entering."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0021",
@@ -690,7 +710,8 @@
       "ja": "二輪車のカーブ走行では、車体を適切に傾けて遠心力とバランスを取ることが基本であり、ハンドルだけで急に向きを変えると転倒の危険が高まる。",
       "my": "နှစ်ဘီးယာဉ်ဖြင့် ကွေ့ရာလမ်းမောင်းချိန် ကိုယ်ထည်ကို သင့်လျော်စွာ စောင်းပြီး centrifugal force နှင့် ချိန်ညှိမှုထားရှိရန် အခြေခံကျသည်။ လက်တံတစ်ခုတည်းဖြင့် ရုတ်တရက် ဦးတည်ရာပြောင်းခြင်းသည် လှိမ့်ကျနိုင်ခြေ မြင့်စေသည်။",
       "en": "When driving a two-wheeled vehicle around a curve, it is essential to tilt the vehicle appropriately to balance the centrifugal force, and sudden changes in direction using only the handlebars increase the risk of falling."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0022",
@@ -723,7 +744,8 @@
       "ja": "カーブ中はタイヤの接地面が傾いてグリップが弱くなっているため、急ブレーキをかけるとスリップして転倒しやすくなる。",
       "my": "ကွေ့နေချိန် ဘီးနှင့် မြေပြင်ထိတွေ့မှု စောင်းနေသောကြောင့် ဆက်ကိုက်မှု အားနည်းသည်။ ထိုအချိန်တွင် ဘရိတ်ပြင်းနှိပ်ပါက ဘီးချော်ပြီး လှိမ့်ကျလွယ်သည်။",
       "en": "During a curve, the tire's contact surface is tilted and grip is weakened, making it more likely to slip and fall if you brake suddenly."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0023",
@@ -756,7 +778,8 @@
       "ja": "低速でのバランス走行では、視線を近くの一点に固定するとふらつきやすくなるため、視線を遠くに向けて進行方向全体を見ることが望ましい。",
       "my": "အလျင်နှေးချိန် ချိန်ညှိမောင်းနှင်ရာတွင် အမြှော်ကို အနီးအနားအမှတ်တစ်ခုတည်း၌ ပုံသေထားပါက လှုပ်ရှားယိမ်းယိုင်လွယ်သောကြောင့် ဦးတည်ရာတစ်ခုလုံးကို မျှော်ကြည့်ပြီး ဝေးသောနေရာသို့ အမြှော်ပို့ထားရန် ကောင်းသည်။",
       "en": "When driving balance at low speeds, fixing your line of sight to one nearby point can make you easily sway, so it is better to turn your line of sight into the distance and see the entire direction of travel."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0024",
@@ -789,7 +812,8 @@
       "ja": "同じ速度であれば、カーブの半径が小さいほど遠心力に対抗するために必要な傾斜角は大きくなる。",
       "my": "အမြန်နှုန်းတူပါက ကွေ့ရာလမ်း၏ အချင်းဝက် သေးငယ်လေ centrifugal force ကိုခုခံရန် လိုအပ်သော ကိုယ်ထည်စောင်းထားမှု ပိုကြီးလေဖြစ်သည်။",
       "en": "At the same speed, the smaller the radius of the curve, the greater the angle of inclination needed to counter centrifugal force."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0025",
@@ -822,7 +846,8 @@
       "ja": "濡れた路面はタイヤのグリップが大幅に低下するため、乾燥時よりも速度を落とし、傾斜角も小さくして余裕を持って通行する必要がある。",
       "my": "စိုစွတ်နေသောလမ်းပြင်တွင် ဘီးဆက်ကိုက်မှု များစွာကျဆင်းသောကြောင့် လမ်းခြောက်ချိန်ထက် အမြန်နှုန်းကို ပိုမိုလျှော့ပြီး ကိုယ်ထည်စောင်းထားမှုကိုလည်း လျှော့ထားရန် လိုအပ်သည်။",
       "en": "Tire grip is significantly reduced on wet roads, so it is necessary to drive at a slower speed than when the road is dry, reduce the angle of inclination, and allow plenty of leeway."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0026",
@@ -855,7 +880,8 @@
       "ja": "カーブの途中で膨らんでしまった場合、急ブレーキは車体を起き上がらせてさらに外側へ膨らませる危険があるため、車体の傾きを保ちながら視線を進みたい方向へ向けて軌道を修正するのが安全である。",
       "my": "ကွေ့ရာလမ်းအတွင်း ပိုကျယ်စွာ ရောက်သွားသည့်အခါ ဘရိတ်ပြင်းနှိပ်ခြင်းသည် ကိုယ်ထည်ကို ပြန်ထောင်စေပြီး ပိုမိုအပြင်ဘက်သို့ ကျယ်စေနိုင်ခြင်းကြောင့် ကိုယ်ထည်စောင်းမှုကို ဆက်ထားလျက် မျက်လုံးကို သွားလိုသည့်ဦးတည်ရာသို့ ညွှန်ပြီး လမ်းကြောင်းပြင်ဆင်ခြင်းက ပိုဘေးကင်းသည်။",
       "en": "If the curve bulges out in the middle of a curve, there is a risk that sudden braking will cause the vehicle to rise up and bulge further outward, so it is safe to correct the trajectory by keeping the vehicle tilted and keeping the line of sight in the direction you want to travel."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0027",
@@ -865,7 +891,7 @@
     "prompt": {
       "ja": "「追越し禁止」の標識がある区間では、原動機付自転車であっても自転車を追い越すことは禁止される。",
       "my": "\"ကျော်တက်ခြင်းမပြုလုပ်ရ\" ဆိုင်းဘုတ်ရှိသောကဏ္ဍတွင် အင်ဂျင်တပ်စက်ဘီးဖြစ်လျှင်လည်း စက်ဘီးကို ကျော်တက်ခြင်းကို တားမြစ်သည်။",
-      "en": "In areas where there is a \"No Passing' sign, it is prohibited to overtake bicycles, even mopeds."
+      "en": "In areas where there is a \"No Passing\" sign, it is prohibited to overtake bicycles, even mopeds."
     },
     "choices": [
       {
@@ -888,7 +914,8 @@
       "ja": "追越し禁止の標識は自動車同士の追い越しを規制するものであり、軽車両（自転車）を追い越す行為自体は禁止されていない。ただし安全な側方間隔を確保する必要がある。",
       "my": "ကျော်တက်ခြင်းမပြုလုပ်ရ ဆိုင်းဘုတ်သည် မော်တော်ယာဉ်များအချင်းချင်း ကျော်တက်မှုကို ကန့်သတ်ထားခြင်းဖြစ်ပြီး၊ ပေါ့ပါးယာဉ် (စက်ဘီး) ကို ကျော်တက်ခြင်းကို တားမြစ်ထားခြင်းမဟုတ်ပါ။ သို့သော် ဘေးကင်းသော အကွာအဝေးထားရှိရန် လိုအပ်သည်။",
       "en": "The no-passing sign restricts passing between cars; passing light vehicles (bicycles) itself is not prohibited. However, it is necessary to ensure safe lateral distance."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0028",
@@ -921,7 +948,8 @@
       "ja": "車両通行止めの標識がある道路は、自動二輪車や原動機付自転車を含むすべての車両が通行できない。",
       "my": "ယာဉ်ဖြတ်သန်းခွင့်မရှိ ဆိုင်းဘုတ်ရှိသောလမ်းသည် မော်တော်ဆိုင်ကယ်နှင့် အင်ဂျင်တပ်စက်ဘီးအပါအဝင် ယာဉ်အားလုံး ဖြတ်သန်းခွင့်မရှိပါ။",
       "en": "Roads marked as closed to vehicles are closed to all vehicles, including motorcycles and mopeds."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0029",
@@ -954,7 +982,8 @@
       "ja": "踏切では信号機の有無にかかわらず、すべての車両は踏切の直前で一時停止し、左右の安全を確認してから渡らなければならない。",
       "my": "ရထားလမ်းဖြတ်တွင် အချက်ပြမီးရှိ/မရှိနှင့် မသက်ဆိုင်ဘဲ ယာဉ်အားလုံးသည် ရထားလမ်းဖြတ်ရှေ့တွင် ခေတ္တရပ်ပြီး ဘယ်/ညာ ဘေးကင်းမှုကို စစ်ဆေးပြီးမှ ဖြတ်ရမည်။",
       "en": "At a railroad crossing, regardless of whether there is a traffic light or not, all vehicles must stop immediately before the crossing and check that both sides are safe before crossing."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0030",
@@ -987,7 +1016,8 @@
       "ja": "右折の手信号は、右腕を水平に伸ばす方法と、左腕を出して肘を垂直に上げる方法のいずれでも表すことができる。",
       "my": "ညာကွေ့ရန် လက်ဖြင့်အချက်ပြမှုကို ညာလက်ကို ပြားလိုက်ဆန့်ခြင်းနည်းလမ်း သို့မဟုတ် ဘယ်လက်ထုတ်ပြီး တံတောင်ဆစ်ကို ဒေါင်လိုက်မြှောက်ခြင်းနည်းလမ်း နှစ်မျိုးလုံးဖြင့် ဖော်ပြနိုင်သည်။",
       "en": "The hand signal for a right turn can be expressed either by extending the right arm horizontally or by extending the left arm and raising the elbow vertically."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0031",
@@ -1020,7 +1050,8 @@
       "ja": "二輪車を含む車両は、右折する際あらかじめ道路の中央（一方通行では右端）に寄り、交差点の中心のすぐ内側を通って小回りで右折しなければならない。",
       "my": "နှစ်ဘီးယာဉ်အပါအဝင် ယာဉ်များသည် ညာကွေ့သည့်အခါ ကြိုတင်ပြီး လမ်းအလယ်ဘက် (တစ်လမ်းသွားလမ်းတွင် ညာဘက်စွန်း) သို့ ကပ်ပြီး လမ်းဆုံအလယ်ချက်၏ အတွင်းဘက်အနီးမှ ကျော်ဖြတ်၍ ကျုံ့ညုပ်စွာ ညာကွေ့ရမည်။",
       "en": "When making a right turn, vehicles, including motorcycles, must first approach the center of the road (the far right on one-way streets), pass just inside the center of the intersection, and make a short right turn."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0032",
@@ -1030,7 +1061,7 @@
     "prompt": {
       "ja": "「二段階右折」の指定がある交差点では、原動機付自転車は小回りで右折してはならない。",
       "my": "\"နှစ်ဆင့်ညာကွေ့ရန်\" သတ်မှတ်ထားသော လမ်းဆုံတွင် အင်ဂျင်တပ်စက်ဘီးသည် ကျုံ့ညုပ်စွာ ညာကွေ့ခြင်း မပြုလုပ်ရ။",
-      "en": "At intersections where a \"two-stage right turn' is designated, mopeds must not make a short right turn."
+      "en": "At intersections where a \"two-stage right turn\" is designated, mopeds must not make a short right turn."
     },
     "choices": [
       {
@@ -1053,7 +1084,8 @@
       "ja": "二段階右折が指定された交差点では、原動機付自転車はまず直進して道路の左端に出て向きを変え、対面の信号に従って右折する必要があり、小回り右折は禁止されている。",
       "my": "နှစ်ဆင့်ညာကွေ့ရန် သတ်မှတ်ထားသော လမ်းဆုံတွင် အင်ဂျင်တပ်စက်ဘီးသည် ရှေ့ဦးစွာ တည့်တည့်သွား၍ လမ်းဘယ်ဘက်စွန်းသို့ ရောက်ပြီး ဦးတည်ရာပြောင်းကာ ဆန့်ကျင်ဘက်အချက်ပြမီးအတိုင်း ညာကွေ့ရန် လိုအပ်ပြီး ကျုံ့ညုပ်ညာကွေ့ခြင်းကို တားမြစ်သည်။",
       "en": "At intersections where two-stage right turns are designated, mopeds must first go straight, exit to the left edge of the road, turn around, and then turn right according to the oncoming traffic lights; short right turns are prohibited."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0033",
@@ -1086,7 +1118,8 @@
       "ja": "けん引中の自動車を追い越す場合も、通常の追い越しと同様に前方や対向車の安全を十分確認しなければならず、無条件に自由に追い越せるわけではない。",
       "my": "အခြားယာဉ်ကို ဆွဲငင်နေသော မော်တော်ကားကို ကျော်တက်သည့်အခါတွင်လည်း ပုံမှန်ကျော်တက်မှုကဲ့သို့ ရှေ့ဘက်နှင့် ဆန့်ကျင်ဘက်ယာဉ်၏ ဘေးကင်းမှုကို လုံလောက်စွာ စစ်ဆေးရမည်ဖြစ်ပြီး အခြေအနေမရွေး လွတ်လပ်စွာ ကျော်တက်နိုင်ခြင်း မဟုတ်ပါ။",
       "en": "When passing a car that is being towed, you must check the safety of the vehicle ahead and oncoming, just as you would for normal overtaking, and you are not free to overtake without conditions."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0034",
@@ -1119,7 +1152,8 @@
       "ja": "停車中の路線バスが発進の合図をしたときは、後方車両は速度を落とすなどしてその発進を妨げないようにしなければならない。",
       "my": "ရပ်နားနေသော လမ်းကြောင်းအသွားအပြန်ဘတ်စ်ကားသည် ထွက်ခွာရန် အချက်ပြသည့်အခါ နောက်ဘက်ယာဉ်သည် အရှိန်လျှော့စသည်ဖြင့် ၎င်း၏ ထွက်ခွာမှုကို မနှောင့်ယှက်ရ။",
       "en": "When a parked route bus signals to start, vehicles behind must slow down so as not to interfere with the start of the bus."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0035",
@@ -1152,7 +1186,8 @@
       "ja": "追い越しは原則として前車の右側から行わなければならず、左側からの追い越し（追い抜き）は原則禁止されている。",
       "my": "ကျော်တက်ခြင်းကို အခြေခံအားဖြင့် ရှေ့ယာဉ်၏ ညာဘက်မှသာ ပြုလုပ်ရမည်ဖြစ်ပြီး ဘယ်ဘက်မှ ကျော်တက်ခြင်းကို အခြေခံအားဖြင့် တားမြစ်ထားသည်။",
       "en": "As a general rule, overtaking must be done from the right side of the vehicle in front, and overtaking (overtaking) from the left side is generally prohibited."
-    }
+    },
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "id": "jp_moto_0036",
@@ -1185,7 +1220,8 @@
       "ja": "停止する直前はハンドルを正面に向けてから停止する方が車体が安定し、ハンドルが切れたままだと不意にバランスを崩しやすい。",
       "my": "ရပ်တန့်မည့်မတိုင်မီ လက်တံကို ရှေ့ဘက်တည့်တည့်ပြန်ထားပြီးမှ ရပ်ခြင်းသည် ကိုယ်ထည်ကို ပိုတည်ငြိမ်စေပြီး လက်တံ စောင်းနေပါက ရုတ်တရက် ချိန်ညှိမှုပျက်လွယ်သည်။",
       "en": "It is better to turn the steering wheel toward the front before stopping, as this will make the vehicle more stable; if the steering wheel is left turned, it is easier to lose balance unexpectedly."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0037",
@@ -1218,7 +1254,8 @@
       "ja": "カーブの手前ではアクセルを戻して減速を始め、前後ブレーキを適切に併用して安全な速度まで落としてからカーブに進入するのが基本である。",
       "my": "ကွေ့ရာလမ်းမတိုင်မီ အရှိန်ပေးချက်ကို ပြန်ဆုတ်ပြီး အရှိန်လျော့စေကာ ရှေ့/နောက် ဘရိတ်နှစ်ခုကို သင့်လျော်စွာ ပေါင်းသုံးပြီး ဘေးကင်းသော အမြန်နှုန်းအထိ လျှော့ပြီးမှ ကွေ့ရာလမ်းသို့ ဝင်ခြင်းသည် အခြေခံကျသည်။",
       "en": "The basic rule is to start decelerating by releasing the accelerator before entering the curve, and use both the front and rear brakes appropriately to reduce the speed to a safe level before entering the curve."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0038",
@@ -1251,7 +1288,8 @@
       "ja": "下り坂のカーブでは、エンジンブレーキと前後ブレーキを適切に併用して速度を一定に保つことが望ましく、フロントブレーキだけに頼るとフェードや転倒の危険が増す。",
       "my": "တောင်ကုန်းကွေ့ရာလမ်းတွင် အင်ဂျင်ဘရိတ်နှင့် ရှေ့/နောက်ဘရိတ်တို့ကို သင့်လျော်စွာ ပေါင်းသုံးကာ အမြန်နှုန်းကို တည်ငြိမ်စွာ ထားရှိရန် ကောင်းပြီး၊ ရှေ့ဘရိတ်တစ်ခုတည်းကိုသာ အားကိုးပါက ဘရိတ်ပျက်ခြင်းနှင့် လှိမ့်ကျနိုင်ခြေ မြင့်တက်သည်။",
       "en": "On downhill curves, it is advisable to use a combination of engine braking and front and rear brakes to maintain a constant speed; relying solely on the front brake increases the risk of fading or falling."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0039",
@@ -1284,7 +1322,8 @@
       "ja": "発進時は半クラッチの状態を保ちながらアクセルを少しずつ開けることで、エンジンの力をスムーズに伝え、車体を安定させて発進できる。",
       "my": "ထွက်ခွာချိန် ကလပ်ချ်ကို တစ်ဝက်ထားသည့် အခြေအနေကို ထားရှိလျက် အရှိန်ပေးချက်ကို အနည်းငယ်ချင်း ဖွင့်ခြင်းဖြင့် အင်ဂျင်စွမ်းအားကို ချောမွေ့စွာ ပေးပို့ပြီး ကိုယ်ထည်ကို တည်ငြိမ်စွာ ထွက်ခွာနိုင်သည်။",
       "en": "When starting, by keeping the clutch in a partially engaged state and gradually opening the accelerator, the power of the engine is transmitted smoothly and the vehicle can be stabilized before starting."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0040",
@@ -1317,7 +1356,8 @@
       "ja": "S字やクランクのような低速での切り返しでは、ハンドル操作だけに頼らず、目線・体重移動・一定のアクセルとクラッチ操作を組み合わせて安定を保つことが重要である。",
       "my": "S-ပုံစံ သို့မဟုတ် crank ကဲ့သို့ အလျင်နှေးချိန် ကွေ့ပြောင်းမှုများတွင် လက်တံအသုံးပြုမှုတစ်ခုတည်းကို မအားကိုးဘဲ မျက်လုံးအမြှော်၊ ကိုယ်အလေးချိန်ရွှေ့ခြင်းနှင့် တည်ငြိမ်သော အရှိန်ပေးချက်/ကလပ်ချ်ထိန်းခြင်းတို့ကို ပေါင်းစပ်အသုံးပြုခြင်းသည် တည်ငြိမ်မှုထားရှိရန် အရေးကြီးသည်။",
       "en": "When making low-speed turns such as S-curves or crank turns, it is important to maintain stability by not only relying on steering wheel operation, but also through a combination of line of sight, weight shift, constant accelerator and clutch operation."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0041",
@@ -1350,7 +1390,8 @@
       "ja": "高速道路のカーブは大きな半径で設計されていることが多く、速度も高いため、無理に傾斜角を大きくせず、余裕のある速度と進路で通行することが重要である。",
       "my": "အမြန်လမ်းမရှိ ကွေ့ရာလမ်းများသည် များသောအားဖြင့် အချင်းဝက်ကြီးမားစွာ ဒီဇိုင်းထုတ်ထားပြီး အမြန်နှုန်းလည်း မြင့်သောကြောင့် ကိုယ်ထည်စောင်းထားမှုကို အတင်းမကြီးမားစေဘဲ လုံလောက်သော အမြန်နှုန်းနှင့် လမ်းကြောင်းဖြင့် ဖြတ်သန်းရန် အရေးကြီးသည်။",
       "en": "Expressway curves are often designed with large radii and speeds are high, so it is important to drive at a speed and route that allows plenty of leeway without making the slope angle too large."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0042",
@@ -1383,7 +1424,8 @@
       "ja": "停止時は両足を地面につけて車体を支え、バランスを保つことが基本的な操作である。",
       "my": "ရပ်နားချိန်တွင် ခြေထောက်နှစ်ဖက်လုံးကို မြေပြင်တွင် ထားကာ ကိုယ်ထည်ကို ထောက်ခံပြီး ချိန်ညှိမှုထားရှိခြင်းသည် အခြေခံကျသော လုပ်ဆောင်ချက်ဖြစ်သည်။",
       "en": "When stopping, the basic operation is to keep both feet on the ground to support the vehicle and maintain balance."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0043",
@@ -1416,7 +1458,8 @@
       "ja": "二人乗りのときは車体の重心が高くなり、ブレーキの効きも変わるため、一人乗りのときよりも速度を落とし、余裕を持ってカーブを通行する必要がある。",
       "my": "လူနှစ်ယောက်တင်ချိန်တွင် ကိုယ်ထည်၏ အလေးချိန်အလယ်ချက် မြင့်တက်ပြီး ဘရိတ်အာနိသင်လည်း ပြောင်းလဲသောကြောင့် လူတစ်ယောက်တင်ချိန်ထက် အမြန်နှုန်းကို ပိုလျှော့ပြီး လုံလောက်စွာ ကွေ့ရာလမ်းကို ဖြတ်သန်းရန် လိုအပ်သည်။",
       "en": "When riding with two people, the center of gravity of the vehicle is higher and the effectiveness of the brakes changes, so it is necessary to drive at a slower speed than when riding alone and negotiate curves with more leeway."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0044",
@@ -1449,7 +1492,8 @@
       "ja": "連続するカーブでは、次のカーブの形状や見通しを常に確認しながら速度を調整する必要があり、一つ目を抜けた直後に無条件で最大加速するのは危険である。",
       "my": "ကွေ့ဆက်ဆက်တွင် နောက်ကွေ့၏ပုံသဏ္ဍာန်နှင့် မြင်ကွင်းကို အမြဲ စစ်ဆေးလျက် အမြန်နှုန်းကို ညှိနေရန် လိုအပ်ပြီး၊ တစ်ခုကို ကျော်ပြီးချင်း အခြေအနေမရွေး အများဆုံးအထိ အရှိန်တင်ခြင်းသည် အန္တရာယ်ရှိသည်။",
       "en": "When navigating a series of curves, it is necessary to adjust speed while constantly checking the shape and outlook of the next curve, and it is dangerous to accelerate to maximum speed immediately after passing the first curve."
-    }
+    },
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "id": "jp_moto_0045",
@@ -1459,7 +1503,7 @@
     "prompt": {
       "ja": "「警笛鳴らせ」の標識がある場所では、見通しの悪いカーブや踏切でなくても常にクラクションを鳴らさなければならない。",
       "my": "\"တွန်းမှုတ်ရန်\" ဆိုင်းဘုတ်ရှိသောနေရာတွင် မြင်ကွင်းမကောင်းသော ကွေ့ရာလမ်း သို့မဟုတ် ရထားလမ်းဖြတ်မဟုတ်လျှင်လည်း အမြဲတွန်းမှုတ်ရမည်။",
-      "en": "You must always honk your horn in areas where there is a \"honk your horn' sign, even if you are not at a curve with poor visibility or at a railroad crossing."
+      "en": "You must always honk your horn in areas where there is a \"honk your horn\" sign, even if you are not at a curve with poor visibility or at a railroad crossing."
     },
     "choices": [
       {
@@ -1482,7 +1526,8 @@
       "ja": "「警笛鳴らせ」の標識がある区間では、その場所を通行するすべての車両が必ず警音器を鳴らさなければならない。",
       "my": "\"တွန်းမှုတ်ရန်\" ဆိုင်းဘုတ်ရှိသောကဏ္ဍတွင် ထိုနေရာကို ဖြတ်သန်းသော ယာဉ်အားလုံးသည် မဖြစ်မနေ တွန်းမှုတ်ရမည်။",
       "en": "In areas where there is a \"Sound your horn\" sign, all vehicles passing through that area must sound their horns."
-    }
+    },
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "id": "jp_moto_0046",
@@ -1515,7 +1560,8 @@
       "ja": "大型車両は車体が大きいため、後方や左側面など運転席から直接見えない死角が多く、二輪車はその死角に入らないよう注意する必要がある。",
       "my": "ထရပ်ကားကြီးများသည် ကိုယ်ထည်ကြီးမားသောကြောင့် ယာဉ်မောင်းနေရာမှ တိုက်ရိုက်မမြင်ရသော အမြင်မအောင်နေရာများ များစွာရှိပြီး နှစ်ဘီးယာဉ်များသည် ထိုနေရာများထဲသို့ မဝင်ရောက်ရန် သတိပြုရမည်။",
       "en": "Because large vehicles have large bodies, there are many blind spots such as the rear and left side that cannot be seen directly from the driver's seat, and motorcycles must be careful not to enter these blind spots."
-    }
+    },
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "id": "jp_moto_0047",
@@ -1548,7 +1594,8 @@
       "ja": "二輪車は自動車に比べて車体が小さく速度判断もされにくいため、ライトの点灯や明るい服装で他の運転者に存在を知らせることが事故防止につながる。",
       "my": "နှစ်ဘီးယာဉ်သည် မော်တော်ကားနှင့်နှိုင်းယှဉ်ပါက ကိုယ်ထည်သေးငယ်ပြီး အမြန်နှုန်းကိုလည်း ခန့်မှန်းရခက်သောကြောင့် မီးထွန်းလင်းခြင်း သို့မဟုတ် အရောင်ဖျော့သော အဝတ်အစားများ ဝတ်ဆင်ခြင်းဖြင့် အခြားယာဉ်မောင်းသူများကို ၎င်း၏တည်ရှိမှုကို အသိပေးခြင်းသည် မတော်တဆမှု ကာကွယ်ရေးအတွက် အကျိုးရှိသည်။",
       "en": "Motorcycles are smaller than cars, making it difficult to judge their speed, so alerting other drivers to your presence by turning on your lights and wearing bright clothing can help prevent accidents."
-    }
+    },
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "id": "jp_moto_0048",
@@ -1581,7 +1628,8 @@
       "ja": "前車のすぐ後ろに付くと、その運転者のミラーの死角に入りやすく、二輪車の存在が見えなくなる危険があるため、車間距離を保ち見える位置を取ることが重要である。",
       "my": "ရှေ့ယာဉ်၏ နောက်ကျောကပ်နေပါက ထိုယာဉ်မောင်းသူ၏ မှန်အမြင်မအောင်နေရာတွင် ကျနေလွယ်ပြီး နှစ်ဘီးယာဉ်၏ တည်ရှိမှု မမြင်ရသော အန္တရာယ်ရှိသောကြောင့် ယာဉ်ကြားအကွာအဝေး ထားရှိပြီး မြင်နိုင်သောနေရာတွင် နေရန် အရေးကြီးသည်။",
       "en": "If you follow directly behind the vehicle in front of you, you are likely to be in the blind spot of the driver's mirror, and there is a risk that you will not be able to see the motorcycle, so it is important to maintain a safe following distance and take a position where you can see the vehicle."
-    }
+    },
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "id": "jp_moto_0049",
@@ -1614,7 +1662,8 @@
       "ja": "二輪車のヘッドライトは1つで車幅が狭いため、対向車の運転者から遠くの一点光源と誤認されやすく、距離や速度を見誤られる原因になることがある。",
       "my": "နှစ်ဘီးယာဉ်၏ ရှေ့မီးသည် တစ်လုံးတည်းဖြစ်ပြီး ယာဉ်အကျယ်ကျဉ်းသောကြောင့် ဆန့်ကျင်ဘက်ယာဉ်မောင်းသူက ဝေးလံသော အလင်းရောင်တစ်ခုအဖြစ် ထင်မှားလွယ်ပြီး အကွာအဝေးနှင့် အမြန်နှုန်းကို မှားယွင်းတွက်ချက်စေနိုင်သည်။",
       "en": "Motorcycles have only one headlight and are narrow, so drivers of oncoming vehicles can easily misinterpret them as a distant light source, which can lead to misjudged distance and speed."
-    }
+    },
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "id": "jp_moto_0050",
@@ -1647,7 +1696,8 @@
       "ja": "対向右折車は奥から接近する二輪車を見落として右折を始めることがあるため、二輪車側は速度を落とし、目線を合わせるなど自衛運転が必要である。",
       "my": "ဆန့်ကျင်ဘက်ညာကွေ့ယာဉ်သည် အဝေးမှ ချဉ်းကပ်လာသော နှစ်ဘီးယာဉ်ကို လွှင့်ပစ်ပြီး ညာကွေ့ခြင်း စတင်နိုင်သောကြောင့် နှစ်ဘီးယာဉ်ဘက်မှ အမြန်နှုန်းလျှော့ပြီး မျက်လုံးချင်းဆုံစေခြင်း စသည်ဖြင့် မိမိကိုယ်ကို ကာကွယ်သော မောင်းနှင်မှု လိုအပ်သည်။",
       "en": "Oncoming right-turning vehicles may overlook motorcycles approaching from the rear and start turning, so motorcycles must drive defensively by slowing down and maintaining eye contact."
-    }
+    },
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "id": "jp_moto_0051",
@@ -1679,8 +1729,9 @@
     "explanation": {
       "ja": "ミラーには映らない死角があるため、進路変更や右左折の前には首を動かして目視で確認する「シェルダーチェック」のような習慣が安全につながる。",
       "my": "မှန်တွင် မထင်ဟပ်နိုင်သော အမြင်မအောင်နေရာများ ရှိသောကြောင့် လမ်းကြောင်းပြောင်းခြင်း သို့မဟုတ် ဘယ်/ညာကွေ့ခြင်းမတိုင်မီ ခေါင်းလှည့်ပြီး မျက်စိဖြင့် စစ်ဆေးသော အလေအကျင့်သည် ဘေးကင်းမှုအတွက် အကျိုးရှိသည်။",
-      "en": "Since there are blind spots that are not reflected in mirrors, habits such as the \"shelter check,' in which you move your head to visually check before changing course or turning left or right, will lead to safety."
-    }
+      "en": "Since there are blind spots that are not reflected in mirrors, habits such as the \"shelter check,\" in which you move your head to visually check before changing course or turning left or right, will lead to safety."
+    },
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "id": "jp_moto_0052",
@@ -1713,7 +1764,8 @@
       "ja": "視界が悪くなる雨天時や夕暮れ時には、明るい色や反射材付きの装備を身につけることで他の運転者から発見されやすくなり、事故防止に役立つ。",
       "my": "မြင်ကွင်းညံ့ဖျင်းသော မိုးရွာချိန် သို့မဟုတ် နေဝင်ချိန်များတွင် လင်းသော အရောင် သို့မဟုတ် အလင်းပြန်ပစ္စည်းတပ်ဆင်ထားသော ဝတ်စုံများကို ဝတ်ဆင်ခြင်းဖြင့် အခြားယာဉ်မောင်းသူများ ပိုမိုတွေ့မြင်နိုင်ပြီး မတော်တဆမှု ကာကွယ်ရေးအတွက် အကျိုးရှိသည်။",
       "en": "During rainy weather or at dusk, when visibility is poor, wearing brightly colored or reflective gear will make you more visible to other drivers and help prevent accidents."
-    }
+    },
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "id": "jp_moto_0053",
@@ -1746,7 +1798,8 @@
       "ja": "車体の小さい二輪車は実際よりも遠くにあるように見えやすく、自動車の運転者がその距離を見誤って交差点に進入することが事故の一因となる。",
       "my": "ကိုယ်ထည်သေးငယ်သော နှစ်ဘီးယာဉ်သည် အမှန်တကယ်ထက် ဝေးသည်ဟု မြင်ရလွယ်ပြီး မော်တော်ကားယာဉ်မောင်းသူများ ထိုအကွာအဝေးကို မှားယွင်းမြင်ကာ လမ်းဆုံသို့ ဝင်ရောက်ခြင်းသည် မတော်တဆမှု၏ အကြောင်းရင်းတစ်ခု ဖြစ်သည်။",
       "en": "Small-sized motorcycles tend to appear farther away than they actually are, and motorists misjudge the distance and enter intersections, contributing to accidents."
-    }
+    },
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "id": "jp_moto_0054",
@@ -1779,7 +1832,8 @@
       "ja": "停車している大型車両は歩行者の姿を隠してしまうため、二輪車もその脇を通過する際は速度を落として歩行者の飛び出しに備える必要がある。",
       "my": "ရပ်နားနေသော ယာဉ်ကြီးများသည် လူသွားလမ်းသွားသူများကို ကွယ်ဝှက်ထားနိုင်သောကြောင့် နှစ်ဘီးယာဉ်များသည်လည်း ၎င်းတို့၏ဘေးကို ဖြတ်သန်းချိန် အရှိန်လျှော့ပြီး လူသွားလမ်းသွားသူ ရုတ်တရက် ပေါ်လာနိုင်ခြေအတွက် ပြင်ဆင်ရန် လိုအပ်သည်။",
       "en": "Large parked vehicles hide pedestrians, so motorcycles must slow down when passing by them and be prepared for pedestrians to jump out."
-    }
+    },
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "id": "jp_moto_0055",
@@ -1812,7 +1866,8 @@
       "ja": "ミラーには映らない死角が必ず存在するため、進路変更や右左折の際はミラー確認に加えて首を振って目視確認することが必要である。",
       "my": "မှန်တွင် မထင်ဟပ်နိုင်သော အမြင်မအောင်နေရာ မဖြစ်မနေရှိနေသောကြောင့် လမ်းကြောင်းပြောင်းခြင်း သို့မဟုတ် ဘယ်/ညာကွေ့ခြင်းတွင် မှန်စစ်ဆေးမှုအပြင် ခေါင်းလှည့်ပြီး မျက်စိဖြင့် စစ်ဆေးခြင်းကိုပါ လိုအပ်သည်။",
       "en": "There are always blind spots that are not reflected in the mirror, so when changing course or turning left or right, in addition to checking the mirror, it is necessary to shake your head and visually check."
-    }
+    },
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "id": "jp_moto_0056",
@@ -1845,7 +1900,8 @@
       "ja": "車線中央には他車のオイルや砂利が溜まりやすいことがあるため、路面状況や周囲の安全を見ながら走行位置を柔らかく調整することが望ましい。",
       "my": "လမ်းကြောင်းအလယ်ဗိုလ်တွင် အခြားယာဉ်များ၏ ဆီစက်များ သို့မဟုတ် ကျောက်စရစ်များ စုစည်းလွယ်ခြင်းကြောင့် လမ်းပြင်အခြေအနေနှင့် ပတ်ဝန်းကျင်ဘေးကင်းမှုကို ကြည့်ပြီး မောင်းနှင်နေရာကို ပျော့ပျောင်းစွာ ညှိနိုင်ရန် ကောင်းသည်။",
       "en": "Oil and gravel from other vehicles can easily accumulate in the center of the lane, so it is advisable to gently adjust your driving position while keeping an eye on road conditions and the safety of your surroundings."
-    }
+    },
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "id": "jp_moto_0057",
@@ -1878,7 +1934,8 @@
       "ja": "路面電車の軌道を斜めに横切ると前輪が溝にはまり、ハンドルを取られて転倒する危険があるため、できるだけ直角に近い角度で横切るべきである。",
       "my": "လမ်းပေါ်ရထား၏ တရွက်ကို ထောင့်ဖြတ်စွာ ဖြတ်ကူးပါက ရှေ့ဘီးသည် ကျောက်ကြားတွင် ညှပ်ဝင်ပြီး လက်တံ ဆုံးရှုံးကာ လှိမ့်ကျနိုင်ခြေ ရှိသောကြောင့် တတ်နိုင်သမျှ ထောင့်တည့်တည့်ဖြတ်ကူးသင့်သည်။",
       "en": "If you cross the tram tracks diagonally, your front wheels may get stuck in the groove, causing you to lose your grip and fall, so you should cross the tram tracks at an angle as close to a right angle as possible."
-    }
+    },
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "id": "jp_moto_0058",
@@ -1911,7 +1968,8 @@
       "ja": "金属製のマンホールのふたや塗装された白線は、雨で濡れるとアスファルトよりも摩擦が少なくなり、タイヤが滑りやすくなる。",
       "my": "သံဖြင့်ပြုလုပ်ထားသော မန်ဟိုးလ်အဖုံးနှင့် ဆေးသုတ်ထားသော အဖြူရောင်လိုင်းများသည် မိုးကြောင့် စိုစွတ်လာသောအခါ asphalt ထက် ပွတ်တိုက်မှု နည်းသွားပြီး ဘီးချော်လွယ်သည်။",
       "en": "When metal manhole covers and painted white lines get wet from rain, they have less friction than asphalt, making tires slippery."
-    }
+    },
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "id": "jp_moto_0059",
@@ -1944,7 +2002,8 @@
       "ja": "工事現場の鉄板は滑りやすく段差もあるため、速度を落とし、車体を垂直に保ったまま直線的にゆっくり通過するのが安全である。",
       "my": "ဆောက်လုပ်ရေးနေရာရှိ သံပြားများသည် ချော်လွယ်ပြီး အမြင့်ကွာခြားမှုလည်း ရှိနိုင်သောကြောင့် အမြန်နှုန်းလျှော့ပြီး ကိုယ်ထည်ကို ဒေါင်လိုက်ထားလျက် တည့်တည့်လမ်းကြောင်းဖြင့် ဖြည်းညင်းစွာ ဖြတ်သန်းခြင်းက ဘေးကင်းသည်။",
       "en": "The steel plates at the construction site are slippery and there are some steps, so it is safe to slow down and slowly pass in a straight line while keeping your vehicle vertical."
-    }
+    },
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "id": "jp_moto_0060",
@@ -1977,7 +2036,8 @@
       "ja": "路肩には砂利や落ち葉、ゴミなどが溜まりやすく、グリップが低下するため、二輪車は左端ぎりぎりを走るのではなく、安全な範囲で走行位置を調整する必要がある。",
       "my": "လမ်းနံဘေးတွင် ကျောက်စရစ်များ၊ ရွက်ကြွေများ၊ အမှိုက်များ စုစည်းလွယ်ပြီး ဘီးဆက်ကိုက်မှု ကျဆင်းသောကြောင့် နှစ်ဘီးယာဉ်သည် ဘယ်ဘက်စွန်းအနီးကပ်ပြီး မမောင်းနှင်ဘဲ ဘေးကင်းသောနယ်ပယ်တွင် မောင်းနှင်နေရာကို ညှိရန် လိုအပ်သည်။",
       "en": "Gravel, fallen leaves, garbage, etc. tend to accumulate on the road shoulder, reducing grip, so motorcycles need to adjust their riding position within a safe range rather than riding on the edge of the left edge."
-    }
+    },
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "id": "jp_moto_0061",
@@ -2010,7 +2070,8 @@
       "ja": "トンネルの出入口では明るさが急に変わるため、目が慣れるまで一時的に見えにくくなり、速度を落として備える必要がある。",
       "my": "လှိုဏ်ခေါင်း၏ ဝင်/ထွက်ဝတွင် အလင်းရောင် ရုတ်တရက် ပြောင်းလဲသောကြောင့် မျက်လုံးက ရင်းနှီးအောင် ခေတ္တကြာချိန်အထိ မြင်ရခက်နိုင်ပြီး အရှိန်လျှော့၍ ပြင်ဆင်ထားရန် လိုအပ်သည်။",
       "en": "At tunnel entrances and exits, the brightness changes suddenly, making it temporarily difficult to see until your eyes adjust, so you need to slow down and be prepared."
-    }
+    },
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "id": "jp_moto_0062",
@@ -2043,7 +2104,8 @@
       "ja": "前車に隠れる位置を走行すると対向車や交差車両から発見されにくくなるため、視界が確保できる位置取り（レーンポジション）を意識することが安全運転につながる。",
       "my": "ရှေ့ယာဉ်နောက်တွင် ကွယ်ဝှက်နေသော နေရာတွင် မောင်းနှင်ပါက ဆန့်ကျင်ဘက်ယာဉ် သို့မဟုတ် ဖြတ်ဖြတ်ယာဉ်များက တွေ့ရှိရန် ခက်ခဲစေသောကြောင့် မြင်ကွင်းရရှိနိုင်သော မောင်းနှင်နေရာကို သတိပြုခြင်းသည် ဘေးကင်းသော မောင်းနှင်မှုအတွက် အကျိုးရှိသည်။",
       "en": "If you drive behind the vehicle in front of you, you will be less likely to be spotted by oncoming or crossing vehicles, so being aware of the lane position that allows you to have a clear view will lead to safe driving."
-    }
+    },
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "id": "jp_moto_0063",
@@ -2076,7 +2138,8 @@
       "ja": "落ち葉や砂が積もった路面は、晴天時でもタイヤと路面の間に薄い層を作りグリップを低下させるため、速度を落として通過する必要がある。",
       "my": "ရွက်ကြွေနှင့် သဲများ စုပုံနေသော လမ်းပြင်သည် နေသာသောနေ့ ဖြစ်ပါသော်လည်း ဘီးနှင့် လမ်းပြင်အကြား ပါးလွှာသော အလွှာတစ်ခု ဖန်တီးပြီး ဆက်ကိုက်မှုကို ကျဆင်းစေသောကြောင့် အရှိန်လျှော့ပြီး ဖြတ်သန်းရန် လိုအပ်သည်။",
       "en": "Roads covered with fallen leaves and sand create a thin layer between the tires and the road, reducing grip, even on sunny days, so drivers need to drive at a slower speed."
-    }
+    },
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "id": "jp_moto_0064",
@@ -2109,7 +2172,8 @@
       "ja": "わだちの状態は路面や天候によって異なり、雨天時にはわだちに水がたまり、盛り上がった部分が逆に滑りやすくなることもあるため、常に同じ位置が安全とは限らず、状況判断が必要である。",
       "my": "ယာဉ်ဘီးညှပ်ရွေ့၏ အခြေအနေသည် လမ်းပြင်နှင့် ရာသီဥတုအလိုက် ကွဲပြားပြီး မိုးရွာချိန် ညှပ်ရွေ့အတွင်း ရေစုနိုင်ပြီး မြင့်တက်သောနေရာကများ ပြောင်းပြန်ချော်လွယ်နိုင်သောကြောင့် မည်သည့်အချိန်တွင်မဆို တူညီသောနေရာက ဘေးကင်းသည်ဟု မဆိုနိုင်ဘဲ အခြေအနေအလိုက် ဆုံးဖြတ်ရန် လိုအပ်သည်။",
       "en": "The condition of the ruts varies depending on the road surface and weather, and during rainy weather, water can collect in the ruts and the raised areas can become slippery, so it is not always safe to stay in the same position, so it is necessary to judge the situation."
-    }
+    },
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "id": "jp_moto_0065",
@@ -2142,7 +2206,8 @@
       "ja": "合流時は本線車両の死角に入らず、見える位置で速度を合わせてから合流することで、追突や接触の危険を減らすことができる。",
       "my": "ပေါင်းစည်းချိန် main lane ယာဉ်များ၏ အမြင်မအောင်နေရာတွင် မကျရောက်ဘဲ မြင်နိုင်သောနေရာတွင် အမြန်နှုန်းညှိပြီးမှ ပေါင်းစည်းခြင်းဖြင့် နောက်ကြောင်းရိုက်ခံရမှုနှင့် ထိခိုက်မှု အန္တရာယ်ကို လျှော့ချနိုင်သည်။",
       "en": "When merging, you can reduce the risk of rear-end collisions or collisions by adjusting your speed at a spot where you can see the main line vehicles, and not in their blind spots."
-    }
+    },
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "id": "jp_moto_0066",
@@ -2175,7 +2240,8 @@
       "ja": "マンホールや白線、ペイント部分は雨の日は特に滑りやすくなるため、二輪車はできるだけ避けて通行する必要がある。",
       "my": "မန်ဟိုးလ်၊ အဖြူရောင်လိုင်းနှင့် ဆေးသုတ်ထားသောနေရာများသည် မိုးရွာချိန် အထူးသဖြင့် ချော်လွယ်သောကြောင့် နှစ်ဘီးယာဉ်များသည် ဖြစ်နိုင်သမျှ ရှောင်ပြီးဖြတ်သန်းရန် လိုအပ်သည်။",
       "en": "Manholes, white lines, and painted areas can become especially slippery on rainy days, so motorcycles should avoid passing them as much as possible."
-    }
+    },
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "id": "jp_moto_0067",
@@ -2208,7 +2274,8 @@
       "ja": "降り始めの雨は路面の油膜を浮き上がらせ、四輪車より接地面積が小さい二輪車は転倒の危険が特に高くなる。",
       "my": "မိုးစတင်ရွာချိန် လမ်းမျက်နှာပြင်ရှိ ဆီလှုိင်းသည် ပေါ်လာပြီး ယာဉ်လေးဘီးထက် ထိတွေ့မျက်နှာပြင်ငယ်သော နှစ်ဘီးယာဉ်များသည် လှိမ့်ကျနိုင်ခြေ အထူးမြင့်တက်လာသည်။",
       "en": "When it starts to rain, the oil film on the road surface is lifted, and two-wheeled vehicles, which have a smaller ground contact area than four-wheeled vehicles, are especially at risk of falling."
-    }
+    },
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "id": "jp_moto_0068",
@@ -2241,7 +2308,8 @@
       "ja": "二輪車は風の影響を受けやすく、強い横風では転倒の危険があるため、速度を落として風に備えた走行をする必要がある。",
       "my": "နှစ်ဘီးယာဉ်များသည် လေ၏သက်ရောက်မှုကို လွယ်တကူခံစားရသောကြောင့် အင်အားကြီးလေဘေးတိုက်ချိန် လှိမ့်ကျနိုင်ခြေရှိသောကြောင့် အရှိန်လျှော့ပြီး လေအတွက်ပြင်ဆင်ထားသော မောင်းနှင်မှုပြုလုပ်ရန် လိုအပ်သည်။",
       "en": "Motorcycles are susceptible to the effects of wind, and strong crosswinds can cause them to fall over, so it is necessary to reduce speed and prepare for the wind."
-    }
+    },
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "id": "jp_moto_0069",
@@ -2274,7 +2342,8 @@
       "ja": "雨天時はタイヤのグリップが低下しているため、前後輪のブレーキを優しく、特に前輪は慎重にかけてスリップを防ぐ必要がある。",
       "my": "မိုးရွာချိန် ဘီးကိုက်မှုလျော့ကျနေသောကြောင့် ရှေ့/နောက်ဘီးကို နူးညံ့စွာနှိပ်ပြီး၊ အထူးသဖြင့် ရှေ့ဘီးကို သတိထားစွာနှိပ်ကာ ချော်ခြင်းကို ကာကွယ်ရန်လိုအပ်သည်။",
       "en": "In rainy weather, tire grip is reduced, so it is necessary to apply the brakes on the front and rear wheels gently, especially on the front wheels, to prevent slipping."
-    }
+    },
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "id": "jp_moto_0070",
@@ -2307,7 +2376,8 @@
       "ja": "濃い霧の中では他の車両から見えにくいため、ライトを点灯して自車の存在を知らせることが安全のために重要である。",
       "my": "မီးခိုးထူထပ်ချိန် အခြားယာဉ်များထံမှ မြင်ရခက်ခဲသောကြောင့် မီးထွန်းပြီး မိမိကား၏ ရှိနေမှုကို အသိပေးခြင်းသည် ဘေးကင်းမှုအတွက် အရေးကြီးသည်။",
       "en": "In dense fog, it is difficult for other vehicles to see you, so it is important for your safety to turn on your lights to alert you to your vehicle."
-    }
+    },
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "id": "jp_moto_0071",
@@ -2340,7 +2410,8 @@
       "ja": "猛暑でアスファルトが軟化すると路面が不安定になり、特に二輪車は影響を受けやすいため速度を落として走行する必要がある。",
       "my": "ပူနွေးချိန် ကတ္တရာလမ်းပျော့ပျောင်းသွားလျှင် လမ်းမျက်နှာပြင် မတည်ငြိမ်လာပြီး အထူးသဖြင့် နှစ်ဘီးယာဉ်များ သက်ရောက်မှုခံရလွယ်သောကြောင့် အရှိန်လျှော့ပြီးမောင်းနှင်ရန် လိုအပ်သည်။",
       "en": "As the asphalt softens due to intense heat, the road surface becomes unstable, and motorcycles are especially susceptible to the effects, so they need to drive at reduced speeds."
-    }
+    },
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "id": "jp_moto_0072",
@@ -2373,7 +2444,8 @@
       "ja": "落ち葉の下は湿気がこもりやすく非常に滑りやすいため、見た目では分からない危険として二輪車は特に注意が必要である。",
       "my": "ရွက်ကြွေအောက်ဘက်တွင် စွတ်စိုဆွဲထားလွယ်ပြီး အလွန်ချော်လွယ်သောကြောင့် အသေးမြင်ရခက်သောအန္တရာယ်အဖြစ် နှစ်ဘီးယာဉ်များ အထူးသတိထားရန်လိုအပ်သည်။",
       "en": "Moisture tends to accumulate under fallen leaves and it can be very slippery, so motorcyclists need to be especially careful as this is an invisible danger."
-    }
+    },
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "id": "jp_moto_0073",
@@ -2406,7 +2478,8 @@
       "ja": "二輪車は接地面積が小さく雪道や凍結路面では非常に転倒しやすいため、走行を避けることが推奨される。",
       "my": "နှစ်ဘီးယာဉ်များသည် ထိတွေ့မျက်နှာပြင်ငယ်သောကြောင့် နှင်းလမ်းနှင့် ရေခဲနေသောလမ်းများတွင် အလွန်လှိမ့်ကျလွယ်သောကြောင့် မောင်းနှင်ခြင်းကို ရှောင်ရန် အကြံပြုထားသည်။",
       "en": "It is recommended to avoid riding motorcycles on snowy or icy roads, as they have a small ground contact area and are extremely prone to tipping over."
-    }
+    },
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "id": "jp_moto_0074",
@@ -2439,7 +2512,8 @@
       "ja": "視界不良時は反応時間や停止距離が延びるため、二輪車は速度を落とし車間距離を広くとって安全を確保する必要がある。",
       "my": "မြင်ကွင်းညံ့ဖျင်းချိန် တုံ့ပြန်ချိန်နှင့် ရပ်ရန်အကွာအဝေး ပိုကြာရှည်လာသောကြောင့် နှစ်ဘီးယာဉ်များသည် အရှိန်လျှော့ပြီး ယာဉ်ကြားအကွာအဝေးကျယ်စွာထားကာ ဘေးကင်းမှုကို ရရှိစေရန် လိုအပ်သည်။",
       "en": "When visibility is poor, reaction time and stopping distance are lengthened, so motorcycles must reduce their speed and maintain a wide following distance to ensure safety."
-    }
+    },
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "id": "jp_moto_0075",
@@ -2472,7 +2546,8 @@
       "ja": "トンネル出入口は急な明暗変化と突風が発生しやすく、二輪車はバランスを崩しやすいため減速して慎重に通行する必要がある。",
       "my": "လုံဏ်ဂူဝင်/ထွက်ပေါက်တွင် အလင်းအမှောင် ရုတ်တရက်ပြောင်းလဲမှုနှင့် ရုတ်တရက်လေတိုက်ခြင်းလွယ်ပြီး နှစ်ဘီးယာဉ်များသည် ဟန်ချက်ပျက်လွယ်သောကြောင့် အရှိန်လျှော့ပြီး သတိထားစွာဖြတ်သန်းရန် လိုအပ်သည်။",
       "en": "Tunnel entrances and exits are prone to sudden changes in light and darkness and gusts of wind, making it easy for motorcycles to lose their balance, so they must slow down and drive carefully."
-    }
+    },
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "id": "jp_moto_0076",
@@ -2505,7 +2580,8 @@
       "ja": "道路交通法により、二輪車の運転者および同乗者はヘルメットの着用が義務付けられている。",
       "my": "လမ်းပေါ်ယာဉ်ကြောဥပဒေအရ နှစ်ဘီးယာဉ်ယာဉ်မောင်းသူနှင့် ပါဆင်လာသူသည် ဦးထုပ်ဝတ်ဆင်ရန် တာဝန်ရှိသည်။",
       "en": "According to the Road Traffic Act, motorcycle drivers and passengers are required to wear helmets."
-    }
+    },
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "id": "jp_moto_0077",
@@ -2538,7 +2614,8 @@
       "ja": "あごひもを正しく締めていないヘルメットは事故時に脱落する危険があり、正しい着用とは認められない。",
       "my": "မေးတိုက်ကြိုးကို မှန်ကန်စွာမချည်ထားသော ဦးထုပ်သည် မတော်တဆမှုတွင် ကျွတ်ကျသွားနိုင်ခြေရှိပြီး မှန်ကန်သောဝတ်ဆင်မှုအဖြစ် အသိအမှတ်မပြုပါ။",
       "en": "A helmet whose chinstrap is not properly tightened is at risk of falling off in the event of an accident, and is not considered to be worn correctly."
-    }
+    },
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "id": "jp_moto_0078",
@@ -2571,7 +2648,8 @@
       "ja": "サンダルや裸足での運転は転倒時や事故時に足を保護できないため、くるぶしを覆う履物の着用が推奨される。",
       "my": "ဖိနပ် သို့မဟုတ် ခြေနေအလွတ်ဖြင့် မောင်းနှင်ခြင်းသည် လှိမ့်ကျချိန် သို့မဟုတ် မတော်တဆမှုတွင် ခြေကို ကာကွယ်နိုင်မှုမရှိသောကြောင့် ဖနောင့်ကိုဖုံးအုပ်သော ဖိနပ်ဝတ်ဆင်ခြင်းကို အကြံပြုထားသည်။",
       "en": "Wearing footwear that covers the ankles is recommended, as wearing sandals or driving barefoot will not protect your feet in the event of a fall or accident."
-    }
+    },
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "id": "jp_moto_0079",
@@ -2604,7 +2682,8 @@
       "ja": "暑くても転倒時の皮膚保護のため、長袖・長ズボンなど肌を覆う服装を着用することが安全上望ましい。",
       "my": "ပူနွေးသော်လည်း လှိမ့်ကျချိန် အရေပြားကို ကာကွယ်ရန် လက်ရှည်/ဘောင်းဘီရှည်စသော အရေပြားဖုံးအုပ်သော ဝတ်စားမှုကို ဝတ်ဆင်ခြင်းသည် ဘေးကင်းမှုအရ နှစ်သက်ဖွယ်ဖြစ်သည်။",
       "en": "Even in hot weather, it is recommended for safety to wear clothing that covers the skin, such as long sleeves and long pants, to protect the skin in the event of a fall."
-    }
+    },
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "id": "jp_moto_0080",
@@ -2637,7 +2716,8 @@
       "ja": "プロテクター付きグローブは転倒時に手や指を保護し、けがのリスクを大幅に軽減する効果がある。",
       "my": "ကာကွယ်ကရိယာတပ်ဆင်ထားသော လက်အိတ်သည် လှိမ့်ကျချိန် လက်နှင့်လက်ချောင်းများကို ကာကွယ်ပေးပြီး ဒဏ်ရာရနိုင်ခြေကို များစွာလျော့ချပေးသည်။",
       "en": "Gloves with protectors protect your hands and fingers in the event of a fall, greatly reducing the risk of injury."
-    }
+    },
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "id": "jp_moto_0081",
@@ -2670,7 +2750,8 @@
       "ja": "シールドは走行中に飛んでくる虫や小石、強い風から目を保護し、安全な視界確保にも役立つ。",
       "my": "မျက်နှာအကာသည် မောင်းနှင်နေချိန် ပျံလာသော ပျား/ယင်၊ ကျောက်စရစ်နှင့် လေအားကြီးမှုများမှ မျက်လုံးကို ကာကွယ်ပေးပြီး ဘေးကင်းသော မြင်ကွင်းရရှိရန်လည်း အထောက်အကူဖြစ်စေသည်။",
       "en": "The shield protects the eyes from flying insects, pebbles, and strong winds while driving, and helps ensure safe visibility."
-    }
+    },
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "id": "jp_moto_0082",
@@ -2703,7 +2784,8 @@
       "ja": "ヘルメットの内部素材は経年劣化により衝撃吸収性能が低下するため、外観に問題がなくても一定期間での交換が推奨される。",
       "my": "ဦးထုပ်၏ အတွင်းပိုင်းပစ္စည်းသည် နှစ်ကြာလာသည်နှင့်အမျှ ထိခိုက်မှုစုပ်ယူနိုင်စွမ်း လျော့ကျသွားသောကြောင့် အပြင်ပန်းပြသနာမရှိသော်လည်း သတ်မှတ်ကာလအတွင်း လဲလှယ်ရန် အကြံပြုထားသည်။",
       "en": "As the internal materials of helmets deteriorate over time, their shock absorption performance decreases, so it is recommended that they be replaced at certain intervals even if there are no external problems."
-    }
+    },
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "id": "jp_moto_0083",
@@ -2736,7 +2818,8 @@
       "ja": "明るい色や反射材付きの服装は視認性を高め、他の車両から二輪車を早く認識してもらうことで事故防止につながる。",
       "my": "အလင်းရောင်ရောင်စုံနှင့် အလင်းပြန်ပစ္စည်းတပ်ဆင်ထားသော ဝတ်စားမှုသည် မြင်နိုင်စွမ်းကို မြင့်တက်စေပြီး အခြားယာဉ်များက နှစ်ဘီးယာဉ်ကို စောစီးစွာ မှတ်မိစေခြင်းဖြင့် မတော်တဆမှု ကာကွယ်နိုင်စေသည်။",
       "en": "Brightly colored clothing or clothing with reflective material increases visibility and helps other vehicles recognize your motorcycle more quickly, helping to prevent accidents."
-    }
+    },
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "id": "jp_moto_0084",
@@ -2769,7 +2852,8 @@
       "ja": "安全規格に適合していないヘルメットは衝撃吸収性能が不十分な場合があるため、正規の認証マークがあるものを選ぶことが重要である。",
       "my": "ဘေးကင်းရေးစံချိန်စံညွှန်းနှင့် မကိုက်ညီသော ဦးထုပ်များသည် ထိခိုက်မှုစုပ်ယူနိုင်စွမ်း မလုံလောက်နိုင်သောကြောင့် တရားဝင်အသိအမှတ်ပြုအမှတ်တံဆိပ်ရှိသော ဦးထုပ်ကို ရွေးချယ်ခြင်းသည် အရေးကြီးသည်။",
       "en": "Helmets that do not meet safety standards may have insufficient shock absorption performance, so it is important to choose one that has an official certification mark."
-    }
+    },
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "id": "jp_moto_0085",
@@ -2802,7 +2886,8 @@
       "ja": "膝や肘のプロテクターは転倒時の打撲や骨折を防ぐ効果があり、見た目よりも安全性を優先して着用が推奨される。",
       "my": "ဒူးနှင့်တံတောင်ကာကွယ်ကရိယာများသည် လှိမ့်ကျချိန် ထိခိုက်ဒဏ်ရာနှင့် အရိုးကျိုးခြင်းကို ကာကွယ်ပေးနိုင်သောကြောင့် အပြင်ပန်းအသွင်ထက် ဘေးကင်းမှုကို ဦးစားပေးပြီး ဝတ်ဆင်ရန် အကြံပြုထားသည်။",
       "en": "Knee and elbow protectors are effective in preventing bruises and fractures in the event of a fall, and it is recommended that you prioritize safety over appearance."
-    }
+    },
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "id": "jp_moto_0086",
@@ -2835,7 +2920,8 @@
       "ja": "道路交通法では運転者だけでなく同乗者にもヘルメット着用が義務付けられている。",
       "my": "လမ်းပေါ်ယာဉ်ကြောဥပဒေအရ ယာဉ်မောင်းသူသာမက ပါဆင်လာသူသည်လည်း ဦးထုပ်ဝတ်ဆင်ရန် တာဝန်ရှိသည်။",
       "en": "The Road Traffic Act requires not only drivers but also passengers to wear helmets."
-    }
+    },
+    "syllabusRef": "jp.moto.ch8-pillion"
   },
   {
     "id": "jp_moto_0087",
@@ -2868,7 +2954,8 @@
       "ja": "一般道路では二輪車に乗せられる同乗者は原則1名までであり、定員を超えて乗車させることは違反となる。",
       "my": "ပုံမှန်လမ်းများတွင် နှစ်ဘီးယာဉ်တွင် တင်နိုင်သော ပါဆင်လာသူသည် မူအားဖြင့် ၁ ဦးအထိသာဖြစ်ပြီး သတ်မှတ်ဦးရေထက် ပိုမိုစီးနင်းစေခြင်းသည် ဥပဒေချိုးဖောက်မှုဖြစ်သည်။",
       "en": "In principle, only one passenger may be allowed on a motorcycle on general roads, and it is a violation to have more than one passenger on board."
-    }
+    },
+    "syllabusRef": "jp.moto.ch8-pillion"
   },
   {
     "id": "jp_moto_0088",
@@ -2901,7 +2988,8 @@
       "ja": "高速道路で二輪車に同乗者を乗せる場合、運転者は20歳以上かつ二輪免許の保有期間が3年以上であることが条件とされている。",
       "my": "လမ်းမကြီးတွင် နှစ်ဘီးယာဉ်ဖြင့် ပါဆင်လာသူတင်ချိန် ယာဉ်မောင်းသူသည် အသက် ၂၀ နှစ်ပြည့်ပြီး နှစ်ဘီးယာဉ်လိုင်စင် အနည်းဆုံး ၃ နှစ်ကိုင်ဆောင်ထားရန် လိုအပ်ကြောင်း သတ်မှတ်ထားသည်။",
       "en": "In order to carry a passenger on a motorcycle on an expressway, the driver must be at least 20 years old and have held a motorcycle license for at least three years."
-    }
+    },
+    "syllabusRef": "jp.moto.ch8-pillion"
   },
   {
     "id": "jp_moto_0089",
@@ -2934,7 +3022,8 @@
       "ja": "同乗者がいると車両のバランスや重心が変化するため、急な操作を避けて慎重に運転することが安全上重要である。",
       "my": "ပါဆင်လာသူရှိချိန် ယာဉ်၏ ဟန်ချက်နှင့် အလေးဗဟိုသည် ပြောင်းလဲသွားသောကြောင့် ရုတ်တရက်လုပ်ဆောင်ချက်များကို ရှောင်ပြီး သတိထားစွာ မောင်းနှင်ခြင်းသည် ဘေးကင်းမှုအရ အရေးကြီးသည်။",
       "en": "Because the balance and center of gravity of a vehicle change when there is a passenger, it is important for safety to avoid sudden maneuvers and drive carefully."
-    }
+    },
+    "syllabusRef": "jp.moto.ch8-pillion"
   },
   {
     "id": "jp_moto_0090",
@@ -2944,7 +3033,7 @@
     "prompt": {
       "ja": "原動機付自転車（原付）には、構造上同乗者を乗せることは一般的に認められていない。",
       "my": "အင်ဂျင်တပ်စက်ဘီး (ဂန်ပတ်) တွင် တည်ဆောက်ပုံအရ ပါဆင်လာသူတင်ခြင်းကို ပုံမှန်အားဖြင့် ခွင့်ပြုထားခြင်း မရှိပါ။",
-      "en": "mopeds (mopeds) are generally not allowed to carry passengers due to their structure."
+      "en": "Mopeds (mopeds) are generally not allowed to carry passengers due to their structure."
     },
     "choices": [
       {
@@ -2966,8 +3055,9 @@
     "explanation": {
       "ja": "原動機付自転車は二人乗りの構造になっておらず、定員1名のため同乗者を乗せることは認められていない。",
       "my": "အင်ဂျင်တပ်စက်ဘီးသည် နှစ်ယောက်တင်ရန် တည်ဆောက်ထားခြင်းမရှိဘဲ သတ်မှတ်ဦးရေ ၁ ဦးသာဖြစ်သောကြောင့် ပါဆင်လာသူတင်ခြင်းကို ခွင့်ပြုမထားပါ။",
-      "en": "mopeds are not designed for two people and are not allowed to carry a passenger as they can only accommodate one person."
-    }
+      "en": "Mopeds are not designed for two people and are not allowed to carry a passenger as they can only accommodate one person."
+    },
+    "syllabusRef": "jp.moto.ch8-pillion"
   },
   {
     "id": "jp_moto_0091",
@@ -3030,7 +3120,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "id": "jp_moto_0092",
@@ -3093,7 +3184,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "id": "jp_moto_0093",
@@ -3152,11 +3244,12 @@
         "prompt": {
           "ja": "トラックのタイヤの本数",
           "my": "ထရပ်ကား၏ ဘီးအရေအတွက်",
-          "en": "number of tires on a truck"
+          "en": "Number of tires on a truck"
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "id": "jp_moto_0094",
@@ -3219,7 +3312,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "id": "jp_moto_0095",
@@ -3269,7 +3363,7 @@
         "prompt": {
           "ja": "山の景色が美しいこと",
           "my": "တောင်ပေါ်ရှုခင်းလှပခြင်း",
-          "en": "beautiful mountain scenery"
+          "en": "Beautiful mountain scenery"
         },
         "answer": 1
       },
@@ -3278,11 +3372,12 @@
         "prompt": {
           "ja": "対向車のクラクションの音",
           "my": "ဆန့်ကျင်ဘက်ယာဉ်၏ ဟွန်းသံ",
-          "en": "the sound of an oncoming car horn"
+          "en": "The sound of an oncoming car horn"
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "id": "jp_moto_0096",
@@ -3341,11 +3436,12 @@
         "prompt": {
           "ja": "歩道の幅の広さ",
           "my": "လမ်းသွားလမ်းလျှောက်လမ်း၏ အကျယ်",
-          "en": "width of sidewalk"
+          "en": "Width of sidewalk"
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "id": "jp_moto_0097",
@@ -3395,7 +3491,7 @@
         "prompt": {
           "ja": "自転車のサドルの高さ",
           "my": "စက်ဘီး၏ ထိုင်ခုံမြင့်မှု",
-          "en": "bicycle saddle height"
+          "en": "Bicycle saddle height"
         },
         "answer": 1
       },
@@ -3408,7 +3504,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "id": "jp_moto_0098",
@@ -3467,11 +3564,12 @@
         "prompt": {
           "ja": "渋滞の長さ",
           "my": "ယာဉ်ကြောကျပ်တည်းမှု၏ အကြောင်းရှည်",
-          "en": "length of traffic jam"
+          "en": "Length of traffic jam"
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "id": "jp_moto_0099",
@@ -3530,11 +3628,12 @@
         "prompt": {
           "ja": "交差点の道幅",
           "my": "လမ်းဆုံ၏ လမ်းအကျယ်",
-          "en": "road width at intersection"
+          "en": "Road width at intersection"
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "id": "jp_moto_0100",
@@ -3597,14 +3696,15 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "easy",
     "prompt": {
       "ja": "「二輪車通行止め」の標識がある道路には、原動機付自転車も自動二輪車も通行できない。",
       "my": "「နှစ်ဘီးယာဉ် ဖြတ်သန်းခွင့်မရှိ」ဆိုင်းဘုတ်ရှိသောလမ်းတွင် အင်ဂျင်တပ်စက်ဘီးနှင့် အော်တိုနှစ်ဘီးယာဉ် နှစ်မျိုးစလုံး ဖြတ်သန်းခွင့်မရှိပါ။",
-      "en": "mopeds and motorcycles are not allowed to pass on roads marked with \"No Motorcycles Allowed\" signs."
+      "en": "Mopeds and motorcycles are not allowed to pass on roads marked with \"No Motorcycles Allowed\" signs."
     },
     "choices": [
       {
@@ -3630,14 +3730,15 @@
     },
     "id": "jp_moto_0101",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "medium",
     "prompt": {
       "ja": "「二人乗り通行禁止」の標識がある道路では、大型自動二輪車であっても二人乗りをしてはならない。",
       "my": "「နှစ်ဦးတွဲစီးခွင့်မရှိ」ဆိုင်းဘုတ်ရှိသောလမ်းတွင် အော်တိုနှစ်ဘီးယာဉ်အကြီးစားဖြစ်စေကာမူ နှစ်ဦးတွဲစီးခြင်း မပြုရ။",
-      "en": "On roads where there is a sign saying \"Double Riders Prohibited', do not ride with two people, even on large motorcycles."
+      "en": "On roads where there is a sign saying \"Double Riders Prohibited\", do not ride with two people, even on large motorcycles."
     },
     "choices": [
       {
@@ -3663,14 +3764,15 @@
     },
     "id": "jp_moto_0102",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "原動機付自転車が「軽車両を除く」の補助標識がついた一方通行の標識がある道路を逆走することは違反である。",
       "my": "အင်ဂျင်တပ်စက်ဘီးသည် 「ယာဉ်ပေါ့ပါးမှလွဲ၍」ဟူသော အထောက်အကူဆိုင်းဘုတ် ပါသော တစ်ဖက်သွားလမ်းဆိုင်းဘုတ်ရှိသောလမ်းကို ပြောင်းပြန်မောင်းခြင်းသည် ချိုးဖောက်မှုဖြစ်သည်။",
-      "en": "It is illegal for a moped to ride the wrong way on a road marked with a one-way sign with a supplementary sign that says \"Excluding light vehicles.'"
+      "en": "It is illegal for a moped to ride the wrong way on a road marked with a one-way sign with a supplementary sign that says \"Excluding light vehicles.\""
     },
     "choices": [
       {
@@ -3692,18 +3794,19 @@
     "explanation": {
       "ja": "「軽車両を除く」は自転車などの軽車両を対象とした例外であり、原動機付自転車は一方通行の規制に従わなければならない。",
       "my": "「ယာဉ်ပေါ့ပါးမှလွဲ၍」သည် စက်ဘီးကဲ့သို့ ယာဉ်ပေါ့ပါးများအတွက် ချွင်းချက်ဖြစ်ပြီး အင်ဂျင်တပ်စက်ဘီးသည် တစ်ဖက်သွားလမ်း စည်းမျဉ်းကို လိုက်နာရမည်။",
-      "en": "\"Excluding light vehicles' is an exception for light vehicles such as bicycles, and mopeds must follow one-way traffic regulations."
+      "en": "\"Excluding light vehicles\" is an exception for light vehicles such as bicycles, and mopeds must follow one-way traffic regulations."
     },
     "id": "jp_moto_0103",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "「原動機付自転車の右折方法（二段階右折）」の標識がある交差点では、小回り右折をしてはならない。",
       "my": "「အင်ဂျင်တပ်စက်ဘီး၏ ညာဘက်ကွေ့နည်း (နှစ်ဆင့်ညာဘက်ကွေ့ခြင်း)」ဆိုင်းဘုတ်ရှိသော လမ်းဆုံတွင် ကျဉ်းမြောင်းစွာ ညာဘက်ကွေ့ခြင်း မပြုရ။",
-      "en": "Do not make a short right turn at an intersection where there is a sign that says \"Right turn method for mopeds (two-stage right turn).'"
+      "en": "Do not make a short right turn at an intersection where there is a sign that says \"Right turn method for mopeds (two-stage right turn).\""
     },
     "choices": [
       {
@@ -3729,7 +3832,8 @@
     },
     "id": "jp_moto_0104",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -3762,7 +3866,8 @@
     },
     "id": "jp_moto_0105",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "easy",
@@ -3795,7 +3900,8 @@
     },
     "id": "jp_moto_0106",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -3824,11 +3930,12 @@
     "explanation": {
       "ja": "原動機付自転車は、高速道路や自動車専用道路を通行することが法律で禁止されている。",
       "my": "အင်ဂျင်တပ်စက်ဘီးများသည် မြန်နှုန်းမြင့်လမ်းမနှင့် ကားများသီးသန့်လမ်းများကို ဖြတ်သန်းခြင်းကို ဥပဒေအရ တားမြစ်ထားသည်။",
-      "en": "mopeds are prohibited by law from riding on expressways and automobile-only roads."
+      "en": "Mopeds are prohibited by law from riding on expressways and automobile-only roads."
     },
     "id": "jp_moto_0107",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "easy",
@@ -3861,7 +3968,8 @@
     },
     "id": "jp_moto_0108",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "easy",
@@ -3894,14 +4002,15 @@
     },
     "id": "jp_moto_0109",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "大型自動二輪車は、「大型自動二輪車二人乗り禁止」の標識がある高速道路の区間で二人乗りをしてはならない。",
       "my": "အော်တိုနှစ်ဘီးယာဉ်အကြီးစားသည် 「အော်တိုနှစ်ဘီးယာဉ်အကြီးစား နှစ်ဦးတွဲစီးခွင့်မရှိ」ဆိုင်းဘုတ်ရှိသော မြန်နှုန်းမြင့်လမ်းမတွင် နှစ်ဦးတွဲစီးခြင်း မပြုရ။",
-      "en": "Large motorcycles must not be ridden by two people on sections of the expressway where there is a sign that says \"Large motorcycles do not allow double riding.'"
+      "en": "Large motorcycles must not be ridden by two people on sections of the expressway where there is a sign that says \"Large motorcycles do not allow double riding.\""
     },
     "choices": [
       {
@@ -3927,14 +4036,15 @@
     },
     "id": "jp_moto_0110",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "「軽car両を除く」という補助標識がある一方通行の標識は、原動機付自転車にも適用される。",
       "my": "「ယာဉ်ပေါ့ပါးမှလွဲ၍」ဟူသော အထောက်အကူဆိုင်းဘုတ် ပါသော တစ်ဖက်သွားလမ်း ဆိုင်းဘုတ်သည် အင်ဂျင်တပ်စက်ဘီးများအတွက်လည်း သက်ဆိုင်သည်။",
-      "en": "One-way signs with a supplementary sign that says \"excluding light vehicles' also apply to mopeds."
+      "en": "One-way signs with a supplementary sign that says \"excluding light vehicles\" also apply to mopeds."
     },
     "choices": [
       {
@@ -3960,14 +4070,15 @@
     },
     "id": "jp_moto_0111",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "medium",
     "prompt": {
       "ja": "「路線バス等優先通行帯」がある道路では、二輪車もその車線の走行が制限されることがある。",
       "my": "「ဘတ်စ်ကားလိုင်းဦးစားပေးလမ်းကြောင်း」ရှိသောလမ်းတွင် နှစ်ဘီးယာဉ်များသည်လည်း ထိုလမ်းကြောင်း၌ မောင်းနှင်ခြင်း ကန့်သတ်ခံရနိုင်သည်။",
-      "en": "On roads that have \"priority lanes for route buses,' motorcycles may also be restricted from driving in those lanes."
+      "en": "On roads that have \"priority lanes for route buses,\" motorcycles may also be restricted from driving in those lanes."
     },
     "choices": [
       {
@@ -3993,7 +4104,8 @@
     },
     "id": "jp_moto_0112",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -4026,14 +4138,15 @@
     },
     "id": "jp_moto_0113",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "信号のある交差点で「二段階右折」の標示がある場合、原付は右折方向の信号が青でも直進車線側に一旦進んでから待つ。",
       "my": "မီးပွိုင့်ရှိသော လမ်းဆုံတွင် 「နှစ်ဆင့်ညာဘက်ကွေ့ခြင်း」ဖော်ပြချက်ရှိပါက အင်ဂျင်တပ်စက်ဘီးသည် ညာဘက်ကွေ့ရာဦးတည်ရာ၏ မီးပွိုင့် အစိမ်းဖြစ်စေကာမူ တည့်တည့်လမ်းကြောင်းဘက်သို့ ဦးစွာ ချီတက်ပြီးမှ စောင့်ရမည်။",
-      "en": "If there is a \"two-step right turn' sign at an intersection with a traffic light, the moped should move into the straight lane and wait, even if the right turn signal is green."
+      "en": "If there is a \"two-step right turn\" sign at an intersection with a traffic light, the moped should move into the straight lane and wait, even if the right turn signal is green."
     },
     "choices": [
       {
@@ -4059,7 +4172,8 @@
     },
     "id": "jp_moto_0114",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -4092,7 +4206,8 @@
     },
     "id": "jp_moto_0115",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -4125,14 +4240,15 @@
     },
     "id": "jp_moto_0116",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "「専用通行帯（二輪車・原付を除く）」の標示がある車線には、原動機付自転車は通行することができる。",
       "my": "「အထူးလမ်းကြောင်း (နှစ်ဘီးယာဉ်/အင်ဂျင်တပ်စက်ဘီးမှလွဲ၍)」ဖော်ပြချက်ရှိသော လမ်းကြောင်းသို့ အင်ဂျင်တပ်စက်ဘီးများ ဖြတ်သန်းနိုင်သည်။",
-      "en": "mopeds are allowed to pass in lanes marked as \"Exclusive lanes (excluding motorcycles and mopeds).'"
+      "en": "Mopeds are allowed to pass in lanes marked as \"Exclusive lanes (excluding motorcycles and mopeds).\""
     },
     "choices": [
       {
@@ -4154,11 +4270,12 @@
     "explanation": {
       "ja": "「二輪車・原付を除く」と表示された専用通行帯には、二輪車と原動機付自転車は通行することができない。",
       "my": "「နှစ်ဘီးယာဉ်/အင်ဂျင်တပ်စက်ဘီးမှလွဲ၍」ဟု ဖော်ပြထားသော အထူးလမ်းကြောင်းသို့ နှစ်ဘီးယာဉ်နှင့် အင်ဂျင်တပ်စက်ဘီးများ ဖြတ်သန်းခွင့်မရှိပါ။",
-      "en": "Motorcycles and mopeds are not allowed to pass through designated lanes marked \"Excluding motorcycles and mopeds.'"
+      "en": "Motorcycles and mopeds are not allowed to pass through designated lanes marked \"Excluding motorcycles and mopeds.\""
     },
     "id": "jp_moto_0117",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "easy",
@@ -4191,14 +4308,15 @@
     },
     "id": "jp_moto_0118",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "medium",
     "prompt": {
       "ja": "「自動二輪車・原付以外の自動車通行止め」の標識がある道路は、自動二輪車と原付だけが通行できる。",
       "my": "「အော်တိုနှစ်ဘီးယာဉ်/အင်ဂျင်တပ်စက်ဘီးမှလွဲ၍ ကားများ ဖြတ်သန်းခွင့်မရှိ」ဆိုင်းဘုတ်ရှိသောလမ်းတွင် အော်တိုနှစ်ဘီးယာဉ်နှင့် အင်ဂျင်တပ်စက်ဘီးများသာ ဖြတ်သန်းနိုင်သည်။",
-      "en": "Only motorcycles and mopeds can pass on roads with signs that say \"Closed to vehicles other than motorcycles and mopeds.'"
+      "en": "Only motorcycles and mopeds can pass on roads with signs that say \"Closed to vehicles other than motorcycles and mopeds.\""
     },
     "choices": [
       {
@@ -4224,14 +4342,15 @@
     },
     "id": "jp_moto_0119",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "交差点で「専用通行帯」を示す標示がある場合、原付は必ずその車線を走行しなければならない。",
       "my": "လမ်းဆုံတွင် 「အထူးလမ်းကြောင်း」ဖော်ပြသော အမှတ်အသားရှိပါက အင်ဂျင်တပ်စက်ဘီးသည် ထိုလမ်းကြောင်းကိုသာ မဖြစ်မနေ မောင်းနှင်ရမည်။",
-      "en": "If there is a sign indicating a \"exclusive lane' at an intersection, mopeds must always travel in that lane."
+      "en": "If there is a sign indicating a \"exclusive lane\" at an intersection, mopeds must always travel in that lane."
     },
     "choices": [
       {
@@ -4257,14 +4376,15 @@
     },
     "id": "jp_moto_0120",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "easy",
     "prompt": {
       "ja": "夜間、原動機付自転車もヘッドライトを点灯しなければならない。",
       "my": "ညဘက် အင်ဂျင်တပ်စက်ဘီးများသည်လည်း ရှေ့မီးများကို ထွန်းညှိရမည်။",
-      "en": "mopeds must also have headlights on at night."
+      "en": "Mopeds must also have headlights on at night."
     },
     "choices": [
       {
@@ -4290,7 +4410,8 @@
     },
     "id": "jp_moto_0121",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "easy",
@@ -4323,7 +4444,8 @@
     },
     "id": "jp_moto_0122",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -4356,7 +4478,8 @@
     },
     "id": "jp_moto_0123",
     "category": "jp_moto",
-    "topic": "road_signs_signals"
+    "topic": "road_signs_signals",
+    "syllabusRef": "jp.moto.ch1-signs-signals"
   },
   {
     "difficulty": "easy",
@@ -4389,7 +4512,8 @@
     },
     "id": "jp_moto_0124",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "easy",
@@ -4422,7 +4546,8 @@
     },
     "id": "jp_moto_0125",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -4455,7 +4580,8 @@
     },
     "id": "jp_moto_0126",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "easy",
@@ -4488,7 +4614,8 @@
     },
     "id": "jp_moto_0127",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "easy",
@@ -4521,7 +4648,8 @@
     },
     "id": "jp_moto_0128",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -4554,7 +4682,8 @@
     },
     "id": "jp_moto_0129",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "hard",
@@ -4587,7 +4716,8 @@
     },
     "id": "jp_moto_0130",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -4620,7 +4750,8 @@
     },
     "id": "jp_moto_0131",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -4653,7 +4784,8 @@
     },
     "id": "jp_moto_0132",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -4686,7 +4818,8 @@
     },
     "id": "jp_moto_0133",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "easy",
@@ -4719,7 +4852,8 @@
     },
     "id": "jp_moto_0134",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -4752,7 +4886,8 @@
     },
     "id": "jp_moto_0135",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "hard",
@@ -4785,7 +4920,8 @@
     },
     "id": "jp_moto_0136",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -4818,7 +4954,8 @@
     },
     "id": "jp_moto_0137",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -4851,7 +4988,8 @@
     },
     "id": "jp_moto_0138",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -4884,7 +5022,8 @@
     },
     "id": "jp_moto_0139",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "easy",
@@ -4917,7 +5056,8 @@
     },
     "id": "jp_moto_0140",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -4950,7 +5090,8 @@
     },
     "id": "jp_moto_0141",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "easy",
@@ -4983,7 +5124,8 @@
     },
     "id": "jp_moto_0142",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -5016,7 +5158,8 @@
     },
     "id": "jp_moto_0143",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "easy",
@@ -5049,7 +5192,8 @@
     },
     "id": "jp_moto_0144",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -5082,7 +5226,8 @@
     },
     "id": "jp_moto_0145",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -5115,7 +5260,8 @@
     },
     "id": "jp_moto_0146",
     "category": "jp_moto",
-    "topic": "right_of_way_traffic_rules"
+    "topic": "right_of_way_traffic_rules",
+    "syllabusRef": "jp.moto.ch2-right-of-way"
   },
   {
     "difficulty": "medium",
@@ -5148,7 +5294,8 @@
     },
     "id": "jp_moto_0147",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "easy",
@@ -5181,7 +5328,8 @@
     },
     "id": "jp_moto_0148",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "medium",
@@ -5214,7 +5362,8 @@
     },
     "id": "jp_moto_0149",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "medium",
@@ -5247,7 +5396,8 @@
     },
     "id": "jp_moto_0150",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "medium",
@@ -5280,7 +5430,8 @@
     },
     "id": "jp_moto_0151",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "hard",
@@ -5313,7 +5464,8 @@
     },
     "id": "jp_moto_0152",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "medium",
@@ -5346,7 +5498,8 @@
     },
     "id": "jp_moto_0153",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "medium",
@@ -5379,7 +5532,8 @@
     },
     "id": "jp_moto_0154",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "easy",
@@ -5412,7 +5566,8 @@
     },
     "id": "jp_moto_0155",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "hard",
@@ -5445,7 +5600,8 @@
     },
     "id": "jp_moto_0156",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "hard",
@@ -5478,7 +5634,8 @@
     },
     "id": "jp_moto_0157",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "easy",
@@ -5511,7 +5668,8 @@
     },
     "id": "jp_moto_0158",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "medium",
@@ -5544,7 +5702,8 @@
     },
     "id": "jp_moto_0159",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "medium",
@@ -5577,7 +5736,8 @@
     },
     "id": "jp_moto_0160",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "medium",
@@ -5610,7 +5770,8 @@
     },
     "id": "jp_moto_0161",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "medium",
@@ -5643,7 +5804,8 @@
     },
     "id": "jp_moto_0162",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "medium",
@@ -5676,7 +5838,8 @@
     },
     "id": "jp_moto_0163",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "hard",
@@ -5709,7 +5872,8 @@
     },
     "id": "jp_moto_0164",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "easy",
@@ -5742,7 +5906,8 @@
     },
     "id": "jp_moto_0165",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "medium",
@@ -5775,7 +5940,8 @@
     },
     "id": "jp_moto_0166",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "easy",
@@ -5808,7 +5974,8 @@
     },
     "id": "jp_moto_0167",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "medium",
@@ -5841,7 +6008,8 @@
     },
     "id": "jp_moto_0168",
     "category": "jp_moto",
-    "topic": "balance_cornering_techniques"
+    "topic": "balance_cornering_techniques",
+    "syllabusRef": "jp.moto.ch3-cornering"
   },
   {
     "difficulty": "easy",
@@ -5874,7 +6042,8 @@
     },
     "id": "jp_moto_0169",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "easy",
@@ -5907,7 +6076,8 @@
     },
     "id": "jp_moto_0170",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "medium",
@@ -5940,7 +6110,8 @@
     },
     "id": "jp_moto_0171",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "medium",
@@ -5973,7 +6144,8 @@
     },
     "id": "jp_moto_0172",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "medium",
@@ -6006,7 +6178,8 @@
     },
     "id": "jp_moto_0173",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "easy",
@@ -6039,7 +6212,8 @@
     },
     "id": "jp_moto_0174",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "medium",
@@ -6072,14 +6246,15 @@
     },
     "id": "jp_moto_0175",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "easy",
     "prompt": {
       "ja": "サイドミラーだけに頼らず、車線変更前には必ず目視で後方や側方を確認する（いわゆる「目視確認」）。",
       "my": "ဘေးထောက်မှန်ကိုသာ အားမကိုးဘဲ လမ်းကြောင်းပြောင်းမီ မဖြစ်မနေ မျက်စိဖြင့် နောက်ဘက်နှင့် ဘေးဘက်ကို စစ်ဆေးရမည် (မျက်စိဖြင့်စစ်ဆေးခြင်း ဟုခေါ်သည်)။",
-      "en": "Don't rely solely on your side mirrors; always visually check behind and to the sides before changing lanes (so-called \"visual check')."
+      "en": "Don't rely solely on your side mirrors; always visually check behind and to the sides before changing lanes (so-called \"visual check\")."
     },
     "choices": [
       {
@@ -6105,7 +6280,8 @@
     },
     "id": "jp_moto_0176",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "medium",
@@ -6138,7 +6314,8 @@
     },
     "id": "jp_moto_0177",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "medium",
@@ -6171,7 +6348,8 @@
     },
     "id": "jp_moto_0178",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "easy",
@@ -6204,7 +6382,8 @@
     },
     "id": "jp_moto_0179",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "medium",
@@ -6237,7 +6416,8 @@
     },
     "id": "jp_moto_0180",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "easy",
@@ -6270,7 +6450,8 @@
     },
     "id": "jp_moto_0181",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "medium",
@@ -6303,7 +6484,8 @@
     },
     "id": "jp_moto_0182",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "medium",
@@ -6336,7 +6518,8 @@
     },
     "id": "jp_moto_0183",
     "category": "jp_moto",
-    "topic": "blind_spots_visibility"
+    "topic": "blind_spots_visibility",
+    "syllabusRef": "jp.moto.ch4-visibility"
   },
   {
     "difficulty": "medium",
@@ -6369,7 +6552,8 @@
     },
     "id": "jp_moto_0184",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "easy",
@@ -6402,7 +6586,8 @@
     },
     "id": "jp_moto_0185",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "medium",
@@ -6435,7 +6620,8 @@
     },
     "id": "jp_moto_0186",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "medium",
@@ -6468,7 +6654,8 @@
     },
     "id": "jp_moto_0187",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "medium",
@@ -6501,7 +6688,8 @@
     },
     "id": "jp_moto_0188",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "medium",
@@ -6534,7 +6722,8 @@
     },
     "id": "jp_moto_0189",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "easy",
@@ -6567,7 +6756,8 @@
     },
     "id": "jp_moto_0190",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "medium",
@@ -6600,7 +6790,8 @@
     },
     "id": "jp_moto_0191",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "medium",
@@ -6633,7 +6824,8 @@
     },
     "id": "jp_moto_0192",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "medium",
@@ -6666,7 +6858,8 @@
     },
     "id": "jp_moto_0193",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "medium",
@@ -6699,7 +6892,8 @@
     },
     "id": "jp_moto_0194",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "medium",
@@ -6732,7 +6926,8 @@
     },
     "id": "jp_moto_0195",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "medium",
@@ -6765,7 +6960,8 @@
     },
     "id": "jp_moto_0196",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "easy",
@@ -6798,7 +6994,8 @@
     },
     "id": "jp_moto_0197",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "medium",
@@ -6831,7 +7028,8 @@
     },
     "id": "jp_moto_0198",
     "category": "jp_moto",
-    "topic": "lane_position_road_surface"
+    "topic": "lane_position_road_surface",
+    "syllabusRef": "jp.moto.ch5-lane-surface"
   },
   {
     "difficulty": "easy",
@@ -6864,7 +7062,8 @@
     },
     "id": "jp_moto_0199",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "medium",
@@ -6897,7 +7096,8 @@
     },
     "id": "jp_moto_0200",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "medium",
@@ -6930,7 +7130,8 @@
     },
     "id": "jp_moto_0201",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "easy",
@@ -6963,7 +7164,8 @@
     },
     "id": "jp_moto_0202",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "easy",
@@ -6996,7 +7198,8 @@
     },
     "id": "jp_moto_0203",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "medium",
@@ -7029,7 +7232,8 @@
     },
     "id": "jp_moto_0204",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "medium",
@@ -7062,7 +7266,8 @@
     },
     "id": "jp_moto_0205",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "easy",
@@ -7095,7 +7300,8 @@
     },
     "id": "jp_moto_0206",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "medium",
@@ -7128,7 +7334,8 @@
     },
     "id": "jp_moto_0207",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "medium",
@@ -7161,7 +7368,8 @@
     },
     "id": "jp_moto_0208",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "medium",
@@ -7194,7 +7402,8 @@
     },
     "id": "jp_moto_0209",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "easy",
@@ -7227,7 +7436,8 @@
     },
     "id": "jp_moto_0210",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "hard",
@@ -7260,7 +7470,8 @@
     },
     "id": "jp_moto_0211",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "medium",
@@ -7293,7 +7504,8 @@
     },
     "id": "jp_moto_0212",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "easy",
@@ -7326,7 +7538,8 @@
     },
     "id": "jp_moto_0213",
     "category": "jp_moto",
-    "topic": "weather_hazards"
+    "topic": "weather_hazards",
+    "syllabusRef": "jp.moto.ch6-weather"
   },
   {
     "difficulty": "easy",
@@ -7359,7 +7572,8 @@
     },
     "id": "jp_moto_0214",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "medium",
@@ -7392,7 +7606,8 @@
     },
     "id": "jp_moto_0215",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "easy",
@@ -7425,7 +7640,8 @@
     },
     "id": "jp_moto_0216",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "easy",
@@ -7458,7 +7674,8 @@
     },
     "id": "jp_moto_0217",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "medium",
@@ -7491,7 +7708,8 @@
     },
     "id": "jp_moto_0218",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "medium",
@@ -7524,7 +7742,8 @@
     },
     "id": "jp_moto_0219",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "easy",
@@ -7557,7 +7776,8 @@
     },
     "id": "jp_moto_0220",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "medium",
@@ -7590,7 +7810,8 @@
     },
     "id": "jp_moto_0221",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "medium",
@@ -7623,7 +7844,8 @@
     },
     "id": "jp_moto_0222",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "easy",
@@ -7656,7 +7878,8 @@
     },
     "id": "jp_moto_0223",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "medium",
@@ -7689,7 +7912,8 @@
     },
     "id": "jp_moto_0224",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "easy",
@@ -7722,7 +7946,8 @@
     },
     "id": "jp_moto_0225",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "medium",
@@ -7755,7 +7980,8 @@
     },
     "id": "jp_moto_0226",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "medium",
@@ -7788,7 +8014,8 @@
     },
     "id": "jp_moto_0227",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "medium",
@@ -7821,7 +8048,8 @@
     },
     "id": "jp_moto_0228",
     "category": "jp_moto",
-    "topic": "protective_gear_rules"
+    "topic": "protective_gear_rules",
+    "syllabusRef": "jp.moto.ch7-protective-gear"
   },
   {
     "difficulty": "hard",
@@ -7884,7 +8112,8 @@
     ],
     "id": "jp_moto_0229",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -7922,7 +8151,7 @@
         "prompt": {
           "ja": "トラックの後輪に巻き込まれること",
           "my": "ထရပ်ကား၏ နောက်ဘီးတွင် ညပ်မိနိုင်ခြင်း",
-          "en": "getting caught in the rear wheels of a truck"
+          "en": "Getting caught in the rear wheels of a truck"
         },
         "answer": 0
       },
@@ -7947,7 +8176,8 @@
     ],
     "id": "jp_moto_0230",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -7985,7 +8215,7 @@
         "prompt": {
           "ja": "マンホールの上でスリップして転倒すること",
           "my": "မန်ဟိုးလ်ပေါ်တွင် ချော်တွန့်ပြီး ပြုတ်ကျနိုင်ခြင်း",
-          "en": "slipping and falling on a manhole"
+          "en": "Slipping and falling on a manhole"
         },
         "answer": 0
       },
@@ -8010,7 +8240,8 @@
     ],
     "id": "jp_moto_0231",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -8073,7 +8304,8 @@
     ],
     "id": "jp_moto_0232",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -8136,7 +8368,8 @@
     ],
     "id": "jp_moto_0233",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -8199,7 +8432,8 @@
     ],
     "id": "jp_moto_0234",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -8262,7 +8496,8 @@
     ],
     "id": "jp_moto_0235",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -8325,7 +8560,8 @@
     ],
     "id": "jp_moto_0236",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -8388,7 +8624,8 @@
     ],
     "id": "jp_moto_0237",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -8451,7 +8688,8 @@
     ],
     "id": "jp_moto_0238",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -8514,7 +8752,8 @@
     ],
     "id": "jp_moto_0239",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -8577,7 +8816,8 @@
     ],
     "id": "jp_moto_0240",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -8633,14 +8873,15 @@
         "prompt": {
           "ja": "橋の下に川が流れていること",
           "my": "တံတားအောက်တွင် မြစ်စီးဆင်းနေခြင်း",
-          "en": "the river flowing under the bridge"
+          "en": "The river flowing under the bridge"
         },
         "answer": 1
       }
     ],
     "id": "jp_moto_0241",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -8703,7 +8944,8 @@
     ],
     "id": "jp_moto_0242",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -8766,7 +9008,8 @@
     ],
     "id": "jp_moto_0243",
     "category": "jp_moto",
-    "topic": "hazard_prediction_illustration"
+    "topic": "hazard_prediction_illustration",
+    "syllabusRef": "jp.moto.ch9-hazard-illustration"
   },
   {
     "difficulty": "medium",
@@ -8799,7 +9042,8 @@
     },
     "id": "jp_moto_0244",
     "category": "jp_moto",
-    "topic": "pillion_passenger_rules"
+    "topic": "pillion_passenger_rules",
+    "syllabusRef": "jp.moto.ch8-pillion"
   },
   {
     "difficulty": "easy",
@@ -8832,7 +9076,8 @@
     },
     "id": "jp_moto_0245",
     "category": "jp_moto",
-    "topic": "pillion_passenger_rules"
+    "topic": "pillion_passenger_rules",
+    "syllabusRef": "jp.moto.ch8-pillion"
   },
   {
     "difficulty": "hard",
@@ -8865,7 +9110,8 @@
     },
     "id": "jp_moto_0246",
     "category": "jp_moto",
-    "topic": "pillion_passenger_rules"
+    "topic": "pillion_passenger_rules",
+    "syllabusRef": "jp.moto.ch8-pillion"
   },
   {
     "difficulty": "medium",
@@ -8898,7 +9144,8 @@
     },
     "id": "jp_moto_0247",
     "category": "jp_moto",
-    "topic": "pillion_passenger_rules"
+    "topic": "pillion_passenger_rules",
+    "syllabusRef": "jp.moto.ch8-pillion"
   },
   {
     "difficulty": "easy",
@@ -8931,7 +9178,8 @@
     },
     "id": "jp_moto_0248",
     "category": "jp_moto",
-    "topic": "pillion_passenger_rules"
+    "topic": "pillion_passenger_rules",
+    "syllabusRef": "jp.moto.ch8-pillion"
   },
   {
     "difficulty": "medium",
@@ -8964,7 +9212,8 @@
     },
     "id": "jp_moto_0249",
     "category": "jp_moto",
-    "topic": "pillion_passenger_rules"
+    "topic": "pillion_passenger_rules",
+    "syllabusRef": "jp.moto.ch8-pillion"
   },
   {
     "difficulty": "medium",
@@ -8997,6 +9246,7 @@
     },
     "id": "jp_moto_0250",
     "category": "jp_moto",
-    "topic": "pillion_passenger_rules"
+    "topic": "pillion_passenger_rules",
+    "syllabusRef": "jp.moto.ch8-pillion"
   }
 ]

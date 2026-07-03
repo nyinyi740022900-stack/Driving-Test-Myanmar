@@ -5,8 +5,8 @@
     "topic": "road_signs",
     "difficulty": "easy",
     "prompt": {
-      "en": "What does this sign mean?",
-      "my": "ဒီဆိုင်းဘုတ်က ဘာကို ဆိုလိုသလဲ။"
+      "en": "You approach a one-way street entrance and see a red circle with a white horizontal bar. What must you do?",
+      "my": "တစ်လမ်းသွား လမ်း ဝင်ပေါက် ကို ချဉ်းကပ်ပြီး အဖြူရောင် အလျားတန်း ပါသော အနီရောင် စက်ဝိုင်း ဆိုင်းဘုတ် မြင်ရပါသည်။ ဘာလုပ်ရမလဲ?"
     },
     "choices": [
       {
@@ -35,13 +35,13 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/warning-sign.png",
+      "src": "/signs/sg/no-entry.png",
       "alt": {
-        "en": "What does this sign mean?",
-        "my": "ဒီဆိုင်းဘုတ်က ဘာကို ဆိုလိုသလဲ။"
+        "en": "No entry sign at a one-way street entrance",
+        "my": "တစ်လမ်းသွား ဝင်ပေါက် တွင် ဝင်ခွင့် မရှိ ဆိုင်းဘုတ်"
       }
     },
-    "syllabusRef": "btt.signs.prohibitory"
+    "syllabusRef": "btt.signs.mandatory"
   },
   {
     "id": "sg_btt_0002",
@@ -211,7 +211,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/warning-sign.png",
+      "src": "/signs/sg/mandatory-sign.png",
       "alt": {
         "en": "Which of the following best describes a mandatory instruction sign in Singapore?",
         "my": "စင်္ကာပူတွင် မဖြစ်မနေ လိုက်နာရမည့် ညွှန်ကြားချက်ဆိုင်းဘုတ်ကို အကောင်းဆုံး ဖော်ပြ"
@@ -5755,7 +5755,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/warning-sign.png",
+      "src": "/signs/sg/wet-road.png",
       "alt": {
         "en": "You are driving and see a red triangular sign with a picture of a car skidding. ",
         "my": "ကားမောင်းနေစဉ် ကား ချော်နေသော ပုံပါ အနီရောင်တြိဂံဆိုင်းဘုတ်တစ်ခု မြင်သည်။ ၎င်းသည"
@@ -6063,7 +6063,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/school-zone.png",
+      "src": "/signs/sg/children-road.png",
       "alt": {
         "en": "Near a primary school you see a yellow diamond sign showing two children crossin",
         "my": "မူလတန်းကျောင်းအနီးတွင် ကလေးနှစ်ဦး ဖြတ်ကူးနေပုံပါသော ဝါရောင်စိန်ပုံဆိုင်းဘုတ်ကို "
@@ -10551,7 +10551,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/warning-sign.png",
+      "src": "/signs/sg/no-entry.png",
       "alt": {
         "en": "A red circular sign with a white horizontal bar is placed at a road entrance. Wh",
         "my": "လမ်းဝင်ပေါက်တစ်ခုတွင် အဖြူရောင်အလျားတန်းပါ အနီရောင်စက်ဝိုင်းဆိုင်းဘုတ်တစ်ခု ရှိသ"
@@ -10903,10 +10903,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/warning-sign.png",
+      "src": "/signs/sg/no-overtaking.png",
       "alt": {
-        "en": "You are driving on a road with a \"No Overtaking\" sign. When does this restrictio",
-        "my": "\"ကျော်တက်ခြင်း မပြုရ\" ဆိုင်းဘုတ်ရှိသော လမ်းပေါ် မောင်းနှင်နေသည်။ ဤကန့်သတ်ချက် မည"
+        "en": "No Overtaking zone sign on a road",
+        "my": "\"ကျော်တက်ခြင်း မပြုရ\" ဆိုင်းဘုတ်ရှိသော လမ်း"
       }
     },
     "syllabusRef": "btt.signs.mandatory"
@@ -10947,10 +10947,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/warning-sign.png",
+      "src": "/signs/sg/no-entry.png",
       "alt": {
-        "en": "A red circle with a motorbike and car inside means:",
-        "my": "မော်တော်ဆိုင်ကယ်နှင့် ကား ပါ အနီ ဝိုင်းပတ် ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+        "en": "No motorcycles prohibition sign",
+        "my": "မော်တော်ဆိုင်ကယ် ဝင်ခွင့် မရှိ ဆိုင်းဘုတ်"
       }
     },
     "syllabusRef": "btt.signs.mandatory"
@@ -10991,10 +10991,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/school-zone.png",
+      "src": "/signs/sg/children-road.png",
       "alt": {
-        "en": "You see a red triangular warning sign near a school entrance showing a child fig",
-        "my": "ကျောင်းဝင်ပေါက် အနီးတွင် ကလေးပုံပါ အနီရောင်တြိဂံသတိပေးဆိုင်းဘုတ်တစ်ခု မြင်သည်။ ဘ"
+        "en": "Children warning sign near a school entrance",
+        "my": "ကျောင်းဝင်ပေါက် အနီး ကလေး သတိပေး ဆိုင်းဘုတ်"
       }
     },
     "syllabusRef": "btt.signs.warning"
@@ -16667,7 +16667,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/warning-sign.png",
+      "src": "/signs/sg/bus-road.png",
       "alt": {
         "en": "What is the 'Give-Way to Bus' triangular road marking for?",
         "my": "'Give-Way to Bus' တြိဂံ လမ်း မှတ်သားချက် မည်သည်အတွက် ဖြစ်သလဲ?"
@@ -18339,7 +18339,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/warning-sign.png",
+      "src": "/signs/sg/mandatory-sign.png",
       "alt": {
         "en": "What is the key difference between a prohibitory sign and a mandatory sign in Si",
         "my": "စင်္ကာပူတွင် တားမြစ်ဆိုင်းဘုတ်နှင့် မဖြစ်မနေ လိုက်နာရမည့်ဆိုင်းဘုတ် ကြားက အဓိကကွ"
@@ -18427,7 +18427,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/warning-sign.png",
+      "src": "/signs/sg/mandatory-sign.png",
       "alt": {
         "en": "What does a blue circle road sign containing two white arrows pointing in opposi",
         "my": "ဆန့်ကျင်ဘက် ညွှန်ပြသော အဖြူ မျှားတံ နှစ်ခုပါ အပြာ ဝိုင်းပတ် လမ်း ဆိုင်းဘုတ် ၏ အဓ"
@@ -18647,7 +18647,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/warning-sign.png",
+      "src": "/signs/sg/mandatory-sign.png",
       "alt": {
         "en": "What does a blue circle with a white number inside mean?",
         "my": "ထဲတွင် အဖြူ နံပါတ် ပါသော အပြာ ဝိုင်းပတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
@@ -19835,7 +19835,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/pedestrian-crossing.png",
+      "src": "/signs/sg/warning-sign.png",
       "alt": {
         "en": "A warning sign showing a walking figure in a red triangle is posted before an un",
         "my": "လမ်းသတ်မှတ်မထားသောဖြတ်လမ်းမတိုင်မီ လမ်းသွားပုံပါ အနီရောင်တြိဂံသတိပေးဆိုင်းဘုတ်တစ"
@@ -19879,7 +19879,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/school-zone.png",
+      "src": "/signs/sg/children-road.png",
       "alt": {
         "en": "What does a 'Children Crossing' sign warn you about?",
         "my": "'ကလေးများ ဖြတ်ကူးရာ' ဆိုင်းဘုတ် မည်သည်ကို သတိပေးသလဲ?"
@@ -24416,6 +24416,446 @@
       "alt": {
         "en": "Stopping distance at 50 km/h",
         "my": "၅၀ km/h တွင် ရပ်တန့် အကွာအဝေး"
+      }
+    }
+  },
+  {
+    "id": "sg_btt_0556",
+    "category": "sg_btt",
+    "syllabusRef": "btt.rules.give_way",
+    "topic": "give_way",
+    "difficulty": "easy",
+    "prompt": {
+      "en": "You reach a T-junction where your road ends. A vehicle is approaching on the through road from your right. Who must give way?",
+      "my": "သင် မောင်းနေသော လမ်း ပြီးဆုံးသော T-လမ်းဆုံ တွင် ရောက်ပါသည်။ ညာဘက် မှ ဖြတ်သွားလမ်း ပေါ် ယာဉ် ချဉ်းကပ်လာပါသည်။ မည်သူ ဦးစားပေးရမလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "You must give way to traffic on the through road",
+          "my": "ဖြတ်သွားလမ်း ပေါ် ယာဉ်ကို ဦးစားပေးရမည်"
+        }
+      },
+      {
+        "text": {
+          "en": "The through-road driver must give way to you",
+          "my": "ဖြတ်သွားလမ်း ယာဉ်မောင်း သင့်ကို ဦးစားပေးရမည်"
+        }
+      },
+      {
+        "text": {
+          "en": "Whoever arrives first has priority",
+          "my": "ပထမရောက်သူ ဦးစားပေး"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "At a T-junction, traffic on the terminating road must give way to traffic on the through road unless signs say otherwise.",
+      "my": "T-လမ်းဆုံ တွင် လမ်း ပြီးဆုံးသော ဘက်မှ ယာဉ်သည် ဆိုင်းဘုတ် မညွှန်ပြလျှင် ဖြတ်သွားလမ်း ယာဉ်ကို ဦးစားပေးရမည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/give-way.png",
+      "alt": {
+        "en": "T-junction give way",
+        "my": "T-လမ်းဆုံ ဦးစားပေးခြင်း"
+      }
+    }
+  },
+  {
+    "id": "sg_btt_0557",
+    "category": "sg_btt",
+    "syllabusRef": "btt.rules.give_way",
+    "topic": "give_way",
+    "difficulty": "medium",
+    "prompt": {
+      "en": "You emerge from a side road onto a busier main road with no signs or signals. What is your priority duty?",
+      "my": "ဆိုင်းဘုတ် သို့မဟုတ် မီး မရှိဘဲ ဘေးလမ်း မှ အဓိကလမ်း သို့ ထွက်တော့မည် ဖြစ်ပါသည်။ သင်၏ ဦးစားပေး တာဝန် ဘာလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Give way to all traffic already on the main road",
+          "my": "အဓိကလမ်း ပေါ် ရှိပြီးသော ယာဉ်အားလုံးကို ဦးစားပေးပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Enter quickly because side-road traffic is lighter",
+          "my": "ဘေးလမ်း ယာဉ် နည်းသောကြောင့် မြန်မြန် ဝင်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Sound the horn so main-road drivers slow down",
+          "my": "အဓိကလမ်း ယာဉ်များ နှေးစေရန် ဟော်န် နှိုးပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "At an uncontrolled junction, entering traffic from a side road must give way to traffic on the main road.",
+      "my": "ထိန်းချုပ်မှု မရှိသော မီးပွိုင့် တွင် ဘေးလမ်း မှ ဝင်ရောက်မည့် ယာဉ်သည် အဓိကလမ်း ယာဉ်ကို ဦးစားပေးရမည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/junction.png",
+      "alt": {
+        "en": "Side road joining main road",
+        "my": "ဘေးလမ်း မှ အဓိကလမ်း သို့ ဝင်ခြင်း"
+      }
+    }
+  },
+  {
+    "id": "sg_btt_0558",
+    "category": "sg_btt",
+    "syllabusRef": "btt.rules.give_way",
+    "topic": "give_way",
+    "difficulty": "hard",
+    "prompt": {
+      "en": "Two cars arrive at an uncontrolled cross junction at the same time. You are on the right of the other driver. What usually applies in Singapore?",
+      "my": "ထိန်းချုပ်မှု မရှိသော လမ်းဆုံ တွင် ကား နှစ်စီး တစ်ချိန်တည်း ရောက်ပါသည်။ အခြား ယာဉ်မောင်း ၏ ညာဘက် တွင် သင် ရှိပါသည်။ စင်္ကာပူ တွင် ပုံမှန်အားဖြင့် ဘာသက်ရောက်လဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Give way to traffic from the right unless road markings direct otherwise",
+          "my": "လမ်း အမှတ်အသား မညွှန်ပြလျှင် ညာဘက် မှ ယာဉ်ကို ဦးစားပေးပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "You always have priority because you are on the right",
+          "my": "ညာဘက် ရှိသောကြောင့် အမြဲ ဦးစားပေး"
+        }
+      },
+      {
+        "text": {
+          "en": "The larger vehicle has priority",
+          "my": "ယာဉ် ကြီးသော ဘက်က ဦးစားပေး"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "At uncontrolled junctions, give way to traffic from the right when rules apply, but always follow signs, signals, and markings first.",
+      "my": "ထိန်းချုပ်မှု မရှိသော မီးပွိုင့် တွင် ဥပဒေ သက်ရောက်လျှင် ညာဘက် ယာဉ်ကို ဦးစားပေးပါ။ ဆိုင်းဘုတ်၊ မီး နှင့် အမှတ်အသား ကို ဦးစွာ လိုက်နာပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/junction.png",
+      "alt": {
+        "en": "Uncontrolled cross junction",
+        "my": "ထိန်းချုပ်မှု မရှိသော လမ်းဆုံ"
+      }
+    }
+  },
+  {
+    "id": "sg_btt_0559",
+    "category": "sg_btt",
+    "syllabusRef": "btt.licence.basics",
+    "topic": "licence_basics",
+    "difficulty": "easy",
+    "prompt": {
+      "en": "Before you may practise driving on public roads with an instructor, which licence must a learner normally hold?",
+      "my": "သင်တန်းဆရာ နှင့် အများပြည်သူ လမ်း ပေါ် လေ့ကျင့်ခွင့် မရမီ သင်ယူသူ သည် ပုံမှန်အားဖြင့် မည်သည့် လိုင်စင် ရှိရမလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "A valid Provisional Driving Licence (PDL)",
+          "my": "မှန်ကန်သော ယာယီ မောင်းနှင်ခွင့် (PDL)"
+        }
+      },
+      {
+        "text": {
+          "en": "A full Class 3 licence only",
+          "my": "အပြည့်အဝ Class 3 လိုင်စင် သာ"
+        }
+      },
+      {
+        "text": {
+          "en": "No licence if an instructor is beside you",
+          "my": "သင်တန်းဆရာ ဘေးတွင် ရှိလျှင် လိုင်စင် မလို"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Learners must hold a valid PDL and display L-plates when practising on public roads under approved conditions.",
+      "my": "သင်ယူသူများသည် အများပြည်သူ လမ်း ပေါ် ခွင့်ပြုထားသော အခြေအနေဖြင့် လေ့ကျင့်ရန် မှန်ကန်သော PDL ရှိပြီး L ဆိုင်းဘုတ် ပြရမည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/car-interior.png",
+      "alt": {
+        "en": "Learner driver with instructor",
+        "my": "သင်တန်းဆရာ နှင့် သင်ယူသူ"
+      }
+    }
+  },
+  {
+    "id": "sg_btt_0560",
+    "category": "sg_btt",
+    "syllabusRef": "btt.licence.basics",
+    "topic": "licence_basics",
+    "difficulty": "medium",
+    "prompt": {
+      "en": "A Class 3 licence in Singapore generally allows you to drive which vehicles on public roads?",
+      "my": "စင်္ကာပူ Class 3 လိုင်စင် ဖြင့် အများပြည်သူ လမ်း ပေါ် မည်သည့်ယာဉ် မောင်းခွင့် ရမလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Motor cars up to the permitted unladen weight for that class",
+          "my": "ထို class အတွက် ခွင့်ပြုထားသော မတင်ဘဲ အလေးချိန် အထိ မော်တော်ကား"
+        }
+      },
+      {
+        "text": {
+          "en": "Any heavy goods vehicle without restriction",
+          "my": "ကန့်သတ်ချက် မရှိဘဲ လေးလံကုန်တင်ယာဉ် အားလုံး"
+        }
+      },
+      {
+        "text": {
+          "en": "Motorcycles above 400 cc only",
+          "my": "၄၀၀ cc အထက် ဆိုင်ကယ် သာ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Class 3 covers private cars within the weight limits set for that licence class. Larger or commercial vehicles need other classes.",
+      "my": "Class 3 သည် ထို လိုင်စင် class အတွက် သတ်မှတ်ထားသော အလေးချိန် အတွင်း ကားပိုင် မောင်းခွင့် ပေးသည်။ ပိုကြီး သို့မဟုတ် ကုန်တင်ယာဉ်များအတွက် အခြား class လိုသည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/car-interior.png",
+      "alt": {
+        "en": "Class 3 private car driving",
+        "my": "Class 3 ကားပိုင် မောင်းခြင်း"
+      }
+    }
+  },
+  {
+    "id": "sg_btt_0561",
+    "category": "sg_btt",
+    "syllabusRef": "btt.licence.basics",
+    "topic": "licence_basics",
+    "difficulty": "medium",
+    "prompt": {
+      "en": "Under the Driver Improvement Points System (DIPS), what can happen if you accumulate too many demerit points?",
+      "my": "Driver Improvement Points System (DIPS) အရ demerit အမှတ် အလွန်အကျွံ စုဆောင်းလျှင် ဘာဖြစ်နိုင်လဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Your licence may be suspended or revoked depending on the offences",
+          "my": "ပြစ်မှုအလိုက် လိုင်စင် ဆိုင်းငံ့ သို့မဟုတ် ပယ်ဖျက်ခံရနိုင်သည်"
+        }
+      },
+      {
+        "text": {
+          "en": "Points reset automatically every month with no penalty",
+          "my": "အမှတ် လစဉ် အလိုအလျောက် ပြန်လည်သတ်မှတ်၍ ဒဏ်မရှိ"
+        }
+      },
+      {
+        "text": {
+          "en": "DIPS applies only to commercial drivers",
+          "my": "DIPS သည် ကုန်တင်ယာဉ်မောင်း သာ သက်ရောက်"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "DIPS records demerit points for traffic offences. Enough points can lead to suspension, revocation, or other penalties.",
+      "my": "DIPS သည် ယာဉ်ကြောင်း်မှုများအတွက် demerit အမှတ် မှတ်တမ်းတင်သည်။ အမှတ် လုံလောက်လျှင် ဆိုင်းငံ့၊ ပယ်ဖျက်ခြင်း သို့မဟုတ် အခြား ဒဏ်ခတ်မှု ရနိုင်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/traffic-signals-sign.png",
+      "alt": {
+        "en": "Traffic offence and licence points",
+        "my": "ယာဉ်ကြောင်း ပြစ်မှုနှင့် လိုင်စင် အမှတ်"
+      }
+    }
+  },
+  {
+    "id": "sg_btt_0562",
+    "category": "sg_btt",
+    "syllabusRef": "btt.signs.police",
+    "topic": "police_signals",
+    "difficulty": "easy",
+    "prompt": {
+      "en": "A police officer faces you and extends one arm straight up. What must you do?",
+      "my": "ရဲတစ်ဦး သင်ကို မျက်နှာချင်းဆိုင်၍ လက်တစ်ဖက် ဖြောင့်တန်း အပေါ်သို့ ထောင်ပါသည်။ ဘာလုပ်ရမလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Stop",
+          "my": "ရပ်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Turn left only",
+          "my": "ဘယ်ဘက် သာ ကွေ့ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Speed up to clear the junction",
+          "my": "မီးပွိုင့် ရှင်းရန် အရှိန်တိုးပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An arm raised straight up is a stop signal for traffic facing the officer and traffic from behind the officer.",
+      "my": "လက် ဖြောင့်တန်း အပေါ်ထောင် ခြင်းသည် ရဲကို မျက်နှာချင်းဆိုင် နှင့် နောက်ကျောဘက် ယာဉ်များအတွက် ရပ်ရန် အချက်ပြခြင်း ဖြစ်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/junction.png",
+      "alt": {
+        "en": "Police officer stop signal",
+        "my": "ရဲ ရပ်ခိုင်း အချက်ပြမှု"
+      }
+    }
+  },
+  {
+    "id": "sg_btt_0563",
+    "category": "sg_btt",
+    "syllabusRef": "btt.signs.police",
+    "topic": "police_signals",
+    "difficulty": "medium",
+    "prompt": {
+      "en": "Traffic lights show green but a police officer signals you to stop. What should you do?",
+      "my": "မီး အစိမ်း ဖြစ်သော်လည်း ရဲတစ်ဦး သင့်ကို ရပ်ခိုင်းပါသည်။ ဘာလုပ်ရမလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Obey the police officer and stop",
+          "my": "ရဲ ညွှန်ကြားချက် လိုက်ပြီး ရပ်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Follow the green light because it is legal",
+          "my": "ဥပဒေအရ အစိမ်း မီး လိုက်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Flash your headlights and continue",
+          "my": "မီး လင်းအောင် လုပ်ပြီး ဆက်သွားပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Directions from a police officer on duty override traffic lights when they are controlling the junction.",
+      "my": "တာဝန်ကျ ရဲ ညွှန်ကြားချက် သည် မီးပွိုင့် ထိန်းချုပ်နေသည့်အခါ မီးထက် ဦးစားပေး ဖြစ်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/traffic-light.png",
+      "alt": {
+        "en": "Police overriding traffic lights",
+        "my": "မီး ထက် ရဲ ညွှန်ကြားချက် ဦးစီး"
+      }
+    }
+  },
+  {
+    "id": "sg_btt_0564",
+    "category": "sg_btt",
+    "syllabusRef": "btt.rules.overtaking",
+    "topic": "overtaking",
+    "difficulty": "medium",
+    "prompt": {
+      "en": "You want to overtake but a solid white centre line separates your lane from oncoming traffic. What should you do?",
+      "my": "ကြားဖြတ် အဖြူရောင် မျဉ်း သည် သင် လမ်း နှင့် ဆန့်ကျင်ဘက် ယာဉ်ကြောင်း ကို ခွဲထားပါသည်။ ကျော်တက် လိုပါသည်။ ဘာလုပ်ရမလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Do not overtake — wait until broken lines or a safe overtaking lane appears",
+          "my": "မကျော်တက်ပါ — မျဉ်း ပြတ် သို့မဟုတ် ဘေးကင်း ကျော်တက်လမ်း မပေါ်မချင်း စောင့်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Overtake if oncoming traffic is far away",
+          "my": "ဆန့်ကျင်ဘက် ယာဉ် ဝေးလျှင် ကျော်တက်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Overtake quickly using your horn",
+          "my": "ဟော်န် နှိုးပြီး မြန်မြန် ကျော်တက်ပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A solid centre line means overtaking is not permitted when it would require crossing that line into oncoming traffic.",
+      "my": "ကြားဖြတ် အစိုင်း မျဉ်း သည် ဆန့်ကျင်ဘက် ယာဉ်ကြောင်း ဖြတ်ကျော်ရန် လိုသော ကျော်တက်ခြင်း ခွင့်မပြု ကြောင်း ဆိုလိုသည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-overtaking.png",
+      "alt": {
+        "en": "Solid line overtaking restriction",
+        "my": "အစိုင်း မျဉ်း ကျော်တက် ကန့်သတ်ချက်"
+      }
+    }
+  },
+  {
+    "id": "sg_btt_0565",
+    "category": "sg_btt",
+    "syllabusRef": "btt.conduct.defensive",
+    "topic": "defensive_driving",
+    "difficulty": "easy",
+    "prompt": {
+      "en": "Before moving off from the kerb, which defensive check helps you spot cyclists in your blind spot?",
+      "my": "ဘေးလမ်း ဘေး မှ ရွေ့မီ ဘယ်ဘက် မျက်လုံး မမြင်ရသော နေရာ တွင် စက်ဘီး စီးသူများ မြင်ရန် ကာကွယ်ရေး စစ်ဆေးမှု ဘာလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Mirror check and a shoulder glance over your blind spot",
+          "my": "မှန်ဘီလူး စစ်ပြီး မျက်လုံး မမြင်ရသော နေရာ ကို ပခုံး မျှော်ကြည့်ခြင်း"
+        }
+      },
+      {
+        "text": {
+          "en": "Rely on the horn only",
+          "my": "ဟော်န် သာ အမှီပြုပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Accelerate quickly to merge before others react",
+          "my": "အခြားသူ မတုံ့ပြန်မီ မြန်မြန် ပေါင်းဝင်ပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Defensive drivers mirror-check and glance over the shoulder to cover blind spots before pulling out.",
+      "my": "ကာကွယ်ရေး ယာဉ်မောင်းသည် ထွက်မီ မှန်ဘီလူး စစ်ပြီး ပခုံး မျှော်ကြည့်ကာ မျက်လုံး မမြင်ရသော နေရာ ကို စစ်ဆေးသည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/car-interior.png",
+      "alt": {
+        "en": "Mirror and blind-spot check",
+        "my": "မှန်ဘီလူး နှင့် မျက်လုံး မမြင်ရသော နေရာ စစ်ဆေးခြင်း"
       }
     }
   }

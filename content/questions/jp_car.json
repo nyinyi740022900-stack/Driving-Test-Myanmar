@@ -7,7 +7,7 @@
     "prompt": {
       "ja": "丸い標識に「30」と書かれている場合、それはその区間における最高速度を表している。",
       "my": "စက်ဝိုင်းပုံစံဆိုင်းဘုတ်တွင် \"30\" ဟု ရေးထားလျှင် ၎င်းသည် ထိုလမ်းပိုင်းအတွက် အမြန်ဆုံးအရှိန်ကန့်သတ်ချက်ကို ဖော်ပြသည်။",
-      "en": "When a round sign says ``30,'' it represents the maximum speed for that section."
+      "en": "When a round sign shows \"30,\" it indicates the maximum speed for that section."
     },
     "choices": [
       {
@@ -30,7 +30,8 @@
       "ja": "赤い円に数字が書かれた標識は最高速度を示し、その数字を超える速度で走行してはならない。",
       "my": "အနီရောင်စက်ဝိုင်းအတွင်း ဂဏန်းပါသော ဆိုင်းဘုတ်သည် အမြန်ဆုံးအရှိန်ကို ဖော်ပြပြီး ထိုဂဏန်းထက် မြန်စွာမောင်းနှင်ခွင့်မရှိ။",
       "en": "A sign with a number written in a red circle indicates the maximum speed, and you must not drive faster than that number."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0002",
@@ -38,9 +39,9 @@
     "topic": "karimen_road_signs",
     "difficulty": "easy",
     "prompt": {
-      "ja": "三角形で赤い縁取りの標識は、警戒標識であり前方の危険を予告している。",
-      "my": "သုံးဆင့်ပုံစံနှင့် အနီရောင်အနားသတ်ပါသော ဆိုင်းဘုတ်သည် သတိပေးဆိုင်းဘုတ်ဖြစ်ပြီး ရှေ့ရှိ အန္တရာယ်ကို ကြိုတင်သတိပေးသည်။",
-      "en": "A triangular sign with a red border is a warning sign and warns of danger ahead."
+      "ja": "踏切や急カーブの手前に設置される、黄色地に赤枠の三角形の標識は、前方の危険を運転者に知らせる警戒標識である。",
+      "my": "မီးရထားလမ်းဖြတ် သို့မဟုတ် ကောက်ကွေ့မတိုင်မီ တပ်ဆင်သော အဝါရောင်နောက်ခံနှင့် အနီရောင်အနားသတ်ပါ သုံးဆင့်ဆိုင်းဘုတ်သည် ရှေ့ရှိ အန္တရာယ်ကို မောင်းသူအား သတိပေးသော သတိပေးဆိုင်းဘုတ်ဖြစ်သည်။",
+      "en": "Triangular warning signs with a yellow background and red border, placed before railroad crossings or sharp curves, alert drivers to hazards ahead."
     },
     "choices": [
       {
@@ -63,7 +64,8 @@
       "ja": "黄色地に赤枠の三角標識は警戒標識で、カーブや踏切など前方の危険な状況を運転者に知らせる。",
       "my": "အဝါရောင်နောက်ခံနှင့် အနီရောင်အနားသတ်ပါသော သုံးဆင့်ဆိုင်းဘုတ်သည် ရှေ့ရှိ အန္တရာယ်ရှိသော အခြေအနေများကို မောင်းသူအား သတိပေးသည်။",
       "en": "A triangular sign with a red frame on a yellow background is a warning sign that alerts drivers to dangerous situations ahead, such as curves and railroad crossings."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0003",
@@ -96,7 +98,8 @@
       "ja": "一方通行の標識は青地に白矢印で進行方向を指定し、逆走は重大な交通違反となる。",
       "my": "တစ်ဖက်သွားလမ်းဆိုင်းဘုတ်သည် အပြာရောင်နောက်ခံတွင် အဖြူရောင်မြှားဖြင့် သွားရမည့်ဦးတည်ရာကို သတ်မှတ်ပြီး ပြောင်းပြန်မောင်းခြင်းသည် ပြင်းထန်သော ဥပဒေချိုးဖောက်မှုဖြစ်သည်။",
       "en": "One-way traffic signs indicate the direction of travel with a white arrow on a blue background, and driving in the wrong direction is a serious traffic violation."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0004",
@@ -129,7 +132,8 @@
       "ja": "徐行とは直ちに停止できる速度のことであり、おおむね時速10km以下を意味する。",
       "my": "အရှိန်လျှော့မောင်းခြင်းဆိုသည်မှာ ချက်ချင်းရပ်တန့်နိုင်သည့်အရှိန်ဖြစ်ပြီး အတော်အားဖြင့် နာရီပိုင်း ၁၀ ကီလိုမီတာအောက်ဖြစ်သည်။",
       "en": "Slow speed refers to the speed at which you can stop immediately, and generally means 10km/h or less."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0005",
@@ -162,7 +166,8 @@
       "ja": "「止まれ」の標識では停止線の直前で完全に停止し、安全を確認してから進行しなければならない。",
       "my": "\"ရပ်ပါ\" ဆိုင်းဘုတ်တွင် ခေတ္တရပ်လိုင်းရှေ့မှာ အပြည့်အဝရပ်ပြီး ဘေးကင်းမှုကို စစ်ဆေးပြီးမှ ဆက်သွားရမည်။",
       "en": "At a \"stop\" sign, you must come to a complete stop just before the stop line and proceed after making sure it is safe."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0006",
@@ -195,7 +200,8 @@
       "ja": "「車両通行止め」は両方向からの進入を禁止するが、「車両進入禁止」は一方向からの進入のみを禁止する標識である。",
       "my": "\"ယာဉ်သွားလာခွင့်ပိတ်\" သည် ဦးတည်ရာနှစ်ဖက်စလုံးမှ ဝင်ခွင့်ကို ပိတ်ပင်ပြီး \"ယာဉ်ဝင်ခွင့်မရှိ\" သည် တစ်ဖက်ဦးတည်ရာမှသာ ဝင်ခွင့်ကို ပိတ်ပင်သည့် ဆိုင်းဘုတ်ဖြစ်သည်။",
       "en": "\"Closed to Vehicles\" is a sign that prohibits entry from both directions, but \"No Vehicles Entry\" is a sign that prohibits entry from only one direction."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0007",
@@ -228,7 +234,8 @@
       "ja": "駐車禁止は長時間の駐車を禁じるものであり、運転者がすぐ移動できる短時間の停車（5分以内の荷物の積み下ろし等）は認められる。",
       "my": "ကားရပ်နားခွင့်မရှိ ဆိုင်းဘုတ်သည် ကြာရှည်ရပ်နားခြင်းကိုသာ တားမြစ်ပြီး မောင်းသူ ချက်ချင်းရွေ့နိုင်သော ခေတ္တရပ်နားခြင်း (၅ မိနစ်အတွင်း ပစ္စည်းတင်ချခြင်းကဲ့သို့) ကို ခွင့်ပြုသည်။",
       "en": "The parking ban prohibits long-term parking, but short-term stops that allow the driver to move on quickly (such as loading and unloading luggage within 5 minutes) are permitted."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0008",
@@ -261,7 +268,8 @@
       "ja": "優先道路を走行する車は、交差する一般道路から進入する車に対して優先権を持つため、進路を譲る義務はない。",
       "my": "ဦးစားပေးလမ်းပေါ်မှ မောင်းနှင်နေသောကားသည် ဆုံစည်းသောလမ်းမှ ဝင်လာသောကားများအတွက် ဦးစားပေးခွင့်ရှိသောကြောင့် လမ်းဖယ်ပေးရန် တာဝန်မရှိပါ။",
       "en": "Vehicles driving on priority roads have the right of way over vehicles approaching from intersecting general roads, so there is no obligation to yield to them."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0009",
@@ -294,7 +302,8 @@
       "ja": "補助標識で対象車種が限定されている場合、その規制はその車種にのみ適用され、普通自動車は対象外となる。",
       "my": "ထောက်ခံဆိုင်းဘုတ်တွင် ယာဉ်အမျိုးအစား ကန့်သတ်ထားလျှင် ထိုကန့်သတ်ချက်သည် ထိုယာဉ်အမျိုးအစားကိုသာ သက်ဆိုင်ပြီး ပုံမှန်ကားများအတွက် မသက်ဆိုင်ပါ။",
       "en": "If a supplementary sign restricts the applicable vehicle types, the regulation applies only to that vehicle type and does not apply to regular cars."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0010",
@@ -304,7 +313,7 @@
     "prompt": {
       "ja": "「指定方向外進行禁止」の標識で右折の矢印のみが示されている場合、その地点では右折以外の進行はできない。",
       "my": "\"သတ်မှတ်ဦးတည်ရာမှလွဲ၍ သွားခွင့်မရှိ\" ဆိုင်းဘုတ်တွင် ညာဘက်ကွေ့မြှားသာ ပြထားလျှင် ထိုနေရာတွင် ညာဘက်ကွေ့ခြင်းမှလွဲ၍ အခြားသွားလာခြင်း မပြုနိုင်ပါ။",
-      "en": "If a sign that says ``No proceeding outside the designated direction'' only shows a right turn arrow, no other way than a right turn can be made at that point."
+      "en": "If a \"no entry except in the direction shown\" sign displays only a right-turn arrow, you may not proceed in any direction other than right at that location."
     },
     "choices": [
       {
@@ -327,7 +336,8 @@
       "ja": "矢印で示された方向のみ進行が許可され、それ以外の方向（直進や左折など）への進行は禁止される。",
       "my": "မြှားဖြင့်ပြထားသော ဦးတည်ရာသို့သာ သွားလာခွင့်ပြုပြီး အခြားဦးတည်ရာများ (တည့်တည့်သွားခြင်း သို့မဟုတ် ဘယ်ဘက်ကွေ့ခြင်း) သို့ သွားလာခွင့်မရှိပါ။",
       "en": "Travel is only permitted in the direction indicated by the arrow, and travel in other directions (such as going straight or turning left) is prohibited."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0011",
@@ -337,7 +347,7 @@
     "prompt": {
       "ja": "信号機のない踏切の手前に設置されている「踏切あり」の警戒標識は、運転者に減速と注意を促すものである。",
       "my": "မီးပွိုင့်မရှိသော မီးရထားလမ်းဖြတ်မီရှေ့တွင် တပ်ဆင်ထားသော \"မီးရထားလမ်းဖြတ်ရှိ\" သတိပေးဆိုင်းဘုတ်သည် မောင်းသူအား အရှိန်လျှော့ပြီး သတိထားရန် တိုက်တွန်းသည်။",
-      "en": "``Level Crossing'' warning signs are placed in front of railroad crossings without traffic lights to remind drivers to slow down and be careful."
+      "en": "\"Railroad crossing ahead\" warning signs are placed before crossings without signals to remind drivers to slow down and stay alert."
     },
     "choices": [
       {
@@ -360,7 +370,8 @@
       "ja": "踏切あり標識は前方に踏切が存在することを警告し、運転者は減速して安全を確認する必要がある。",
       "my": "မီးရထားလမ်းဖြတ်ရှိ ဆိုင်းဘုတ်သည် ရှေ့တွင် မီးရထားလမ်းဖြတ်ရှိကြောင်း သတိပေးပြီး မောင်းသူသည် အရှိန်လျှော့၍ ဘေးကင်းမှုကို စစ်ဆေးရမည်။",
       "en": "A railroad crossing sign warns drivers that there is a railroad crossing ahead and requires them to slow down and check for safety."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0012",
@@ -370,7 +381,7 @@
     "prompt": {
       "ja": "「自動車専用」の標識がある道路は、原動機付自転車や軽車両も通行することができる。",
       "my": "\"ကားအထူးသုံးလမ်း\" ဆိုင်းဘုတ်ရှိသော လမ်းတွင် မော်တော်ဆိုင်ကယ်ငယ်များနှင့် အလေးချိန်နည်းယာဉ်များလည်း သွားလာနိုင်သည်။",
-      "en": "Motorized bicycles and light vehicles can also pass on roads with \"vehicles only\" signs."
+      "en": "Mopeds and light vehicles may also use roads marked with motor-vehicle-only signs."
     },
     "choices": [
       {
@@ -392,8 +403,9 @@
     "explanation": {
       "ja": "自動車専用の標識がある道路には、原動機付自転車・軽車両・歩行者は通行できない。",
       "my": "ကားအထူးသုံးလမ်း ဆိုင်းဘုတ်ရှိသော လမ်းတွင် မော်တော်ဆိုင်ကယ်ငယ်၊ အလေးချိန်နည်းယာဉ်နှင့် လူသွားလူလာများ သွားလာခွင့်မရှိပါ။",
-      "en": "Motorized bicycles, light vehicles, and pedestrians are not allowed to pass on roads marked with vehicle-only signs."
-    }
+      "en": "Mopeds, light vehicles, and pedestrians are not allowed to pass on roads marked with vehicle-only signs."
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0013",
@@ -426,7 +438,8 @@
       "ja": "横断歩道の標識がある場所では歩行者の横断に備え、付近を通過する際は速度を落として注意する必要がある。",
       "my": "လူကူးမျဉ်းဆိုင်းဘုတ်ရှိသောနေရာတွင် လူသွားလူလာများ ကူးနိုင်ကြောင်း ကြိုတင်စဉ်းစား၍ အနီးဖြတ်သွားချိန် အရှိန်လျှော့ပြီး သတိထားရမည်။",
       "en": "Where there is a crosswalk sign, be prepared for pedestrians to cross and slow down and use caution when passing nearby."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0014",
@@ -459,7 +472,8 @@
       "ja": "追越し禁止標識は前の車を追い越して進む行為を禁止するものであり、追い越しを伴わない車線変更自体は規制の対象ではない。",
       "my": "ကျော်တက်ခွင့်မရှိ ဆိုင်းဘုတ်သည် ရှေ့ကားကို ကျော်တက်ပြီးသွားသည့်လုပ်ရပ်ကိုသာ တားမြစ်ပြီး ကျော်တက်ခြင်းမပါသော လမ်းကြောင်းပြောင်းခြင်းကို ကန့်သတ်ခြင်းမရှိပါ။",
       "en": "A no-passing sign prohibits the act of passing the vehicle in front of you, and changing lanes without overtaking is not subject to the regulation."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0015",
@@ -469,7 +483,7 @@
     "prompt": {
       "ja": "「最大幅」を示す標識がある道路では、表示された幅を超える車幅の車両は通行できない。",
       "my": "\"အများဆုံးအကျယ်\" ပြသည့်ဆိုင်းဘုတ်ရှိသော လမ်းတွင် ပြထားသောအကျယ်ထက် ကျယ်သောကားများ သွားလာခွင့်မရှိ။",
-      "en": "On roads where there is a sign indicating ``maximum width,'' vehicles with a width exceeding the indicated width cannot pass."
+      "en": "On roads with a maximum-width sign, vehicles wider than the indicated width may not pass."
     },
     "choices": [
       {
@@ -492,7 +506,8 @@
       "ja": "最大幅の標識は道路や橋などの幅に制限がある場所に設置され、表示幅を超える車両の通行を禁止する。",
       "my": "အများဆုံးအကျယ်ဆိုင်းဘုတ်သည် လမ်း သို့မဟုတ် တံတားကဲ့သို့ အကျယ်ကန့်သတ်ထားသောနေရာများတွင် တပ်ဆင်ပြီး ပြထားသောအကျယ်ထက်ကျယ်သော ယာဉ်များ သွားလာခွင့်ကို တားမြစ်သည်။",
       "en": "Maximum width signs are placed on roads, bridges, and other locations with limited width, and prohibit vehicles exceeding the indicated width from passing."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "id": "jp_car_0016",
@@ -525,7 +540,8 @@
       "ja": "道幅が同じ交差点では、左方から来る車が優先となり、右方から来る車は左方車に道を譲らなければならない。",
       "my": "လမ်းအကျယ်တူညီသော လမ်းဆုံတွင် ဘယ်ဘက်မှလာသောကားက ဦးစားပေးခံရပြီး ညာဘက်မှလာသောကားသည် ဘယ်ဘက်ကားအတွက် လမ်းဖယ်ပေးရမည်။",
       "en": "At intersections where the roads are the same width, cars coming from the left have priority, and cars coming from the right must yield to cars on the left."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "id": "jp_car_0017",
@@ -558,7 +574,8 @@
       "ja": "右折車は直進・左折する対向車の進行を妨げてはならず、対向車が先に通過するのを待たなければならない。",
       "my": "ညာဘက်ကွေ့မည့်ကားသည် တည့်တည့်/ဘယ်ဘက်ကွေ့မည့် ဆန့်ကျင်ဘက်ကားများ၏ သွားလာမှုကို နှောင့်ယှက်ခွင့်မရှိဘဲ ထိုကားများ အရင်ဖြတ်သွားသည်အထိ စောင့်ရမည်။",
       "en": "Vehicles turning right must not obstruct the progress of oncoming vehicles going straight or turning left, and must wait for the oncoming vehicle to pass first."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "id": "jp_car_0018",
@@ -591,7 +608,8 @@
       "ja": "緊急自動車に進路を譲るため、交差点付近では交差点を避けて道路の左側に寄り一時停止するのが原則である。",
       "my": "အရေးပေါ်ယာဉ်အတွက် လမ်းဖယ်ပေးရန် လမ်းဆုံအနီးတွင် လမ်းဆုံကို ရှောင်ပြီး လမ်းဘယ်ဘက်သို့ ကပ်၍ ခေတ္တရပ်ရန် အခြေခံသတ်မှတ်ထားသည်။",
       "en": "The general rule is to avoid intersections and stop on the left side of the road to give way to emergency vehicles."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "id": "jp_car_0019",
@@ -624,7 +642,8 @@
       "ja": "環状交差点では環道内を走行中の車両が優先され、進入する車はその通行を妨げないよう一時停止や減速をして待つ必要がある。",
       "my": "စက်ဝိုင်းပတ်လမ်းဆုံတွင် စက်ဝိုင်းအတွင်း မောင်းနှင်နေသောကားများက ဦးစားပေးခံရပြီး ဝင်လာမည့်ကားများသည် ၎င်းတို့၏သွားလာမှုကို မနှောင့်ယှက်ရန် ခေတ္တရပ်/အရှိန်လျှော့၍ စောင့်ရမည်။",
       "en": "At roundabouts, vehicles traveling on the ring road have priority, and incoming vehicles must stop or slow down to avoid blocking traffic."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "id": "jp_car_0020",
@@ -657,7 +676,8 @@
       "ja": "横断歩道やその付近を横断しようとする歩行者がいるときは、車は一時停止して歩行者の通行を妨げてはならない。",
       "my": "လူကူးမျဉ်း သို့မဟုတ် ၎င်းအနီးကို ကူးမည့် လူသွားလူလာရှိသောအခါ ကားသည် ခေတ္တရပ်ပြီး လူသွားလူလာ၏ သွားလာမှုကို မနှောင့်ယှက်ရပါ။",
       "en": "When a pedestrian attempts to cross at or near a crosswalk, vehicles must stop temporarily and do not obstruct the pedestrian's passage."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "id": "jp_car_0021",
@@ -690,7 +710,8 @@
       "ja": "坂道のすれ違いでは、上り坂を走る車は安全な場所に停止しやすいため、下りの車に道を譲るのが基本である。",
       "my": "တောင်ပေါ်လမ်းတွင် ဖြတ်သွားရချိန် တက်နေသောကားသည် ဘေးကင်းသောနေရာတွင် ပိုလွယ်ကူစွာ ရပ်နိုင်သောကြောင့် ဆင်းနေသောကားအတွက် လမ်းဖယ်ပေးရန် အခြေခံဖြစ်သည်။",
       "en": "When passing each other on a slope, cars traveling uphill tend to stop in a safe place, so the basic rule is to give way to vehicles traveling downhill."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "id": "jp_car_0022",
@@ -723,7 +744,8 @@
       "ja": "幅の異なる道路が交わる交差点では、広い道路を走行する車が狭い道路から来る車より優先される。",
       "my": "အကျယ်ကွဲပြားသော လမ်းများ ဆုံစည်းသည့်လမ်းဆုံတွင် လမ်းကျယ်ပေါ်မှ မောင်းနှင်နေသောကားသည် လမ်းကျဉ်းမှလာသောကားထက် ဦးစားပေးခံရသည်။",
       "en": "At intersections where roads of different widths intersect, vehicles traveling on the wide road have priority over vehicles coming from the narrow road."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "id": "jp_car_0023",
@@ -756,7 +778,8 @@
       "ja": "路面電車の軌道内を走行している車は、後方から路面電車が接近したときは速やかに軌道外に出て進路を譲らなければならない。",
       "my": "လမ်းပေါ်ရထားလမ်းကြောင်းအတွင်း မောင်းနှင်နေသောကားသည် နောက်ဘက်မှ လမ်းပေါ်ရထား ချဉ်းကပ်လာလျှင် မြန်မြန်ဆန်ဆန် လမ်းကြောင်းအပြင်သို့ထွက်ပြီး လမ်းဖယ်ပေးရမည်။",
       "en": "Vehicles traveling on tram tracks must quickly move off the tracks and give way when a tram approaches from behind."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "id": "jp_car_0024",
@@ -789,7 +812,8 @@
       "ja": "歩行者の安全が最優先であり、車は横断中の歩行者の通行を妨げてはならない。",
       "my": "လူသွားလူလာ၏ ဘေးကင်းမှုသည် အရေးကြီးဆုံးဖြစ်ပြီး ကားသည် ကူးနေသော လူသွားလူလာ၏ သွားလာမှုကို မနှောင့်ယှက်ရပါ။",
       "en": "Pedestrian safety is paramount, and vehicles must not obstruct pedestrian traffic while crossing."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "id": "jp_car_0025",
@@ -822,7 +846,8 @@
       "ja": "警察官の手信号による指示は信号機の表示よりも優先され、運転者は警察官の指示に従わなければならない。",
       "my": "ရဲအရာရှိ၏ လက်ဖြင့်အချက်ပြညွှန်ကြားချက်သည် မီးပွိုင့်၏ ပြသမှုထက် ဦးစားပေးခံရပြီး မောင်းသူသည် ရဲအရာရှိ၏ညွှန်ကြားချက်ကို လိုက်နာရမည်။",
       "en": "A police officer's hand signal instructions have priority over traffic lights, and drivers must follow the police officer's instructions."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "id": "jp_car_0026",
@@ -855,7 +880,8 @@
       "ja": "標識等で特に指定がない一般道路では、普通自動車の法定最高速度は時速60キロメートルである。",
       "my": "ဆိုင်းဘုတ်စသည်ဖြင့် အထူးသတ်မှတ်ချက်မရှိသော ပုံမှန်လမ်းတွင် ပုံမှန်ကား၏ ဥပဒေအရ အမြန်ဆုံးအရှိန်သည် နာရီပိုင်း ၆၀ ကီလိုမီတာဖြစ်သည်။",
       "en": "On ordinary roads, unless otherwise specified by signs, the legal maximum speed for ordinary vehicles is 60 kilometers per hour."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "id": "jp_car_0027",
@@ -863,9 +889,9 @@
     "topic": "karimen_speed_limits_parking",
     "difficulty": "medium",
     "prompt": {
-      "ja": "消火栓から3メートル以内の場所は、駐車だけでなく停車も禁止されている。",
-      "my": "မီးသတ်ရေပိုက်ခေါင်းမှ ၃ မီတာအတွင်းနေရာများတွင် ကားရပ်နားခြင်းအပြင် ခေတ္တရပ်ခြင်းကိုလည်း တားမြစ်ထားသည်။",
-      "en": "It is prohibited not only to park but also to park within 3 meters of a fire hydrant."
+      "ja": "消火栓から5メートル以内の場所は、駐車だけでなく停車も禁止されている。",
+      "my": "မီးသတ်ရေပိုက်ခေါင်းမှ ၅ မီတာအတွင်းနေရာများတွင် ကားရပ်နားခြင်းအပြင် ခေတ္တရပ်ခြင်းကိုလည်း တားမြစ်ထားသည်။",
+      "en": "Within 5 meters of a fire hydrant, both parking and stopping are prohibited."
     },
     "choices": [
       {
@@ -885,10 +911,11 @@
     ],
     "answer": 0,
     "explanation": {
-      "ja": "消火栓や消防用設備から3メートル以内は、緊急時の使用を妨げないよう駐停車が禁止されている。",
-      "my": "မီးသတ်ရေပိုက်ခေါင်း သို့မဟုတ် မီးသတ်ပစ္စည်းများမှ ၃ မီတာအတွင်းတွင် အရေးပေါ်အသုံးပြုမှုကို မနှောင့်ယှက်ရန် ကားရပ်နား/ခေတ္တရပ်ခြင်းကို တားမြစ်ထားသည်။",
-      "en": "Parking or parking within 3 meters of fire hydrants and fire equipment is prohibited so as not to interfere with their use in emergencies."
-    }
+      "ja": "消火栓や消防用防火水槽から5メートル以内は、緊急時の使用を妨げないよう駐停車が禁止されている。",
+      "my": "မီးသတ်ရေပိုက်ခေါင်း သို့မဟုတ် မီးသတ်ရေကန်မှ ၅ မီတာအတွင်းတွင် အရေးပေါ်အသုံးပြုမှုကို မနှောင့်ယှက်ရန် ကားရပ်နား/ခေတ္တရပ်ခြင်းကို တားမြစ်ထားသည်။",
+      "en": "Parking and stopping within 5 meters of a fire hydrant or fire water tank is prohibited so emergency equipment can be used."
+    },
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "id": "jp_car_0028",
@@ -898,7 +925,7 @@
     "prompt": {
       "ja": "「最高速度40キロ」の補助標識がついた標識のある道路では、雨天時には50キロまで速度を上げてよい。",
       "my": "\"အမြန်ဆုံးအရှိန် ၄၀\" ထောက်ခံဆိုင်းဘုတ်ပါသော လမ်းတွင် မိုးရွာချိန်၌ ၅၀ အထိ မြှင့်တင်နိုင်သည်။",
-      "en": "On roads marked with a \"maximum speed limit of 40km/h', speeds may be increased to 50km/h in rainy weather."
+      "en": "On roads marked with a \"maximum speed limit of 40km/h\", speeds may be increased to 50km/h in rainy weather."
     },
     "choices": [
       {
@@ -921,7 +948,8 @@
       "ja": "指定された最高速度は天候にかかわらず守らなければならず、悪天候時はむしろ速度を落とすべきである。",
       "my": "သတ်မှတ်ထားသော အမြန်ဆုံးအရှိန်ကို ရာသီဥတုမည်သို့ပင်ရှိစေ လိုက်နာရမည်ဖြစ်ပြီး ရာသီဥတုဆိုးချိန်တွင် အရှိန်ကို ပိုမိုလျှော့သင့်သည်။",
       "en": "The specified maximum speed must be maintained regardless of the weather, and speeds should be reduced in bad weather."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "id": "jp_car_0029",
@@ -954,7 +982,8 @@
       "ja": "駐停車禁止は駐車と停車の両方を禁止するため、荷物の積み下ろしのための短時間停止も認められない。",
       "my": "ကားရပ်နား/ခေတ္တရပ်ခွင့်မရှိဆိုသည်မှာ ကားရပ်နားခြင်းနှင့် ခေတ္တရပ်ခြင်း နှစ်မျိုးစလုံးကို တားမြစ်သောကြောင့် ပစ္စည်းတင်/ချရန် ခေတ္တရပ်ခြင်းကိုလည်း ခွင့်မပြုပါ။",
       "en": "The parking ban prohibits both parking and stopping, so short stops for loading and unloading are also not allowed."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "id": "jp_car_0030",
@@ -987,7 +1016,8 @@
       "ja": "夜間の駐停車時には、道路照明の有無にかかわらず尾灯や駐車灯をつけて他の車に存在を示す必要がある。",
       "my": "ညဘက် ကားရပ်နား/ခေတ္တရပ်ချိန်တွင် လမ်းမီးအလင်းရောင်ရှိ၊ မရှိမသက်ဆိုင်ဘဲ အခြားကားများအား မိမိရှိနေကြောင်း ပြရန် နောက်မီး သို့မဟုတ် ကားရပ်မီးကို ထွန်းရမည်။",
       "en": "When parking or stopping at night, it is necessary to turn on tail lights and parking lights to indicate your presence to other vehicles, regardless of whether there are road lights or not."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "id": "jp_car_0031",
@@ -1020,7 +1050,8 @@
       "ja": "視界が悪く後続車が対応しにくい坂の頂上付近やトンネル内は、駐停車禁止場所として法律で定められている。",
       "my": "မြင်နိုင်စွမ်းနည်းပြီး နောက်လိုက်ကားများ တုံ့ပြန်ရန်ခက်ခဲသော တောင်ထိပ်အနီးနှင့် တောင်ခေါင်းတွင်းသည် ကားရပ်နား/ခေတ္တရပ်ခွင့်မရှိနေရာအဖြစ် ဥပဒေအရ သတ်မှတ်ထားသည်။",
       "en": "By law, parking is prohibited near the top of a hill or inside a tunnel, where visibility is poor and it is difficult for following vehicles to respond."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "id": "jp_car_0032",
@@ -1053,7 +1084,8 @@
       "ja": "交差点付近での駐停車は見通しを悪くし危険なため、交差点の側端から5メートル以内は駐停車禁止場所とされている。",
       "my": "လမ်းဆုံအနီး ကားရပ်နား/ခေတ္တရပ်ခြင်းသည် မြင်နိုင်စွမ်းကို ထိခိုက်စေပြီး အန္တရာယ်ရှိသောကြောင့် လမ်းဆုံအစွန်းမှ ၅ မီတာအတွင်းကို ကားရပ်နား/ခေတ္တရပ်ခွင့်မရှိနေရာအဖြစ် သတ်မှတ်ထားသည်။",
       "en": "Parking near an intersection is dangerous because it impairs visibility, so parking is prohibited within 5 meters from the edge of the intersection."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "id": "jp_car_0033",
@@ -1086,7 +1118,8 @@
       "ja": "最低速度の標識がある区間では、やむを得ない理由がない限り、その速度より遅く走行してはならない。",
       "my": "အနိမ့်ဆုံးအရှိန်ဆိုင်းဘုတ်ရှိသော လမ်းပိုင်းတွင် မလွှဲမရှောင်သာသော အကြောင်းမရှိလျှင် ထိုအရှိန်ထက်နှေးစွာ မောင်းနှင်ခွင့်မရှိပါ။",
       "en": "In areas where there is a minimum speed sign, you must not drive slower than that speed unless there is a compelling reason to do so."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "id": "jp_car_0034",
@@ -1119,7 +1152,8 @@
       "ja": "車庫等の出入口から3メートル以内に駐車すると車両の出入りを妨げるため、この区間は駐車禁止場所と定められている。",
       "my": "ကားဂိုဒေါင်စသည့် ဝင်/ထွက်ဝပေါက်မှ ၃ မီတာအတွင်းတွင် ကားရပ်နားလျှင် ယာဉ်ဝင်/ထွက်ခြင်းကို နှောင့်ယှက်သောကြောင့် ဤလမ်းပိုင်းကို ကားရပ်နားခွင့်မရှိနေရာအဖြစ် သတ်မှတ်ထားသည်။",
       "en": "If you park within 3 meters of the entrance to a garage, etc., it will prevent vehicles from entering and exiting, so this area is designated as a no-parking area."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "id": "jp_car_0035",
@@ -1152,7 +1186,8 @@
       "ja": "バス停の駐停車禁止は運行時間中のみ適用される場合が多く、補助標識で示された時間帯を確認する必要がある。",
       "my": "ဘတ်စ်ကားမှတ်တိုင်၏ ကားရပ်နား/ခေတ္တရပ်ခွင့်မရှိချက်သည် ပြေးဆွဲချိန်အတွင်းသာ သက်ဆိုင်သည့်အခါများ များပြီး ထောက်ခံဆိုင်းဘုတ်ဖြင့် ပြထားသော အချိန်ကို စစ်ဆေးရန်လိုသည်။",
       "en": "Parking restrictions at bus stops often apply only during bus service hours, so it is necessary to check the times indicated on supplementary signs."
-    }
+    },
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "id": "jp_car_0036",
@@ -1185,7 +1220,8 @@
       "ja": "高速道路の本線では、標識による特別な指定がない場合、普通自動車の法定最高速度は時速100キロメートルである。",
       "my": "မြန်နှုန်းမြင့်လမ်းမတွင် ဆိုင်းဘုတ်ဖြင့် အထူးသတ်မှတ်ချက်မရှိလျှင် ပုံမှန်ကား၏ ဥပဒေအရ အမြန်ဆုံးအရှိန်သည် နာရီပိုင်း ၁၀၀ ကီလိုမီတာဖြစ်သည်။",
       "en": "On main highways, the legal maximum speed for ordinary vehicles is 100 km/h unless otherwise specified by signs."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0037",
@@ -1217,8 +1253,9 @@
     "explanation": {
       "ja": "高速道路の本線では交通の流れを保つため最低速度が定められ、標識がない場合は時速50キロメートルである。",
       "my": "မြန်နှုန်းမြင့်လမ်းမတွင် ယာဉ်စီးကြောင်းကို ထိန်းသိမ်းရန် အနိမ့်ဆုံးအရှိန်ကို သတ်မှတ်ထားပြီး ဆိုင်းဘုတ်မရှိလျှင် နာရီပိုင်း ၅၀ ကီလိုမီတာဖြစ်သည်။",
-      "en": "Minimum speeds are set on main highways to keep traffic flowing, and where there are no signs, the maximum speed is 50 kilometers per hour."
-    }
+      "en": "Minimum speeds are set on expressway main lanes to keep traffic flowing; where no sign applies, the minimum speed is 50 km/h."
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0038",
@@ -1251,7 +1288,8 @@
       "ja": "本線合流時は加速車線で十分に速度を上げ、本線を走る車の流れに近い速度で合流することで追突などの危険を避けられる。",
       "my": "မြန်နှုန်းမြင့်လမ်းမနှင့် ပေါင်းစည်းချိန် အရှိန်မြှင့်လမ်းကြောင်းတွင် အရှိန်လုံလောက်စွာတိုးမြှင့်ပြီး မြန်နှုန်းမြင့်လမ်းမကားများ၏ အရှိန်နှင့် နီးစပ်စွာ ပေါင်းစည်းခြင်းဖြင့် နောက်ကြောင်းတိုက်မိခြင်းကဲ့သို့ အန္တရာယ်ကို ရှောင်ရှားနိုင်သည်။",
       "en": "When merging onto the main line, increase your speed sufficiently in the acceleration lane and merge at a speed similar to the flow of traffic on the main line to avoid dangers such as rear-end collisions."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0039",
@@ -1284,7 +1322,8 @@
       "ja": "高速道路上で停止する場合は、後続車に知らせるため三角表示板や非常点滅灯を必ず使用しなければならない。",
       "my": "မြန်နှုန်းမြင့်လမ်းမပေါ်တွင် ရပ်နားရချိန် နောက်လိုက်ကားများကို သတိပေးရန် သုံးထောင့်သတိပေးဆိုင်းဘုတ် သို့မဟုတ် အရေးပေါ်မီးပျိုးကို မဖြစ်မနေ အသုံးပြုရမည်။",
       "en": "When stopping on a highway, you must always use the triangular display board or emergency flashing lights to notify following vehicles."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0040",
@@ -1294,7 +1333,7 @@
     "prompt": {
       "ja": "高速道路では、原動機付自転車や125cc以下の自動二輪車は通行することができない。",
       "my": "မြန်နှုန်းမြင့်လမ်းမတွင် မော်တော်ဆိုင်ကယ်ငယ်နှင့် ၁၂၅ စီစီအောက် မော်တော်ဆိုင်ကယ်များ သွားလာခွင့်မရှိ။",
-      "en": "mopeds and motorcycles under 125cc are not allowed on expressways."
+      "en": "Mopeds and motorcycles under 125cc are not allowed on expressways."
     },
     "choices": [
       {
@@ -1317,7 +1356,8 @@
       "ja": "高速道路を通行できるのは小型二輪を除く一定排気量以上の自動二輪車と自動車のみで、原動機付自転車や125cc以下の自動二輪車は通行できない。",
       "my": "မြန်နှုန်းမြင့်လမ်းမတွင် သွားလာနိုင်သည် ဆိုလိုသည်မှာ သတ်မှတ်ထားသော စီစီအထက် မော်တော်ဆိုင်ကယ်နှင့် ကားများသာဖြစ်ပြီး မော်တော်ဆိုင်ကယ်ငယ်နှင့် ၁၂၅ စီစီအောက်များ သွားလာခွင့်မရှိ။",
       "en": "Only motorcycles and cars over a certain displacement, excluding small motorcycles, are allowed to travel on the expressway; mopeds and motorcycles with a capacity of 125cc or less are not allowed."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0041",
@@ -1350,7 +1390,8 @@
       "ja": "交通状況により低速走行を強いられる場合は、最低速度を維持できないことが認められ、規制違反とはならない。",
       "my": "ယာဉ်ကြောအခြေအနေကြောင့် နှေးကွေးစွာ မောင်းနှင်ရန် မလွှဲမရှောင်သာသောအခါ အနိမ့်ဆုံးအရှိန်ကို မထိန်းနိုင်သည်ကို အသိအမှတ်ပြုပြီး ကန့်သတ်ချက်ချိုးဖောက်မှုအဖြစ် မမှတ်ယူပါ။",
       "en": "If a vehicle is forced to drive at a low speed due to traffic conditions, it is recognized that the minimum speed cannot be maintained and it is not a violation of regulations."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0042",
@@ -1383,7 +1424,8 @@
       "ja": "路肩は故障車の退避や緊急車両通行のためのスペースであり、一般車両が走行や駐停車に使用することは原則禁止されている。",
       "my": "ဂမ်းဘောင်သည် ကားပျက်စီးချိန် ရှောင်ရန်နေရာနှင့် အရေးပေါ်ယာဉ်များ ဖြတ်သန်းရန်နေရာဖြစ်ပြီး ပုံမှန်ယာဉ်များက မောင်းနှင်ရန် သို့မဟုတ် ရပ်နားရန် အသုံးပြုခြင်းကို အခြေခံအားဖြင့် တားမြစ်ထားသည်။",
       "en": "The road shoulder is a space for evacuation of broken down vehicles and for emergency vehicles to pass, and in principle, it is prohibited for general vehicles to use it for driving or parking."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0043",
@@ -1416,7 +1458,8 @@
       "ja": "高速道路上での後退や逆走は重大な事故を引き起こす危険な行為であり、絶対に行ってはならず、次の出口まで進むべきである。",
       "my": "မြန်နှုန်းမြင့်လမ်းမပေါ်တွင် နောက်ပြန်ဆုတ်ခြင်း သို့မဟုတ် ပြောင်းပြန်မောင်းခြင်းသည် ပြင်းထန်သော မတော်တဆမှုများကို ဖြစ်စေနိုင်သော အန္တရာယ်ရှိသော လုပ်ရပ်ဖြစ်၍ လုံးဝမပြုလုပ်ရဘဲ နောက်ထွက်ပေါက်အထိ ဆက်သွားသင့်သည်။",
       "en": "Reversing or driving the wrong way on a highway is a dangerous act that can cause serious accidents, and you should never do it, and you should just continue to the next exit."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0044",
@@ -1449,7 +1492,8 @@
       "ja": "高速道路は途中で停車することが難しいため、走行前に燃料・冷却水・タイヤ等の点検を済ませておくべきである。",
       "my": "မြန်နှုန်းမြင့်လမ်းမသည် လမ်းတွင်းတွင် ရပ်နားရန်ခက်ခဲသောကြောင့် မောင်းနှင်ခြင်းမပြုမီ ဆီ၊ အအေးခံရေနှင့် ဘီးစသည်တို့ကို စစ်ဆေးထားသင့်သည်။",
       "en": "Since it is difficult to stop on the highway, you should check the fuel, coolant, tires, etc. before driving."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0045",
@@ -1482,7 +1526,8 @@
       "ja": "速度が速くなるほど停止までに必要な距離が長くなるため、車間距離は速度に応じて十分に広くとる必要がある。",
       "my": "အရှိန်မြန်လေ ရပ်တန့်ရန် လိုအပ်သောအကွာအဝေး ရှည်လေဖြစ်သောကြောင့် ကားကြားအကွာအဝေးကို အရှိန်နှင့်လျော်ညီစွာ လုံလောက်စွာထားရန် လိုအပ်သည်။",
       "en": "The faster the speed, the longer the distance required to stop, so the distance between vehicles needs to be wide enough depending on the speed."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0046",
@@ -1515,7 +1560,8 @@
       "ja": "本線上で速度を落とすと後続車との追突の危険があるため、減速車線に入ってから徐々に速度を落とすべきである。",
       "my": "မြန်နှုန်းမြင့်လမ်းမပေါ်တွင် အရှိန်လျှော့လျှင် နောက်လိုက်ကားနှင့် တိုက်မိနိုင်သော အန္တရာယ်ရှိသောကြောင့် အရှိန်လျှော့လမ်းကြောင်းသို့ဝင်ပြီးမှ တဖြည်းဖြည်း အရှိန်လျှော့သင့်သည်။",
       "en": "If you slow down on the main road, there is a risk of a rear-end collision with the vehicle behind you, so you should gradually reduce your speed after entering the deceleration lane."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0047",
@@ -1548,7 +1594,8 @@
       "ja": "登坂車線は坂道で速度が落ちる大型車等のための車線で、これを追い越し目的で使用することは想定されていない。",
       "my": "တောင်တက်လမ်းကြောင်းသည် တောင်ပေါ်လမ်းတွင် အရှိန်ကျသွားသော ကားအကြီးစားများအတွက် လမ်းကြောင်းဖြစ်ပြီး ၎င်းကို ကျော်တက်ရန် ရည်ရွယ်ချက်ဖြင့် အသုံးပြုခြင်းကို မရည်ရွယ်ပါ။",
       "en": "The uphill lane is a lane for large vehicles that slow down on slopes, and is not intended to be used for overtaking purposes."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0048",
@@ -1581,7 +1628,8 @@
       "ja": "高速道路上での火災時は無理に消火を試みず、ガードレールの外など安全な場所へ速やかに避難することが優先される。",
       "my": "မြန်နှုန်းမြင့်လမ်းမပေါ်တွင် မီးလောင်ချိန် အတင်းအကျပ် မီးငြှိမ်းရန်မကြိုးစားဘဲ ဂမ်းရိုးခြံစည်းရိုးအပြင်ဘက်ကဲ့သို့ ဘေးကင်းသောနေရာသို့ မြန်မြန်ဆန်ဆန် ရွေ့ရန်ကို ဦးစားပေးသည်။",
       "en": "In the event of a fire on a highway, the priority is not to forcefully try to extinguish the fire, but rather to quickly evacuate to a safe location, such as outside a guardrail."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0049",
@@ -1614,7 +1662,8 @@
       "ja": "サービスエリア等は休憩や物資補給のための場所であり、長時間にわたる駐車は他の利用者の妨げとなるため避けるべきである。",
       "my": "ဝန်ဆောင်မှုနေရာများသည် နားနေခြင်းနှင့် ပစ္စည်းဖြည့်တင်းရန်အတွက် နေရာများဖြစ်ပြီး ကြာရှည်ရပ်နားခြင်းသည် အခြားအသုံးပြုသူများကို နှောင့်ယှက်သောကြောင့် ရှောင်ရှားသင့်သည်။",
       "en": "Service areas are places for resting and replenishing supplies, and parking for long periods of time is a hindrance to other users and should be avoided."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0050",
@@ -1647,7 +1696,8 @@
       "ja": "本線上での停止は非常に危険なため、可能な限り路肩やさらに安全な退避スペースまで車両を移動させる必要がある。",
       "my": "လမ်းမအတွင်း ရပ်နားခြင်းသည် အလွန်အန္တရာယ်ရှိသောကြောင့် ဖြစ်နိုင်သမျှ ဂမ်းဘောင် သို့မဟုတ် ပိုမိုဘေးကင်းသော ခိုလှုံနေရာသို့ ယာဉ်ကို ရွှေ့ရန် လိုအပ်သည်။",
       "en": "Stopping on the main road is extremely dangerous, so vehicles should be moved to the shoulder of the road or to a safer evacuation space if possible."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0051",
@@ -1680,7 +1730,8 @@
       "ja": "高速道路での居眠り運転は重大事故の原因となるため、眠気を感じたら速やかにサービスエリア等で休息を取るべきである。",
       "my": "မြန်နှုန်းမြင့်လမ်းမတွင် အိပ်ငိုက်လျက် မောင်းနှင်ခြင်းသည် ပြင်းထန်သော မတော်တဆမှုများ၏ အကြောင်းတစ်ခုဖြစ်သောကြောင့် အိပ်ငိုက်ချင်စိတ်ရှိလာလျှင် ဝန်ဆောင်မှုနေရာစသည်တွင် မြန်မြန်ဆန်ဆန် နားနေသင့်သည်။",
       "en": "Drowsy driving on the expressway can cause serious accidents, so if you feel drowsy, you should immediately take a rest at a service area."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0052",
@@ -1713,7 +1764,8 @@
       "ja": "チェーン規制が発令されている区間では、スタッドレスタイヤだけでは通行が認められず、必ずタイヤチェーンを装着しなければならない。",
       "my": "ချိန်းကန့်သတ်ချက် ထုတ်ပြန်ထားသော လမ်းပိုင်းတွင် ဆတဒ်လက်စ်ဘီးတစ်ခုတည်းဖြင့် သွားလာခွင့်မပြုဘဲ ဘီးချိန်းကို မဖြစ်မနေ တပ်ဆင်ရမည်။",
       "en": "In areas where chain restrictions have been issued, drivers are not allowed to drive with only studded tires; tires must be equipped with chains."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0053",
@@ -1746,7 +1798,8 @@
       "ja": "日本の高速道路は左側通行のため、前車を追い越す際は右側の車線に出て追い越し、追い越し後は速やかに元の車線に戻る。",
       "my": "ဂျပန်၏ မြန်နှုန်းမြင့်လမ်းမသည် ဘယ်ဘက်ယာဉ်စီးသွားရသောကြောင့် ရှေ့ကားကို ကျော်တက်ချိန် ညာဘက်လမ်းကြောင်းသို့ထွက်ပြီး ကျော်တက်ပြီးနောက် မူလလမ်းကြောင်းသို့ မြန်မြန်ဆန်ဆန် ပြန်လာရမည်။",
       "en": "Japanese expressways drive on the left, so when passing the vehicle in front of you, move into the right lane and quickly return to your original lane after passing."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0054",
@@ -1756,7 +1809,7 @@
     "prompt": {
       "ja": "高速道路の入口で「ETC専用」と表示されたゲートには、ETCを搭載していない車も進入できる。",
       "my": "မြန်နှုန်းမြင့်လမ်းမ ဝင်ပေါက်ရှိ \"ETC အထူးသုံး\" ဟု ပြသည့်တံခါးအတွင်းသို့ ETC တပ်ဆင်ထားခြင်းမရှိသော ကားများလည်း ဝင်နိုင်သည်။",
-      "en": "Vehicles not equipped with ETC can also enter the gates marked \"ETC only' at expressway entrances."
+      "en": "Vehicles not equipped with ETC can also enter the gates marked \"ETC only\" at expressway entrances."
     },
     "choices": [
       {
@@ -1779,7 +1832,8 @@
       "ja": "ETC専用ゲートはETC搭載車のみが通行できるレーンであり、ETCを搭載していない車が進入すると通行できずトラブルの原因となる。",
       "my": "ETC အထူးသုံးတံခါးသည် ETC တပ်ဆင်ထားသောကားများသာ ဖြတ်သွားနိုင်သော လမ်းကြောင်းဖြစ်ပြီး ETC မတပ်ဆင်ထားသောကား ဝင်လျှင် ဖြတ်သွားနိုင်မည်မဟုတ်ဘဲ ပြဿနာဖြစ်စေသည်။",
       "en": "ETC-only gates are lanes where only ETC-equipped vehicles can pass, and if a vehicle without ETC enters, they will not be able to pass through, causing trouble."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0055",
@@ -1812,7 +1866,8 @@
       "ja": "合流地点では本線車に優先権があり、合流車側が本線の流れを見て安全な隙間に入る義務を負う。",
       "my": "ပေါင်းစည်းရာနေရာတွင် လမ်းမပေါ်မှ ကားများက ဦးစားပေးခွင့်ရှိပြီး ပေါင်းစည်းလာသောကားဘက်က လမ်းမ၏ ယာဉ်စီးကြောင်းကိုကြည့်၍ ဘေးကင်းသောနေရာတွင် ဝင်ရန် တာဝန်ရှိသည်။",
       "en": "At merging points, main line cars have priority, and the merging car has the obligation to follow the flow of the main line and move into a safe gap."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "id": "jp_car_0056",
@@ -1845,7 +1900,8 @@
       "ja": "対向車線が複数ある場合は、すべての車線から来る直進車やバイクなどに注意し、死角になりやすい車線にも気を配る必要がある。",
       "my": "ဆန့်ကျင်ဘက်လမ်းကြောင်းများစွာရှိသောအခါ လမ်းကြောင်းအားလုံးမှလာသော တည့်တည့်ကားများနှင့် ဆိုင်ကယ်များကို သတိပြုပြီး မြင်ရခက်သော လမ်းကြောင်းများကိုလည်း ဂရုစိုက်ရန်လိုသည်။",
       "en": "If there are multiple oncoming traffic lanes, it is necessary to pay attention to straight cars and motorcycles from all lanes, and to lanes that are prone to blind spots."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0057",
@@ -1878,7 +1934,8 @@
       "ja": "信号が変わっても横断歩道や交差点内に渡り終えていない歩行者がいる場合は、その通行を妨げないようにしなければならない。",
       "my": "မီးပွိုင့်ပြောင်းသွားသော်လည်း လူကူးမျဉ်း သို့မဟုတ် လမ်းဆုံအတွင်း ကူးဆဲမပြီးသေးသော လူသွားလူလာရှိပါက ၎င်း၏သွားလာမှုကို မနှောင့်ယှက်ရပါ။",
       "en": "If there are pedestrians who have not yet crossed the street at a crosswalk or intersection even after the traffic lights have changed, you must ensure that you do not obstruct their passage."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0058",
@@ -1911,7 +1968,8 @@
       "ja": "動物注意の標識がある区間では、野生動物が突然道路に飛び出す可能性があるため、速度を落として備える必要がある。",
       "my": "တိရစ္ဆာန်သတိပေးဆိုင်းဘုတ်ရှိသော လမ်းပိုင်းတွင် တောတိရစ္ဆာန်များ ရုတ်တရက် လမ်းပေါ်သို့ ပေါ်လာနိုင်သောကြောင့် အရှိန်လျှော့ပြီး ပြင်ဆင်ထားရန် လိုအပ်သည်။",
       "en": "In areas with animal caution signs, you should slow down and be prepared as wild animals may suddenly jump onto the road."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0059",
@@ -1944,7 +2002,8 @@
       "ja": "車両の大きさは優先順位に関係せず、道幅・標識の有無・左方優先の原則などに基づいて優先順位が決まる。",
       "my": "ယာဉ်အရွယ်အစားသည် ဦးစားပေးအစီအစဉ်နှင့် မသက်ဆိုင်ဘဲ လမ်းအကျယ်၊ ဆိုင်းဘုတ်ရှိ၊ မရှိနှင့် ဘယ်ဘက်ဦးစားပေးစသည့် အခြေခံမူများအပေါ် မူတည်၍ ဦးစားပေးအစီအစဉ်ကို ဆုံးဖြတ်သည်။",
       "en": "The size of the vehicle has no bearing on the priority order; the priority order is determined based on factors such as road width, the presence or absence of signs, and the principle of giving priority to the left side."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0060",
@@ -1977,7 +2036,8 @@
       "ja": "右折待ちの車両は交差点の中心の直近内側を通行することが原則として認められ、対向車の通過を待って右折する。",
       "my": "ညာဘက်ကွေ့ရန်စောင့်နေသော ယာဉ်သည် လမ်းဆုံအလယ်ဗဟိုချက်အနီးအတွင်းဘက်ကို သွားလာရန် အခြေခံအားဖြင့် ခွင့်ပြုထားပြီး ဆန့်ကျင်ဘက်ကားများ ဖြတ်သွားသည်အထိ စောင့်ပြီးမှ ညာဘက်ကွေ့ရမည်။",
       "en": "As a general rule, vehicles waiting to turn right are allowed to pass just inside the center of the intersection, waiting for oncoming traffic to pass before turning right."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0061",
@@ -2010,7 +2070,8 @@
       "ja": "標識の有無にかかわらず、見通しの悪い交差点では徐行して左右の安全を確認することが安全運転の基本である。",
       "my": "ဆိုင်းဘုတ်ရှိ၊ မရှိမသက်ဆိုင်ဘဲ မြင်နိုင်စွမ်းနည်းသော လမ်းဆုံများတွင် အရှိန်လျှော့ပြီး ဘယ်/ညာဘက် ဘေးကင်းမှုကို စစ်ဆေးခြင်းသည် ဘေးကင်းစွာမောင်းနှင်ခြင်း၏ အခြေခံဖြစ်သည်။",
       "en": "Regardless of whether there are signs or not, the basics of safe driving are to drive slowly at intersections with poor visibility and check both sides for safety."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0062",
@@ -2043,7 +2104,8 @@
       "ja": "黄色信号は原則停止を意味し、安全に停止できる場合は停止線の直前で停止しなければならない。",
       "my": "အဝါမီးသည် အခြေခံအားဖြင့် ရပ်ရန်ဆိုလိုပြီး ဘေးကင်းစွာ ရပ်နိုင်ပါက ခေတ္တရပ်လိုင်းရှေ့တွင် ရပ်ရမည်။",
       "en": "A yellow light generally means a stop, and if it is safe to do so, you must stop just before the stop line."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0063",
@@ -2076,7 +2138,8 @@
       "ja": "交差点内で動けなくなるおそれがある場合は、信号が青であっても交差点に進入してはならない。",
       "my": "လမ်းဆုံအတွင်း မရွေ့နိုင်ဖြစ်နိုင်ခြေရှိပါက မီးပွိုင့်အစိမ်းရောင်ဖြစ်နေသော်လည်း လမ်းဆုံအတွင်းသို့ မဝင်ရပါ။",
       "en": "If there is a risk that you may become stuck within the intersection, do not enter the intersection even if the traffic light is green."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0064",
@@ -2109,7 +2172,8 @@
       "ja": "赤の点滅信号は「止まれ」の標識と同じ意味であり、一時停止して安全確認後に進行できる。",
       "my": "အနီရောင်တုတ်ခြင်းမီးသည် \"ရပ်ပါ\" ဆိုင်းဘုတ်နှင့် တူညီသောအဓိပ္ပာယ်ဖြစ်ပြီး ခေတ္တရပ်ပြီး ဘေးကင်းမှုစစ်ဆေးပြီးမှ ဆက်သွားနိုင်သည်။",
       "en": "A flashing red signal has the same meaning as a \"stop\" sign, meaning you can stop temporarily and proceed after ensuring safety."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0065",
@@ -2142,7 +2206,8 @@
       "ja": "黄色の点滅信号は、他の車両や歩行者の動きに注意しながら進行してよいことを示す。",
       "my": "အဝါရောင်တုတ်ခြင်းမီးသည် အခြားယာဉ်များနှင့် လူသွားလူလာများ၏ လှုပ်ရှားမှုကို သတိပြုလျက် ဆက်သွားနိုင်ကြောင်း ဖော်ပြသည်။",
       "en": "A flashing yellow signal indicates that you may proceed while paying attention to the movements of other vehicles and pedestrians."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0066",
@@ -2175,7 +2240,8 @@
       "ja": "T字路では、突き当たる側の道路（側道）から進入する車は、本線（直進道路）を走る車に進路を譲る必要がある。",
       "my": "T-ပုံစံလမ်းဆုံတွင် ဆုံသွားသောဘက်ရှိလမ်း (ဘေးလမ်း) မှ ဝင်လာသောကားသည် လမ်းမ (တည့်တည့်လမ်း) ပေါ်မှ ကားများအတွက် လမ်းဖယ်ပေးရန် လိုအပ်သည်။",
       "en": "At a T-junction, vehicles approaching from the side road (service road) must yield to vehicles traveling on the main road (straight road)."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0067",
@@ -2208,7 +2274,8 @@
       "ja": "右折時はあらかじめできるだけ道路中央に寄り、交差点の中心の直近内側を通る小回りで進行するのが正しい方法である。",
       "my": "ညာဘက်ကွေ့ချိန် ကြိုတင်၍ လမ်းအလယ်ဗဟိုသို့ ဖြစ်နိုင်သမျှ ကပ်ပြီး လမ်းဆုံအလယ်ဗဟိုချက်အနီးအတွင်းဘက်ကို ဖြတ်ကျော်သွားသော ငယ်ငယ်ကွေ့ခြင်းသည် မှန်ကန်သောနည်းလမ်းဖြစ်သည်။",
       "en": "When making a right turn, the correct way to do this is to move as close to the center of the road as possible and take a short turn around the center of the intersection."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0068",
@@ -2241,7 +2308,8 @@
       "ja": "左折時はできるだけ道路の左端に沿って小回りで進行することで、後続の二輪車などとの巻き込み事故を防ぐことができる。",
       "my": "ဘယ်ဘက်ကွေ့ချိန် ဖြစ်နိုင်သမျှ လမ်းဘယ်ဘက်အစွန်းကို လျှောက်လျက် ငယ်ငယ်ကွေ့ပြီးသွားခြင်းဖြင့် နောက်ကလာသော နှစ်ဘီးယာဉ်များနှင့် ထိမှန်မိခြင်းကဲ့သို့ မတော်တဆမှုကို ကာကွယ်နိုင်သည်။",
       "en": "When making a left turn, you can avoid accidents involving other motorcycles or other vehicles by following the left edge of the road as closely as possible."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0069",
@@ -2274,7 +2342,8 @@
       "ja": "直進車には優先権があるため、対向車が右折しようとしていても直進車は速度や進路を変えずに通過することが原則であるが、相手の動きには常に注意を払う。",
       "my": "တည့်တည့်သွားသောကားသည် ဦးစားပေးခွင့်ရှိသောကြောင့် ဆန့်ကျင်ဘက်ကား ညာဘက်ကွေ့ရန်ကြိုးစားနေသော်လည်း တည့်တည့်ကားသည် အရှိန်/လမ်းကြောင်း မပြောင်းဘဲ ဖြတ်သွားရန် အခြေခံဖြစ်သော်လည်း တစ်ဖက်လှုပ်ရှားမှုကို အမြဲသတိပြုရမည်။",
       "en": "Vehicles traveling straight have the right of way, so even if an oncoming vehicle is about to turn right, a vehicle traveling straight must pass without changing speed or course, but always pay attention to the other vehicle's movements."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0070",
@@ -2307,7 +2376,8 @@
       "ja": "車線規制がある場合は、状況に応じて係員の指示や標識に従い、規制側の車両にも適切に進路を譲るなど安全な通行を優先すべきである。",
       "my": "လမ်းကြောင်းကန့်သတ်ချက်ရှိသောအခါ အခြေအနေအလိုက် လမ်းညွှန်ဝန်ထမ်းညွှန်ကြားချက် သို့မဟုတ် ဆိုင်းဘုတ်ကို လိုက်နာပြီး ကန့်သတ်ဘက်ယာဉ်များကိုလည်း လိုအပ်သလို လမ်းဖယ်ပေးခြင်းကဲ့သို့ ဘေးကင်းစွာ ဖြတ်သွားရန် ဦးစားပေးသင့်သည်။",
       "en": "If there are lane restrictions, priority should be given to safe passage, such as following the instructions of the staff and signs, and giving way to vehicles on the restricted side, depending on the situation."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "id": "jp_car_0071",
@@ -2340,7 +2410,8 @@
       "ja": "矢印信号は矢印の方向にのみ進行を許可するもので、右矢印のみが点灯している場合は右折車だけが進める。",
       "my": "မြှားပုံစံမီးပွိုင့်သည် မြှားညွှန်ထားသော ဦးတည်ရာသို့သာ သွားလာခွင့်ပြုပြီး ညာဘက်မြှားသာ ထွန်းနေလျှင် ညာဘက်ကွေ့ကားများသာ ဆက်သွားနိုင်သည်။",
       "en": "Arrow signals only allow vehicles to proceed in the direction of the arrow, and if only the right arrow is lit, only right-turning vehicles can proceed."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0072",
@@ -2373,7 +2444,8 @@
       "ja": "歩車分離式信号は車両と歩行者が同時に交差点を通行しないよう制御され、巻き込み事故を防ぐ仕組みである。",
       "my": "လူ/ယာဉ် ခွဲခြားစနစ်မီးပွိုင့်သည် ယာဉ်နှင့် လူသွားလူလာ တစ်ချိန်တည်း လမ်းဆုံကို မဖြတ်သန်းစေရန် ထိန်းချုပ်ထားပြီး ထိမှန်မိခြင်းကဲ့သို့ မတော်တဆမှုကို ကာကွယ်သည့် စနစ်ဖြစ်သည်။",
       "en": "Pedestrian and vehicle separation signals prevent vehicles and pedestrians from passing through intersections at the same time, and prevent accidents involving pedestrians and pedestrians."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0073",
@@ -2405,8 +2477,9 @@
     "explanation": {
       "ja": "「左折可」の標示板がある場合は、赤信号でも他の車両や歩行者の通行を妨げないことを確認したうえで左折できる。",
       "my": "\"ဘယ်ဘက်ကွေ့နိုင်\" ဆိုင်းဘုတ်ရှိလျှင် အနီရောင်မီးထွန်းနေသော်လည်း အခြားယာဉ်များနှင့် လူသွားလူလာများ၏ သွားလာမှုကို မနှောင့်ယှက်ကြောင်း စစ်ဆေးပြီးမှ ဘယ်ဘက်ကွေ့နိုင်သည်။",
-      "en": "If there is a sign that says \"Left Turn Allowed,' you may turn left after making sure that you do not obstruct the passage of other vehicles or pedestrians even on red lights."
-    }
+      "en": "If there is a sign that says \"Left Turn Allowed,\" you may turn left after making sure that you do not obstruct the passage of other vehicles or pedestrians even on red lights."
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0074",
@@ -2439,7 +2512,8 @@
       "ja": "歩行者・自転車専用の信号が赤であれば、自転車横断帯を通行する自転車もその信号に従って停止しなければならない。",
       "my": "လူသွားလူလာ/စက်ဘီးအထူးသုံးမီးပွိုင့်က အနီဖြစ်နေလျှင် စက်ဘီးကူးမျဉ်းကို ဖြတ်သန်းမည့် စက်ဘီးများလည်း ထိုမီးပွိုင့်ကို လိုက်နာပြီး ရပ်ရမည်။",
       "en": "If the traffic light for pedestrians and bicycles is red, bicycles passing through the bicycle crossing zone must also stop according to the traffic light."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0075",
@@ -2449,7 +2523,7 @@
     "prompt": {
       "ja": "「中央線」を示す道路標示（黄色の実線）がある場所では、追い越しのためにその線を越えてはならない。",
       "my": "\"အလယ်မျဉ်း\" ပြသည့် လမ်းအမှတ်အသား (အဝါရောင်တစ်ပြိုင်နက်မျဉ်း) ရှိသောနေရာတွင် ကျော်တက်ရန် ထိုမျဉ်းကို ဖြတ်သန်းခွင့်မရှိ။",
-      "en": "Where there is a road marking (solid yellow line) indicating the \"center line,' do not cross the line to overtake."
+      "en": "Where there is a road marking (solid yellow line) indicating the \"center line,\" do not cross the line to overtake."
     },
     "choices": [
       {
@@ -2472,7 +2546,8 @@
       "ja": "黄色の実線は追い越しのための右側部分への進出を禁止する中央線であり、これを越えての追い越しは禁止されている。",
       "my": "အဝါရောင်တစ်ပြိုင်နက်မျဉ်းသည် ကျော်တက်ရန် ညာဘက်အပိုင်းသို့ ဝင်ခြင်းကို တားမြစ်သော အလယ်မျဉ်းဖြစ်ပြီး ၎င်းကို ဖြတ်ကျော်ပြီး ကျော်တက်ခြင်းကို တားမြစ်ထားသည်။",
       "en": "The solid yellow line is the center line that prohibits drivers from moving to the right side for overtaking, and overtaking beyond this line is prohibited."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0076",
@@ -2505,7 +2580,8 @@
       "ja": "白の破線の中央線は、対向車などの安全を確認できれば追い越しのために越えることが認められている。",
       "my": "အဖြူရောင်အပြတ်အပြတ်မျဉ်း အလယ်မျဉ်းသည် ဆန့်ကျင်ဘက်ကားစသည်၏ ဘေးကင်းမှုကို စစ်ဆေးနိုင်ပါက ကျော်တက်ရန် ဖြတ်ကျော်ခြင်းကို ခွင့်ပြုထားသည်။",
       "en": "It is permitted to cross the dashed white center line to pass other vehicles if it is safe to do so."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0077",
@@ -2538,7 +2614,8 @@
       "ja": "道路上の菱形マークは横断歩道・自転車横断帯ありの予告標示であり、運転者に注意を促す。",
       "my": "လမ်းပေါ်ရှိ စတုဂံပုံစံအမှတ်အသားသည် လူကူးမျဉ်း/စက်ဘီးကူးမျဉ်းရှိကြောင်း ကြိုတင်အသိပေးသည့် အမှတ်အသားဖြစ်ပြီး မောင်းသူအား သတိပေးသည်။",
       "en": "A diamond-shaped mark on the road is a warning sign that there is a crosswalk or bicycle crossing zone, and it alerts motorists."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0078",
@@ -2571,7 +2648,8 @@
       "ja": "規制予告標識は、前方で始まる速度規制や追越し禁止などの内容を事前に知らせ、運転者に準備を促す。",
       "my": "ကန့်သတ်ချက် ကြိုတင်အသိပေးချက်ဆိုင်းဘုတ်သည် ရှေ့တွင်စတင်မည့် အရှိန်ကန့်သတ်ချက် သို့မဟုတ် ကျော်တက်ခွင့်မရှိစသည့် အကြောင်းအရာကို ကြိုတင်အသိပေးပြီး မောင်းသူအား ပြင်ဆင်ရန် တိုက်တွန်းသည်။",
       "en": "Restriction warning signs inform drivers of speed restrictions and overtaking restrictions that will begin ahead of them, encouraging drivers to prepare."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0079",
@@ -2581,7 +2659,7 @@
     "prompt": {
       "ja": "「学校、幼稚園・保育所等あり」の警戒標識は、付近で子供の飛び出しに注意するよう運転者に促すものである。",
       "my": "\"ကျောင်း၊ မူကြွေငယ်ကျောင်း/ကလေးထိန်းဌာနရှိ\" သတိပေးဆိုင်းဘုတ်သည် အနီးတွင် ကလေးများ ရုတ်တရက် ထွက်လာနိုင်ခြင်းကို သတိပြုရန် မောင်းသူအား တိုက်တွန်းသည်။",
-      "en": "The warning sign \"School, Kindergarten, Daycare Center, etc.' reminds drivers to be careful of children running out in the vicinity."
+      "en": "The warning sign \"School, Kindergarten, Daycare Center, etc.\" reminds drivers to be careful of children running out in the vicinity."
     },
     "choices": [
       {
@@ -2604,7 +2682,8 @@
       "ja": "この警戒標識は学校や保育施設などが近くにあることを示し、子供の飛び出しに備えて速度を落とすよう促す。",
       "my": "ဤသတိပေးဆိုင်းဘုတ်သည် ကျောင်း သို့မဟုတ် ကလေးထိန်းဌာနများ အနီးတွင်ရှိကြောင်း ဖော်ပြပြီး ကလေးများ ရုတ်တရက်ထွက်လာနိုင်ခြင်းအတွက် အရှိန်လျှော့ရန် တိုက်တွန်းသည်။",
       "en": "These warning signs indicate nearby schools, child care facilities, etc. and remind drivers to slow down in case children run out."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0080",
@@ -2637,7 +2716,8 @@
       "ja": "重量制限は車両自体（車両総重量）に対する規制であり、空車かどうかにかかわらず表示された重量を超える車両は通行できない。",
       "my": "အလေးချိန်ကန့်သတ်ချက်သည် ယာဉ်ကိုယ်တိုင် (ယာဉ်စုစုပေါင်းအလေးချိန်) အပေါ် ကန့်သတ်ချက်ဖြစ်ပြီး ပစ္စည်းတင်ထား၊ မထားမသက်ဆိုင်ဘဲ ပြထားသော အလေးချိန်ထက်ပိုသော ယာဉ်များ သွားလာခွင့်မရှိ။",
       "en": "The weight limit is a restriction on the vehicle itself (total vehicle weight), and vehicles exceeding the indicated weight cannot pass, regardless of whether it is empty or not."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0081",
@@ -2670,7 +2750,8 @@
       "ja": "進行方向別通行区分の標示は車線ごとに進める方向を指定し、直進矢印のみの車線からは右折や左折はできない。",
       "my": "ဦးတည်ရာအလိုက် သွားလာရာ ပိုင်းခြားအမှတ်အသားသည် လမ်းကြောင်းအလိုက် သွားနိုင်သောဦးတည်ရာကို သတ်မှတ်ပြီး တည့်တည့်မြှားသာပါသော လမ်းကြောင်းမှ ညာဘက်/ဘယ်ဘက်ကွေ့ခွင့်မရှိပါ။",
       "en": "Direction-based traffic classification signs specify the direction of travel for each lane, and it is not possible to turn right or left from a lane with only a straight arrow."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0082",
@@ -2680,7 +2761,7 @@
     "prompt": {
       "ja": "「自転車専用」の標識がある通行帯を普通自動車が走行することは認められている。",
       "my": "\"စက်ဘီးအထူးသုံး\" ဆိုင်းဘုတ်ရှိသော လမ်းကြောင်းတွင် ပုံမှန်ကားမောင်းနှင်ခြင်းကို ခွင့်ပြုထားသည်။",
-      "en": "Regular cars are allowed to drive in lanes marked with \"bicycles only' signs."
+      "en": "Regular cars are allowed to drive in lanes marked with \"bicycles only\" signs."
     },
     "choices": [
       {
@@ -2703,7 +2784,8 @@
       "ja": "自転車専用の通行帯は自転車のための車線であり、普通自動車は原則として通行することができない。",
       "my": "စက်ဘီးအထူးသုံးလမ်းကြောင်းသည် စက်ဘီးများအတွက် လမ်းကြောင်းဖြစ်ပြီး ပုံမှန်ကားများ အခြေခံအားဖြင့် သွားလာခွင့်မရှိပါ။",
       "en": "Bicycle-only lanes are lanes for bicycles, and as a general rule, regular cars are not allowed to pass through them."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0083",
@@ -2736,7 +2818,8 @@
       "ja": "横断しようとしている歩行者がいる場合、ボタンの状態にかかわらず車は一時停止して歩行者の通行を妨げてはならない。",
       "my": "ကူးမည့် လူသွားလူလာရှိသောအခါ ခလုတ်အခြေအနေနှင့် မသက်ဆိုင်ဘဲ ကားသည် ခေတ္တရပ်ပြီး လူသွားလူလာ၏ သွားလာမှုကို မနှောင့်ယှက်ရပါ။",
       "en": "If a pedestrian is about to cross, the vehicle must not stop and obstruct the pedestrian's passage, regardless of the state of the button."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0084",
@@ -2769,7 +2852,8 @@
       "ja": "黄色の格子状の標示は交差点内での停滞を防ぐためのもので、前方の混雑が原因でその中に進入し停止することは禁止される。",
       "my": "အဝါရောင်ကွက်ဂရစ်ပုံစံအမှတ်အသားသည် လမ်းဆုံအတွင်း ပိတ်ဆို့မှုကို ကာကွယ်ရန်ဖြစ်ပြီး ရှေ့ပိတ်ဆို့မှုကြောင့် ၎င်းအတွင်းသို့ ဝင်ပြီးရပ်တန့်ခြင်းကို တားမြစ်ထားသည်။",
       "en": "The yellow grid-shaped markings are intended to prevent vehicles from stopping at intersections, and it is prohibited to enter them and stop due to congestion in front of the intersection."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0085",
@@ -2779,7 +2863,7 @@
     "prompt": {
       "ja": "「専用通行帯」の標示がある路線バス専用車線は、原則としてバス以外のすべての車両が通行できない。",
       "my": "\"အထူးသုံးလမ်းကြောင်း\" အမှတ်အသားရှိသော ဘတ်စ်ကားလမ်းကြောင်းကို ဘတ်စ်ကားမှလွဲ၍ ယာဉ်အားလုံး အခြေခံအားဖြင့် သွားလာခွင့်မရှိ။",
-      "en": "As a general rule, all vehicles other than buses cannot pass through lanes designated for route buses that are marked as \"exclusive lanes.'"
+      "en": "As a general rule, all vehicles other than buses cannot pass through lanes designated for route buses that are marked as \"exclusive lanes.\""
     },
     "choices": [
       {
@@ -2802,7 +2886,8 @@
       "ja": "専用通行帯は指定された車両（路線バス等）のみが通行でき、それ以外の車両は左折などのためにやむを得ず横切る場合を除き通行できない。",
       "my": "အထူးသုံးလမ်းကြောင်းကို သတ်မှတ်ထားသော ယာဉ် (ဘတ်စ်ကားစသည်) သာ သွားလာနိုင်ပြီး အခြားယာဉ်များသည် ဘယ်ဘက်ကွေ့ရန်စသည့် မလွှဲမရှောင်သာသော အခြေအနေမှလွဲ၍ သွားလာခွင့်မရှိ။",
       "en": "Only designated vehicles (route buses, etc.) can pass through the dedicated lane, and other vehicles are not allowed to pass unless it is unavoidable to cross the lane to make a left turn."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "id": "jp_car_0086",
@@ -2865,7 +2950,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0087",
@@ -2928,7 +3014,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0088",
@@ -2991,7 +3078,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0089",
@@ -3054,7 +3142,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0090",
@@ -3117,7 +3206,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0091",
@@ -3180,7 +3270,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0092",
@@ -3190,7 +3281,7 @@
     "prompt": {
       "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n片側2車線の道路で、左車線に大型トラックが走行中、右車線への進路変更を検討している。注意すべき点は何か。",
       "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေပါ။\n\nတစ်ဖက်လမ်းကြောင်း ၂ ခုရှိသော လမ်းတွင် ဘယ်ဘက်လမ်းကြောင်းတွင် ထရပ်ကားအကြီးစား မောင်းနှင်နေစဉ် ညာဘက်လမ်းကြောင်းသို့ ပြောင်းရန် စဉ်းစားနေသည်။ သတိပြုရမည့်အချက်က ဘာလဲ。",
-      "en": "Look at the following scene and answer whether each statement from A to C is true or false. On a road with two lanes on each side, a large truck is traveling in the left lane and you are considering changing course to the right lane.注意すべき点は何か。"
+      "en": "Look at the following scene and answer whether each statement A through C is correct or incorrect. On a road with two lanes in each direction, a large truck is traveling in the left lane and you are considering changing to the right lane. What should you watch for?"
     },
     "choices": [
       {
@@ -3243,7 +3334,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0093",
@@ -3253,7 +3345,7 @@
     "prompt": {
       "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n前方の交差点で、対向車線の車が右折のウインカーを出しているが、まだ停止していない。考えられる危険は何か。",
       "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေပါ။\n\nရှေ့လမ်းဆုံတွင် ဆန့်ကျင်ဘက်လမ်းကြောင်းရှိ ကားသည် ညာဘက်ကွေ့မီးညွှန်ပြထားသော်လည်း မရပ်သေးပါ။ ဖြစ်နိုင်ခြေရှိသော အန္တရာယ်က ဘာလဲ。",
-      "en": "Look at the following scene and answer whether each statement from A to C is true or false. At the intersection ahead, a car in the opposite lane is flashing its turn signal to turn right, but it hasn't stopped yet.考えられる危険は何か。"
+      "en": "Look at the following scene and answer whether each statement A through C is correct or incorrect. At the intersection ahead, a vehicle in the oncoming lane has its right-turn signal on but has not yet stopped. What hazard might occur?"
     },
     "choices": [
       {
@@ -3306,7 +3398,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0094",
@@ -3369,7 +3462,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0095",
@@ -3379,7 +3473,7 @@
     "prompt": {
       "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n高速道路の出口付近で、前方の車が急に速度を落としている。最も考えられる危険な状況は何か。",
       "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေပါ။\n\nမြန်နှုန်းမြင့်လမ်းမ ထွက်ပေါက်အနီးတွင် ရှေ့ကားသည် ရုတ်တရက် အရှိန်လျှော့နေသည်။ ဖြစ်နိုင်ခြေအများဆုံး အန္တရာယ်အခြေအနေက ဘာလဲ。",
-      "en": "Look at the following scene and answer whether each statement from A to C is true or false. Near the exit of the expressway, the car in front of you suddenly slows down.最も考えられる危険な状況は何か。"
+      "en": "Look at the following scene and answer whether each statement A through C is correct or incorrect. Near an expressway exit, the vehicle ahead suddenly slows down. What is the most likely hazardous situation?"
     },
     "choices": [
       {
@@ -3432,7 +3526,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0096",
@@ -3495,7 +3590,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0097",
@@ -3558,7 +3654,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0098",
@@ -3621,7 +3718,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0099",
@@ -3684,7 +3782,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0100",
@@ -3747,7 +3846,8 @@
         },
         "answer": 1
       }
-    ]
+    ],
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "id": "jp_car_0101",
@@ -3780,7 +3880,8 @@
       "ja": "前部座席だけでなく後部座席の同乗者にもシートベルトの着用が義務付けられている。",
       "my": "ရှေ့ထိုင်ခုံသာမက နောက်ထိုင်ခုံပေါ်ရှိ ခရီးသွားများအတွက်လည်း ခါးပတ်စည်းရန် တာဝန်ရှိသည်။",
       "en": "Passengers in the back seats as well as those in the front seats are required to wear seat belts."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0102",
@@ -3813,7 +3914,8 @@
       "ja": "走行中の使用は禁止されているが、安全な場所に完全に停車している場合は手で通話することは違反にならない。",
       "my": "မောင်းနှင်နေချိန် အသုံးပြုခြင်းကို တားမြစ်ထားသော်လည်း ဘေးကင်းသောနေရာတွင် လုံးဝရပ်နားနေချိန် လက်ဖြင့်ပြောဆိုခြင်းသည် ဥပဒေချိုးဖောက်မှုမဟုတ်။",
       "en": "Although it is prohibited to use the vehicle while driving, it is not a violation to use your hand to talk when the vehicle is completely stopped in a safe place."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0103",
@@ -3846,7 +3948,8 @@
       "ja": "速度が上がるほど停止距離も長くなるため、車間距離も速度に応じて十分にとる必要がある。",
       "my": "အမြန်နှုန်းမြင့်လေသည်နှင့်အမျှ ရပ်ရန်အကွာအဝေးလည်း ပိုလေသည် — ထို့ကြောင့် အကွာအဝေးကိုလည်း အမြန်နှုန်းနှင့်အညီ လုံလောက်စွာထားသင့်သည်။",
       "en": "As the speed increases, the stopping distance also increases, so it is necessary to maintain a sufficient distance between vehicles depending on the speed."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0104",
@@ -3879,7 +3982,8 @@
       "ja": "横断しようとしている歩行者がいる場合、信号の有無にかかわらず車は一時停止して道を譲る義務がある。",
       "my": "ဖြတ်သန်းမည့် လမ်းသွားလမ်းလျှောက်ရှိနေလျှင် ယာဉ်ကြောမီးရှိသည်ဖြစ်စေ မရှိသည်ဖြစ်စေ ကားသည် ခေတ္တရပ်ပြီး လမ်းဖယ်ပေးရန် တာဝန်ရှိသည်။",
       "en": "If a pedestrian is about to cross, vehicles are obligated to stop and give way, regardless of whether there is a signal or not."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0105",
@@ -3912,7 +4016,8 @@
       "ja": "高齢者マークを付けた車への幅寄せや割り込みなどの無理な行為は法律で禁止されている。",
       "my": "သက်ကြီးပိုင်းအမှတ်တပ်ဆင်ထားသောကားကို ဘေးတိုက်ကပ်ခြင်း သို့မဟုတ် ဖြတ်ဝင်ခြင်းကဲ့သို့ အတင်းအဓမ္မလုပ်ရပ်များကို ဥပဒေအရ တားမြစ်ထားသည်။",
       "en": "It is prohibited by law to do unreasonable acts such as pulling into or cutting into a vehicle that has a senior citizen's symbol on it."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0106",
@@ -3945,7 +4050,8 @@
       "ja": "音楽や冷房は一時的な気分転換にはなるが、本当の疲労や眠気の解消にはならず、休憩や睡眠が必要である。",
       "my": "ဂီတနှင့် လေအေးသည် ခဏတာစိတ်ဖြေမှုသာဖြစ်ပြီး အစစ်အမှန်ပင်ပန်းမှု သို့မဟုတ် အိပ်ငိုက်မှုကို မဖြေရှင်းနိုင်ပါ — အနားယူခြင်း သို့မဟုတ် အိပ်ခြင်းသာ လိုအပ်သည်။",
       "en": "Music and air conditioning can temporarily change your mood, but they don't really relieve fatigue or sleepiness, and you need rest and sleep."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0107",
@@ -3978,7 +4084,8 @@
       "ja": "飲酒運転は量の多少にかかわらず法律で厳しく禁止されている。",
       "my": "မူးယစ်ယာဉ်မောင်းခြင်းသည် ပမာဏများ/နည်းမသက်ဆိုင်ဘဲ ဥပဒေအရ တင်းကျပ်စွာ တားမြစ်ထားသည်။",
       "en": "Drinking and driving is strictly prohibited by law, regardless of the amount of alcohol consumed."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0108",
@@ -4011,7 +4118,8 @@
       "ja": "信号が青であっても、信号無視をする車両や横断者がいる可能性があるため、必ず周囲の安全を確認する必要がある。",
       "my": "ယာဉ်ကြောမီးအစိမ်းရောင်ဖြစ်နေလျှင်လည်း ယာဉ်ကြောမီးကို လျစ်လျူရှုသောယာဉ်များ သို့မဟုတ် ဖြတ်သန်းသူများ ရှိနိုင်သောကြောင့် ပတ်ဝန်းကျင်ဘေးကင်းမှုကို မဖြစ်မနေစစ်ဆေးကြည့်ရမည်။",
       "en": "Even if the traffic light is green, there may be vehicles or people crossing the street that ignore the traffic light, so you should always check the safety of your surroundings."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0109",
@@ -4044,7 +4152,8 @@
       "ja": "高速走行に慣れた感覚のまま一般道に入ると、実際の速度より遅く感じてしまい、知らないうちに速度超過してしまうことがある。",
       "my": "အမြန်လမ်းမောင်းနှင်မှု၏ ခံစားမှုနှင့်အတူ ပုံမှန်လမ်းသို့ ဝင်လျှင် အမှန်တကယ်အမြန်နှုန်းထက် ပိုနှေးသည်ဟု ခံစားရတတ်ပြီး မသိစိတ်ဖြင့် အမြန်နှုန်းကျော်လွန်သွားနိုင်သည်။",
       "en": "If you are used to driving at high speeds when you enter a public road, you may end up feeling slower than your actual speed and end up exceeding the speed limit without realizing it."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0110",
@@ -4077,7 +4186,8 @@
       "ja": "大型車の運転者から見えにくい死角に入ると危険なため、十分な車間距離をとることが大切である。",
       "my": "ယာဉ်ကြီးယာဉ်မောင်းသူထံမှ မမြင်နိုင်သော မျက်လုံးမမြင်ရသောနေရာတွင် ဝင်ခြင်းသည် အန္တရာယ်ရှိသောကြောင့် လုံလောက်သောအကွာအဝေးထားရန် အရေးကြီးသည်။",
       "en": "It is dangerous to drive into a blind spot where it is difficult for the driver of a large vehicle to see, so it is important to maintain a sufficient distance between vehicles."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0111",
@@ -4110,7 +4220,8 @@
       "ja": "走行中に画面を注視することは前方への注意がそれるわき見運転にあたり、事故の原因となる。",
       "my": "မောင်းနှင်နေချိန် မျက်နှာပြင်ကို စူးစူးစိုက်ကြည့်ခြင်းသည် ရှေ့ဘက်အာရုံကွဲသွားစေသော အလွဲကြည့်ယာဉ်မောင်းခြင်းဖြစ်ပြီး မတော်တဆမှုဖြစ်စေသော အကြောင်းတရားတစ်ခုဖြစ်သည်။",
       "en": "Staring at a screen while driving is considered distracted driving and can lead to accidents."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0112",
@@ -4143,7 +4254,8 @@
       "ja": "感謝の意を示すことで道路上の良好な関係が保たれ、円滑で安全な交通の流れにつながる。",
       "my": "ကျေးဇူးတင်ကြောင်းပြသခြင်းသည် လမ်းပေါ်တွင် ကောင်းမွန်သောဆက်ဆံမှုကို ထိန်းသိမ်းပေးပြီး ချောမွေ့ပြီး ဘေးကင်းသောယာဉ်ကြောစီးဆင်းမှုကို ဖြစ်စေသည်။",
       "en": "Showing gratitude maintains good relations on the road, leading to smooth and safe traffic flow."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0113",
@@ -4176,7 +4288,8 @@
       "ja": "子供は予測できない行動をとることが多いため、近くで遊んでいる場合は減速し警戒する必要がある。",
       "my": "ကလေးများသည် ခန့်မှန်းမရသောအပြုအမူများ ပြတတ်သောကြောင့် အနီးတွင်ကစားနေလျှင် အရှိန်လျှော့ပြီး သတိထားရန် လိုအပ်သည်။",
       "en": "Children often behave in unpredictable ways, so slow down and be cautious when playing nearby."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0114",
@@ -4209,7 +4322,8 @@
       "ja": "ミラーを定期的に確認することで周囲の車両の動きを把握でき、安全な運転判断につながる。",
       "my": "ကြည့်မှန်များကို ပုံမှန်စစ်ဆေးကြည့်ခြင်းသည် ပတ်ဝန်းကျင်ယာဉ်များ၏ ရွေ့လျားမှုကို သိရှိစေပြီး ဘေးကင်းသောယာဉ်မောင်းဆုံးဖြတ်ချက်သို့ ဦးတည်စေသည်။",
       "en": "By checking your mirrors regularly, you can keep track of the movements of surrounding vehicles, which helps you make safe driving decisions."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0115",
@@ -4242,7 +4356,8 @@
       "ja": "急ブレーキは後続車との衝突を招く危険があるため、可能な限りブレーキランプの早期点灯や徐々の減速で配慮するべきである。",
       "my": "ပြင်းပြင်းဘရိတ်နှိပ်ခြင်းသည် နောက်ကလိုက်လာသောယာဉ်နှင့် တိုက်မိနိုင်ခြေကို ဖြစ်စေသောကြောင့် ဖြစ်နိုင်သမျှ ဘရိတ်မီးကို စောစီးစွာထွန်းခြင်း သို့မဟုတ် တဖြည်းဖြည်းအရှိန်လျှော့ခြင်းဖြင့် သတိထားသင့်သည်။",
       "en": "Sudden braking can lead to a collision with the vehicle following, so consideration should be given to turning on the brake lights as early as possible and slowing down gradually."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "id": "jp_car_0116",
@@ -4275,7 +4390,8 @@
       "ja": "駐車禁止の標識がある場所では、運転者が車を離れる停車（駐車）は時間の長短にかかわらず禁止される。",
       "my": "ရပ်နားခွင့်မရှိသည့်ဆိုင်းဘုတ်ရှိသောနေရာတွင် ယာဉ်မောင်းသူ ယာဉ်မှထွက်သွားသော ရပ်နားခြင်း (parking) ကို အချိန်ကြာရှည်/တိုမသက်ဆိုင်ဘဲ တားမြစ်ထားသည်။",
       "en": "Where there is a no-parking sign, stopping (parking) where the driver leaves the vehicle is prohibited regardless of the length of time."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "id": "jp_car_0117",
@@ -4308,7 +4424,8 @@
       "ja": "駐停車禁止の場所では、停車（短時間の一時停止）も駐車も両方禁止されており、いかなる理由でも止まってはならない。",
       "my": "ရပ်/ရပ်နားခွင့်မရှိသည့်နေရာတွင် ရပ်ခြင်း (ခဏတာရပ်နားခြင်း) နှင့် ရပ်နားခြင်း (parking) နှစ်မျိုးစလုံးကို တားမြစ်ထားပြီး မည်သည့်အကြောင်းပြချက်ဖြင့်မဆို ရပ်ထားခွင့်မရှိ။",
       "en": "In areas where parking is prohibited, both stopping (short pauses) and parking are prohibited, and you must not stop for any reason."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "id": "jp_car_0118",
@@ -4341,7 +4458,8 @@
       "ja": "消防用設備や消防水利の周辺5メートル以内は緊急時のアクセスを確保するため駐車が禁止されている。",
       "my": "မီးသတ်ပစ္စည်းများနှင့် မီးသတ်ရေအရင်းအမြစ်ပတ်ဝန်းကျင် ၅ မီတာအတွင်းသည် အရေးပေါ်အချိန်တွင် ဝင်ထွက်နိုင်ရန် ရပ်နားခြင်းကို တားမြစ်ထားသည်။",
       "en": "Parking is prohibited within 5 meters of firefighting equipment and fire irrigation facilities to ensure emergency access."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "id": "jp_car_0119",
@@ -4374,7 +4492,8 @@
       "ja": "街灯などで十分に明るい道路や、道路の端に沿って駐車している場合など、一定の条件下では灯火の必要がない場所もある。",
       "my": "လမ်းမီးများဖြင့် လုံလောက်စွာထွန်းလင်းနေသောလမ်း သို့မဟုတ် လမ်းအစွန်းတစ်လျှောက်ရပ်နားနေသောအခြေအနေကဲ့သို့ သတ်မှတ်ထားသောအခြေအနေအချို့တွင် မီးထွန်းရန် မလိုအပ်သောနေရာများလည်း ရှိသည်။",
       "en": "Under certain conditions, lights may not be needed in some places, such as on roads that are well lit by streetlights or when cars are parked along the edge of the road."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "id": "jp_car_0120",
@@ -4407,7 +4526,8 @@
       "ja": "坂道では車が自然に動き出す危険があるため、輪止めの使用やタイヤを縁石に向けるなどの対策が推奨される。",
       "my": "တောင်ကုန်းလမ်းတွင် ကားသဘာဝအတိုင်း ရွေ့သွားနိုင်သောအန္တရာယ်ရှိသောကြောင့် ဘီးထောက်အသုံးပြုခြင်း သို့မဟုတ် ဘီးကို လမ်းဘောင်ဘက်သို့ ညွှန်ထားခြင်းကဲ့သို့ ကာကွယ်မှုများကို အကြံပြုထားသည်။",
       "en": "There is a danger that cars will start rolling on slopes, so measures such as using wheel chocks and pointing the tires towards the curb are recommended."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "id": "jp_car_0121",
@@ -4415,9 +4535,9 @@
     "topic": "honmen_parking_rules",
     "difficulty": "medium",
     "prompt": {
-      "ja": "車庫や駐車場の出入口から3メートル以内の道路上は、駐車禁止とされている。",
-      "my": "ဂိုဒေါင် သို့မဟုတ် ရပ်နားရာစင်တာ ဝင်/ထွက်ပေါက်မှ ၃ မီတာအတွင်းရှိ လမ်းတွင် ရပ်နားခြင်းကို တားမြစ်ထားသည်။",
-      "en": "Parking is prohibited on the road within 3 meters of the entrance to a garage or parking lot."
+      "ja": "一般乗合自動車の停留所の10メートル手前以内の道路上では、駐車が禁止されている。",
+      "my": "အများသုံး ဘတ်စ်ကားရပ်နားရာနေရာ၏ ၁၀ မီတာရှေ့အတွင်း လမ်းပေါ်တွင် ကားရပ်နားခြင်းကို တားမြစ်ထားသည်။",
+      "en": "Parking is prohibited on the road within 10 meters in front of a scheduled bus stop."
     },
     "choices": [
       {
@@ -4437,10 +4557,11 @@
     ],
     "answer": 0,
     "explanation": {
-      "ja": "車庫等の出入口付近に駐車すると他の車両の出入りを妨げるため、3メートル以内は駐車禁止とされている。",
-      "my": "ဂိုဒေါင်စသည်တို့၏ ဝင်/ထွက်ပေါက်အနီးတွင် ရပ်နားခြင်းသည် အခြားယာဉ်များ ဝင်/ထွက်ခြင်းကို နှောင့်ယှက်စေသောကြောင့် ၃ မီတာအတွင်းကို ရပ်နားခွင့်မရှိဟု သတ်မှတ်ထားသည်။",
-      "en": "If you park near the entrance to a garage, etc., it will block other vehicles from entering and exiting, so parking within 3 meters is prohibited."
-    }
+      "ja": "停留所付近での駐車はバスの出入りを妨げるため、一般乗合自動車の停留所の10メートル手前以内は駐車禁止とされている。",
+      "my": "ဘတ်စ်ကားရပ်နားရာနီးတွင် ကားရပ်ခြင်းသည် ဘတ်စ်ကား ဝင်/ထွက်ခြင်းကို နှောင့်ယှက်သောကြောင့် အများသုံးဘတ်စ်ကား ရပ်နားရာနေရာ၏ ၁၀ မီတာရှေ့အတွင်းကို ရပ်နားခွင့်မရှိဟု သတ်မှတ်ထားသည်။",
+      "en": "Parking near bus stops obstructs boarding and alighting, so parking is prohibited within 10 meters in front of a scheduled bus stop."
+    },
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "id": "jp_car_0122",
@@ -4473,7 +4594,8 @@
       "ja": "横断歩道付近に駐停車すると歩行者の視界を妨げ危険なため、前後5メートルは駐停車禁止とされている。",
       "my": "ဖြတ်သန်းချက်အနီးတွင် ရပ်/ရပ်နားခြင်းသည် လမ်းသွားလမ်းလျှောက်များ၏ မြင်ကွင်းကို နှောင့်ယှက်ပြီး အန္တရာယ်ရှိသောကြောင့် ရှေ့/နောက် ၅ မီတာကို ရပ်/ရပ်နားခွင့်မရှိဟု သတ်မှတ်ထားသည်။",
       "en": "Parking near a crosswalk is dangerous because it obstructs the view of pedestrians, so parking is prohibited within 5 meters in either direction."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "id": "jp_car_0123",
@@ -4506,7 +4628,8 @@
       "ja": "運転者が車を離れて直ちに運転できない状態にある場合は「駐車」に該当し、「停車」ではない。",
       "my": "ယာဉ်မောင်းသူသည် ကားမှထွက်သွားပြီး ချက်ချင်းပြန်မောင်းနှင်နိုင်သောအခြေအနေမရှိလျှင် ၎င်းသည် \"ရပ်နားခြင်း\" (parking) နှင့် ကိုက်ညီပြီး \"ရပ်ခြင်း\" (stopping) မဟုတ်ပါ။",
       "en": "If the driver leaves the vehicle and is unable to drive immediately, it falls under \"parked\" and not \"stopped.\""
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "id": "jp_car_0124",
@@ -4539,7 +4662,8 @@
       "ja": "道路上に駐車する場合は、道路の左側端に沿って車体を寄せ、他の交通の通行を妨げないようにする必要がある。",
       "my": "လမ်းပေါ်တွင် ရပ်နားသောအခါ လမ်း၏ဘယ်ဘက်အစွန်းတစ်လျှောက် ကားကိုကပ်ထားပြီး အခြားယာဉ်ကြောစီးဆင်းမှုကို မနှောင့်ယှက်စေရန် လိုအပ်သည်။",
       "en": "When parking on the road, the vehicle must be parked along the left side of the road so as not to obstruct other traffic."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "id": "jp_car_0125",
@@ -4572,7 +4696,8 @@
       "ja": "歩道を横切って駐車場へ入る場合、歩行者がいないか確認するため一時停止が必要である。",
       "my": "လမ်းသွားလမ်းလျှောက်လမ်းကို ဖြတ်ပြီး ရပ်နားရာစင်တာထဲဝင်ချိန် လမ်းသွားလမ်းလျှောက်မရှိမရှိ စစ်ဆေးရန် ခေတ္တရပ်ရန် လိုအပ်သည်။",
       "en": "When crossing the sidewalk into a parking lot, you must stop temporarily to check for pedestrians."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "id": "jp_car_0126",
@@ -4605,7 +4730,8 @@
       "ja": "対向車や先行車がいない場合はハイビームを使用することで前方の視界がより広くなり、安全性が高まる。",
       "my": "ဆန့်ကျင်ဘက်ယာဉ် သို့မဟုတ် ရှေ့ယာဉ်မရှိချိန် မြင့်မားသောရှေ့မီးအသုံးပြုခြင်းသည် ရှေ့ဘက်မြင်ကွင်းကို ပိုကျယ်ပြန့်စေပြီး ဘေးကင်းမှုကို မြင့်တက်စေသည်။",
       "en": "When there are no oncoming or preceding vehicles, using high beams gives you a wider field of vision ahead, increasing safety."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0127",
@@ -4638,7 +4764,8 @@
       "ja": "雨で路面が濡れるとタイヤのグリップが低下し、ブレーキをかけてから停止するまでの距離が伸びる。",
       "my": "မိုးကြောင့် လမ်းမျက်နှာပြင်စွတ်စိုသောအခါ ဘီးကိုက်မှုလျော့ကျပြီး ဘရိတ်နှိပ်ပြီးမှ ရပ်တန့်သည်အထိ အကွာအဝေး ပိုကြာရှည်လာသည်။",
       "en": "When the road gets wet from rain, the grip of the tires decreases, increasing the distance it takes to stop after applying the brakes."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0128",
@@ -4671,7 +4798,8 @@
       "ja": "霧の中でハイビームを使うと光が霧に反射して視界がかえって悪くなるため、ロービームやフォグランプを使用するべきである。",
       "my": "မီးခိုးအတွင်း ဟိုက်ဘီမ်အသုံးပြုလျှင် အလင်းသည် မီးခိုးနှင့်ထိုးခံရပြီး မြင်ကွင်းပိုညံ့ဖျင်းလာစေသောကြောင့် နိမ့်မီး သို့မဟုတ် မီးခိုးမီးကို အသုံးပြုသင့်သည်။",
       "en": "If you use high beams in fog, the light will reflect off the fog and reduce visibility, so you should use low beams or fog lamps."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0129",
@@ -4704,7 +4832,8 @@
       "ja": "強い横風は車両を予期せず横に押す危険があり、速度を落としてハンドルをしっかり握ることで安全性が高まる。",
       "my": "အင်အားကြီးလေဘေးတိုက်ခြင်းသည် ယာဉ်ကို မမျှော်လင့်ဘဲ ဘေးတိုက်တွန်းနိုင်သောအန္တရာယ်ရှိသောကြောင့် အရှိန်လျှော့ပြီး ဘီးကို လက်တင်းကိုင်ထားခြင်းသည် ဘေးကင်းမှုကို မြင့်တက်စေသည်။",
       "en": "Strong crosswinds can push your vehicle to the side unexpectedly, so slowing down and keeping a firm grip on the steering wheel will increase your safety."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0130",
@@ -4737,7 +4866,8 @@
       "ja": "雪道や凍結路面では急な操作によりスリップしやすいため、すべての操作を滑らかに行うことが重要である。",
       "my": "နှင်းလမ်းနှင့် ရေခဲနေသောလမ်းများတွင် ရုတ်တရက်လုပ်ဆောင်ချက်များသည် ချော်လိမ့်လွယ်စေသောကြောင့် လုပ်ဆောင်ချက်အားလုံးကို ချောမွေ့စွာလုပ်ခြင်းသည် အရေးကြီးသည်။",
       "en": "It is important to perform all operations smoothly on snowy or icy roads, as sudden operations can cause the vehicle to slip."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0131",
@@ -4770,7 +4900,8 @@
       "ja": "夜間に道路上で駐停車する際は、他の車両に気付かれるよう尾灯や駐車灯を点灯させる必要がある。",
       "my": "ညဘက် လမ်းပေါ်တွင် ရပ်/ရပ်နားချိန် အခြားယာဉ်များ သတိပြုနိုင်ရန် နောက်မီး သို့မဟုတ် ရပ်နားမီးထွန်းရန် လိုအပ်သည်။",
       "en": "When parking on the road at night, it is necessary to turn on taillights and parking lights so that other vehicles will notice you."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0132",
@@ -4803,7 +4934,8 @@
       "ja": "対向車のライトに頼ることは危険であり、自車の前照灯を適切に点灯・調整して自ら視界を確保する必要がある。",
       "my": "ဆန့်ကျင်ဘက်ယာဉ်၏ မီးကို မှီခိုခြင်းသည် အန္တရာယ်ရှိပြီး မိမိကား၏ ရှေ့မီးကို သင့်လျော်စွာ ထွန်း/ညှိကာ မိမိမြင်ကွင်းကို ရရှိစေရန် လိုအပ်သည်။",
       "en": "Relying on the lights of oncoming vehicles is dangerous, so it is necessary to properly turn on and adjust your vehicle's headlights to ensure visibility yourself."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0133",
@@ -4836,7 +4968,8 @@
       "ja": "夜間の雨では路面の反射により視認性が低下しやすく、車線や路面状況の確認がより難しくなるため、速度を落として慎重に運転する必要がある。",
       "my": "ညဘက်မိုးရွာချိန် လမ်းမျက်နှာပြင်ထိုးခံမှုကြောင့် မြင်နိုင်စွမ်း လျော့ကျလွယ်ပြီး လမ်းကြောင်းနှင့် လမ်းအခြေအနေများကို စစ်ဆေးရန် ပိုခက်ခဲလာသောကြောင့် အရှိန်လျှော့ပြီး သတိထားစွာမောင်းနှင်ရန် လိုအပ်သည်။",
       "en": "When it rains at night, visibility tends to decrease due to reflections on the road surface, making it more difficult to check lanes and road conditions, so it is necessary to reduce speed and drive carefully."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0134",
@@ -4869,7 +5002,8 @@
       "ja": "悪天候時は視界不良や強風によって事故の危険が高まるため、無理に走行を続けず安全な場所で待機するのが適切である。",
       "my": "ရာသီဥတုဆိုးချိန် မြင်ကွင်းညံ့ဖျင်းမှု သို့မဟုတ် လေအားကြီးခြင်းကြောင့် မတော်တဆမှုအန္တရာယ် မြင့်တက်လာသောကြောင့် အတင်းအဓမ္မ ဆက်မောင်းမည့်အစား ဘေးကင်းသောနေရာတွင် စောင့်ဆိုင်းခြင်းသည် သင့်လျော်သည်။",
       "en": "During bad weather, the risk of an accident increases due to poor visibility and strong winds, so it is best to wait in a safe place and not continue driving."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0135",
@@ -4902,7 +5036,8 @@
       "ja": "薄暮時には双方の視認性が低下するため、早めのライト点灯（自動でも早めに）が歩行者からの視認性を高めるためにも重要である。",
       "my": "ညနေမှောင်ချိန် နှစ်ဖက်စလုံး၏ မြင်နိုင်စွမ်း လျော့ကျသောကြောင့် စောစီးစွာမီးထွန်းခြင်း (အလိုအလျောက်ဖြစ်စေ) သည် လမ်းသွားလမ်းလျှောက်များဘက်မှ မြင်နိုင်စွမ်းကို မြင့်တက်စေရန်လည်း အရေးကြီးသည်။",
       "en": "At dusk, visibility of both sides decreases, so it is important to turn on the lights early (even automatically) to increase visibility from pedestrians."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0136",
@@ -4935,7 +5070,8 @@
       "ja": "ブレーキが水に濡れると一時的に効きが悪くなることがあるため、安全な場所で軽くブレーキを踏んで効果を確認することが推奨される。",
       "my": "ဘရိတ်သည် ရေနှင့်စွတ်စိုလျှင် ခဏတာအာနိသင်လျော့ကျနိုင်သောကြောင့် ဘေးကင်းသောနေရာတွင် ဘရိတ်ကို ခပ်သွက်သွက်နှိပ်ပြီး အာနိသင်ကို စစ်ဆေးခြင်းကို အကြံပြုထားသည်။",
       "en": "If the brakes get wet, they may temporarily become less effective, so it is recommended that you lightly press the brakes in a safe place to check the effectiveness."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0137",
@@ -4968,7 +5104,8 @@
       "ja": "夜間は光量がすでに少ないため、濃い色のレンズをかけるとさらに視界が悪くなり危険である。",
       "my": "ညဘက် အလင်းရောင်ပမာဏ နည်းပါးနေပြီးသားကြောင့် အရောင်ပျောက်နေသောမျက်ကန်းအိမ်ကို ဝတ်ဆင်ခြင်းသည် မြင်ကွင်းကို ထပ်ဆောင်းညံ့ဖျင်းစေပြီး အန္တရာယ်ရှိသည်။",
       "en": "At night, the amount of light is already low, so wearing dark-colored lenses can further impair visibility and be dangerous."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0138",
@@ -5001,7 +5138,8 @@
       "ja": "猛暑下では運転者の集中力低下や熱中症のリスクが高まるため、定期的な休憩と水分補給が重要である。",
       "my": "အလွန်အကျွံပူနွေးချိန် ယာဉ်မောင်းသူ၏ အာရုံစူးစိုက်မှု လျော့ကျခြင်းနှင့် အပူဒဏ်ခံရနိုင်ခြေ မြင့်တက်လာသောကြောင့် အချိန်ပိုင်းအနားယူခြင်းနှင့် ရေသောက်ခြင်းသည် အရေးကြီးသည်။",
       "en": "In extreme heat, drivers are at increased risk of losing concentration and heat stroke, so it is important to take regular breaks and stay hydrated."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0139",
@@ -5034,7 +5172,8 @@
       "ja": "明るい場所から暗いトンネルに入ると一時的に目が慣れず視界が悪くなるため、進入前に減速することが推奨される。",
       "my": "အလင်းရှိသောနေရာမှ မှောင်နေသော လုံဏ်ဂူထဲဝင်ချိန် ခဏတာ မျက်လုံးကျင့်သားမရဘဲ မြင်ကွင်းညံ့ဖျင်းလာသောကြောင့် ဝင်မီ အရှိန်လျှော့ရန် အကြံပြုထားသည်။",
       "en": "If you enter a dark tunnel from a brightly lit area, your eyes will temporarily become accustomed to it and visibility will be impaired, so it is recommended that you slow down before entering."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "id": "jp_car_0140",
@@ -5067,7 +5206,8 @@
       "ja": "悪天候下で危険を感じた場合は、無理に目的地へ向かわず、安全な場所に避難して状況の改善を待つことが最も適切な判断である。",
       "my": "ရာသီဥတုဆိုးချိန် အန္တရာယ်ရှိသည်ဟု ခံစားရလျှင် ဦးတည်ရာသို့ အတင်းအဓမ္မ မသွားဘဲ ဘေးကင်းသောနေရာသို့ရွှေ့ပြီး အခြေအနေပြောင်းလဲသည်အထိ စောင့်ဆိုင်းခြင်းသည် အသင့်တော်ဆုံးဆုံးဖြတ်ချက်ဖြစ်သည်။",
       "en": "If you feel unsafe under bad weather, the most appropriate decision is not to force your way to your destination, but rather to evacuate to a safe location and wait for the situation to improve."
-    }
+    },
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "easy",
@@ -5100,7 +5240,8 @@
     },
     "id": "jp_car_0141",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "easy",
@@ -5133,7 +5274,8 @@
     },
     "id": "jp_car_0142",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "medium",
@@ -5162,11 +5304,12 @@
     "explanation": {
       "ja": "「最低速度」や「専用通行帯」などの規制標識は青色の丸で示され、赤丸の禁止系標識とは意味が異なる。",
       "my": "「အနိမ့်ဆုံးအရှိန်」သို့မဟုတ် 「အထူးလမ်းကြောင်း」ကဲ့သို့သော ကန့်သတ်ဆိုင်းဘုတ်များသည် အပြာရောင်စက်ဝိုင်းဖြင့် ဖော်ပြထားပြီး အနီရောင်စက်ဝိုင်း တားမြစ်ဆိုင်းဘုတ်များနှင့် အဓိပ္ပာယ်ကွဲပြားသည်။",
-      "en": "Regulatory signs such as \"minimum speed' and \"exclusive lane' are indicated by blue circles, and have a different meaning from red circle prohibition signs."
+      "en": "Regulatory signs such as \"minimum speed\" and \"exclusive lane\" are indicated by blue circles, and have a different meaning from red circle prohibition signs."
     },
     "id": "jp_car_0143",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "easy",
@@ -5199,7 +5342,8 @@
     },
     "id": "jp_car_0144",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "hard",
@@ -5232,7 +5376,8 @@
     },
     "id": "jp_car_0145",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "easy",
@@ -5265,14 +5410,15 @@
     },
     "id": "jp_car_0146",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "「追い越しのための右側部分はみ出し通行禁止」の標識がある区間では、追い越し自体がすべて禁止される。",
       "my": "「ကျော်တက်ရန်အတွက် ညာဘက်ခြမ်းကျော်ဖြတ်ခွင့်မရှိ」ဆိုင်းဘုတ်ရှိသောနေရာတွင် ကျော်တက်ခြင်းအားလုံးကို တားမြစ်သည်။",
-      "en": "All overtaking is prohibited in areas where there is a sign that says \"No passing on the right side for overtaking.'"
+      "en": "All overtaking is prohibited in areas where there is a sign that says \"No passing on the right side for overtaking.\""
     },
     "choices": [
       {
@@ -5298,7 +5444,8 @@
     },
     "id": "jp_car_0147",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "easy",
@@ -5331,7 +5478,8 @@
     },
     "id": "jp_car_0148",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "medium",
@@ -5364,7 +5512,8 @@
     },
     "id": "jp_car_0149",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "medium",
@@ -5393,11 +5542,12 @@
     "explanation": {
       "ja": "補助標識は「日曜・休日を除く」など、本標識に付随して規制の時間や区間などの詳細を補足する役割を持つ。",
       "my": "အထောက်အကူဆိုင်းဘုတ်သည် 「တနင်္ဂနွေ/အားလပ်ရက်များမှလွဲ၍」ကဲ့သို့ ပင်မဆိုင်းဘုတ်နှင့်တွဲ၍ ကန့်သတ်ချက်၏ အချိန် သို့မဟုတ် နေရာအသေးစိတ်ကို ဖြည့်စွက်ဖော်ပြသည်။",
-      "en": "Auxiliary signs, such as \"Excluding Sundays and Holidays,' serve to supplement details such as restricted hours and sections along with the main sign."
+      "en": "Auxiliary signs, such as \"Excluding Sundays and Holidays,\" serve to supplement details such as restricted hours and sections along with the main sign."
     },
     "id": "jp_car_0150",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "easy",
@@ -5430,7 +5580,8 @@
     },
     "id": "jp_car_0151",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "easy",
@@ -5463,7 +5614,8 @@
     },
     "id": "jp_car_0152",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "medium",
@@ -5496,7 +5648,8 @@
     },
     "id": "jp_car_0153",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "easy",
@@ -5529,7 +5682,8 @@
     },
     "id": "jp_car_0154",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "medium",
@@ -5562,7 +5716,8 @@
     },
     "id": "jp_car_0155",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "medium",
@@ -5595,7 +5750,8 @@
     },
     "id": "jp_car_0156",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "medium",
@@ -5628,7 +5784,8 @@
     },
     "id": "jp_car_0157",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "medium",
@@ -5661,7 +5818,8 @@
     },
     "id": "jp_car_0158",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "hard",
@@ -5694,14 +5852,15 @@
     },
     "id": "jp_car_0159",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "medium",
     "prompt": {
       "ja": "「路線バス等優先通行帯」の車線は、路線バス以外の車両は一切通行することができない。",
       "my": "「ဘတ်စ်ကားလိုင်း ဦးစားပေးလမ်းကြောင်း」သည် ဘတ်စ်ကားမှလွဲ၍ အခြားယာဉ်များ လုံးဝ ဖြတ်သန်းခွင့်မရှိပါ။",
-      "en": "Vehicles other than route buses are not allowed to pass through the lanes designated as \"priority lanes for route buses.'"
+      "en": "Vehicles other than route buses are not allowed to pass through the lanes designated as \"priority lanes for route buses.\""
     },
     "choices": [
       {
@@ -5727,7 +5886,8 @@
     },
     "id": "jp_car_0160",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "hard",
@@ -5760,7 +5920,8 @@
     },
     "id": "jp_car_0161",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "medium",
@@ -5793,7 +5954,8 @@
     },
     "id": "jp_car_0162",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "hard",
@@ -5826,7 +5988,8 @@
     },
     "id": "jp_car_0163",
     "category": "jp_car",
-    "topic": "karimen_road_signs"
+    "topic": "karimen_road_signs",
+    "syllabusRef": "jp.car.karimen.ch1-signs"
   },
   {
     "difficulty": "medium",
@@ -5859,7 +6022,8 @@
     },
     "id": "jp_car_0164",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "medium",
@@ -5892,7 +6056,8 @@
     },
     "id": "jp_car_0165",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "easy",
@@ -5925,7 +6090,8 @@
     },
     "id": "jp_car_0166",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "medium",
@@ -5958,7 +6124,8 @@
     },
     "id": "jp_car_0167",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "hard",
@@ -5991,7 +6158,8 @@
     },
     "id": "jp_car_0168",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "medium",
@@ -6024,7 +6192,8 @@
     },
     "id": "jp_car_0169",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "easy",
@@ -6057,7 +6226,8 @@
     },
     "id": "jp_car_0170",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "easy",
@@ -6090,7 +6260,8 @@
     },
     "id": "jp_car_0171",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "medium",
@@ -6123,7 +6294,8 @@
     },
     "id": "jp_car_0172",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "medium",
@@ -6156,7 +6328,8 @@
     },
     "id": "jp_car_0173",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "medium",
@@ -6189,7 +6362,8 @@
     },
     "id": "jp_car_0174",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "hard",
@@ -6222,7 +6396,8 @@
     },
     "id": "jp_car_0175",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "easy",
@@ -6255,7 +6430,8 @@
     },
     "id": "jp_car_0176",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "medium",
@@ -6288,7 +6464,8 @@
     },
     "id": "jp_car_0177",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "medium",
@@ -6321,7 +6498,8 @@
     },
     "id": "jp_car_0178",
     "category": "jp_car",
-    "topic": "karimen_right_of_way"
+    "topic": "karimen_right_of_way",
+    "syllabusRef": "jp.car.karimen.ch2-priority"
   },
   {
     "difficulty": "easy",
@@ -6354,7 +6532,8 @@
     },
     "id": "jp_car_0179",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "medium",
@@ -6387,7 +6566,8 @@
     },
     "id": "jp_car_0180",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "medium",
@@ -6420,7 +6600,8 @@
     },
     "id": "jp_car_0181",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "medium",
@@ -6453,7 +6634,8 @@
     },
     "id": "jp_car_0182",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "hard",
@@ -6486,7 +6668,8 @@
     },
     "id": "jp_car_0183",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "easy",
@@ -6519,7 +6702,8 @@
     },
     "id": "jp_car_0184",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "medium",
@@ -6552,7 +6736,8 @@
     },
     "id": "jp_car_0185",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "medium",
@@ -6585,7 +6770,8 @@
     },
     "id": "jp_car_0186",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "easy",
@@ -6618,7 +6804,8 @@
     },
     "id": "jp_car_0187",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "hard",
@@ -6651,7 +6838,8 @@
     },
     "id": "jp_car_0188",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "medium",
@@ -6684,7 +6872,8 @@
     },
     "id": "jp_car_0189",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "easy",
@@ -6717,7 +6906,8 @@
     },
     "id": "jp_car_0190",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "medium",
@@ -6750,7 +6940,8 @@
     },
     "id": "jp_car_0191",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "easy",
@@ -6783,7 +6974,8 @@
     },
     "id": "jp_car_0192",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "medium",
@@ -6816,7 +7008,8 @@
     },
     "id": "jp_car_0193",
     "category": "jp_car",
-    "topic": "karimen_speed_limits_parking"
+    "topic": "karimen_speed_limits_parking",
+    "syllabusRef": "jp.car.karimen.ch3-speed-parking"
   },
   {
     "difficulty": "medium",
@@ -6849,7 +7042,8 @@
     },
     "id": "jp_car_0194",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "easy",
@@ -6882,7 +7076,8 @@
     },
     "id": "jp_car_0195",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -6915,7 +7110,8 @@
     },
     "id": "jp_car_0196",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -6948,7 +7144,8 @@
     },
     "id": "jp_car_0197",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -6981,7 +7178,8 @@
     },
     "id": "jp_car_0198",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "hard",
@@ -7014,7 +7212,8 @@
     },
     "id": "jp_car_0199",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7047,7 +7246,8 @@
     },
     "id": "jp_car_0200",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7080,7 +7280,8 @@
     },
     "id": "jp_car_0201",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7113,7 +7314,8 @@
     },
     "id": "jp_car_0202",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7146,14 +7348,15 @@
     },
     "id": "jp_car_0203",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "雪道や凍結のおそれがある区間で「チェーン規制」の標識が出されている場合は、タイヤチェーンなどの滑り止めを装着しなければ通行できない。",
       "my": "နှင်းလမ်း သို့မဟုတ် ရေခဲပတ်နိုင်ခြေရှိသောနေရာတွင် 「ဘီးကွင်းဆက် စည်းမျဉ်း」ဆိုင်းဘုတ်ထုတ်ပြန်ထားပါက ဘီးကွင်းဆက်ကဲ့သို့ ချော်လွယ်မှုကာကွယ်ပစ္စည်း တပ်ဆင်ခြင်း မရှိလျှင် ဖြတ်သန်း၍မရပါ။",
-      "en": "If a \"chain restriction' sign is posted on a snowy or icy road, you will not be able to drive on it unless you are wearing anti-slip gear such as tire chains."
+      "en": "If a \"chain restriction\" sign is posted on a snowy or icy road, you will not be able to drive on it unless you are wearing anti-slip gear such as tire chains."
     },
     "choices": [
       {
@@ -7179,7 +7382,8 @@
     },
     "id": "jp_car_0204",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7212,7 +7416,8 @@
     },
     "id": "jp_car_0205",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "easy",
@@ -7245,7 +7450,8 @@
     },
     "id": "jp_car_0206",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7278,7 +7484,8 @@
     },
     "id": "jp_car_0207",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7311,7 +7518,8 @@
     },
     "id": "jp_car_0208",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7344,7 +7552,8 @@
     },
     "id": "jp_car_0209",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "easy",
@@ -7377,7 +7586,8 @@
     },
     "id": "jp_car_0210",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "hard",
@@ -7410,7 +7620,8 @@
     },
     "id": "jp_car_0211",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7443,7 +7654,8 @@
     },
     "id": "jp_car_0212",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7476,7 +7688,8 @@
     },
     "id": "jp_car_0213",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7509,7 +7722,8 @@
     },
     "id": "jp_car_0214",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7542,7 +7756,8 @@
     },
     "id": "jp_car_0215",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7575,7 +7790,8 @@
     },
     "id": "jp_car_0216",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7608,7 +7824,8 @@
     },
     "id": "jp_car_0217",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7641,7 +7858,8 @@
     },
     "id": "jp_car_0218",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "hard",
@@ -7674,7 +7892,8 @@
     },
     "id": "jp_car_0219",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7707,7 +7926,8 @@
     },
     "id": "jp_car_0220",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7740,7 +7960,8 @@
     },
     "id": "jp_car_0221",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7773,7 +7994,8 @@
     },
     "id": "jp_car_0222",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "hard",
@@ -7806,7 +8028,8 @@
     },
     "id": "jp_car_0223",
     "category": "jp_car",
-    "topic": "honmen_expressway"
+    "topic": "honmen_expressway",
+    "syllabusRef": "jp.car.honmen.ch1-expressway"
   },
   {
     "difficulty": "medium",
@@ -7839,7 +8062,8 @@
     },
     "id": "jp_car_0224",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -7872,7 +8096,8 @@
     },
     "id": "jp_car_0225",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -7905,7 +8130,8 @@
     },
     "id": "jp_car_0226",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -7938,7 +8164,8 @@
     },
     "id": "jp_car_0227",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -7971,7 +8198,8 @@
     },
     "id": "jp_car_0228",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -8004,7 +8232,8 @@
     },
     "id": "jp_car_0229",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -8037,7 +8266,8 @@
     },
     "id": "jp_car_0230",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "easy",
@@ -8070,7 +8300,8 @@
     },
     "id": "jp_car_0231",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "hard",
@@ -8103,7 +8334,8 @@
     },
     "id": "jp_car_0232",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -8136,7 +8368,8 @@
     },
     "id": "jp_car_0233",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "easy",
@@ -8169,7 +8402,8 @@
     },
     "id": "jp_car_0234",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "hard",
@@ -8202,7 +8436,8 @@
     },
     "id": "jp_car_0235",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "easy",
@@ -8235,7 +8470,8 @@
     },
     "id": "jp_car_0236",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -8268,7 +8504,8 @@
     },
     "id": "jp_car_0237",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -8301,7 +8538,8 @@
     },
     "id": "jp_car_0238",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "hard",
@@ -8334,7 +8572,8 @@
     },
     "id": "jp_car_0239",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -8367,7 +8606,8 @@
     },
     "id": "jp_car_0240",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -8400,7 +8640,8 @@
     },
     "id": "jp_car_0241",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -8433,7 +8674,8 @@
     },
     "id": "jp_car_0242",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -8466,7 +8708,8 @@
     },
     "id": "jp_car_0243",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "medium",
@@ -8499,7 +8742,8 @@
     },
     "id": "jp_car_0244",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "easy",
@@ -8532,7 +8776,8 @@
     },
     "id": "jp_car_0245",
     "category": "jp_car",
-    "topic": "honmen_right_of_way_intersections"
+    "topic": "honmen_right_of_way_intersections",
+    "syllabusRef": "jp.car.honmen.ch2-intersections"
   },
   {
     "difficulty": "easy",
@@ -8565,7 +8810,8 @@
     },
     "id": "jp_car_0246",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -8598,7 +8844,8 @@
     },
     "id": "jp_car_0247",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "hard",
@@ -8631,7 +8878,8 @@
     },
     "id": "jp_car_0248",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "easy",
@@ -8664,7 +8912,8 @@
     },
     "id": "jp_car_0249",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "hard",
@@ -8697,7 +8946,8 @@
     },
     "id": "jp_car_0250",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "hard",
@@ -8730,7 +8980,8 @@
     },
     "id": "jp_car_0251",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -8763,7 +9014,8 @@
     },
     "id": "jp_car_0252",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "hard",
@@ -8792,11 +9044,12 @@
     "explanation": {
       "ja": "「右折可」の補助標識がある場合、赤信号でも対向車や歩行者の安全を確認したうえで右折することが認められている。",
       "my": "「ညာဘက်ကွေ့ခွင့်ရှိ」ဆိုင်းဘုတ်ရှိပါက အနီရောင်မီးပွိုင့်ဖြစ်စေကာမူ ဆန့်ကျင်ဘက်ကားနှင့် လူသွားလူလာ၏ ဘေးကင်းမှုကို စစ်ဆေးပြီးမှ ညာဘက်ကွေ့ခြင်းကို ခွင့်ပြုသည်။",
-      "en": "If there is an auxiliary sign that says \"Right Turn Allowed', it is permitted to make a right turn even on a red light after checking for the safety of oncoming vehicles and pedestrians."
+      "en": "If there is an auxiliary sign that says \"Right Turn Allowed\", it is permitted to make a right turn even on a red light after checking for the safety of oncoming vehicles and pedestrians."
     },
     "id": "jp_car_0253",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -8829,7 +9082,8 @@
     },
     "id": "jp_car_0254",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "easy",
@@ -8862,14 +9116,15 @@
     },
     "id": "jp_car_0255",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "easy",
     "prompt": {
       "ja": "「自転車横断帯」を示す標示は、自転車が横断するための場所であることを示している。",
       "my": "「စက်ဘီးဖြတ်ကျော်လမ်း」ဖော်ပြသော အမှတ်အသားသည် စက်ဘီးများ ဖြတ်ကျော်ရန်နေရာဖြစ်ကြောင်း ဖော်ပြသည်။",
-      "en": "A sign indicating a \"bicycle crossing zone' indicates that this is a place for bicycles to cross."
+      "en": "A sign indicating a \"bicycle crossing zone\" indicates that this is a place for bicycles to cross."
     },
     "choices": [
       {
@@ -8895,14 +9150,15 @@
     },
     "id": "jp_car_0256",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "medium",
     "prompt": {
       "ja": "「学校、幼稚園、保育所等あり」の標識がある区間では、必ず一時停止しなければならない。",
       "my": "「ကျောင်း၊ မူကြိုကျောင်း၊ ကလေးထိန်းဌာနရှိသည်」ဆိုင်းဘုတ်ရှိသောနေရာတွင် မဖြစ်မနေ ခေတ္တရပ်ရမည်။",
-      "en": "You must always stop in sections where there is a sign that says \"Schools, kindergartens, daycare centers, etc.'."
+      "en": "You must always stop in sections where there is a sign that says \"Schools, kindergartens, daycare centers, etc.\"."
     },
     "choices": [
       {
@@ -8928,7 +9184,8 @@
     },
     "id": "jp_car_0257",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -8961,7 +9218,8 @@
     },
     "id": "jp_car_0258",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "easy",
@@ -8994,7 +9252,8 @@
     },
     "id": "jp_car_0259",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "easy",
@@ -9027,7 +9286,8 @@
     },
     "id": "jp_car_0260",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "easy",
@@ -9060,7 +9320,8 @@
     },
     "id": "jp_car_0261",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -9093,7 +9354,8 @@
     },
     "id": "jp_car_0262",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -9126,14 +9388,15 @@
     },
     "id": "jp_car_0263",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "easy",
     "prompt": {
       "ja": "信号機のない踏切には「踏切あり」の警戒標識が設置されている。",
       "my": "မီးပွိုင့်မရှိသော မီးရထားဖြတ်ကျော်တွင် 「ဖြတ်ကျော်ရှိသည်」ဆိုင်သတိပေးဆိုင်းဘုတ် တပ်ဆင်ထားသည်။",
-      "en": "At level crossings without traffic lights, warning signs indicating \"Level Crossing' are installed."
+      "en": "At level crossings without traffic lights, warning signs indicating \"Level Crossing\" are installed."
     },
     "choices": [
       {
@@ -9159,7 +9422,8 @@
     },
     "id": "jp_car_0264",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "easy",
@@ -9192,7 +9456,8 @@
     },
     "id": "jp_car_0265",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "medium",
@@ -9225,14 +9490,15 @@
     },
     "id": "jp_car_0266",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "medium",
     "prompt": {
       "ja": "「終わり」の補助標識が付いた規制標識は、そこから先はその規制が解除されることを示している。",
       "my": "「အဆုံး」အထောက်အကူဆိုင်းဘုတ်ပါသော ကန့်သတ်ဆိုင်းဘုတ်သည် ထိုနေရာမှစ၍ ကန့်သတ်ချက် ပြေလျော့သွားကြောင်း ဖော်ပြသည်။",
-      "en": "A restriction sign with an \"end' auxiliary sign indicates that the restriction will be lifted from that point forward."
+      "en": "A restriction sign with an \"end\" auxiliary sign indicates that the restriction will be lifted from that point forward."
     },
     "choices": [
       {
@@ -9258,14 +9524,15 @@
     },
     "id": "jp_car_0267",
     "category": "jp_car",
-    "topic": "honmen_road_signs_signals"
+    "topic": "honmen_road_signs_signals",
+    "syllabusRef": "jp.car.honmen.ch3-signs-signals"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n住宅街の交差点に近づいている。左側の電柱の陰になっていて見通しが悪い。最も注意すべき危険は何か。",
       "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေပါ။\n\nအိမ်ရာဇုန်ရှိ လမ်းဆုံသို့ ချဉ်းကပ်နေသည်။ ဘယ်ဘက်ရှိ ကျောက်တိုင်၏ အရိပ်ကွယ်ကြောင့် မြင်နိုင်စွမ်း နည်းနေသည်။ အသတိအထားရဆုံးအန္တရာယ်က ဘာလဲ။",
-      "en": "Look at the following scene and answer whether each statement from A to C is true or false. 住宅街の交差点に近づいている。 It's in the shadow of a utility pole on the left, so visibility is poor. What dangers should I be most careful about?"
+      "en": "Look at the following scene and answer whether each statement A through C is correct or incorrect. You are approaching an intersection in a residential area. A utility pole on the left creates a blind spot with poor visibility. What danger should you watch for most?"
     },
     "choices": [
       {
@@ -9321,7 +9588,8 @@
     ],
     "id": "jp_car_0268",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -9384,14 +9652,15 @@
     ],
     "id": "jp_car_0269",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n前方の路線バスが停留所に停車し、乗客が乗り降りしている。バスの前方は死角になっている。最も注意すべき危険は何か。",
       "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေပါ။\n\nရှေ့ရှိ ဘတ်စ်ကားလိုင်းသည် ရပ်နားစခန်းတွင် ရပ်နားပြီး ခရီးသည်များ တက်/ဆင်းနေသည်။ ဘတ်စ်ကား၏ ရှေ့ဘက်သည် မြင်ရခက်သောနေရာ ဖြစ်နေသည်။ အသတိအထားရဆုံးအန္တရာယ်က ဘာလဲ။",
-      "en": "Look at the following scene and answer whether each statement from A to C is true or false. The route bus ahead has stopped at the bus stop, and passengers are getting on and off.バスの前方は死角になっている。 What dangers should I be most careful about?"
+      "en": "Look at the following scene and answer whether each statement A through C is correct or incorrect. A route bus ahead has stopped at a bus stop and passengers are boarding or alighting. The area in front of the bus is a blind spot. What danger should you watch for most?"
     },
     "choices": [
       {
@@ -9431,7 +9700,7 @@
         "prompt": {
           "ja": "バスの運転手がクラクションを鳴らすこと",
           "my": "ဘတ်စ်ကားယာဉ်မောင်းသူ ဟွန်းတီးခြင်း",
-          "en": "bus driver honking the horn"
+          "en": "Bus driver honking the horn"
         },
         "answer": 1
       },
@@ -9447,7 +9716,8 @@
     ],
     "id": "jp_car_0270",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -9510,7 +9780,8 @@
     ],
     "id": "jp_car_0271",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -9573,7 +9844,8 @@
     ],
     "id": "jp_car_0272",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -9636,7 +9908,8 @@
     ],
     "id": "jp_car_0273",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -9699,7 +9972,8 @@
     ],
     "id": "jp_car_0274",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -9762,7 +10036,8 @@
     ],
     "id": "jp_car_0275",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -9825,7 +10100,8 @@
     ],
     "id": "jp_car_0276",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -9888,14 +10164,15 @@
     ],
     "id": "jp_car_0277",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n住宅街の細い道路で、ボールが道路に転がり出てきた。ボールを追いかけて子供が飛び出してくる可能性がある。最も注意すべき危険は何か。",
       "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေပါ။\n\nအိမ်ရာဇုန်ရှိ လမ်းကျဉ်းတွင် ဘောလုံးတစ်လုံး လမ်းပေါ်သို့ လိမ့်ထွက်လာသည်။ ဘောလုံးကို လိုက်ရန် ကလေးတစ်ဦး ရုတ်တရက်ထွက်လာနိုင်ခြေရှိသည်။ အသတိအထားရဆုံးအန္တရာယ်က ဘာလဲ။",
-      "en": "Look at the following scene and answer whether each statement from A to C is true or false. 住宅街の細い道路で、ボールが道路に転がり出てきた。ボールを追いかけて子供が飛び出してくる可能性がある。 What dangers should I be most careful about?"
+      "en": "Look at the following scene and answer whether each statement A through C is correct or incorrect. On a narrow residential street, a ball rolls into the road. A child may run out after it. What danger should you watch for most?"
     },
     "choices": [
       {
@@ -9951,14 +10228,15 @@
     ],
     "id": "jp_car_0278",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n霧が発生している山道のカーブに差し掛かっている。視界が非常に悪く、前方がほとんど見えない。最も注意すべき危険は何か。",
       "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေပါ။\n\nမြူခိုးများ ဖြစ်ပေါ်နေသော တောင်ပေါ်လမ်း ကွေ့ရာအနီးသို့ ရောက်ရှိနေသည်။ မြင်နိုင်စွမ်း အလွန်နည်းပြီး ရှေ့ဘက်ကို မမြင်ရသလောက်ဖြစ်နေသည်။ အသတိအထားရဆုံးအန္တရာယ်က ဘာလဲ။",
-      "en": "Look at the following scene and answer whether each statement from A to C is true or false. 霧が発生している山道のカーブに差し掛かっている。視界が非常に悪く、前方がほとんど見えない。 What dangers should I be most careful about?"
+      "en": "Look at the following scene and answer whether each statement A through C is correct or incorrect. You are entering a curve on a mountain road in fog. Visibility is very poor and you can barely see ahead. What danger should you watch for most?"
     },
     "choices": [
       {
@@ -10014,7 +10292,8 @@
     ],
     "id": "jp_car_0279",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -10077,7 +10356,8 @@
     ],
     "id": "jp_car_0280",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -10140,7 +10420,8 @@
     ],
     "id": "jp_car_0281",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -10203,14 +10484,15 @@
     ],
     "id": "jp_car_0282",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n雪の積もった道路を走行中、前方の車がブレーキをかけてスリップしそうな様子を見せている。最も注意すべき危険は何か。",
       "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေပါ။\n\nနှင်းစုပုံရှိသော လမ်းတွင် မောင်းနှင်နေစဉ် ရှေ့ကားသည် ဘရိတ်နှိပ်ပြီး ချော်တွန့်မည့်ပုံစံ ပြသနေသည်။ အသတိအထားရဆုံးအန္တရာယ်က ဘာလဲ။",
-      "en": "Look at the following scene and answer whether each statement from A to C is true or false. 雪の積もった道路を走行中、前方の車がブレーキをかけてスリップしそうな様子を見せている。 What dangers should I be most careful about?"
+      "en": "Look at the following scene and answer whether each statement A through C is correct or incorrect. While driving on a snow-covered road, the vehicle ahead appears to be braking and may slip. What danger should you watch for most?"
     },
     "choices": [
       {
@@ -10266,14 +10548,15 @@
     ],
     "id": "jp_car_0283",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n交差点の信号が青に変わった直後、横断歩道をまだ渡りきれていない高齢の歩行者がいる。最も注意すべき危険は何か。",
       "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေပါ။\n\nလမ်းဆုံ၏ မီးပွိုင့် အစိမ်းရောင်ပြောင်းသွားပြီးချက်ချင်း လူကူးမျဉ်းကို မဖြတ်ကူးပြီးသေးသော သက်ကြီးရွယ်အိုတစ်ဦးရှိသည်။ အသတိအထားရဆုံးအန္တရာယ်က ဘာလဲ။",
-      "en": "Look at the following scene and answer whether each statement from A to C is true or false. 交差点の信号が青に変わった直後、横断歩道をまだ渡りきれていない高齢の歩行者がいる。 What dangers should I be most careful about?"
+      "en": "Look at the following scene and answer whether each statement A through C is correct or incorrect. Just after the light turns green, an elderly pedestrian is still crossing the crosswalk. What danger should you watch for most?"
     },
     "choices": [
       {
@@ -10329,14 +10612,15 @@
     ],
     "id": "jp_car_0284",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n追い越し禁止区間の直線道路で、速度の遅い農耕用トラクターの後ろを走行している。最も注意すべき危険は何か。",
       "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေပါ။\n\nကျော်တက်ခွင့်မရှိသော တည့်တည့်လမ်းတွင် အရှိန်နှေးသော လယ်ယာသုံးထရက်တာ၏ နောက်တွင် မောင်းနှင်နေသည်။ အသတိအထားရဆုံးအန္တရာယ်က ဘာလဲ။",
-      "en": "Look at the following scene and answer whether each statement from A to C is true or false. 追い越し禁止区間の直線道路で、速度の遅い農耕用トラクターの後ろを走行している。 What dangers should I be most careful about?"
+      "en": "Look at the following scene and answer whether each statement A through C is correct or incorrect. On a straight road in a no-overtaking zone, you are following a slow farm tractor. What danger should you watch for most?"
     },
     "choices": [
       {
@@ -10392,14 +10676,15 @@
     ],
     "id": "jp_car_0285",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
     "prompt": {
       "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n駅前のロータリーで、タクシーが客待ちのために急な停車と発進を繰り返している。最も注意すべき危険は何か。",
       "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေပါ။\n\nဘူတာရှေ့ ရောင်းအောင်ဘောက်တွင် တက္ကစီများသည် ခရီးသည်စောင့်ရန် ရုတ်တရက် ရပ်ခြင်းနှင့် ထွက်ခွာခြင်းကို ထပ်ခါထပ်ခါ ပြုလုပ်နေသည်။ အသတိအထားရဆုံးအန္တရာယ်က ဘာလဲ။",
-      "en": "Look at the following scene and answer whether each statement from A to C is true or false. 駅前のロータリーで、タクシーが客待ちのために急な停車と発進を繰り返している。 What dangers should I be most careful about?"
+      "en": "Look at the following scene and answer whether each statement A through C is correct or incorrect. At a rotary in front of a station, taxis repeatedly stop and start abruptly while waiting for passengers. What danger should you watch for most?"
     },
     "choices": [
       {
@@ -10455,7 +10740,8 @@
     ],
     "id": "jp_car_0286",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -10518,7 +10804,8 @@
     ],
     "id": "jp_car_0287",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -10581,7 +10868,8 @@
     ],
     "id": "jp_car_0288",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "hard",
@@ -10644,7 +10932,8 @@
     ],
     "id": "jp_car_0289",
     "category": "jp_car",
-    "topic": "honmen_hazard_prediction_illustration"
+    "topic": "honmen_hazard_prediction_illustration",
+    "syllabusRef": "jp.car.honmen.ch4-hazard-illustration"
   },
   {
     "difficulty": "easy",
@@ -10677,7 +10966,8 @@
     },
     "id": "jp_car_0290",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "easy",
@@ -10710,7 +11000,8 @@
     },
     "id": "jp_car_0291",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "easy",
@@ -10743,7 +11034,8 @@
     },
     "id": "jp_car_0292",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -10776,7 +11068,8 @@
     },
     "id": "jp_car_0293",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "easy",
@@ -10809,7 +11102,8 @@
     },
     "id": "jp_car_0294",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -10842,7 +11136,8 @@
     },
     "id": "jp_car_0295",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -10875,7 +11170,8 @@
     },
     "id": "jp_car_0296",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "easy",
@@ -10908,7 +11204,8 @@
     },
     "id": "jp_car_0297",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -10941,7 +11238,8 @@
     },
     "id": "jp_car_0298",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "easy",
@@ -10974,7 +11272,8 @@
     },
     "id": "jp_car_0299",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "easy",
@@ -11007,7 +11306,8 @@
     },
     "id": "jp_car_0300",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -11040,7 +11340,8 @@
     },
     "id": "jp_car_0301",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "easy",
@@ -11073,7 +11374,8 @@
     },
     "id": "jp_car_0302",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -11106,7 +11408,8 @@
     },
     "id": "jp_car_0303",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -11139,7 +11442,8 @@
     },
     "id": "jp_car_0304",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "easy",
@@ -11172,7 +11476,8 @@
     },
     "id": "jp_car_0305",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "easy",
@@ -11205,7 +11510,8 @@
     },
     "id": "jp_car_0306",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -11238,7 +11544,8 @@
     },
     "id": "jp_car_0307",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -11271,7 +11578,8 @@
     },
     "id": "jp_car_0308",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -11304,7 +11612,8 @@
     },
     "id": "jp_car_0309",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -11337,7 +11646,8 @@
     },
     "id": "jp_car_0310",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "easy",
@@ -11370,7 +11680,8 @@
     },
     "id": "jp_car_0311",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -11399,11 +11710,12 @@
     "explanation": {
       "ja": "「かもしれない運転」とは、危険を予測して備える運転姿勢であり、速度と車間距離の調整に役立つ考え方である。",
       "my": "「ဖြစ်နိုင်သည်ဟု ယူဆမောင်းနှင်ခြင်း」ဆိုသည်မှာ အန္တရာယ်ကို ကြိုတင်ခန့်မှန်း၍ ပြင်ဆင်ထားသော မောင်းနှင်မှု သဘောထားဖြစ်ပြီး အရှိန်နှင့် ကားအကွာအဝေး ညှိရာတွင် အထောက်အကူဖြစ်စေသည့် အတွေးအခေါ်ဖြစ်သည်။",
-      "en": "\"Driving with potential' is a driving posture that anticipates and prepares for danger, and is a way of thinking that is useful for adjusting speed and distance between vehicles."
+      "en": "\"Driving with potential\" is a driving posture that anticipates and prepares for danger, and is a way of thinking that is useful for adjusting speed and distance between vehicles."
     },
     "id": "jp_car_0312",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -11436,7 +11748,8 @@
     },
     "id": "jp_car_0313",
     "category": "jp_car",
-    "topic": "honmen_safe_driving_practices"
+    "topic": "honmen_safe_driving_practices",
+    "syllabusRef": "jp.car.honmen.ch5-safe-driving"
   },
   {
     "difficulty": "medium",
@@ -11465,11 +11778,12 @@
     "explanation": {
       "ja": "駐車禁止の標識は「駐車」を規制するもので、運転者がすぐ移動できる短時間の「停車」は認められる場合がある。",
       "my": "ရပ်နားခွင့်မရှိဆိုင်းဘုတ်သည် 「ရပ်နားခြင်း (parking)」ကို ကန့်သတ်ခြင်းဖြစ်ပြီး ယာဉ်မောင်းသူ ချက်ချင်းရွှေ့နိုင်သော 「ခေတ္တရပ်ခြင်း」ကို ခွင့်ပြုသည့်အခါရှိသည်။",
-      "en": "No-parking signs restrict \"parking,' and short-term \"stops' that allow drivers to move on may be permitted."
+      "en": "No-parking signs restrict \"parking,\" and short-term \"stops\" that allow drivers to move on may be permitted."
     },
     "id": "jp_car_0314",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "hard",
@@ -11502,14 +11816,15 @@
     },
     "id": "jp_car_0315",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "medium",
     "prompt": {
-      "ja": "火災報知機から1メートル以内の場所は、駐車が禁止されている。",
-      "my": "မီးသတ်အချက်ပေးစက်မှ ၁ မီတာအတွင်းနေရာတွင် ရပ်နားခြင်းကို တားမြစ်ထားသည်။",
-      "en": "Parking is prohibited within 1 meter of a fire alarm."
+      "ja": "路側帯が設けられている道路では、追い越しのために路側帯を通行してはならない。",
+      "my": "လမ်းဘေးလမ်းကြောင်းရှိသော လမ်းများတွင် ကျော်တက်ရန် လမ်းဘေးလမ်းကြောင်းကို အသုံးပြုခွင့်မရှိ။",
+      "en": "On roads with a road-side lane for pedestrians and bicycles, you must not use it to overtake other vehicles."
     },
     "choices": [
       {
@@ -11529,20 +11844,21 @@
     ],
     "answer": 0,
     "explanation": {
-      "ja": "火災報知機の使用を妨げないよう、その位置から1メートル以内は駐車禁止区域とされている。",
-      "my": "မီးသတ်အချက်ပေးစက် အသုံးပြုမှုကို မနှောင့်ယှက်ရန် ၎င်း၏တည်နေရာမှ ၁ မီတာအတွင်းကို ရပ်နားခွင့်မရှိသောနေရာအဖြစ် သတ်မှတ်ထားသည်။",
-      "en": "To avoid interfering with the use of fire alarms, parking is prohibited within 1 meter of the fire alarm's location."
+      "ja": "路側帯は歩行者や自転車の通行を確保するための部分であり、追い越しなどのために車両が通行することは禁止されている。",
+      "my": "လမ်းဘေးလမ်းကြောင်းသည် လမ်းသွားလမ်းလာနှင့် စက်ဘီးများ သွားလာနိုင်ရန် ထားရှိသော နေရာဖြစ်ပြီး ကျော်တက်ရန်စသည့် အကြောင်းပြချက်ဖြင့် ယာဉ်များ သွားလာခွင့်မရှိ။",
+      "en": "Road-side lanes are reserved for pedestrians and bicycles; vehicles may not use them for overtaking or similar purposes."
     },
     "id": "jp_car_0316",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "medium",
     "prompt": {
-      "ja": "駐車場の出入口から3メートル以内の道路上は、駐車が禁止されている。",
-      "my": "ရပ်နားရာ ဝင်/ထွက်ပေါက်မှ ၃ မီတာအတွင်းလမ်းပေါ်တွင် ရပ်နားခြင်းကို တားမြစ်ထားသည်။",
-      "en": "Parking is prohibited on the road within 3 meters of the parking lot entrance."
+      "ja": "踏切の手前10メートル以内の道路上では、駐車が禁止されている。",
+      "my": "မီးရထားလမ်းဖြတ်မတိုင်မီ ၁၀ မီတာအတွင်း လမ်းပေါ်တွင် ကားရပ်နားခြင်းကို တားမြစ်ထားသည်။",
+      "en": "Parking is prohibited on the road within 10 meters in front of a railroad crossing."
     },
     "choices": [
       {
@@ -11562,13 +11878,14 @@
     ],
     "answer": 0,
     "explanation": {
-      "ja": "駐車場の出入口付近での駐車は、車両の出入りを妨げるため、3メートル以内は禁止されている。",
-      "my": "ရပ်နားရာ ဝင်/ထွက်ပေါက်အနီး ရပ်နားခြင်းသည် ယာဉ်များ ဝင်/ထွက်ခြင်းကို နှောင့်ယှက်သောကြောင့် ၃ မီတာအတွင်းကို တားမြစ်ထားသည်။",
-      "en": "Parking within 3 meters is prohibited near the entrance to the parking lot, as this will prevent vehicles from entering and exiting."
+      "ja": "踏切付近での駐車は列車の見通しや通行を妨げる危険があるため、踏切の手前10メートル以内は駐車禁止とされている。",
+      "my": "မီးရထားလမ်းဖြတ်အနီးတွင် ကားရပ်ခြင်းသည် ရထားမြင်ရခြင်းနှင့် သွားလာမှုကို နှောင့်ယှက်နိုင်သောကြောင့် မီးရထားလမ်းဖြတ်မတိုင်မီ ၁၀ မီတာအတွင်းကို ရပ်နားခွင့်မရှိဟု သတ်မှတ်ထားသည်။",
+      "en": "Parking near railroad crossings can obstruct sight lines and train traffic, so parking is prohibited within 10 meters in front of a crossing."
     },
     "id": "jp_car_0317",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "easy",
@@ -11601,7 +11918,8 @@
     },
     "id": "jp_car_0318",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "medium",
@@ -11634,7 +11952,8 @@
     },
     "id": "jp_car_0319",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "easy",
@@ -11667,7 +11986,8 @@
     },
     "id": "jp_car_0320",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "medium",
@@ -11700,7 +12020,8 @@
     },
     "id": "jp_car_0321",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "easy",
@@ -11733,7 +12054,8 @@
     },
     "id": "jp_car_0322",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "medium",
@@ -11766,7 +12088,8 @@
     },
     "id": "jp_car_0323",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "hard",
@@ -11799,7 +12122,8 @@
     },
     "id": "jp_car_0324",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "medium",
@@ -11832,7 +12156,8 @@
     },
     "id": "jp_car_0325",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "medium",
@@ -11865,7 +12190,8 @@
     },
     "id": "jp_car_0326",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "medium",
@@ -11898,7 +12224,8 @@
     },
     "id": "jp_car_0327",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "medium",
@@ -11931,7 +12258,8 @@
     },
     "id": "jp_car_0328",
     "category": "jp_car",
-    "topic": "honmen_parking_rules"
+    "topic": "honmen_parking_rules",
+    "syllabusRef": "jp.car.honmen.ch6-parking"
   },
   {
     "difficulty": "easy",
@@ -11964,7 +12292,8 @@
     },
     "id": "jp_car_0329",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -11997,7 +12326,8 @@
     },
     "id": "jp_car_0330",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12030,7 +12360,8 @@
     },
     "id": "jp_car_0331",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12063,14 +12394,15 @@
     },
     "id": "jp_car_0332",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
     "prompt": {
-      "ja": "雪道や凍結した路面では、急なハンドル操作や急ブレーキを避け、ゆっくりとした操作を心がける。",
-      "my": "နှင်းလမ်း သို့မဟုတ် ရေခဲပတ်နေသော လမ်းမျက်နှာပြင်တွင် ရုတ်တရက်လက်တံလှည့်ခြင်းနှင့် ရုတ်တရက်ဘရိတ်နှိပ်ခြင်းကို ရှောင်ပြီး ဖြည်းညှင်းသော လှုပ်ရှားမှုကို ကျင့်သုံးရမည်။",
-      "en": "On snowy or icy roads, avoid sudden steering or braking, and try to operate slowly."
+      "ja": "豪雨時にタイヤの溝が浅いと、水たまりでハイドロプレーニング現象が起こりやすく、操縦が不安定になる。",
+      "my": "မိုးကြီးချိန်တွင် တာယာကြွင်းမရှိမှ ပိုက်ကျန်းရေထဲတွင် ရေပေါ်ပေါ်စီးမှုဖြစ်ပြီး ကားထိန်းချုပ်မှု မတည်မငြိမ်ဖြစ်လွယ်သည်။",
+      "en": "In heavy rain, shallow tire tread makes hydroplaning on standing water more likely and steering becomes unstable."
     },
     "choices": [
       {
@@ -12090,13 +12422,14 @@
     ],
     "answer": 0,
     "explanation": {
-      "ja": "雪道や凍結路面では急な操作がスリップを引き起こすため、すべての操作をゆっくりと丁寧に行う必要がある。",
-      "my": "နှင်းလမ်း သို့မဟုတ် ရေခဲပတ်သော လမ်းမျက်နှာပြင်များတွင် ရုတ်တရက်လုပ်ဆောင်ချက်များသည် ချော်တွန့်မှုကို ဖြစ်စေနိုင်သောကြောင့် လုပ်ဆောင်ချက်အားလုံးကို ဖြည်းညှင်းစွာနှင့် သေချာစွာ ပြုလုပ်ရန် လိုအပ်သည်။",
-      "en": "On snowy or icy roads, sudden maneuvers can cause slips, so all maneuvers must be performed slowly and carefully."
+      "ja": "タイヤの排水性能が低下すると水膜の上を走行しやすくなるため、豪雨時は速度を落とし、十分な溝のあるタイヤを使用することが重要である。",
+      "my": "တာယာရေဖယ်ဆောင်ရည်ကျလျှင် ရေအလွှာပေါ်တွင် မောင်းနှင်လွယ်သောကြောင့် မိုးကြီးချိန်တွင် အရှိန်လျှော့ပြီး လုံလောက်သော ကြွင်းရှိသော တာယာကို အသုံးပြုရန် အရေးကြီးသည်။",
+      "en": "When tires cannot drain water effectively, the vehicle rides on a film of water. In heavy rain, slow down and use tires with adequate tread depth."
     },
     "id": "jp_car_0333",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12129,7 +12462,8 @@
     },
     "id": "jp_car_0334",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "easy",
@@ -12162,7 +12496,8 @@
     },
     "id": "jp_car_0335",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12195,7 +12530,8 @@
     },
     "id": "jp_car_0336",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12228,7 +12564,8 @@
     },
     "id": "jp_car_0337",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12261,7 +12598,8 @@
     },
     "id": "jp_car_0338",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "easy",
@@ -12294,7 +12632,8 @@
     },
     "id": "jp_car_0339",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12327,7 +12666,8 @@
     },
     "id": "jp_car_0340",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12360,7 +12700,8 @@
     },
     "id": "jp_car_0341",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12393,7 +12734,8 @@
     },
     "id": "jp_car_0342",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12426,7 +12768,8 @@
     },
     "id": "jp_car_0343",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "hard",
@@ -12459,7 +12802,8 @@
     },
     "id": "jp_car_0344",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12492,7 +12836,8 @@
     },
     "id": "jp_car_0345",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "easy",
@@ -12525,7 +12870,8 @@
     },
     "id": "jp_car_0346",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "easy",
@@ -12558,7 +12904,8 @@
     },
     "id": "jp_car_0347",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12591,7 +12938,8 @@
     },
     "id": "jp_car_0348",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "hard",
@@ -12624,7 +12972,8 @@
     },
     "id": "jp_car_0349",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   },
   {
     "difficulty": "medium",
@@ -12657,6 +13006,7 @@
     },
     "id": "jp_car_0350",
     "category": "jp_car",
-    "topic": "honmen_weather_night_driving"
+    "topic": "honmen_weather_night_driving",
+    "syllabusRef": "jp.car.honmen.ch7-weather-night"
   }
 ]

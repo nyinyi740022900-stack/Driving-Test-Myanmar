@@ -12531,7 +12531,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/warning-sign.png",
+      "src": "/signs/sg/no-entry.png",
       "alt": {
         "en": "You are about to enter a one-way street but see a circular sign with a red borde",
         "my": "တစ်လမ်းသွယ်လမ်းသို့ ဝင်တော့မည် ဆိုသော်လည်း အနီရောင်နယ်နိမိတ်ပါ စက်ဝိုင်းဆိုင်းဘု"
@@ -22173,6 +22173,534 @@
       "alt": {
         "en": "Very poor visibility in thick fog",
         "my": "ထူထပ်သော မြူ တွင် မြင်သာမှု အလွန်ညံ့ဖျင်းခြင်း"
+      }
+    }
+  },
+  {
+    "id": "sg_ftt_0505",
+    "category": "sg_ftt",
+    "syllabusRef": "ftt.skills.roundabout",
+    "topic": "roundabouts",
+    "difficulty": "medium",
+    "prompt": {
+      "en": "You are in the right lane approaching a two-lane roundabout and intend to take the first exit. Which lane should you have chosen?",
+      "my": "လမ်း နှစ်ကြောင်း အဝိုင်းလမ်းမ ကို ညာဘက် လမ်း ဖြင့် ချဉ်းကပ်ပြီး ပထမ ထွက်ရာ ယူမည် ဖြစ်ပါသည်။ မည်သည့် လမ်း ရွေးသင့်ခဲ့သလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "The left lane unless signs or markings show otherwise",
+          "my": "ဆိုင်းဘုတ် မညွှန်ပြလျှင် ဘယ်ဘက် လမ်း"
+        }
+      },
+      {
+        "text": {
+          "en": "The right lane for every exit",
+          "my": "ထွက်ရာ အားလုံးအတွက် ညာဘက် လမ်း"
+        }
+      },
+      {
+        "text": {
+          "en": "Either lane — lane choice does not matter on roundabouts",
+          "my": "မည်သည့်လမ်း မဆို — အဝိုင်းလမ်းမ တွင် လမ်း ရွေးချယ်မှု မအရေးကြီး"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Choose the correct lane before entering. For an immediate left or first exit, use the left lane unless markings direct otherwise.",
+      "my": "ဝင်မီ မှန်ကန်သော လမ်း ရွေးပါ။ ဘယ်ဘက် သို့မဟုတ် ပထမ ထွက်ရာ အတွက် ဆိုင်းဘုတ် မညွှန်ပြလျှင် ဘယ်ဘက် လမ်း သုံးပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "Lane choice at a roundabout",
+        "my": "အဝိုင်းလမ်းမ တွင် လမ်း ရွေးချယ်မှု"
+      }
+    }
+  },
+  {
+    "id": "sg_ftt_0506",
+    "category": "sg_ftt",
+    "syllabusRef": "ftt.skills.roundabout",
+    "topic": "roundabouts",
+    "difficulty": "hard",
+    "prompt": {
+      "en": "Circulating traffic is heavy on a roundabout and you miss your intended exit. What is the safest action?",
+      "my": "အဝိုင်းလမ်းမ ပေါ် လည်ပတ်နေသော ယာဉ်များ များပြီး သင် ရည်ရွယ်ထားသော ထွက်ရာ လွဲသွားပါသည်။ အလုံခြုံဆုံး လုပ်ဆောင်ချက် ဘာလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Stay circulating and take the next safe exit — do not stop or reverse",
+          "my": "လည်ပတ်ဆက်ပြီး နောက်ထပ် ဘေးကင်း ထွက်ရာ ယူပါ — ရပ်ခြင်း သို့မဟုတ် နောက်ပြန် မလုပ်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Stop on the roundabout and reverse to the missed exit",
+          "my": "အဝိုင်းလမ်းမ ပေါ် ရပ်ပြီး လွဲသွားသော ထွက်ရာ သို့ နောက်ပြန် လုပ်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Cut across lanes to reach the exit immediately",
+          "my": "ထွက်ရာ ရောက်ရန် လမ်း ဖြတ်ကူး ပြောင်းပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Never stop or reverse on a roundabout. Continue circulating and leave safely at the next opportunity.",
+      "my": "အဝိုင်းလမ်းမ ပေါ် ရပ်ခြင်း သို့မဟုတ် နောက်ပြန် လုပ်ခြင်း မလုပ်ပါနှင့်။ လည်ပတ်ဆက်ပြီး နောက်ထပ် အခွင့်အရေး တွင် ဘေးကင်းစွာ ထွက်ပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "Missing an exit on a roundabout",
+        "my": "အဝိုင်းလမ်းမ တွင် ထွက်ရာ လွဲခြင်း"
+      }
+    }
+  },
+  {
+    "id": "sg_ftt_0507",
+    "category": "sg_ftt",
+    "syllabusRef": "ftt.skills.roundabout",
+    "topic": "roundabouts",
+    "difficulty": "medium",
+    "prompt": {
+      "en": "You enter a roundabout behind a large lorry blocking your view of circulating traffic. How should you proceed?",
+      "my": "လည်ပတ်နေသော ယာဉ်ကို မမြင်ရအောင် ပိတ်ထားသော လေးလံကုန်တင်ယာဉ် နောက်မှ အဝိုင်းလမ်းမ သို့ ဝင်ပါသည်။ မည်သို့ ဆက်လုပ်ရမလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Enter only when you can see a safe gap — do not follow the lorry blindly",
+          "my": "ဘေးကင်း ကွာဟချက် မြင်မှသာ ဝင်ပါ — လေးလံကုန်တင်ယာဉ် ကို မျက်စိမွှာလျက် မလိုက်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Follow closely because the lorry will clear the way",
+          "my": "လေးလံကုန်တင်ယာဉ် လမ်း ရှင်းပေးမည် ဟု ယူဆပြီး နီးနီး လိုက်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Sound the horn and enter immediately",
+          "my": "ဟော်န် နှိုးပြီး ချက်ချင်း ဝင်ပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Large vehicles can hide circulating traffic. Give way only when you can confirm it is safe, not just because the vehicle ahead moved.",
+      "my": "ယာဉ် ကြီးများသည် လည်ပတ်နေသော ယာဉ်ကို ဖုံးကွယ်နိုင်သည်။ ရှေ့ယာဉ် ရွေ့သောကြောင့် မဟုတ် ဘဲ ဘေးကင်းကြောင်း သေချာမှသာ ဝင်ပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "Limited view entering a roundabout",
+        "my": "အဝိုင်းလမ်းမ ဝင်ရာ မြင်ကွင်း ကန့်သတ်ခြင်း"
+      }
+    }
+  },
+  {
+    "id": "sg_ftt_0508",
+    "category": "sg_ftt",
+    "syllabusRef": "ftt.skills.roundabout",
+    "topic": "roundabouts",
+    "difficulty": "easy",
+    "prompt": {
+      "en": "When exiting a roundabout, when should you cancel your left signal?",
+      "my": "အဝိုင်းလမ်းမ မှ ထွက်သည့်အခါ ဘယ်ဘက် ညွှန်ပြမီး ကို မည်သည့်အချိန် ပိတ်ရမလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "After you have fully left the roundabout",
+          "my": "အဝိုင်းလမ်းမ ကို လုံးဝ ထွက်ပြီးနောက်"
+        }
+      },
+      {
+        "text": {
+          "en": "Before you pass the exit before yours",
+          "my": "သင် ထွက်မည့် ထွက်ရာ မတိုင်မီ ထွက်ရာ တစ်ခု မကျော်မီ"
+        }
+      },
+      {
+        "text": {
+          "en": "Signals are never used when leaving roundabouts",
+          "my": "အဝိုင်းလမ်းမ မှ ထွက်သည့်အခါ ညွှန်ပြမီး မသုံးပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Keep the left signal on until you have completely exited so other drivers understand your movement.",
+      "my": "အခြား ယာဉ်မောင်းများ သင်၏ လှုပ်ရှားမှု နားလည်နိုင်ရန် လုံးဝ ထွက်ပြီးသည်အထိ ဘယ်ဘက် ညွှန်ပြမီး ထားပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "Signalling when leaving a roundabout",
+        "my": "အဝိုင်းလမ်းမ မှ ထွက်ရာ ညွှန်ပြခြင်း"
+      }
+    }
+  },
+  {
+    "id": "sg_ftt_0509",
+    "category": "sg_ftt",
+    "syllabusRef": "ftt.skills.emergency_stop",
+    "topic": "emergency_stop",
+    "difficulty": "medium",
+    "prompt": {
+      "en": "During a driving test emergency-stop exercise, a signal is given suddenly. What is the correct braking technique?",
+      "my": "မောင်းနှင်မှု စမ်းသပ်ခြင်း အရေးပေါ် ရပ်မှု လေ့ကျင့်ခန်းတွင် အချက်ပြမှု ရုတ်တရက် ပေးပါသည်။ မှန်ကန်သော ဘရိက် နည်းလမ်း ဘာလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Brake firmly and progressively without locking the wheels if ABS is not active",
+          "my": "ABS မလုပ်ဆောင်လျှင် စီးရီး မချည်အောင် ခိုင်မာစွာ တ်းဖြည်း ဘရိက် နှပ်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Stamp the brake and clutch together at maximum force instantly",
+          "my": "ဘရိက် နှင့် ကလပ်ချ် ကို အမြင့်ဆုံး အားဖြင့် ချက်ချင်း နှိပ်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Swerve off the road before braking",
+          "my": "ဘရိက် မနှက်မီ လမ်း ဘေးသို့ ရှောင်ကွေ့ပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Emergency stop means controlled maximum braking while keeping steering control. Practice firm progressive pressure.",
+      "my": "အရေးပေါ် ရပ်မှု ဆိုလိုသည်မှာ ထိန်းချုပ်မှု ထိန်းသိမ်းရင်း အမြင့်ဆုံး ဘရိက် နှက်ခြင်း ဖြစ်သည်။ ခိုင်မာသော တ်းဖြည်း နှိပ်မှု လေ့ကျင့်ပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/wet-road.png",
+      "alt": {
+        "en": "Emergency stop braking practice",
+        "my": "အရေးပေါ် ရပ်မှု ဘရိက် လေ့ကျင့်ခြင်း"
+      }
+    }
+  },
+  {
+    "id": "sg_ftt_0510",
+    "category": "sg_ftt",
+    "syllabusRef": "ftt.skills.emergency_stop",
+    "topic": "emergency_stop",
+    "difficulty": "hard",
+    "prompt": {
+      "en": "You must perform an emergency stop on a wet road. How should your technique differ from a dry road?",
+      "my": "စိုစွတ်သော လမ်း ပေါ် အရေးပေါ် ရပ်မှု လုပ်ရမည် ဖြစ်ပါသည်။ လမ်း ခြောပေါ် ထက် နည်းလမ်း ဘယ်လို ကွဲပြားရမလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Apply firm braking earlier and avoid harsh steering while stopping",
+          "my": "စောစော ခိုင်မာ ဘရိက် နှပ်ပြီး ရပ်နေစဉ် ပြင်းထန် လှည့်ခြင်း ရှောင်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Brake as late as possible to reduce stopping distance",
+          "my": "ရပ်တန့် အကွာအဝေး လျော့ရန် နောက်ကျဆုံး ဘရိက် နှပ်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Use the handbrake only for a faster stop",
+          "my": "ပိုမြန် ရပ်ရန် လက်ဘရိက် သာ သုံးပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Wet surfaces reduce grip. Start braking earlier with smooth pressure and keep the vehicle straight.",
+      "my": "စိုစွတ်သော မျက်နှာပြင် ကိုင်တွယ်မှု လျော့သည်။ ချောမွေ့ နှိပ်မှု ဖြင့် စောစော ဘရိက် နှပ်ပြီး ယာဉ် တည့်တည့် ထားပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/wet-road.png",
+      "alt": {
+        "en": "Emergency stop on wet road",
+        "my": "စိုစွတ်သော လမ်း ပေါ် အရေးပေါ် ရပ်မှု"
+      }
+    }
+  },
+  {
+    "id": "sg_ftt_0511",
+    "category": "sg_ftt",
+    "syllabusRef": "ftt.behaviour",
+    "topic": "courteous_driving",
+    "difficulty": "easy",
+    "prompt": {
+      "en": "Another driver cuts sharply into your lane without signalling. What is the courteous and safe response?",
+      "my": "အခြား ယာဉ်မောင်း ညွှန်ပြမီ မထုတ်ဘဲ သင် လမ်း သို့ ရုတ်တရက် ဝင်လာပါသည်။ ယဉ်ကျয়ှု ရှိပြီး ဘေးကင်း တုံ့ပြန်မှု ဘာလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Ease off the accelerator and create space without retaliating",
+          "my": "အရှိန်လျှော့ပြီး ပြန်လှန်မလုပ်ဘဲ နေရာ ဖန်တီးပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Tailgate and flash your high beam to teach them a lesson",
+          "my": "နောက်လိုက် အလွန်နီး ပြီး အမြင့် မီး လင်းအောင် လုပ်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Sound your horn continuously until they move away",
+          "my": "သူတို့ ရွေ့သွားသည်အထိ ဟော်န် အဆက်မပြတ် နှိုးပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Courteous driving means de-escalating risk. Create space and avoid road rage behaviours that increase danger.",
+      "my": "ယဉ်ကျয়သော မောင်းနှင်မှု ဆိုလိုသည်မှာ အန္တရာယ် လျှော့ခြင်း ဖြစ်သည်။ နေရာ ဖန်တီးပြီး လမ်းဒေါသပြုမှု ရှောင်ပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/highway.png",
+      "alt": {
+        "en": "Courteous response to careless lane change",
+        "my": "လမ်း ပြောင်း မသတိစိုက်မှု အတွက် ယဉ်ကျয় တုံ့ပြန်မှု"
+      }
+    }
+  },
+  {
+    "id": "sg_ftt_0512",
+    "category": "sg_ftt",
+    "syllabusRef": "ftt.behaviour",
+    "topic": "courteous_driving",
+    "difficulty": "medium",
+    "prompt": {
+      "en": "You feel angry after being honked at for a slow merge. What helps prevent road rage from affecting your driving?",
+      "my": "နှေးကွေးစွာ ပေါင်းဝင်မှုအတွက် ဟော်န် နှိုးခံရပြီး စိတ်တိုလာပါသည်။ လမ်းဒေါသသည် မောင်းနှင်မှု ကို မထိခိုက်စေရန် ဘာကူညီလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Take a breath, focus on the road ahead, and avoid engaging the other driver",
+          "my": "အသက်ရှူပြီး ရှေ့လမ်း အာရုံစိုက် ကာ အခြား ယာဉ်မောင်း နှင့် မရန်ဖြစ်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Brake-check the driver behind to assert yourself",
+          "my": "ကိုယ့်ကို ပြရန် နောက်က ယာဉ်ကို ဘရိက် စမ်းပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Drive faster and weave through traffic to release stress",
+          "my": "စိတ်ဖိစီးမှု လျော့ရန် ပိုမြန် မောင်းပြီး ယာဉ်ကြောင်း ဖြတ်ကူပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Road rage impairs judgement. Calm yourself and concentrate on safe driving rather than confrontation.",
+      "my": "လမ်းဒေါသသည် ဆုံးဖြတ်ချက် မှားစေသည်။ စိတ်ငြိမ်ပြီး ရန်ဖြစ်မှု ထက် ဘေးကင်း မောင်းနှင်မှု အာရုံစိုက်ပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/car-interior.png",
+      "alt": {
+        "en": "Managing anger while driving",
+        "my": "မောင်းနေစဉ် စိတ်တို စံခြင်း"
+      }
+    }
+  },
+  {
+    "id": "sg_ftt_0513",
+    "category": "sg_ftt",
+    "syllabusRef": "ftt.alcohol",
+    "topic": "alcohol",
+    "difficulty": "easy",
+    "prompt": {
+      "en": "You had two beers three hours ago at lunch. A friend says you are fine to drive home. What is the safest approach?",
+      "my": "နေ့လည်စာ တွင် ဘီယာ နှစ်ခွက် သုံးနာရီ အကြာ သောက်ထားပါသည်။ သူငယ်ချင်း မောင်းပြန်လို့ ရတယ် ဟု ပြောပါသည်။ အလုံခြုံဆုံး နည်းလမ်း ဘာလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Do not drive if there is any doubt — alcohol affects judgement and reaction time",
+          "my": "သံသယ ရှိလျှင် မမောင်းပါ — အရက် သည် ဆုံးဖြတ်ချက် နှင့် တုံ့ပြန်ချိန် ကို ထိခိုက်စေသည်"
+        }
+      },
+      {
+        "text": {
+          "en": "Drive slowly in the left lane to reduce risk",
+          "my": "အန္တရာယ် လျော့ရန် ဘယ်ဘက် လမ်း်းဖြည်း မောင်းပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Coffee will make you legal to drive immediately",
+          "my": "ကော်ဖီ သောက်လျှင် ချက်ချင်း ဥပဒေအရ မောင်းခွင့် ရသည်"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Even small amounts of alcohol can impair driving. If unsure, use alternative transport.",
+      "my": "အရက် အနည်းငယ်ပင် မောင်းနှင်မှု ထိခိုက်စေနိုင်သည်။ မသေချာလျှင် အခြား သယ်ယူပို့ဆောင်ရေး သုံးပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/car-interior.png",
+      "alt": {
+        "en": "Drink driving risk decision",
+        "my": "အရက်သောက်မောင်းခြင်း အန္တရာယ် ဆုံးဖြတ်ချက်"
+      }
+    }
+  },
+  {
+    "id": "sg_ftt_0514",
+    "category": "sg_ftt",
+    "syllabusRef": "ftt.alcohol",
+    "topic": "alcohol",
+    "difficulty": "medium",
+    "prompt": {
+      "en": "Which statement about drink driving in Singapore is correct?",
+      "my": "စင်္ကာပူ တွင် အရက်သောက်မောင်းခြင်း အကြောင်း မည်သည့်ပြောဆိုချက် မှန်ကန်သလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "It is an offence to drive when your blood alcohol exceeds the legal limit",
+          "my": "ဥပဒေအရ ခွင့်ပြုထားသော အရက် အဆင့် ကျော်လျှင် မောင်းခြင်း ပြစ်မှုဖြစ်သည်"
+        }
+      },
+      {
+        "text": {
+          "en": "You are safe to drive as long as you feel sober",
+          "my": "သတိထားနိုင်လျှင် မောင်းခွင့် ရသည်"
+        }
+      },
+      {
+        "text": {
+          "en": "Only drivers involved in accidents are breath-tested",
+          "my": "မတော်တဆမှု ဖြစ်သူများ သာ အသက်ရှူ စမ်းသပ်ခံရသည်"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Singapore enforces strict drink-driving limits. Being below the limit and fit to drive is a legal requirement.",
+      "my": "စင်္ကာပူ တွင် အရက်သောက်မောင်းခြင်း ကန့်သတ်ချက် တင်းကျပ်စွာ လိုက်နာရသည်။ ကန့်သတ်ချက် အောက် ရှိပြီး မောင်းနိုင်ရန် သင့်လျော်မှု ဥပဒေအရ လိုအပ်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/traffic-signals-sign.png",
+      "alt": {
+        "en": "Drink driving law awareness",
+        "my": "အရက်သောက်မောင်းခြင်း ဥပဒေ သတိပြုမှု"
+      }
+    }
+  },
+  {
+    "id": "sg_ftt_0515",
+    "category": "sg_ftt",
+    "syllabusRef": "ftt.skills.slopes",
+    "topic": "hill_start",
+    "difficulty": "medium",
+    "prompt": {
+      "en": "You must hill-start uphill after stopping on a steep slope. What sequence reduces rollback risk?",
+      "my": "စောင်းတက်လျှောက် ဆင်းသော နေရာ တွင် ရပ်ပြီးနောက် တောင်တက်လမ်း မှ ပြန် စတင်ရမည် ဖြစ်ပါသည်။ နောက်ပြန် လျှောကျခြင်း အန္တရာယ် လျော့ရန် မည်သည့် အစီအစဉ် လဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Handbrake on, find biting point, then release handbrake smoothly as you accelerate",
+          "my": "လက်ဘရိက် ဆွဲ၊ ကလပ်ချ် biting point ရှာ၊ အရှိန်တိုးရင်း လက်ဘရိက် ချောမွေ့ဖြေပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Release handbrake first, then find the clutch biting point quickly",
+          "my": "ပထမ လက်ဘရိက် ဖြေပြီး ကလပ်ချ် biting point မြန်မြန် ရှာပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Use neutral and coast backwards before restarting",
+          "my": "ဂီယာလွတ် ထားပြီး နောက်ပြန် လျှောချကာ ပြန် စပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "On uphill starts, secure the vehicle with the handbrake, engage drive gently, then release the brake as power transfers to the wheels.",
+      "my": "တောင်တက်လမ်း မှ စတင်ရာတွင် လက်ဘရိက် ဖြင့် ယာဉ် တည်ငြိမ်စေပြီး ချောမွေ့စွာ ဂီယာ ချိတ်ကာ စီးရီး သို့ အားလွှဲသည့်အခါ ဘရိက် ဖြေပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/junction.png",
+      "alt": {
+        "en": "Uphill hill start on a slope",
+        "my": "စောင်းတက်လမ်း ပေါ် တောင်တက် hill start"
+      }
+    }
+  },
+  {
+    "id": "sg_ftt_0516",
+    "category": "sg_ftt",
+    "syllabusRef": "ftt.traffic.motorcyclists",
+    "topic": "motorcyclists",
+    "difficulty": "medium",
+    "prompt": {
+      "en": "You are driving in slow traffic and a motorcyclist filters between lanes near your car. What should you do before changing lanes?",
+      "my": "ယာဉ်ကြောင်း နှေးကွေးစွာ ရွေ့နေပြီး ဆိုင်ကယ် တစ်စီး သင် ကား နှင့် ကား ကြား လမ်း ဖြတ်ကူ ဖြတ်သွားပါသည်။ လမ်း ပြောင်းမီ ဘာလုပ်ရမလဲ?"
+    },
+    "choices": [
+      {
+        "text": {
+          "en": "Check mirrors and blind spots specifically for filtering motorcycles",
+          "my": "လမ်း ဖြတ်ကူ ဖြတ်သွားသော ဆိုင်ကယ်များအတွက် မှန်ဘီလူး နှင့် မျက်လုံး မမြင်ရသော နေရာ စစ်ပါ"
+        }
+      },
+      {
+        "text": {
+          "en": "Signal and move immediately — motorcycles must give way to cars",
+          "my": "ညွှန်ပြပြီး ချက်ချင်း ရွေ့ပါ — ဆိုင်ကယ်များ ကားကို လမ်းပေးရမည်"
+        }
+      },
+      {
+        "text": {
+          "en": "Open your door slightly to warn the rider",
+          "my": "စီးသူကို သတိပေးရန် တံခါး အနည်းငယ် ဖွင့်ပါ"
+        }
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Motorcyclists may filter legally in some conditions. Always check blind spots before lane changes in slow traffic.",
+      "my": "အချို့ အခြေအနေတွင် ဆိုင်ကယ်များ ဥပဒေအရ လမ်း ဖြတ်ကူ ဖြတ်သွားနိုင်သည်။ ယာဉ်ကြောင်း နှေးကွေးစွာ ရွေ့နေစဉ် လမ်း ပြောင်းမီ မျက်လုံး မမြင်ရသော နေရာ စစ်ပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/motorcycle-city.png",
+      "alt": {
+        "en": "Motorcycle filtering in slow traffic",
+        "my": "ယာဉ်ကြောင်း နှေးကွေးစွာ ဆိုင်ကယ် လမ်း ဖြတ်ကူ ဖြတ်သွားခြင်း"
       }
     }
   }
