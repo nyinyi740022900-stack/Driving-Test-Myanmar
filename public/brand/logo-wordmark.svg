@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#1B9C56"/>
+  <rect x="10" y="10" width="44" height="44" rx="10" stroke="rgba(255,255,255,0.88)" stroke-width="4" fill="none"/>
+  <rect x="14" y="29" width="14" height="6" rx="3" fill="#FFFFFF"/>
+  <rect x="36" y="29" width="14" height="6" rx="3" fill="#F2A734"/>
+  <text x="80" y="44" font-family="Archivo, system-ui, sans-serif" font-weight="800" font-size="28" fill="#13160F" letter-spacing="-0.03em">TheoryLane</text>
+</svg>

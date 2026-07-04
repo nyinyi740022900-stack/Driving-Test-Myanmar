@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { BRAND_NAME } from '@/lib/brand';
+import LogoMark from '@/components/LogoMark';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -13,7 +14,8 @@ export default function Footer() {
         <div className="frow" style={{ alignItems: 'flex-start', gap: '40px 60px', flexWrap: 'wrap' }}>
           <div style={{ flex: '1 1 200px' }}>
             <Link className="logo" href={`/${locale}`} style={{ color: 'var(--paint)' }}>
-              <span className="mark"><span /></span>{BRAND_NAME}
+              <LogoMark size={30} className="logo-mark" />
+              {BRAND_NAME}
             </Link>
             <div style={{ fontSize: '.86rem', marginTop: 10, color: 'var(--ink-soft)' }}>{t('tagline')}</div>
           </div>
