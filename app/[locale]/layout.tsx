@@ -15,7 +15,11 @@ const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
 const PAGE_TITLE = `${BRAND_NAME} — Singapore & Japan Driving Theory Test`;
 
 export const metadata: Metadata = {
-  title: PAGE_TITLE,
+  applicationName: BRAND_NAME,
+  title: {
+    default: PAGE_TITLE,
+    template: `%s · ${BRAND_NAME}`,
+  },
   description: BRAND_TAGLINE,
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://theorylane.app'),
   ...(GOOGLE_SITE_VERIFICATION
@@ -57,7 +61,10 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       {/* eslint-disable-next-line @next/next/no-head-element */}
-      <head>{ADSENSE_ID && <><script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`} crossOrigin="anonymous" /><script dangerouslySetInnerHTML={{ __html: `window.adBreak=window.adConfig=function(o){(window.adsbygoogle=window.adsbygoogle||[]).push(o)};` }} /></>}</head>
+      <head>
+        <meta name="apple-mobile-web-app-title" content={BRAND_NAME} />
+        {ADSENSE_ID && <><script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`} crossOrigin="anonymous" /><script dangerouslySetInnerHTML={{ __html: `window.adBreak=window.adConfig=function(o){(window.adsbygoogle=window.adsbygoogle||[]).push(o)};` }} /></>}
+      </head>
       <body>
         <NextIntlClientProvider messages={messages}>
           <CountryProvider>
