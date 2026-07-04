@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useAuth } from '@/components/AuthProvider';
+import { BRAND_NAME } from '@/lib/brand';
 
 interface Submission {
   id: string;
@@ -311,7 +312,7 @@ export default function AdminDashboard({
       <div style={{ background: '#1a1a1a', borderBottom: '1px solid #333' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', display: 'flex', alignItems: 'center', gap: 16, height: 56 }}>
           <Link href={`/${locale}`} style={{ color: '#888', fontSize: '.82rem', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 4 }}>
-            ← Myanpass
+            ← {BRAND_NAME}
           </Link>
           <div style={{ width: 1, height: 18, background: '#333' }} />
           <span style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '.95rem', color: '#fff' }}>Admin Dashboard</span>

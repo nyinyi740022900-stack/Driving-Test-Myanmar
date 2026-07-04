@@ -8,7 +8,8 @@
     "centre": "Centres",
     "premium": "Premium",
     "signin": "Sign in",
-    "signout": "Sign out"
+    "signout": "Sign out",
+    "report": "Report issue"
   },
   "hero": {
     "eyebrow_sg": "Singapore · BTT / FTT / RTT",
@@ -167,7 +168,7 @@
     "eyebrow": "Complete payment",
     "step_method": "1. Choose payment method",
     "step_transfer": "2. Transfer {amount} Ks to",
-    "brand_name": "MyanPass",
+    "brand_name": "TheoryLane",
     "copy": "Copy",
     "step_txn": "3. Transaction ID / Reference number",
     "txn_placeholder": "e.g. KBZ2024XXXXXXXXXX",
@@ -794,8 +795,11 @@
     "skipped": "Ad skipped — retry not unlocked"
   },
   "footer": {
-    "tagline": "Theory test practice for Singapore & Japan, in your language.",
+    "tagline": "Singapore & Japan driving theory test practice — in your language.",
     "report": "Report a problem",
+    "report_title": "Found a bug or something not working?",
+    "report_desc": "Tell us what went wrong — we read every report and fix issues quickly.",
+    "report_btn": "Report issue →",
     "note": "An independent study tool. Not affiliated with the Singapore Traffic Police, Japan's National Police Agency, or any driving centre. All questions and illustrations are original."
   },
   "feedback": {
@@ -849,7 +853,7 @@
       "lead": "Free links to government handbooks and study guides for Singapore and Japan theory tests."
     },
     "disclaimer_label": "Note:",
-    "disclaimer": "These files are hosted by the official authorities. RoadReady is an independent study tool and is not affiliated with any government agency.",
+    "disclaimer": "These files are hosted by the official authorities. TheoryLane is an independent study tool and is not affiliated with any government agency.",
     "download": "Download",
     "back_home": "← Back to home"
   },
@@ -873,7 +877,7 @@
     "field_name_ph": "e.g. Ko Ko",
     "field_title": "Headline",
     "field_body": "Your story & tips",
-    "field_rating": "How helpful was RoadReady?",
+    "field_rating": "How helpful was TheoryLane?",
     "field_passed": "Did you pass the test?",
     "passed_na": "Prefer not to say",
     "passed_yes": "Yes, I passed",

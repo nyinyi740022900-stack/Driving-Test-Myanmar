@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
+import { BRAND_NAME } from '@/lib/brand';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect, useRef } from 'react';
 import { useCountry } from './CountryProvider';
@@ -73,7 +74,7 @@ export default function Header() {
       <header>
         <div className="wrap bar">
           <Link className="logo" href={`/${locale}`}>
-            <span className="mark"><span /></span>Myanpass
+            <span className="mark"><span /></span>{BRAND_NAME}
           </Link>
           <nav className="main">
             <a href="#tests">{t('tests')}</a>
@@ -84,6 +85,9 @@ export default function Header() {
           </nav>
           <div className="spacer" />
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexShrink: 0 }}>
+            <Link href={`/${locale}/feedback`} className="nav-report hide-mobile">
+              🐛 {t('report')}
+            </Link>
             <ReminderBell lang={locale} />
             {user ? (
               <>
@@ -148,7 +152,7 @@ export default function Header() {
           >
             {/* Drawer header */}
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '20px 20px 16px', borderBottom: '1px solid var(--line)' }}>
-              <span style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1rem' }}>Myanpass</span>
+              <span style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1rem' }}>{BRAND_NAME}</span>
               <button onClick={() => setMenuOpen(false)} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '1.3rem', color: 'var(--ink-soft)', lineHeight: 1 }}>✕</button>
             </div>
 
@@ -171,6 +175,15 @@ export default function Header() {
                 </a>
               ))}
             </nav>
+
+            <Link
+              href={`/${locale}/feedback`}
+              className="drawer-report"
+              onClick={() => setMenuOpen(false)}
+            >
+              <span style={{ fontSize: '1.2rem' }} aria-hidden>🐛</span>
+              {t('report')}
+            </Link>
 
             <div style={{ height: 1, background: 'var(--line)', margin: '0 16px' }} />
 

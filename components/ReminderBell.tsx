@@ -46,9 +46,9 @@ async function scheduleNotification(cfg: ReminderConfig, lang: string) {
     en: '🚗 Time to practise!',
   };
   const bodies: Record<string, string> = {
-    my: 'Myanpass မှာ ယနေ့ quiz တစ်ခု ဖြေလိုက်ပါ။',
-    ja: 'Myanpass で今日の問題を解いてみましょう。',
-    en: 'Keep your streak going — do a quick quiz on Myanpass.',
+    my: 'TheoryLane မှာ ယနေ့ quiz တစ်ခု ဖြေလိုက်ပါ။',
+    ja: 'TheoryLane で今日の問題を解いてみましょう。',
+    en: 'Keep your streak going — do a quick quiz on TheoryLane.',
   };
 
   reg.active?.postMessage({

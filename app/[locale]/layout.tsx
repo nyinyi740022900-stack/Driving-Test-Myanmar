@@ -6,23 +6,26 @@ import { routing } from '@/i18n/routing';
 import AuthProvider from '@/components/AuthProvider';
 import { CountryProvider } from '@/components/CountryProvider';
 import { PageTransitionProvider } from '@/components/PageTransitionProvider';
+import { BRAND_NAME, BRAND_TAGLINE } from '@/lib/brand';
 import '../globals.css';
 
 const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID;
 
+const PAGE_TITLE = `${BRAND_NAME} — Singapore & Japan Driving Theory Test`;
+
 export const metadata: Metadata = {
-  title: 'Myanpass — Theory Test Practice',
-  description: 'Practice Singapore BTT/FTT/RTT and Japan driving theory tests in English, Myanmar, and Japanese.',
+  title: PAGE_TITLE,
+  description: BRAND_TAGLINE,
   openGraph: {
-    title: 'Myanpass — Theory Test Practice',
-    description: 'Practice Singapore BTT/FTT/RTT and Japan driving theory tests in English, Myanmar, and Japanese.',
+    title: PAGE_TITLE,
+    description: BRAND_TAGLINE,
     type: 'website',
-    siteName: 'Myanpass',
+    siteName: BRAND_NAME,
   },
   twitter: {
     card: 'summary',
-    title: 'Myanpass — Theory Test Practice',
-    description: 'Practice Singapore BTT/FTT/RTT and Japan driving theory tests.',
+    title: PAGE_TITLE,
+    description: BRAND_TAGLINE,
   },
 };
 

@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getLocale } from 'next-intl/server';
+import { BRAND_NAME, SITE_URL } from '@/lib/brand';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — Myanpass',
-  description: 'Privacy Policy for Myanpass driving theory test practice app.',
+  title: `Privacy Policy — ${BRAND_NAME}`,
+  description: `Privacy Policy for ${BRAND_NAME} driving theory test practice app.`,
 };
 
 export default async function PrivacyPage() {
@@ -15,7 +16,7 @@ export default async function PrivacyPage() {
       <div style={{ maxWidth: 760, margin: '0 auto', padding: '60px 24px 80px' }}>
 
         <Link href={`/${locale}`} style={{ fontSize: '.85rem', color: 'var(--ink-soft)', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 6, marginBottom: 40 }}>
-          ← Back to Myanpass
+          ← Back to {BRAND_NAME}
         </Link>
 
         <h1 style={{ fontFamily: 'var(--display)', fontSize: '2rem', fontWeight: 900, marginBottom: 8 }}>
@@ -26,7 +27,7 @@ export default async function PrivacyPage() {
         </p>
 
         <Section title="1. Who we are">
-          <p>Myanpass is a driving theory test practice platform for Singapore (BTT/FTT/RTT) and Japan, available at <strong>web-six-eta-43.vercel.app</strong>. We help learners prepare for their driving theory tests in English, Myanmar, and Japanese.</p>
+          <p>{BRAND_NAME} is a driving theory test practice platform for Singapore (BTT/FTT/RTT) and Japan, available at <strong>{SITE_URL.replace('https://', '')}</strong>. We help learners prepare for their driving theory tests in English, Myanmar, and Japanese.</p>
         </Section>
 
         <Section title="2. Information we collect">
@@ -67,7 +68,7 @@ export default async function PrivacyPage() {
         </Section>
 
         <Section title="8. Children's privacy">
-          <p>Myanpass is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us.</p>
+          <p>{BRAND_NAME} is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us.</p>
         </Section>
 
         <Section title="9. Changes to this policy">

@@ -8,7 +8,8 @@
     "centre": "教習所",
     "premium": "プレミアム",
     "signin": "ログイン",
-    "signout": "ログアウト"
+    "signout": "ログアウト",
+    "report": "問題を報告"
   },
   "hero": {
     "eyebrow_sg": "シンガポール · BTT / FTT / RTT",
@@ -165,7 +166,7 @@
     "eyebrow": "支払いを完了",
     "step_method": "1. 支払い方法を選択",
     "step_transfer": "2. {amount} Ks を送金",
-    "brand_name": "MyanPass",
+    "brand_name": "TheoryLane",
     "copy": "コピー",
     "step_txn": "3. 取引ID / 参照番号",
     "txn_placeholder": "例: KBZ2024XXXXXXXXXX",
@@ -794,6 +795,9 @@
   "footer": {
     "tagline": "シンガポールと日本の学科試験対策を、あなたの言語で。",
     "report": "問題を報告",
+    "report_title": "バグや不具合を見つけましたか？",
+    "report_desc": "状況を教えてください — すべての報告を確認し、迅速に対応します。",
+    "report_btn": "問題を報告する →",
     "note": "独立した学習ツールです。シンガポール交通警察、日本の警察庁、いかなる教習所とも提携していません。すべての問題と図はオリジナルです。"
   },
   "feedback": {
@@ -847,7 +851,7 @@
       "lead": "シンガポールと日本の学科試験用の政府ハンドブックと学習ガイドへの無料リンク。"
     },
     "disclaimer_label": "注意：",
-    "disclaimer": "これらのファイルは公式機関がホストしています。RoadReadyは独立した学習ツールであり、政府機関とは提携していません。",
+    "disclaimer": "これらのファイルは公式機関がホストしています。TheoryLaneは独立した学習ツールであり、政府機関とは提携していません。",
     "download": "ダウンロード",
     "back_home": "← ホームに戻る"
   },
@@ -871,7 +875,7 @@
     "field_name_ph": "例：コーコー",
     "field_title": "見出し",
     "field_body": "体験とアドバイス",
-    "field_rating": "RoadReadyはどれくらい役立ちましたか？",
+    "field_rating": "TheoryLaneはどれくらい役立ちましたか？",
     "field_passed": "試験に合格しましたか？",
     "passed_na": "答えたくない",
     "passed_yes": "はい、合格しました",
