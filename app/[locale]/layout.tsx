@@ -10,12 +10,17 @@ import { BRAND_NAME, BRAND_TAGLINE } from '@/lib/brand';
 import '../globals.css';
 
 const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID;
+const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
 
 const PAGE_TITLE = `${BRAND_NAME} — Singapore & Japan Driving Theory Test`;
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
   description: BRAND_TAGLINE,
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://theorylane.app'),
+  ...(GOOGLE_SITE_VERIFICATION
+    ? { verification: { google: GOOGLE_SITE_VERIFICATION } }
+    : {}),
   openGraph: {
     title: PAGE_TITLE,
     description: BRAND_TAGLINE,
