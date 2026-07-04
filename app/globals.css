@@ -439,6 +439,52 @@ section { padding: 74px 0; }
 footer { background: #0E110B; color: rgba(245, 243, 234, .7); padding: 46px 0 30px; }
 .frow { display: flex; justify-content: space-between; gap: 30px; flex-wrap: wrap; align-items: center; }
 .fnote { font-size: .82rem; max-width: 34em; margin-top: 16px; color: rgba(245, 243, 234, .45); }
+.footer-report {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+  padding: 20px 22px;
+  border-radius: 14px;
+  border: 1.5px solid rgba(245, 166, 35, .4);
+  background: linear-gradient(135deg, rgba(245, 166, 35, .16) 0%, rgba(245, 166, 35, .06) 100%);
+}
+.footer-report-copy { flex: 1 1 220px; }
+.footer-report-copy strong {
+  display: block;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 6px;
+}
+.footer-report-copy p {
+  margin: 0;
+  font-size: .88rem;
+  line-height: 1.5;
+  color: rgba(245, 243, 234, .78);
+  max-width: 36em;
+}
+.footer-report-btn {
+  flex-shrink: 0;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: .88rem;
+  color: #1a1208;
+  background: var(--amber);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(245, 166, 35, .35);
+  transition: transform .15s, box-shadow .15s;
+}
+.footer-report-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(245, 166, 35, .45);
+}
 
 /* quiz page */
 .quiz-layout { min-height: 100vh; background: var(--paint); }

@@ -82,12 +82,10 @@ export default function Header() {
             <a href="#centres">{t('centre')}</a>
             <a href="#resources">{t('res')}</a>
             <a href="#pricing">{t('pricing')}</a>
+            <Link href={`/${locale}/feedback`}>{t('help')}</Link>
           </nav>
           <div className="spacer" />
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexShrink: 0 }}>
-            <Link href={`/${locale}/feedback`} className="nav-report hide-mobile">
-              🐛 {t('report')}
-            </Link>
             <ReminderBell lang={locale} />
             {user ? (
               <>
@@ -164,26 +162,29 @@ export default function Header() {
                 ['#centres', t('centre')],
                 ['#resources', t('res')],
                 ['#pricing', t('pricing')],
+                [`/${locale}/feedback`, t('help')],
               ] as [string, string][]).map(([href, label]) => (
-                <a
-                  key={href}
-                  href={href}
-                  onClick={() => setMenuOpen(false)}
-                  style={{ display: 'block', padding: '13px 16px', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.95rem', color: 'var(--asphalt)', textDecoration: 'none', borderRadius: 10 }}
-                >
-                  {label}
-                </a>
+                href.startsWith('/') ? (
+                  <Link
+                    key={href}
+                    href={href}
+                    onClick={() => setMenuOpen(false)}
+                    style={{ display: 'block', padding: '13px 16px', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.95rem', color: 'var(--asphalt)', textDecoration: 'none', borderRadius: 10 }}
+                  >
+                    {label}
+                  </Link>
+                ) : (
+                  <a
+                    key={href}
+                    href={href}
+                    onClick={() => setMenuOpen(false)}
+                    style={{ display: 'block', padding: '13px 16px', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.95rem', color: 'var(--asphalt)', textDecoration: 'none', borderRadius: 10 }}
+                  >
+                    {label}
+                  </a>
+                )
               ))}
             </nav>
-
-            <Link
-              href={`/${locale}/feedback`}
-              className="drawer-report"
-              onClick={() => setMenuOpen(false)}
-            >
-              <span style={{ fontSize: '1.2rem' }} aria-hidden>🐛</span>
-              {t('report')}
-            </Link>
 
             <div style={{ height: 1, background: 'var(--line)', margin: '0 16px' }} />
 

@@ -26,12 +26,8 @@ export default function Footer() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
               <Link href={`/${locale}#pricing`} style={{ fontSize: '.88rem', color: 'var(--ink-soft)' }}>{nav('pricing')}</Link>
               <Link href={`/${locale}/premium`} style={{ fontSize: '.88rem', color: 'var(--guide-deep)', fontWeight: 600 }}>{nav('premium')}</Link>
+              <Link href={`/${locale}/feedback`} style={{ fontSize: '.88rem', color: 'var(--ink-soft)' }}>{nav('help')}</Link>
               <Link href={`/${locale}/auth/login`} style={{ fontSize: '.88rem', color: 'var(--ink-soft)' }}>{nav('signin')}</Link>
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-              <Link href={`/${locale}/feedback`} className="nav-report" style={{ alignSelf: 'flex-start' }}>
-                🐛 {nav('report')}
-              </Link>
             </div>
           </nav>
         </div>
