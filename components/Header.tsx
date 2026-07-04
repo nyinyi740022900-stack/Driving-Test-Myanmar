@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { BRAND_NAME } from '@/lib/brand';
-import LogoMark from '@/components/LogoMark';
+import AppLogo from '@/components/AppLogo';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect, useRef } from 'react';
 import { useCountry } from './CountryProvider';
@@ -74,10 +74,7 @@ export default function Header() {
     <>
       <header>
         <div className="wrap bar">
-          <Link className="logo" href={`/${locale}`}>
-            <LogoMark size={30} className="logo-mark" />
-            {BRAND_NAME}
-          </Link>
+          <AppLogo href={`/${locale}`} />
           <nav className="main">
             <a href="#tests">{t('tests')}</a>
             <a href="#try">{t('try')}</a>

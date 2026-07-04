@@ -87,7 +87,42 @@ header {
   font-size: 1.18rem;
   letter-spacing: -.03em;
 }
-.logo-mark { flex-shrink: 0; display: block; }
+.logo .mark {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  background: var(--guide);
+  display: grid;
+  place-items: center;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .85);
+}
+.logo .mark span { width: 15px; height: 3px; background: #fff; border-radius: 2px; }
+.logo-img-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  line-height: 0;
+}
+.logo-img-link .logo-wordmark {
+  height: 34px;
+  width: auto;
+  max-width: min(200px, 42vw);
+}
+.logo-img-link--footer .logo-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.logo-footer-text {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.18rem;
+  letter-spacing: -.03em;
+  color: var(--paint);
+  line-height: 1;
+}
 nav.main { display: flex; gap: 16px; margin-left: 8px; }
 nav.main a { font-size: .92rem; font-weight: 600; color: var(--ink-soft); }
 nav.main a:hover { color: var(--ink); }
