@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
-import AppLogo from '@/components/AppLogo';
+import { BRAND_NAME } from '@/lib/brand';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -12,7 +12,10 @@ export default function Footer() {
       <div className="wrap">
         <div className="frow" style={{ alignItems: 'flex-start', gap: '40px 60px', flexWrap: 'wrap' }}>
           <div style={{ flex: '1 1 200px' }}>
-            <AppLogo href={`/${locale}`} variant="footer" />
+            <Link className="logo" href={`/${locale}`} style={{ color: 'var(--paint)' }}>
+              <img src="/brand/logo-icon.png" alt="" width={32} height={32} className="logo-img" aria-hidden />
+              {BRAND_NAME}
+            </Link>
             <div style={{ fontSize: '.86rem', marginTop: 10, color: 'var(--ink-soft)' }}>{t('tagline')}</div>
           </div>
           <nav style={{ display: 'flex', gap: '12px 48px', flexWrap: 'wrap', flex: '1 1 300px' }}>

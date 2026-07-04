@@ -32,6 +32,11 @@ export const metadata: Metadata = {
     title: PAGE_TITLE,
     description: BRAND_TAGLINE,
   },
+  appleWebApp: {
+    capable: true,
+    title: BRAND_NAME,
+    statusBarStyle: 'default',
+  },
 };
 
 export default async function LocaleLayout({
