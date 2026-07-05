@@ -8,6 +8,8 @@ book/road mark stays white.
 
 from __future__ import annotations
 
+import base64
+from io import BytesIO
 from pathlib import Path
 
 from PIL import Image
@@ -22,23 +24,21 @@ def render_icon(size: int) -> Image.Image:
     src = src.resize((size, size), Image.Resampling.LANCZOS)
     w, h = src.size
     out = Image.new('RGB', (w, h), GREEN)
-    margin = max(1, int(size * 0.08))
+    cx, cy = w / 2, h / 2
 
     for y in range(h):
         for x in range(w):
             r, g, b, _ = src.getpixel((x, y))
-            in_outer = x < margin or x >= w - margin or y < margin or y >= h - margin
-            is_white_graphic = r > 220 and g > 220 and b > 220 and not in_outer
-            is_green = g > r + 10 and g > 90
+            dx = (x - cx) / (w / 2)
+            dy = (y - cy) / (h / 2)
+            dist = (dx * dx + dy * dy) ** 0.5
 
-            if is_white_graphic:
-                out.putpixel((x, y), (r, g, b))
-            elif is_green or in_outer:
+            if g > r + 15 and g > 80:
                 out.putpixel((x, y), GREEN)
             elif r > 200 and g > 200 and b > 200:
-                out.putpixel((x, y), GREEN)
+                out.putpixel((x, y), (r, g, b) if dist < 0.52 else GREEN)
             else:
-                out.putpixel((x, y), (r, g, b))
+                out.putpixel((x, y), GREEN)
 
     return out
 
@@ -60,10 +60,24 @@ def write_ico(path: Path, sizes: list[int]) -> None:
     print(f'wrote {path.relative_to(ROOT)} ({", ".join(str(s) for s in sizes)}px)')
 
 
+def write_svg(path: Path, size: int = 32) -> None:
+    buf = BytesIO()
+    render_icon(size).save(buf, format='PNG')
+    encoded = base64.b64encode(buf.getvalue()).decode('ascii')
+    svg = (
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">'
+        f'<image width="32" height="32" href="data:image/png;base64,{encoded}"/>'
+        '</svg>'
+    )
+    path.write_text(svg, encoding='utf-8')
+    print(f'wrote {path.relative_to(ROOT)} (svg)')
+
+
 def main() -> None:
     if not SRC.is_file():
         raise SystemExit(f'Missing source image: {SRC}')
 
+    write_svg(ROOT / 'public/favicon.svg')
     write_png(ROOT / 'public/icons/favicon-32x32.png', 32)
     write_png(ROOT / 'public/icons/favicon-48x48.png', 48)
     write_png(ROOT / 'public/icons/favicon-96x96.png', 96)

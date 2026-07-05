@@ -7,7 +7,7 @@ import AuthProvider from '@/components/AuthProvider';
 import { CountryProvider } from '@/components/CountryProvider';
 import { PageTransitionProvider } from '@/components/PageTransitionProvider';
 import CookieConsent from '@/components/CookieConsent';
-import { BRAND_NAME, SITE_URL } from '@/lib/brand';
+import { BRAND_NAME } from '@/lib/brand';
 import { buildSiteMetadata } from '@/lib/seo';
 import '../globals.css';
 
@@ -49,11 +49,6 @@ export default async function LocaleLayout({
     <html lang={locale}>
       {/* eslint-disable-next-line @next/next/no-head-element */}
       <head>
-        {/* Static favicon links for crawlers that do not run Next.js metadata scripts (e.g. Googlebot) */}
-        <link rel="icon" type="image/png" sizes="32x32" href={`${SITE_URL}/icons/favicon-32x32.png`} />
-        <link rel="icon" type="image/png" sizes="48x48" href={`${SITE_URL}/icons/favicon-48x48.png`} />
-        <link rel="icon" href={`${SITE_URL}/favicon.ico`} sizes="any" />
-        <link rel="apple-touch-icon" sizes="180x180" href={`${SITE_URL}/apple-icon.png`} />
         <meta name="apple-mobile-web-app-title" content={BRAND_NAME} />
         {ADSENSE_ID && (
           <script

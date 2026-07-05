@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { BRAND_LOGO_URL, BRAND_NAME, SITE_URL } from '@/lib/brand';
+import { BRAND_LOGO_URL, BRAND_NAME, SITE_URL, faviconHref } from '@/lib/brand';
 import { TEST_META, type Category } from '@/lib/types';
 import { routing } from '@/i18n/routing';
 
@@ -44,14 +44,15 @@ export async function buildSiteMetadata(locale: string): Promise<Metadata> {
     alternates: localeAlternates(''),
     icons: {
       icon: [
-        { url: '/icons/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-        { url: '/icons/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
-        { url: '/icons/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
-        { url: '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
-        { url: '/favicon.ico', sizes: 'any' },
+        { url: faviconHref('/favicon.svg'), type: 'image/svg+xml' },
+        { url: faviconHref('/icons/favicon-32x32.png'), sizes: '32x32', type: 'image/png' },
+        { url: faviconHref('/icons/favicon-48x48.png'), sizes: '48x48', type: 'image/png' },
+        { url: faviconHref('/icons/favicon-96x96.png'), sizes: '96x96', type: 'image/png' },
+        { url: faviconHref('/icons/icon-192.png'), sizes: '192x192', type: 'image/png' },
+        { url: faviconHref('/favicon.ico'), sizes: 'any' },
       ],
-      apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
-      shortcut: '/favicon.ico',
+      apple: [{ url: faviconHref('/apple-icon.png'), sizes: '180x180', type: 'image/png' }],
+      shortcut: faviconHref('/icons/favicon-32x32.png'),
     },
     openGraph: {
       title: t('title'),
