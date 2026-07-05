@@ -75,7 +75,7 @@
     "steps_heading": "Step-by-step: Class 3 / 3A car licence",
     "highlights_label": "Highlights",
     "classes_label": "Licence classes offered",
-    "fees_label": "Approx. lesson fees (2025)",
+    "fees_label": "Approx. lesson fees (2026)",
     "fee_car": "Car (Class 3/3A)",
     "fee_moto": "Motorcycle",
     "fee_reg": "Registration fee"
@@ -493,7 +493,7 @@
         { "item": "Class 2B / 2A / 2 (motorcycle)", "fee": "~S$33.00", "note": "Check current rate at your centre." },
         { "item": "Class 4 / 5 (goods / bus)", "fee": "~S$40–S$55", "note": "Varies by vehicle class." }
       ],
-      "lesson_title": "Practical Lesson Fees (per lesson, approx. 2025)",
+      "lesson_title": "Practical Lesson Fees (per lesson, approx. 2026)",
       "lesson_label_car": "Car (Class 3/3A)",
       "lesson_label_moto": "Motorcycle",
       "lesson_centres": [
@@ -501,7 +501,7 @@
         { "centre": "CDC", "area": "Ubi", "car": "S$27–S$35", "moto": "S$20–S$27" },
         { "centre": "SSDC", "area": "Serangoon", "car": "S$25–S$33", "moto": "S$18–S$25" }
       ],
-      "lesson_note": "Lesson fees increase slightly during peak hours (evenings, weekends). Book off-peak to save. Prices include GST and are approximate for 2025 — check each centre's website for current rates.",
+      "lesson_note": "Lesson fees increase slightly during peak hours (evenings, weekends). Book off-peak to save. Prices include GST and are approximate for 2026 — check each centre's website for current rates.",
       "total_car_title": "Total Cost Estimate — Class 3 (Car)",
       "total_headers": {
         "item": "Item",
@@ -579,7 +579,7 @@
       "myanmar_tip": "Tip: Some schools offer discount packages for foreign nationals or have staff who speak English. Ask when enrolling. The 本免学科試験 (which this app helps you prepare for) is taken at the end — after completing school."
     },
     "disclaimer_label": "Disclaimer:",
-    "disclaimer_text": "All fees are approximate and may change. Singapore fees include GST as of 2025. Japan fees are as published by the 警察庁. Always verify with the relevant authority (Traffic Police / OneMotoring for SG; your prefecture's 免許センター for JP) before budgeting.",
+    "disclaimer_text": "All fees are approximate and may change. Singapore fees include GST as of 2026. Japan fees are as published by the 警察庁. Always verify with the relevant authority (Traffic Police / OneMotoring for SG; your prefecture's 免許センター for JP) before budgeting.",
     "back_home": "← Back to home"
   },
   "resourcesFaq": {
@@ -652,7 +652,7 @@
       "my": "မြန်မာ",
       "ja": "日本語"
     },
-    "footer_note": "30 terms · Updated June 2025 · Human-reviewed",
+    "footer_note": "30 terms · Updated July 2026 · Human-reviewed",
     "back_home": "← Back to home"
   },
   "resourcesLicenceClasses": {
@@ -845,6 +845,84 @@
     "modal_cancel": "No thanks",
     "loading": "Loading ad…",
     "skipped": "Ad skipped — retry not unlocked"
+  },
+  "privacy": {
+    "meta_title": "Privacy Policy",
+    "meta_description": "Privacy Policy for TheoryLane driving theory test practice.",
+    "title": "Privacy Policy",
+    "updated": "Last updated: July 2026",
+    "back": "← Back to {brand}",
+    "contact_title": "Contact",
+    "sections": [
+      {
+        "title": "1. Who we are",
+        "paragraphs": [
+          "{brand} is a driving theory test practice platform for Singapore (BTT/FTT/RTT) and Japan, available at {site}. We help learners prepare for their driving theory tests in English, Myanmar, and Japanese."
+        ]
+      },
+      {
+        "title": "2. Information we collect",
+        "paragraphs": [
+          "We collect only what is needed to run the service:"
+        ],
+        "bullets": [
+          "Account information — email address and a hashed password when you register (via Supabase Auth).",
+          "Quiz progress — scores and attempt history in your browser (localStorage) and, if logged in, in our database.",
+          "Usage data — anonymised data about how you use the app to improve the service.",
+          "Cookies — functional cookies for sessions; Google AdSense may set advertising cookies if you accept them in our cookie banner."
+        ]
+      },
+      {
+        "title": "3. How we use your information",
+        "bullets": [
+          "To provide and improve quiz and practice features",
+          "To track your progress and display your best scores",
+          "To manage your account and subscription (if applicable)",
+          "To send daily practice reminders (only if you opt in via the bell icon)",
+          "To display relevant advertisements via Google AdSense (with your consent)"
+        ]
+      },
+      {
+        "title": "4. Google AdSense and advertising",
+        "paragraphs": [
+          "We use Google AdSense to display advertisements. Google may use cookies and device identifiers to serve ads based on your prior visits to this site and other sites.",
+          "You can opt out of personalised advertising at https://www.google.com/settings/ads or https://www.aboutads.info.",
+          "For more on how Google uses data, see https://policies.google.com/technologies/partner-sites."
+        ]
+      },
+      {
+        "title": "5. Third-party services",
+        "bullets": [
+          "Supabase — authentication and database (EU servers). Policy: https://supabase.com/privacy",
+          "Vercel — app hosting. Policy: https://vercel.com/legal/privacy-policy",
+          "Google AdSense — advertising partner. Policy: https://policies.google.com/privacy"
+        ]
+      },
+      {
+        "title": "6. Data retention",
+        "paragraphs": [
+          "Account data is kept while your account is active. You may request deletion by contacting us. Browser data (quiz progress, reminders) can be cleared by deleting localStorage in your browser settings."
+        ]
+      },
+      {
+        "title": "7. Your rights",
+        "paragraphs": [
+          "Depending on your location, you may have the right to access, correct, or delete your personal data. Contact us at the email below to exercise these rights."
+        ]
+      },
+      {
+        "title": "8. Children's privacy",
+        "paragraphs": [
+          "{brand} is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with data, please contact us."
+        ]
+      },
+      {
+        "title": "9. Changes to this policy",
+        "paragraphs": [
+          "We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date. Continued use after changes constitutes acceptance."
+        ]
+      }
+    ]
   },
   "cookies": {
     "title": "We use cookies",

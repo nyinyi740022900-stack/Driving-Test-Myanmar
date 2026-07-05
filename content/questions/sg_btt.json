@@ -913,14 +913,6 @@
       "en": "A Stop sign legally requires drivers to come to a complete stop before proceeding, while a Give Way sign only requires yielding to other traffic without a mandatory full stop.",
       "my": "ရပ်ရန်ဆိုင်းဘုတ်သည် ဥပဒေအရ ဆက်မသွားမီ လုံးဝရပ်ရမည်ဖြစ်ပြီး လမ်းဖယ်ရန်ဆိုင်းဘုတ်သည် မဖြစ်မနေရပ်ရန် မလိုအပ်ဘဲ အခြားယာဉ်ကြောကို လမ်းဖယ်ပေးရန်သာ လိုအပ်သည်။"
     },
-    "media": {
-      "type": "image",
-      "src": "/signs/sg/stop.png",
-      "alt": {
-        "en": "What is the difference between a 'Stop' sign (octagonal, red) and a 'Give Way' s",
-        "my": "'ရပ်ရန်' ဆိုင်းဘုတ် (ရှစ်ဒေါင့်ပုံ၊ အနီရောင်) နှင့် 'လမ်းဖယ်ရန်' ဆိုင်းဘုတ် (အော"
-      }
-    },
     "syllabusRef": "btt.signs.mandatory"
   },
   {

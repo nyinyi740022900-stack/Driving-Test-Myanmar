@@ -1,6 +1,7 @@
 export interface LegalSection {
   title: string;
   paragraphs: string[];
+  bullets?: string[];
 }
 
 interface LegalDocumentProps {
@@ -71,6 +72,13 @@ export default function LegalDocument({
               {section.paragraphs.map(paragraph => (
                 <p key={paragraph}>{paragraph}</p>
               ))}
+              {section.bullets && section.bullets.length > 0 && (
+                <ul style={{ margin: 0, paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 8 }}>
+                  {section.bullets.map(item => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              )}
             </div>
           </div>
         ))}

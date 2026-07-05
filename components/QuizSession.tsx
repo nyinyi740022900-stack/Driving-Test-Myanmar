@@ -28,6 +28,7 @@ import {
   bumpQuestionProgress,
   shouldShowQuizInterstitial,
 } from '@/lib/quiz-ads';
+import { hasAdConsent } from '@/lib/cookie-consent';
 import QuizInterstitialAd from './QuizInterstitialAd';
 
 type Mode = 'lesson' | 'practice' | 'test';
@@ -192,7 +193,8 @@ export default function QuizSession({ category, mode, questions }: Props) {
     }
 
     const count = bumpQuestionProgress(category, mode);
-    if (shouldShowQuizInterstitial(count)) {
+    const adsEnabled = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID);
+    if (adsEnabled && hasAdConsent() && shouldShowQuizInterstitial(count)) {
       pendingAfterAdRef.current = action;
       setShowInterstitialAd(true);
       return;

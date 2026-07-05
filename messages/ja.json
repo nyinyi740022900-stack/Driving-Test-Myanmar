@@ -73,7 +73,7 @@
     "steps_heading": "取得の流れ：普通免許（Class 3/3A）",
     "highlights_label": "特長",
     "classes_label": "取得可能な免許の種類",
-    "fees_label": "教習料金の目安（2025年）",
+    "fees_label": "教習料金の目安（2026年）",
     "fee_car": "普通車（Class 3/3A）",
     "fee_moto": "バイク",
     "fee_reg": "登録料"
@@ -491,7 +491,7 @@
         { "item": "Class 2B / 2A / 2 (motorcycle)", "fee": "~S$33.00", "note": "最新料金は教習所で確認。" },
         { "item": "Class 4 / 5 (goods / bus)", "fee": "~S$40–S$55", "note": "車種により変動。" }
       ],
-      "lesson_title": "技能教習費用（1回あたり, 2025目安）",
+      "lesson_title": "技能教習費用（1回あたり, 2026目安）",
       "lesson_label_car": "車（Class 3/3A）",
       "lesson_label_moto": "バイク",
       "lesson_centres": [
@@ -499,7 +499,7 @@
         { "centre": "CDC", "area": "Ubi", "car": "S$27–S$35", "moto": "S$20–S$27" },
         { "centre": "SSDC", "area": "Serangoon", "car": "S$25–S$33", "moto": "S$18–S$25" }
       ],
-      "lesson_note": "繁忙時間（夜・週末）は料金が上がる場合があります。オフピークの予約がお得。GST込みの目安（2025）であり、最新は各校サイトで確認してください。",
+      "lesson_note": "繁忙時間（夜・週末）は料金が上がる場合があります。オフピークの予約がお得。GST込みの目安（2026）であり、最新は各校サイトで確認してください。",
       "total_car_title": "総費用見積 — Class 3（車）",
       "total_headers": {
         "item": "項目",
@@ -577,7 +577,7 @@
       "myanmar_tip": "Tip: 外国人向け割引や英語対応スタッフがいる教習所もあります。入校時に確認してください。本免学科試験は教習修了後に受験します。"
     },
     "disclaimer_label": "免責事項:",
-    "disclaimer_text": "料金は目安で変更される可能性があります。シンガポールの料金は2025年時点のGST込み。日本の料金は警察庁の公表値に基づきます。予算計画前にTraffic Police / OneMotoring（SG）または各都道府県の免許センター（JP）で必ず確認してください。",
+    "disclaimer_text": "料金は目安で変更される可能性があります。シンガポールの料金は2026年時点のGST込み。日本の料金は警察庁の公表値に基づきます。予算計画前にTraffic Police / OneMotoring（SG）または各都道府県の免許センター（JP）で必ず確認してください。",
     "back_home": "← ホームへ戻る"
   },
   "resourcesFaq": {
@@ -650,7 +650,7 @@
       "my": "မြန်မာ",
       "ja": "日本語"
     },
-    "footer_note": "30語 · 2025年6月更新 · 人力チェック済み",
+    "footer_note": "30語 · 2026年7月更新 · 人力チェック済み",
     "back_home": "← ホームへ戻る"
   },
   "resourcesLicenceClasses": {
@@ -843,6 +843,82 @@
     "modal_cancel": "やめる",
     "loading": "広告を読み込み中…",
     "skipped": "広告をスキップしました — 再挑戦は解放されません"
+  },
+  "privacy": {
+    "meta_title": "プライバシーポリシー",
+    "meta_description": "TheoryLane 学科試験対策アプリのプライバシーポリシー。",
+    "title": "プライバシーポリシー",
+    "updated": "最終更新：2026年7月",
+    "back": "← {brand} に戻る",
+    "contact_title": "お問い合わせ",
+    "sections": [
+      {
+        "title": "1. 運営者について",
+        "paragraphs": [
+          "{brand}はシンガポール（BTT/FTT/RTT）と日本の学科試験対策プラットフォームで、{site} で提供しています。英語・ミャンマー語・日本語で学習を支援します。"
+        ]
+      },
+      {
+        "title": "2. 収集する情報",
+        "paragraphs": ["サービス運営に必要な情報のみを収集します。"],
+        "bullets": [
+          "アカウント情報 — 登録時のメールアドレスとハッシュ化されたパスワード（Supabase Auth）",
+          "クイズ進捗 — ブラウザのlocalStorageおよびログイン時のデータベース上のスコア・履歴",
+          "利用データ — サービス改善のための匿名化された利用データ",
+          "Cookie — セッション用の機能Cookie。Cookieバナーで同意した場合、Google AdSenseの広告Cookie"
+        ]
+      },
+      {
+        "title": "3. 情報の利用目的",
+        "bullets": [
+          "クイズ・練習機能の提供と改善",
+          "進捗の記録と最高スコアの表示",
+          "アカウントとサブスクリプションの管理（該当する場合）",
+          "毎日の練習リマインダー（ベルアイコンでオプトインした場合のみ）",
+          "Google AdSenseによる広告表示（同意がある場合）"
+        ]
+      },
+      {
+        "title": "4. Google AdSenseと広告",
+        "paragraphs": [
+          "Google AdSenseで広告を表示します。GoogleはCookieとデバイス識別子を使い、本サイトや他サイトへの訪問に基づいて広告を配信することがあります。",
+          "パーソナライズ広告のオプトアウト: https://www.google.com/settings/ads または https://www.aboutads.info",
+          "Googleのデータ利用: https://policies.google.com/technologies/partner-sites"
+        ]
+      },
+      {
+        "title": "5. 第三者サービス",
+        "bullets": [
+          "Supabase — 認証・データベース（EU）。https://supabase.com/privacy",
+          "Vercel — ホスティング。https://vercel.com/legal/privacy-policy",
+          "Google AdSense — 広告パートナー。https://policies.google.com/privacy"
+        ]
+      },
+      {
+        "title": "6. データの保持",
+        "paragraphs": [
+          "アカウントデータはアカウントが有効な間保持します。削除はお問い合わせください。ブラウザデータ（クイズ進捗・リマインダー）はブラウザ設定でlocalStorageを削除できます。"
+        ]
+      },
+      {
+        "title": "7. お客様の権利",
+        "paragraphs": [
+          "お住まいの地域により、個人データへのアクセス・訂正・削除を求める権利がある場合があります。下記メールでご連絡ください。"
+        ]
+      },
+      {
+        "title": "8. 子どものプライバシー",
+        "paragraphs": [
+          "{brand}は13歳未満の子ども向けではありません。13歳未満から個人情報を収集したと思われる場合はご連絡ください。"
+        ]
+      },
+      {
+        "title": "9. ポリシーの変更",
+        "paragraphs": [
+          "本ポリシーは随時更新される場合があります。変更はこのページに日付とともに掲載します。継続利用は同意とみなします。"
+        ]
+      }
+    ]
   },
   "cookies": {
     "title": "Cookieの使用について",
