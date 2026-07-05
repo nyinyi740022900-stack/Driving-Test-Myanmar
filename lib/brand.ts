@@ -8,7 +8,7 @@ export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? 'https://theorylane.app';
 
 /** Bump when favicon assets change so mobile browsers fetch fresh icons */
-export const FAVICON_VERSION = '3';
+export const FAVICON_VERSION = '4';
 
 /** Square logo for favicons, Open Graph, and structured data */
 export const BRAND_LOGO_PATH = '/icons/icon-192.png';

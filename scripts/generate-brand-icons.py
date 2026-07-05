@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate favicons and app icons from logo-icon-source.png.
-
-White padding around the rounded squircle shows as a broken tab icon on dark
-mobile browsers. This script fills outer pixels with brand green so only the
-book/road mark stays white.
-"""
+"""Regenerate favicons and app icons from public/brand/logo-icon-source.png."""
 
 from __future__ import annotations
 
@@ -16,31 +11,36 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / 'public/brand/logo-icon-source.png'
-GREEN = (62, 127, 84)
+CROP_PAD = 2
 
 
-def render_icon(size: int) -> Image.Image:
-    src = Image.open(SRC).convert('RGBA')
-    src = src.resize((size, size), Image.Resampling.LANCZOS)
-    w, h = src.size
-    out = Image.new('RGB', (w, h), GREEN)
-    cx, cy = w / 2, h / 2
+def crop_logo(source: Image.Image) -> Image.Image:
+    rgb = source.convert('RGB')
+    w, h = rgb.size
+    min_x, min_y = w, h
+    max_x, max_y = 0, 0
 
     for y in range(h):
         for x in range(w):
-            r, g, b, _ = src.getpixel((x, y))
-            dx = (x - cx) / (w / 2)
-            dy = (y - cy) / (h / 2)
-            dist = (dx * dx + dy * dy) ** 0.5
+            r, g, b = rgb.getpixel((x, y))
+            if r > 250 and g > 250 and b > 250:
+                continue
+            min_x = min(min_x, x)
+            min_y = min(min_y, y)
+            max_x = max(max_x, x)
+            max_y = max(max_y, y)
 
-            if g > r + 15 and g > 80:
-                out.putpixel((x, y), GREEN)
-            elif r > 200 and g > 200 and b > 200:
-                out.putpixel((x, y), (r, g, b) if dist < 0.52 else GREEN)
-            else:
-                out.putpixel((x, y), GREEN)
+    left = max(0, min_x - CROP_PAD)
+    top = max(0, min_y - CROP_PAD)
+    right = min(w, max_x + CROP_PAD + 1)
+    bottom = min(h, max_y + CROP_PAD + 1)
+    return rgb.crop((left, top, right, bottom))
 
-    return out
+
+def render_icon(size: int) -> Image.Image:
+    source = Image.open(SRC)
+    cropped = crop_logo(source)
+    return cropped.resize((size, size), Image.Resampling.LANCZOS)
 
 
 def write_png(path: Path, size: int) -> None:
