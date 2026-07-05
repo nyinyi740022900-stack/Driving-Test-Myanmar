@@ -36,7 +36,8 @@
     "to_pass": "အောင်ရန်",
     "learn": "သင်ယူ",
     "practise": "လေ့ကျင့်",
-    "mock": "Mock Test"
+    "mock": "Mock Test",
+    "learn_more": "{test} အကြောင်း →"
   },
   "demo": {
     "eyebrow": "မြင်ပြီးမှ ဖြေ",
@@ -1015,5 +1016,175 @@
     "set_desc_learn": "Set တစ်ခုတွင် မေးခွန်း ၅၀ · သင်ကြားမှုသည် အချိန်မကန့်သတ်",
     "set_hint_learn": "မေးခွန်းများ အစဉ်အတိုင်း ပေါ်လာသည်။ တစ်ခုချင်းစီ ဖတ်ပြီး ဆင်ခြင်ပါ။",
     "self_paced": "အချိန်မကန့်သတ်"
+  },
+  "seo": {
+    "site": {
+      "title": "စင်္ကာပူ ယာဉ်မောင်းသီအိုရီ စာမေးပွဲ — BTT, FTT, RTT လေ့ကျင့်ရန် | TheoryLane",
+      "description": "BTT, FTT, RTT အတွက် အခမဲ့ စင်္ကာပူ ယာဉ်မောင်းသီအိုရီ လေ့ကျင့်ခန်း။ အင်္ဂလိပ် + မြန်မာဘာသာ မေးခွန်း ၁,၀၀၀+။ Mock test ပါဝင်။"
+    },
+    "common": {
+      "home": "← ပင်မစာမျက်နှာ",
+      "home_label": "ပင်မစာမျက်နှာ"
+    },
+    "home": {
+      "title": "စင်္ကာပူ Driving Theory Test — BTT, FTT, RTT အခမဲ့ လေ့ကျင့်ရန် | TheoryLane",
+      "description": "စင်္ကာပူ theory test ကို ပထမတစ်ကြိမ်တည်းနဲ့ အောင်ပါ။ BTT, FTT, RTT အခမဲ့ မေးခွန်း၊ mock test၊ လမ်းဆိုင်းဘုတ်နှင့် လေ့လာရေးအရင်းအမြစ် — အင်္ဂလိပ် + မြန်မာ။"
+    },
+    "quiz": {
+      "lesson_title": "{test} သင်ခန်းစာ — လမ်းစည်းမျဉ်း လေ့လာရန်",
+      "practice_title": "{test} လေ့ကျင့်ခန်း — အခမဲ့ မေးခွန်း",
+      "test_title": "{test} Mock Exam — အချိန်ကန့်သတ် စာမေးပွဲ",
+      "description": "{test} အခမဲ့ လေ့ကျင့်ခန်း မေးခွန်း {count}+။ Mock exam: {mock} မေးခွန်း၊ အောင်မှတ် {pass}%။ TheoryLane တွင် အင်္ဂလိပ် သို့မဟုတ် မြန်မာဖြင့် လေ့လာပါ။"
+    },
+    "btt": {
+      "meta_title": "BTT Practice Test Singapore — Basic Theory Test အခမဲ့ | TheoryLane",
+      "meta_description": "စင်္ကာပူ BTT (Basic Theory Test) အခမဲ့ လေ့ကျင့်ခန်း မေးခွန်း ၅၆၅+။ Mock exam ၅၀ မေးခွန်း၊ အောင်မှတ် ၉၀%။ အင်္ဂလိပ် + မြန်မာဘာသာ။",
+      "breadcrumb": "BTT လေ့ကျင့်ရန်",
+      "eyebrow": "Singapore · Basic Theory Test",
+      "h1": "BTT Practice Test — စင်္ကာပူ Basic Theory Test",
+      "lead": "စင်္ကာပူ Basic Theory Test (BTT) အတွက် အခမဲ့ lesson, practice နှင့် mock exam။ မေးခွန်းတိုင်းတွင် ဆိုင်းဘုတ်/ပုံနှင့် အင်္ဂလိပ် + မြန်မာ ရှင်းလင်းချက် ပါဝင်။",
+      "about_title": "BTT ဆိုတာ ဘာလဲ?",
+      "about_p1": "Basic Theory Test (BTT) သည် စင်္ကာပူတွင် ယာဉ်မောင်းလိုင်စင် အသစ် လျှောက်ထားသူတိုင်း ဖြေဆိုရမည့် ပထမဆုံး theory စာမေးပွဲဖြစ်သည်။ ယာဉ်ဆိုင်ရာ ဆိုင်းဘုတ်၊ လမ်းအမှတ်အသား၊ စည်းမျဉ်းနှင့် အခြေခံ လုံခြုံရေးကို လက်တွေ့သင်တန်း မစခင် စစ်ဆေးသည်။",
+      "about_p2": "တရားဝင် စာမေးပွဲတွင် မေးခွန်း ၅၀ ရှိပြီး အောင်မှတ် ၉၀% (၄၅ ခု မှန်) လိုအပ်သည်။ TheoryLane သည် OneMotoring တွင် မှာယူမီ အသင့်ဖြစ်ကြောင်း သိရှိစေရန် တရားဝင် format နှင့် တူညီစွာ လေ့ကျင့်ပေးသည်။",
+      "format_title": "BTT စာမေးပွဲ ပုံစံ",
+      "format_items": [
+        "မေးခွန်း ၅၀ — ရွေးချယ်ရန် အဖြေ",
+        "အချိန် ၅၀ မိနစ်",
+        "အောင်မှတ် ၉၀% (၅၀ ထဲ ၄၅)",
+        "အကြောင်းအရာ: ဆိုင်းဘုတ်၊ လမ်းအမှတ်၊ စည်းမျဉ်း",
+        "OneMotoring မှ မှာယူ — ခန့်မှန်းကြေး S$7.09"
+      ],
+      "modes_title": "လေ့လာရန် နည်းလမ်း ၃ မျိုး",
+      "modes_learn": "Lesson — ဆိုင်းဘုတ်နှင့်အတူ စည်းမျဉ်း ဖတ်ရှု",
+      "modes_practice": "Practice — မိမိအချိန်ဖြင့် ဖြေပြီး ချက်ချင်း အကြံပြု",
+      "modes_mock": "Mock test — ၅၀ မေးခွန်း အချိန်ကန့်သတ် စာမေးပွဲ",
+      "faq_title": "BTT အကြောင်း မေးလေ့ရှိသော မေးခွန်းများ",
+      "faq": [
+        {
+          "q": "စင်္ကာပူ BTT တွင် မေးခွန်း ဘယ်နှစ်ခု ရှိလဲ?",
+          "a": "တရားဝင် Basic Theory Test တွင် မေးခွန်း ၅၀ ရှိသည်။ အောင်ရန် ၄၅ ခု မှန်ရမည် (၉၀%)။"
+        },
+        {
+          "q": "TheoryLane တွင် BTT လေ့ကျင့်ခန်း အခမဲ့လား?",
+          "a": "ဟုတ်ပါသည်။ BTT lesson နှင့် practice မေးခွန်း အားလုံး အခမဲ့။ အခမဲ့ account သည် တစ်ရက် mock test တစ်ခု ရသည်။ Premium ဖြင့် အကန့်အသတ်မရှိ mock test ရနိုင်သည်။"
+        },
+        {
+          "q": "BTT ကို မြန်မာဘာသာဖြင့် လေ့လာနိုင်လား?",
+          "a": "ဟုတ်ပါသည်။ TheoryLane သည် မေးခွန်းနှင့် ရှင်းလင်းချက်ကို မြန်မာဘာသာ ပြည့်စုံ ဘာသာပြန်ထားသော အနည်းငယ် site များထဲမှ တစ်ခုဖြစ်သည်။"
+        },
+        {
+          "q": "BTT ကို ဘယ်အချိန်မှာ ဖြေဆိုနိုင်လဲ?",
+          "a": "အတည်ပြု driving centre တွင် မှတ်ပုံတင်ပြီးနောက် BTT မှာယူနိုင်သည်။ ကား (Class 3/3A) အတွက် အနည်းဆုံး အသက် ၁၇ နှစ်၊ ဆိုင်ကယ် အတွက် ၁၈ နှစ်။"
+        }
+      ],
+      "cta_learn": "BTT lesson စတင်ရန်",
+      "cta_practice": "BTT practice မေးခွန်း",
+      "cta_mock": "BTT mock test",
+      "stats": "လေ့ကျင့်ခန်း မေးခွန်း {count}+ · mock exam {mock} · အောင်မှတ် {pass}%",
+      "related_title": "ဆက်စပ် လေ့လာရေးအရင်းအမြစ်",
+      "related_signs": "လမ်းဆိုင်းဘုတ် စာကြည့်တိုက်",
+      "related_faq": "စာမေးပွဲ ကြေး & FAQ",
+      "related_guide": "လေ့လာရေးလမ်းညွှန်"
+    },
+    "ftt": {
+      "meta_title": "FTT Practice Test Singapore — Final Theory Test Mock Exam | TheoryLane",
+      "meta_description": "စင်္ကာပူ FTT (Final Theory Test) အခမဲ့ လေ့ကျင့်ခန်း ၅၁၆+ မေးခွန်း။ Mock exam ၅၀ မေးခွန်း၊ အောင်မှတ် ၉၀%။ အန္တရာယ်ခန့်မှန်းခြင်း ပါဝင်။",
+      "breadcrumb": "FTT လေ့ကျင့်ရန်",
+      "eyebrow": "Singapore · Final Theory Test",
+      "h1": "FTT Practice Test — စင်္ကာပူ Final Theory Test",
+      "lead": "လက်တွေ့သင်တန်း ပြီးနောက် Final Theory Test (FTT) ကို ကျွမ်းကျင်အောင် လေ့ကျင့်ပါ။ အန္တရာယ်ခန့်မှန်းခြင်း၊ expressway စည်းမျဉ်း — အခမဲ့၊ မြန်မာဘာသာ ပါဝင်။",
+      "about_title": "FTT ဆိုတာ ဘာလဲ?",
+      "about_p1": "Final Theory Test (FTT) ကို လက်တွေ့ယာဉ်မောင်း သင်ခန်း အနည်းဆုံး ၅ ခု ပြီးမှ ဖြေဆိုရသည်။ BTT ထက် အဆင့်မြင့် — အန္တရာယ်ခန့်မှန်းခြင်း၊ expressway၊ ညဘက် ယာဉ်မောင်းခြင်း ပါဝင်။",
+      "about_p2": "BTT ကဲ့သို့ FTT တွင် မေးခွန်း ၅၀၊ အချိန် ၅၀ မိနစ်၊ အောင်မှတ် ၉၀% ရှိသည်။ FTT အောင်မှ Traffic Police practical test မှာယူနိုင်သည်။",
+      "format_title": "FTT စာမေးပွဲ ပုံစံ",
+      "format_items": [
+        "မေးခွန်း ၅၀",
+        "အချိန် ၅၀ မိနစ်",
+        "အောင်မှတ် ၉၀%",
+        "လက်တွေ့သင်ခန်း ≥ ၅ ခု ပြီးမှ မှာယူ",
+        "အန္တရာယ်၊ expressway၊ အဆင့်မြင့် စည်းမျဉ်း"
+      ],
+      "modes_title": "လေ့လာရန် နည်းလမ်း ၃ မျိုး",
+      "modes_learn": "Lesson — အဆင့်မြင့် စည်းမျဉ်း ပုံနှင့်အတူ",
+      "modes_practice": "Practice — ရှင်းလင်းချက်နှင့်အတူ မေးခွန်း",
+      "modes_mock": "Mock test — FTT အပြည့်အစုံ simulation",
+      "faq_title": "FTT မေးလေ့ရှိသော မေးခွန်းများ",
+      "faq": [
+        {
+          "q": "BTT နဲ့ FTT ကွာခြားချက် ဘာလဲ?",
+          "a": "BTT သည် အခြေခံ ဆိုင်းဘုတ်/စည်းမျဉ်း — လက်တွေ့မစခင်။ FTT သည် အန္တရာယ်ခန့်မှန်းခြင်း စသည့် အဆင့်မြင့် အကြောင်းအရာ — လက်တွေ့သင်ခန်း ပြီးမှ။"
+        },
+        {
+          "q": "TheoryLane တွင် FTT မေးခွန်း ဘယ်နှစ်ခု ရှိလဲ?",
+          "a": "TheoryLane တွင် FTT လေ့ကျင့်ခန်း မေးခွန်း ၅၁၆+ ပါဝင်သည်။"
+        },
+        {
+          "q": "FTT မအောင်ရင် ပြန် ဖြေနိုင်လား?",
+          "a": "ဟုတ်ပါသည်။ အကြိမ်ရေ ကန့်သတ်မရှိ — ကြေးတိုင်း ပေးရသည်။ ၃ ရက် 후 ပြန် မှာယူနိုင်သည်။"
+        },
+        {
+          "q": "FTT မီ BTT အောင်ရမလား?",
+          "a": "ဟုတ်ပါသည်။ BTT အောင် → လက်တွေ့သင်ခန်း → FTT အောင် → Traffic Police practical test မှာယူရမည်။"
+        }
+      ],
+      "cta_learn": "FTT lesson စတင်ရန်",
+      "cta_practice": "FTT practice မေးခွန်း",
+      "cta_mock": "FTT mock test",
+      "stats": "လေ့ကျင့်ခန်း မေးခွန်း {count}+ · mock exam {mock} · အောင်မှတ် {pass}%",
+      "related_title": "ဆက်စပ် လေ့လာရေးအရင်းအမြစ်",
+      "related_signs": "လမ်းဆိုင်းဘုတ်",
+      "related_faq": "ကြေး & FAQ",
+      "related_roadmap": "လိုင်စင် လမ်းကြောင်း"
+    },
+    "rtt": {
+      "meta_title": "RTT Practice Test Singapore — Riding Theory Test | TheoryLane",
+      "meta_description": "စင်္ကာပူ RTT (Riding Theory Test) ဆိုင်ကယ် Class 2B, 2A, 2 အတွက် အခမဲ့ လေ့ကျင့်ခန်း ၁၀၉+ မေးခွန်း။ Mock exam အောင်မှတ် ၉၀%။",
+      "breadcrumb": "RTT လေ့ကျင့်ရန်",
+      "eyebrow": "Singapore · Riding Theory Test",
+      "h1": "RTT Practice Test — စင်္ကာပူ Riding Theory Test",
+      "lead": "ဆိုင်ကယ်လိုင်စင် အတွက် Riding Theory Test (RTT) — Class 2B, 2A, 2 အခမဲ့ မေးခွန်း၊ ရှင်းလင်းချက်နှင့် mock exam။",
+      "about_title": "RTT ဆိုတာ ဘာလဲ?",
+      "about_p1": "Riding Theory Test (RTT) သည် ဆိုင်ကယ်လိုင်စင် (2B, 2A, 2) အတွက် FTT အစား ဖြေဆိုရသည်။ BTT ကို အရင် အောင်ရမည်။",
+      "about_p2": "RTT format သည် BTT/FTT နှင့် တူသည် — မေးခွန်း ၅၀၊ ၅၀ မိနစ်၊ အောင်မှတ် ၉၀% — ဆိုင်ကယ်ဆိုင်ရာ စည်းမျဉ်းနှင့် အန္တရာယ်ကို အဓိက ထား။",
+      "format_title": "RTT စာမေးပွဲ ပုံစံ",
+      "format_items": [
+        "မေးခွန်း ၅၀",
+        "အချိန် ၅၀ မိနစ်",
+        "အောင်မှတ် ၉၀%",
+        "Class 2B, 2A, 2 ဆိုင်ကယ်",
+        "ဆိုင်ကယ်စီးသူများ FTT အစား RTT ဖြေ"
+      ],
+      "modes_title": "လေ့လာရန် နည်းလမ်း ၃ မျိုး",
+      "modes_learn": "Lesson — ဆိုင်ကယ် စည်းမျဉ်း",
+      "modes_practice": "Practice — RTT မေးခွန်း",
+      "modes_mock": "Mock test — RTT အချိန်ကန့်သတ် စာမေးပွဲ",
+      "faq_title": "RTT မေးလေ့ရှိသော မေးခွန်းများ",
+      "faq": [
+        {
+          "q": "ဆိုင်ကယ်စီးသူ FTT လား RTT လား?",
+          "a": "ဆိုင်ကယ်စီးသူများသည် RTT (Riding Theory Test) ဖြေရသည်။ BTT ကို အရင် အောင်ရမည်။"
+        },
+        {
+          "q": "RTT သည် ဘယ် class များကို လွှမ်းခြုံလဲ?",
+          "a": "Class 2B (≤200cc), Class 2A (201–400cc), Class 2 (အကန့်အသတ်မရှိ)။"
+        },
+        {
+          "q": "RTT လေ့ကျင့်ခန်း အခမဲ့လား?",
+          "a": "ဟုတ်ပါသည်။ TheoryLane တွင် RTT lesson/practice အခမဲ့၊ တစ်ရက် mock test တစ်ခု (free plan)။"
+        },
+        {
+          "q": "RTT အောင်မှတ် ဘယ်လောက်?",
+          "a": "မေးခွန်း ၅၀ ထဲ ၄၅ ခု မှန် (၉၀%) လိုအပ်သည်။"
+        }
+      ],
+      "cta_learn": "RTT lesson စတင်ရန်",
+      "cta_practice": "RTT practice",
+      "cta_mock": "RTT mock test",
+      "stats": "လေ့ကျင့်ခန်း မေးခွန်း {count}+ · mock exam {mock} · အောင်မှတ် {pass}%",
+      "related_title": "ဆက်စပ် အရင်းအမြစ်",
+      "related_signs": "လမ်းဆိုင်းဘုတ်",
+      "related_classes": "လိုင်စင် class များ",
+      "related_faq": "ကြေး & FAQ"
+    }
   }
 }

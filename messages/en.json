@@ -38,7 +38,8 @@
     "to_pass": "to pass",
     "learn": "Learn",
     "practise": "Practise",
-    "mock": "Mock Test"
+    "mock": "Mock Test",
+    "learn_more": "About {test} →"
   },
   "demo": {
     "eyebrow": "See it, then answer",
@@ -1017,5 +1018,175 @@
     "set_desc_learn": "50 questions per set · self-paced",
     "set_hint_learn": "Questions appear in order. Take your time to study each one.",
     "self_paced": "Self-paced"
+  },
+  "seo": {
+    "site": {
+      "title": "Singapore Driving Theory Test — BTT, FTT, RTT Practice | TheoryLane",
+      "description": "Free Singapore driving theory test practice for BTT, FTT and RTT. 1,000+ questions in English and Myanmar. Mock exams with real pass marks."
+    },
+    "common": {
+      "home": "← Home",
+      "home_label": "Home"
+    },
+    "home": {
+      "title": "Singapore Driving Theory Test — BTT, FTT, RTT Practice | TheoryLane",
+      "description": "Pass your Singapore theory test on the first try. Free BTT, FTT and RTT practice questions, mock tests, road signs and study guides — in English and Myanmar."
+    },
+    "quiz": {
+      "lesson_title": "{test} Lesson Mode — Learn Road Rules",
+      "practice_title": "{test} Practice Test — Free Questions",
+      "test_title": "{test} Mock Exam — Timed Theory Test",
+      "description": "Free {test} practice with {count}+ questions. Timed mock exam: {mock} questions, {pass}% pass mark. Study in English or Myanmar on TheoryLane."
+    },
+    "btt": {
+      "meta_title": "BTT Practice Test Singapore — Free Basic Theory Test | TheoryLane",
+      "meta_description": "Free Singapore BTT (Basic Theory Test) practice with 565+ questions. Mock exam: 50 questions, 90% pass mark. Learn traffic signs and road rules in English or Myanmar.",
+      "breadcrumb": "BTT Practice",
+      "eyebrow": "Singapore · Basic Theory Test",
+      "h1": "BTT Practice Test — Singapore Basic Theory Test",
+      "lead": "Prepare for your Singapore Basic Theory Test (BTT) with free lesson, practice and mock exam modes. Every question includes a sign or illustration plus explanations in English and Myanmar.",
+      "about_title": "What is the BTT?",
+      "about_p1": "The Basic Theory Test (BTT) is the first theory exam every new driver in Singapore must pass. It covers traffic signs, road markings, traffic rules and basic hazard awareness before you can start practical driving lessons at BBDC, CDC or SSDC.",
+      "about_p2": "The official exam has 50 multiple-choice questions with a 90% pass mark (45 correct). TheoryLane mirrors this format so you know you are ready before booking on OneMotoring.",
+      "format_title": "BTT exam format",
+      "format_items": [
+        "50 multiple-choice questions",
+        "50 minutes time limit",
+        "90% pass mark (45/50 correct)",
+        "Topics: signs, markings, rules, safety",
+        "Book via OneMotoring — fee approx. S$7.09"
+      ],
+      "modes_title": "Three ways to study",
+      "modes_learn": "Lesson — read each rule with the sign beside it",
+      "modes_practice": "Practice — answer at your own pace with instant feedback",
+      "modes_mock": "Mock test — timed 50-question exam, real pass mark",
+      "faq_title": "BTT frequently asked questions",
+      "faq": [
+        {
+          "q": "How many questions are in the Singapore BTT?",
+          "a": "The official Basic Theory Test has 50 multiple-choice questions. You need 45 correct (90%) to pass."
+        },
+        {
+          "q": "Is BTT practice free on TheoryLane?",
+          "a": "Yes. All BTT lesson and practice questions are free. Free accounts get one mock test per day; premium unlocks unlimited mock tests."
+        },
+        {
+          "q": "Can I study BTT in Myanmar language?",
+          "a": "Yes. TheoryLane is one of the few BTT practice sites with full Myanmar (Burmese) translations for questions and explanations."
+        },
+        {
+          "q": "When can I take the BTT?",
+          "a": "You can book the BTT after registering at an approved driving centre. Minimum age is 17 for car (Class 3/3A) and 18 for motorcycle."
+        }
+      ],
+      "cta_learn": "Start BTT lessons",
+      "cta_practice": "BTT practice questions",
+      "cta_mock": "BTT mock test",
+      "stats": "{count}+ practice questions · {mock} mock exam · {pass}% pass mark",
+      "related_title": "Related study material",
+      "related_signs": "Road signs library",
+      "related_faq": "Test fees & FAQ",
+      "related_guide": "Study guide"
+    },
+    "ftt": {
+      "meta_title": "FTT Practice Test Singapore — Final Theory Test Mock Exam | TheoryLane",
+      "meta_description": "Free Singapore FTT (Final Theory Test) practice with 516+ questions. Timed mock exam: 50 questions, 90% pass mark. Hazard perception and advanced driving rules.",
+      "breadcrumb": "FTT Practice",
+      "eyebrow": "Singapore · Final Theory Test",
+      "h1": "FTT Practice Test — Singapore Final Theory Test",
+      "lead": "Master the Final Theory Test (FTT) after your practical lessons. Practice hazard perception, expressway rules and advanced driving scenarios — free, with Myanmar language support.",
+      "about_title": "What is the FTT?",
+      "about_p1": "The Final Theory Test (FTT) is taken after you have completed at least five practical driving lessons. It focuses on hazard perception, expressway driving, night driving and more advanced scenarios than the BTT.",
+      "about_p2": "Like the BTT, the FTT has 50 questions, a 50-minute time limit and a 90% pass mark. Passing the FTT is required before you can book your Traffic Police practical driving test.",
+      "format_title": "FTT exam format",
+      "format_items": [
+        "50 multiple-choice questions",
+        "50 minutes time limit",
+        "90% pass mark (45/50 correct)",
+        "Requires ≥ 5 practical lessons to book",
+        "Topics: hazards, expressways, advanced rules"
+      ],
+      "modes_title": "Three ways to study",
+      "modes_learn": "Lesson — study advanced rules with visuals",
+      "modes_practice": "Practice — unlimited questions with explanations",
+      "modes_mock": "Mock test — full timed FTT simulation",
+      "faq_title": "FTT frequently asked questions",
+      "faq": [
+        {
+          "q": "What is the difference between BTT and FTT?",
+          "a": "BTT covers basic signs and rules — taken before practical lessons. FTT covers advanced topics like hazard perception and expressways — taken after at least five practical lessons."
+        },
+        {
+          "q": "How many FTT practice questions does TheoryLane have?",
+          "a": "TheoryLane includes 516+ FTT practice questions across lesson, practice and mock test modes."
+        },
+        {
+          "q": "Can I retake the FTT if I fail?",
+          "a": "Yes. There is no limit on retakes, but you pay the fee each time. You can rebook after three days."
+        },
+        {
+          "q": "Do I need to pass BTT before FTT?",
+          "a": "Yes. You must pass the BTT first, complete practical lessons, then pass the FTT before booking the Traffic Police driving test."
+        }
+      ],
+      "cta_learn": "Start FTT lessons",
+      "cta_practice": "FTT practice questions",
+      "cta_mock": "FTT mock test",
+      "stats": "{count}+ practice questions · {mock} mock exam · {pass}% pass mark",
+      "related_title": "Related study material",
+      "related_signs": "Road signs library",
+      "related_faq": "Test fees & FAQ",
+      "related_roadmap": "Licensing roadmap"
+    },
+    "rtt": {
+      "meta_title": "RTT Practice Test Singapore — Riding Theory Test | TheoryLane",
+      "meta_description": "Free Singapore RTT (Riding Theory Test) practice for motorcycle licence Class 2B, 2A and 2. 109+ questions, mock exam with 90% pass mark. English and Myanmar.",
+      "breadcrumb": "RTT Practice",
+      "eyebrow": "Singapore · Riding Theory Test",
+      "h1": "RTT Practice Test — Singapore Riding Theory Test",
+      "lead": "Preparing for a motorcycle licence? Practice the Riding Theory Test (RTT) for Class 2B, 2A and 2 with free questions, explanations and timed mock exams.",
+      "about_title": "What is the RTT?",
+      "about_p1": "The Riding Theory Test (RTT) replaces the FTT for motorcycle licence classes (2B, 2A, 2). You still take the BTT first, then the RTT instead of the FTT before your Traffic Police riding test.",
+      "about_p2": "The RTT has the same format as BTT and FTT: 50 questions, 50 minutes and a 90% pass mark, with content focused on motorcycle-specific rules and hazards.",
+      "format_title": "RTT exam format",
+      "format_items": [
+        "50 multiple-choice questions",
+        "50 minutes time limit",
+        "90% pass mark (45/50 correct)",
+        "For Class 2B, 2A and 2 motorcycle licences",
+        "Taken instead of FTT for motorcycle riders"
+      ],
+      "modes_title": "Three ways to study",
+      "modes_learn": "Lesson — motorcycle rules with visuals",
+      "modes_practice": "Practice — unlimited RTT questions",
+      "modes_mock": "Mock test — timed 50-question RTT exam",
+      "faq_title": "RTT frequently asked questions",
+      "faq": [
+        {
+          "q": "Do motorcycle riders take FTT or RTT?",
+          "a": "Motorcycle riders take the RTT (Riding Theory Test), not the FTT. You still need to pass the BTT first."
+        },
+        {
+          "q": "What licence classes does RTT cover?",
+          "a": "RTT applies to Class 2B (≤200cc), Class 2A (201–400cc) and Class 2 (unlimited) motorcycle licences."
+        },
+        {
+          "q": "Is RTT practice free?",
+          "a": "Yes. TheoryLane offers free RTT lesson and practice modes, plus one mock test per day on the free plan."
+        },
+        {
+          "q": "What is the RTT pass mark?",
+          "a": "You need 45 out of 50 correct answers (90%) to pass the RTT, the same as BTT and FTT."
+        }
+      ],
+      "cta_learn": "Start RTT lessons",
+      "cta_practice": "RTT practice questions",
+      "cta_mock": "RTT mock test",
+      "stats": "{count}+ practice questions · {mock} mock exam · {pass}% pass mark",
+      "related_title": "Related study material",
+      "related_signs": "Road signs library",
+      "related_classes": "Licence classes",
+      "related_faq": "Test fees & FAQ"
+    }
   }
 }

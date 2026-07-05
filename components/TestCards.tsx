@@ -5,6 +5,12 @@ import { useLocale, useTranslations } from 'next-intl';
 import { useCountry } from './CountryProvider';
 import { TEST_META, getCountryBankTotal } from '@/lib/types';
 
+const LANDING_SLUG: Partial<Record<string, string>> = {
+  sg_btt: 'btt',
+  sg_ftt: 'ftt',
+  sg_rtt: 'rtt',
+};
+
 export default function TestCards() {
   const t = useTranslations('tests');
   const locale = useLocale() as 'en' | 'my' | 'ja';
@@ -62,6 +68,20 @@ export default function TestCards() {
                   {t('mock')}
                 </Link>
               </div>
+              {LANDING_SLUG[m.category] && (
+                <Link
+                  href={`/${locale}/${LANDING_SLUG[m.category]}`}
+                  style={{
+                    display: 'inline-block',
+                    marginTop: 14,
+                    fontSize: '.82rem',
+                    fontWeight: 600,
+                    color: 'var(--guide-deep)',
+                  }}
+                >
+                  {t('learn_more', { test: m.tag })}
+                </Link>
+              )}
             </div>
           ))}
         </div>

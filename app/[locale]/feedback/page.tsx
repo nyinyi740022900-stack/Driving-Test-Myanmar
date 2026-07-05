@@ -7,6 +7,8 @@ import { useEffect, useState } from 'react';
 import { useCountry } from '@/components/CountryProvider';
 import { useAuth } from '@/components/AuthProvider';
 import BackButton from '@/components/BackButton';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import type { FeedbackArea, FeedbackType } from '@/lib/types';
 
 interface MyFeedback {
@@ -113,7 +115,9 @@ export default function FeedbackPage() {
   }
 
   return (
-    <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>
+    <>
+      <Header />
+      <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>
       <div style={{ background: 'var(--paint-2)', borderBottom: '1px solid var(--line)', padding: '20px 24px' }}>
         <div style={{ maxWidth: 720, margin: '0 auto', display: 'flex', alignItems: 'center', gap: 16 }}>
           <BackButton
@@ -289,6 +293,8 @@ export default function FeedbackPage() {
           </p>
         )}
       </div>
-    </div>
+      </div>
+      <Footer />
+    </>
   );
 }

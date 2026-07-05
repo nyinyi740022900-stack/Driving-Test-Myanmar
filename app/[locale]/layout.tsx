@@ -6,42 +6,28 @@ import { routing } from '@/i18n/routing';
 import AuthProvider from '@/components/AuthProvider';
 import { CountryProvider } from '@/components/CountryProvider';
 import { PageTransitionProvider } from '@/components/PageTransitionProvider';
-import { BRAND_NAME, BRAND_TAGLINE } from '@/lib/brand';
+import { BRAND_NAME } from '@/lib/brand';
+import { buildSiteMetadata } from '@/lib/seo';
 import '../globals.css';
 
 const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID;
 const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
 
-const PAGE_TITLE = `${BRAND_NAME} — Singapore & Japan Driving Theory Test`;
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const base = await buildSiteMetadata(locale);
 
-export const metadata: Metadata = {
-  applicationName: BRAND_NAME,
-  title: {
-    default: PAGE_TITLE,
-    template: `%s · ${BRAND_NAME}`,
-  },
-  description: BRAND_TAGLINE,
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://theorylane.app'),
-  ...(GOOGLE_SITE_VERIFICATION
-    ? { verification: { google: GOOGLE_SITE_VERIFICATION } }
-    : {}),
-  openGraph: {
-    title: PAGE_TITLE,
-    description: BRAND_TAGLINE,
-    type: 'website',
-    siteName: BRAND_NAME,
-  },
-  twitter: {
-    card: 'summary',
-    title: PAGE_TITLE,
-    description: BRAND_TAGLINE,
-  },
-  appleWebApp: {
-    capable: true,
-    title: BRAND_NAME,
-    statusBarStyle: 'default',
-  },
-};
+  return {
+    ...base,
+    ...(GOOGLE_SITE_VERIFICATION
+      ? { verification: { google: GOOGLE_SITE_VERIFICATION } }
+      : {}),
+  };
+}
 
 export default async function LocaleLayout({
   children,

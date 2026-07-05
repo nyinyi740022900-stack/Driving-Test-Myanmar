@@ -1,10 +1,12 @@
 import type { MetadataRoute } from 'next';
 import { SITE_URL } from '@/lib/brand';
+import { TEST_LANDING_PATHS } from '@/lib/seo';
 import { routing } from '@/i18n/routing';
 import type { Category } from '@/lib/types';
 
 const PUBLIC_PATHS = [
   '',
+  ...TEST_LANDING_PATHS,
   '/premium',
   '/feedback',
   '/experiences',
@@ -33,8 +35,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       entries.push({
         url: `${SITE_URL}/${locale}${path}`,
         lastModified: now,
-        changeFrequency: path === '' ? 'weekly' : 'monthly',
-        priority: path === '' ? 1 : path.startsWith('/resources') ? 0.8 : 0.7,
+        changeFrequency: path === '' ? 'weekly' : path.match(/^\/(btt|ftt|rtt)$/) ? 'weekly' : 'monthly',
+        priority: path === '' ? 1 : path.match(/^\/(btt|ftt|rtt)$/) ? 0.95 : path.startsWith('/resources') ? 0.8 : 0.7,
       });
     }
 

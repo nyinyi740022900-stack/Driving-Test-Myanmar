@@ -29,12 +29,8 @@ export default function OGImage() {
 
         {/* Logo */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 36 }}>
-          <div style={{ width: 48, height: 48, borderRadius: 12, background: '#1B9C56', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative' }}>
-            <div style={{ position: 'absolute', width: 34, height: 34, borderRadius: 8, border: '3px solid rgba(255,255,255,0.88)' }} />
-            <div style={{ display: 'flex', gap: 6 }}>
-              <div style={{ width: 12, height: 5, borderRadius: 3, background: '#fff' }} />
-              <div style={{ width: 12, height: 5, borderRadius: 3, background: '#F2A734' }} />
-            </div>
+          <div style={{ width: 48, height: 48, borderRadius: 12, background: '#1B9C56', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <div style={{ width: 20, height: 20, background: '#fff', borderRadius: 3 }} />
           </div>
           <span style={{ fontSize: 32, fontWeight: 800, color: '#fff', letterSpacing: '-0.02em' }}>{BRAND_NAME}</span>
         </div>

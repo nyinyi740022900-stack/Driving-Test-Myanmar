@@ -36,7 +36,8 @@
     "to_pass": "合格",
     "learn": "学ぶ",
     "practise": "練習",
-    "mock": "模擬試験"
+    "mock": "模擬試験",
+    "learn_more": "{test}について →"
   },
   "demo": {
     "eyebrow": "見てから答える",
@@ -1015,5 +1016,173 @@
     "set_desc_learn": "1セット50問 · 自分のペースで学習",
     "set_hint_learn": "問題は順番に表示されます。じっくり学習してください。",
     "self_paced": "自分のペース"
+  },
+  "seo": {
+    "site": {
+      "title": "シンガポール運転理論試験 — BTT・FTT・RTT対策 | TheoryLane",
+      "description": "シンガポールBTT・FTT・RTTの無料練習問題1,000問以上。英語・ミャンマー語対応。本番形式の模擬試験。"
+    },
+    "common": {
+      "home": "← ホーム",
+      "home_label": "ホーム"
+    },
+    "home": {
+      "title": "シンガポール運転理論試験 — BTT・FTT・RTT無料練習 | TheoryLane",
+      "description": "シンガポールの学科試験に一発合格。BTT・FTT・RTTの無料問題、模擬試験、道路標識・学習ガイド — 英語・ミャンマー語対応。"
+    },
+    "quiz": {
+      "lesson_title": "{test} 学習モード — 交通ルール",
+      "practice_title": "{test} 練習問題 — 無料",
+      "test_title": "{test} 模擬試験 — 本番形式",
+      "description": "{test}の無料練習問題{count}問以上。模擬試験{mock}問・合格率{pass}%。TheoryLaneで英語・ミャンマー語学習。"
+    },
+    "btt": {
+      "meta_title": "BTT練習問題シンガポール — Basic Theory Test無料 | TheoryLane",
+      "meta_description": "シンガポールBTT（基礎学科試験）無料練習565問以上。模擬試験50問・90%合格ライン。道路標識・交通ルールを英語・ミャンマー語で学習。",
+      "breadcrumb": "BTT練習",
+      "eyebrow": "Singapore · Basic Theory Test",
+      "h1": "BTT練習問題 — シンガポール基礎学科試験",
+      "lead": "シンガポールBTT（Basic Theory Test）の無料学習・練習・模擬試験。全問題に標識イラストと英語・ミャンマー語の解説付き。",
+      "about_title": "BTTとは？",
+      "about_p1": "Basic Theory Test（BTT）はシンガポールで運転免許を取得する最初の学科試験です。交通標識・路面標示・交通ルール・基本的な危険予測を扱い、実技教習の前に受験します。",
+      "about_p2": "本試験は50問・50分・90%合格（45問正解）。TheoryLaneは本番と同じ形式で練習できます。",
+      "format_title": "BTT試験形式",
+      "format_items": [
+        "50問の多肢選択",
+        "制限時間50分",
+        "90%合格（45/50）",
+        "標識・標示・ルール・安全",
+        "OneMotoringで予約 — 約S$7.09"
+      ],
+      "modes_title": "3つの学習モード",
+      "modes_learn": "学習 — 標識とルールを読む",
+      "modes_practice": "練習 — 自分のペースで即時フィードバック",
+      "modes_mock": "模擬試験 — 50問・時間制限あり",
+      "faq_title": "BTTよくある質問",
+      "faq": [
+        {
+          "q": "シンガポールBTTの問題数は？",
+          "a": "公式BTTは50問です。45問正解（90%）で合格します。"
+        },
+        {
+          "q": "TheoryLaneのBTT練習は無料？",
+          "a": "はい。学習・練習は無料。無料アカウントは1日1回模擬試験。プレミアムで無制限。"
+        },
+        {
+          "q": "ミャンマー語で学習できますか？",
+          "a": "はい。TheoryLaneは問題と解説のミャンマー語翻訳に対応しています。"
+        },
+        {
+          "q": "BTTはいつ受験できますか？",
+          "a": "指定教習所に登録後、OneMotoringで予約できます。車は17歳以上、バイクは18歳以上。"
+        }
+      ],
+      "cta_learn": "BTT学習を始める",
+      "cta_practice": "BTT練習問題",
+      "cta_mock": "BTT模擬試験",
+      "stats": "練習問題{count}問以上 · 模擬試験{mock}問 · 合格率{pass}%",
+      "related_title": "関連学習資料",
+      "related_signs": "道路標識ライブラリ",
+      "related_faq": "受験料・FAQ",
+      "related_guide": "学習ガイド"
+    },
+    "ftt": {
+      "meta_title": "FTT練習問題シンガポール — Final Theory Test模擬試験 | TheoryLane",
+      "meta_description": "シンガポールFTT（最終学科試験）無料練習516問以上。模擬試験50問・90%合格。危険予測・高速道路ルール対策。",
+      "breadcrumb": "FTT練習",
+      "eyebrow": "Singapore · Final Theory Test",
+      "h1": "FTT練習問題 — シンガポール最終学科試験",
+      "lead": "実技教習後のFinal Theory Test（FTT）対策。危険予測・高速道路・上級ルールを無料で練習。ミャンマー語対応。",
+      "about_title": "FTTとは？",
+      "about_p1": "Final Theory Test（FTT）は実技教習を5回以上終えた後に受ける学科試験です。BTTより高度な危険予測・高速道路・夜間運転などを扱います。",
+      "about_p2": "形式はBTTと同じ50問・50分・90%合格。FTT合格後にTraffic Policeの技能試験を予約できます。",
+      "format_title": "FTT試験形式",
+      "format_items": [
+        "50問・50分",
+        "90%合格",
+        "実技5回以上で予約可",
+        "危険予測・高速道路・上級ルール"
+      ],
+      "modes_title": "3つの学習モード",
+      "modes_learn": "学習 — 上級ルールと図解",
+      "modes_practice": "練習 — 解説付き無制限",
+      "modes_mock": "模擬試験 — FTT本番形式",
+      "faq_title": "FTTよくある質問",
+      "faq": [
+        {
+          "q": "BTTとFTTの違いは？",
+          "a": "BTTは基礎（実技前）。FTTは上級（実技5回後）— 危険予測など。"
+        },
+        {
+          "q": "FTT練習問題は何問？",
+          "a": "TheoryLaneに516問以上のFTT練習問題があります。"
+        },
+        {
+          "q": "FTTに落ちたら再受験できる？",
+          "a": "はい。回数制限なし。都度受験料。3日後に再予約可能。"
+        },
+        {
+          "q": "FTTの前にBTTが必要？",
+          "a": "はい。BTT合格 → 実技教習 → FTT合格の順です。"
+        }
+      ],
+      "cta_learn": "FTT学習開始",
+      "cta_practice": "FTT練習問題",
+      "cta_mock": "FTT模擬試験",
+      "stats": "練習問題{count}問以上 · 模擬試験{mock}問 · 合格率{pass}%",
+      "related_title": "関連資料",
+      "related_signs": "道路標識",
+      "related_faq": "FAQ",
+      "related_roadmap": "免許取得ロードマップ"
+    },
+    "rtt": {
+      "meta_title": "RTT練習問題シンガポール — Riding Theory Test | TheoryLane",
+      "meta_description": "シンガポールRTT（二輪学科試験）Class 2B/2A/2向け無料練習109問以上。模擬試験90%合格ライン。英語・ミャンマー語。",
+      "breadcrumb": "RTT練習",
+      "eyebrow": "Singapore · Riding Theory Test",
+      "h1": "RTT練習問題 — シンガポール二輪学科試験",
+      "lead": "バイク免許（Class 2B・2A・2）向けRiding Theory Test（RTT）の無料練習・模擬試験。",
+      "about_title": "RTTとは？",
+      "about_p1": "Riding Theory Test（RTT）はバイク免許用の学科試験で、FTTの代わりに受けます。BTT合格が先決です。",
+      "about_p2": "50問・50分・90%合格。バイク特有のルールと危険予測が中心です。",
+      "format_title": "RTT試験形式",
+      "format_items": [
+        "50問・50分",
+        "90%合格",
+        "Class 2B/2A/2",
+        "バイクはFTTの代わりにRTT"
+      ],
+      "modes_title": "3つの学習モード",
+      "modes_learn": "学習",
+      "modes_practice": "練習",
+      "modes_mock": "模擬試験",
+      "faq_title": "RTTよくある質問",
+      "faq": [
+        {
+          "q": "バイクはFTTかRTTか？",
+          "a": "バイクはRTTです。BTTは共通で先に合格が必要です。"
+        },
+        {
+          "q": "対象クラスは？",
+          "a": "Class 2B（200cc以下）、2A、2（大型二輪）。"
+        },
+        {
+          "q": "RTT練習は無料？",
+          "a": "はい。学習・練習無料。無料プランは1日1回模擬試験。"
+        },
+        {
+          "q": "合格点は？",
+          "a": "50問中45問正解（90%）。"
+        }
+      ],
+      "cta_learn": "RTT学習開始",
+      "cta_practice": "RTT練習",
+      "cta_mock": "RTT模擬試験",
+      "stats": "練習問題{count}問以上 · 模擬試験{mock}問 · 合格率{pass}%",
+      "related_title": "関連資料",
+      "related_signs": "標識ライブラリ",
+      "related_classes": "免許クラス",
+      "related_faq": "FAQ"
+    }
   }
 }
