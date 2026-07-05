@@ -69,18 +69,14 @@ export default function TestCards() {
                 </Link>
               </div>
               {LANDING_SLUG[m.category] && (
-                <Link
-                  href={`/${locale}/${LANDING_SLUG[m.category]}`}
-                  style={{
-                    display: 'inline-block',
-                    marginTop: 14,
-                    fontSize: '.82rem',
-                    fontWeight: 600,
-                    color: 'var(--guide-deep)',
-                  }}
-                >
-                  {t('learn_more', { test: m.tag })}
-                </Link>
+                <div className="card-about">
+                  <Link
+                    href={`/${locale}/${LANDING_SLUG[m.category]}`}
+                    className="card-about-link"
+                  >
+                    {t('learn_more', { test: m.tag })}
+                  </Link>
+                </div>
               )}
             </div>
           ))}

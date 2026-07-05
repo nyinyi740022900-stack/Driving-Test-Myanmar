@@ -39,7 +39,7 @@
     "learn": "Learn",
     "practise": "Practise",
     "mock": "Mock Test",
-    "learn_more": "About {test} →"
+    "learn_more": "About {test}"
   },
   "demo": {
     "eyebrow": "See it, then answer",

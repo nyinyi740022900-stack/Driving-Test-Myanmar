@@ -37,7 +37,7 @@
     "learn": "学ぶ",
     "practise": "練習",
     "mock": "模擬試験",
-    "learn_more": "{test}について →"
+    "learn_more": "{test}について"
   },
   "demo": {
     "eyebrow": "見てから答える",
