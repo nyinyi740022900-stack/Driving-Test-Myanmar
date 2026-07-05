@@ -22,8 +22,13 @@ import ReminderBell from './ReminderBell';
 import AdSlot from './AdSlot';
 import RewardedAdButton from './RewardedAdButton';
 import { createClient } from '@/lib/supabase';
-import { canRunMockTest, recordMockTestUsage } from '@/lib/subscription';
+import { canRunMockTest, recordMockTestUsage, isPremium } from '@/lib/subscription';
 import { saveQuizResult, getBestScore, getAttemptCount } from '@/lib/progress';
+import {
+  bumpQuestionProgress,
+  shouldShowQuizInterstitial,
+} from '@/lib/quiz-ads';
+import QuizInterstitialAd from './QuizInterstitialAd';
 
 type Mode = 'lesson' | 'practice' | 'test';
 type GateState = 'checking' | 'allowed' | 'need_login' | 'limit_reached';
@@ -78,6 +83,9 @@ export default function QuizSession({ category, mode, questions }: Props) {
   const [partPicks, setPartPicks] = useState<(number | null)[]>([]);
   const [showMyanmar, setShowMyanmar] = useState(false);
   const [timeLeft, setTimeLeft] = useState(mode === 'practice' ? PRACTICE_MINUTES * 60 : meta.timeLimitMinutes * 60);
+  const [isPremiumUser, setIsPremiumUser] = useState(false);
+  const [showInterstitialAd, setShowInterstitialAd] = useState(false);
+  const pendingAfterAdRef = useRef<(() => void) | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // ── Sets (lesson + practice) ──────────────────────────────────────
@@ -153,6 +161,15 @@ export default function QuizSession({ category, mode, questions }: Props) {
     });
   }, [mode, user, authLoading, category]);
 
+  useEffect(() => {
+    if (!user || !process.env.NEXT_PUBLIC_SUPABASE_URL) {
+      setIsPremiumUser(false);
+      return;
+    }
+    const supabase = createClient();
+    isPremium(supabase, user.id).then(setIsPremiumUser).catch(() => setIsPremiumUser(false));
+  }, [user]);
+
   // ── Timer (test + practice when set selected) ─────────────────────
   useEffect(() => {
     const active = mode === 'test' || (mode === 'practice' && selectedSet !== null);
@@ -168,6 +185,28 @@ export default function QuizSession({ category, mode, questions }: Props) {
   }, [mode, submitted, selectedSet]);
 
   // ── Helpers ───────────────────────────────────────────────────────
+  function runAfterQuizAd(action: () => void) {
+    if (isPremiumUser || (mode !== 'lesson' && mode !== 'practice')) {
+      action();
+      return;
+    }
+
+    const count = bumpQuestionProgress(category, mode);
+    if (shouldShowQuizInterstitial(count)) {
+      pendingAfterAdRef.current = action;
+      setShowInterstitialAd(true);
+      return;
+    }
+
+    action();
+  }
+
+  function handleAdContinue() {
+    setShowInterstitialAd(false);
+    pendingAfterAdRef.current?.();
+    pendingAfterAdRef.current = null;
+  }
+
   function handlePick(i: number) {
     if (mode === 'lesson') return;
     if ((mode === 'practice' || mode === 'test') && picked !== null) return;
@@ -191,6 +230,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
       next[idx] = partPicks as number[];
       setAnswers(next);
       if (mode === 'test' && idx < pool.length - 1) setIdx(idx + 1);
+      if (mode === 'practice') runAfterQuizAd(() => {});
       return;
     }
     if (pendingPick === null) return;
@@ -198,9 +238,19 @@ export default function QuizSession({ category, mode, questions }: Props) {
     setPendingPick(null);
     if (mode === 'test' && idx < pool.length - 1) {
       setIdx(idx + 1);
+      return;
     }
+    if (mode === 'practice') runAfterQuizAd(() => {});
   }
-  function handleNext() { if (idx < pool.length - 1) setIdx(idx + 1); }
+  function handleNext() {
+    if (mode === 'lesson') {
+      runAfterQuizAd(() => {
+        if (idx < pool.length - 1) setIdx(idx + 1);
+      });
+      return;
+    }
+    if (idx < pool.length - 1) setIdx(idx + 1);
+  }
   function handlePrev() { if (idx > 0) setIdx(idx - 1); }
 
   function handleSubmit() {
@@ -552,6 +602,8 @@ export default function QuizSession({ category, mode, questions }: Props) {
   const practiceCanFinish = mode === 'practice' && isLastQ;
 
   return (
+    <>
+      {showInterstitialAd && <QuizInterstitialAd onContinue={handleAdContinue} />}
     <div className="quiz-layout">
       <div className="quiz-wrap">
 
@@ -810,6 +862,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
 
       </div>
     </div>
+    </>
   );
 }
 

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getLocale } from 'next-intl/server';
-import { BRAND_NAME, SITE_URL } from '@/lib/brand';
+import { BRAND_NAME, SITE_URL, SUPPORT_EMAIL } from '@/lib/brand';
 
 export const metadata: Metadata = {
   title: `Privacy Policy — ${BRAND_NAME}`,
@@ -23,7 +23,7 @@ export default async function PrivacyPage() {
           Privacy Policy
         </h1>
         <p style={{ color: 'var(--ink-soft)', fontSize: '.9rem', marginBottom: 48 }}>
-          Last updated: June 2025
+          Last updated: July 2026
         </p>
 
         <Section title="1. Who we are">
@@ -78,7 +78,7 @@ export default async function PrivacyPage() {
         <Section title="10. Contact">
           <p>If you have any questions about this Privacy Policy, please contact us at:</p>
           <p style={{ fontFamily: 'var(--display)', fontWeight: 700, color: 'var(--asphalt)' }}>
-            nyinyi1451996@icloud.com
+            <a href={`mailto:${SUPPORT_EMAIL}`} style={{ color: 'var(--guide-deep)' }}>{SUPPORT_EMAIL}</a>
           </p>
         </Section>
 

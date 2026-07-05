@@ -6,7 +6,8 @@ import { routing } from '@/i18n/routing';
 import AuthProvider from '@/components/AuthProvider';
 import { CountryProvider } from '@/components/CountryProvider';
 import { PageTransitionProvider } from '@/components/PageTransitionProvider';
-import { BRAND_NAME } from '@/lib/brand';
+import CookieConsent from '@/components/CookieConsent';
+import { BRAND_LOGO_PATH, BRAND_NAME, SITE_URL } from '@/lib/brand';
 import { buildSiteMetadata } from '@/lib/seo';
 import '../globals.css';
 
@@ -48,8 +49,37 @@ export default async function LocaleLayout({
     <html lang={locale}>
       {/* eslint-disable-next-line @next/next/no-head-element */}
       <head>
+        {/* Static favicon links for crawlers that do not run Next.js metadata scripts (e.g. Googlebot) */}
+        <link rel="icon" href={`${SITE_URL}/favicon.ico`} sizes="any" />
+        <link rel="icon" type="image/png" sizes="48x48" href={`${SITE_URL}/icons/favicon-48x48.png`} />
+        <link rel="icon" type="image/png" sizes="96x96" href={`${SITE_URL}/icons/favicon-96x96.png`} />
+        <link rel="icon" type="image/png" sizes="192x192" href={`${SITE_URL}${BRAND_LOGO_PATH}`} />
+        <link rel="apple-touch-icon" sizes="180x180" href={`${SITE_URL}/apple-icon.png`} />
         <meta name="apple-mobile-web-app-title" content={BRAND_NAME} />
-        {ADSENSE_ID && <><script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`} crossOrigin="anonymous" /><script dangerouslySetInnerHTML={{ __html: `window.adBreak=window.adConfig=function(o){(window.adsbygoogle=window.adsbygoogle||[]).push(o)};` }} /></>}
+        {ADSENSE_ID && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                window.gtag = gtag;
+                gtag('consent', 'default', {
+                  ad_storage: 'denied',
+                  ad_user_data: 'denied',
+                  ad_personalization: 'denied',
+                  analytics_storage: 'denied',
+                  wait_for_update: 500
+                });
+              `,
+            }}
+          />
+        )}
+        {ADSENSE_ID && (
+          <>
+            <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`} crossOrigin="anonymous" />
+            <script dangerouslySetInnerHTML={{ __html: `window.adBreak=window.adConfig=function(o){(window.adsbygoogle=window.adsbygoogle||[]).push(o)};` }} />
+          </>
+        )}
       </head>
       <body>
         <NextIntlClientProvider messages={messages}>
@@ -57,6 +87,7 @@ export default async function LocaleLayout({
             <AuthProvider>
               <PageTransitionProvider>
                 {children}
+                <CookieConsent />
               </PageTransitionProvider>
             </AuthProvider>
           </CountryProvider>

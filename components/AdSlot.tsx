@@ -1,6 +1,7 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { getStoredConsent, hasAdConsent } from '@/lib/cookie-consent';
 
 interface AdSlotProps {
   slot: string;
@@ -15,14 +16,26 @@ declare global {
 export default function AdSlot({ slot, format = 'auto', className = '' }: AdSlotProps) {
   const pushed = useRef(false);
   const isDev = !process.env.NEXT_PUBLIC_ADSENSE_ID;
+  const [canShowAds, setCanShowAds] = useState(false);
 
   useEffect(() => {
-    if (isDev || pushed.current) return;
+    const sync = () => setCanShowAds(hasAdConsent());
+    sync();
+    window.addEventListener('storage', sync);
+    window.addEventListener('tl-cookie-consent-changed', sync);
+    return () => {
+      window.removeEventListener('storage', sync);
+      window.removeEventListener('tl-cookie-consent-changed', sync);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (isDev || !canShowAds || pushed.current) return;
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
       pushed.current = true;
     } catch {}
-  }, [isDev]);
+  }, [isDev, canShowAds]);
 
   if (isDev) {
     return (
@@ -45,9 +58,12 @@ export default function AdSlot({ slot, format = 'auto', className = '' }: AdSlot
         }}
       >
         AD — {format.toUpperCase()}
+        {getStoredConsent() === 'rejected' ? ' (consent off)' : ''}
       </div>
     );
   }
+
+  if (!canShowAds) return null;
 
   return (
     <div className={className} style={{ textAlign: 'center', overflow: 'hidden' }}>

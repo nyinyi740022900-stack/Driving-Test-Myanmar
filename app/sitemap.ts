@@ -11,6 +11,8 @@ const PUBLIC_PATHS = [
   '/feedback',
   '/experiences',
   '/privacy',
+  '/terms',
+  '/about',
   '/resources/faq',
   '/resources/guide',
   '/resources/handbook',

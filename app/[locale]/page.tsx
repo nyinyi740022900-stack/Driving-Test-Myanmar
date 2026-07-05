@@ -25,11 +25,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'faq' });
-  const faqItems = [
-    { q: t('q1'), a: t('a1') },
-    { q: t('q2'), a: t('a2') },
-    { q: t('q3'), a: t('a3') },
-  ];
+  const sgFaqs = t.raw('sg') as { q: string; a: string }[];
+  const jpFaqs = t.raw('jp') as { q: string; a: string }[];
+  const sharedFaqs = t.raw('shared') as { q: string; a: string }[];
+  const faqItems = [...sgFaqs, ...jpFaqs, ...sharedFaqs];
 
   return (
     <>

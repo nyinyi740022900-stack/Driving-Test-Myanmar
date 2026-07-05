@@ -113,12 +113,62 @@
   "faq": {
     "eyebrow": "Good to know",
     "heading": "Common questions",
-    "q1": "How many questions are there, and what's the pass mark?",
-    "a1": "Singapore BTT, FTT and RTT each have 50 questions with a 90% pass mark (45 correct). Japan's tests range from 50 to 100 questions, also at 90%. Our mock tests match these exactly.",
-    "q2": "Is it really free?",
-    "a2": "Yes. All learning and practice questions are free, with one mock test per day. Premium removes ads and unlocks unlimited mock tests plus quiz history tracking.",
-    "q3": "How do I pay, and when does premium start?",
-    "a3": "Choose monthly or yearly, transfer the amount via KBZPay or WavePay, then submit your transaction ID and screenshot. We confirm manually — usually within a few hours — and your premium time starts the moment it's approved."
+    "sub_sg": "Singapore BTT, FTT & RTT — practical answers for learners",
+    "sub_jp": "Japan 普通免許 & 二輪免許 — practical answers for learners",
+    "sg": [
+      {
+        "q": "How many questions are in BTT, FTT and RTT — and what's the pass mark?",
+        "a": "Each Singapore theory test has 50 multiple-choice questions, a 50-minute time limit, and a 90% pass mark (45 correct). Motorcycle riders take RTT instead of FTT after the BTT. TheoryLane mock tests use the same format."
+      },
+      {
+        "q": "What order do I take BTT, FTT and practical lessons?",
+        "a": "Register at BBDC, CDC or SSDC → pass BTT → start practical lessons → pass FTT (or RTT for motorcycles) after at least 5 car lessons → book the Traffic Police practical test. You cannot skip BTT."
+      },
+      {
+        "q": "Where do I book the theory test and how much does it cost?",
+        "a": "Book BTT, FTT and RTT on OneMotoring (onemotoring.lta.gov.sg). Each attempt costs about S$7.09 including GST. If you fail, you can rebook after 3 days and pay the fee again."
+      },
+      {
+        "q": "I'm from Myanmar — can I convert my licence or must I take BTT?",
+        "a": "Myanmar licence holders with a valid Singapore work pass or PR may be able to convert at the Traffic Police — you may not need BTT. If you are on a work permit or have been in Singapore over 12 months without converting, you typically need to pass BTT like other new drivers. Check OneMotoring for your situation."
+      },
+      {
+        "q": "Can I study Singapore theory tests in Myanmar language?",
+        "a": "Yes. TheoryLane is one of the few BTT/FTT/RTT practice sites with full Myanmar (Burmese) translations for questions and explanations, alongside English — ideal for Myanmar nationals working in Singapore."
+      }
+    ],
+    "jp": [
+      {
+        "q": "How many questions are in the Japan final theory test and what's the pass mark?",
+        "a": "The 本免許学科試験 (final written exam) for car and motorcycle has 95 questions, 50 minutes, and requires 86 correct answers (90%). The provisional 仮免学科 test at the start has 50 questions with the same 90% pass mark."
+      },
+      {
+        "q": "What's the best path for Myanmar nationals getting a Japan licence?",
+        "a": "Myanmar has no direct licence conversion agreement with Japan. Most people either enrol at a 指定教習所 (driving school) — expensive but reliable — or attempt the 一発試験 at the licence centre, which is cheaper but harder without school training. Either way you must pass the written theory tests."
+      },
+      {
+        "q": "When do I take 仮免許 vs the final 本免許学科試験?",
+        "a": "At a driving school: pass 仮免学科 + 仮免技能 during Stage 1, get your provisional licence, complete on-road training (Stage 2), graduate from school, then sit only the 本免許学科試験 at the licence centre. The school skill test replaces the centre skill test."
+      },
+      {
+        "q": "Does TheoryLane cover hazard prediction (危険予測) questions?",
+        "a": "Yes. Japan's car and motorcycle theory exams include hazard-prediction items with ア・イ・ウ sub-questions. TheoryLane includes these question types with illustrations and explanations in Japanese and Myanmar."
+      },
+      {
+        "q": "Can I study Japan theory tests in Myanmar language?",
+        "a": "Yes. TheoryLane provides Myanmar (Burmese) translations for Japan car (普通免許) and motorcycle (二輪免許) practice questions, alongside Japanese — helpful for Myanmar workers preparing for the 本免許学科試験."
+      }
+    ],
+    "shared": [
+      {
+        "q": "Is it really free?",
+        "a": "Yes. All lesson and practice questions are free. Free accounts get one mock test per category per day. Premium removes ads, unlocks unlimited mock tests, and saves your quiz history."
+      },
+      {
+        "q": "How do I pay for premium and when does it start?",
+        "a": "Choose monthly or yearly, transfer via KBZPay or WavePay, then submit your transaction ID and payment screenshot. We approve manually — usually within a few hours — and your premium time starts the moment it is confirmed."
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Simple pricing",
@@ -796,12 +846,142 @@
     "loading": "Loading ad…",
     "skipped": "Ad skipped — retry not unlocked"
   },
+  "cookies": {
+    "title": "We use cookies",
+    "body": "We use cookies and similar technologies to run the site and, with your consent, show ads. See our",
+    "privacy_link": "Privacy Policy",
+    "accept": "Accept",
+    "reject": "Reject non-essential"
+  },
+  "terms": {
+    "meta_title": "Terms of Service",
+    "meta_description": "Terms of Service for TheoryLane driving theory test practice.",
+    "title": "Terms of Service",
+    "updated": "Last updated: July 2026",
+    "back": "← Back to {brand}",
+    "contact_title": "Contact",
+    "sections": [
+      {
+        "title": "1. Acceptance",
+        "paragraphs": [
+          "By accessing or using TheoryLane (the \"Service\"), you agree to these Terms of Service. If you do not agree, please do not use the Service."
+        ]
+      },
+      {
+        "title": "2. What we provide",
+        "paragraphs": [
+          "TheoryLane is an independent online practice platform for Singapore (BTT, FTT, RTT) and Japan driving theory tests. We provide lessons, practice questions, mock tests, and study resources in multiple languages.",
+          "We are not affiliated with the Singapore Traffic Police, Japan's National Police Agency, any driving centre, or any government licensing authority. Passing our quizzes does not guarantee success on an official exam."
+        ]
+      },
+      {
+        "title": "3. Accounts",
+        "paragraphs": [
+          "You may create an account with a valid email address. You are responsible for keeping your login credentials secure and for all activity under your account.",
+          "We may suspend or terminate accounts that violate these terms or misuse the Service."
+        ]
+      },
+      {
+        "title": "4. Free and Premium",
+        "paragraphs": [
+          "Free users can access limited features, including a daily mock-test limit per category. Premium subscribers receive expanded access for the duration of an active subscription.",
+          "Feature limits may change; we will try to give reasonable notice of material changes."
+        ]
+      },
+      {
+        "title": "5. Payments",
+        "paragraphs": [
+          "Premium may be purchased via manual payment methods shown in the app (e.g. KBZPay, WavePay). Payment screenshots are reviewed manually; access is granted after approval.",
+          "Prices and subscription duration are shown at checkout. Refunds are handled case by case — contact us if you believe a payment was made in error."
+        ]
+      },
+      {
+        "title": "6. Acceptable use",
+        "paragraphs": [
+          "You agree not to copy, scrape, or redistribute our question banks or content; attempt to bypass paywalls or rate limits; use bots or automated tools to abuse the Service; or upload harmful, illegal, or misleading content in feedback forms.",
+          "We may block access for abuse without prior notice."
+        ]
+      },
+      {
+        "title": "7. Intellectual property",
+        "paragraphs": [
+          "All questions, illustrations, branding, and software on TheoryLane are owned by us or our licensors. You receive a personal, non-transferable licence to use the Service for your own study only."
+        ]
+      },
+      {
+        "title": "8. Disclaimers",
+        "paragraphs": [
+          "The Service is provided \"as is\" for educational purposes. We do not warrant that content is complete, current, or error-free. Always refer to official handbooks and licensing authorities for exam rules."
+        ]
+      },
+      {
+        "title": "9. Limitation of liability",
+        "paragraphs": [
+          "To the fullest extent permitted by law, TheoryLane and its operators are not liable for indirect, incidental, or consequential damages arising from your use of the Service, including exam outcomes or lost data."
+        ]
+      },
+      {
+        "title": "10. Changes",
+        "paragraphs": [
+          "We may update these Terms from time to time. Continued use after changes are posted constitutes acceptance of the updated Terms."
+        ]
+      },
+      {
+        "title": "11. Governing law",
+        "paragraphs": [
+          "These Terms are governed by the laws of Singapore, without regard to conflict-of-law principles. Disputes should first be raised with us by email."
+        ]
+      }
+    ]
+  },
+  "about": {
+    "meta_title": "About & Contact",
+    "meta_description": "About TheoryLane — Singapore and Japan driving theory test practice in English, Myanmar, and Japanese.",
+    "title": "About TheoryLane",
+    "updated": "Last updated: July 2026",
+    "back": "← Back to {brand}",
+    "contact_title": "Contact us",
+    "sections": [
+      {
+        "title": "Our mission",
+        "paragraphs": [
+          "TheoryLane helps migrant workers and learners prepare for Singapore and Japan driving theory tests in a language they understand — English, Myanmar (Unicode), or Japanese.",
+          "We built the app because official materials are often hard to access abroad, and many learners need bilingual explanations alongside realistic practice."
+        ]
+      },
+      {
+        "title": "What you can do here",
+        "paragraphs": [
+          "Study by topic with lesson mode, drill weak areas in practice mode, and sit timed mock tests that mirror real exam formats.",
+          "Singapore: BTT, FTT, and RTT. Japan: car and motorcycle theory. Resources include sign guides, handbooks, FAQs, and cost breakdowns."
+        ]
+      },
+      {
+        "title": "Independent study tool",
+        "paragraphs": [
+          "TheoryLane is not affiliated with the Singapore Traffic Police, Japan's National Police Agency, CDCs, or any driving school. All questions and illustrations are original study material — not copied from official exams.",
+          "Always confirm rules, fees, and booking steps with the relevant authority or driving centre."
+        ]
+      },
+      {
+        "title": "Premium & support",
+        "paragraphs": [
+          "A free tier lets you try the platform daily. Premium unlocks unlimited mock tests and removes ads.",
+          "For payment help, bugs, or content feedback, email us or use the Report issue form — we read every message."
+        ]
+      }
+    ]
+  },
   "footer": {
     "tagline": "Singapore & Japan driving theory test practice — in your language.",
     "report": "Report a problem",
     "report_title": "Found a bug or something not working?",
     "report_desc": "Tell us what went wrong — we read every report and fix issues quickly.",
     "report_btn": "Report issue →",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "about": "About",
+    "contact": "Contact",
     "note": "An independent study tool. Not affiliated with the Singapore Traffic Police, Japan's National Police Agency, or any driving centre. All questions and illustrations are original."
   },
   "feedback": {
@@ -998,6 +1178,9 @@
     "gate_ad_title": "Unlock one extra mock test",
     "gate_ad_desc": "Watch a short ad to get one more mock test for this category today.",
     "gate_ad_button": "Watch ad to unlock",
+    "ad_break_title": "Quick break",
+    "ad_break_desc": "Thanks for learning with TheoryLane. A short ad helps keep practice free for everyone.",
+    "ad_break_continue": "Continue learning",
     "gate_premium": "Go Premium",
     "result_attempts": "Tries",
     "wrong_review": "Review wrong answers",

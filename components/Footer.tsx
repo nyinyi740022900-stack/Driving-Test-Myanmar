@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { BRAND_NAME } from '@/lib/brand';
@@ -43,8 +45,20 @@ export default function Footer() {
           </Link>
         </div>
 
-        <div style={{ display: 'flex', gap: 20, marginTop: 24, paddingTop: 20, borderTop: '1px solid rgba(255,255,255,.1)' }}>
-          <Link href={`/${locale}/privacy`} style={{ fontSize: '.8rem', color: 'var(--ink-soft)' }}>Privacy Policy</Link>
+        <div
+          style={{
+            display: 'flex',
+            gap: 20,
+            flexWrap: 'wrap',
+            marginTop: 24,
+            paddingTop: 20,
+            borderTop: '1px solid rgba(255,255,255,.1)',
+          }}
+        >
+          <Link href={`/${locale}/about`} style={{ fontSize: '.8rem', color: 'var(--ink-soft)' }}>{t('about')}</Link>
+          <Link href={`/${locale}/about#contact`} style={{ fontSize: '.8rem', color: 'var(--ink-soft)' }}>{t('contact')}</Link>
+          <Link href={`/${locale}/privacy`} style={{ fontSize: '.8rem', color: 'var(--ink-soft)' }}>{t('privacy')}</Link>
+          <Link href={`/${locale}/terms`} style={{ fontSize: '.8rem', color: 'var(--ink-soft)' }}>{t('terms')}</Link>
         </div>
         <p className="fnote">{t('note')}</p>
       </div>
