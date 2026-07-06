@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl';
 import { useAuth } from '@/components/AuthProvider';
 import { createClient } from '@/lib/supabase';
 import { PLANS, type PlanKey } from '@/lib/subscription';
+import { SUPPORT_EMAIL } from '@/lib/brand';
 import Link from 'next/link';
 
 const WALLETS = [
@@ -110,8 +111,8 @@ export default function PaymentPage() {
           </p>
           <p style={{ color: 'var(--ink-soft)', fontSize: '.85rem', marginBottom: 24 }}>
             {t('submitted_contact')}{' '}
-            <a href="mailto:nyinyi1451996@icloud.com" style={{ color: 'var(--guide-deep)', fontWeight: 600 }}>
-              nyinyi1451996@icloud.com
+            <a href={`mailto:${SUPPORT_EMAIL}`} style={{ color: 'var(--guide-deep)', fontWeight: 600 }}>
+              {SUPPORT_EMAIL}
             </a>
           </p>
           <Link href={`/${locale}`} className="btn btn-primary" style={{ display: 'inline-flex' }}>

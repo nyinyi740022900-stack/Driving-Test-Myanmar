@@ -18,4 +18,4 @@ export function faviconHref(path: string): string {
   return `${path}?v=${FAVICON_VERSION}`;
 }
 
-export const SUPPORT_EMAIL = 'nyinyi1451996@icloud.com';
+export const SUPPORT_EMAIL = 'theorylanemm@gmail.com';
