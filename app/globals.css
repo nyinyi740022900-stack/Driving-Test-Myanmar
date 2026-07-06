@@ -36,6 +36,54 @@ h1, h2, h3, .disp {
   letter-spacing: -.02em;
   line-height: 1.04;
 }
+
+/* Myanmar script needs more vertical room than Latin display type */
+html[lang="my"] h1,
+html[lang="my"] h2,
+html[lang="my"] h3,
+html[lang="my"] .disp {
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+html[lang="my"] .board {
+  padding: 34px 30px 32px;
+}
+
+html[lang="my"] .board h1 {
+  line-height: 1.58;
+}
+
+html[lang="my"] .exits {
+  gap: 12px;
+  margin-top: 26px;
+}
+
+html[lang="my"] .exit {
+  padding: 9px 13px;
+}
+
+html[lang="my"] .lead {
+  line-height: 1.65;
+  margin-top: 24px;
+}
+
+html[lang="my"] .shead .eyebrow {
+  margin-bottom: 16px;
+}
+
+html[lang="my"] .shead h2 {
+  line-height: 1.52;
+}
+
+html[lang="my"] .shead p {
+  margin-top: 18px;
+  line-height: 1.65;
+}
+
+html[lang="my"] .hero .eyebrow {
+  margin-bottom: 24px;
+}
 a { color: inherit; text-decoration: none; }
 
 .wrap { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
