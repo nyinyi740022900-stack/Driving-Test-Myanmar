@@ -63,19 +63,13 @@ export default async function TestLanding({ slug, locale }: TestLandingProps) {
       <JsonLd data={jsonLd} />
       <Header />
       <article style={{ minHeight: '100vh', background: 'var(--paint)' }}>
-        <header
-          style={{
-            background: 'var(--paint-2)',
-            borderBottom: '1px solid var(--line)',
-            padding: '20px 24px',
-          }}
-        >
-          <div className="wrap" style={{ display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
-            <Link href={`/${locale}`} style={{ fontSize: '.82rem', color: 'var(--ink-soft)' }}>
+        <header className="subpage-crumb">
+          <div className="wrap subpage-crumb__inner">
+            <Link href={`/${locale}`} className="subpage-crumb__back">
               {tCommon('home')}
             </Link>
-            <span style={{ color: 'var(--line)' }}>/</span>
-            <span style={{ fontSize: '.82rem', color: 'var(--ink)' }}>{t('breadcrumb')}</span>
+            <span className="subpage-crumb__sep" aria-hidden="true">/</span>
+            <span className="subpage-crumb__current">{t('breadcrumb')}</span>
           </div>
         </header>
 

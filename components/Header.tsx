@@ -32,8 +32,20 @@ export default function Header() {
   const drawerRef = useRef<HTMLDivElement>(null);
 
   const langs = LANGS[country];
+  const isHome = pathname === `/${locale}` || pathname === `/${locale}/`;
 
-  // Close drawer on outside click
+  function sectionHref(id: string) {
+    return isHome ? `#${id}` : `/${locale}#${id}`;
+  }
+
+  const navSections: Array<{ href: string; label: string; isLink?: boolean }> = [
+    { href: sectionHref('tests'), label: t('tests') },
+    { href: sectionHref('try'), label: t('try') },
+    { href: sectionHref('centres'), label: t('centre') },
+    { href: sectionHref('resources'), label: t('res') },
+    { href: sectionHref('pricing'), label: t('pricing') },
+    { href: `/${locale}/feedback`, label: t('help'), isLink: true },
+  ];
   useEffect(() => {
     if (!menuOpen) return;
     const handler = (e: MouseEvent) => {
@@ -77,16 +89,17 @@ export default function Header() {
             <img src="/brand/logo-icon.png" alt="" width={32} height={32} className="logo-img" aria-hidden />
             {BRAND_NAME}
           </Link>
-          <nav className="main">
-            <a href="#tests">{t('tests')}</a>
-            <a href="#try">{t('try')}</a>
-            <a href="#centres">{t('centre')}</a>
-            <a href="#resources">{t('res')}</a>
-            <a href="#pricing">{t('pricing')}</a>
-            <Link href={`/${locale}/feedback`}>{t('help')}</Link>
+          <nav className="main" role="navigation">
+            {navSections.map(({ href, label, isLink }) =>
+              isLink ? (
+                <Link key={href} href={href}>{label}</Link>
+              ) : (
+                <a key={href} href={href}>{label}</a>
+              ),
+            )}
           </nav>
           <div className="spacer" />
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexShrink: 0 }}>
+          <div className="bar-actions">
             <ReminderBell lang={locale} />
             {user ? (
               <>
@@ -157,15 +170,8 @@ export default function Header() {
 
             {/* Nav links */}
             <nav style={{ padding: '12px 8px' }}>
-              {([
-                ['#tests', t('tests')],
-                ['#try', t('try')],
-                ['#centres', t('centre')],
-                ['#resources', t('res')],
-                ['#pricing', t('pricing')],
-                [`/${locale}/feedback`, t('help')],
-              ] as [string, string][]).map(([href, label]) => (
-                href.startsWith('/') ? (
+              {navSections.map(({ href, label, isLink }) =>
+                isLink ? (
                   <Link
                     key={href}
                     href={href}
@@ -183,8 +189,8 @@ export default function Header() {
                   >
                     {label}
                   </a>
-                )
-              ))}
+                ),
+              )}
             </nav>
 
             <div style={{ height: 1, background: 'var(--line)', margin: '0 16px' }} />
