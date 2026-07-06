@@ -43,7 +43,7 @@ const pairs = [
   ['report တိုင်းကို', 'တင်ပြချက် တိုင်းကို'],
   ['infographic', 'ရှင်းလင်းပုံ'],
   ['animation', 'အန်နီမရှင်း'],
-  ['feedback', 'တုံ့ပြန်ချက်'],
+  // Never replace JSON key names like "feedback" or "format" — only user-visible strings.
   ['free plan', 'အခမဲ့ အစီအစဉ်'],
   ['theory test', 'သီအိုရီစာမေးပွဲ'],
   ['Theory test', 'သီအိုရီစာမေးပွဲ'],
@@ -59,7 +59,6 @@ const pairs = [
   ['category တစ်ခုမှာ', 'အမျိုးအစား တစ်ခုမှာ'],
   ['quiz မှတ်တမ်း', 'စာမေးပွဲ မှတ်တမ်း'],
   ['Quiz မှတ်တမ်း', 'စာမေးပွဲ မှတ်တမ်း'],
-  ['format', 'ပုံစံ'],
   ['hero.eyebrow_sg": "Singapore', 'hero.eyebrow_sg": "စင်္ကာပူ'],
 ];
 
