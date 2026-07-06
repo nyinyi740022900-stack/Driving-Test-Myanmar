@@ -5886,7 +5886,7 @@
       {
         "text": {
           "en": "Indicate, Pull, Drive, Exit",
-          "my": "Indicate, Pull, Drive, Exit"
+          "my": "ညွှန်ပြခြင်း၊ ဆွဲထားခြင်း၊ မောင်းနှင်ခြင်း၊ ထွက်ခြင်း"
         }
       },
       {
@@ -6000,7 +6000,7 @@
       {
         "text": {
           "en": "Electronic stability control",
-          "my": "Electronic stability control"
+          "my": "အီလက်ထရွန်နစ် တည်ငြိမ်မှု ထိန်းချုပ်မှု (ESC)"
         }
       }
     ],
@@ -6367,7 +6367,7 @@
     "answer": 0,
     "explanation": {
       "en": "Aquaplaning: a wedge of water builds under the tyres, lifting them off the surface. Warning: light, floating steering. If it happens: ease off accelerator gently, hold steering straight, don't brake sharply.",
-      "my": "Aquaplaning: ဘီး အောက် ရေ ပေ့ ဆောက်တည်ပြီး ၎င်းတို့ကို မျက်နှာပြင်မှ မြှောက်သည်။ သတိပေးချက်: ပေါ့ပါးသော၊ မျောဝဲသော ကားလမ်းညွှန်ခြင်း။ ဖြစ်ပါက: အရှိန် ဖိနပ် ဖြည်းဖြည်းချင်း ဖယ်ရှား၊ ကားလမ်းညွှန်ကို 똑바로 ကိုင်ထား၊ ဘရိတ် မကြမ်းကြမ်း ဆွဲမပါနှင့်။"
+      "my": "Aquaplaning: ဘီး အောက် ရေ ပေ့ ဆောက်တည်ပြီး ၎င်းတို့ကို မျက်နှာပြင်မှ မြှောက်သည်။ သတိပေးချက်: ပေါ့ပါးသော၊ မျောဝဲသော ကားလမ်းညွှန်ခြင်း။ ဖြစ်ပါက: အရှိန် ဖိနပ်ဖြည်းချင်း ဖယ်ရှား၊ ကားလမ်းညွှန်ကို တည့်တည့် ကိုင်ထား၊ ဘရိတ် မကြမ်းကြမ်း ဆွဲမပါနှင့်။"
     },
     "syllabusRef": "ftt.skills.basics"
   },
@@ -7296,7 +7296,7 @@
       {
         "text": {
           "en": "Keeping an injured person standing upright",
-          "my": "ဒဏ်ရာ ရသော သူ ကို 똑바로 ရပ်ထားပါ"
+          "my": "ဒဏ်ရာ ရသော သူ ကို ထောင်လိုက်ရပ်ထားခြင်း"
         }
       }
     ],
@@ -8766,7 +8766,7 @@
       {
         "text": {
           "en": "Emergency Response Protocol",
-          "my": "Emergency Response Protocol"
+          "my": "အရေးပေါ် တုံ့ပြန်မှု လုပ်ငန်းစဉ်"
         }
       },
       {
@@ -11371,7 +11371,7 @@
     "answer": 0,
     "explanation": {
       "en": "2-second rule: when the vehicle ahead passes a fixed point (bridge, sign), count 'one thousand and one, one thousand and two' — you should still be at that point or further. In wet: 4 seconds.",
-      "my": "၂ စက္ကန့် စည်းမျဉ်း: ရှေ့ ယာဉ် သတ်မှတ် နေရာ (တံတား၊ ဆိုင်းဘုတ်) ဖြတ်ကျော်သောအခါ 'one thousand and one, one thousand and two' ရေပါ — သင် ထို နေရာ ၌ ကျန် သင့်သည် သို့မဟုတ် ပိုဝေးသင့်သည်။ မိုးရာသူ: ၄ စက္ကန့်"
+      "my": "၂ စက္ကန့် စည်းမျဉ်း: ရှေ့ ယာဉ် သတ်မှတ် နေရာ (တံတား၊ ဆိုင်းဘုတ်) ဖြတ်ကျော်သောအခါ 'တစ်နှစ် နင် တစ်၊ တစ်နှစ် နင် နှစ်ခု' လို ရေပါ — သင် ထို နေရာ ၌ ကျန် သင့်သည် သို့မဟုတ် ပိုဝေးသင့်သည်။ မိုးရာသီ: ၄ စက္ကန့်။"
     },
     "syllabusRef": "ftt.skills.junctions"
   },
@@ -15018,7 +15018,7 @@
     "difficulty": "hard",
     "prompt": {
       "en": "What does it mean if your car's exhaust emits blue or white smoke continuously?",
-      "my": "သင့်ကား၏ 煙ကြောင်း မှ အပြာ သို့မဟုတ် အဖြူ ငွေ့ကြောင်း အကြာကြာ ထွက်နေသောအခါ မည်သည်ကို ဆိုလိုသလဲ?"
+      "my": "သင့်ကား၏ အခိုးထွက်ပေါက်မှ အပြာ သို့မဟုတ် အဖြူ ငွေ့ကြောင်း အကြာကြာ ထွက်နေသောအခါ မည်သည်ကို ဆိုလိုသလဲ?"
     },
     "choices": [
       {
@@ -17276,7 +17276,7 @@
     "answer": 1,
     "explanation": {
       "en": "Leaving the scene of an accident where someone is injured without providing your details is a serious criminal offence ('hit and run') in Singapore, carrying severe penalties including imprisonment.",
-      "my": "တစ်ဦးဦး ဒဏ်ရာရသော မတော်တဆမှုနေရာမှ အချက်အလက်မပေးဘဲ ထွက်ခွာခြင်းသည် ('hit and run') စင်္ကာပူတွင် ပြင်းထန်သောပြစ်မှုဖြစ်ပြီး ထောင်ဒဏ်အပါအဝင် ပြင်းထန်သောဒဏ် ချမှတ်ခြင်းခံရနိုင်သည်။"
+      "my": "တစ်ဦးဦး ဒဏ်ရာရသော မတော်တဆမှုနေရာမှ အချက်အလက်မပေးဘဲ ထွက်ခွာခြင်းသည် ('ထွက်ပြေးမှု') စင်္ကာပူတွင် ပြင်းထန်သြစ်မှုဖြစ်ပြီး ထောင်ဒဏ်အပါအဝင် ပြင်းထန်သောဒဏ် ချမှတ်ခြင်းခံရနိုင်သည်။"
     },
     "syllabusRef": "ftt.traffic.emergency"
   },

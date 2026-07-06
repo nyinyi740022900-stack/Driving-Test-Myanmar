@@ -5757,30 +5757,30 @@
     "difficulty": "medium",
     "prompt": {
       "ja": "「徐行」の標識がある場所では、完全に停止する必要はないが、すぐに停止できる速度まで減速しなければならない。",
-      "my": "「အရှိန်လျှော့」ဆိုင်းဘုတ်ရှိသောနေရာတွင် လုံးဝရပ်ရန် မလိုအပ်သော်လည်း ချက်ချင်းရပ်နိုင်သောအရှိန်အထိ လျှော့ချရမည်။",
-      "en": "Where there is a \"slow down\" sign, you do not have to come to a complete stop, but you must slow down to a speed that allows you to stop immediately."
+      "en": "Where there is a \"slow down\" sign, you do not have to come to a complete stop, but you must slow down to a speed that allows you to stop immediately.",
+      "my": "「အရှိန်လျှော့」ဆိုင်းဘုတ်ရှိသောနေရာတွင် လုံးဝရပ်ရန် မလိုအပ်သော်လည်း ချက်ချင်းရပ်နိုင်သောအရှိန်အထိ လျှော့ချရမည်။"
     },
     "choices": [
       {
         "text": {
           "ja": "正しい",
-          "my": "မှန်သည်",
-          "en": "True"
+          "en": "True",
+          "my": "မှန်သည်"
         }
       },
       {
         "text": {
           "ja": "誤り",
-          "my": "မှားသည်",
-          "en": "False"
+          "en": "False",
+          "my": "မှားသည်"
         }
       }
     ],
     "answer": 0,
     "explanation": {
       "ja": "徐行とは、直ちに停止できるような速度で走行することを意味し、標識のある場所ではこの速度まで減速する義務がある。",
-      "my": "徐行 ဆိုသည်မှာ ချက်ချင်းရပ်နိုင်သော အရှိန်ဖြင့် မောင်းနှင်ခြင်းကို ဆိုလိုပြီး ဆိုင်းဘုတ်ရှိသောနေရာတွင် ထိုအရှိန်အထိ လျှော့ချရန် တာဝန်ရှိသည်။",
-      "en": "Slowing down means driving at a speed that allows you to stop immediately, and you are obligated to slow down to this speed where there are signs."
+      "en": "Slowing down means driving at a speed that allows you to stop immediately, and you are obligated to slow down to this speed where there are signs.",
+      "my": "အရှိန်လျှော့ (徐行) ဆိုသည်မှာ ချက်ချင်းရပ်နိုင်သော အရှိန်ဖြင့် မောင်းနှင်ခြင်းကို ဆိုလိုပြီး ဆိုင်းဘုတ်ရှိသောနေရာတွင် ထိုအရှိန်အထိ လျှော့ချရန် တာဝန်ရှိသည်။"
     },
     "id": "jp_car_0157",
     "category": "jp_car",
