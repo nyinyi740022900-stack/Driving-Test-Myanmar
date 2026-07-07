@@ -1,30 +1,33 @@
-import { createServiceClient } from '@/lib/supabase-server';
 import { NextResponse } from 'next/server';
+import { createClient, createServiceClient } from '@/lib/supabase-server';
 import { BRAND_NAME, SITE_URL } from '@/lib/brand';
 
-const ADMIN_EMAILS = (process.env.ADMIN_EMAILS ?? '').split(',').map(e => e.trim()).filter(Boolean);
+const ADMIN_EMAILS = (process.env.ADMIN_EMAILS ?? '').split(',').map((e) => e.trim()).filter(Boolean);
 const RESEND_API_KEY = process.env.RESEND_API_KEY ?? '';
 const FROM_EMAIL = process.env.FROM_EMAIL ?? 'noreply@theorylane.app';
 
-export async function POST(request: Request) {
-  // Verify admin
-  const { searchParams } = new URL(request.url);
-  const callerEmail = searchParams.get('caller') ?? '';
-  if (!ADMIN_EMAILS.includes(callerEmail)) {
+export async function POST() {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+
+  if (!user?.email || !ADMIN_EMAILS.includes(user.email)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
+
+  if (!user.email_confirmed_at) {
+    return NextResponse.json({ error: 'Email not confirmed' }, { status: 403 });
   }
 
   if (!RESEND_API_KEY) {
     return NextResponse.json({ error: 'RESEND_API_KEY not configured' }, { status: 500 });
   }
 
-  const supabase = await createServiceClient();
+  const service = await createServiceClient();
 
-  // Find subscriptions expiring in next 3 days
   const now = new Date();
   const cutoff = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
 
-  const { data: subs, error } = await supabase
+  const { data: subs, error } = await service
     .from('subscriptions')
     .select('user_id, expires_at')
     .eq('status', 'premium')
@@ -34,11 +37,10 @@ export async function POST(request: Request) {
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
   if (!subs?.length) return NextResponse.json({ sent: 0, message: 'No expiring subscriptions found' });
 
-  // Get user emails
-  const { data: { users }, error: uErr } = await supabase.auth.admin.listUsers({ perPage: 1000 });
+  const { data: { users }, error: uErr } = await service.auth.admin.listUsers({ perPage: 1000 });
   if (uErr) return NextResponse.json({ error: uErr.message }, { status: 500 });
 
-  const userMap = new Map(users.map(u => [u.id, u.email ?? '']));
+  const userMap = new Map(users.map((u) => [u.id, u.email ?? '']));
 
   let sent = 0;
   const errors: string[] = [];

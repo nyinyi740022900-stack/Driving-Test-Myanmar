@@ -920,6 +920,40 @@
       }
     ]
   },
+  "auth": {
+    "back_home": "← ホームに戻る",
+    "login_title": "ログイン",
+    "signup_title": "アカウント作成",
+    "login_sub": "練習履歴とプレミアム機能にアクセスします。",
+    "signup_sub": "無料登録ですぐに練習を始められます。",
+    "email": "メール",
+    "password": "パスワード",
+    "password_placeholder_signup": "8文字以上",
+    "please_wait": "お待ちください…",
+    "login_cta": "ログイン",
+    "signup_cta": "アカウント作成",
+    "no_account": "アカウントをお持ちでない方",
+    "signup_link": "無料登録",
+    "has_account": "すでにアカウントをお持ちの方",
+    "login_link": "ログイン",
+    "check_email_title": "メールを確認してください",
+    "check_email_body": "確認リンクを {email} に送信しました。リンクを開いてからログインしてください。",
+    "check_email_cta": "ログイン →",
+    "errors": {
+      "generic": "問題が発生しました",
+      "device_register": "この端末を登録できませんでした。もう一度お試しください。"
+    },
+    "devices": {
+      "title": "端末の上限に達しました",
+      "body": "1アカウントは同時に2台まで利用できます。この端末で続けるには、以前のセッションの1つからログアウトしてください。",
+      "last_seen": "最終利用: {date}",
+      "current_hint": "現在お使いの端末です。",
+      "continue": "選択した端末をログアウトして続行",
+      "cancel": "ログインをキャンセル",
+      "working": "お待ちください…",
+      "error": "端末枠を空けられませんでした。もう一度お試しください。"
+    }
+  },
   "cookies": {
     "title": "Cookieの使用について",
     "body": "当サイトの運営および、ご同意いただいた場合の広告表示のためにCookie等を使用します。詳細は",

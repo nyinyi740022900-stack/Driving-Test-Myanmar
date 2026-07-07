@@ -78,6 +78,16 @@ export interface Subscription {
   created_at: string;
 }
 
+export interface UserDevice {
+  id: string;
+  device_id: string;
+  device_label: string;
+  last_seen_at: string;
+  created_at: string;
+}
+
+export const MAX_DEVICES_PER_USER = 2;
+
 export interface PaymentSubmission {
   id: string;
   user_id: string;

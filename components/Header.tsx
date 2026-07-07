@@ -16,8 +16,6 @@ const LANGS: Record<Country, Array<[string, string]>> = {
   jp: [['ja', 'JA'], ['en', 'EN'], ['my', 'MY']],
 };
 
-const ADMIN_EMAILS = (process.env.NEXT_PUBLIC_ADMIN_EMAILS ?? '').split(',').map(e => e.trim()).filter(Boolean);
-
 export default function Header() {
   const t = useTranslations('nav');
   const locale = useLocale();
@@ -27,9 +25,20 @@ export default function Header() {
   const navigate = useNavigate();
   const fadeSwap = useFadeSwap();
   const navigateWithSwap = useNavigateWithSwap();
-  const isAdmin = !!user?.email && ADMIN_EMAILS.includes(user.email);
+  const [isAdmin, setIsAdmin] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const drawerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!user) {
+      setIsAdmin(false);
+      return;
+    }
+    fetch('/api/auth/is-admin')
+      .then((res) => res.json())
+      .then((data: { isAdmin?: boolean }) => setIsAdmin(!!data.isAdmin))
+      .catch(() => setIsAdmin(false));
+  }, [user?.id]);
 
   const langs = LANGS[country];
   const isHome = pathname === `/${locale}` || pathname === `/${locale}/`;

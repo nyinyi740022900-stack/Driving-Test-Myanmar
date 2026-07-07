@@ -924,6 +924,40 @@
       }
     ]
   },
+  "auth": {
+    "back_home": "← Back to home",
+    "login_title": "Sign in",
+    "signup_title": "Create account",
+    "login_sub": "Access your practice history and premium features.",
+    "signup_sub": "Free to join — start practising immediately.",
+    "email": "Email",
+    "password": "Password",
+    "password_placeholder_signup": "Min 8 characters",
+    "please_wait": "Please wait…",
+    "login_cta": "Sign in",
+    "signup_cta": "Create account",
+    "no_account": "No account?",
+    "signup_link": "Sign up free",
+    "has_account": "Already have an account?",
+    "login_link": "Sign in",
+    "check_email_title": "Check your email",
+    "check_email_body": "We sent a confirmation link to {email}. Click it to activate your account, then sign in.",
+    "check_email_cta": "Sign in →",
+    "errors": {
+      "generic": "Something went wrong",
+      "device_register": "Could not register this device. Please try again."
+    },
+    "devices": {
+      "title": "Device limit reached",
+      "body": "Your account can stay signed in on up to 2 devices. Choose one older session to sign out so you can continue on this device.",
+      "last_seen": "Last active: {date}",
+      "current_hint": "This is the device you are using now.",
+      "continue": "Sign out selected device & continue",
+      "cancel": "Cancel sign in",
+      "working": "Please wait…",
+      "error": "Could not free a device slot. Please try again."
+    }
+  },
   "cookies": {
     "title": "We use cookies",
     "body": "We use cookies and similar technologies to run the site and, with your consent, show ads. See our",

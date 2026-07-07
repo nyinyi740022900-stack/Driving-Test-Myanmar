@@ -4,6 +4,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import AuthProvider from '@/components/AuthProvider';
+import DeviceSessionGate from '@/components/DeviceSessionGate';
 import { CountryProvider } from '@/components/CountryProvider';
 import { PageTransitionProvider } from '@/components/PageTransitionProvider';
 import CookieConsent from '@/components/CookieConsent';
@@ -80,7 +81,9 @@ export default async function LocaleLayout({
           <CountryProvider>
             <AuthProvider>
               <PageTransitionProvider>
-                {children}
+                <DeviceSessionGate>
+                  {children}
+                </DeviceSessionGate>
                 <CookieConsent />
               </PageTransitionProvider>
             </AuthProvider>

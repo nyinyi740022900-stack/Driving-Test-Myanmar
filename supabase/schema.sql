@@ -72,9 +72,14 @@ create table if not exists public.mock_test_usage (
 alter table public.mock_test_usage enable row level security;
 
 drop policy if exists "Users manage own usage" on public.mock_test_usage;
-create policy "Users manage own usage"
-  on public.mock_test_usage for all
-  using (auth.uid() = user_id)
+drop policy if exists "Users read own usage" on public.mock_test_usage;
+create policy "Users read own usage"
+  on public.mock_test_usage for select
+  using (auth.uid() = user_id);
+
+drop policy if exists "Users insert own usage" on public.mock_test_usage;
+create policy "Users insert own usage"
+  on public.mock_test_usage for insert
   with check (auth.uid() = user_id);
 
 

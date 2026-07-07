@@ -109,7 +109,7 @@ function ExpiryReminderButton({ userEmail }: { userEmail: string }) {
   async function send() {
     setStatus('sending');
     try {
-      const res = await fetch(`/api/admin/send-expiry-reminders?caller=${encodeURIComponent(userEmail)}`, { method: 'POST' });
+      const res = await fetch('/api/admin/send-expiry-reminders', { method: 'POST' });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? 'Failed');
       setResult(`✓ Sent ${data.sent} / ${data.total} emails`);
