@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { useCountry } from './CountryProvider';
 import { TEST_META, getCountryBankTotal } from '@/lib/types';
+import ShareAppButton from './ShareAppButton';
 
 function formatQuestionCount(n: number): string {
   if (n >= 1000) return `${Math.floor(n / 100) * 100}+`;
@@ -48,6 +49,7 @@ export default function Hero() {
             <Link className="btn btn-ghost" href="#how">
               {t('cta_how')}
             </Link>
+            <ShareAppButton />
           </div>
           <div className="hero-stats">
             <div>

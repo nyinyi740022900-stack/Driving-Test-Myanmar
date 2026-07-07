@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { PLANS } from '@/lib/subscription';
+import PremiumPageTracker from '@/components/PremiumPageTracker';
 
 export default async function PremiumPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -16,10 +17,12 @@ export default async function PremiumPage({ params }: { params: Promise<{ locale
     t('feature_2'),
     t('feature_3'),
     t('feature_4'),
+    t('feature_5'),
   ];
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--paint)', padding: '60px 24px' }}>
+      <PremiumPageTracker />
       <div style={{ maxWidth: 740, margin: '0 auto' }}>
 
         <div style={{ textAlign: 'center', marginBottom: 44 }}>

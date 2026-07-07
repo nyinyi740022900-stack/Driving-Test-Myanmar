@@ -205,6 +205,7 @@
     "feature_2": "模擬試験無制限",
     "feature_3": "クイズ履歴・ベストスコア",
     "feature_4": "優先サポート",
+    "feature_5": "プロフィールで間違えた問題を復習",
     "choose_plan": "{plan}を選ぶ →",
     "currency_ks": " Ks",
     "back_home": "← ホームへ戻る",
@@ -263,7 +264,12 @@
     "payments_empty": "支払いはまだありません。",
     "view_plans": "プランを見る →",
     "rejection_note": "メモ: {note}",
-    "currency_ks": "Ks"
+    "currency_ks": "Ks",
+    "wrong_answers_heading": "復習すべき問題",
+    "wrong_answers_empty": "練習で間違えた問題がここに保存されます。",
+    "wrong_answers_clear": "リストを消去",
+    "wrong_answers_practice_link": "もう一度練習",
+    "wrong_answers_more": "他 {count} 件保存中"
   },
   "resourcesGuide": {
     "breadcrumb_home": "← ホームへ戻る",
@@ -1310,10 +1316,16 @@
     "set_hint_learn": "問題は順番に表示されます。じっくり学習してください。",
     "self_paced": "自分のペース"
   },
+  "growth": {
+    "share_cta": "友達にシェア →",
+    "share_title": "TheoryLane — 運転理論試験対策",
+    "share_text": "シンガポールBTT/FTT/RTTと日本の運転免許試験を無料練習 — 英語・ミャンマー語対応 | TheoryLane",
+    "copied": "リンクをコピーしました！シンガポール・日本で免許試験を受ける友達にシェアしてください。"
+  },
   "seo": {
     "site": {
       "title": "シンガポール運転理論試験 — BTT・FTT・RTT対策 | TheoryLane",
-      "description": "シンガポールBTT・FTT・RTTの無料練習問題1,000問以上。英語・ミャンマー語対応。本番形式の模擬試験。"
+      "description": "シンガポールBTT・FTT・RTTの無料練習問題1,000問以上。英語・ミャンマー語対応 — シンガポール在住のミャンマー人労働者向け。日本の普通・二輪免許対策も。"
     },
     "common": {
       "home": "← ホーム",
@@ -1321,7 +1333,7 @@
     },
     "home": {
       "title": "シンガポール運転理論試験 — BTT・FTT・RTT無料練習 | TheoryLane",
-      "description": "シンガポールの学科試験に一発合格。BTT・FTT・RTTの無料問題、模擬試験、道路標識・学習ガイド — 英語・ミャンマー語対応。"
+      "description": "シンガポールの学科試験に一発合格。ミャンマー人労働者向けBTT・FTT・RTT無料練習、模擬試験、道路標識 — 英語・ミャンマー語。日本在住者向け普通免許・二輪免許対策も。"
     },
     "quiz": {
       "lesson_title": "{test} 学習モード — 交通ルール",

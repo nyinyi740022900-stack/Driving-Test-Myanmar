@@ -1,6 +1,7 @@
 import type { Category } from '@/lib/types';
+import { QUESTIONS_PER_INTERSTITIAL } from '@/lib/ad-strategy';
 
-export const QUESTIONS_PER_AD = 50;
+export const QUESTIONS_PER_AD = QUESTIONS_PER_INTERSTITIAL;
 
 const storageKey = (category: Category, mode: 'lesson' | 'practice') =>
   `tl_qprog_${category}_${mode}`;

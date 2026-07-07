@@ -32,7 +32,7 @@ export function updateGoogleConsent(granted: boolean) {
     ad_storage: granted ? 'granted' : 'denied',
     ad_user_data: granted ? 'granted' : 'denied',
     ad_personalization: granted ? 'granted' : 'denied',
-    analytics_storage: granted ? 'denied' : 'denied',
+    analytics_storage: granted ? 'granted' : 'denied',
   });
 }
 

@@ -19,11 +19,14 @@ import {
 import { MediaPlaceholder } from './Signs';
 import { useAuth } from './AuthProvider';
 import ReminderBell from './ReminderBell';
-import AdSlot from './AdSlot';
+import AdBanner from './AdBanner';
 import RewardedAdButton from './RewardedAdButton';
 import { createClient } from '@/lib/supabase';
-import { canRunMockTest, recordMockTestUsage, isPremium } from '@/lib/subscription';
+import { isPremium } from '@/lib/subscription';
 import { saveQuizResult, getBestScore, getAttemptCount } from '@/lib/progress';
+import { addWrongAnswer } from '@/lib/wrong-answers';
+import { AnalyticsEvents } from '@/lib/analytics';
+import { AD_SLOTS } from '@/lib/ad-strategy';
 import {
   bumpQuestionProgress,
   shouldShowQuizInterstitial,
@@ -62,6 +65,13 @@ function getUnlockStatus(category: Category): 'granted' | 'used' | null {
 function setUnlockStatus(category: Category, status: 'granted' | 'used') {
   if (typeof window === 'undefined') return;
   localStorage.setItem(getTodayKey(category), status);
+}
+
+function trackWrongIfNeeded(question: Question, answer: QuizAnswer, category: Category) {
+  if (!isQuestionCorrect(question, answer)) {
+    const picked = typeof answer === 'number' ? answer : 0;
+    addWrongAnswer({ questionId: question.id, category, picked });
+  }
 }
 
 export default function QuizSession({ category, mode, questions }: Props) {
@@ -147,19 +157,43 @@ export default function QuizSession({ category, mode, questions }: Props) {
     setPendingPick(null);
   }, [idx, answers, q]);
 
-  // ── Freemium gate ─────────────────────────────────────────────────
+  // ── Freemium gate (server-side mock test start) ───────────────────
   useEffect(() => {
     if (mode !== 'test') return;
     if (authLoading) return;
     if (!user) { setGate('need_login'); return; }
     if (!process.env.NEXT_PUBLIC_SUPABASE_URL) { setGate('allowed'); return; }
-    const supabase = createClient();
-    canRunMockTest(supabase, user.id, category).then(ok => {
-      if (ok) { recordMockTestUsage(supabase, user.id, category); setGate('allowed'); return; }
-      const unlock = getUnlockStatus(category);
-      if (unlock === 'granted') { setGate('allowed'); return; }
-      setGate('limit_reached');
-    });
+
+    const unlock = getUnlockStatus(category);
+    if (unlock === 'granted') {
+      setGate('allowed');
+      return;
+    }
+
+    fetch('/api/mock-test/start', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ category }),
+    })
+      .then(async (res) => {
+        const data = (await res.json()) as { allowed?: boolean; reason?: string };
+        if (res.ok && data.allowed) {
+          AnalyticsEvents.mockTestStart(category);
+          setGate('allowed');
+          return;
+        }
+        if (data.reason === 'daily_limit') {
+          AnalyticsEvents.mockTestLimit(category);
+          setGate('limit_reached');
+          return;
+        }
+        if (res.status === 401) {
+          setGate('need_login');
+          return;
+        }
+        setGate('limit_reached');
+      })
+      .catch(() => setGate('limit_reached'));
   }, [mode, user, authLoading, category]);
 
   useEffect(() => {
@@ -231,12 +265,14 @@ export default function QuizSession({ category, mode, questions }: Props) {
       const next = [...answers];
       next[idx] = partPicks as number[];
       setAnswers(next);
+      trackWrongIfNeeded(q, partPicks as number[], category);
       if (mode === 'test' && idx < pool.length - 1) setIdx(idx + 1);
       if (mode === 'practice') runAfterQuizAd(() => {});
       return;
     }
     if (pendingPick === null) return;
     const next = [...answers]; next[idx] = pendingPick; setAnswers(next);
+    if (q) trackWrongIfNeeded(q, pendingPick, category);
     setPendingPick(null);
     if (mode === 'test' && idx < pool.length - 1) {
       setIdx(idx + 1);
@@ -579,7 +615,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
             )}
 
             <WrongReview wrongQs={wrongQs} answers={answers} pool={pool} L={L} choiceLabel={choiceLabel} t={t} showExplanation />
-            <AdSlot slot="5983088447" format="rectangle" className="quiz-ad" />
+            <AdBanner placement="quiz_result" slot={AD_SLOTS.quiz_result} format="rectangle" className="quiz-ad" />
             <div style={{ display: 'flex', gap: 10, justifyContent: 'center', marginTop: 24, flexWrap: 'wrap' }}>
               {wrongQs.length > 0 && (
                 <button className="btn btn-primary" onClick={handleRetryWrong}>

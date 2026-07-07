@@ -207,6 +207,7 @@
     "feature_2": "Unlimited mock tests",
     "feature_3": "Quiz history & best scores",
     "feature_4": "Priority support",
+    "feature_5": "Wrong-answer review list on profile",
     "choose_plan": "Choose {plan} →",
     "currency_ks": " Ks",
     "back_home": "← Back to home",
@@ -265,7 +266,12 @@
     "payments_empty": "No payments yet.",
     "view_plans": "View plans →",
     "rejection_note": "Note: {note}",
-    "currency_ks": "Ks"
+    "currency_ks": "Ks",
+    "wrong_answers_heading": "Questions to review",
+    "wrong_answers_empty": "Wrong answers from practice will appear here so you can revisit them.",
+    "wrong_answers_clear": "Clear list",
+    "wrong_answers_practice_link": "Practice again",
+    "wrong_answers_more": "+{count} more saved"
   },
   "resourcesGuide": {
     "breadcrumb_home": "← Home",
@@ -1314,10 +1320,16 @@
     "set_hint_learn": "Questions appear in order. Take your time to study each one.",
     "self_paced": "Self-paced"
   },
+  "growth": {
+    "share_cta": "Share with friends →",
+    "share_title": "TheoryLane — Driving theory practice",
+    "share_text": "Free BTT/FTT/RTT and Japan driving theory practice in English & Myanmar — TheoryLane",
+    "copied": "Link copied! Share it with friends preparing for SG or JP licence tests."
+  },
   "seo": {
     "site": {
       "title": "Singapore Driving Theory Test — BTT, FTT, RTT Practice | TheoryLane",
-      "description": "Free Singapore driving theory test practice for BTT, FTT and RTT. 1,000+ questions in English and Myanmar. Mock exams with real pass marks."
+      "description": "Free Singapore driving theory test practice for BTT, FTT and RTT. 1,000+ questions in English and Myanmar — built for Myanmar workers and students in Singapore."
     },
     "common": {
       "home": "← Home",
@@ -1325,7 +1337,7 @@
     },
     "home": {
       "title": "Singapore Driving Theory Test — BTT, FTT, RTT Practice | TheoryLane",
-      "description": "Pass your Singapore theory test on the first try. Free BTT, FTT and RTT practice questions, mock tests, road signs and study guides — in English and Myanmar."
+      "description": "Pass your Singapore theory test on the first try. Free BTT, FTT and RTT practice for Myanmar migrants in Singapore — mock tests, road signs and study guides in English and Myanmar."
     },
     "quiz": {
       "lesson_title": "{test} Lesson Mode — Learn Road Rules",

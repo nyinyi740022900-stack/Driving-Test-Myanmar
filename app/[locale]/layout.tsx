@@ -8,11 +8,13 @@ import DeviceSessionGate from '@/components/DeviceSessionGate';
 import { CountryProvider } from '@/components/CountryProvider';
 import { PageTransitionProvider } from '@/components/PageTransitionProvider';
 import CookieConsent from '@/components/CookieConsent';
+import AnalyticsProvider from '@/components/AnalyticsProvider';
 import { BRAND_NAME } from '@/lib/brand';
 import { buildSiteMetadata } from '@/lib/seo';
 import '../globals.css';
 
 const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID;
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
 
 export async function generateMetadata({
@@ -69,6 +71,34 @@ export default async function LocaleLayout({
             }}
           />
         )}
+        {!ADSENSE_ID && GA_MEASUREMENT_ID && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                window.gtag = gtag;
+                gtag('consent', 'default', {
+                  analytics_storage: 'denied',
+                  wait_for_update: 500
+                });
+              `,
+            }}
+          />
+        )}
+        {GA_MEASUREMENT_ID && (
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} />
+        )}
+        {GA_MEASUREMENT_ID && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}', { send_page_view: false });
+              `,
+            }}
+          />
+        )}
         {ADSENSE_ID && (
           <>
             <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`} crossOrigin="anonymous" />
@@ -81,10 +111,12 @@ export default async function LocaleLayout({
           <CountryProvider>
             <AuthProvider>
               <PageTransitionProvider>
-                <DeviceSessionGate>
-                  {children}
-                </DeviceSessionGate>
-                <CookieConsent />
+                <AnalyticsProvider>
+                  <DeviceSessionGate>
+                    {children}
+                  </DeviceSessionGate>
+                  <CookieConsent />
+                </AnalyticsProvider>
               </PageTransitionProvider>
             </AuthProvider>
           </CountryProvider>

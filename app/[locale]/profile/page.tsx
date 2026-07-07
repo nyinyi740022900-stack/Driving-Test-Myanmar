@@ -8,6 +8,7 @@ import { useAuth } from '@/components/AuthProvider';
 import { createClient } from '@/lib/supabase';
 import { TEST_META } from '@/lib/types';
 import { getBestScore, getAttemptCount } from '@/lib/progress';
+import WrongAnswersSection from '@/components/WrongAnswersSection';
 
 interface Subscription {
   status: 'free' | 'premium';
@@ -168,6 +169,8 @@ export default function ProfilePage() {
             ))}
           </div>
         </div>
+
+        <WrongAnswersSection locale={locale} />
 
         {/* Settings */}
         <div style={{ background: '#fff', borderRadius: 18, padding: '24px 28px', marginBottom: 20, border: '1px solid var(--line)' }}>

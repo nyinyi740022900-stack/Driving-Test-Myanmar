@@ -10,6 +10,7 @@ import {
   updateGoogleConsent,
   type CookieConsentChoice,
 } from '@/lib/cookie-consent';
+import { AnalyticsEvents } from '@/lib/analytics';
 
 export default function CookieConsent() {
   const t = useTranslations('cookies');
@@ -24,6 +25,7 @@ export default function CookieConsent() {
   function handleChoice(choice: CookieConsentChoice) {
     setStoredConsent(choice);
     updateGoogleConsent(choice === 'accepted');
+    AnalyticsEvents.adConsent(choice);
     setVisible(false);
   }
 

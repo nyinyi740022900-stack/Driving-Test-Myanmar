@@ -11,7 +11,8 @@ import FAQ from '@/components/FAQ';
 import Pricing from '@/components/Pricing';
 import Footer from '@/components/Footer';
 import Reveal from '@/components/Reveal';
-import AdSlot from '@/components/AdSlot';
+import AdBanner from '@/components/AdBanner';
+import { AD_SLOTS } from '@/lib/ad-strategy';
 import JsonLd from '@/components/JsonLd';
 import { buildHomeMetadata, organizationJsonLd, webSiteJsonLd } from '@/lib/seo';
 
@@ -55,7 +56,7 @@ export default async function HomePage({ params }: PageProps) {
       <Reveal delay={60}><QuizDemo /></Reveal>
       <div className="lane" aria-hidden="true" />
       <div className="wrap" style={{ padding: '0 24px' }}>
-        <AdSlot slot="5983088447" format="horizontal" />
+        <AdBanner placement="home_mid" slot={AD_SLOTS.home_mid} format="horizontal" />
       </div>
       <div className="lane" aria-hidden="true" />
       <Reveal delay={40}><HowItWorks /></Reveal>
@@ -67,7 +68,7 @@ export default async function HomePage({ params }: PageProps) {
       <Reveal delay={40}><FAQ /></Reveal>
       <div className="lane" aria-hidden="true" />
       <div className="wrap" style={{ padding: '0 24px' }}>
-        <AdSlot slot="5983088447" format="horizontal" />
+        <AdBanner placement="home_footer" slot={AD_SLOTS.home_footer} format="horizontal" />
       </div>
       <div className="lane" aria-hidden="true" />
       <Reveal delay={40}><Pricing /></Reveal>
