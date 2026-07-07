@@ -105,7 +105,17 @@ export default function AuthForm({ mode, locale, redirectTo }: Props) {
           placeholder="you@example.com"
         />
 
-        <label className="field-label" style={{ marginTop: 14 }}>{t('password')}</label>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, marginTop: 14 }}>
+          <label className="field-label" style={{ margin: 0 }}>{t('password')}</label>
+          {mode === 'login' && (
+            <a
+              href={`/${locale}/auth/forgot-password`}
+              style={{ fontSize: '.8rem', color: 'var(--guide-deep)', fontWeight: 600, textDecoration: 'none' }}
+            >
+              {t('forgot_link')}
+            </a>
+          )}
+        </div>
         <input
           className="field-input"
           type="password"
