@@ -40,15 +40,16 @@ export default function CookieConsent() {
         left: 0,
         right: 0,
         zIndex: 1100,
-        padding: '16px 20px',
+        padding: '16px max(20px, env(safe-area-inset-right)) 16px max(20px, env(safe-area-inset-left))',
         background: 'rgba(13, 27, 15, .96)',
         borderTop: '1px solid rgba(255,255,255,.12)',
         boxShadow: '0 -8px 32px rgba(0,0,0,.2)',
       }}
     >
       <div
-        className="wrap"
         style={{
+          maxWidth: 1140,
+          margin: '0 auto',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',

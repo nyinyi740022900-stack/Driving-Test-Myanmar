@@ -126,6 +126,7 @@ export default function ReminderBell({ lang = 'en' }: { lang?: string }) {
     <div style={{ position: 'relative' }} ref={panelRef}>
       {/* Bell button */}
       <button
+        className="reminder-bell-btn"
         onClick={() => setOpen(v => !v)}
         title={label.title}
         style={{

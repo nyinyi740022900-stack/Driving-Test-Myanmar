@@ -99,51 +99,51 @@ export default function Header() {
             )}
           </nav>
           <div className="spacer" />
-          <div className="bar-actions">
-            <ReminderBell lang={locale} />
-            {user ? (
-              <>
-                {isAdmin && (
-                  <Link href={`/${locale}/admin`} style={{ fontSize: '.78rem', fontFamily: 'var(--display)', fontWeight: 700, background: '#7C3AED', color: '#fff', padding: '5px 11px', borderRadius: 7, letterSpacing: '.04em' }}>
-                    ⚙ Admin
+          <div className="bar-end">
+            <div className="bar-actions">
+              <ReminderBell lang={locale} />
+              {user ? (
+                <>
+                  {isAdmin && (
+                    <Link href={`/${locale}/admin`} className="hide-mobile" style={{ fontSize: '.78rem', fontFamily: 'var(--display)', fontWeight: 700, background: '#7C3AED', color: '#fff', padding: '5px 11px', borderRadius: 7, letterSpacing: '.04em' }}>
+                      ⚙ Admin
+                    </Link>
+                  )}
+                  <Link href={`/${locale}/profile`} className="hide-mobile" style={{ fontSize: '.82rem', fontFamily: 'var(--display)', fontWeight: 700, color: 'var(--asphalt)', padding: '6px 12px', border: '1.5px solid var(--line)', borderRadius: 8, display: 'flex', alignItems: 'center', gap: 5 }}>
+                    <span style={{ width: 20, height: 20, borderRadius: '50%', background: 'var(--asphalt)', color: '#fff', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: '.7rem', fontWeight: 800 }}>
+                      {user.email?.[0].toUpperCase()}
+                    </span>
+                    Profile
                   </Link>
-                )}
-                <Link href={`/${locale}/profile`} style={{ fontSize: '.82rem', fontFamily: 'var(--display)', fontWeight: 700, color: 'var(--asphalt)', padding: '6px 12px', border: '1.5px solid var(--line)', borderRadius: 8, display: 'flex', alignItems: 'center', gap: 5 }}>
-                  <span style={{ width: 20, height: 20, borderRadius: '50%', background: 'var(--asphalt)', color: '#fff', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: '.7rem', fontWeight: 800 }}>
-                    {user.email?.[0].toUpperCase()}
-                  </span>
-                  Profile
+                </>
+              ) : (
+                <Link href={`/${locale}/auth/login`} style={{ fontSize: '.82rem', fontFamily: 'var(--display)', fontWeight: 700, background: 'var(--asphalt)', color: 'var(--paint)', padding: '7px 14px', borderRadius: 8 }} className="hide-mobile">
+                  {t('signin')}
                 </Link>
-              </>
-            ) : (
-              <Link href={`/${locale}/auth/login`} style={{ fontSize: '.82rem', fontFamily: 'var(--display)', fontWeight: 700, background: 'var(--asphalt)', color: 'var(--paint)', padding: '7px 14px', borderRadius: 8 }} className="hide-mobile">
-                {t('signin')}
-              </Link>
-            )}
-          </div>
-          <div className="switches hide-mobile">
-            <div className="seg flag" role="group" aria-label="Country">
-              <button aria-pressed={country === 'sg' ? 'true' : 'false'} onClick={() => switchCountry('sg')}>🇸🇬 SG</button>
-              <button aria-pressed={country === 'jp' ? 'true' : 'false'} onClick={() => switchCountry('jp')}>🇯🇵 JP</button>
+              )}
             </div>
-            <div className="seg lang" role="group" aria-label="Language">
-              {langs.map(([code, label]) => (
-                <button key={code} aria-pressed={locale === code ? 'true' : 'false'} onClick={() => switchLang(code)}>{label}</button>
-              ))}
+            <div className="switches hide-mobile">
+              <div className="seg flag" role="group" aria-label="Country">
+                <button aria-pressed={country === 'sg' ? 'true' : 'false'} onClick={() => switchCountry('sg')}>🇸🇬 SG</button>
+                <button aria-pressed={country === 'jp' ? 'true' : 'false'} onClick={() => switchCountry('jp')}>🇯🇵 JP</button>
+              </div>
+              <div className="seg lang" role="group" aria-label="Language">
+                {langs.map(([code, label]) => (
+                  <button key={code} aria-pressed={locale === code ? 'true' : 'false'} onClick={() => switchLang(code)}>{label}</button>
+                ))}
+              </div>
             </div>
+            <button
+              className="hamburger"
+              aria-label="Menu"
+              aria-expanded={menuOpen}
+              onClick={() => setMenuOpen(v => !v)}
+            >
+              <span style={{ display: 'block', width: 20, height: 2, background: 'var(--asphalt)', borderRadius: 2, transition: 'transform .2s, opacity .2s', transform: menuOpen ? 'translateY(6px) rotate(45deg)' : 'none' }} />
+              <span style={{ display: 'block', width: 20, height: 2, background: 'var(--asphalt)', borderRadius: 2, margin: '4px 0', opacity: menuOpen ? 0 : 1, transition: 'opacity .15s' }} />
+              <span style={{ display: 'block', width: 20, height: 2, background: 'var(--asphalt)', borderRadius: 2, transition: 'transform .2s, opacity .2s', transform: menuOpen ? 'translateY(-6px) rotate(-45deg)' : 'none' }} />
+            </button>
           </div>
-
-          {/* Hamburger — mobile only */}
-          <button
-            className="hamburger"
-            aria-label="Menu"
-            aria-expanded={menuOpen}
-            onClick={() => setMenuOpen(v => !v)}
-          >
-            <span style={{ display: 'block', width: 20, height: 2, background: 'var(--asphalt)', borderRadius: 2, transition: 'transform .2s, opacity .2s', transform: menuOpen ? 'translateY(6px) rotate(45deg)' : 'none' }} />
-            <span style={{ display: 'block', width: 20, height: 2, background: 'var(--asphalt)', borderRadius: 2, margin: '4px 0', opacity: menuOpen ? 0 : 1, transition: 'opacity .15s' }} />
-            <span style={{ display: 'block', width: 20, height: 2, background: 'var(--asphalt)', borderRadius: 2, transition: 'transform .2s, opacity .2s', transform: menuOpen ? 'translateY(-6px) rotate(-45deg)' : 'none' }} />
-          </button>
         </div>
       </header>
 
