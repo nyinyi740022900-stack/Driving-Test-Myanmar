@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-07-03T14:27:01.970Z",
+  "generatedAt": "2026-07-08T17:56:21.446Z",
   "source": "web/content/questions/",
   "banks": [
     {
@@ -9,9 +9,9 @@
       "country": "SG",
       "test": "BTT",
       "count": 565,
-      "withMedia": 565,
+      "withMedia": 82,
       "hazardCount": 0,
-      "issueCount": 0,
+      "issueCount": 483,
       "criticalCount": 0,
       "status": "verified"
     },
@@ -21,9 +21,9 @@
       "country": "SG",
       "test": "FTT",
       "count": 516,
-      "withMedia": 516,
+      "withMedia": 0,
       "hazardCount": 0,
-      "issueCount": 0,
+      "issueCount": 516,
       "criticalCount": 0,
       "status": "verified"
     },
@@ -33,9 +33,9 @@
       "country": "SG",
       "test": "RTT",
       "count": 109,
-      "withMedia": 109,
+      "withMedia": 0,
       "hazardCount": 0,
-      "issueCount": 0,
+      "issueCount": 109,
       "criticalCount": 0,
       "status": "verified"
     },

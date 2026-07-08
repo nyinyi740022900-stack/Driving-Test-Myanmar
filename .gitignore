@@ -17,6 +17,10 @@ tsconfig.tsbuildinfo
 .DS_Store
 Thumbs.db
 
+# Large source images for the spreadsheet workflow — these are compressed into
+# public/signs/ on import, so the multi-MB originals must never enter git.
+content/spreadsheet-workflow/images/
+
 # Vercel
 .vercel
 

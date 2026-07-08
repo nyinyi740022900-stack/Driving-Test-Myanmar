@@ -11,8 +11,8 @@
     "choices": [
       {
         "text": {
-          "en": "Motorcycles are prohibited from entering",
-          "my": "ဆိုင်ကယ်များ ဝင်ခွင့်မရှိ"
+          "en": "Motorcycle repair shop ahead",
+          "my": "ရှေ့တွင် ဆိုင်ကယ်ပြင်ဆိုင်ရှိသည်"
         }
       },
       {
@@ -23,12 +23,12 @@
       },
       {
         "text": {
-          "en": "Motorcycle repair shop ahead",
-          "my": "ရှေ့တွင် ဆိုင်ကယ်ပြင်ဆိုင်ရှိသည်"
+          "en": "Motorcycles are prohibited from entering",
+          "my": "ဆိုင်ကယ်များ ဝင်ခွင့်မရှိ"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A red-bordered circular sign is a prohibition sign; with a motorcycle symbol it bans motorcycles from that road or area.",
       "my": "အနီရောင်အနားသတ်ပါသော စက်ဝိုင်းဆိုင်းဘုတ်သည် တားမြစ်ဆိုင်းဘုတ်ဖြစ်ပြီး ဆိုင်ကယ်ပုံပါလျှင် ထိုလမ်း သို့မဟုတ် နေရာတွင် ဆိုင်ကယ်များ ဝင်ခွင့်မရှိကြောင်း ဆိုလိုသည်။"
@@ -52,14 +52,14 @@
       },
       {
         "text": {
-          "en": "A mandatory instruction that must be obeyed",
-          "my": "လိုက်နာရမည့် မဖြစ်မနေညွှန်ကြားချက်"
+          "en": "Information about nearby facilities",
+          "my": "အနီးအနားရှိ အဆောက်အအုံများအကြောင်း သတင်းအချက်အလက်"
         }
       },
       {
         "text": {
-          "en": "Information about nearby facilities",
-          "my": "အနီးအနားရှိ အဆောက်အအုံများအကြောင်း သတင်းအချက်အလက်"
+          "en": "A mandatory instruction that must be obeyed",
+          "my": "လိုက်နာရမည့် မဖြစ်မနေညွှန်ကြားချက်"
         }
       }
     ],
@@ -81,14 +81,14 @@
     "choices": [
       {
         "text": {
-          "en": "You must turn or proceed left only",
-          "my": "ဘယ်ဘက်သို့သာ ကွေ့ရမည် သို့မဟုတ် ဆက်သွားရမည်"
+          "en": "Turning left is forbidden",
+          "my": "ဘယ်ဘက် ကွေ့ခွင့်မရှိ"
         }
       },
       {
         "text": {
-          "en": "Turning left is forbidden",
-          "my": "ဘယ်ဘက် ကွေ့ခွင့်မရှိ"
+          "en": "You must turn or proceed left only",
+          "my": "ဘယ်ဘက်သို့သာ ကွေ့ရမည် သို့မဟုတ် ဆက်သွားရမည်"
         }
       },
       {
@@ -98,7 +98,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Blue circular signs are mandatory instruction signs; a white arrow means the rider must follow that direction only.",
       "my": "အပြာရောင် စက်ဝိုင်းဆိုင်းဘုတ်များသည် မဖြစ်မနေလိုက်နာရမည့် ညွှန်ကြားချက်ဆိုင်းဘုတ်များဖြစ်ပြီး အဖြူရောင်မြှားသည် ထိုလမ်းကြောင်းကိုသာ လိုက်ရမည်ကို ဆိုလိုသည်။"
@@ -116,14 +116,14 @@
     "choices": [
       {
         "text": {
-          "en": "Slow down and ride cautiously as the road surface ahead may be slippery",
-          "my": "ရှေ့လမ်းမျက်နှာပြင်သည် ချော်လွယ်နိုင်သောကြောင့် မြန်နှုန်းလျှော့ပြီး သတိနှင့်မောင်းပါ"
+          "en": "Accelerate quickly to pass the slippery section",
+          "my": "ချော်လွယ်သောနေရာကို မြန်မြန်ဖြတ်သွားရန် အမြန်မောင်းပါ"
         }
       },
       {
         "text": {
-          "en": "Accelerate quickly to pass the slippery section",
-          "my": "ချော်လွယ်သောနေရာကို မြန်မြန်ဖြတ်သွားရန် အမြန်မောင်းပါ"
+          "en": "Slow down and ride cautiously as the road surface ahead may be slippery",
+          "my": "ရှေ့လမ်းမျက်နှာပြင်သည် ချော်လွယ်နိုင်သောကြောင့် မြန်နှုန်းလျှော့ပြီး သတိနှင့်မောင်းပါ"
         }
       },
       {
@@ -133,7 +133,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "This warning sign indicates a slippery road; riders should reduce speed and avoid sudden braking or steering to prevent skidding.",
       "my": "ဒီသတိပေးဆိုင်းဘုတ်သည် ချော်လွယ်သောလမ်းကို ဆိုလိုသောကြောင့် ယာဉ်မောင်းသူများသည် မြန်နှုန်းလျှော့ပြီး ရုတ်တရက် ဘရိတ်ကိုက် သို့မဟုတ် လှည့်ခြင်းကို ရှောင်ရှားသင့်သည်။"
@@ -151,6 +151,12 @@
     "choices": [
       {
         "text": {
+          "en": "Three lanes merge ahead",
+          "my": "ရှေ့တွင် လမ်းကြောသုံးကြောင်း ပေါင်းစည်းသည်"
+        }
+      },
+      {
+        "text": {
           "en": "A T-junction is ahead",
           "my": "ရှေ့တွင် T-လမ်းဆုံရှိသည်"
         }
@@ -160,15 +166,9 @@
           "en": "The road ends in a roundabout",
           "my": "လမ်းသည် အလှည့်ဝန်းတွင် ဆုံးသည်"
         }
-      },
-      {
-        "text": {
-          "en": "Three lanes merge ahead",
-          "my": "ရှေ့တွင် လမ်းကြောသုံးကြောင်း ပေါင်းစည်းသည်"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "This warning sign alerts riders that the road they are on ends ahead at a T-junction, requiring a turn left or right.",
       "my": "ဒီသတိပေးဆိုင်းဘုတ်သည် မောင်းနှင်နေသောလမ်းသည် ရှေ့တွင် T-လမ်းဆုံတွင် ဆုံးသွားမည်ဖြစ်ပြီး ဘယ် သို့မဟုတ် ညာ ကွေ့ရန် လိုအပ်ကြောင်း သတိပေးသည်။"
@@ -221,6 +221,12 @@
     "choices": [
       {
         "text": {
+          "en": "Turn left only",
+          "my": "ဘယ်ဘက်သို့သာ ကွေ့ပါ"
+        }
+      },
+      {
+        "text": {
           "en": "Stop",
           "my": "ရပ်ပါ"
         }
@@ -230,15 +236,9 @@
           "en": "Proceed straight ahead",
           "my": "တည့်တည့်ဆက်သွားပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Turn left only",
-          "my": "ဘယ်ဘက်သို့သာ ကွေ့ပါ"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "An officer raising one arm straight up is a signal for all traffic facing and behind the officer to stop.",
       "my": "ရဲတစ်ဦး လက်တစ်ဖက်ကို ဖြောင့်တန်းစွာ အပေါ်သို့ထောင်ခြင်းသည် ရဲကို မျက်နှာချင်းဆိုင်နေသော နှင့် နောက်ကျောဘက်ရှိ ယာဉ်အားလုံး ရပ်ရမည်ကို အချက်ပြခြင်းဖြစ်သည်။"
@@ -256,12 +256,6 @@
     "choices": [
       {
         "text": {
-          "en": "Intention to turn right",
-          "my": "ညာဘက်ကွေ့မည်ဟု ရည်ရွယ်ချက်"
-        }
-      },
-      {
-        "text": {
           "en": "Intention to stop",
           "my": "ရပ်မည်ဟု ရည်ရွယ်ချက်"
         }
@@ -271,9 +265,15 @@
           "en": "Intention to slow down only",
           "my": "မြန်နှုန်းလျှော့ရုံသာ ရည်ရွယ်ချက်"
         }
+      },
+      {
+        "text": {
+          "en": "Intention to turn right",
+          "my": "ညာဘက်ကွေ့မည်ဟု ရည်ရွယ်ချက်"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Extending the right arm straight out horizontally is the hand signal for an intended right turn, used when indicators are not visible or as reinforcement.",
       "my": "ညာဘက်လက်ကို ဘေးတိုက်ဖြောင့်တန်းညှင်းခြင်းသည် မီးပြမမြင်ရသောအခါ သို့မဟုတ် အားဖြည့်အချက်ပြရန် ညာဘက်ကွေ့မည့် လက်အချက်ပြဖြစ်သည်။"
@@ -291,8 +291,8 @@
     "choices": [
       {
         "text": {
-          "en": "No parking",
-          "my": "ရပ်နားခွင့်မရှိ"
+          "en": "Paid parking ahead",
+          "my": "ငွေပေးချေရမည့် ရပ်နားနေရာ ရှေ့တွင်ရှိသည်"
         }
       },
       {
@@ -303,12 +303,12 @@
       },
       {
         "text": {
-          "en": "Paid parking ahead",
-          "my": "ငွေပေးချေရမည့် ရပ်နားနေရာ ရှေ့တွင်ရှိသည်"
+          "en": "No parking",
+          "my": "ရပ်နားခွင့်မရှိ"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A 'P' with a diagonal bar through it indicates that parking is not allowed in that area.",
       "my": "'P' စာလုံးကို ဖြတ်မျဉ်းဖြတ်ထားလျှင် ထိုနေရာတွင် ရပ်နားခွင့်မရှိကြောင်း ဆိုလိုသည်။"
@@ -326,6 +326,12 @@
     "choices": [
       {
         "text": {
+          "en": "A 10 km speed limit zone",
+          "my": "10 km/h အမြန်နှုန်းကန့်သတ်ဇုန်"
+        }
+      },
+      {
+        "text": {
           "en": "A steep gradient ahead; adjust speed and gear before climbing or descending",
           "my": "ရှေ့တွင် တောင်ကုန်းစောက်ရှိသည်၊ တက်/ဆင်းမီ မြန်နှုန်းနှင့် ဂီယာကို ညှိပါ"
         }
@@ -335,15 +341,9 @@
           "en": "A speed bump ahead",
           "my": "ရှေ့တွင် မြန်နှုန်းလျှော့ကုန်းရှိသည်"
         }
-      },
-      {
-        "text": {
-          "en": "A 10 km speed limit zone",
-          "my": "10 km/h အမြန်နှုန်းကန့်သတ်ဇုန်"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "This sign warns of a steep gradient; riders should reduce speed and select an appropriate gear in advance, since steep slopes affect motorcycle balance and braking.",
       "my": "ဒီဆိုင်းဘုတ်သည် တောင်ကုန်းစောက်ရှိကြောင်း သတိပေးသည်၊ စောက်သောကုန်းများသည် ဆိုင်ကယ်၏ ထိန်းချုပ်မှုနှင့် ဘရိတ်ကိုက်မှုကို ထိခိုက်စေသောကြောင့် ယာဉ်မောင်းသူသည် မြန်နှုန်းလျှော့ပြီး သင့်လျော်သော ဂီယာကို ကြိုတင်ရွေးချယ်သင့်သည်။"
@@ -361,12 +361,6 @@
     "choices": [
       {
         "text": {
-          "en": "Treat it like a stop sign: stop fully, then proceed only when safe",
-          "my": "ရပ်ဆိုင်းဘုတ်ကဲ့သို့ သတ်မှတ်ပါ — အပြည့်အဝရပ်ပြီး ဘေးကင်းမှသာ ဆက်သွားပါ"
-        }
-      },
-      {
-        "text": {
           "en": "Slow down slightly and continue without stopping",
           "my": "အနည်းငယ် မြန်နှုန်းလျှော့ပြီး မရပ်ဘဲ ဆက်သွားပါ"
         }
@@ -376,9 +370,15 @@
           "en": "It has no legal meaning if no officer is present",
           "my": "ရဲမရှိလျှင် ဥပဒေရေးရာ အဓိပ္ပါယ်မရှိပါ"
         }
+      },
+      {
+        "text": {
+          "en": "Treat it like a stop sign: stop fully, then proceed only when safe",
+          "my": "ရပ်ဆိုင်းဘုတ်ကဲ့သို့ သတ်မှတ်ပါ — အပြည့်အဝရပ်ပြီး ဘေးကင်းမှသာ ဆက်သွားပါ"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A flashing red light requires a full stop, just like a stop sign, before proceeding when the way is clear.",
       "my": "မီးနီ တဖျတ်ဖျတ်ပြခြင်းသည် ရပ်ဆိုင်းဘုတ်ကဲ့သို့ပင် အပြည့်အဝ ရပ်ရန် လိုအပ်ပြီး လမ်းကြောင်းကင်းမှသာ ဆက်သွားရမည်။"
@@ -396,8 +396,8 @@
     "choices": [
       {
         "text": {
-          "en": "Restriction or hazard specifically concerning motorcycles",
-          "my": "ဆိုင်ကယ်များနှင့် ဆိုင်သော ကန့်သတ်ချက် သို့မဟုတ် အန္တရာယ်"
+          "en": "Free motorcycle servicing area",
+          "my": "အခမဲ့ ဆိုင်ကယ်ပြုပြင်ရေးဇုန်"
         }
       },
       {
@@ -408,12 +408,12 @@
       },
       {
         "text": {
-          "en": "Free motorcycle servicing area",
-          "my": "အခမဲ့ ဆိုင်ကယ်ပြုပြင်ရေးဇုန်"
+          "en": "Restriction or hazard specifically concerning motorcycles",
+          "my": "ဆိုင်ကယ်များနှင့် ဆိုင်သော ကန့်သတ်ချက် သို့မဟုတ် အန္တရာယ်"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A motorcycle symbol within a red-bordered regulatory sign always signals a rule, restriction, or hazard that specifically applies to motorcyclists.",
       "my": "အနီရောင်အနားသတ် စည်းမျဉ်းဆိုင်းဘုတ်ထဲတွင် ဆိုင်ကယ်ပုံပါရှိလျှင် ဆိုင်ကယ်မောင်းသူများအတွက် သီးသန့်သက်ဆိုင်သော စည်းမျဉ်း၊ ကန့်သတ်ချက် သို့မဟုတ် အန္တရာယ်ကို အမြဲဆိုလိုသည်။"
@@ -431,6 +431,12 @@
     "choices": [
       {
         "text": {
+          "en": "U-turn permitted here",
+          "my": "ဒီနေရာတွင် ပြန်လှည့်ခွင့်ရှိသည်"
+        }
+      },
+      {
+        "text": {
           "en": "A roundabout ahead",
           "my": "ရှေ့တွင် အလှည့်ဝန်းရှိသည်"
         }
@@ -440,15 +446,9 @@
           "en": "Two-way traffic begins",
           "my": "ယာဉ်နှစ်လမ်းသွား စတင်သည်"
         }
-      },
-      {
-        "text": {
-          "en": "U-turn permitted here",
-          "my": "ဒီနေရာတွင် ပြန်လှည့်ခွင့်ရှိသည်"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "This sign warns riders of an approaching roundabout, where they must give way to traffic already circulating from the right.",
       "my": "ဒီဆိုင်းဘုတ်သည် ချဥ်းကပ်လာသော အလှည့်ဝန်းကို သတိပေးပြီး ညာဘက်မှ လှည့်ပတ်နေသော ယာဉ်များကို လမ်းဖယ်ပေးရမည်။"
@@ -466,6 +466,12 @@
     "choices": [
       {
         "text": {
+          "en": "A prohibition sign",
+          "my": "တားမြစ်ဆိုင်းဘုတ်"
+        }
+      },
+      {
+        "text": {
           "en": "An informatory/direction sign",
           "my": "သတင်းအချက်အလက်/ လမ်းညွှန်ဆိုင်းဘုတ်"
         }
@@ -475,15 +481,9 @@
           "en": "A warning sign",
           "my": "သတိပေးဆိုင်းဘုတ်"
         }
-      },
-      {
-        "text": {
-          "en": "A prohibition sign",
-          "my": "တားမြစ်ဆိုင်းဘုတ်"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Green rectangular signs with arrows and place names are informatory signs that guide drivers and riders toward destinations.",
       "my": "မြှားနှင့် နေရာအမည်ပါသော အစိမ်းရောင် စတုဂံဆိုင်းဘုတ်များသည် ယာဉ်မောင်းသူများကို ဦးတည်ရာသို့ လမ်းညွှန်ပေးသော သတင်းအချက်အလက်ဆိုင်းဘုတ်များဖြစ်သည်။"
@@ -501,12 +501,6 @@
     "choices": [
       {
         "text": {
-          "en": "A general hazard not covered by a specific symbol",
-          "my": "သတ်မှတ်အမှတ်အသားနှင့် မကိုက်ညီသော ဘုံအန္တရာယ်"
-        }
-      },
-      {
-        "text": {
           "en": "School zone ahead",
           "my": "ရှေ့တွင် ကျောင်းဇုန်ရှိသည်"
         }
@@ -516,9 +510,15 @@
           "en": "End of all restrictions",
           "my": "ကန့်သတ်ချက်အားလုံး ပြီးဆုံးခြင်း"
         }
+      },
+      {
+        "text": {
+          "en": "A general hazard not covered by a specific symbol",
+          "my": "သတ်မှတ်အမှတ်အသားနှင့် မကိုက်ညီသော ဘုံအန္တရာယ်"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A plain exclamation mark warning sign is used for general hazards ahead that do not have a dedicated pictogram, such as unusual or temporary dangers.",
       "my": "ရိုးရှင်းသော အာမေဋိတ်အမှတ် သတိပေးဆိုင်းဘုတ်သည် သီးသန့်ပုံသင်္ကေတမရှိသော ရှေ့ရှိ ဘုံအန္တရာယ်များ ဥပမာ - ထူးခြားသော သို့မဟုတ် ခေတ္တအန္တရာယ်များအတွက် အသုံးပြုသည်။"
@@ -536,6 +536,12 @@
     "choices": [
       {
         "text": {
+          "en": "Sound the horn to warn the pedestrian not to cross",
+          "my": "လူကို မဖြတ်ရန် သတိပေးရန် ဟွန်းတီးပါ"
+        }
+      },
+      {
+        "text": {
           "en": "Slow down and be prepared to stop in case the pedestrian steps onto the crossing",
           "my": "လူသည် လူကူးမျဉ်းပေါ်သို့ လှမ်းနိုင်သောကြောင့် မြန်နှုန်းလျှော့ပြီး ရပ်ရန် အသင့်ပြင်ထားပါ"
         }
@@ -545,15 +551,9 @@
           "en": "Maintain speed since the pedestrian has not stepped onto the crossing yet",
           "my": "လူက လူကူးမျဉ်းပေါ်သို့ မလှမ်းရသေးသောကြောင့် မြန်နှုန်းကို ဆက်ထားပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Sound the horn to warn the pedestrian not to cross",
-          "my": "လူကို မဖြတ်ရန် သတိပေးရန် ဟွန်းတီးပါ"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Even before stepping onto the crossing, a waiting pedestrian could move at any time, so riders should slow down and be ready to stop.",
       "my": "လူကူးမျဉ်းပေါ်သို့ မလှမ်းမီတောင် စောင့်နေသောလူသည် မည်သည့်အချိန်မဆို ရွေ့လှားနိုင်သောကြောင့် ယာဉ်မောင်းသူများသည် မြန်နှုန်းလျှော့ပြီး ရပ်ရန် အသင့်ပြင်ထားသင့်သည်။"
@@ -571,8 +571,8 @@
     "choices": [
       {
         "text": {
-          "en": "Come to a complete stop and proceed only when safe",
-          "my": "အပြည့်အဝရပ်ပြီး ဘေးကင်းမှသာ ဆက်သွားပါ"
+          "en": "Give priority only to buses",
+          "my": "ဘတ်စ်ကားများကိုသာ ဦးစားပေးပါ"
         }
       },
       {
@@ -583,12 +583,12 @@
       },
       {
         "text": {
-          "en": "Give priority only to buses",
-          "my": "ဘတ်စ်ကားများကိုသာ ဦးစားပေးပါ"
+          "en": "Come to a complete stop and proceed only when safe",
+          "my": "အပြည့်အဝရပ်ပြီး ဘေးကင်းမှသာ ဆက်သွားပါ"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A stop sign requires every vehicle to come to a complete halt before proceeding when it is safe.",
       "my": "ရပ်ဆိုင်းဘုတ်သည် ယာဉ်တိုင်းအား ဘေးကင်းမှ ဆက်မသွားမီ အပြည့်အဝ ရပ်ရန် လိုအပ်သည်။"
@@ -606,14 +606,14 @@
     "choices": [
       {
         "text": {
-          "en": "Lanes are merging ahead; merge carefully and watch for other vehicles",
-          "my": "ရှေ့တွင် လမ်းကြောများ ပေါင်းစည်းမည်ဖြစ်သောကြောင့် သတိနှင့်ပေါင်းစည်းပြီး အခြားယာဉ်များကို ကြည့်ပါ"
+          "en": "Motorcycles must always give way to cars at this point",
+          "my": "ဒီနေရာတွင် ဆိုင်ကယ်သည် ကားကို အမြဲလမ်းဖယ်ပေးရမည်"
         }
       },
       {
         "text": {
-          "en": "Motorcycles must always give way to cars at this point",
-          "my": "ဒီနေရာတွင် ဆိုင်ကယ်သည် ကားကို အမြဲလမ်းဖယ်ပေးရမည်"
+          "en": "Lanes are merging ahead; merge carefully and watch for other vehicles",
+          "my": "ရှေ့တွင် လမ်းကြောများ ပေါင်းစည်းမည်ဖြစ်သောကြောင့် သတိနှင့်ပေါင်းစည်းပြီး အခြားယာဉ်များကို ကြည့်ပါ"
         }
       },
       {
@@ -623,7 +623,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "This sign warns of a lane merge ahead; all vehicles, regardless of type, should merge safely while checking mirrors and blind spots.",
       "my": "ဒီဆိုင်းဘုတ်သည် ရှေ့တွင် လမ်းကြောပေါင်းစည်းမည်ဖြစ်ကြောင်း သတိပေးသည်၊ ယာဉ်အမျိုးအစားမရွေး ကြေးမှန်နှင့် မျက်စိမမြင်ရသောနေရာများကို စစ်ဆေးပြီး ဘေးကင်းစွာ ပေါင်းစည်းသင့်သည်။"
@@ -641,12 +641,6 @@
     "choices": [
       {
         "text": {
-          "en": "Bicycles are not allowed on this road",
-          "my": "ဒီလမ်းတွင် စက်ဘီးများ ဝင်ခွင့်မရှိ"
-        }
-      },
-      {
-        "text": {
           "en": "Bicycle parking only",
           "my": "စက်ဘီးရပ်နားရန် နေရာသာ"
         }
@@ -656,9 +650,15 @@
           "en": "Shared path for bicycles and motorcycles",
           "my": "စက်ဘီးနှင့် ဆိုင်ကယ် မျှဝေသုံးသော လမ်း"
         }
+      },
+      {
+        "text": {
+          "en": "Bicycles are not allowed on this road",
+          "my": "ဒီလမ်းတွင် စက်ဘီးများ ဝင်ခွင့်မရှိ"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A symbol crossed by a red diagonal bar within a circle is a prohibition; here it bans bicycles from that road.",
       "my": "စက်ဝိုင်းအတွင်း အနီရောင်ဖြတ်မျဉ်းဖြတ်ထားသော သင်္ကေတသည် တားမြစ်ခြင်းဖြစ်ပြီး ဒီနေရာတွင် စက်ဘီးများကို ထိုလမ်းမှ တားမြစ်သည်။"
@@ -711,8 +711,8 @@
     "choices": [
       {
         "text": {
-          "en": "You give way to pedestrians and oncoming traffic before turning",
-          "my": "ကွေ့မီ လူသွားလူလာနှင့် ဆန့်ကျင်ဘက်ယာဉ်များကို လမ်းဖယ်ပေးရမည်"
+          "en": "Any oncoming vehicle has already stopped completely",
+          "my": "ဆန့်ကျင်ဘက်ယာဉ်တိုင်း အပြည့်အဝရပ်ပြီးသွားသည်"
         }
       },
       {
@@ -723,12 +723,12 @@
       },
       {
         "text": {
-          "en": "Any oncoming vehicle has already stopped completely",
-          "my": "ဆန့်ကျင်ဘက်ယာဉ်တိုင်း အပြည့်အဝရပ်ပြီးသွားသည်"
+          "en": "You give way to pedestrians and oncoming traffic before turning",
+          "my": "ကွေ့မီ လူသွားလူလာနှင့် ဆန့်ကျင်ဘက်ယာဉ်များကို လမ်းဖယ်ပေးရမည်"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A flashing amber arrow permits a filter turn, but the rider must yield to pedestrians and any conflicting oncoming traffic before proceeding.",
       "my": "မီးဝါမြှား တဖျတ်ဖျတ်ပြခြင်းသည် ဖြတ်ကွေ့ခွင့်ပြုသော်လည်း ယာဉ်မောင်းသူသည် ဆက်သွားမီ လူသွားလူလာနှင့် ဆန့်ကျင်ဘက်မှ ဆက်လက်ရောက်ရှိနေသော ယာဉ်များကို လမ်းဖယ်ပေးရမည်။"
@@ -746,14 +746,14 @@
     "choices": [
       {
         "text": {
-          "en": "Maximum speed limit of 70 km/h",
-          "my": "အများဆုံး အမြန်နှုန်းကန့်သတ်ချက် 70 km/h"
+          "en": "Minimum speed limit of 70 km/h",
+          "my": "အနည်းဆုံး အမြန်နှုန်းကန့်သတ်ချက် 70 km/h"
         }
       },
       {
         "text": {
-          "en": "Minimum speed limit of 70 km/h",
-          "my": "အနည်းဆုံး အမြန်နှုန်းကန့်သတ်ချက် 70 km/h"
+          "en": "Maximum speed limit of 70 km/h",
+          "my": "အများဆုံး အမြန်နှုန်းကန့်သတ်ချက် 70 km/h"
         }
       },
       {
@@ -763,7 +763,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "A number inside a red-bordered circle indicates the maximum speed permitted on that stretch of road.",
       "my": "အနီရောင်အနားသတ်စက်ဝိုင်းအတွင်းရှိ ဂဏန်းသည် ထိုလမ်းပိုင်းတွင် ခွင့်ပြုထားသော အများဆုံးအမြန်နှုန်းကို ဖော်ပြသည်။"
@@ -781,14 +781,14 @@
     "choices": [
       {
         "text": {
-          "en": "An Electronic Road Pricing gantry is ahead where charges may apply",
-          "my": "ရှေ့တွင် အခကြေးငွေ ကောက်ခံနိုင်သော Electronic Road Pricing (ERP) တံခါးရှိသည်"
+          "en": "An emergency repair point for motorcycles is ahead",
+          "my": "ရှေ့တွင် ဆိုင်ကယ်အရေးပေါ် ပြုပြင်ရေးနေရာရှိသည်"
         }
       },
       {
         "text": {
-          "en": "An emergency repair point for motorcycles is ahead",
-          "my": "ရှေ့တွင် ဆိုင်ကယ်အရေးပေါ် ပြုပြင်ရေးနေရာရှိသည်"
+          "en": "An Electronic Road Pricing gantry is ahead where charges may apply",
+          "my": "ရှေ့တွင် အခကြေးငွေ ကောက်ခံနိုင်သော Electronic Road Pricing (ERP) တံခါးရှိသည်"
         }
       },
       {
@@ -798,7 +798,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "ERP gantries automatically deduct road usage charges from registered vehicles, including motorcycles, when passing under them during operating hours.",
       "my": "ERP တံခါးများသည် လုပ်ငန်းချိန်အတွင်း အောက်မှ ဖြတ်သန်းသော ဆိုင်ကယ်အပါအဝင် မှတ်ပုံတင်ထားသော ယာဉ်များမှ လမ်းသုံးခကို အလိုအလျောက် နှိမ့်ယူသည်။"
@@ -816,8 +816,8 @@
     "choices": [
       {
         "text": {
-          "en": "Both should slow down, make eye contact if possible, and proceed only when it is clearly safe",
-          "my": "နှစ်ဦးစလုံး မြန်နှုန်းလျှော့ပြီး ဖြစ်နိုင်ရင် မျက်လုံးချင်းဆုံပြီး ရှင်းရှင်းလင်းလင်း ဘေးကင်းမှသာ ဆက်သွားသင့်သည်"
+          "en": "Whichever rider arrives first may proceed without caution",
+          "my": "ဦးဆုံးရောက်ရှိလာသော ယာဉ်မောင်းသူသည် သတိမစိုက်ဘဲ ဆက်သွားနိုင်သည်"
         }
       },
       {
@@ -828,12 +828,12 @@
       },
       {
         "text": {
-          "en": "Whichever rider arrives first may proceed without caution",
-          "my": "ဦးဆုံးရောက်ရှိလာသော ယာဉ်မောင်းသူသည် သတိမစိုက်ဘဲ ဆက်သွားနိုင်သည်"
+          "en": "Both should slow down, make eye contact if possible, and proceed only when it is clearly safe",
+          "my": "နှစ်ဦးစလုံး မြန်နှုန်းလျှော့ပြီး ဖြစ်နိုင်ရင် မျက်လုံးချင်းဆုံပြီး ရှင်းရှင်းလင်းလင်း ဘေးကင်းမှသာ ဆက်သွားသင့်သည်"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Without traffic control, there is no automatic priority for opposing right turns; both riders must slow down, communicate, and proceed cautiously to avoid collision.",
       "my": "ယာဉ်ထိန်းချုပ်မှု မရှိသောအခါ ဆန့်ကျင်ဘက်ညာဘက်ကွေ့ခြင်းအတွက် အလိုအလျောက် ဦးစားပေးခွင့် မရှိပါ၊ ယာဉ်မောင်းသူနှစ်ဦးစလုံး မြန်နှုန်းလျှော့ပြီး အချင်းချင်းနားလည်မှုရယူပြီးမှ သတိနှင့်ဆက်သွားရမည်။"
@@ -857,14 +857,14 @@
       },
       {
         "text": {
-          "en": "Highway entrance",
-          "my": "အဝှေးလမ်းမ ဝင်ပေါက်"
+          "en": "Helmet inspection point",
+          "my": "ဆောင်းထောက်စစ်ဆေးရေးနေရာ"
         }
       },
       {
         "text": {
-          "en": "Helmet inspection point",
-          "my": "ဆောင်းထောက်စစ်ဆေးရေးနေရာ"
+          "en": "Highway entrance",
+          "my": "အဝှေးလမ်းမ ဝင်ပေါက်"
         }
       }
     ],
@@ -886,8 +886,8 @@
     "choices": [
       {
         "text": {
-          "en": "Traffic already circulating within the roundabout",
-          "my": "အလှည့်ဝန်းအတွင်း လှည့်ပတ်နေနှင့်ပြီးသော ယာဉ်များ"
+          "en": "Whichever vehicle is larger",
+          "my": "ပိုကြီးသော ယာဉ်"
         }
       },
       {
@@ -898,12 +898,12 @@
       },
       {
         "text": {
-          "en": "Whichever vehicle is larger",
-          "my": "ပိုကြီးသော ယာဉ်"
+          "en": "Traffic already circulating within the roundabout",
+          "my": "အလှည့်ဝန်းအတွင်း လှည့်ပတ်နေနှင့်ပြီးသော ယာဉ်များ"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Vehicles already circulating in a roundabout have priority; vehicles entering must give way to them.",
       "my": "အလှည့်ဝန်းအတွင်း လှည့်ပတ်နေနှင့်ပြီးသော ယာဉ်များသည် ဦးစားပေးခွင့်ရှိပြီး ဝင်လာသော ယာဉ်များက လမ်းဖယ်ပေးရမည်။"
@@ -956,12 +956,6 @@
     "choices": [
       {
         "text": {
-          "en": "On a pedestrian footpath or within a designated no-parking zone",
-          "my": "ခြေလျင်လမ်းကောင် သို့မဟုတ် ရပ်နားခွင့်မရှိဇုန်တွင်"
-        }
-      },
-      {
-        "text": {
           "en": "In any motorcycle parking lot marked on the road",
           "my": "လမ်းပေါ်တွင် အမှတ်အသားပြုထားသော ဆိုင်ကယ်ရပ်နားနေရာများတွင်"
         }
@@ -971,9 +965,15 @@
           "en": "In multi-storey carparks designated for motorcycles",
           "my": "ဆိုင်ကယ်အတွက် သတ်မှတ်ထားသော ထပ်ကာကားပါကင်တွင်"
         }
+      },
+      {
+        "text": {
+          "en": "On a pedestrian footpath or within a designated no-parking zone",
+          "my": "ခြေလျင်လမ်းကောင် သို့မဟုတ် ရပ်နားခွင့်မရှိဇုန်တွင်"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Parking on footpaths obstructs pedestrians and is illegal; riders must use designated motorcycle parking areas only.",
       "my": "ခြေလျင်လမ်းကောင်ပေါ်တွင် ရပ်နားခြင်းသည် ခြေလျင်သွားလာသူများကို နှောင့်ယှက်ပြီး ဥပဒေနှင့်မညီသောကြောင့် ယာဉ်မောင်းသူများသည် သတ်မှတ်ထားသော ဆိုင်ကယ်ရပ်နားနေရာများသာ အသုံးပြုရမည်။"
@@ -997,14 +997,14 @@
       },
       {
         "text": {
-          "en": "Speed up to clear the way faster",
-          "my": "လမ်းကို ပိုမြန်ရှင်းရန် အရှိန်မြှင့်ပါ"
+          "en": "Stop immediately in the current lane",
+          "my": "လက်ရှိလမ်းကြောတွင် ချက်ချင်းရပ်ပါ"
         }
       },
       {
         "text": {
-          "en": "Stop immediately in the current lane",
-          "my": "လက်ရှိလမ်းကြောတွင် ချက်ချင်းရပ်ပါ"
+          "en": "Speed up to clear the way faster",
+          "my": "လမ်းကို ပိုမြန်ရှင်းရန် အရှိန်မြှင့်ပါ"
         }
       }
     ],
@@ -1032,14 +1032,14 @@
       },
       {
         "text": {
-          "en": "Yes, motorcycles are always allowed in bus lanes",
-          "my": "ညီပါသည်၊ ဆိုင်ကယ်များသည် ဘတ်စ်ကားလိုင်းကို အမြဲတမ်း အသုံးပြုခွင့်ရှိသည်"
+          "en": "Only allowed after 10pm regardless of signage",
+          "my": "ဆိုင်းဘုတ်မရွေး ည ၁၀ နာရီနောက်ပိုင်းမှသာ ခွင့်ပြုသည်"
         }
       },
       {
         "text": {
-          "en": "Only allowed after 10pm regardless of signage",
-          "my": "ဆိုင်းဘုတ်မရွေး ည ၁၀ နာရီနောက်ပိုင်းမှသာ ခွင့်ပြုသည်"
+          "en": "Yes, motorcycles are always allowed in bus lanes",
+          "my": "ညီပါသည်၊ ဆိုင်ကယ်များသည် ဘတ်စ်ကားလိုင်းကို အမြဲတမ်း အသုံးပြုခွင့်ရှိသည်"
         }
       }
     ],
@@ -1061,12 +1061,6 @@
     "choices": [
       {
         "text": {
-          "en": "Both must stop and wait until pedestrians finish crossing",
-          "my": "နှစ်စီးစလုံး ရပ်ပြီး လူများ ဖြတ်ပြီးသည်အထိ စောင့်ရမည်"
-        }
-      },
-      {
-        "text": {
           "en": "Only the motorcycle in the left lane must stop",
           "my": "ဘယ်ဘက်လမ်းကြောရှိ ဆိုင်ကယ်တစ်စီးသာ ရပ်ရမည်"
         }
@@ -1076,9 +1070,15 @@
           "en": "They may proceed slowly around the pedestrians",
           "my": "လူများ ဘေးမှ နှေးနှေးဖြတ်နိုင်သည်"
         }
+      },
+      {
+        "text": {
+          "en": "Both must stop and wait until pedestrians finish crossing",
+          "my": "နှစ်စီးစလုံး ရပ်ပြီး လူများ ဖြတ်ပြီးသည်အထိ စောင့်ရမည်"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "All vehicles, including every lane of traffic, must stop for pedestrians actively crossing at a zebra crossing.",
       "my": "ဇီဘရာလူကူးမျဉ်းတွင် တက်ကြွစွာ ဖြတ်ကျော်နေသော လူများအတွက် လမ်းကြောတိုင်းရှိ ယာဉ်အားလုံး ရပ်ရမည်။"
@@ -1096,14 +1096,14 @@
     "choices": [
       {
         "text": {
-          "en": "Wait at the entrance until the other vehicle clears the bridge",
-          "my": "အခြားယာဉ်က တံတားကို ရှင်းသွားသည်အထိ တံတားဝင်ပေါက်တွင် စောင့်ပါ"
+          "en": "Enter the bridge and expect the other vehicle to reverse",
+          "my": "တံတားသို့ဝင်ပြီး အခြားယာဉ်က နောက်ပြန်ဆုတ်မည်ဟု မျှော်လင့်ပါ"
         }
       },
       {
         "text": {
-          "en": "Enter the bridge and expect the other vehicle to reverse",
-          "my": "တံတားသို့ဝင်ပြီး အခြားယာဉ်က နောက်ပြန်ဆုတ်မည်ဟု မျှော်လင့်ပါ"
+          "en": "Wait at the entrance until the other vehicle clears the bridge",
+          "my": "အခြားယာဉ်က တံတားကို ရှင်းသွားသည်အထိ တံတားဝင်ပေါက်တွင် စောင့်ပါ"
         }
       },
       {
@@ -1113,7 +1113,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "The vehicle already on a single-lane bridge has priority; the rider must wait at the entrance until it is completely clear before proceeding.",
       "my": "တစ်ကြောင်းတည်းတံတားပေါ်တွင် ရှိနေပြီးသား ယာဉ်သည် ဦးစားပေးခွင့်ရှိသောကြောင့် ယာဉ်မောင်းသူသည် လုံးဝရှင်းသွားသည်အထိ ဝင်ပေါက်တွင် စောင့်ရမည်။"
@@ -1137,14 +1137,14 @@
       },
       {
         "text": {
-          "en": "At least 16 years old with any driving licence",
-          "my": "အနည်းဆုံး အသက် ၁၆ နှစ်ပြည့်ပြီး မောင်းနှင်ခွင့်လိုင်စင် တစ်မျိုးမျိုးရှိရမည်"
+          "en": "No minimum age as long as supervised by an adult",
+          "my": "လူကြီးတစ်ဦးက ကြီးကြပ်ပါက အသက်အနည်းဆုံး မရှိပါ"
         }
       },
       {
         "text": {
-          "en": "No minimum age as long as supervised by an adult",
-          "my": "လူကြီးတစ်ဦးက ကြီးကြပ်ပါက အသက်အနည်းဆုံး မရှိပါ"
+          "en": "At least 16 years old with any driving licence",
+          "my": "အနည်းဆုံး အသက် ၁၆ နှစ်ပြည့်ပြီး မောင်းနှင်ခွင့်လိုင်စင် တစ်မျိုးမျိုးရှိရမည်"
         }
       }
     ],
@@ -1201,14 +1201,14 @@
     "choices": [
       {
         "text": {
-          "en": "No, motorcycles are not permitted to tow trailers or other vehicles",
-          "my": "မရပါ၊ ဆိုင်ကယ်များသည် ဒရွတ် သို့မဟုတ် အခြားယာဉ်များကို ဆွဲခွင့်မရှိပါ"
+          "en": "Yes, as long as the towed item weighs less than 50 kg",
+          "my": "ရပါသည်၊ ဆွဲနေသောအရာသည် ၅၀ ကီလိုဂရမ်အောက် ရှိရင် ရသည်"
         }
       },
       {
         "text": {
-          "en": "Yes, as long as the towed item weighs less than 50 kg",
-          "my": "ရပါသည်၊ ဆွဲနေသောအရာသည် ၅၀ ကီလိုဂရမ်အောက် ရှိရင် ရသည်"
+          "en": "No, motorcycles are not permitted to tow trailers or other vehicles",
+          "my": "မရပါ၊ ဆိုင်ကယ်များသည် ဒရွတ် သို့မဟုတ် အခြားယာဉ်များကို ဆွဲခွင့်မရှိပါ"
         }
       },
       {
@@ -1218,7 +1218,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Motorcycles are not designed or licensed to tow trailers or other vehicles, as this severely affects balance and braking, making it prohibited.",
       "my": "ဆိုင်ကယ်များသည် ဒရွတ် သို့မဟုတ် အခြားယာဉ်များကို ဆွဲနိုင်ရန် ပုံစံချထားခြင်း သို့မဟုတ် လိုင်စင်ရရှိထားခြင်း မရှိသောကြောင့် ထိန်းချုပ်မှုနှင့် ဘရိတ်ကိုက်မှုကို အလွန်အမင်း ထိခိုက်စေပြီး တားမြစ်ထားသည်။"
@@ -1236,12 +1236,6 @@
     "choices": [
       {
         "text": {
-          "en": "Obey the police officer's hand signals, ignoring the malfunctioning lights",
-          "my": "ပျက်နေသော မီးပြများကို ဂရုမစိုက်ဘဲ ရဲ၏ လက်အချက်ပြများကို လိုက်နာပါ"
-        }
-      },
-      {
-        "text": {
           "en": "Wait for the lights to be repaired before moving",
           "my": "ရွေ့မီ မီးပြများကို ပြန်ပြင်သည်အထိ စောင့်ပါ"
         }
@@ -1251,9 +1245,15 @@
           "en": "Follow only the traffic light, since it takes precedence over the officer",
           "my": "ရဲထက် ယာဉ်အချက်ပြမီးက ဦးစားပေးခွင့်ရှိသောကြောင့် မီးပြကိုသာ လိုက်နာပါ"
         }
+      },
+      {
+        "text": {
+          "en": "Obey the police officer's hand signals, ignoring the malfunctioning lights",
+          "my": "ပျက်နေသော မီးပြများကို ဂရုမစိုက်ဘဲ ရဲ၏ လက်အချက်ပြများကို လိုက်နာပါ"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A traffic police officer's hand signals always override traffic lights, whether the lights are working or not.",
       "my": "ယာဉ်ရဲ၏ လက်အချက်ပြများသည် ယာဉ်အချက်ပြမီး အလုပ်လုပ်သည် သို့မလုပ်သည် မရွေး အမြဲတမ်း ဦးစားပေးခွင့်ရှိသည်။"
@@ -1271,12 +1271,6 @@
     "choices": [
       {
         "text": {
-          "en": "No more than two motorcycles may ride abreast in a single lane",
-          "my": "လမ်းကြောတစ်ကြောင်းတည်းတွင် ဆိုင်ကယ်နှစ်စီးထက်ပို၍ တန်းလျားစီ မောင်းနှင်ခွင့်မရှိ"
-        }
-      },
-      {
-        "text": {
           "en": "Up to four motorcycles may ride abreast in a single lane",
           "my": "လမ်းကြောတစ်ကြောင်းတည်းတွင် ဆိုင်ကယ်လေးစီးအထိ တန်းလျားစီ မောင်းနှင်ခွင့်ရှိသည်"
         }
@@ -1286,9 +1280,15 @@
           "en": "There is no legal limit on the number riding abreast",
           "my": "တန်းလျားစီအရေအတွက်တွင် ဥပဒေကန့်သတ်ချက် လုံးဝမရှိ"
         }
+      },
+      {
+        "text": {
+          "en": "No more than two motorcycles may ride abreast in a single lane",
+          "my": "လမ်းကြောတစ်ကြောင်းတည်းတွင် ဆိုင်ကယ်နှစ်စီးထက်ပို၍ တန်းလျားစီ မောင်းနှင်ခွင့်မရှိ"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "To maintain safety and lane discipline, no more than two motorcycles are permitted to ride side by side within a single lane.",
       "my": "ဘေးကင်းမှုနှင့် လမ်းကြောစည်းကမ်းကို ထိန်းသိမ်းရန် လမ်းကြောတစ်ကြောင်းတည်းအတွင်း ဆိုင်ကယ်နှစ်စီးထက်ပို၍ တန်းလျားစီ မောင်းနှင်ခွင့် မပြုပါ။"
@@ -1312,14 +1312,14 @@
       },
       {
         "text": {
-          "en": "Go straight from the left-turn-only lane since it is a minor rule",
-          "my": "သေးငယ်သောစည်းမျဉ်းဖြစ်သောကြောင့် ဘယ်ဘက်ကွေ့ရန်သာလမ်းကြောမှ တည့်တည့်သွားပါ"
+          "en": "Turn left first then make an immediate U-turn",
+          "my": "ဦးစွာဘယ်ဘက်ကွေ့ပြီးမှ ချက်ချင်း ပြန်လှည့်ပါ"
         }
       },
       {
         "text": {
-          "en": "Turn left first then make an immediate U-turn",
-          "my": "ဦးစွာဘယ်ဘက်ကွေ့ပြီးမှ ချက်ချင်း ပြန်လှည့်ပါ"
+          "en": "Go straight from the left-turn-only lane since it is a minor rule",
+          "my": "သေးငယ်သောစည်းမျဉ်းဖြစ်သောကြောင့် ဘယ်ဘက်ကွေ့ရန်သာလမ်းကြောမှ တည့်တည့်သွားပါ"
         }
       }
     ],
@@ -1382,14 +1382,14 @@
       },
       {
         "text": {
-          "en": "Proceed at full speed since the road is empty",
-          "my": "လမ်းတွင်ယာဉ်မရှိသောကြောင့် အပြည့်အဝမြန်နှုန်းနှင့် ဆက်သွားပါ"
+          "en": "The give-way rule no longer applies if no traffic is visible",
+          "my": "ယာဉ်မမြင်ရလျှင် လမ်းဖယ်စည်းမျဉ်း မသက်ဆိုင်တော့ပါ"
         }
       },
       {
         "text": {
-          "en": "The give-way rule no longer applies if no traffic is visible",
-          "my": "ယာဉ်မမြင်ရလျှင် လမ်းဖယ်စည်းမျဉ်း မသက်ဆိုင်တော့ပါ"
+          "en": "Proceed at full speed since the road is empty",
+          "my": "လမ်းတွင်ယာဉ်မရှိသောကြောင့် အပြည့်အဝမြန်နှုန်းနှင့် ဆက်သွားပါ"
         }
       }
     ],
@@ -1411,12 +1411,6 @@
     "choices": [
       {
         "text": {
-          "en": "The headlight must be kept switched on at all times while riding",
-          "my": "မောင်းနှင်နေစဉ် ရှေ့မီးကို အချိန်တိုင်း ဖွင့်ထားရမည်"
-        }
-      },
-      {
-        "text": {
           "en": "The headlight is only required after sunset",
           "my": "ရှေ့မီးသည် နေဝင်ပြီးမှသာ လိုအပ်သည်"
         }
@@ -1426,9 +1420,15 @@
           "en": "The headlight may be switched off during heavy traffic",
           "my": "ယာဉ်အသွားအလာများသောအခါ ရှေ့မီးကို ပိတ်ထားနိုင်သည်"
         }
+      },
+      {
+        "text": {
+          "en": "The headlight must be kept switched on at all times while riding",
+          "my": "မောင်းနှင်နေစဉ် ရှေ့မီးကို အချိန်တိုင်း ဖွင့်ထားရမည်"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Motorcyclists are required to ride with headlights on at all times, day and night, to improve visibility to other road users.",
       "my": "ဆိုင်ကယ်မောင်းသူများသည် အခြားလမ်းသုံးသူများ ပိုမြင်နိုင်ရန် နေ့၊ ညမရွေး ရှေ့မီးကို အချိန်တိုင်း ဖွင့်ထားရန် လိုအပ်သည်။"
@@ -1452,14 +1452,14 @@
       },
       {
         "text": {
-          "en": "Overtaking across the line is always allowed for motorcycles",
-          "my": "ဆိုင်ကယ်များအတွက် မျဉ်းဖြတ်ကျော်ကာ ကျော်တက်ခြင်း အမြဲခွင့်ပြုသည်"
+          "en": "The line only applies to heavy vehicles",
+          "my": "ဒီမျဉ်းသည် ယာဉ်ကြီးများအတွက်သာ သက်ဆိုင်သည်"
         }
       },
       {
         "text": {
-          "en": "The line only applies to heavy vehicles",
-          "my": "ဒီမျဉ်းသည် ယာဉ်ကြီးများအတွက်သာ သက်ဆိုင်သည်"
+          "en": "Overtaking across the line is always allowed for motorcycles",
+          "my": "ဆိုင်ကယ်များအတွက် မျဉ်းဖြတ်ကျော်ကာ ကျော်တက်ခြင်း အမြဲခွင့်ပြုသည်"
         }
       }
     ],
@@ -1481,6 +1481,12 @@
     "choices": [
       {
         "text": {
+          "en": "It is allowed only if accompanied by a licensed rider",
+          "my": "လိုင်စင်ရှိသော ယာဉ်မောင်းသူနှင့်အတူ လိုက်ပါလျှင်သာ ခွင့်ပြုသည်"
+        }
+      },
+      {
+        "text": {
           "en": "It is an offence of riding without a valid licence for that vehicle class",
           "my": "ထိုယာဉ်အတန်းအစားအတွက် တရားဝင်လိုင်စင်မရှိဘဲ မောင်းနှင်ခြင်း ပြစ်မှုဖြစ်သည်"
         }
@@ -1490,15 +1496,9 @@
           "en": "It is allowed since a Class 3 licence covers all vehicle types",
           "my": "Class 3 လိုင်စင်သည် ယာဉ်အမျိုးအစားအားလုံးကို လွှမ်းခြုံသောကြောင့် ခွင့်ပြုသည်"
         }
-      },
-      {
-        "text": {
-          "en": "It is allowed only if accompanied by a licensed rider",
-          "my": "လိုင်စင်ရှိသော ယာဉ်မောင်းသူနှင့်အတူ လိုက်ပါလျှင်သာ ခွင့်ပြုသည်"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "A Class 3 car licence does not authorise riding motorcycles; riding a Class 2B motorcycle without holding a valid Class 2B licence is an offence.",
       "my": "Class 3 ကားလိုင်စင်သည် ဆိုင်ကယ်မောင်းနှင်ခွင့်ကို ပေးအပ်ခြင်းမရှိပါ၊ တရားဝင် Class 2B လိုင်စင်မရှိဘဲ Class 2B ဆိုင်ကယ်ကို မောင်းနှင်ခြင်းသည် ပြစ်မှုတစ်ခုဖြစ်သည်။"
@@ -1516,14 +1516,14 @@
     "choices": [
       {
         "text": {
-          "en": "Find an alternative junction or turning point where it is permitted",
-          "my": "ခွင့်ပြုထားသော အခြားလမ်းဆုံ သို့မဟုတ် ပြန်လှည့်နေရာကို ရှာပါ"
+          "en": "U-turn anyway since motorcycles are exempt from this sign",
+          "my": "ဆိုင်ကယ်များသည် ဒီဆိုင်းဘုတ်မှ ကင်းလွတ်ခွင့်ရှိသောကြောင့် မည်သို့ပင်ဖြစ်စေ ပြန်လှည့်ပါ"
         }
       },
       {
         "text": {
-          "en": "U-turn anyway since motorcycles are exempt from this sign",
-          "my": "ဆိုင်ကယ်များသည် ဒီဆိုင်းဘုတ်မှ ကင်းလွတ်ခွင့်ရှိသောကြောင့် မည်သို့ပင်ဖြစ်စေ ပြန်လှည့်ပါ"
+          "en": "Find an alternative junction or turning point where it is permitted",
+          "my": "ခွင့်ပြုထားသော အခြားလမ်းဆုံ သို့မဟုတ် ပြန်လှည့်နေရာကို ရှာပါ"
         }
       },
       {
@@ -1533,7 +1533,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "A 'No U-Turn' sign applies to all vehicles including motorcycles; the rider must find another legal point to turn around.",
       "my": "'ပြန်လှည့်ခွင့်မရှိ' ဆိုင်းဘုတ်သည် ဆိုင်ကယ်အပါအဝင် ယာဉ်အားလုံးအတွက် သက်ဆိုင်သောကြောင့် ယာဉ်မောင်းသူသည် ဥပဒေနှင့်ညီသော အခြားနေရာကို ရှာရမည်။"
@@ -1551,6 +1551,12 @@
     "choices": [
       {
         "text": {
+          "en": "Sound the horn and change without checking mirrors",
+          "my": "ကြေးမှန်ကို မစစ်ဆေးဘဲ ဟွန်းတီးပြီး ပြောင်းပါ"
+        }
+      },
+      {
+        "text": {
           "en": "Check mirrors and blind spots, signal, then move only when safe",
           "my": "ကြေးမှန်နှင့် မျက်စိမမြင်ရသောနေရာများကို စစ်ဆေးပြီး အချက်ပြကာ ဘေးကင်းမှသာ ပြောင်းပါ"
         }
@@ -1560,15 +1566,9 @@
           "en": "Simply signal and change immediately",
           "my": "အချက်ပြရုံသာလုပ်ပြီး ချက်ချင်းပြောင်းပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Sound the horn and change without checking mirrors",
-          "my": "ကြေးမှန်ကို မစစ်ဆေးဘဲ ဟွန်းတီးပြီး ပြောင်းပါ"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Safe lane changes require checking mirrors and blind spots, signalling intention, and only moving when it is clearly safe to do so.",
       "my": "ဘေးကင်းသော လမ်းကြောပြောင်းခြင်းအတွက် ကြေးမှန်နှင့် မျက်စိမမြင်ရသောနေရာများကို စစ်ဆေးပြီး ရည်ရွယ်ချက်ကို အချက်ပြကာ ဘေးကင်းရှင်းလင်းမှသာ ပြောင်းရမည်။"
@@ -1627,14 +1627,14 @@
       },
       {
         "text": {
-          "en": "Riding in a dedicated motorcycle-only lane",
-          "my": "ဆိုင်ကယ်သီးသန့်လမ်းကြောတွင် မောင်းနှင်ခြင်း"
+          "en": "Overtaking on the right shoulder of an expressway",
+          "my": "အဝှေးလမ်းမ၏ ညာဘက်အစွန်းတွင် ကျော်တက်ခြင်း"
         }
       },
       {
         "text": {
-          "en": "Overtaking on the right shoulder of an expressway",
-          "my": "အဝှေးလမ်းမ၏ ညာဘက်အစွန်းတွင် ကျော်တက်ခြင်း"
+          "en": "Riding in a dedicated motorcycle-only lane",
+          "my": "ဆိုင်ကယ်သီးသန့်လမ်းကြောတွင် မောင်းနှင်ခြင်း"
         }
       }
     ],
@@ -1691,14 +1691,14 @@
     "choices": [
       {
         "text": {
-          "en": "Oil and rubber residue tend to accumulate in the centre, making it more slippery when wet",
-          "my": "ဆီနှင့် ရော်ဘာအညစ်အကြေးများသည် အလယ်တွင် စုစည်းတတ်ပြီး စိုစွတ်သောအခါ ပိုချော်လွယ်စေသည်"
+          "en": "The centre of the lane is always reserved for buses",
+          "my": "လမ်းကြောအလယ်သည် ဘတ်စ်ကားများအတွက်သာ အမြဲသီးသန့်ထားသည်"
         }
       },
       {
         "text": {
-          "en": "The centre of the lane is always reserved for buses",
-          "my": "လမ်းကြောအလယ်သည် ဘတ်စ်ကားများအတွက်သာ အမြဲသီးသန့်ထားသည်"
+          "en": "Oil and rubber residue tend to accumulate in the centre, making it more slippery when wet",
+          "my": "ဆီနှင့် ရော်ဘာအညစ်အကြေးများသည် အလယ်တွင် စုစည်းတတ်ပြီး စိုစွတ်သောအခါ ပိုချော်လွယ်စေသည်"
         }
       },
       {
@@ -1708,7 +1708,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Oil and rubber build-up commonly collects in the centre of a lane from vehicle traffic, becoming especially slippery when mixed with rainwater.",
       "my": "ဆီနှင့် ရော်ဘာအညစ်အကြေးများသည် ယာဉ်အသွားအလာများကြောင့် လမ်းကြောအလယ်တွင် ပုံမှန်စုစည်းတတ်ပြီး မိုးရေနှင့် ရောစပ်သောအခါ အထူးချော်လွယ်စေသည်။"
@@ -1726,6 +1726,12 @@
     "choices": [
       {
         "text": {
+          "en": "Whether the queue has more than ten vehicles",
+          "my": "ယာဉ်တန်းတွင် ယာဉ်ဆယ်စီးထက်ပိုမိုပါသလားကိုသာ"
+        }
+      },
+      {
+        "text": {
           "en": "Whether filtering is permitted there and if there is enough safe space between the vehicles",
           "my": "ထိုနေရာတွင် ဖြတ်ကျော်ခွင့်ရှိမရှိနှင့် ယာဉ်များကြားတွင် လုံလောက်သော ဘေးကင်းသည့်နေရာ ရှိမရှိ"
         }
@@ -1735,15 +1741,9 @@
           "en": "Only the colour of the vehicles in the queue",
           "my": "ယာဉ်တန်းရှိ ယာဉ်များ၏ အရောင်ကိုသာ"
         }
-      },
-      {
-        "text": {
-          "en": "Whether the queue has more than ten vehicles",
-          "my": "ယာဉ်တန်းတွင် ယာဉ်ဆယ်စီးထက်ပိုမိုပါသလားကိုသာ"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Riders must confirm filtering is legal and safe in that location, with enough space to pass without risking contact with vehicles or oncoming traffic.",
       "my": "ယာဉ်မောင်းသူများသည် ထိုနေရာတွင် ဖြတ်ကျော်ခြင်းသည် ဥပဒေနှင့်ညီပြီး ဘေးကင်းကြောင်းနှင့် ယာဉ်များ သို့မဟုတ် ဆန့်ကျင်ဘက်ယာဉ်များနှင့် ထိမိနိုင်ခြေမရှိအောင် လုံလောက်သောနေရာရှိကြောင်း သေချာစစ်ဆေးရမည်။"
@@ -1767,14 +1767,14 @@
       },
       {
         "text": {
-          "en": "Speed up to pass before the car begins turning",
-          "my": "ကားက ကွေ့မီ ဖြတ်သွားရန် မြန်နှုန်းမြှင့်ပါ"
+          "en": "Ignore the signal since the car is stationary",
+          "my": "ကားသည် ရပ်နားနေသောကြောင့် မီးပြကို ဂရုမစိုက်ပါ"
         }
       },
       {
         "text": {
-          "en": "Ignore the signal since the car is stationary",
-          "my": "ကားသည် ရပ်နားနေသောကြောင့် မီးပြကို ဂရုမစိုက်ပါ"
+          "en": "Speed up to pass before the car begins turning",
+          "my": "ကားက ကွေ့မီ ဖြတ်သွားရန် မြန်နှုန်းမြှင့်ပါ"
         }
       }
     ],
@@ -1796,14 +1796,14 @@
     "choices": [
       {
         "text": {
-          "en": "At least a two-second gap, increased in poor conditions",
-          "my": "အနည်းဆုံး စက္ကန့်နှစ်စက္ကန့် အကွာအဝေး၊ အခြေအနေဆိုးသောအခါ ပိုမိုတိုးချဲ့ပါ"
+          "en": "As close as possible to save time",
+          "my": "အချိန်ချွေတာရန် တတ်နိုင်သမျှနီးကပ်စွာ"
         }
       },
       {
         "text": {
-          "en": "As close as possible to save time",
-          "my": "အချိန်ချွေတာရန် တတ်နိုင်သမျှနီးကပ်စွာ"
+          "en": "At least a two-second gap, increased in poor conditions",
+          "my": "အနည်းဆုံး စက္ကန့်နှစ်စက္ကန့် အကွာအဝေး၊ အခြေအနေဆိုးသောအခါ ပိုမိုတိုးချဲ့ပါ"
         }
       },
       {
@@ -1813,7 +1813,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "A minimum two-second following gap gives a rider enough time to react and brake safely if the vehicle ahead stops suddenly.",
       "my": "အနည်းဆုံး စက္ကန့်နှစ်စက္ကန့် နောက်ခံအကွာအဝေးသည် ရှေ့ယာဉ် ရုတ်တရက်ရပ်လျှင် ယာဉ်မောင်းသူအား တုံ့ပြန်ပြီး ဘေးကင်းစွာ ဘရိတ်ကိုက်ရန် အချိန်လုံလောက်စွာ ပေးသည်။"
@@ -1831,8 +1831,8 @@
     "choices": [
       {
         "text": {
-          "en": "Position further toward the right of the lane, away from the parked vehicles",
-          "my": "ရပ်နားထားသောယာဉ်များမှ ဝေးကွာစေရန် လမ်းကြောညာဘက်သို့ ပိုမိုနေရာယူပါ"
+          "en": "Position does not matter if riding slowly",
+          "my": "နှေးနှေးမောင်းလျှင် နေရာက အရေးမကြီးပါ"
         }
       },
       {
@@ -1843,12 +1843,12 @@
       },
       {
         "text": {
-          "en": "Position does not matter if riding slowly",
-          "my": "နှေးနှေးမောင်းလျှင် နေရာက အရေးမကြီးပါ"
+          "en": "Position further toward the right of the lane, away from the parked vehicles",
+          "my": "ရပ်နားထားသောယာဉ်များမှ ဝေးကွာစေရန် လမ်းကြောညာဘက်သို့ ပိုမိုနေရာယူပါ"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Riding further from parked cars creates a safety buffer in case a door opens suddenly or a pedestrian steps out between vehicles.",
       "my": "ရပ်နားထားသောကားများမှ ပိုဝေးကွာစွာ မောင်းနှင်ခြင်းသည် ရုတ်တရက် တံခါးဖွင့်လှစ်ခြင်း သို့မဟုတ် ယာဉ်များကြားမှ လူတစ်ဦး ထွက်လာခြင်းအတွက် ဘေးကင်းရေးနေရာလပ်တစ်ခု ဖန်တီးပေးသည်။"
@@ -1866,14 +1866,14 @@
     "choices": [
       {
         "text": {
-          "en": "The heavy vehicle's driver cannot see the motorcycle and may change lanes or turn without warning",
-          "my": "ယာဉ်ကြီးယာဉ်မောင်းသူသည် ဆိုင်ကယ်ကို မမြင်နိုင်ဘဲ သတိပေးချက်မပါဘဲ လမ်းကြောပြောင်း သို့မဟုတ် ကွေ့နိုင်သည်"
+          "en": "It uses more fuel to ride beside a heavy vehicle",
+          "my": "ယာဉ်ကြီးဘေးတွင် မောင်းနှင်ခြင်းသည် လောင်စာဆီပိုသုံးသည်"
         }
       },
       {
         "text": {
-          "en": "It uses more fuel to ride beside a heavy vehicle",
-          "my": "ယာဉ်ကြီးဘေးတွင် မောင်းနှင်ခြင်းသည် လောင်စာဆီပိုသုံးသည်"
+          "en": "The heavy vehicle's driver cannot see the motorcycle and may change lanes or turn without warning",
+          "my": "ယာဉ်ကြီးယာဉ်မောင်းသူသည် ဆိုင်ကယ်ကို မမြင်နိုင်ဘဲ သတိပေးချက်မပါဘဲ လမ်းကြောပြောင်း သို့မဟုတ် ကွေ့နိုင်သည်"
         }
       },
       {
@@ -1883,7 +1883,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Heavy vehicles have large blind spots; staying in one for long increases the risk that the driver will not notice the motorcycle when manoeuvring.",
       "my": "ယာဉ်ကြီးများသည် ကျယ်ပြန့်သော မျက်စိမမြင်ရသောနေရာများရှိသောကြောင့် ထိုနေရာတွင် ကြာရှည်နေခြင်းသည် ယာဉ်မောင်းသူက ဆိုင်ကယ်ကို လှုပ်ရှားသောအခါ သတိမပြုနိုင်ခြေကို တိုးမြှင့်စေသည်။"
@@ -1901,12 +1901,6 @@
     "choices": [
       {
         "text": {
-          "en": "Debris, drain covers, and uneven surfaces often collect there, increasing the risk of losing control",
-          "my": "ထိုနေရာတွင် အညစ်အကြေး၊ စွန်ပြုစစင်အုပ်နှင့် မညီညွတ်သောမျက်နှာပြင်များ စုစည်းနေတတ်ပြီး ထိန်းချုပ်မှုဆုံးရှုံးနိုင်ခြေကို တိုးမြှင့်သည်"
-        }
-      },
-      {
-        "text": {
           "en": "It is the fastest part of the lane to ride in",
           "my": "လမ်းကြောတွင် အမြန်ဆုံးမောင်းနှင်နိုင်သောအပိုင်းဖြစ်သည်"
         }
@@ -1916,9 +1910,15 @@
           "en": "Riding there is always required by law",
           "my": "ထိုနေရာတွင် မောင်းနှင်ခြင်းကို ဥပဒေက အမြဲတမ်း တောင်းဆိုသည်"
         }
+      },
+      {
+        "text": {
+          "en": "Debris, drain covers, and uneven surfaces often collect there, increasing the risk of losing control",
+          "my": "ထိုနေရာတွင် အညစ်အကြေး၊ စွန်ပြုစစင်အုပ်နှင့် မညီညွတ်သောမျက်နှာပြင်များ စုစည်းနေတတ်ပြီး ထိန်းချုပ်မှုဆုံးရှုံးနိုင်ခြေကို တိုးမြှင့်သည်"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "The extreme edge of a lane often has debris, drain grates, and surface irregularities that can destabilise a motorcycle, especially when wet.",
       "my": "လမ်းကြောအစွန်းတွင် အညစ်အကြေး၊ စွန်ပြုစစင်အုပ်နှင့် မညီညွတ်သောမျက်နှာပြင်များ ရှိတတ်ပြီး အထူးသဖြင့် စိုစွတ်နေသောအခါ ဆိုင်ကယ်ကို မတည်ငြိမ်စေနိုင်သည်။"
@@ -1936,8 +1936,8 @@
     "choices": [
       {
         "text": {
-          "en": "Hold the handlebars firmly, maintain a steady speed, and gently correct the line",
-          "my": "လက်ကိုင်ကို ခိုင်ခိုင်ကိုင်ထားပြီး မြန်နှုန်းကို တည်ငြိမ်စွာထားကာ လမ်းကြောင်းကို ညင်သာစွာပြန်ညှိပါ"
+          "en": "Accelerate sharply to move past the wind zone quickly",
+          "my": "လေဇုန်ကို မြန်မြန်ကျော်ဖြတ်ရန် ပြင်းထန်စွာ အရှိန်မြှင့်ပါ"
         }
       },
       {
@@ -1948,12 +1948,12 @@
       },
       {
         "text": {
-          "en": "Accelerate sharply to move past the wind zone quickly",
-          "my": "လေဇုန်ကို မြန်မြန်ကျော်ဖြတ်ရန် ပြင်းထန်စွာ အရှိန်မြှင့်ပါ"
+          "en": "Hold the handlebars firmly, maintain a steady speed, and gently correct the line",
+          "my": "လက်ကိုင်ကို ခိုင်ခိုင်ကိုင်ထားပြီး မြန်နှုန်းကို တည်ငြိမ်စွာထားကာ လမ်းကြောင်းကို ညင်သာစွာပြန်ညှိပါ"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Sudden braking or sharp acceleration while off-balance can cause loss of control; gently correcting the line while keeping a steady speed is safer.",
       "my": "ထိန်းချုပ်မှုမညီသောအခါ ရုတ်တရက် ဘရိတ်ကိုက်ခြင်း သို့မဟုတ် ပြင်းထန်စွာ အရှိန်မြှင့်ခြင်းသည် ထိန်းချုပ်မှုဆုံးရှုံးစေနိုင်သောကြောင့် မြန်နှုန်းတည်ငြိမ်စွာ ထားကာ လမ်းကြောင်းကို ညင်သာစွာ ပြန်ညှိခြင်းသည် ပိုဘေးကင်းသည်။"
@@ -2006,12 +2006,6 @@
     "choices": [
       {
         "text": {
-          "en": "Filtering between moving traffic lanes on expressways is dangerous and discouraged; riders should use lanes normally",
-          "my": "အဝှေးလမ်းမများတွင် လှုပ်ရှားနေသော လမ်းကြောများကြား ဖြတ်ကျော်မောင်းနှင်ခြင်းသည် အန္တရာယ်ရှိပြီး အားမပေးသောကြောင့် ယာဉ်မောင်းသူများသည် လမ်းကြောများကို ပုံမှန်အသုံးပြုသင့်သည်"
-        }
-      },
-      {
-        "text": {
           "en": "Filtering is always safe at any speed on expressways",
           "my": "အဝှေးလမ်းမများတွင် မြန်နှုန်းမရွေး ဖြတ်ကျော်မောင်းနှင်ခြင်းသည် အမြဲဘေးကင်းသည်"
         }
@@ -2021,9 +2015,15 @@
           "en": "Filtering is only allowed for motorcycles over 400cc",
           "my": "ဖြတ်ကျော်မောင်းနှင်ခြင်းသည် 400cc အထက်ဆိုင်ကယ်များအတွက်သာ ခွင့်ပြုသည်"
         }
+      },
+      {
+        "text": {
+          "en": "Filtering between moving traffic lanes on expressways is dangerous and discouraged; riders should use lanes normally",
+          "my": "အဝှေးလမ်းမများတွင် လှုပ်ရှားနေသော လမ်းကြောများကြား ဖြတ်ကျော်မောင်းနှင်ခြင်းသည် အန္တရာယ်ရှိပြီး အားမပေးသောကြောင့် ယာဉ်မောင်းသူများသည် လမ်းကြောများကို ပုံမှန်အသုံးပြုသင့်သည်"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "At expressway speeds, filtering between moving lanes is far more dangerous than in slow city traffic, so riders should stay within a lane rather than weave between fast-moving vehicles.",
       "my": "အဝှေးလမ်းမအမြန်နှုန်းတွင် လှုပ်ရှားနေသော လမ်းကြောများကြား ဖြတ်ကျော်မောင်းနှင်ခြင်းသည် မြို့တွင်း နှေးနှေးယာဉ်အသွားအလာထက် အလွန်အန္တရာယ်ရှိသောကြောင့် ယာဉ်မောင်းသူများသည် မြန်နှုန်းမြင့်သော ယာဉ်များကြား ဖြတ်ကျော်မောင်းနှင်မည့်အစား လမ်းကြောတွင်းတွင်သာ ဆက်လက်နေသင့်သည်။"
@@ -2047,14 +2047,14 @@
       },
       {
         "text": {
-          "en": "Directly touching the rear bumper of the car",
-          "my": "ကား၏ နောက်ဘန်ဖာကို တိုက်ရိုက်ထိနေအောင်"
+          "en": "As far left as possible regardless of road conditions",
+          "my": "လမ်းအခြေအနေမရွေး ဘယ်ဘက်ဆုံးအထိ"
         }
       },
       {
         "text": {
-          "en": "As far left as possible regardless of road conditions",
-          "my": "လမ်းအခြေအနေမရွေး ဘယ်ဘက်ဆုံးအထိ"
+          "en": "Directly touching the rear bumper of the car",
+          "my": "ကား၏ နောက်ဘန်ဖာကို တိုက်ရိုက်ထိနေအောင်"
         }
       }
     ],
@@ -2082,14 +2082,14 @@
       },
       {
         "text": {
-          "en": "Sound the horn and continue filtering at the same speed",
-          "my": "ဟွန်းတီးပြီး တူညီသောမြန်နှုန်းနှင့် ဖြတ်ကျော်မောင်းနှင်ဆက်လုပ်ပါ"
+          "en": "Swerve around the pedestrian without slowing down",
+          "my": "မြန်နှုန်းမလျှော့ဘဲ လူကို ကွေ့ရှောင်ပါ"
         }
       },
       {
         "text": {
-          "en": "Swerve around the pedestrian without slowing down",
-          "my": "မြန်နှုန်းမလျှော့ဘဲ လူကို ကွေ့ရှောင်ပါ"
+          "en": "Sound the horn and continue filtering at the same speed",
+          "my": "ဟွန်းတီးပြီး တူညီသောမြန်နှုန်းနှင့် ဖြတ်ကျော်မောင်းနှင်ဆက်လုပ်ပါ"
         }
       }
     ],
@@ -2111,6 +2111,12 @@
     "choices": [
       {
         "text": {
+          "en": "Motorcycles do not have working mirrors",
+          "my": "ဆိုင်ကယ်များတွင် အလုပ်လုပ်သော ကြေးမှန်မရှိ"
+        }
+      },
+      {
+        "text": {
           "en": "Their smaller size makes them easy to miss in mirrors and shoulder checks",
           "my": "ပိုသေးငယ်သောအရွယ်အစားကြောင့် ကြေးမှန်နှင့် ပခုံးလှည့်စစ်ဆေးမှုတွင် လွတ်ကျော်တတ်သည်"
         }
@@ -2120,15 +2126,9 @@
           "en": "Motorcycles are required to ride only in blind spots",
           "my": "ဆိုင်ကယ်များသည် မျက်စိမမြင်ရသောနေရာများတွင်သာ မောင်းနှင်ရန် လိုအပ်သည်"
         }
-      },
-      {
-        "text": {
-          "en": "Motorcycles do not have working mirrors",
-          "my": "ဆိုင်ကယ်များတွင် အလုပ်လုပ်သော ကြေးမှန်မရှိ"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "A motorcycle's narrow profile can be easily hidden in a car or truck's mirror blind spots, so drivers may not notice it before changing lanes or turning.",
       "my": "ဆိုင်ကယ်၏ ကျဲသွယ်သောပုံသဏ္ဍာန်သည် ကား သို့မဟုတ် ထရပ်ကား၏ ကြေးမှန်မျက်စိမမြင်ရသောနေရာများတွင် လွယ်ကူစွာ ပျောက်ကွယ်နိုင်သောကြောင့် ယာဉ်မောင်းသူများသည် လမ်းကြောပြောင်း သို့မဟုတ် ကွေ့မီ မသတိမပြုနိုင်ပါ။"
@@ -2146,8 +2146,8 @@
     "choices": [
       {
         "text": {
-          "en": "Reflective or brightly coloured riding gear",
-          "my": "အလင်းပြန်ဖြစ်သော သို့မဟုတ် တောက်ပသောအရောင်ပါ ယာဉ်မောင်းအထည်"
+          "en": "Loose clothing with no specific colour requirement",
+          "my": "သီးသန့်အရောင်လိုအပ်ချက်မရှိသော ကျယ်သောအထည်"
         }
       },
       {
@@ -2158,12 +2158,12 @@
       },
       {
         "text": {
-          "en": "Loose clothing with no specific colour requirement",
-          "my": "သီးသန့်အရောင်လိုအပ်ချက်မရှိသော ကျယ်သောအထည်"
+          "en": "Reflective or brightly coloured riding gear",
+          "my": "အလင်းပြန်ဖြစ်သော သို့မဟုတ် တောက်ပသောအရောင်ပါ ယာဉ်မောင်းအထည်"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Reflective or bright clothing greatly improves a rider's visibility to other drivers, especially in low light or at night.",
       "my": "အလင်းပြန် သို့မဟုတ် တောက်ပသောအထည်များသည် အထူးသဖြင့် အလင်းအနည်းငယ်သာရှိသောအချိန် သို့မဟုတ် ညဘက်တွင် အခြားယာဉ်မောင်းသူများ ပိုမြင်နိုင်စေသည်။"
@@ -2181,12 +2181,6 @@
     "choices": [
       {
         "text": {
-          "en": "The driver may not see the motorcycle and could turn into its path",
-          "my": "ယာဉ်မောင်းသူသည် ဆိုင်ကယ်ကို မမြင်နိုင်ဘဲ ၎င်း၏လမ်းကြောင်းသို့ ကွေ့နိုင်သည်"
-        }
-      },
-      {
-        "text": {
           "en": "It is illegal to stop next to a large vehicle",
           "my": "ယာဉ်ကြီးတစ်စီးဘေးတွင် ရပ်နားခြင်းသည် ဥပဒေနှင့်မညီ"
         }
@@ -2196,9 +2190,15 @@
           "en": "Large vehicles always have right of way over motorcycles",
           "my": "ယာဉ်ကြီးများသည် ဆိုင်ကယ်များအပေါ် အမြဲဦးစားပေးခွင့်ရှိသည်"
         }
+      },
+      {
+        "text": {
+          "en": "The driver may not see the motorcycle and could turn into its path",
+          "my": "ယာဉ်မောင်းသူသည် ဆိုင်ကယ်ကို မမြင်နိုင်ဘဲ ၎င်း၏လမ်းကြောင်းသို့ ကွေ့နိုင်သည်"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Large vehicles have significant blind spots beside the cab; a rider positioned there may go unnoticed and be at risk if the vehicle turns.",
       "my": "ယာဉ်ကြီးများသည် ယာဉ်ဆာဘီးဘေးတွင် ကျယ်ပြန့်သော မျက်စိမမြင်ရသောနေရာများရှိသောကြောင့် ထိုနေရာရှိ ယာဉ်မောင်းသူကို သတိမပြုနိုင်ဘဲ ယာဉ်ကွေ့လျှင် အန္တရာယ်ရှိနိုင်သည်။"
@@ -2222,14 +2222,14 @@
       },
       {
         "text": {
-          "en": "Sound the horn loudly",
-          "my": "ဟွန်းကို ကျယ်လောင်စွာ တီးပါ"
+          "en": "Close the eyes briefly to focus",
+          "my": "အာရုံစူးစိုက်ရန် မျက်စိကို ခေတ္တမှိတ်ပါ"
         }
       },
       {
         "text": {
-          "en": "Close the eyes briefly to focus",
-          "my": "အာရုံစူးစိုက်ရန် မျက်စိကို ခေတ္တမှိတ်ပါ"
+          "en": "Sound the horn loudly",
+          "my": "ဟွန်းကို ကျယ်လောင်စွာ တီးပါ"
         }
       }
     ],
@@ -2251,8 +2251,8 @@
     "choices": [
       {
         "text": {
-          "en": "The car may move into the rider's lane soon, so the rider should be ready to adjust position or speed",
-          "my": "ကားသည် မကြာမီ ယာဉ်မောင်းသူ၏လမ်းကြောသို့ ရွေ့လှားလာနိုင်သောကြောင့် နေရာ သို့မဟုတ် မြန်နှုန်းကို ညှိရန် အသင့်ပြင်ထားသင့်သည်"
+          "en": "Signal lights on cars have no bearing on motorcyclists",
+          "my": "ကား၏ မီးပြများသည် ဆိုင်ကယ်မောင်းသူများအတွက် မသက်ဆိုင်ပါ"
         }
       },
       {
@@ -2263,12 +2263,12 @@
       },
       {
         "text": {
-          "en": "Signal lights on cars have no bearing on motorcyclists",
-          "my": "ကား၏ မီးပြများသည် ဆိုင်ကယ်မောင်းသူများအတွက် မသက်ဆိုင်ပါ"
+          "en": "The car may move into the rider's lane soon, so the rider should be ready to adjust position or speed",
+          "my": "ကားသည် မကြာမီ ယာဉ်မောင်းသူ၏လမ်းကြောသို့ ရွေ့လှားလာနိုင်သောကြောင့် နေရာ သို့မဟုတ် မြန်နှုန်းကို ညှိရန် အသင့်ပြင်ထားသင့်သည်"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A blinking turn signal warns that the car may change lanes into the rider's path; assuming the worst case and preparing to react keeps the rider safer.",
       "my": "ကွေ့မီးပြ မှိတ်တုတ်နေခြင်းသည် ကားသည် ယာဉ်မောင်းသူ၏ လမ်းကြောင်းသို့ လမ်းကြောပြောင်းနိုင်ကြောင်း သတိပေးသောကြောင့် အဆိုးဆုံးအခြေအနေကို ယူဆပြီး တုံ့ပြန်ရန် ပြင်ဆင်ထားခြင်းသည် ပိုဘေးကင်းသည်။"
@@ -2286,8 +2286,8 @@
     "choices": [
       {
         "text": {
-          "en": "To alert following drivers more clearly that the motorcycle is slowing suddenly",
-          "my": "ဆိုင်ကယ် ရုတ်တရက်မြန်နှုန်းလျှော့နေကြောင်း နောက်ကလာသောယာဉ်မောင်းသူများကို ပိုရှင်းလင်းစွာ သတိပေးရန်"
+          "en": "To indicate the motorcycle is turning left",
+          "my": "ဆိုင်ကယ် ဘယ်ဘက်ကွေ့နေကြောင်း ညွှန်ပြရန်"
         }
       },
       {
@@ -2298,12 +2298,12 @@
       },
       {
         "text": {
-          "en": "To indicate the motorcycle is turning left",
-          "my": "ဆိုင်ကယ် ဘယ်ဘက်ကွေ့နေကြောင်း ညွှန်ပြရန်"
+          "en": "To alert following drivers more clearly that the motorcycle is slowing suddenly",
+          "my": "ဆိုင်ကယ် ရုတ်တရက်မြန်နှုန်းလျှော့နေကြောင်း နောက်ကလာသောယာဉ်မောင်းသူများကို ပိုရှင်းလင်းစွာ သတိပေးရန်"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A brighter or flashing brake light draws extra attention from following drivers during sudden braking, reducing the chance of a rear-end collision.",
       "my": "ပိုတောက်ပ သို့မဟုတ် မှိတ်တုတ်နေသော ဘရိတ်မီးသည် ရုတ်တရက် ဘရိတ်ကိုက်စဉ် နောက်ကလာသော ယာဉ်မောင်းသူများကို ပိုအာရုံစူးစိုက်စေပြီး နောက်ကျောမှ တိုက်မိနိုင်ခြေကို လျှော့ချသည်။"
@@ -2356,8 +2356,8 @@
     "choices": [
       {
         "text": {
-          "en": "Moving slightly within the lane to create a sightline around the obstruction before proceeding",
-          "my": "ပိတ်ဆို့နေသောအရာပတ်လည် မြင်နိုင်ရန် ဆက်မသွားမီ လမ်းကြောအတွင်း အနည်းငယ်ရွေ့လျားပါ"
+          "en": "Accelerating past the parked vehicles quickly",
+          "my": "ရပ်နားထားသောယာဉ်များကို မြန်မြန်ဖြတ်ကျော်ပါ"
         }
       },
       {
@@ -2368,12 +2368,12 @@
       },
       {
         "text": {
-          "en": "Accelerating past the parked vehicles quickly",
-          "my": "ရပ်နားထားသောယာဉ်များကို မြန်မြန်ဖြတ်ကျော်ပါ"
+          "en": "Moving slightly within the lane to create a sightline around the obstruction before proceeding",
+          "my": "ပိတ်ဆို့နေသောအရာပတ်လည် မြင်နိုင်ရန် ဆက်မသွားမီ လမ်းကြောအတွင်း အနည်းငယ်ရွေ့လျားပါ"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Shifting position slightly within the lane gives the rider a better sightline around obstructions and also makes the motorcycle more visible to crossing traffic.",
       "my": "လမ်းကြောအတွင်း အနည်းငယ်ရွေ့လျားခြင်းသည် ယာဉ်မောင်းသူအား ပိတ်ဆို့နေသောအရာပတ်လည် ပိုကောင်းသော အမြင်ကိုပေးပြီး ဖြတ်ကျော်လာမည့် ယာဉ်များကိုလည်း ဆိုင်ကယ်ကို ပိုမြင်နိုင်စေသည်။"
@@ -2391,12 +2391,6 @@
     "choices": [
       {
         "text": {
-          "en": "It reduces how visible the rider's head and silhouette are to other drivers",
-          "my": "ယာဉ်မောင်းသူ၏ ခေါင်းနှင့်ပုံသဏ္ဍာန်ကို အခြားယာဉ်မောင်းသူများ မြင်နိုင်စွမ်းကို လျှော့ချသည်"
-        }
-      },
-      {
-        "text": {
           "en": "Dark helmets are illegal in Singapore",
           "my": "Singapore တွင် အရောင်နက်ဆောင်းထောက်များ ဥပဒေနှင့်မညီ"
         }
@@ -2406,9 +2400,15 @@
           "en": "Dark helmets provide less protection structurally",
           "my": "အရောင်နက်ဆောင်းထောက်များသည် ဖွဲ့စည်းပုံအားဖြင့် ကာကွယ်မှု နည်းသည်"
         }
+      },
+      {
+        "text": {
+          "en": "It reduces how visible the rider's head and silhouette are to other drivers",
+          "my": "ယာဉ်မောင်းသူ၏ ခေါင်းနှင့်ပုံသဏ္ဍာန်ကို အခြားယာဉ်မောင်းသူများ မြင်နိုင်စွမ်းကို လျှော့ချသည်"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A dark, non-reflective helmet blends into the night background, making the rider's head and overall silhouette harder for other drivers to spot.",
       "my": "အရောင်နက်နေပြီး အလင်းမပြန်သော ဆောင်းထောက်သည် ညဘက်နောက်ခံနှင့် ရောစပ်သွားတတ်ပြီး အခြားယာဉ်မောင်းသူများ ယာဉ်မောင်းသူ၏ ခေါင်းနှင့်ပုံသဏ္ဍာန်ကို ပိုရှာဖွေရခက်စေသည်။"
@@ -2426,6 +2426,12 @@
     "choices": [
       {
         "text": {
+          "en": "There is no blind spot risk when overtaking a lorry",
+          "my": "ကုန်တင်ကားကို ကျော်တက်ရာတွင် မျက်စိမမြင်ရသောနေရာ အန္တရာယ် လုံးဝမရှိ"
+        }
+      },
+      {
+        "text": {
           "en": "The area directly beside and slightly behind the driver's cab, where the rider lingers longest during overtaking",
           "my": "ကျော်တက်စဉ် ယာဉ်မောင်းသူ အကြာရှည်ဆုံးနေသော ယာဉ်မောင်းခန်းဘေးနှင့် အနည်းငယ်နောက်ကျောရှိနေရာ"
         }
@@ -2435,15 +2441,9 @@
           "en": "The area directly in front of the lorry",
           "my": "ကုန်တင်ကား၏ တိုက်ရိုက်ရှေ့ရှိနေရာ"
         }
-      },
-      {
-        "text": {
-          "en": "There is no blind spot risk when overtaking a lorry",
-          "my": "ကုန်တင်ကားကို ကျော်တက်ရာတွင် မျက်စိမမြင်ရသောနေရာ အန္တရာယ် လုံးဝမရှိ"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "The zone beside and slightly behind a lorry's cab is a major blind spot; riders should overtake decisively and not linger there.",
       "my": "ကုန်တင်ကား ယာဉ်မောင်းခန်းဘေးနှင့် အနည်းငယ်နောက်ကျောရှိနေရာသည် အဓိက မျက်စိမမြင်ရသောနေရာဖြစ်သောကြောင့် ယာဉ်မောင်းသူများသည် ဆုံးဖြတ်ချက်ပြတ်သားစွာ ကျော်တက်ပြီး ထိုနေရာတွင် ကြာရှည်မနေသင့်ပါ။"
@@ -2531,12 +2531,6 @@
     "choices": [
       {
         "text": {
-          "en": "It reduces tyre grip suddenly, which can cause the wheels to slide out from under the rider",
-          "my": "တာယာ၏ ကိုက်ညီမှုကို ရုတ်တရက်လျှော့ချနိုင်ပြီး ဆိုင်ကယ်ဘီးများ ချော်ချွတ်လမ်းဖယ်သွားနိုင်သည်"
-        }
-      },
-      {
-        "text": {
           "en": "It only affects four-wheeled vehicles",
           "my": "ဘီးလေးဘီးယာဉ်များကိုသာ ထိခိုက်စေသည်"
         }
@@ -2546,9 +2540,15 @@
           "en": "It improves traction for motorcycle tyres",
           "my": "ဆိုင်ကယ်တာယာအတွက် ကိုက်ညီမှုကို တိုးတက်စေသည်"
         }
+      },
+      {
+        "text": {
+          "en": "It reduces tyre grip suddenly, which can cause the wheels to slide out from under the rider",
+          "my": "တာယာ၏ ကိုက်ညီမှုကို ရုတ်တရက်လျှော့ချနိုင်ပြီး ဆိုင်ကယ်ဘီးများ ချော်ချွတ်လမ်းဖယ်သွားနိုင်သည်"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Gravel acts like small ball bearings under the tyres, suddenly reducing grip while leaning and increasing the risk of a slide or fall.",
       "my": "ကျောက်စရစ်များသည် ယိမ်းကွေ့နေစဉ် တာယာအောက်တွင် ဘောလ်ဘယ်ရင်အသေးလေးများကဲ့သို့ လုပ်ဆောင်ပြီး ရုတ်တရက် ကိုက်ညီမှုလျှော့ချကာ ချော်ချွတ် သို့မဟုတ် လဲကျနိုင်ခြေကို တိုးမြှင့်စေသည်။"
@@ -2566,14 +2566,14 @@
     "choices": [
       {
         "text": {
-          "en": "Slow down before the corner, then maintain a steady, smooth throttle through the turn",
-          "my": "ကွေ့ချိုးမတိုင်မီ မြန်နှုန်းလျှော့ပြီး ကွေ့ချိုးကိုဖြတ်သန်းစဉ် ဂတ်စ်ကို တည်ငြိမ်ညင်သာစွာ ထိန်းထားပါ"
+          "en": "Accelerate hard right at the start of the corner",
+          "my": "ကွေ့ချိုးအစတွင် ပြင်းထန်စွာ အရှိန်မြှင့်ပါ"
         }
       },
       {
         "text": {
-          "en": "Accelerate hard right at the start of the corner",
-          "my": "ကွေ့ချိုးအစတွင် ပြင်းထန်စွာ အရှိန်မြှင့်ပါ"
+          "en": "Slow down before the corner, then maintain a steady, smooth throttle through the turn",
+          "my": "ကွေ့ချိုးမတိုင်မီ မြန်နှုန်းလျှော့ပြီး ကွေ့ချိုးကိုဖြတ်သန်းစဉ် ဂတ်စ်ကို တည်ငြိမ်ညင်သာစွာ ထိန်းထားပါ"
         }
       },
       {
@@ -2583,7 +2583,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Reducing speed before entering a corner and keeping smooth, steady throttle through the turn helps maintain tyre grip and balance.",
       "my": "ကွေ့ချိုးမဝင်မီ မြန်နှုန်းလျှော့ပြီး ကွေ့ချိုးကို ဖြတ်သန်းစဉ် ဂတ်စ်ကို ညင်သာတည်ငြိမ်စွာထားခြင်းသည် တာယာကိုက်ညီမှုနှင့် ညီမျှမှုကို ထိန်းသိမ်းနိုင်စေသည်။"
@@ -2601,14 +2601,14 @@
     "choices": [
       {
         "text": {
-          "en": "Look further into the corner, gently lean more, and avoid sudden braking",
-          "my": "ကွေ့ချိုးအတွင်းသို့ ပိုကြည့်ပြီး ညင်သာစွာ ပိုယိမ်းကာ ရုတ်တရက် ဘရိတ်ကိုက်ခြင်းကို ရှောင်ပါ"
+          "en": "Brake hard with the front brake immediately",
+          "my": "ချက်ချင်း ရှေ့ဘရိတ်ကို ပြင်းပြင်းကိုက်ပါ"
         }
       },
       {
         "text": {
-          "en": "Brake hard with the front brake immediately",
-          "my": "ချက်ချင်း ရှေ့ဘရိတ်ကို ပြင်းပြင်းကိုက်ပါ"
+          "en": "Look further into the corner, gently lean more, and avoid sudden braking",
+          "my": "ကွေ့ချိုးအတွင်းသို့ ပိုကြည့်ပြီး ညင်သာစွာ ပိုယိမ်းကာ ရုတ်တရက် ဘရိတ်ကိုက်ခြင်းကို ရှောင်ပါ"
         }
       },
       {
@@ -2618,7 +2618,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Looking further into the corner and gently increasing lean angle helps tighten the line; sudden hard braking mid-corner can cause loss of traction and a crash.",
       "my": "ကွေ့ချိုးအတွင်းသို့ ပိုကြည့်ပြီး ညင်သာစွာ ယိမ်းထောင့်ကို တိုးမြှင့်ခြင်းသည် လမ်းကြောင်းကို ပိုကျဥ်းစေသည်၊ ကွေ့ဆဲတွင် ရုတ်တရက် ပြင်းထန်စွာ ဘရိတ်ကိုက်ခြင်းသည် ကိုက်ညီမှုဆုံးရှုံးပြီး တိုက်မိနိုင်ခြေရှိသည်။"
@@ -2636,14 +2636,14 @@
     "choices": [
       {
         "text": {
-          "en": "Smooth metal surfaces reduce tyre grip and can destabilise the motorcycle, especially if crossed at a sharp angle",
-          "my": "ချောမွတ်သောသတ္တုမျက်နှာပြင်များသည် တာယာကိုက်ညီမှုကို လျှော့ချပြီး အထူးသဖြင့် ထောင့်ကျဉ်းစွာဖြတ်ကျော်လျှင် ဆိုင်ကယ်ကို မတည်ငြိမ်စေနိုင်သည်"
+          "en": "It is required by law to stop completely at every metal plate",
+          "my": "သတ္တုချပ်တိုင်းတွင် လုံးဝရပ်ရန် ဥပဒေက တောင်းဆိုသည်"
         }
       },
       {
         "text": {
-          "en": "It is required by law to stop completely at every metal plate",
-          "my": "သတ္တုချပ်တိုင်းတွင် လုံးဝရပ်ရန် ဥပဒေက တောင်းဆိုသည်"
+          "en": "Smooth metal surfaces reduce tyre grip and can destabilise the motorcycle, especially if crossed at a sharp angle",
+          "my": "ချောမွတ်သောသတ္တုမျက်နှာပြင်များသည် တာယာကိုက်ညီမှုကို လျှော့ချပြီး အထူးသဖြင့် ထောင့်ကျဉ်းစွာဖြတ်ကျော်လျှင် ဆိုင်ကယ်ကို မတည်ငြိမ်စေနိုင်သည်"
         }
       },
       {
@@ -2653,7 +2653,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Smooth, often slippery metal surfaces offer less grip than asphalt; crossing at a steep angle increases the chance of the front wheel sliding.",
       "my": "ချောမွတ်ပြီး ပုံမှန်ချော်လွယ်သော သတ္တုမျက်နှာပြင်များသည် ကတ္တရာထက် ကိုက်ညီမှု နည်းသောကြောင့် ထောင့်စောက်စွာ ဖြတ်ကျော်ခြင်းသည် ရှေ့ဘီးချော်ချွတ်နိုင်ခြေကို တိုးမြှင့်သည်။"
@@ -2671,6 +2671,12 @@
     "choices": [
       {
         "text": {
+          "en": "Leaning the body opposite to the direction of the turn",
+          "my": "ကွေ့ချိုးဦးတည်ရာနှင့် ဆန့်ကျင်ဘက်သို့ ကိုယ်ကိုယိမ်းပါ"
+        }
+      },
+      {
+        "text": {
           "en": "A relaxed grip on the handlebars with the body looking and leaning naturally with the motorcycle",
           "my": "လက်ကိုင်ကို တင်းကြပ်စွာမကိုင်ဘဲ ဆိုင်ကယ်နှင့်အတူ သဘာဝအတိုင်း ကြည့်ပြီး ယိမ်းကွေ့သော ကိုယ်ထားနေရာ"
         }
@@ -2680,15 +2686,9 @@
           "en": "Gripping the handlebars as tightly as possible at all times",
           "my": "လက်ကိုင်ကို အချိန်တိုင်း တတ်နိုင်သမျှတင်းကြပ်စွာကိုင်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Leaning the body opposite to the direction of the turn",
-          "my": "ကွေ့ချိုးဦးတည်ရာနှင့် ဆန့်ကျင်ဘက်သို့ ကိုယ်ကိုယိမ်းပါ"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "A relaxed grip allows the motorcycle to respond naturally, while looking and leaning with the bike through the turn helps maintain balance and a smooth line.",
       "my": "ပေါ့ပေါ့ကိုင်ထားခြင်းသည် ဆိုင်ကယ်ကို သဘာဝအတိုင်း တုံ့ပြန်နိုင်စေပြီး ဆိုင်ကယ်နှင့်အတူ ကွေ့ချိုးကိုဖြတ်သန်းစဉ် ကြည့်ပြီးယိမ်းကွေ့ခြင်းသည် ညီမျှမှုနှင့် ညင်သာသောလမ်းကြောင်းကို ထိန်းသိမ်းနိုင်စေသည်။"
@@ -2706,6 +2706,12 @@
     "choices": [
       {
         "text": {
+          "en": "Brake hard in the middle of the corner once it tightens",
+          "my": "ကွေ့ချိုးကျဥ်းလာသောအခါ အလယ်တွင် ပြင်းထန်စွာ ဘရိတ်ကိုက်ပါ"
+        }
+      },
+      {
+        "text": {
           "en": "Brake before entering, then enter slower than usual to allow margin for the tightening curve",
           "my": "ဝင်မီ ဘရိတ်ကိုက်ပြီး ကျဥ်းလာသောကွေ့ချိုးအတွက် နေရာချန်ထားရန် ပုံမှန်ထက်နှေးနှေးဝင်ပါ"
         }
@@ -2715,15 +2721,9 @@
           "en": "Enter at normal speed and accelerate through the apex",
           "my": "ပုံမှန်မြန်နှုန်းနှင့်ဝင်ပြီး အလယ်ကွေ့ချက်တွင် အရှိန်မြှင့်ပါ"
         }
-      },
-      {
-        "text": {
-          "en": "Brake hard in the middle of the corner once it tightens",
-          "my": "ကွေ့ချိုးကျဥ်းလာသောအခါ အလယ်တွင် ပြင်းထန်စွာ ဘရိတ်ကိုက်ပါ"
-        }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Decreasing-radius corners get sharper as you go; braking before entry and taking a slower, conservative entry speed leaves margin to tighten the line safely without mid-corner braking.",
       "my": "ထောင့်ရှင်းလာသောကွေ့ချိုးများသည် ဆက်သွားသည်နှင့်အမျှ ပိုစောက်လာသောကြောင့် ဝင်မီဘရိတ်ကိုက်ပြီး သတိနှင့်နှေးသောမြန်နှုန်းနှင့်ဝင်ခြင်းသည် ကွေ့ချိုးအလယ်တွင် ဘရိတ်မကိုက်ဘဲ ဘေးကင်းစွာ လမ်းကြောင်းကျဥ်းနိုင်ရန် နေရာချန်ပေးသည်။"
@@ -2741,14 +2741,14 @@
     "choices": [
       {
         "text": {
-          "en": "Smoother and more slippery than the surrounding road surface, especially when wet",
-          "my": "ပတ်ဝန်းကျင်လမ်းမျက်နှာပြင်ထက် ပိုချောမွတ်ပြီး အထူးသဖြင့် စိုစွတ်နေသောအခါ ပိုချော်လွယ်သည်"
+          "en": "Higher in elevation than the rest of the road",
+          "my": "လမ်းအခြားအပိုင်းထက် အမြင့်ပိုများသည်"
         }
       },
       {
         "text": {
-          "en": "Higher in elevation than the rest of the road",
-          "my": "လမ်းအခြားအပိုင်းထက် အမြင့်ပိုများသည်"
+          "en": "Smoother and more slippery than the surrounding road surface, especially when wet",
+          "my": "ပတ်ဝန်းကျင်လမ်းမျက်နှာပြင်ထက် ပိုချောမွတ်ပြီး အထူးသဖြင့် စိုစွတ်နေသောအခါ ပိုချော်လွယ်သည်"
         }
       },
       {
@@ -2758,7 +2758,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Painted markings often have a smoother texture than asphalt and become especially slippery when wet, reducing tyre grip while leaning through a turn.",
       "my": "ပန်းချီအမှတ်အသားများသည် ကတ္တရာထက် ပိုချောမွတ်သောအနေအထားရှိတတ်ပြီး စိုစွတ်နေသောအခါ အထူးချော်လွယ်ကာ ကွေ့ချိုးကို ယိမ်းကွေ့စဉ် တာယာကိုက်ညီမှုကို လျှော့ချသည်။"
@@ -2852,14 +2852,14 @@
       },
       {
         "text": {
-          "en": "Accelerate quickly to get through before losing balance",
-          "my": "ဟန်ချက်မပျောက်မီ မြန်မြန်ဖြတ်ရန် အရှိန်တိုးပါ"
+          "en": "Brake hard while inside the puddle",
+          "my": "ရေအိုင်အတွင်းရှိနေချိန် ပြင်းပြင်းဘရိတ်နှိပ်ပါ"
         }
       },
       {
         "text": {
-          "en": "Brake hard while inside the puddle",
-          "my": "ရေအိုင်အတွင်းရှိနေချိန် ပြင်းပြင်းဘရိတ်နှိပ်ပါ"
+          "en": "Accelerate quickly to get through before losing balance",
+          "my": "ဟန်ချက်မပျောက်မီ မြန်မြန်ဖြတ်ရန် အရှိန်တိုးပါ"
         }
       }
     ],
@@ -2881,14 +2881,14 @@
     "choices": [
       {
         "text": {
-          "en": "They reduce tyre grip significantly and can cause a sudden slide, especially while turning",
-          "my": "ဘီးကိုက်မှုကို သိသိသာသာ လျော့ချပြီး အထူးသဖြင့် ကွေ့နေချိန် ရုတ်တရက် ချော်လိမ့်စေနိုင်သည်"
+          "en": "They have no effect on two-wheeled vehicles",
+          "my": "ဘီးနှစ်ခုပါ ယာဉ်များကို မထိခိုက်ပါ"
         }
       },
       {
         "text": {
-          "en": "They have no effect on two-wheeled vehicles",
-          "my": "ဘီးနှစ်ခုပါ ယာဉ်များကို မထိခိုက်ပါ"
+          "en": "They reduce tyre grip significantly and can cause a sudden slide, especially while turning",
+          "my": "ဘီးကိုက်မှုကို သိသိသာသာ လျော့ချပြီး အထူးသဖြင့် ကွေ့နေချိန် ရုတ်တရက် ချော်လိမ့်စေနိုင်သည်"
         }
       },
       {
@@ -2898,7 +2898,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Loose gravel or sand reduces the contact patch grip of a motorcycle tyre much more than for a four-wheeled vehicle, so riders should slow down and avoid sudden lean angles on such surfaces.",
       "my": "ကျောက်စရစ် သို့မဟုတ် သဲလွတ်များသည် ဆိုင်ကယ်ဘီး၏ ကိုက်မှုကို ဘီးလေးလေးထက် များစွာ လျော့ချသည် — ထို့ကြောင့် ယာဉ်မောင်းသူများသည် ထိုမျက်နှာပြင်များတွင် အရှိန်လျှော့ပြီး ရုတ်တရက် ညိမ့်ခြင်းကို ရှောင်ရှားသင့်သည်။"
@@ -2922,14 +2922,14 @@
       },
       {
         "text": {
-          "en": "Increase speed to pass through the gust quickly",
-          "my": "လေတိုက်နေသောနေရာကို မြန်မြန်ဖြတ်ရန် အရှိန်တိုးပါ"
+          "en": "Lean away from the wind direction at all times",
+          "my": "လေတိုက်ရာဘက်နှင့် ဆန့်ကျင်ဖက်သို့ အမြဲတမ်း ညိမ့်ထားပါ"
         }
       },
       {
         "text": {
-          "en": "Lean away from the wind direction at all times",
-          "my": "လေတိုက်ရာဘက်နှင့် ဆန့်ကျင်ဖက်သို့ အမြဲတမ်း ညိမ့်ထားပါ"
+          "en": "Increase speed to pass through the gust quickly",
+          "my": "လေတိုက်နေသောနေရာကို မြန်မြန်ဖြတ်ရန် အရှိန်တိုးပါ"
         }
       }
     ],
@@ -2957,14 +2957,14 @@
       },
       {
         "text": {
-          "en": "The road actually has more grip when first wet",
-          "my": "လမ်းသည် ပထမစွတ်စိုချိန် ကိုက်မှု ပိုများသည်"
+          "en": "This only affects cars, not motorcycles",
+          "my": "ကားများကိုသာ ထိခိုက်ပြီး ဆိုင်ကယ်များကို မထိခိုက်ပါ"
         }
       },
       {
         "text": {
-          "en": "This only affects cars, not motorcycles",
-          "my": "ကားများကိုသာ ထိခိုက်ပြီး ဆိုင်ကယ်များကို မထိခိုက်ပါ"
+          "en": "The road actually has more grip when first wet",
+          "my": "လမ်းသည် ပထမစွတ်စိုချိန် ကိုက်မှု ပိုများသည်"
         }
       }
     ],
@@ -2992,14 +2992,14 @@
       },
       {
         "text": {
-          "en": "Continue at the same speed regardless of visibility",
-          "my": "မြင်နိုင်စွမ်းမည်သို့ပင်ရှိစေ ထိုအမြန်နှုန်းအတိုင်း ဆက်သွားပါ"
+          "en": "Remove the helmet visor to see better",
+          "my": "ပိုမြင်ရန် ဦးထုပ်မျက်နှာစောင်းကို ဖြုတ်ပါ"
         }
       },
       {
         "text": {
-          "en": "Remove the helmet visor to see better",
-          "my": "ပိုမြင်ရန် ဦးထုပ်မျက်နှာစောင်းကို ဖြုတ်ပါ"
+          "en": "Continue at the same speed regardless of visibility",
+          "my": "မြင်နိုင်စွမ်းမည်သို့ပင်ရှိစေ ထိုအမြန်နှုန်းအတိုင်း ဆက်သွားပါ"
         }
       }
     ],
@@ -3021,14 +3021,14 @@
     "choices": [
       {
         "text": {
-          "en": "Spray from its tyres can reduce visibility and braking distances increase on wet roads",
-          "my": "ထိုယာဉ်၏ ဘီးများမှ ရေပန်းသည် မြင်နိုင်စွမ်းကို လျော့ချနိုင်ပြီး စွတ်စိုသောလမ်းများတွင် ဘရိတ်ရပ်ရန်အကွာအဝေးလည်း တိုးလာသည်"
+          "en": "Heavy vehicles brake faster than motorcycles, so distance can be reduced",
+          "my": "ယာဉ်ကြီးများသည် ဆိုင်ကယ်ထက် ပိုမြန်စွာဘရိတ်ရပ်သောကြောင့် အကွာအဝေးကို လျှော့ချနိုင်သည်"
         }
       },
       {
         "text": {
-          "en": "Heavy vehicles brake faster than motorcycles, so distance can be reduced",
-          "my": "ယာဉ်ကြီးများသည် ဆိုင်ကယ်ထက် ပိုမြန်စွာဘရိတ်ရပ်သောကြောင့် အကွာအဝေးကို လျှော့ချနိုင်သည်"
+          "en": "Spray from its tyres can reduce visibility and braking distances increase on wet roads",
+          "my": "ထိုယာဉ်၏ ဘီးများမှ ရေပန်းသည် မြင်နိုင်စွမ်းကို လျော့ချနိုင်ပြီး စွတ်စိုသောလမ်းများတွင် ဘရိတ်ရပ်ရန်အကွာအဝေးလည်း တိုးလာသည်"
         }
       },
       {
@@ -3038,7 +3038,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Tyre spray from heavy vehicles reduces a rider's visibility, and wet roads increase stopping distances for everyone — both reasons call for extra following distance.",
       "my": "ယာဉ်ကြီးများမှ ဘီးရေပန်းသည် ယာဉ်မောင်းသူ၏ မြင်နိုင်စွမ်းကို လျော့ချပြီး၊ စွတ်စိုသောလမ်းများသည် လူတိုင်းအတွက် ရပ်ရန်အကွာအဝေးကို တိုးစေသည် — ဒီနှစ်ချက်ကြောင့် နောက်လိုက်အကွာအဝေး ပိုမိုလိုအပ်သည်။"
@@ -3091,8 +3091,8 @@
     "choices": [
       {
         "text": {
-          "en": "Wet leaves can be as slippery as ice and hide the actual road surface underneath",
-          "my": "စွတ်စိုနေသော သစ်ရွက်များသည် ရေခဲကဲ့သို့ ချော်လိမ့်နိုင်ပြီး အောက်ရှိ လမ်းမျက်နှာပြင် အစစ်ကိုလည်း ဖျောက်ထားသည်"
+          "en": "Leaves only affect bicycles, not motorcycles",
+          "my": "စက်ဘီးများကိုသာ ထိခိုက်ပြီး ဆိုင်ကယ်များကို မထိခိုက်ပါ"
         }
       },
       {
@@ -3103,12 +3103,12 @@
       },
       {
         "text": {
-          "en": "Leaves only affect bicycles, not motorcycles",
-          "my": "စက်ဘီးများကိုသာ ထိခိုက်ပြီး ဆိုင်ကယ်များကို မထိခိုက်ပါ"
+          "en": "Wet leaves can be as slippery as ice and hide the actual road surface underneath",
+          "my": "စွတ်စိုနေသော သစ်ရွက်များသည် ရေခဲကဲ့သို့ ချော်လိမ့်နိုင်ပြီး အောက်ရှိ လမ်းမျက်နှာပြင် အစစ်ကိုလည်း ဖျောက်ထားသည်"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Wet leaf litter can be extremely slippery and may conceal potholes, oil patches, or debris on the road underneath, so riders should slow down and avoid sudden steering inputs over it.",
       "my": "စွတ်စိုနေသော သစ်ရွက်အစများသည် အလွန်ချော်လိမ့်နိုင်ပြီး အောက်ရှိ ရေပူပေါ်များ၊ ဆီအစများ သို့မဟုတ် အမှိုက်များကို ဖျောက်ထားနိုင်သည် — ယာဉ်မောင်းသူများသည် အရှိန်လျှော့ပြီး ထိုနေရာများပေါ်တွင် ရုတ်တရက် ဘီးကွေ့ခြင်းကို ရှောင်ရှားသင့်သည်။"
@@ -3161,8 +3161,8 @@
     "choices": [
       {
         "text": {
-          "en": "An approved, properly fastened safety helmet",
-          "my": "ထောက်ခံထားသော၊ မှန်ကန်စွာတပ်ဆင်ထားသော ဘေးကင်းရေးဦးထုပ်"
+          "en": "No protective gear is legally required",
+          "my": "ဥပဒေအရ ကာကွယ်ရေးပစ္စည်း မလိုအပ်ပါ"
         }
       },
       {
@@ -3173,12 +3173,12 @@
       },
       {
         "text": {
-          "en": "No protective gear is legally required",
-          "my": "ဥပဒေအရ ကာကွယ်ရေးပစ္စည်း မလိုအပ်ပါ"
+          "en": "An approved, properly fastened safety helmet",
+          "my": "ထောက်ခံထားသော၊ မှန်ကန်စွာတပ်ဆင်ထားသော ဘေးကင်းရေးဦးထုပ်"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Singapore law requires both the rider and pillion passenger to wear an approved safety helmet, properly fastened, at all times while riding.",
       "my": "Singapore ဥပဒေအရ ယာဉ်မောင်းသူနှင့် ပွဲတွဲစီးသူ နှစ်ဦးစလုံးသည် ထောက်ခံထားသော ဘေးကင်းရေးဦးထုပ်ကို မှန်ကန်စွာ တပ်ဆင်ပြီး အမြဲတမ်း ဆောင်ဆောင်ရမည်။"
@@ -3196,14 +3196,14 @@
     "choices": [
       {
         "text": {
-          "en": "An unfastened helmet can fly off the head during a fall, providing no protection when it is needed most",
-          "my": "ကြိုးမချည်ထားသော ဦးထုပ်သည် ကျရှုံးချိန် ခေါင်းမှ ပျံကျသွားနိုင်ပြီး အလိုအရဆုံးအချိန်တွင် ကာကွယ်မှု မရှိနိုင်ပါ"
+          "en": "The chin strap is purely for comfort and has no safety function",
+          "my": "ပါးစေ့ကြိုးသည် အဆင်ပြေမှုအတွက်သာ ဖြစ်ပြီး ဘေးကင်းရေးလုပ်ငန်းမှု မရှိပါ"
         }
       },
       {
         "text": {
-          "en": "The chin strap is purely for comfort and has no safety function",
-          "my": "ပါးစေ့ကြိုးသည် အဆင်ပြေမှုအတွက်သာ ဖြစ်ပြီး ဘေးကင်းရေးလုပ်ငန်းမှု မရှိပါ"
+          "en": "An unfastened helmet can fly off the head during a fall, providing no protection when it is needed most",
+          "my": "ကြိုးမချည်ထားသော ဦးထုပ်သည် ကျရှုံးချိန် ခေါင်းမှ ပျံကျသွားနိုင်ပြီး အလိုအရဆုံးအချိန်တွင် ကာကွယ်မှု မရှိနိုင်ပါ"
         }
       },
       {
@@ -3213,7 +3213,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "The chin strap keeps the helmet securely on the head during an impact; an unfastened strap allows the helmet to come off exactly when protection is most needed.",
       "my": "ပါးစေ့ကြိုးသည် ထိခိုက်မှုဖြစ်ချိန် ဦးထုပ်ကို ခေါင်းပေါ်တွင် တည်ငြိမ်စွာ ထားရှိပေးသည် — ကြိုးမချည်ထားလျှင် ကာကွယ်မှု အလိုအရဆုံးအချိန်တွင် ဦးထုပ်ကျွတ်သွားနိုင်သည်။"
@@ -3237,14 +3237,14 @@
       },
       {
         "text": {
-          "en": "The pillion can stand on the rear seat for a better view",
-          "my": "ပွဲတွဲသည် ပိုကောင်းသော မြင်ကွင်းအတွက် နောက်ထိုင်ခုံပေါ်တွင် ရပ်နေနိုင်သည်"
+          "en": "There are no requirements for carrying a pillion",
+          "my": "ပွဲတွဲစီးခွင့်ပြုရန် မည်သည့်လိုအပ်ချက်မှ မရှိပါ"
         }
       },
       {
         "text": {
-          "en": "There are no requirements for carrying a pillion",
-          "my": "ပွဲတွဲစီးခွင့်ပြုရန် မည်သည့်လိုအပ်ချက်မှ မရှိပါ"
+          "en": "The pillion can stand on the rear seat for a better view",
+          "my": "ပွဲတွဲသည် ပိုကောင်းသော မြင်ကွင်းအတွက် နောက်ထိုင်ခုံပေါ်တွင် ရပ်နေနိုင်သည်"
         }
       }
     ],
@@ -3301,12 +3301,6 @@
     "choices": [
       {
         "text": {
-          "en": "They reduce the severity of abrasion and impact injuries to the skin and joints in a fall, even at low speed",
-          "my": "နိမ့်သောအမြန်နှုန်းတွင်ပင် ကျရှုံးပါက အရေပြားနှင့် အဆစ်များကို ပွတ်တိုက်ခြင်းနှင့် ထိခိုက်ဒဏ်ရာများကို လျှော့ချသည်"
-        }
-      },
-      {
-        "text": {
           "en": "They are only useful in cold weather, not for safety",
           "my": "ရေခဲဆက်ရာသီတွင်သာ အသုံးဝင်ပြီး ဘေးကင်းရေးအတွက် မဟုတ်ပါ"
         }
@@ -3316,9 +3310,15 @@
           "en": "Protective clothing is unnecessary for short distances",
           "my": "ခရီးတိုများအတွက် ကာကွယ်ရေးအဝတ်အထည် မလိုအပ်ပါ"
         }
+      },
+      {
+        "text": {
+          "en": "They reduce the severity of abrasion and impact injuries to the skin and joints in a fall, even at low speed",
+          "my": "နိမ့်သောအမြန်နှုန်းတွင်ပင် ကျရှုံးပါက အရေပြားနှင့် အဆစ်များကို ပွတ်တိုက်ခြင်းနှင့် ထိခိုက်ဒဏ်ရာများကို လျှော့ချသည်"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Most motorcycle falls, even at low speed, cause abrasion injuries to exposed skin; proper gear like gloves, jackets, and ankle-covering footwear meaningfully reduces injury severity.",
       "my": "ဆိုင်ကယ်ကျရှုံးမှုအများစုသည် နိမ့်သောအမြန်နှုန်းတွင်ပင် ပွင့်လင်းနေသော အရေပြားကို ပွတ်တိုက်ဒဏ်ရာများ ဖြစ်စေသည် — လက်အိတ်၊ ဂျာကင်၊ ခြေဖနောင့်အထက်ဖိနပ်ကဲ့သို့ မှန်ကန်သော ကာကွယ်ရေးပစ္စည်းများသည် ဒဏ်ရာပြင်းထန်မှုကို သိသိသာသာ လျှော့ချသည်။"
@@ -3336,8 +3336,8 @@
     "choices": [
       {
         "text": {
-          "en": "That it is clean, not heavily scratched, and not a heavily tinted visor that reduces night vision",
-          "my": "သန့်ရှင်းသည်၊ ပြင်းပြင်းကွဲအက်ခြင်း မရှိပါ၊ ညဘက်မြင်ကွင်းကို လျော့ချသော မှောင်နေသော မျက်နှာစောင်းမဟုတ်ပါကြောင်း"
+          "en": "Visors do not need any checking",
+          "my": "မျက်နှာစောင်းများကို မည်သည့်စစ်ဆေးမှုမှ မလိုအပ်ပါ"
         }
       },
       {
@@ -3348,12 +3348,12 @@
       },
       {
         "text": {
-          "en": "Visors do not need any checking",
-          "my": "မျက်နှာစောင်းများကို မည်သည့်စစ်ဆေးမှုမှ မလိုအပ်ပါ"
+          "en": "That it is clean, not heavily scratched, and not a heavily tinted visor that reduces night vision",
+          "my": "သန့်ရှင်းသည်၊ ပြင်းပြင်းကွဲအက်ခြင်း မရှိပါ၊ ညဘက်မြင်ကွင်းကို လျော့ချသော မှောင်နေသော မျက်နှာစောင်းမဟုတ်ပါကြောင်း"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A scratched or heavily tinted visor scatters light and reduces visibility at night, increasing the risk of missing hazards — a clean, appropriately clear visor should be used after dark.",
       "my": "ကွဲအက်နေသော သို့မဟုတ် ပြင်းပြင်းမှောင်နေသော မျက်နှာစောင်းသည် အလင်းကို ပျံ့နှံ့စေပြီး ညဘက်မြင်နိုင်စွမ်းကို လျော့ချသည် — အန္တရာယ်များကို လွတ်သွားနိုင်ခြေ တိုးစေသည် — မှောင်ပြီးနောက် သန့်ရှင်းပြီး သင့်လျော်စွာရှင်းလင်းသော မျက်နှာစောင်းကို အသုံးပြုသင့်သည်။"
@@ -3371,8 +3371,8 @@
     "choices": [
       {
         "text": {
-          "en": "No — only one pillion passenger is allowed on a standard motorcycle seat",
-          "my": "မရှိပါ — စံဆိုင်ကယ်ထိုင်ခုံတွင် ပွဲတွဲစီးသူတစ်ဦးသာ ခွင့်ပြုသည်"
+          "en": "Yes, as long as all passengers wear helmets",
+          "my": "ရှိသည်၊ ခရီးသွားအားလုံး ဦးထုပ်ဆောင်းသမျှ"
         }
       },
       {
@@ -3383,12 +3383,12 @@
       },
       {
         "text": {
-          "en": "Yes, as long as all passengers wear helmets",
-          "my": "ရှိသည်၊ ခရီးသွားအားလုံး ဦးထုပ်ဆောင်းသမျှ"
+          "en": "No — only one pillion passenger is allowed on a standard motorcycle seat",
+          "my": "မရှိပါ — စံဆိုင်ကယ်ထိုင်ခုံတွင် ပွဲတွဲစီးသူတစ်ဦးသာ ခွင့်ပြုသည်"
         }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "A standard motorcycle is designed and legally permitted to carry only the rider plus one pillion passenger seated properly on the designated pillion seat.",
       "my": "စံဆိုင်ကယ်သည် ယာဉ်မောင်းသူနှင့် သတ်မှတ်ထားသော ပွဲတွဲထိုင်ခုံပေါ်တွင် မှန်ကန်စွာထိုင်နေသော ပွဲတွဲစီးသူတစ်ဦးကိုသာ ဥပဒေအရ ဆောင်ရွက်ခွင့်ပြုသည်။"
@@ -3406,14 +3406,14 @@
     "choices": [
       {
         "text": {
-          "en": "Holding the shoulders can restrict the rider's movement and ability to see and steer safely",
-          "my": "ပခုံးကို ကိုင်ထားခြင်းသည် ယာဉ်မောင်းသူ၏ လှုပ်ရှားမှုနှင့် ဘေးကင်းစွာ ကြည့်/ထိန်းချုပ်နိုင်စွမ်းကို ကန့်သတ်စေနိုင်သည်"
+          "en": "It is more comfortable for the rider in every case",
+          "my": "ယာဉ်မောင်းသူအတွက် မည်သည့်အခြေအနေတွင်မဆို ပိုအဆင်ပြေသည်"
         }
       },
       {
         "text": {
-          "en": "It is more comfortable for the rider in every case",
-          "my": "ယာဉ်မောင်းသူအတွက် မည်သည့်အခြေအနေတွင်မဆို ပိုအဆင်ပြေသည်"
+          "en": "Holding the shoulders can restrict the rider's movement and ability to see and steer safely",
+          "my": "ပခုံးကို ကိုင်ထားခြင်းသည် ယာဉ်မောင်းသူ၏ လှုပ်ရှားမှုနှင့် ဘေးကင်းစွာ ကြည့်/ထိန်းချုပ်နိုင်စွမ်းကို ကန့်သတ်စေနိုင်သည်"
         }
       },
       {
@@ -3423,7 +3423,7 @@
         }
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": {
       "en": "Gripping the rider's shoulders can restrict their head movement, shoulder checks, and steering inputs, which is unsafe — the pillion should use the rider's waist or designated grab handles instead.",
       "my": "ယာဉ်မောင်းသူ၏ ပခုံးကို ဆုပ်ကိုင်ထားခြင်းသည် ၎င်း၏ ခေါင်းလှုပ်ရှားမှု၊ ပခုံးကျော်ကြည့်ခြင်းနှင့် ထိန်းချုပ်မှုကို ကန့်သတ်နိုင်သည် — ဘေးကင်းမှုမရှိပါ — ပွဲတွဲစီးသူသည် ခါးတွင် သို့မဟုတ် သတ်မှတ်ထားသော ကိုင်တွယ်ကြိုးကို အသုံးပြုသင့်သည်။"
@@ -3441,12 +3441,6 @@
     "choices": [
       {
         "text": {
-          "en": "It makes the rider much harder for other road users to see, increasing collision risk",
-          "my": "အခြားလမ်းသုံးသူများ ယာဉ်မောင်းသူကို မြင်ရန်ပိုခက်ခဲစေပြီး တိုက်မိနိုင်ခြေကို တိုးစေသည်"
-        }
-      },
-      {
-        "text": {
           "en": "Dark clothing makes the motorcycle's engine louder",
           "my": "မှောင်သောအဝတ်သည် ဆိုင်ကယ်အင်ဂျင်ကို ပိုကျယ်လောင်စေသည်"
         }
@@ -3456,9 +3450,15 @@
           "en": "There is no visibility difference between dark and bright clothing",
           "my": "မှောင်သောနှင့် ထွန်းလင်းသော အဝတ်များကြား မြင်နိုင်စွမ်း ခြားနားချက်မရှိပါ"
         }
+      },
+      {
+        "text": {
+          "en": "It makes the rider much harder for other road users to see, increasing collision risk",
+          "my": "အခြားလမ်းသုံးသူများ ယာဉ်မောင်းသူကို မြင်ရန်ပိုခက်ခဲစေပြီး တိုက်မိနိုင်ခြေကို တိုးစေသည်"
+        }
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": {
       "en": "Motorcycles already present a small visual profile; dark, non-reflective clothing at night makes the rider even harder to spot, so bright or reflective gear is strongly recommended after dark.",
       "my": "ဆိုင်ကယ်များသည် မြင်ကွင်းသေးငယ်စွာသာ ပေးပြီးသားဖြစ်သည် — ညဘက် မှောင်ပြီး အလင်းမထောင်ပြန်သော အဝတ်ဝတ်ခြင်းသည် ယာဉ်မောင်းသူကို ပိုတွေ့ရန်ခက်ခဲစေသည် — မှောင်ပြီးနောက် ထွန်းလင်း သို့မဟုတ် အလင်းထောင်ပြန်သော ပစ္စည်းများကို တိုက်တွန်းအားပေးထားသည်။"
@@ -3482,14 +3482,14 @@
       },
       {
         "text": {
-          "en": "It has no effect on the motorcycle's balance",
-          "my": "ဆိုင်ကယ်၏ ဟန်ချက်ကို လုံးဝမထိခိုက်ပါ"
+          "en": "It only matters at very high speeds",
+          "my": "အမြန်နှုန်းအလွန်မြင့်ချိန်တွင်သာ အရေးကြီးသည်"
         }
       },
       {
         "text": {
-          "en": "It only matters at very high speeds",
-          "my": "အမြန်နှုန်းအလွန်မြင့်ချိန်တွင်သာ အရေးကြီးသည်"
+          "en": "It has no effect on the motorcycle's balance",
+          "my": "ဆိုင်ကယ်၏ ဟန်ချက်ကို လုံးဝမထိခိုက်ပါ"
         }
       }
     ],
@@ -3511,8 +3511,8 @@
     "choices": [
       {
         "text": {
-          "en": "Any branded helmet sold in a sports shop",
-          "my": "အားကစားဆိုင်တွင် ရောင်းသော မည်သည့် brand ဦးထုပ်မဆို"
+          "en": "Any full-face helmet regardless of certification",
+          "my": "သက်သေခံချက်မဆိုင်ဘဲ မည်သည့် မျက်နှာပြည့် ဦးထုပ်မဆို"
         }
       },
       {
@@ -3523,8 +3523,8 @@
       },
       {
         "text": {
-          "en": "Any full-face helmet regardless of certification",
-          "my": "သက်သေခံချက်မဆိုင်ဘဲ မည်သည့် မျက်နှာပြည့် ဦးထုပ်မဆို"
+          "en": "Any branded helmet sold in a sports shop",
+          "my": "အားကစားဆိုင်တွင် ရောင်းသော မည်သည့် brand ဦးထုပ်မဆို"
         }
       }
     ],
@@ -3546,8 +3546,8 @@
     "choices": [
       {
         "text": {
-          "en": "70 km/h",
-          "my": "၇၀ km/h"
+          "en": "90 km/h",
+          "my": "၉၀ km/h"
         }
       },
       {
@@ -3558,8 +3558,8 @@
       },
       {
         "text": {
-          "en": "90 km/h",
-          "my": "၉၀ km/h"
+          "en": "70 km/h",
+          "my": "၇၀ km/h"
         }
       }
     ],
@@ -3581,14 +3581,14 @@
     "choices": [
       {
         "text": {
-          "en": "Always ride in the centre of the lane",
-          "my": "အမြဲ လမ်းကြောင်း အလယ်ဗဟိုတွင် မောင်းပါ"
+          "en": "On the right side of the lane to be seen by drivers ahead",
+          "my": "ရှေ့ ယာဉ်မောင်းသူများ မြင်နိုင်ရန် လမ်းကြောင်း ညာဘက်တွင်"
         }
       },
       {
         "text": {
-          "en": "On the right side of the lane to be seen by drivers ahead",
-          "my": "ရှေ့ ယာဉ်မောင်းသူများ မြင်နိုင်ရန် လမ်းကြောင်း ညာဘက်တွင်"
+          "en": "Always ride in the centre of the lane",
+          "my": "အမြဲ လမ်းကြောင်း အလယ်ဗဟိုတွင် မောင်းပါ"
         }
       },
       {
@@ -3651,12 +3651,6 @@
     "choices": [
       {
         "text": {
-          "en": "Lean further to maintain speed through the corner",
-          "my": "ကွေ့ကောက်မှုတွင် အရှိန်ထိန်းရန် ပိုကိုင်းနိမ့်ပါ"
-        }
-      },
-      {
-        "text": {
           "en": "Brake firmly inside the corner to reduce speed",
           "my": "ကွေ့ကောက်မှုအတွင်း အရှိန်လျှော့ရန် ဘရိတ်ကျပ်ကျပ်နှိပ်ပါ"
         }
@@ -3666,9 +3660,15 @@
           "en": "Slow down before the corner, maintain a steady throttle through it, and avoid sudden braking",
           "my": "ကွေ့မတိုင်ခင် နှေးချပြီး ကွေ့ကောက်မှုတွင် အရှိန်တည်ငြိမ်ထားကာ ဘရိတ်ကို ရုတ်တရက် မနှိပ်ပါနှင့်"
         }
+      },
+      {
+        "text": {
+          "en": "Lean further to maintain speed through the corner",
+          "my": "ကွေ့ကောက်မှုတွင် အရှိန်ထိန်းရန် ပိုကိုင်းနိမ့်ပါ"
+        }
       }
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": {
       "en": "Slow down before the corner (not in it), maintain smooth throttle through the bend, and avoid sudden braking or acceleration on wet surfaces, which reduces tyre grip significantly.",
       "my": "ကွေ့မတိုင်ခင် နှေးချပါ (ကွေ့ကောက်မှုအတွင်း မဟုတ်)၊ ကွေ့ကောက်မှုတွင် အသာ အရှိန်ထိန်းပြီး ရွှံ့ပြေနေသော မျက်နှာပြင်တွင် တာယာ ဖိအားကျဆင်းစေသော ဘရိတ် သို့ အရှိန်မြင့်ခြင်းကို ရုတ်တရက် မလုပ်ပါနှင့်။"
@@ -3686,6 +3686,12 @@
     "choices": [
       {
         "text": {
+          "en": "Because motorcycles have no indicator lights",
+          "my": "ဆိုင်ကယ်တွင် ညွှန်းမီးများ မပါသောကြောင့်"
+        }
+      },
+      {
+        "text": {
           "en": "Because motorcycles travel faster than cars",
           "my": "ဆိုင်ကယ်သည် ကားထက် ပိုမြန်သောကြောင့်"
         }
@@ -3695,15 +3701,9 @@
           "en": "Because turning drivers may not see a motorcycle in their mirrors or blind spots",
           "my": "ကွေ့ကောက်မောင်းနေသော ယာဉ်မောင်းသူသည် မှန်ဆိုင်ကပ်ဆက် သို့ မမြင်ရသောနေရာတွင် ဆိုင်ကယ်ကို မတွေ့ နိုင်သောကြောင့်"
         }
-      },
-      {
-        "text": {
-          "en": "Because motorcycles have no indicator lights",
-          "my": "ဆိုင်ကယ်တွင် ညွှန်းမီးများ မပါသောကြောင့်"
-        }
       }
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": {
       "en": "Motorcycles are small and can be missed in a vehicle's mirrors or blind spots, especially when a car turns right. Always ride at a speed that allows you to react if a vehicle turns unexpectedly.",
       "my": "ဆိုင်ကယ်သည် သေးငယ်ပြီး ယာဉ်တစ်စီး ညာဘက်ကွေ့ကောက်သောအချိန် အထူးသဖြင့် မှန်ဆိုင်ကပ်ဆက် သို့ မမြင်ရသော နေရာတွင် ချန်ရစ်ခံနိုင်သည်။ ယာဉ်တစ်စီး မမျှော်လင့်ဘဲ ကွေ့ကောက်သောအခါ တုံ့ပြန်နိုင်သော အရှိန်ဖြင့် မောင်းပါ။"
@@ -3721,12 +3721,6 @@
     "choices": [
       {
         "text": {
-          "en": "Dry tarmac after a warm day",
-          "my": "နွေးထွေးသောနေ့ တွင်းအပြီး ခြောက်သောသော တာမက် လမ်း"
-        }
-      },
-      {
-        "text": {
           "en": "Light drizzle that causes oil and dust to rise to the surface",
           "my": "ဆီနှင့် ဆူဆိုင်ကယ်ကို မျက်နှာပြင်ကို ပြင်ဆင်ပေးသော မေ့ မိုးရွာမှု"
         }
@@ -3736,9 +3730,15 @@
           "en": "Bright daylight on a straight road",
           "my": "တည့်မတ်သောလမ်းပေါ် နေထွက်ချိန်"
         }
+      },
+      {
+        "text": {
+          "en": "Dry tarmac after a warm day",
+          "my": "နွေးထွေးသောနေ့ တွင်းအပြီး ခြောက်သောသော တာမက် လမ်း"
+        }
       }
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": {
       "en": "The first few minutes of light rain are the most dangerous — water mixes with oil, rubber dust and grit on the road surface, creating extremely slippery conditions. Slow down significantly and increase following distance.",
       "my": "ပထမ မိနစ်အနည်းငယ် ဖွဲ ဖွဲ မိုးရွာသည်မှာ အလွန် အန္တရာယ် အများဆုံးဖြစ်သည် — ရေသည် ဆီ၊ ရာဘာ ဆူဆိုင်ကယ်နှင့် သဲနှင့် ရောနှောပြီး မျက်နှာပြင် ချောလွန်းသော အခြေအနေ ဖြစ်ပေါ်စေသည်။ အများကြီး နှေးချပြီး နောက်လိုက် အကွာ တိုးပါ။"
@@ -3756,6 +3756,12 @@
     "choices": [
       {
         "text": {
+          "en": "It reduces the stopping distance on dry roads",
+          "my": "ခြောက်သောသော လမ်းပေါ် ရပ်ရသောအကွာ လျှော့ချပေးသည်"
+        }
+      },
+      {
+        "text": {
           "en": "It increases engine power and helps acceleration",
           "my": "အင်ဂျင်ကွမ်းအားကို တိုးပြီး အရှိန်မြင့်မားရာ ကူညီသည်"
         }
@@ -3765,15 +3771,9 @@
           "en": "It pushes the motorcycle sideways, destabilising the rider",
           "my": "ဆိုင်ကယ်ကို ဘေးတိုက် တွန်းပြီး မောင်းသူကို မတည်ငြိမ်အောင် ဖြစ်စေသည်"
         }
-      },
-      {
-        "text": {
-          "en": "It reduces the stopping distance on dry roads",
-          "my": "ခြောက်သောသော လမ်းပေါ် ရပ်ရသောအကွာ လျှော့ချပေးသည်"
-        }
       }
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": {
       "en": "A strong crosswind pushes the motorcycle sideways, which can cause the rider to lose balance and drift into another lane. Grip the tank with your knees and lean slightly into the wind.",
       "my": "ပြင်းထန်သော ကိုင်ကွေ့လေသည် ဆိုင်ကယ်ကို ဘေးတိုက် တွန်းပြီး မောင်းသူ မတည်ငြိမ်ကာ အခြားလမ်းကြောင်းသို့ ဝင်ရောက်နိုင်သည်။ ဒူးဖြင့် ရေလောင်းကို ဆုပ်ကိုင်ပြီး လေ ဦးတည်ရာ ဘက်ကို အနည်းငယ် ကိုင်းနိမ့်ပါ။"
@@ -3791,12 +3791,6 @@
     "choices": [
       {
         "text": {
-          "en": "A motorcycle-only lane",
-          "my": "ဆိုင်ကယ်သာ သုံးနိုင်သော လမ်းကြောင်း"
-        }
-      },
-      {
-        "text": {
           "en": "A pedestrian crossing ahead",
           "my": "ရှေ့တွင် လမ်းသွားဖြတ်သောနေရာ ရှိသည်"
         }
@@ -3806,9 +3800,15 @@
           "en": "A priority or bus lane",
           "my": "ဦးစားပေး သို့ ဘတ်ကား လမ်းကြောင်း"
         }
+      },
+      {
+        "text": {
+          "en": "A motorcycle-only lane",
+          "my": "ဆိုင်ကယ်သာ သုံးနိုင်သော လမ်းကြောင်း"
+        }
       }
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": {
       "en": "A white diamond painted on the road marks an upcoming pedestrian crossing, giving drivers advance warning to slow down and be ready to yield.",
       "my": "လမ်းပေါ် ဆေးဆိုးထားသော အဖြူရောင် စိန်ပုံသည် ရှေ့တွင် လမ်းသွားဖြတ်သောနေရာ ရှိကြောင်း ကြိုတင် သတိပေးပြီး ယာဉ်မောင်းသူများ နှေးချပြီး လမ်းပေးရန် အသင့်ဖြစ်ရန် သတိပေးသည်။"

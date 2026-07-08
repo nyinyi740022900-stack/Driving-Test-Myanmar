@@ -1,20 +1,20 @@
 # Verified Output — အတည်ပြုချက် အကျဉ်းချုပ်
 
-ထုတ်လုပ်သည့်ရက်: 2026-07-03T14:27:01.970Z
+ထုတ်လုပ်သည့်ရက်: 2026-07-08T17:56:21.446Z
 
 ## ဘန်ခ် အခြေအနေ
 
 | ဘန်ခ် | မေးခွန်း | ပုံ | အခြေအနေ |
 |-------|---------|-----|---------|
-| BTT (sg_btt.json) | 565 | 565 | ✅ verified |
-| FTT (sg_ftt.json) | 516 | 516 | ✅ verified |
-| RTT (sg_rtt.json) | 109 | 109 | ✅ verified |
+| BTT (sg_btt.json) | 565 | 82 | ✅ verified |
+| FTT (sg_ftt.json) | 516 | 0 | ✅ verified |
+| RTT (sg_rtt.json) | 109 | 0 | ✅ verified |
 | Karimen/Honmen (jp_car.json) | 350 | 0 | ✅ verified |
 | Moto (jp_moto.json) | 250 | 0 | ✅ verified |
 
 **စုစုပေါင်း:** 1790 မေးခွန်း  
 **Critical issues:** 0  
-**စုစုပေါင်း issue flags:** 0 (အများစုသည် EN artifact စစ်ဆေးမှု)
+**စုစုပေါင်း issue flags:** 1108 (အများစုသည် EN artifact စစ်ဆေးမှု)
 
 ## ဖိုလ်ဒါ တည်ဆောက်ပုံ
 

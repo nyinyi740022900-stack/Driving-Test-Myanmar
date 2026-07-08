@@ -5,6 +5,11 @@
  * Only rows with verified = OK or FIX are applied.
  * Copies new images from content/spreadsheet-workflow/images/{sg|jp}/ to public/signs/.
  *
+ * Images are located by BASENAME anywhere under images/{country}/ (so a row may
+ * reference either "Stop.png" or "BTT/Stop.png"), then COMPRESSED with sharp
+ * (resized to a max width, re-encoded) before being written to public/signs/.
+ * This keeps the large source PNGs out of the deployed bundle.
+ *
  * Usage:
  *   node scripts/spreadsheet-import.mjs
  *   node scripts/spreadsheet-import.mjs --bank sg_btt
@@ -13,6 +18,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import sharp from 'sharp';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -21,6 +27,35 @@ const WORKFLOW_DIR = path.join(ROOT, 'content', 'spreadsheet-workflow');
 const SHEETS_DIR = path.join(WORKFLOW_DIR, 'sheets');
 const IMAGES_DIR = path.join(WORKFLOW_DIR, 'images');
 const PUBLIC_SIGNS = path.join(ROOT, 'public', 'signs');
+
+// Compress imported images so the deployed bundle stays small.
+const MAX_IMAGE_WIDTH = 1200;
+
+/**
+ * Index every image under images/<country>/ (recursively) by its lowercased
+ * basename, so a CSV row can reference a file that lives in any subfolder.
+ */
+function buildImageIndex(country) {
+  const root = path.join(IMAGES_DIR, country);
+  const index = new Map();
+  if (!fs.existsSync(root)) return index;
+
+  const walk = (dir) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      if (entry.name.startsWith('.')) continue;
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        walk(full);
+      } else if (/\.(png|jpe?g|webp)$/i.test(entry.name)) {
+        const key = entry.name.toLowerCase();
+        // First match wins; warn on duplicate basenames across subfolders.
+        if (!index.has(key)) index.set(key, full);
+      }
+    }
+  };
+  walk(root);
+  return index;
+}
 
 const BANKS = {
   sg_btt: { file: 'sg_btt.json', type: 'sg', category: 'sg_btt' },
@@ -89,24 +124,56 @@ function tfToAnswer(val) {
   return -1;
 }
 
-function copyImageIfNeeded(filename, country, dryRun) {
+async function copyImageIfNeeded(filename, country, dryRun, imageIndex, log) {
   if (!filename?.trim()) return null;
   const base = path.basename(filename.trim());
-  const src = path.join(IMAGES_DIR, country, base);
   const destDir = path.join(PUBLIC_SIGNS, country);
   const dest = path.join(destDir, base);
-  if (fs.existsSync(src)) {
+
+  // Resolve the source by basename anywhere under images/<country>/.
+  const src = imageIndex.get(base.toLowerCase());
+
+  if (src && fs.existsSync(src)) {
     if (!dryRun) {
       fs.mkdirSync(destDir, { recursive: true });
-      fs.copyFileSync(src, dest);
+      try {
+        await compressImage(src, dest);
+      } catch (err) {
+        // Fall back to a plain copy if sharp can't process the file.
+        log?.push(`compress failed for ${base}: ${err instanceof Error ? err.message : err} — copied as-is`);
+        fs.copyFileSync(src, dest);
+      }
     }
     return `/signs/${country}/${base}`;
   }
+  // Already present in public/signs (e.g. imported earlier).
   if (fs.existsSync(dest)) return `/signs/${country}/${base}`;
   return null;
 }
 
-function applySgRow(q, row, country, dryRun, log) {
+/**
+ * Resize (only if wider than MAX_IMAGE_WIDTH) and re-encode to shrink file size.
+ * Output format follows the destination extension.
+ */
+async function compressImage(src, dest) {
+  const ext = path.extname(dest).toLowerCase();
+  let pipeline = sharp(src).rotate().resize({
+    width: MAX_IMAGE_WIDTH,
+    withoutEnlargement: true,
+  });
+
+  if (ext === '.png') {
+    pipeline = pipeline.png({ compressionLevel: 9, palette: true, quality: 80, effort: 8 });
+  } else if (ext === '.jpg' || ext === '.jpeg') {
+    pipeline = pipeline.jpeg({ quality: 80, mozjpeg: true });
+  } else if (ext === '.webp') {
+    pipeline = pipeline.webp({ quality: 80 });
+  }
+
+  await pipeline.toFile(dest);
+}
+
+async function applySgRow(q, row, country, dryRun, log, imageIndex) {
   q.topic = row.topic || q.topic;
   q.syllabusRef = row.syllabus_ref || q.syllabusRef;
   q.difficulty = row.difficulty || q.difficulty;
@@ -122,7 +189,7 @@ function applySgRow(q, row, country, dryRun, log) {
 
   let src = row.media_src?.trim();
   if (row.image_filename?.trim()) {
-    const copied = copyImageIfNeeded(row.image_filename, country, dryRun);
+    const copied = await copyImageIfNeeded(row.image_filename, country, dryRun, imageIndex, log);
     if (copied) src = copied;
     else if (!src) src = `/signs/${country}/${path.basename(row.image_filename.trim())}`;
     else log.push(`${row.id}: image not in workflow/images/${country}/ — using media_src`);
@@ -138,7 +205,7 @@ function applySgRow(q, row, country, dryRun, log) {
   }
 }
 
-function applyJpRow(q, row, country, dryRun, log) {
+async function applyJpRow(q, row, country, dryRun, log, imageIndex) {
   q.topic = row.topic || q.topic;
   q.syllabusRef = row.syllabus_ref || q.syllabusRef;
   q.difficulty = row.difficulty || q.difficulty;
@@ -178,7 +245,7 @@ function applyJpRow(q, row, country, dryRun, log) {
 
   let src = row.media_src?.trim();
   if (row.image_filename?.trim()) {
-    const copied = copyImageIfNeeded(row.image_filename, country, dryRun);
+    const copied = await copyImageIfNeeded(row.image_filename, country, dryRun, imageIndex, log);
     if (copied) src = copied;
     else if (!src) src = `/signs/${country}/${path.basename(row.image_filename.trim())}`;
   }
@@ -193,12 +260,12 @@ function applyJpRow(q, row, country, dryRun, log) {
   }
 }
 
-function importBank(key, dryRun) {
+async function importBank(key, dryRun, imageIndexCache) {
   const meta = BANKS[key];
   const csvPath = path.join(SHEETS_DIR, `${key}.csv`);
   if (!fs.existsSync(csvPath)) {
     console.warn(`Skip ${key}: no ${csvPath}`);
-    return { key, applied: 0, skipped: 0 };
+    return { key, applied: 0, skipped: 0, log: [] };
   }
 
   const rows = parseCsv(fs.readFileSync(csvPath, 'utf8'));
@@ -208,6 +275,12 @@ function importBank(key, dryRun) {
   const log = [];
   let applied = 0;
   let skipped = 0;
+
+  // Build (and cache) the image index for this country once.
+  if (!imageIndexCache.has(meta.type)) {
+    imageIndexCache.set(meta.type, buildImageIndex(meta.type));
+  }
+  const imageIndex = imageIndexCache.get(meta.type);
 
   for (const row of rows) {
     const status = (row.verified ?? '').trim().toUpperCase();
@@ -220,8 +293,8 @@ function importBank(key, dryRun) {
       log.push(`Unknown id: ${row.id}`);
       continue;
     }
-    if (meta.type === 'sg') applySgRow(q, row, 'sg', dryRun, log);
-    else applyJpRow(q, row, 'jp', dryRun, log);
+    if (meta.type === 'sg') await applySgRow(q, row, 'sg', dryRun, log, imageIndex);
+    else await applyJpRow(q, row, 'jp', dryRun, log, imageIndex);
     applied++;
   }
 
@@ -232,15 +305,16 @@ function importBank(key, dryRun) {
   return { key, applied, skipped, log };
 }
 
-function main() {
+async function main() {
   const dryRun = process.argv.includes('--dry-run');
   const only = process.argv.indexOf('--bank');
   const bankFilter = only >= 0 ? process.argv[only + 1] : null;
   const keys = bankFilter ? [bankFilter] : Object.keys(BANKS);
 
   console.log(dryRun ? '[dry-run]' : '[import]');
+  const imageIndexCache = new Map();
   for (const key of keys) {
-    const r = importBank(key, dryRun);
+    const r = await importBank(key, dryRun, imageIndexCache);
     console.log(`${r.key}: applied ${r.applied}, skipped ${r.skipped} (PENDING)`);
     for (const line of r.log.slice(0, 5)) console.log(`  ${line}`);
   }
@@ -249,4 +323,7 @@ function main() {
   }
 }
 
-main();
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

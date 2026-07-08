@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-07-03T14:27:01.970Z",
+    "generatedAt": "2026-07-08T17:56:21.446Z",
     "method": "A",
     "banks": [
       {
@@ -9,9 +9,9 @@
         "country": "SG",
         "test": "BTT",
         "count": 565,
-        "withMedia": 565,
+        "withMedia": 82,
         "hazardCount": 0,
-        "issueCount": 0,
+        "issueCount": 483,
         "criticalCount": 0,
         "status": "verified"
       },
@@ -21,9 +21,9 @@
         "country": "SG",
         "test": "FTT",
         "count": 516,
-        "withMedia": 516,
+        "withMedia": 0,
         "hazardCount": 0,
-        "issueCount": 0,
+        "issueCount": 516,
         "criticalCount": 0,
         "status": "verified"
       },
@@ -33,9 +33,9 @@
         "country": "SG",
         "test": "RTT",
         "count": 109,
-        "withMedia": 109,
+        "withMedia": 0,
         "hazardCount": 0,
-        "issueCount": 0,
+        "issueCount": 109,
         "criticalCount": 0,
         "status": "verified"
       },
@@ -65,8 +65,7765 @@
       }
     ],
     "totalQuestions": 1790,
-    "totalIssues": 0,
+    "totalIssues": 1108,
     "criticalIssues": 0
   },
-  "issues": []
+  "issues": [
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0002",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0003",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0005",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0008",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0009",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0010",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0011",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0012",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0015",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0016",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0017",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0020",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0021",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0023",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0024",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0027",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0029",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0030",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0031",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0032",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0034",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0035",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0036",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0037",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0038",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0039",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0041",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0042",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0043",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0044",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0045",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0047",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0048",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0049",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0050",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0051",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0052",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0053",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0054",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0055",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0056",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0058",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0059",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0061",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0062",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0063",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0064",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0065",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0066",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0067",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0068",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0069",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0070",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0071",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0072",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0073",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0074",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0075",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0076",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0077",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0078",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0079",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0080",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0081",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0082",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0083",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0084",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0085",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0086",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0087",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0088",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0090",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0093",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0095",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0097",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0098",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0099",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0100",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0101",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0102",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0103",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0104",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0105",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0106",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0107",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0108",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0109",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0110",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0111",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0112",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0113",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0114",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0115",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0116",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0117",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0118",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0119",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0120",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0121",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0122",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0124",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0126",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0127",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0128",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0129",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0130",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0134",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0136",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0138",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0143",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0147",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0148",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0149",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0151",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0152",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0153",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0154",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0155",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0156",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0157",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0162",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0163",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0164",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0165",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0166",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0167",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0168",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0169",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0170",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0171",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0172",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0173",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0174",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0175",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0176",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0177",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0178",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0179",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0180",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0181",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0182",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0183",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0184",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0185",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0186",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0187",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0188",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0189",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0190",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0193",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0194",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0195",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0196",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0197",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0198",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0199",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0200",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0201",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0202",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0203",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0204",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0205",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0206",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0207",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0208",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0209",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0210",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0211",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0212",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0213",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0215",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0216",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0217",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0218",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0219",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0220",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0221",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0222",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0223",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0224",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0225",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0226",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0227",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0228",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0229",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0230",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0233",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0234",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0237",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0238",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0239",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0244",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0248",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0250",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0251",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0252",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0254",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0255",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0256",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0259",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0260",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0261",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0262",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0269",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0270",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0271",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0272",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0273",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0276",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0277",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0278",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0279",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0280",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0281",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0282",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0283",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0284",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0286",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0287",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0288",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0289",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0290",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0291",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0292",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0293",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0294",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0295",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0296",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0297",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0298",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0299",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0300",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0301",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0302",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0303",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0304",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0305",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0306",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0307",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0308",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0309",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0310",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0311",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0312",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0313",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0314",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0315",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0316",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0317",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0318",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0319",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0320",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0321",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0322",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0323",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0324",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0325",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0326",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0327",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0328",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0329",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0330",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0331",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0332",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0333",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0334",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0335",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0336",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0337",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0338",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0339",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0340",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0341",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0342",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0343",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0344",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0345",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0346",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0347",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0348",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0349",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0350",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0351",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0352",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0353",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0354",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0355",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0356",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0357",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0358",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0359",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0360",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0361",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0362",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0363",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0364",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0366",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0367",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0368",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0369",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0371",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0372",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0373",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0374",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0375",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0376",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0377",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0378",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0380",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0381",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0382",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0383",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0384",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0385",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0386",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0387",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0388",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0389",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0390",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0391",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0392",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0393",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0394",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0395",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0396",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0397",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0398",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0399",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0400",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0401",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0402",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0403",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0404",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0405",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0406",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0407",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0410",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0411",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0412",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0413",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0414",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0415",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0417",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0418",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0419",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0420",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0422",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0424",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0425",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0426",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0428",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0429",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0430",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0431",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0432",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0433",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0434",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0435",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0436",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0437",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0438",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0439",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0440",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0441",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0442",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0443",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0444",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0445",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0446",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0447",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0448",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0449",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0450",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0452",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0453",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0455",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0456",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0457",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0458",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0459",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0460",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0461",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0462",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0463",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0464",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0465",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0466",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0467",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0468",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0469",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0470",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0472",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0473",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0474",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0475",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0476",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0477",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0478",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0479",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0480",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0481",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0482",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0483",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0484",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0485",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0486",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0487",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0488",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0489",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0490",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0491",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0492",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0493",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0494",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0495",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0496",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0497",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0498",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0499",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0500",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0501",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0502",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0503",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0504",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0505",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0506",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0507",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0508",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0509",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0510",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0511",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0512",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0514",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0515",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0516",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0517",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0518",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0519",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0520",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0521",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0522",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0523",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0524",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0525",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0526",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0527",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0528",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0529",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0530",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0531",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0532",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0533",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0534",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0535",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0536",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0537",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0538",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0539",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0540",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0541",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0542",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0543",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0544",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0545",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0546",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0548",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0549",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0550",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0551",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0552",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0553",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0554",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0555",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0556",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0557",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0558",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0559",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0560",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0561",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0562",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0563",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0564",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_btt.json",
+      "id": "sg_btt_0565",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0001",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0002",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0003",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0004",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0005",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0006",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0007",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0008",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0009",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0010",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0011",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0012",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0013",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0014",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0015",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0016",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0017",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0018",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0019",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0020",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0021",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0022",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0023",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0024",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0025",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0026",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0027",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0028",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0029",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0030",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0031",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0032",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0033",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0034",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0035",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0036",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0037",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0038",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0039",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0040",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0041",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0042",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0043",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0044",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0045",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0046",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0047",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0048",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0049",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0050",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0051",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0052",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0053",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0054",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0055",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0056",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0057",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0058",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0059",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0060",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0061",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0062",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0063",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0064",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0065",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0066",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0067",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0068",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0069",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0070",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0071",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0072",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0073",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0074",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0075",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0076",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0077",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0078",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0079",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0080",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0081",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0082",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0083",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0084",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0085",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0086",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0087",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0088",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0089",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0090",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0091",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0092",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0093",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0094",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0095",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0096",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0097",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0098",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0099",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0100",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0101",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0102",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0103",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0104",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0105",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0106",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0107",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0108",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0109",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0110",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0111",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0112",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0113",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0114",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0115",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0116",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0117",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0118",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0119",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0120",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0121",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0122",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0123",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0124",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0125",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0126",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0127",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0128",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0129",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0130",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0131",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0132",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0133",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0134",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0135",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0136",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0137",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0138",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0139",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0140",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0141",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0142",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0143",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0144",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0145",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0146",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0147",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0148",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0149",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0150",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0151",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0152",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0153",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0154",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0155",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0156",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0157",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0158",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0159",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0160",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0161",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0162",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0163",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0164",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0165",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0166",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0167",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0168",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0169",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0170",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0171",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0172",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0173",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0174",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0175",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0176",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0177",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0178",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0179",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0180",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0181",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0182",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0183",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0184",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0185",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0186",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0187",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0188",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0189",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0190",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0191",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0192",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0193",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0194",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0195",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0196",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0197",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0198",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0199",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0200",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0201",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0202",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0203",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0204",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0205",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0206",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0207",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0208",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0209",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0210",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0211",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0212",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0213",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0214",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0215",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0216",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0217",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0218",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0219",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0220",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0221",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0222",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0223",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0224",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0225",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0226",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0227",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0228",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0229",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0230",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0231",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0232",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0233",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0234",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0235",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0236",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0237",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0238",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0239",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0240",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0241",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0242",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0243",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0244",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0245",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0246",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0247",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0248",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0249",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0250",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0251",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0252",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0253",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0254",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0255",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0256",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0257",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0258",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0259",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0260",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0261",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0262",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0263",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0264",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0265",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0266",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0267",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0268",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0269",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0270",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0271",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0272",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0273",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0274",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0275",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0276",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0277",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0278",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0279",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0280",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0281",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0282",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0283",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0284",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0285",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0286",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0287",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0288",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0289",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0290",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0291",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0292",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0293",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0294",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0295",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0296",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0297",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0298",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0299",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0300",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0301",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0302",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0303",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0304",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0305",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0306",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0307",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0308",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0309",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0310",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0311",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0312",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0313",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0314",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0315",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0316",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0317",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0318",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0319",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0320",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0321",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0322",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0323",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0324",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0325",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0326",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0327",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0328",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0329",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0330",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0331",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0332",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0333",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0334",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0335",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0336",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0337",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0338",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0339",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0340",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0341",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0342",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0343",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0344",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0345",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0346",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0347",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0348",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0349",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0350",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0351",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0352",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0353",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0354",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0355",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0356",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0357",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0358",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0359",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0360",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0361",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0362",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0363",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0364",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0365",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0366",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0367",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0368",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0369",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0370",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0371",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0372",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0373",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0374",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0375",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0376",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0377",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0378",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0379",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0380",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0381",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0382",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0383",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0384",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0385",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0386",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0387",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0388",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0389",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0390",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0391",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0392",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0393",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0394",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0395",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0396",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0397",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0398",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0399",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0400",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0401",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0402",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0403",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0404",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0405",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0406",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0407",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0408",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0409",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0410",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0411",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0412",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0413",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0414",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0415",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0416",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0417",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0418",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0419",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0420",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0421",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0422",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0423",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0424",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0425",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0426",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0427",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0428",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0429",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0430",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0431",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0432",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0433",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0434",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0435",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0436",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0437",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0438",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0439",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0440",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0441",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0442",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0443",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0444",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0445",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0446",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0447",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0448",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0449",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0450",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0451",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0452",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0453",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0454",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0455",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0456",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0457",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0458",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0459",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0460",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0461",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0462",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0463",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0464",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0465",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0466",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0467",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0468",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0469",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0470",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0471",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0472",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0473",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0474",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0475",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0476",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0477",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0478",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0479",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0480",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0481",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0482",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0483",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0484",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0485",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0486",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0487",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0488",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0489",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0490",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0491",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0492",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0493",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0494",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0495",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0496",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0497",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0498",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0499",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0500",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0501",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0502",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0503",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0504",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0505",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0506",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0507",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0508",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0509",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0510",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0511",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0512",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0513",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0514",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0515",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_ftt.json",
+      "id": "sg_ftt_0516",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0001",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0002",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0003",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0004",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0005",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0006",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0007",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0008",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0009",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0010",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0011",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0012",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0013",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0014",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0015",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0016",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0017",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0018",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0019",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0020",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0021",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0022",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0023",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0024",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0025",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0026",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0027",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0028",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0029",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0030",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0031",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0032",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0033",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0034",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0035",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0036",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0037",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0038",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0039",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0040",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0041",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0042",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0043",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0044",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0045",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0046",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0047",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0048",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0049",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0050",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0051",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0052",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0053",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0054",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0055",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0056",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0057",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0058",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0059",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0060",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0061",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0062",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0063",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0064",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0065",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0066",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0067",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0068",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0069",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0070",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0071",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0072",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0073",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0074",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0075",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0076",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0077",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0078",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0079",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0080",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0081",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0082",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0083",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0084",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0085",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0086",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0087",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0088",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0089",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0090",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0091",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0092",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0093",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0094",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0095",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0096",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0097",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0098",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0099",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0100",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0101",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0102",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0103",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0104",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0105",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0106",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0107",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0109",
+      "issues": [
+        "missing_media"
+      ]
+    },
+    {
+      "bank": "sg_rtt.json",
+      "id": "sg_rtt_0110",
+      "issues": [
+        "missing_media"
+      ]
+    }
+  ]
 }
