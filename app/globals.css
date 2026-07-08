@@ -697,6 +697,68 @@ footer { background: #0E110B; color: rgba(245, 243, 234, .7); padding: 46px 0 30
 .admin-table th { text-align: left; padding: 10px 12px; background: var(--paint-2); font-family: var(--display); font-weight: 700; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; }
 .admin-table td { padding: 12px; border-top: 1px solid var(--line); vertical-align: middle; }
 .admin-table tr:hover td { background: var(--paint); }
+
+/* admin layout shell (responsive) */
+.admin-topbar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 max(24px, env(safe-area-inset-left)) 0 max(24px, env(safe-area-inset-right));
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 56px;
+}
+.admin-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px max(24px, env(safe-area-inset-right)) 32px max(24px, env(safe-area-inset-left));
+}
+.admin-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 28px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.admin-tabs::-webkit-scrollbar { display: none; }
+.admin-tab {
+  padding: 8px 18px;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: .85rem;
+  background: transparent;
+  color: var(--ink-soft);
+  transition: all .15s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.admin-tab.active { background: #1a1a1a; color: #fff; }
+.admin-card-head {
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 720px) {
+  .admin-topbar-inner { gap: 10px; }
+  .admin-shell { padding: 20px 16px; }
+  .admin-tab { padding: 7px 13px; font-size: .8rem; }
+  .admin-card-head { padding: 14px 16px; }
+}
 .badge { display: inline-flex; align-items: center; padding: 3px 10px; border-radius: 999px; font-family: var(--display); font-weight: 700; font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; }
 .badge-pending { background: rgba(242, 167, 52, .14); color: #a36c00; }
 .badge-approved { background: rgba(27, 156, 86, .12); color: var(--guide-deep); }

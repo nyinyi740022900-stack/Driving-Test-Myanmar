@@ -310,35 +310,29 @@ export default function AdminDashboard({
     <div style={{ minHeight: '100vh', background: '#f5f5f0' }}>
       {/* Top bar */}
       <div style={{ background: '#1a1a1a', borderBottom: '1px solid #333' }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', display: 'flex', alignItems: 'center', gap: 16, height: 56 }}>
-          <Link href={`/${locale}`} style={{ color: '#888', fontSize: '.82rem', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 4 }}>
+        <div className="admin-topbar-inner">
+          <Link href={`/${locale}`} style={{ color: '#888', fontSize: '.82rem', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 4, whiteSpace: 'nowrap' }}>
             ← {BRAND_NAME}
           </Link>
-          <div style={{ width: 1, height: 18, background: '#333' }} />
-          <span style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '.95rem', color: '#fff' }}>Admin Dashboard</span>
+          <div style={{ width: 1, height: 18, background: '#333', flexShrink: 0 }} />
+          <span style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '.95rem', color: '#fff', flex: 1, minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>Admin Dashboard</span>
           {(pending.length > 0 || pendingReviews.length > 0 || pendingFeedback.length > 0) && (
-            <span style={{ background: '#ef4444', color: '#fff', fontSize: '.72rem', fontWeight: 700, padding: '2px 8px', borderRadius: 99 }}>
+            <span style={{ background: '#ef4444', color: '#fff', fontSize: '.72rem', fontWeight: 700, padding: '2px 8px', borderRadius: 99, flexShrink: 0, whiteSpace: 'nowrap' }}>
               {pending.length + pendingReviews.length + pendingFeedback.length} pending
             </span>
           )}
         </div>
       </div>
 
-      <div style={{ maxWidth: 1200, margin: '0 auto', padding: '32px 24px' }}>
+      <div className="admin-shell">
 
         {/* Tab nav */}
-        <div style={{ display: 'flex', gap: 4, marginBottom: 28, background: '#fff', borderRadius: 12, padding: 4, border: '1px solid var(--line)', width: 'fit-content' }}>
+        <div className="admin-tabs">
           {TABS.map(t => (
             <button
               key={t.key}
               onClick={() => setTab(t.key)}
-              style={{
-                padding: '8px 18px', borderRadius: 9, border: 'none', cursor: 'pointer',
-                fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.85rem',
-                background: tab === t.key ? '#1a1a1a' : 'transparent',
-                color: tab === t.key ? '#fff' : 'var(--ink-soft)',
-                transition: 'all .15s',
-              }}
+              className={`admin-tab${tab === t.key ? ' active' : ''}`}
             >
               {t.icon} {t.label}
             </button>
@@ -415,9 +409,9 @@ export default function AdminDashboard({
         {/* ── PAYMENTS ── */}
         {tab === 'payments' && (
           <div style={{ background: '#fff', borderRadius: 14, border: '1px solid var(--line)', overflow: 'hidden' }}>
-            <div style={{ padding: '18px 24px', borderBottom: '1px solid var(--line)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div className="admin-card-head">
               <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1rem' }}>Payment submissions</div>
-              <div style={{ display: 'flex', gap: 8, fontSize: '.78rem' }}>
+              <div style={{ display: 'flex', gap: 8, fontSize: '.78rem', flexWrap: 'wrap' }}>
                 <Badge color="#d97706">Pending: {submissions.filter(s => s.status === 'pending').length}</Badge>
                 <Badge color="#1B9C56">Approved: {submissions.filter(s => s.status === 'approved').length}</Badge>
                 <Badge color="#dc2626">Rejected: {submissions.filter(s => s.status === 'rejected').length}</Badge>
@@ -501,9 +495,9 @@ export default function AdminDashboard({
         {/* ── REVIEWS ── */}
         {tab === 'reviews' && (
           <div style={{ background: '#fff', borderRadius: 14, border: '1px solid var(--line)', overflow: 'hidden' }}>
-            <div style={{ padding: '18px 24px', borderBottom: '1px solid var(--line)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div className="admin-card-head">
               <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1rem' }}>Member experience reviews</div>
-              <div style={{ display: 'flex', gap: 8, fontSize: '.78rem' }}>
+              <div style={{ display: 'flex', gap: 8, fontSize: '.78rem', flexWrap: 'wrap' }}>
                 <Badge color="#d97706">Pending: {reviews.filter(r => r.status === 'pending').length}</Badge>
                 <Badge color="#1B9C56">Approved: {reviews.filter(r => r.status === 'approved').length}</Badge>
                 <Badge color="#dc2626">Rejected: {reviews.filter(r => r.status === 'rejected').length}</Badge>
@@ -581,7 +575,7 @@ export default function AdminDashboard({
         {/* ── FEEDBACK ── */}
         {tab === 'feedback' && (
           <div style={{ background: '#fff', borderRadius: 14, border: '1px solid var(--line)', overflow: 'hidden' }}>
-            <div style={{ padding: '18px 24px', borderBottom: '1px solid var(--line)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
+            <div className="admin-card-head">
               <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1rem' }}>User reports & feedback</div>
               <div style={{ display: 'flex', gap: 8, alignItems: 'center', flexWrap: 'wrap' }}>
                 <select
@@ -700,8 +694,8 @@ export default function AdminDashboard({
         {/* ── USERS ── */}
         {tab === 'users' && (
           <div style={{ background: '#fff', borderRadius: 14, border: '1px solid var(--line)', overflow: 'hidden' }}>
-            <div style={{ padding: '18px 24px', borderBottom: '1px solid var(--line)', display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
-              <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1rem', flex: 1 }}>
+            <div className="admin-card-head">
+              <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1rem', flex: 1, minWidth: 160 }}>
                 Users — {users.length} total
               </div>
               <input
@@ -709,7 +703,7 @@ export default function AdminDashboard({
                 placeholder="Search by email…"
                 value={userSearch}
                 onChange={e => setUserSearch(e.target.value)}
-                style={{ width: 220, fontSize: '.85rem', padding: '7px 12px' }}
+                style={{ flex: '1 1 200px', maxWidth: 260, fontSize: '.85rem', padding: '7px 12px' }}
               />
             </div>
             <div style={{ overflowX: 'auto' }}>
@@ -787,7 +781,7 @@ export default function AdminDashboard({
 
             {/* FAQ Editor */}
             <div style={{ background: '#fff', borderRadius: 14, border: '1px solid var(--line)', overflow: 'hidden' }}>
-              <div style={{ padding: '16px 22px', borderBottom: '1px solid var(--line)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+              <div className="admin-card-head">
                 <div>
                   <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '.95rem' }}>❓ FAQ Manager</div>
                   <div style={{ fontSize: '.78rem', color: 'var(--ink-soft)', marginTop: 2 }}>{faqs.length} questions · EN / MY / JA per question</div>
