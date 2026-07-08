@@ -23,6 +23,8 @@ const PUBLIC_PATHS = [
   '/resources/license-classes',
   '/resources/roadmap',
   '/resources/practical-checklist',
+  '/resources/memory-tips',
+  '/resources/demerit-points',
 ] as const;
 
 const CATEGORIES: Category[] = ['sg_btt', 'sg_ftt', 'sg_rtt', 'jp_car', 'jp_moto'];

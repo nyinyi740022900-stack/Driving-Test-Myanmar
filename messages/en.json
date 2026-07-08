@@ -108,7 +108,133 @@
     "r10_h": "Member experiences",
     "r10_p": "Real tips from premium members who passed their tests — moderated before publishing.",
     "r11_h": "Practical test scoring guide",
-    "r11_p": "Class 3/3A final test demerit rules — every mistake, point deduction, and pass threshold explained."
+    "r11_p": "Class 3/3A final test demerit rules — every mistake, point deduction, and pass threshold explained.",
+    "r12_h": "Easy-to-remember tips",
+    "r12_p": "Short memory hooks for speed limits, demerit points and signs — so the key numbers stick before test day.",
+    "r13_h": "Penalty & demerit points",
+    "r13_p": "The full demerit system — thresholds, suspension, common offences and how to keep your licence — in one focused guide."
+  },
+  "resourcesMemory": {
+    "breadcrumb_home": "Home",
+    "breadcrumb_title": "Memory tips",
+    "hero": {
+      "eyebrow": "Study smarter",
+      "title": "Easy-to-remember tips",
+      "lead": "Short memory hooks that make the key numbers and rules stick. For the exact figures, check the study guide — this page is about remembering them."
+    },
+    "note_label": "Why it works:",
+    "sg": {
+      "title": "Singapore — memory hooks",
+      "groups": [
+        {
+          "heading": "Speed & following distance",
+          "tips": [
+            { "hook": "\"Only a fool breaks the 2-second rule\"", "topic": "Safe following distance", "detail": "Pick a fixed marker at the roadside. When the car ahead passes it, you should reach it no sooner than 2 seconds later — double it to 4 in rain." },
+            { "hook": "\"50 in town, 90 on the E-way\"", "topic": "Default speed limits", "detail": "Built-up roads default to 50 km/h; expressways go up to 90 km/h unless a sign says otherwise." }
+          ]
+        },
+        {
+          "heading": "Demerit points & signs",
+          "tips": [
+            { "hook": "\"24 → out for 3\"", "topic": "Suspension threshold", "detail": "24 demerit points within 24 months means a 3-month suspension. New drivers are suspended at just 12 points in their first year." },
+            { "hook": "\"Red says NO, Blue says GO\"", "topic": "Sign colours", "detail": "Red-ringed signs prohibit (no entry, no parking). Blue signs are mandatory instructions (keep left, turn left)." },
+            { "hook": "\"Triangle = think ahead\"", "topic": "Warning signs", "detail": "Triangular red-border signs warn of a hazard coming up — a bend, junction, or crossing." }
+          ]
+        }
+      ]
+    },
+    "jp": {
+      "title": "Japan — memory hooks",
+      "groups": [
+        {
+          "heading": "Speed & lane",
+          "tips": [
+            { "hook": "\"60 general, 100 expressway\"", "topic": "Default speed limits", "detail": "Ordinary roads default to around 60 km/h; expressways go up to 100 km/h unless posted otherwise." },
+            { "hook": "\"Keep left, pass right\"", "topic": "Lane discipline", "detail": "Drive in the left lane and use the right lane only to overtake — then move back left." }
+          ]
+        },
+        {
+          "heading": "Points & signals",
+          "tips": [
+            { "hook": "\"15 points = licence gone\"", "topic": "Revocation", "detail": "Reaching 15 violation points (or fewer with a prior suspension on record) means your licence is revoked." },
+            { "hook": "\"In Japan, aim for ZERO alcohol\"", "topic": "Drink-driving", "detail": "The legal limit is very low and penalties are severe — the safe memory rule is simply never drink and drive." },
+            { "hook": "\"赤 stop · 青 go · 黄 slow\"", "topic": "Traffic lights", "detail": "Red means stop, green (called 青) means go, amber means stop if you safely can — never speed up to beat it." }
+          ]
+        }
+      ]
+    },
+    "back_home": "Back to home"
+  },
+  "resourcesDemerit": {
+    "breadcrumb_home": "Home",
+    "breadcrumb_title": "Penalty & demerit points",
+    "hero": {
+      "eyebrow": "Focused guide",
+      "title": "Penalty & demerit point system",
+      "lead": "Everything about demerit points in one place — the numbers that suspend a licence, common offences, and how to stay safe. Concise, easy to remember, and complete."
+    },
+    "golden_label": "The one rule to remember",
+    "remember_label": "Memory hook:",
+    "note_label": "Note:",
+    "stats_title": "At a glance",
+    "offences_title": "Common offences & points",
+    "offences_note": "Point values follow the official Traffic Police / police schedules and can change — always confirm the current figure with the official source before relying on it.",
+    "levels_title": "How suspension escalates",
+    "newdriver_title": "New & probationary drivers",
+    "sg": {
+      "title": "Singapore (DIPS)",
+      "golden": "24 demerit points in 24 months = 3-month suspension.",
+      "hook": "\"24 in 24 → out for 3.\" Twenty-four points in twenty-four months means three months off the road.",
+      "stats": [
+        { "label": "Suspension threshold", "value": "24 pts", "sub": "within any 24 months" },
+        { "label": "New driver threshold", "value": "12 pts", "sub": "within first 12 months" },
+        { "label": "First suspension", "value": "3 months", "sub": "for hitting 24 points" },
+        { "label": "Repeat suspension", "value": "Longer", "sub": "6+ months / possible revocation" }
+      ],
+      "offences_headers": ["Offence", "Demerit points"],
+      "offences": [
+        ["Running a red light", "12 pts"],
+        ["Speeding 30+ km/h over the limit", "6–24 pts"],
+        ["Using a mobile phone while driving", "6 pts"],
+        ["Failing to give way to a pedestrian", "6 pts"],
+        ["Not wearing a seat belt", "3 pts"]
+      ],
+      "levels": [
+        { "label": "24 points (1st time)", "value": "3-month suspension" },
+        { "label": "24 points again within 12 months of restoration", "value": "6-month suspension" },
+        { "label": "Suspended before + reach 24 again", "value": "Licence revocation" }
+      ],
+      "newdriver_body": "During the first 12 months you hold a licence you are on probation. Reaching just 12 demerit points in that year means your licence is revoked and you must re-sit the tests — half the normal threshold, so drive extra carefully."
+    },
+    "jp": {
+      "title": "Japan (違反点数)",
+      "golden": "15 violation points = licence revoked.",
+      "hook": "\"6-9-12-15\": suspensions start at 6, and 15 points takes the licence away completely.",
+      "stats": [
+        { "label": "30-day suspension", "value": "6–8 pts", "sub": "in 1 year, no prior record" },
+        { "label": "60-day suspension", "value": "9–11 pts", "sub": "in 1 year" },
+        { "label": "90-day suspension", "value": "12–14 pts", "sub": "in 1 year" },
+        { "label": "Revocation (取消)", "value": "15+ pts", "sub": "or with a prior suspension" }
+      ],
+      "offences_headers": ["Offence", "Violation points"],
+      "offences": [
+        ["Drink-driving (酒気帯び, lower band)", "13–25 pts"],
+        ["Speeding 30–50 km/h over (general road)", "6 pts"],
+        ["Using a mobile phone while driving", "3 pts"],
+        ["Running a red light", "2 pts"],
+        ["Not wearing a seat belt", "1 pt"]
+      ],
+      "levels": [
+        { "label": "6–8 points", "value": "30-day suspension" },
+        { "label": "9–11 points", "value": "60-day suspension" },
+        { "label": "12–14 points", "value": "90-day suspension" },
+        { "label": "15+ points", "value": "Licence revocation" }
+      ],
+      "newdriver_body": "In your first year on a regular licence you follow the beginner (初心運転者) rules. Accumulating 3 or more points can trigger a compulsory beginner re-training lecture — points count faster against new drivers, so build safe habits early."
+    },
+    "see_guide": "See the full study guide →",
+    "see_memory": "See easy-to-remember tips →",
+    "back_home": "Back to home"
   },
   "faq": {
     "eyebrow": "Good to know",

@@ -44,6 +44,28 @@ export default function Resources() {
       ),
     },
     {
+      key: 'r12',
+      path: 'resources/memory-tips',
+      icon: (
+        <svg viewBox="0 0 24 24">
+          <path d="M9 18h6" />
+          <path d="M10 21h4" />
+          <path d="M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.2 1 2.5h6c0-1.3.3-1.8 1-2.5A6 6 0 0 0 12 3z" />
+        </svg>
+      ),
+    },
+    {
+      key: 'r13',
+      path: 'resources/demerit-points',
+      icon: (
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="9" />
+          <path d="M12 8v4l3 2" />
+          <path d="M12 3v2M12 19v2M3 12h2M19 12h2" />
+        </svg>
+      ),
+    },
+    {
       key: 'r7',
       path: 'resources/license-classes',
       icon: (
