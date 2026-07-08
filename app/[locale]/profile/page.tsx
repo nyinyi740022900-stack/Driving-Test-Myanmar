@@ -7,8 +7,15 @@ import { useTranslations } from 'next-intl';
 import { useAuth } from '@/components/AuthProvider';
 import { createClient } from '@/lib/supabase';
 import { TEST_META } from '@/lib/types';
-import { getBestScore, getAttemptCount } from '@/lib/progress';
+import {
+  getCloudProgress,
+  migrateLocalProgressToCloud,
+  type CloudCategoryStat,
+} from '@/lib/progress';
 import WrongAnswersSection from '@/components/WrongAnswersSection';
+import ExamCountdown from '@/components/ExamCountdown';
+import StreakCard from '@/components/StreakCard';
+import ReferralCard from '@/components/ReferralCard';
 
 interface Subscription {
   status: 'free' | 'premium';
@@ -36,6 +43,7 @@ export default function ProfilePage() {
 
   const [sub, setSub] = useState<Subscription | null>(null);
   const [payments, setPayments] = useState<PaymentSubmission[]>([]);
+  const [cloudProgress, setCloudProgress] = useState<Record<string, CloudCategoryStat>>({});
   const [fetching, setFetching] = useState(true);
 
   useEffect(() => {
@@ -47,14 +55,19 @@ export default function ProfilePage() {
   useEffect(() => {
     if (!user) return;
     const supabase = createClient();
-    Promise.all([
-      supabase.from('subscriptions').select('*').eq('user_id', user.id).single(),
-      supabase.from('payment_submissions').select('*').eq('user_id', user.id).order('created_at', { ascending: false }),
-    ]).then(([subRes, payRes]) => {
+    (async () => {
+      // Push any local-only history up before reading, so it isn't lost.
+      await migrateLocalProgressToCloud(supabase, user.id, TEST_META.map(m => m.category));
+      const [subRes, payRes, cloud] = await Promise.all([
+        supabase.from('subscriptions').select('*').eq('user_id', user.id).single(),
+        supabase.from('payment_submissions').select('*').eq('user_id', user.id).order('created_at', { ascending: false }),
+        getCloudProgress(supabase, user.id),
+      ]);
       setSub(subRes.data ?? null);
       setPayments(payRes.data ?? []);
+      setCloudProgress(cloud);
       setFetching(false);
-    });
+    })();
   }, [user]);
 
   if (loading || fetching || !user) return null;
@@ -70,9 +83,9 @@ export default function ProfilePage() {
   } as const;
 
   const progressRows = TEST_META.map(meta => {
-    const best = getBestScore(meta.category);
-    const attempts = getAttemptCount(meta.category);
-    const bestPct = best ? Math.round((best.score / best.total) * 100) : null;
+    const stat = cloudProgress[meta.category];
+    const attempts = stat?.attempts ?? 0;
+    const bestPct = stat?.bestPct ?? null;
     const name = locale === 'my' ? meta.nameMy : locale === 'ja' ? meta.nameJa : meta.nameEn;
     return { meta, name, attempts, bestPct };
   });
@@ -139,6 +152,12 @@ export default function ProfilePage() {
           )}
         </div>
 
+        {/* Practice streak */}
+        <StreakCard />
+
+        {/* Exam countdown */}
+        <ExamCountdown locale={locale} />
+
         {/* Progress summary */}
         <div style={{ background: '#fff', borderRadius: 18, padding: '24px 28px', marginBottom: 20, border: '1px solid var(--line)' }}>
           <div style={{ fontSize: '.72rem', fontFamily: 'var(--display)', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--ink-soft)', marginBottom: 16 }}>
@@ -171,6 +190,9 @@ export default function ProfilePage() {
         </div>
 
         <WrongAnswersSection locale={locale} />
+
+        {/* Invite friends */}
+        <ReferralCard userId={user.id} locale={locale} />
 
         {/* Settings */}
         <div style={{ background: '#fff', borderRadius: 18, padding: '24px 28px', marginBottom: 20, border: '1px solid var(--line)' }}>

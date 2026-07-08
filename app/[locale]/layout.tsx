@@ -9,6 +9,8 @@ import { CountryProvider } from '@/components/CountryProvider';
 import { PageTransitionProvider } from '@/components/PageTransitionProvider';
 import CookieConsent from '@/components/CookieConsent';
 import AnalyticsProvider from '@/components/AnalyticsProvider';
+import ServiceWorkerManager from '@/components/ServiceWorkerManager';
+import ReferralRedeemer from '@/components/ReferralRedeemer';
 import { BRAND_NAME } from '@/lib/brand';
 import { buildSiteMetadata } from '@/lib/seo';
 import '../globals.css';
@@ -115,7 +117,9 @@ export default async function LocaleLayout({
                   <DeviceSessionGate>
                     {children}
                   </DeviceSessionGate>
+                  <ReferralRedeemer />
                   <CookieConsent />
+                  <ServiceWorkerManager />
                 </AnalyticsProvider>
               </PageTransitionProvider>
             </AuthProvider>

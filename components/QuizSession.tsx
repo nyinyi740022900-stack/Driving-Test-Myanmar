@@ -23,8 +23,9 @@ import AdBanner from './AdBanner';
 import RewardedAdButton from './RewardedAdButton';
 import { createClient } from '@/lib/supabase';
 import { isPremium } from '@/lib/subscription';
-import { saveQuizResult, getBestScore, getAttemptCount } from '@/lib/progress';
+import { saveQuizResult, getBestScore, getAttemptCount, saveQuizResultCloud } from '@/lib/progress';
 import { addWrongAnswer } from '@/lib/wrong-answers';
+import { recordPracticeDay } from '@/lib/streak';
 import { AnalyticsEvents } from '@/lib/analytics';
 import { AD_SLOTS } from '@/lib/ad-strategy';
 import {
@@ -68,6 +69,7 @@ function setUnlockStatus(category: Category, status: 'granted' | 'used') {
 }
 
 function trackWrongIfNeeded(question: Question, answer: QuizAnswer, category: Category) {
+  recordPracticeDay();
   if (!isQuestionCorrect(question, answer)) {
     const picked = typeof answer === 'number' ? answer : 0;
     addWrongAnswer({ questionId: question.id, category, picked });
@@ -282,6 +284,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
   }
   function handleNext() {
     if (mode === 'lesson') {
+      recordPracticeDay();
       runAfterQuizAd(() => {
         if (idx < pool.length - 1) setIdx(idx + 1);
       });
@@ -298,12 +301,17 @@ export default function QuizSession({ category, mode, questions }: Props) {
       if (getUnlockStatus(category) === 'granted') {
         setUnlockStatus(category, 'used');
       }
-      saveQuizResult(category, {
+      const result = {
         date: new Date().toISOString(),
         score: scored.earned,
         total: scored.total,
         passed: scored.percent >= meta.passPercent,
-      });
+      };
+      saveQuizResult(category, result);
+      // Mirror to the cloud so progress follows a signed-in user across devices.
+      if (user && process.env.NEXT_PUBLIC_SUPABASE_URL) {
+        void saveQuizResultCloud(createClient(), user.id, category, result).catch(() => {});
+      }
     }
     setSubmitted(true);
   }

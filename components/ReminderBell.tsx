@@ -94,7 +94,7 @@ export default function ReminderBell({ lang = 'en' }: { lang?: string }) {
 
     if (!('serviceWorker' in navigator)) return;
     try {
-      await navigator.serviceWorker.register('/sw-reminder.js');
+      await navigator.serviceWorker.register('/sw.js');
       await scheduleNotification(newCfg, lang);
     } catch {}
   }
