@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { useAuth } from '@/components/AuthProvider';
 import { BRAND_NAME } from '@/lib/brand';
+import { extractYouTubeId, youTubeThumbnail } from '@/lib/youtube';
 
 interface Submission {
   id: string;
@@ -72,6 +73,8 @@ interface Stats {
 interface Config {
   kbzpay: string;
   wavepay: string;
+  kbzpayName: string;
+  wavepayName: string;
   monthlyPrice: number;
   yearlyPrice: number;
   adminEmails: string;
@@ -96,11 +99,31 @@ interface Faq {
   published: boolean;
 }
 
+interface Tutorial {
+  id: string;
+  country: 'sg' | 'jp';
+  title_en: string;
+  title_my: string;
+  title_ja: string;
+  description_en: string;
+  description_my: string;
+  description_ja: string;
+  youtube_url: string;
+  sort_order: number;
+  published: boolean;
+}
+
 type Tab = 'overview' | 'payments' | 'reviews' | 'feedback' | 'users' | 'content' | 'settings';
 
 const BLANK_FAQ: Omit<Faq, 'id'> = {
   country: 'sg', question_en: '', question_my: '', question_ja: '',
   answer_en: '', answer_my: '', answer_ja: '', sort_order: 0, published: true,
+};
+
+const BLANK_TUTORIAL: Omit<Tutorial, 'id'> = {
+  country: 'sg', title_en: '', title_my: '', title_ja: '',
+  description_en: '', description_my: '', description_ja: '',
+  youtube_url: '', sort_order: 0, published: true,
 };
 
 function ExpiryReminderButton({ userEmail }: { userEmail: string }) {
@@ -138,7 +161,7 @@ function ExpiryReminderButton({ userEmail }: { userEmail: string }) {
 }
 
 export default function AdminDashboard({
-  locale, submissions: initialSubs, reviews: initialReviews, feedback: initialFeedback, users, stats, settings: initialSettings, faqs: initialFaqs, config,
+  locale, submissions: initialSubs, reviews: initialReviews, feedback: initialFeedback, users, stats, settings: initialSettings, faqs: initialFaqs, tutorials: initialTutorials, config,
 }: {
   locale: string;
   submissions: Submission[];
@@ -148,6 +171,7 @@ export default function AdminDashboard({
   stats: Stats;
   settings: AppSetting[];
   faqs: Faq[];
+  tutorials: Tutorial[];
   config: Config;
 }) {
   const { user } = useAuth();
@@ -173,6 +197,12 @@ export default function AdminDashboard({
   const [editingFaq, setEditingFaq] = useState<string | null>(null);
   const [faqBusy, setFaqBusy] = useState(false);
   const [faqLang, setFaqLang] = useState<'en' | 'my' | 'ja'>('en');
+  const [tutorials, setTutorials] = useState<Tutorial[]>(initialTutorials);
+  const [tutorialForm, setTutorialForm] = useState<Omit<Tutorial, 'id'> | null>(null);
+  const [editingTutorial, setEditingTutorial] = useState<string | null>(null);
+  const [tutorialBusy, setTutorialBusy] = useState(false);
+  const [tutorialLang, setTutorialLang] = useState<'en' | 'my' | 'ja'>('en');
+  const [tutorialError, setTutorialError] = useState('');
 
   async function saveSetting(key: string, value: string) {
     const trimmed = value.trim();
@@ -187,6 +217,10 @@ export default function AdminDashboard({
     }
     if ((key === 'kbzpay_number' || key === 'wavepay_number') && !trimmed) {
       setSettingError(prev => ({ ...prev, [key]: 'Wallet number cannot be empty.' }));
+      return;
+    }
+    if ((key === 'kbzpay_name' || key === 'wavepay_name') && !trimmed) {
+      setSettingError(prev => ({ ...prev, [key]: 'Account name cannot be empty.' }));
       return;
     }
 
@@ -214,6 +248,8 @@ export default function AdminDashboard({
         }
         if (key === 'kbzpay_number') return { ...prev, kbzpay: trimmed };
         if (key === 'wavepay_number') return { ...prev, wavepay: trimmed };
+        if (key === 'kbzpay_name') return { ...prev, kbzpayName: trimmed };
+        if (key === 'wavepay_name') return { ...prev, wavepayName: trimmed };
         return prev;
       });
       setSettingSaved(key);
@@ -255,6 +291,44 @@ export default function AdminDashboard({
     if (!confirm('Delete this FAQ?')) return;
     const res = await fetch(`/api/admin/faqs/${id}`, { method: 'DELETE' });
     if (res.ok) setFaqs(prev => prev.filter(f => f.id !== id));
+    else alert('Delete failed');
+  }
+
+  async function submitTutorial() {
+    if (!tutorialForm) return;
+    setTutorialError('');
+    if (!extractYouTubeId(tutorialForm.youtube_url)) {
+      setTutorialError('Invalid YouTube URL — paste a watch, youtu.be or shorts link.');
+      return;
+    }
+    setTutorialBusy(true);
+    try {
+      if (editingTutorial) {
+        const res = await fetch(`/api/admin/tutorials/${editingTutorial}`, {
+          method: 'PUT', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(tutorialForm),
+        });
+        if (!res.ok) throw new Error('Failed');
+        setTutorials(prev => prev.map(v => v.id === editingTutorial ? { ...v, ...tutorialForm } : v));
+      } else {
+        const res = await fetch('/api/admin/tutorials', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(tutorialForm),
+        });
+        if (!res.ok) throw new Error('Failed');
+        const newTutorial = await res.json();
+        setTutorials(prev => [...prev, newTutorial]);
+      }
+      setTutorialForm(null);
+      setEditingTutorial(null);
+    } catch { alert('Save failed'); }
+    setTutorialBusy(false);
+  }
+
+  async function deleteTutorial(id: string) {
+    if (!confirm('Delete this tutorial video?')) return;
+    const res = await fetch(`/api/admin/tutorials/${id}`, { method: 'DELETE' });
+    if (res.ok) setTutorials(prev => prev.filter(v => v.id !== id));
     else alert('Delete failed');
   }
 
@@ -964,6 +1038,184 @@ export default function AdminDashboard({
                 )}
               </div>
             </div>
+
+            {/* Video Tutorial Manager */}
+            <div style={{ background: '#fff', borderRadius: 14, border: '1px solid var(--line)', overflow: 'hidden' }}>
+              <div className="admin-card-head">
+                <div>
+                  <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '.95rem' }}>🎬 Video Tutorials</div>
+                  <div style={{ fontSize: '.78rem', color: 'var(--ink-soft)', marginTop: 2 }}>{tutorials.length} videos · shown at /resources/tutorials</div>
+                </div>
+                <button
+                  onClick={() => { setTutorialForm({ ...BLANK_TUTORIAL }); setEditingTutorial(null); setTutorialError(''); }}
+                  style={{ padding: '7px 16px', borderRadius: 9, background: '#1a1a1a', color: '#fff', border: 'none', cursor: 'pointer', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.82rem' }}
+                >
+                  + Add video
+                </button>
+              </div>
+
+              {/* Tutorial form */}
+              {tutorialForm && (
+                <div style={{ padding: '20px 22px', borderBottom: '2px solid var(--guide)', background: '#f8fffe' }}>
+                  <div style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.88rem', marginBottom: 14 }}>
+                    {editingTutorial ? 'Edit video' : 'New video'}
+                  </div>
+
+                  {/* Country + Published + Order */}
+                  <div style={{ display: 'flex', gap: 12, marginBottom: 14, flexWrap: 'wrap' }}>
+                    <label style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: '.85rem' }}>
+                      Country:
+                      <select
+                        value={tutorialForm.country}
+                        onChange={e => setTutorialForm(v => v && ({ ...v, country: e.target.value as 'sg' | 'jp' }))}
+                        style={{ padding: '5px 10px', borderRadius: 7, border: '1px solid var(--line)', fontFamily: 'var(--display)', fontWeight: 600 }}
+                      >
+                        <option value="sg">🇸🇬 Singapore</option>
+                        <option value="jp">🇯🇵 Japan</option>
+                      </select>
+                    </label>
+                    <label style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: '.85rem' }}>
+                      <input type="checkbox" checked={tutorialForm.published} onChange={e => setTutorialForm(v => v && ({ ...v, published: e.target.checked }))} />
+                      Published
+                    </label>
+                    <label style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: '.85rem' }}>
+                      Order:
+                      <input
+                        type="number"
+                        value={tutorialForm.sort_order}
+                        onChange={e => setTutorialForm(v => v && ({ ...v, sort_order: +e.target.value }))}
+                        style={{ width: 60, padding: '5px 8px', borderRadius: 7, border: '1px solid var(--line)' }}
+                      />
+                    </label>
+                  </div>
+
+                  {/* YouTube URL + live preview */}
+                  <div style={{ marginBottom: 14 }}>
+                    <div style={{ fontSize: '.78rem', fontFamily: 'var(--display)', fontWeight: 700, marginBottom: 4, color: 'var(--ink-soft)' }}>YouTube link</div>
+                    <input
+                      className="field-input"
+                      value={tutorialForm.youtube_url}
+                      onChange={e => { setTutorialForm(v => v && ({ ...v, youtube_url: e.target.value })); setTutorialError(''); }}
+                      placeholder="https://www.youtube.com/watch?v=… or https://youtu.be/…"
+                      style={{ width: '100%', fontSize: '.88rem' }}
+                    />
+                    {tutorialError && (
+                      <div style={{ fontSize: '.78rem', color: '#dc2626', marginTop: 4 }}>{tutorialError}</div>
+                    )}
+                    {(() => {
+                      const previewId = extractYouTubeId(tutorialForm.youtube_url);
+                      if (!previewId) return null;
+                      return (
+                        <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginTop: 8 }}>
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img src={youTubeThumbnail(previewId)} alt="Video preview" style={{ width: 120, borderRadius: 8, display: 'block' }} />
+                          <span style={{ fontSize: '.78rem', color: '#1B9C56', fontWeight: 600 }}>✓ Valid video: {previewId}</span>
+                        </div>
+                      );
+                    })()}
+                  </div>
+
+                  {/* Language tabs */}
+                  <div style={{ display: 'flex', gap: 4, marginBottom: 12 }}>
+                    {(['en', 'my', 'ja'] as const).map(l => (
+                      <button key={l} onClick={() => setTutorialLang(l)}
+                        style={{ padding: '5px 14px', borderRadius: 7, border: 'none', cursor: 'pointer', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.82rem', background: tutorialLang === l ? '#1a1a1a' : 'var(--paint)', color: tutorialLang === l ? '#fff' : 'var(--ink-soft)' }}>
+                        {l.toUpperCase()}
+                      </button>
+                    ))}
+                  </div>
+
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                    <div>
+                      <div style={{ fontSize: '.78rem', fontFamily: 'var(--display)', fontWeight: 700, marginBottom: 4, color: 'var(--ink-soft)' }}>Title ({tutorialLang.toUpperCase()})</div>
+                      <input
+                        className="field-input"
+                        value={(tutorialForm as unknown as Record<string, string>)[`title_${tutorialLang}`]}
+                        onChange={e => setTutorialForm(v => v && ({ ...v, [`title_${tutorialLang}`]: e.target.value }))}
+                        placeholder={`Title in ${tutorialLang.toUpperCase()}…`}
+                        style={{ width: '100%', fontSize: '.88rem' }}
+                      />
+                    </div>
+                    <div>
+                      <div style={{ fontSize: '.78rem', fontFamily: 'var(--display)', fontWeight: 700, marginBottom: 4, color: 'var(--ink-soft)' }}>Description ({tutorialLang.toUpperCase()}) — optional</div>
+                      <textarea
+                        className="field-input"
+                        value={(tutorialForm as unknown as Record<string, string>)[`description_${tutorialLang}`]}
+                        onChange={e => setTutorialForm(v => v && ({ ...v, [`description_${tutorialLang}`]: e.target.value }))}
+                        placeholder={`Description in ${tutorialLang.toUpperCase()}…`}
+                        rows={2}
+                        style={{ width: '100%', fontSize: '.88rem', resize: 'vertical' }}
+                      />
+                    </div>
+                  </div>
+
+                  <div style={{ display: 'flex', gap: 8, marginTop: 14 }}>
+                    <button onClick={submitTutorial} disabled={tutorialBusy}
+                      style={{ padding: '8px 20px', borderRadius: 9, background: '#1B9C56', color: '#fff', border: 'none', cursor: 'pointer', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.85rem', opacity: tutorialBusy ? .6 : 1 }}>
+                      {tutorialBusy ? 'Saving…' : editingTutorial ? 'Save changes' : 'Add video'}
+                    </button>
+                    <button onClick={() => { setTutorialForm(null); setEditingTutorial(null); setTutorialError(''); }}
+                      style={{ padding: '8px 16px', borderRadius: 9, background: 'none', color: 'var(--ink-soft)', border: '1px solid var(--line)', cursor: 'pointer', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.85rem' }}>
+                      Cancel
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {/* Tutorial list */}
+              <div style={{ padding: '8px 22px 22px' }}>
+                {['sg', 'jp'].map(country => {
+                  const countryTutorials = tutorials.filter(v => v.country === country);
+                  if (countryTutorials.length === 0) return null;
+                  return (
+                    <div key={country} style={{ marginTop: 16 }}>
+                      <div style={{ fontSize: '.75rem', fontFamily: 'var(--display)', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--ink-soft)', marginBottom: 10 }}>
+                        {country === 'sg' ? '🇸🇬 Singapore' : '🇯🇵 Japan'}
+                      </div>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                        {countryTutorials.map(video => {
+                          const videoId = extractYouTubeId(video.youtube_url);
+                          return (
+                            <div key={video.id} style={{ display: 'flex', alignItems: 'flex-start', gap: 10, background: 'var(--paint)', borderRadius: 10, padding: '12px 14px' }}>
+                              {videoId && (
+                                /* eslint-disable-next-line @next/next/no-img-element */
+                                <img src={youTubeThumbnail(videoId)} alt="" style={{ width: 90, borderRadius: 8, flexShrink: 0 }} />
+                              )}
+                              <div style={{ flex: 1, minWidth: 0 }}>
+                                <div style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.88rem', marginBottom: 3 }}>
+                                  {video.title_en || video.title_my || video.title_ja || <span style={{ color: 'var(--ink-soft)', fontStyle: 'italic' }}>No title</span>}
+                                </div>
+                                <a href={video.youtube_url} target="_blank" rel="noopener noreferrer" style={{ fontSize: '.76rem', color: 'var(--ink-soft)', wordBreak: 'break-all' }}>
+                                  {video.youtube_url}
+                                </a>
+                                {!video.published && <div><span style={{ fontSize: '.72rem', background: '#fef3c7', color: '#92400e', padding: '2px 7px', borderRadius: 99, marginTop: 4, display: 'inline-block' }}>Draft</span></div>}
+                              </div>
+                              <div style={{ display: 'flex', gap: 6, flexShrink: 0 }}>
+                                <button
+                                  onClick={() => { setEditingTutorial(video.id); setTutorialError(''); setTutorialForm({ country: video.country, title_en: video.title_en, title_my: video.title_my, title_ja: video.title_ja, description_en: video.description_en, description_my: video.description_my, description_ja: video.description_ja, youtube_url: video.youtube_url, sort_order: video.sort_order, published: video.published }); }}
+                                  style={{ padding: '5px 10px', borderRadius: 7, border: '1px solid var(--line)', background: '#fff', cursor: 'pointer', fontSize: '.78rem', fontFamily: 'var(--display)', fontWeight: 700 }}>
+                                  Edit
+                                </button>
+                                <button
+                                  onClick={() => deleteTutorial(video.id)}
+                                  style={{ padding: '5px 10px', borderRadius: 7, border: '1px solid #fca5a5', background: '#fff', cursor: 'pointer', fontSize: '.78rem', fontFamily: 'var(--display)', fontWeight: 700, color: '#dc2626' }}>
+                                  Delete
+                                </button>
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                })}
+                {tutorials.length === 0 && (
+                  <div style={{ textAlign: 'center', padding: '32px 0', color: 'var(--ink-soft)', fontSize: '.9rem' }}>
+                    No videos yet — run <code>supabase/video_tutorials.sql</code> in Supabase, then click "+ Add video".
+                  </div>
+                )}
+              </div>
+            </div>
           </div>
         )}
 
@@ -980,9 +1232,11 @@ export default function AdminDashboard({
             {/* Wallet numbers */}
             <SettingsCard title="📱 Payment wallets" subtitle="Loaded from app_settings (fallback to env)">
               <SettingRow label="KBZPay number" value={runtimeConfig.kbzpay || '(not set)'} mono />
+              <SettingRow label="KBZPay account name" value={runtimeConfig.kbzpayName || '(not set)'} />
               <SettingRow label="WavePay number" value={runtimeConfig.wavepay || '(not set)'} mono />
+              <SettingRow label="WavePay account name" value={runtimeConfig.wavepayName || '(not set)'} />
               <div style={{ marginTop: 12, padding: '10px 14px', background: '#fef3c7', borderRadius: 8, fontSize: '.82rem', color: '#92400e' }}>
-                Update <code>kbzpay_number</code> / <code>wavepay_number</code> in App Settings to apply immediately.
+                Update <code>kbzpay_number</code>, <code>wavepay_number</code>, <code>kbzpay_name</code>, <code>wavepay_name</code> in App Settings to apply immediately.
               </div>
             </SettingsCard>
 

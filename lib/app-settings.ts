@@ -5,6 +5,8 @@ export interface PublicAppSettings {
   yearlyPrice: number;
   kbzpayNumber: string;
   wavepayNumber: string;
+  kbzpayName: string;
+  wavepayName: string;
 }
 
 export const DEFAULT_MONTHLY_PRICE = 4900;
@@ -32,5 +34,7 @@ export async function getPublicAppSettings(): Promise<PublicAppSettings> {
     yearlyPrice: toPositiveNumber(map.get('yearly_price'), DEFAULT_YEARLY_PRICE),
     kbzpayNumber: nonEmpty(map.get('kbzpay_number'), process.env.NEXT_PUBLIC_KBZPAY_NUMBER ?? '09 XXXX XXXX'),
     wavepayNumber: nonEmpty(map.get('wavepay_number'), process.env.NEXT_PUBLIC_WAVEPAY_NUMBER ?? '09 XXXX XXXX'),
+    kbzpayName: nonEmpty(map.get('kbzpay_name'), process.env.NEXT_PUBLIC_KBZPAY_NAME ?? ''),
+    wavepayName: nonEmpty(map.get('wavepay_name'), process.env.NEXT_PUBLIC_WAVEPAY_NAME ?? ''),
   };
 }

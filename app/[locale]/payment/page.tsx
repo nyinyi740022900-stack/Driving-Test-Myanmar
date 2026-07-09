@@ -13,6 +13,10 @@ const DEFAULT_WALLETS = {
   KBZPay: process.env.NEXT_PUBLIC_KBZPAY_NUMBER ?? '09 XXXX XXXX',
   WavePay: process.env.NEXT_PUBLIC_WAVEPAY_NUMBER ?? '09 XXXX XXXX',
 } as const;
+const DEFAULT_WALLET_NAMES = {
+  KBZPay: process.env.NEXT_PUBLIC_KBZPAY_NAME ?? '',
+  WavePay: process.env.NEXT_PUBLIC_WAVEPAY_NAME ?? '',
+} as const;
 
 type WalletKey = 'KBZPay' | 'WavePay';
 
@@ -29,6 +33,7 @@ export default function PaymentPage() {
     yearlyPrice: PLANS.yearly.price,
   });
   const [walletNumbers, setWalletNumbers] = useState({ KBZPay: DEFAULT_WALLETS.KBZPay, WavePay: DEFAULT_WALLETS.WavePay });
+  const [walletNames, setWalletNames] = useState({ KBZPay: DEFAULT_WALLET_NAMES.KBZPay, WavePay: DEFAULT_WALLET_NAMES.WavePay });
   const plans = getPlans(pricing);
   const plan = plans[planKey] ?? plans.monthly;
   const wallets = [
@@ -64,6 +69,8 @@ export default function PaymentPage() {
           yearlyPrice?: number;
           kbzpayNumber?: string;
           wavepayNumber?: string;
+          kbzpayName?: string;
+          wavepayName?: string;
         };
         if (cancelled) return;
         setPricing({
@@ -73,6 +80,10 @@ export default function PaymentPage() {
         setWalletNumbers({
           KBZPay: data.kbzpayNumber?.trim() || DEFAULT_WALLETS.KBZPay,
           WavePay: data.wavepayNumber?.trim() || DEFAULT_WALLETS.WavePay,
+        });
+        setWalletNames({
+          KBZPay: data.kbzpayName?.trim() || DEFAULT_WALLET_NAMES.KBZPay,
+          WavePay: data.wavepayName?.trim() || DEFAULT_WALLET_NAMES.WavePay,
         });
       })
       .catch(() => {});
@@ -215,6 +226,11 @@ export default function PaymentPage() {
                 <div style={{ fontSize: '.82rem', color: 'var(--ink-soft)', marginTop: 2 }}>
                   {wallet} · {t('brand_name')}
                 </div>
+                {!!walletNames[wallet] && (
+                  <div style={{ fontSize: '.85rem', color: 'var(--guide-deep)', marginTop: 4, fontWeight: 700 }}>
+                    {t('account_name')}: {walletNames[wallet]}
+                  </div>
+                )}
               </div>
               <button
                 type="button"
@@ -274,6 +290,11 @@ export default function PaymentPage() {
           <p style={{ marginTop: 16, fontSize: '.82rem', color: 'var(--ink-soft)', textAlign: 'center' }}>
             {t('footer_note')}
           </p>
+          {!!walletNames[wallet] && (
+            <p style={{ marginTop: 8, fontSize: '.8rem', color: 'var(--ink-soft)', textAlign: 'center' }}>
+              {t('verify_name_note', { name: walletNames[wallet] })}
+            </p>
+          )}
         </div>
       </div>
     </div>

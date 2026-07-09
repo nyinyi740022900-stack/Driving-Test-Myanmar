@@ -110,7 +110,9 @@
     "r12_h": "Easy-to-remember tips",
     "r12_p": "Short memory hooks for speed limits, demerit points and signs — so the key numbers stick before test day.",
     "r13_h": "Penalty & demerit points",
-    "r13_p": "The full demerit system — thresholds, suspension, common offences and how to keep your licence — in one focused guide."
+    "r13_p": "The full demerit system — thresholds, suspension, common offences and how to keep your licence — in one focused guide.",
+    "r14_h": "Video tutorials",
+    "r14_p": "Hand-picked YouTube lessons — watch driving theory explained step by step, right inside the app."
   },
   "resourcesMemory": {
     "breadcrumb_home": "Home",
@@ -475,6 +477,7 @@
     "eyebrow": "Complete payment",
     "step_method": "1. Choose payment method",
     "step_transfer": "2. Transfer {amount} Ks to",
+    "account_name": "Account name",
     "brand_name": "TheoryLane",
     "copy": "Copy",
     "step_txn": "3. Transaction ID / Reference number",
@@ -483,6 +486,7 @@
     "submitting": "Submitting…",
     "submit_cta": "Submit payment details →",
     "footer_note": "Your account will be upgraded within a few hours.",
+    "verify_name_note": "Please confirm the recipient name matches: {name}",
     "submitted_title": "Payment submitted!",
     "submitted_desc": "We received your payment details for {plan}. Your account will be upgraded within a few hours once confirmed.",
     "submitted_note": "Activation is done manually — usually within a few hours. Sign in and refresh the page to check your premium status.",
@@ -1146,6 +1150,17 @@
     "disclaimer_label": "Disclaimer:",
     "disclaimer_text": "All fees are approximate and may change. Singapore fees include GST as of 2026. Japan fees are as published by the 警察庁. Always verify with the relevant authority (Traffic Police / OneMotoring for SG; your prefecture's 免許センター for JP) before budgeting.",
     "back_home": "← Back to home"
+  },
+  "resourcesTutorials": {
+    "breadcrumb_home": "← Home",
+    "breadcrumb_title": "Video tutorials",
+    "hero": {
+      "eyebrow": "Watch & learn",
+      "title": "Video tutorials",
+      "lead": "Hand-picked YouTube lessons that explain driving theory step by step — watch them right here without leaving the app."
+    },
+    "loading": "Loading videos…",
+    "empty": "No tutorial videos yet — check back soon."
   },
   "resourcesFaq": {
     "breadcrumb_home": "← Home",

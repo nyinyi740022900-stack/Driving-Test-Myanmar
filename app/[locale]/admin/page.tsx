@@ -39,7 +39,7 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
   // All data fetches use service role (bypasses RLS)
   const service = await createServiceClient();
 
-  const [submissionsRes, usersRes, subscriptionsRes, settingsRes, faqsRes, reviewsRes, feedbackRes] = await Promise.all([
+  const [submissionsRes, usersRes, subscriptionsRes, settingsRes, faqsRes, reviewsRes, feedbackRes, tutorialsRes] = await Promise.all([
     service.from('payment_submissions').select('*').order('created_at', { ascending: false }),
     service.auth.admin.listUsers({ perPage: 200 }),
     service.from('subscriptions').select('*'),
@@ -47,6 +47,7 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
     service.from('faqs').select('*').order('country').order('sort_order'),
     service.from('member_reviews').select('*').order('created_at', { ascending: false }),
     service.from('user_feedback').select('*').order('created_at', { ascending: false }),
+    service.from('video_tutorials').select('*').order('country').order('sort_order'),
   ]);
 
   const submissions = submissionsRes.data ?? [];
@@ -56,6 +57,7 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
   const faqs = faqsRes.data ?? [];
   const reviews = reviewsRes.data ?? [];
   const feedback = feedbackRes.error ? [] : (feedbackRes.data ?? []);
+  const tutorials = tutorialsRes.error ? [] : (tutorialsRes.data ?? []);
 
   // Attach email to each submission
   const userMap = Object.fromEntries(users.map(u => [u.id, u.email ?? '']));
@@ -107,9 +109,12 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
       }}
       settings={settings}
       faqs={faqs}
+      tutorials={tutorials}
       config={{
         kbzpay: stringSetting(settings, 'kbzpay_number', process.env.NEXT_PUBLIC_KBZPAY_NUMBER ?? ''),
         wavepay: stringSetting(settings, 'wavepay_number', process.env.NEXT_PUBLIC_WAVEPAY_NUMBER ?? ''),
+        kbzpayName: stringSetting(settings, 'kbzpay_name', process.env.NEXT_PUBLIC_KBZPAY_NAME ?? ''),
+        wavepayName: stringSetting(settings, 'wavepay_name', process.env.NEXT_PUBLIC_WAVEPAY_NAME ?? ''),
         monthlyPrice: numberSetting(settings, 'monthly_price', DEFAULT_MONTHLY_PRICE),
         yearlyPrice: numberSetting(settings, 'yearly_price', DEFAULT_YEARLY_PRICE),
         adminEmails: process.env.ADMIN_EMAILS ?? '',

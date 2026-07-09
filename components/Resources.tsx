@@ -139,6 +139,16 @@ export default function Resources() {
       star: true,
     },
     {
+      key: 'r14',
+      path: 'resources/tutorials',
+      icon: (
+        <svg viewBox="0 0 24 24">
+          <rect x="3" y="5" width="18" height="14" rx="3" />
+          <path d="M10 9.5v5l4.5-2.5z" />
+        </svg>
+      ),
+    },
+    {
       key: 'r11',
       path: 'resources/practical-checklist',
       countries: ['sg'],
