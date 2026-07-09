@@ -74,7 +74,7 @@ export default function AdminTable({ submissions: initial }: { submissions: Subm
               <td style={{ fontFamily: 'monospace', fontSize: '.82rem' }}>{s.transaction_id}</td>
               <td>
                 {s.screenshot_url
-                  ? <a href={s.screenshot_url} target="_blank" rel="noreferrer" style={{ color: 'var(--guide-deep)', fontWeight: 700, fontSize: '.82rem' }}>View</a>
+                  ? <a href={`/api/admin/payment-screenshot?submissionId=${s.id}`} target="_blank" rel="noreferrer" style={{ color: 'var(--guide-deep)', fontWeight: 700, fontSize: '.82rem' }}>View</a>
                   : <span style={{ color: 'var(--ink-soft)', fontSize: '.82rem' }}>—</span>
                 }
               </td>

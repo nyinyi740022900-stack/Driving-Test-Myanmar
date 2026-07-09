@@ -480,9 +480,11 @@
     "account_name": "Account name",
     "brand_name": "TheoryLane",
     "copy": "Copy",
-    "step_txn": "3. Transaction ID / Reference number",
-    "txn_placeholder": "e.g. KBZ2024XXXXXXXXXX",
+    "step_txn": "3. Enter the last 6 digits of the transaction code",
+    "txn_placeholder": "e.g. 123456",
     "step_screenshot": "4. Screenshot of payment (optional but speeds up approval)",
+    "compressing": "Optimising screenshot…",
+    "screenshot_ready": "Ready to upload · {size} KB",
     "submitting": "Submitting…",
     "submit_cta": "Submit payment details →",
     "footer_note": "Your account will be upgraded within a few hours.",
@@ -492,7 +494,8 @@
     "submitted_note": "Activation is done manually — usually within a few hours. Sign in and refresh the page to check your premium status.",
     "submitted_contact": "If not activated within 24 hours, contact us at",
     "back_home": "← Back to home",
-    "error_generic": "Something went wrong"
+    "error_generic": "Something went wrong",
+    "error_txn_digits": "Please enter exactly 6 digits from your transaction code"
   },
   "profile": {
     "back_home": "← Back to home",

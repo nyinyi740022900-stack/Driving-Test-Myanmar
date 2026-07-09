@@ -7,6 +7,7 @@ import { useAuth } from '@/components/AuthProvider';
 import { createClient } from '@/lib/supabase';
 import { getPlans, PLANS, type PlanKey } from '@/lib/subscription';
 import { SUPPORT_EMAIL } from '@/lib/brand';
+import { compressPaymentScreenshot } from '@/lib/compress-image';
 import Link from 'next/link';
 
 const DEFAULT_WALLETS = {
@@ -48,6 +49,7 @@ export default function PaymentPage() {
   const [wallet, setWallet] = useState<WalletKey>('KBZPay');
   const [txnId, setTxnId] = useState('');
   const [screenshot, setScreenshot] = useState<File | null>(null);
+  const [compressing, setCompressing] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
   const [done, setDone] = useState(false);
@@ -90,27 +92,53 @@ export default function PaymentPage() {
     return () => { cancelled = true; };
   }, []);
 
+  async function handleScreenshotChange(file: File | null) {
+    if (!file) {
+      setScreenshot(null);
+      return;
+    }
+
+    setError('');
+    setCompressing(true);
+    try {
+      const compressed = await compressPaymentScreenshot(file);
+      setScreenshot(compressed);
+    } catch (err: unknown) {
+      setScreenshot(null);
+      setError(err instanceof Error ? err.message : t('error_generic'));
+    } finally {
+      setCompressing(false);
+    }
+  }
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!user) return;
+
+    const txnDigits = txnId.replace(/\D/g, '');
+    if (txnDigits.length !== 6) {
+      setError(t('error_txn_digits'));
+      return;
+    }
+
     setError('');
     setSubmitting(true);
 
     try {
       const supabase = createClient();
-      let screenshotUrl: string | null = null;
+      let screenshotRef: string | null = null;
 
       if (screenshot) {
-        const ext = screenshot.name.split('.').pop();
-        const path = `${user.id}/${Date.now()}.${ext}`;
+        const path = `${user.id}/${Date.now()}.jpg`;
         const { error: upErr } = await supabase.storage
           .from('payment-screenshots')
-          .upload(path, screenshot, { upsert: false });
+          .upload(path, screenshot, {
+            upsert: false,
+            contentType: 'image/jpeg',
+            cacheControl: '3600',
+          });
         if (upErr) throw upErr;
-        const { data: urlData } = supabase.storage
-          .from('payment-screenshots')
-          .getPublicUrl(path);
-        screenshotUrl = urlData.publicUrl;
+        screenshotRef = path;
       }
 
       const { error: insertErr } = await supabase.from('payment_submissions').insert({
@@ -118,8 +146,8 @@ export default function PaymentPage() {
         plan: planKey,
         amount: plan.price,
         wallet,
-        transaction_id: txnId.trim(),
-        screenshot_url: screenshotUrl,
+        transaction_id: txnDigits,
+        screenshot_url: screenshotRef,
         status: 'pending',
       });
       if (insertErr) throw insertErr;
@@ -249,11 +277,15 @@ export default function PaymentPage() {
             <input
               className="field-input"
               type="text"
+              inputMode="numeric"
+              autoComplete="off"
               required
+              maxLength={6}
+              pattern="\d{6}"
               value={txnId}
-              onChange={e => setTxnId(e.target.value)}
+              onChange={e => setTxnId(e.target.value.replace(/\D/g, '').slice(0, 6))}
               placeholder={t('txn_placeholder')}
-              style={{ marginBottom: 16 }}
+              style={{ marginBottom: 16, letterSpacing: '.08em', fontFamily: 'monospace' }}
             />
 
             <label className="field-label" htmlFor="screenshot-upload">
@@ -263,27 +295,38 @@ export default function PaymentPage() {
               id="screenshot-upload"
               type="file"
               accept="image/*"
-              onChange={e => setScreenshot(e.target.files?.[0] ?? null)}
+              disabled={compressing || submitting}
+              onChange={e => void handleScreenshotChange(e.target.files?.[0] ?? null)}
               style={{
                 display: 'block',
                 width: '100%',
                 padding: '10px',
                 border: '1.5px dashed var(--line)',
                 borderRadius: 10,
-                marginBottom: 20,
+                marginBottom: 8,
                 fontSize: '.88rem',
                 cursor: 'pointer',
                 background: 'var(--paint)',
               }}
             />
+            {compressing && (
+              <p style={{ marginBottom: 12, fontSize: '.82rem', color: 'var(--ink-soft)' }}>
+                {t('compressing')}
+              </p>
+            )}
+            {screenshot && !compressing && (
+              <p style={{ marginBottom: 12, fontSize: '.82rem', color: 'var(--guide-deep)' }}>
+                {t('screenshot_ready', { size: Math.max(1, Math.round(screenshot.size / 1024)) })}
+              </p>
+            )}
 
             <button
               type="submit"
               className="btn btn-primary"
-              disabled={submitting}
-              style={{ width: '100%', justifyContent: 'center', opacity: submitting ? .6 : 1 }}
+              disabled={submitting || compressing}
+              style={{ width: '100%', justifyContent: 'center', opacity: submitting || compressing ? .6 : 1 }}
             >
-              {submitting ? t('submitting') : t('submit_cta')}
+              {compressing ? t('compressing') : submitting ? t('submitting') : t('submit_cta')}
             </button>
           </form>
 

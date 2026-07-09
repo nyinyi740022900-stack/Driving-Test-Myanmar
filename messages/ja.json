@@ -480,9 +480,11 @@
     "account_name": "口座名義",
     "brand_name": "TheoryLane",
     "copy": "コピー",
-    "step_txn": "3. 取引ID / 参照番号",
-    "txn_placeholder": "例: KBZ2024XXXXXXXXXX",
+    "step_txn": "3. 取引コードの下6桁を入力",
+    "txn_placeholder": "例: 123456",
     "step_screenshot": "4. 支払いスクリーンショット（任意・承認が早くなります）",
+    "compressing": "スクリーンショットを最適化中…",
+    "screenshot_ready": "アップロード準備完了 · {size} KB",
     "submitting": "送信中…",
     "submit_cta": "支払い情報を送信 →",
     "footer_note": "数時間以内にアカウントがアップグレードされます。",
@@ -492,7 +494,8 @@
     "submitted_note": "承認は手動で行われます（通常数時間以内）。プレミアム状態は再ログイン後に更新してください。",
     "submitted_contact": "24時間以内に反映されない場合は連絡してください",
     "back_home": "← ホームへ戻る",
-    "error_generic": "エラーが発生しました"
+    "error_generic": "エラーが発生しました",
+    "error_txn_digits": "取引コードの下6桁を入力してください"
   },
   "profile": {
     "back_home": "← ホームへ戻る",

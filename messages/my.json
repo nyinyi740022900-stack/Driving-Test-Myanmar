@@ -480,9 +480,11 @@
     "account_name": "အကောင့်အမည်",
     "brand_name": "TheoryLane",
     "copy": "ကူးယူ",
-    "step_txn": "၃။ Transaction ID / Reference number",
-    "txn_placeholder": "ဥပမာ KBZ2024XXXXXXXXXX",
+    "step_txn": "၃။ ငွေလွှဲကုဒ် နောက်ဆုံး ၆ လုံး ထည့်ပါ",
+    "txn_placeholder": "ဥပမာ 123456",
     "step_screenshot": "၄။ ပေးချေပြီး screenshot (ရွေးချယ်နိုင်၊ အတည်ပြုမှု မြန်စေသည်)",
+    "compressing": "Screenshot ချုံ့နေသည်…",
+    "screenshot_ready": "တင်သွင်းရန် အဆင်သင့် · {size} KB",
     "submitting": "တင်သွင်းနေသည်…",
     "submit_cta": "ပေးချေမှု အချက်အလက် တင်မည် →",
     "footer_note": "သင့်အကောင့်ကို နာရီအနည်းငယ်အတွင်း upgrade လုပ်မည်။",
@@ -492,7 +494,8 @@
     "submitted_note": "အတည်ပြုမှုကို လက်ဖြင့် ဆောင်ရွက်ပါသည် — များသောအားဖြင့် နာရီအနည်းငယ်အတွင်း။ Premium အခြေအနေကို စစ်ရန် ဝင်ရောက်ပြီး စာမျက်နှာကို refresh လုပ်ပါ။",
     "submitted_contact": "၂၄ နာရီအတွင်း မအတည်ပြုရသေးပါက ဆက်သွယ်ပါ",
     "back_home": "← ပင်မသို့ ပြန်",
-    "error_generic": "အမှားတစ်ခု ဖြစ်သွားသည်"
+    "error_generic": "အမှားတစ်ခု ဖြစ်သွားသည်",
+    "error_txn_digits": "ငွေလွှဲကုဒ် နောက်ဆုံး ၆ လုံး ထည့်ပါ"
   },
   "profile": {
     "back_home": "← ပင်မသို့ ပြန်",
