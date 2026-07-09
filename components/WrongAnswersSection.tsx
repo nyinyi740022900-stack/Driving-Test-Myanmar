@@ -1,11 +1,11 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { getWrongAnswers, clearWrongAnswers } from '@/lib/wrong-answers';
 import { TEST_META } from '@/lib/types';
 import type { WrongAnswerEntry } from '@/lib/wrong-answers';
+import QuizModeLink from '@/components/QuizModeLink';
 
 interface Props {
   locale: string;
@@ -62,12 +62,13 @@ export default function WrongAnswersSection({ locale }: Props) {
                   <div style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.88rem' }}>{name}</div>
                   <div style={{ fontSize: '.76rem', color: 'var(--ink-soft)', marginTop: 2 }}>{entry.questionId}</div>
                 </div>
-                <Link
+                <QuizModeLink
                   href={`/${locale}/quiz/${entry.category}/practice`}
+                  category={entry.category}
                   style={{ fontSize: '.78rem', fontFamily: 'var(--display)', fontWeight: 700, color: 'var(--guide-deep)', textDecoration: 'none' }}
                 >
                   {t('wrong_answers_practice_link')} →
-                </Link>
+                </QuizModeLink>
               </div>
             );
           })}

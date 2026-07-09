@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { useCountry } from './CountryProvider';
 import { TEST_META, getCountryBankTotal } from '@/lib/types';
+import QuizModeLink from './QuizModeLink';
 
 const LANDING_SLUG: Partial<Record<string, string>> = {
   sg_btt: 'btt',
@@ -58,15 +59,15 @@ export default function TestCards() {
                 <span><b>{m.passPercent}%</b> {t('to_pass')}</span>
               </div>
               <div className="card-actions">
-                <Link href={`/${locale}/quiz/${m.category}/lesson`} className="card-btn">
+                <QuizModeLink href={`/${locale}/quiz/${m.category}/lesson`} className="card-btn" category={m.category}>
                   {t('learn')}
-                </Link>
-                <Link href={`/${locale}/quiz/${m.category}/practice`} className="card-btn">
+                </QuizModeLink>
+                <QuizModeLink href={`/${locale}/quiz/${m.category}/practice`} className="card-btn" category={m.category}>
                   {t('practise')}
-                </Link>
-                <Link href={`/${locale}/quiz/${m.category}/test`} className="card-btn primary">
+                </QuizModeLink>
+                <QuizModeLink href={`/${locale}/quiz/${m.category}/test`} className="card-btn primary" category={m.category}>
                   {t('mock')}
-                </Link>
+                </QuizModeLink>
               </div>
               {LANDING_SLUG[m.category] && (
                 <div className="card-about">

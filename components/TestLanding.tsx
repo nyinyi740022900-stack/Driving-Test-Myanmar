@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
+import QuizModeLink from '@/components/QuizModeLink';
 import { SITE_URL } from '@/lib/brand';
 import {
   TEST_SLUG_CATEGORY,
@@ -110,15 +111,15 @@ export default async function TestLanding({ slug, locale }: TestLandingProps) {
               marginBottom: 56,
             }}
           >
-            <Link className="btn btn-primary" href={`/${locale}/quiz/${category}/lesson`}>
+            <QuizModeLink className="btn btn-primary" href={`/${locale}/quiz/${category}/lesson`} category={category}>
               {t('cta_learn')} →
-            </Link>
-            <Link className="btn btn-ghost" href={`/${locale}/quiz/${category}/practice`}>
+            </QuizModeLink>
+            <QuizModeLink className="btn btn-ghost" href={`/${locale}/quiz/${category}/practice`} category={category}>
               {t('cta_practice')} →
-            </Link>
-            <Link className="btn btn-ghost" href={`/${locale}/quiz/${category}/test`}>
+            </QuizModeLink>
+            <QuizModeLink className="btn btn-ghost" href={`/${locale}/quiz/${category}/test`} category={category}>
               {t('cta_mock')} →
-            </Link>
+            </QuizModeLink>
           </div>
 
           <div className="lane" aria-hidden="true" style={{ marginBottom: 48 }} />

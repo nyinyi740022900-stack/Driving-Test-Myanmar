@@ -1495,7 +1495,10 @@
     "sets": "Sets",
     "set_desc_learn": "50 questions per set · self-paced",
     "set_hint_learn": "Questions appear in order. Take your time to study each one.",
-    "self_paced": "Self-paced"
+    "self_paced": "Self-paced",
+    "loading": "Loading questions…",
+    "load_error": "Could not load questions. Check your connection and try again.",
+    "no_questions": "No questions found"
   },
   "growth": {
     "share_cta": "Share with friends →",

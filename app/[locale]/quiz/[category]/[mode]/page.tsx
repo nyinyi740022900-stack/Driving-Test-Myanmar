@@ -3,10 +3,8 @@ import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
 import type { Category } from '@/lib/types';
 import { TEST_META } from '@/lib/types';
-import { getQuestions } from '@/lib/questions';
 import { buildQuizMetadata } from '@/lib/seo';
-import QuizSession from '@/components/QuizSession';
-import Link from 'next/link';
+import QuizLoader from '@/components/QuizLoader';
 
 const VALID_MODES = ['lesson', 'practice', 'test'] as const;
 type Mode = typeof VALID_MODES[number];
@@ -36,22 +34,8 @@ export default async function QuizPage({ params }: PageProps) {
   if (!validCategories.includes(category as Category)) notFound();
   if (!VALID_MODES.includes(mode as Mode)) notFound();
 
-  const questions = await getQuestions(category as Category);
   const t = await getTranslations({ locale, namespace: 'seo.quiz' });
   const meta = TEST_META.find(m => m.category === category);
-
-  if (questions.length === 0) {
-    return (
-      <div style={{ padding: '80px 24px', textAlign: 'center' }}>
-        <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.6rem', marginBottom: 16 }}>
-          No questions found
-        </h2>
-        <Link href={`/${locale}`} style={{ color: 'var(--guide-deep)', fontWeight: 700 }}>
-          ← Back to home
-        </Link>
-      </div>
-    );
-  }
 
   return (
     <>
@@ -84,10 +68,11 @@ export default async function QuizPage({ params }: PageProps) {
           </p>
         </section>
       )}
-      <QuizSession
+      <QuizLoader
         category={category as Category}
         mode={mode as Mode}
-        questions={questions}
+        questionCount={meta?.bankQuestionCount ?? 0}
+        testTag={meta?.tag ?? category}
       />
     </>
   );
