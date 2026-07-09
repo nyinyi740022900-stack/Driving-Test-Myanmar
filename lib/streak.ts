@@ -11,7 +11,13 @@ export interface StreakData {
 const EMPTY: StreakData = { current: 0, longest: 0, lastDate: null };
 
 function dayKey(d: Date): string {
-  return d.toISOString().split('T')[0];
+  // Use the local calendar date, not UTC. Target users are in UTC+6:30/+8/+9,
+  // so a UTC key would flip to "yesterday" for anyone practising after midnight
+  // local time and silently break their streak.
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
 }
 
 export function getStreak(): StreakData {

@@ -363,7 +363,6 @@ export default function QuizSession({ category, mode, questions }: Props) {
   // Derived values
   const scored        = scorePool(pool, answers);
   const correctCount  = scored.correctQuestions;
-  const wrongCount    = pool.filter((question, i) => isAnswerComplete(question, answers[i]) && !isQuestionCorrect(question, answers[i])).length;
   const scorePercent  = scored.percent;
   const passed        = scorePercent >= meta.passPercent;
   const metaName      = locale === 'my' ? meta.nameMy : locale === 'ja' ? meta.nameJa : meta.nameEn;

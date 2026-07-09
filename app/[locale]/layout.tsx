@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -88,27 +89,34 @@ export default async function LocaleLayout({
             }}
           />
         )}
-        {GA_MEASUREMENT_ID && (
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} />
-        )}
-        {GA_MEASUREMENT_ID && (
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                gtag('js', new Date());
-                gtag('config', '${GA_MEASUREMENT_ID}', { send_page_view: false });
-              `,
-            }}
-          />
-        )}
-        {ADSENSE_ID && (
-          <>
-            <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`} crossOrigin="anonymous" />
-            <script dangerouslySetInnerHTML={{ __html: `window.adBreak=window.adConfig=function(o){(window.adsbygoogle=window.adsbygoogle||[]).push(o)};` }} />
-          </>
-        )}
       </head>
       <body>
+        {/* Analytics — deferred so it never competes with hydration or early taps.
+            Consent defaults are already set synchronously in <head> above. */}
+        {GA_MEASUREMENT_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="ga-config" strategy="afterInteractive">
+              {`gtag('js', new Date()); gtag('config', '${GA_MEASUREMENT_ID}', { send_page_view: false });`}
+            </Script>
+          </>
+        )}
+        {/* AdSense — lazy-loaded during idle so ads never block interaction. */}
+        {ADSENSE_ID && (
+          <>
+            <Script
+              src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`}
+              strategy="lazyOnload"
+              crossOrigin="anonymous"
+            />
+            <Script id="adsense-config" strategy="lazyOnload">
+              {`window.adBreak=window.adConfig=function(o){(window.adsbygoogle=window.adsbygoogle||[]).push(o)};`}
+            </Script>
+          </>
+        )}
         <NextIntlClientProvider messages={messages}>
           <CountryProvider>
             <AuthProvider>
