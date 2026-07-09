@@ -17,6 +17,47 @@ function stringSetting(settings: { key: string; value: string }[], key: string, 
   return typeof raw === 'string' && raw.trim().length > 0 ? raw.trim() : fallback;
 }
 
+function ensureSettingRows(
+  settings: { key: string; value: string; label: string | null }[],
+  fallbacks: {
+    monthlyPrice: number;
+    yearlyPrice: number;
+    kbzpayNumber: string;
+    wavepayNumber: string;
+    kbzpayName: string;
+    wavepayName: string;
+  }
+) {
+  const required = [
+    { key: 'announcement', label: 'Announcement Banner (leave empty to hide)', value: '' },
+    { key: 'kbzpay_number', label: 'KBZPay Number', value: fallbacks.kbzpayNumber },
+    { key: 'kbzpay_name', label: 'KBZPay Account Name', value: fallbacks.kbzpayName },
+    { key: 'monthly_price', label: 'Monthly Price (Ks)', value: String(fallbacks.monthlyPrice) },
+    { key: 'wavepay_number', label: 'WavePay Number', value: fallbacks.wavepayNumber },
+    { key: 'wavepay_name', label: 'WavePay Account Name', value: fallbacks.wavepayName },
+    { key: 'yearly_price', label: 'Yearly Price (Ks)', value: String(fallbacks.yearlyPrice) },
+  ] as const;
+
+  const map = new Map(settings.map((s) => [s.key, s]));
+  for (const row of required) {
+    if (!map.has(row.key)) {
+      map.set(row.key, { key: row.key, value: row.value, label: row.label });
+      continue;
+    }
+    const current = map.get(row.key)!;
+    map.set(row.key, {
+      ...current,
+      label: current.label ?? row.label ?? null,
+    });
+  }
+
+  return Array.from(map.values()).map((item) => ({
+    key: item.key,
+    value: item.value,
+    label: item.label ?? null,
+  }));
+}
+
 export default async function AdminPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
 
@@ -53,7 +94,15 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
   const submissions = submissionsRes.data ?? [];
   const users = usersRes.data?.users ?? [];
   const subscriptions = subscriptionsRes.data ?? [];
-  const settings = settingsRes.data ?? [];
+  const settingsRaw = settingsRes.data ?? [];
+  const settings = ensureSettingRows(settingsRaw, {
+    monthlyPrice: DEFAULT_MONTHLY_PRICE,
+    yearlyPrice: DEFAULT_YEARLY_PRICE,
+    kbzpayNumber: process.env.NEXT_PUBLIC_KBZPAY_NUMBER ?? '',
+    wavepayNumber: process.env.NEXT_PUBLIC_WAVEPAY_NUMBER ?? '',
+    kbzpayName: process.env.NEXT_PUBLIC_KBZPAY_NAME ?? '',
+    wavepayName: process.env.NEXT_PUBLIC_WAVEPAY_NAME ?? '',
+  });
   const faqs = faqsRes.data ?? [];
   const reviews = reviewsRes.data ?? [];
   const feedback = feedbackRes.error ? [] : (feedbackRes.data ?? []);
