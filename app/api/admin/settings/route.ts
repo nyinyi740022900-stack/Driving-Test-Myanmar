@@ -18,8 +18,10 @@ export async function POST(req: NextRequest) {
   const service = await createServiceClient();
   const { error } = await service
     .from('app_settings')
-    .update({ value, updated_at: new Date().toISOString() })
-    .eq('key', key);
+    .upsert(
+      { key, value: String(value ?? ''), updated_at: new Date().toISOString() },
+      { onConflict: 'key' }
+    );
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
   return NextResponse.json({ ok: true });

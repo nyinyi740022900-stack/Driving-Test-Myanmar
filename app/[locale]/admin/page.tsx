@@ -3,6 +3,19 @@ import { createClient, createServiceClient } from '@/lib/supabase-server';
 import AdminDashboard from './AdminDashboard';
 
 const ADMIN_EMAILS = (process.env.ADMIN_EMAILS ?? '').split(',').map(e => e.trim()).filter(Boolean);
+const DEFAULT_MONTHLY_PRICE = 4900;
+const DEFAULT_YEARLY_PRICE = 39000;
+
+function numberSetting(settings: { key: string; value: string }[], key: string, fallback: number): number {
+  const raw = settings.find((s) => s.key === key)?.value;
+  const parsed = Number(raw);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback;
+}
+
+function stringSetting(settings: { key: string; value: string }[], key: string, fallback = ''): string {
+  const raw = settings.find((s) => s.key === key)?.value;
+  return typeof raw === 'string' && raw.trim().length > 0 ? raw.trim() : fallback;
+}
 
 export default async function AdminPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -95,10 +108,11 @@ export default async function AdminPage({ params }: { params: Promise<{ locale: 
       settings={settings}
       faqs={faqs}
       config={{
-        kbzpay: process.env.NEXT_PUBLIC_KBZPAY_NUMBER ?? '',
-        wavepay: process.env.NEXT_PUBLIC_WAVEPAY_NUMBER ?? '',
-        monthlyPrice: 4900,
-        yearlyPrice: 39000,
+        kbzpay: stringSetting(settings, 'kbzpay_number', process.env.NEXT_PUBLIC_KBZPAY_NUMBER ?? ''),
+        wavepay: stringSetting(settings, 'wavepay_number', process.env.NEXT_PUBLIC_WAVEPAY_NUMBER ?? ''),
+        monthlyPrice: numberSetting(settings, 'monthly_price', DEFAULT_MONTHLY_PRICE),
+        yearlyPrice: numberSetting(settings, 'yearly_price', DEFAULT_YEARLY_PRICE),
+        adminEmails: process.env.ADMIN_EMAILS ?? '',
       }}
     />
   );

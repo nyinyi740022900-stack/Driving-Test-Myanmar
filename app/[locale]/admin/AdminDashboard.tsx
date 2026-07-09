@@ -74,6 +74,7 @@ interface Config {
   wavepay: string;
   monthlyPrice: number;
   yearlyPrice: number;
+  adminEmails: string;
 }
 
 interface AppSetting {
@@ -163,6 +164,7 @@ export default function AdminDashboard({
 
   // Content state
   const [settings, setSettings] = useState<AppSetting[]>(initialSettings);
+  const [runtimeConfig, setRuntimeConfig] = useState<Config>(config);
   const [settingBusy, setSettingBusy] = useState<string | null>(null);
   const [settingSaved, setSettingSaved] = useState<string | null>(null);
   const [faqs, setFaqs] = useState<Faq[]>(initialFaqs);
@@ -178,7 +180,26 @@ export default function AdminDashboard({
       body: JSON.stringify({ key, value }),
     });
     if (res.ok) {
-      setSettings(prev => prev.map(s => s.key === key ? { ...s, value } : s));
+      setSettings(prev => {
+        const found = prev.some(s => s.key === key);
+        if (found) return prev.map(s => s.key === key ? { ...s, value } : s);
+        return [...prev, { key, value, label: key }];
+      });
+      setRuntimeConfig(prev => {
+        if (key === 'monthly_price') {
+          const parsed = Number(value);
+          if (Number.isFinite(parsed) && parsed > 0) return { ...prev, monthlyPrice: parsed };
+          return prev;
+        }
+        if (key === 'yearly_price') {
+          const parsed = Number(value);
+          if (Number.isFinite(parsed) && parsed > 0) return { ...prev, yearlyPrice: parsed };
+          return prev;
+        }
+        if (key === 'kbzpay_number') return { ...prev, kbzpay: value.trim() };
+        if (key === 'wavepay_number') return { ...prev, wavepay: value.trim() };
+        return prev;
+      });
       setSettingSaved(key);
       setTimeout(() => setSettingSaved(null), 2000);
     } else alert('Save failed');
@@ -931,23 +952,23 @@ export default function AdminDashboard({
           <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
 
             {/* Pricing */}
-            <SettingsCard title="💳 Pricing" subtitle="Configured in .env.local (NEXT_PUBLIC_*)">
-              <SettingRow label="Monthly plan" value={`${config.monthlyPrice.toLocaleString()} Ks / 30 days`} />
-              <SettingRow label="Yearly plan" value={`${config.yearlyPrice.toLocaleString()} Ks / 365 days`} />
+            <SettingsCard title="💳 Pricing" subtitle="Loaded from app_settings (fallback to defaults)">
+              <SettingRow label="Monthly plan" value={`${runtimeConfig.monthlyPrice.toLocaleString()} Ks / 30 days`} />
+              <SettingRow label="Yearly plan" value={`${runtimeConfig.yearlyPrice.toLocaleString()} Ks / 365 days`} />
             </SettingsCard>
 
             {/* Wallet numbers */}
-            <SettingsCard title="📱 Payment wallets" subtitle="Configured in .env.local">
-              <SettingRow label="KBZPay number" value={config.kbzpay || '(not set)'} mono />
-              <SettingRow label="WavePay number" value={config.wavepay || '(not set)'} mono />
+            <SettingsCard title="📱 Payment wallets" subtitle="Loaded from app_settings (fallback to env)">
+              <SettingRow label="KBZPay number" value={runtimeConfig.kbzpay || '(not set)'} mono />
+              <SettingRow label="WavePay number" value={runtimeConfig.wavepay || '(not set)'} mono />
               <div style={{ marginTop: 12, padding: '10px 14px', background: '#fef3c7', borderRadius: 8, fontSize: '.82rem', color: '#92400e' }}>
-                To change wallet numbers, edit <code>NEXT_PUBLIC_KBZPAY_NUMBER</code> and <code>NEXT_PUBLIC_WAVEPAY_NUMBER</code> in <code>.env.local</code>, then restart the server.
+                Update <code>kbzpay_number</code> / <code>wavepay_number</code> in App Settings to apply immediately.
               </div>
             </SettingsCard>
 
             {/* Admin access */}
             <SettingsCard title="🔐 Admin access" subtitle="Configured in .env.local">
-              <SettingRow label="ADMIN_EMAILS" value={process.env.NEXT_PUBLIC_ADMIN_EMAILS ?? '(not exposed)'} mono />
+              <SettingRow label="ADMIN_EMAILS" value={runtimeConfig.adminEmails || '(not set)'} mono />
               <div style={{ marginTop: 12, padding: '10px 14px', background: '#eff6ff', borderRadius: 8, fontSize: '.82rem', color: '#1e40af' }}>
                 Add multiple admin emails with comma separation: <code>admin1@x.com,admin2@x.com</code>
               </div>
