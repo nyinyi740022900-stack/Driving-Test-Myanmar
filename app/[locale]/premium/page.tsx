@@ -1,11 +1,17 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
-import { PLANS } from '@/lib/subscription';
+import { getPlans } from '@/lib/subscription';
+import { getPublicAppSettings } from '@/lib/app-settings';
 import PremiumPageTracker from '@/components/PremiumPageTracker';
 
 export default async function PremiumPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations('premium');
+  const pricing = await getPublicAppSettings();
+  const plans = getPlans({
+    monthlyPrice: pricing.monthlyPrice,
+    yearlyPrice: pricing.yearlyPrice,
+  });
 
   const planLabels = {
     monthly: t('plan_monthly_label'),
@@ -36,7 +42,7 @@ export default async function PremiumPage({ params }: { params: Promise<{ locale
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 20 }}>
-          {(Object.entries(PLANS) as [keyof typeof PLANS, typeof PLANS[keyof typeof PLANS]][]).map(([key, plan]) => (
+          {(Object.entries(plans) as [keyof typeof plans, typeof plans[keyof typeof plans]][]).map(([key, plan]) => (
             <div key={key} style={{
               background: '#fff',
               border: key === 'yearly' ? '2px solid var(--guide)' : '1px solid var(--line)',

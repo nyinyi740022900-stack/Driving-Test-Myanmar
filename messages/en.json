@@ -33,8 +33,6 @@
     "questions": "questions",
     "practice_questions": "practice questions",
     "mock_questions": "mock exam",
-    "practice_questions": "practice questions",
-    "mock_questions": "mock exam",
     "to_pass": "to pass",
     "learn": "Learn",
     "practise": "Practise",
@@ -129,16 +127,36 @@
         {
           "heading": "Speed & following distance",
           "tips": [
-            { "hook": "\"Only a fool breaks the 2-second rule\"", "topic": "Safe following distance", "detail": "Pick a fixed marker at the roadside. When the car ahead passes it, you should reach it no sooner than 2 seconds later — double it to 4 in rain." },
-            { "hook": "\"50 in town, 90 on the E-way\"", "topic": "Default speed limits", "detail": "Built-up roads default to 50 km/h; expressways go up to 90 km/h unless a sign says otherwise." }
+            {
+              "hook": "\"Only a fool breaks the 2-second rule\"",
+              "topic": "Safe following distance",
+              "detail": "Pick a fixed marker at the roadside. When the car ahead passes it, you should reach it no sooner than 2 seconds later — double it to 4 in rain."
+            },
+            {
+              "hook": "\"50 in town, 90 on the E-way\"",
+              "topic": "Default speed limits",
+              "detail": "Built-up roads default to 50 km/h; expressways go up to 90 km/h unless a sign says otherwise."
+            }
           ]
         },
         {
           "heading": "Demerit points & signs",
           "tips": [
-            { "hook": "\"24 → out for 3\"", "topic": "Suspension threshold", "detail": "24 demerit points within 24 months means a 3-month suspension. New drivers are suspended at just 12 points in their first year." },
-            { "hook": "\"Red says NO, Blue says GO\"", "topic": "Sign colours", "detail": "Red-ringed signs prohibit (no entry, no parking). Blue signs are mandatory instructions (keep left, turn left)." },
-            { "hook": "\"Triangle = think ahead\"", "topic": "Warning signs", "detail": "Triangular red-border signs warn of a hazard coming up — a bend, junction, or crossing." }
+            {
+              "hook": "\"24 → out for 3\"",
+              "topic": "Suspension threshold",
+              "detail": "24 demerit points within 24 months means a 3-month suspension. New drivers are suspended at just 12 points in their first year."
+            },
+            {
+              "hook": "\"Red says NO, Blue says GO\"",
+              "topic": "Sign colours",
+              "detail": "Red-ringed signs prohibit (no entry, no parking). Blue signs are mandatory instructions (keep left, turn left)."
+            },
+            {
+              "hook": "\"Triangle = think ahead\"",
+              "topic": "Warning signs",
+              "detail": "Triangular red-border signs warn of a hazard coming up — a bend, junction, or crossing."
+            }
           ]
         }
       ]
@@ -149,16 +167,36 @@
         {
           "heading": "Speed & lane",
           "tips": [
-            { "hook": "\"60 general, 100 expressway\"", "topic": "Default speed limits", "detail": "Ordinary roads default to around 60 km/h; expressways go up to 100 km/h unless posted otherwise." },
-            { "hook": "\"Keep left, pass right\"", "topic": "Lane discipline", "detail": "Drive in the left lane and use the right lane only to overtake — then move back left." }
+            {
+              "hook": "\"60 general, 100 expressway\"",
+              "topic": "Default speed limits",
+              "detail": "Ordinary roads default to around 60 km/h; expressways go up to 100 km/h unless posted otherwise."
+            },
+            {
+              "hook": "\"Keep left, pass right\"",
+              "topic": "Lane discipline",
+              "detail": "Drive in the left lane and use the right lane only to overtake — then move back left."
+            }
           ]
         },
         {
           "heading": "Points & signals",
           "tips": [
-            { "hook": "\"15 points = licence gone\"", "topic": "Revocation", "detail": "Reaching 15 violation points (or fewer with a prior suspension on record) means your licence is revoked." },
-            { "hook": "\"In Japan, aim for ZERO alcohol\"", "topic": "Drink-driving", "detail": "The legal limit is very low and penalties are severe — the safe memory rule is simply never drink and drive." },
-            { "hook": "\"赤 stop · 青 go · 黄 slow\"", "topic": "Traffic lights", "detail": "Red means stop, green (called 青) means go, amber means stop if you safely can — never speed up to beat it." }
+            {
+              "hook": "\"15 points = licence gone\"",
+              "topic": "Revocation",
+              "detail": "Reaching 15 violation points (or fewer with a prior suspension on record) means your licence is revoked."
+            },
+            {
+              "hook": "\"In Japan, aim for ZERO alcohol\"",
+              "topic": "Drink-driving",
+              "detail": "The legal limit is very low and penalties are severe — the safe memory rule is simply never drink and drive."
+            },
+            {
+              "hook": "\"赤 stop · 青 go · 黄 slow\"",
+              "topic": "Traffic lights",
+              "detail": "Red means stop, green (called 青) means go, amber means stop if you safely can — never speed up to beat it."
+            }
           ]
         }
       ]
@@ -186,23 +224,66 @@
       "golden": "24 demerit points in 24 months = 3-month suspension.",
       "hook": "\"24 in 24 → out for 3.\" Twenty-four points in twenty-four months means three months off the road.",
       "stats": [
-        { "label": "Suspension threshold", "value": "24 pts", "sub": "within any 24 months" },
-        { "label": "New driver threshold", "value": "12 pts", "sub": "within first 12 months" },
-        { "label": "First suspension", "value": "3 months", "sub": "for hitting 24 points" },
-        { "label": "Repeat suspension", "value": "Longer", "sub": "6+ months / possible revocation" }
+        {
+          "label": "Suspension threshold",
+          "value": "24 pts",
+          "sub": "within any 24 months"
+        },
+        {
+          "label": "New driver threshold",
+          "value": "12 pts",
+          "sub": "within first 12 months"
+        },
+        {
+          "label": "First suspension",
+          "value": "3 months",
+          "sub": "for hitting 24 points"
+        },
+        {
+          "label": "Repeat suspension",
+          "value": "Longer",
+          "sub": "6+ months / possible revocation"
+        }
       ],
-      "offences_headers": ["Offence", "Demerit points"],
+      "offences_headers": [
+        "Offence",
+        "Demerit points"
+      ],
       "offences": [
-        ["Running a red light", "12 pts"],
-        ["Speeding 30+ km/h over the limit", "6–24 pts"],
-        ["Using a mobile phone while driving", "6 pts"],
-        ["Failing to give way to a pedestrian", "6 pts"],
-        ["Not wearing a seat belt", "3 pts"]
+        [
+          "Running a red light",
+          "12 pts"
+        ],
+        [
+          "Speeding 30+ km/h over the limit",
+          "6–24 pts"
+        ],
+        [
+          "Using a mobile phone while driving",
+          "6 pts"
+        ],
+        [
+          "Failing to give way to a pedestrian",
+          "6 pts"
+        ],
+        [
+          "Not wearing a seat belt",
+          "3 pts"
+        ]
       ],
       "levels": [
-        { "label": "24 points (1st time)", "value": "3-month suspension" },
-        { "label": "24 points again within 12 months of restoration", "value": "6-month suspension" },
-        { "label": "Suspended before + reach 24 again", "value": "Licence revocation" }
+        {
+          "label": "24 points (1st time)",
+          "value": "3-month suspension"
+        },
+        {
+          "label": "24 points again within 12 months of restoration",
+          "value": "6-month suspension"
+        },
+        {
+          "label": "Suspended before + reach 24 again",
+          "value": "Licence revocation"
+        }
       ],
       "newdriver_body": "During the first 12 months you hold a licence you are on probation. Reaching just 12 demerit points in that year means your licence is revoked and you must re-sit the tests — half the normal threshold, so drive extra carefully."
     },
@@ -211,24 +292,70 @@
       "golden": "15 violation points = licence revoked.",
       "hook": "\"6-9-12-15\": suspensions start at 6, and 15 points takes the licence away completely.",
       "stats": [
-        { "label": "30-day suspension", "value": "6–8 pts", "sub": "in 1 year, no prior record" },
-        { "label": "60-day suspension", "value": "9–11 pts", "sub": "in 1 year" },
-        { "label": "90-day suspension", "value": "12–14 pts", "sub": "in 1 year" },
-        { "label": "Revocation (取消)", "value": "15+ pts", "sub": "or with a prior suspension" }
+        {
+          "label": "30-day suspension",
+          "value": "6–8 pts",
+          "sub": "in 1 year, no prior record"
+        },
+        {
+          "label": "60-day suspension",
+          "value": "9–11 pts",
+          "sub": "in 1 year"
+        },
+        {
+          "label": "90-day suspension",
+          "value": "12–14 pts",
+          "sub": "in 1 year"
+        },
+        {
+          "label": "Revocation (取消)",
+          "value": "15+ pts",
+          "sub": "or with a prior suspension"
+        }
       ],
-      "offences_headers": ["Offence", "Violation points"],
+      "offences_headers": [
+        "Offence",
+        "Violation points"
+      ],
       "offences": [
-        ["Drink-driving (酒気帯び, lower band)", "13–25 pts"],
-        ["Speeding 30–50 km/h over (general road)", "6 pts"],
-        ["Using a mobile phone while driving", "3 pts"],
-        ["Running a red light", "2 pts"],
-        ["Not wearing a seat belt", "1 pt"]
+        [
+          "Drink-driving (酒気帯び, lower band)",
+          "13–25 pts"
+        ],
+        [
+          "Speeding 30–50 km/h over (general road)",
+          "6 pts"
+        ],
+        [
+          "Using a mobile phone while driving",
+          "3 pts"
+        ],
+        [
+          "Running a red light",
+          "2 pts"
+        ],
+        [
+          "Not wearing a seat belt",
+          "1 pt"
+        ]
       ],
       "levels": [
-        { "label": "6–8 points", "value": "30-day suspension" },
-        { "label": "9–11 points", "value": "60-day suspension" },
-        { "label": "12–14 points", "value": "90-day suspension" },
-        { "label": "15+ points", "value": "Licence revocation" }
+        {
+          "label": "6–8 points",
+          "value": "30-day suspension"
+        },
+        {
+          "label": "9–11 points",
+          "value": "60-day suspension"
+        },
+        {
+          "label": "12–14 points",
+          "value": "90-day suspension"
+        },
+        {
+          "label": "15+ points",
+          "value": "Licence revocation"
+        }
       ],
       "newdriver_body": "In your first year on a regular licence you follow the beginner (初心運転者) rules. Accumulating 3 or more points can trigger a compulsory beginner re-training lecture — points count faster against new drivers, so build safe habits early."
     },
@@ -317,7 +444,8 @@
     "year_3": "Priority confirmation",
     "manual": "manual confirm",
     "cta_monthly": "Choose Monthly",
-    "cta_yearly": "Choose Yearly"
+    "cta_yearly": "Choose Yearly",
+    "ks": " Ks"
   },
   "premium": {
     "eyebrow": "Simple pricing",
@@ -449,38 +577,102 @@
       "speed_limits": {
         "title": "Speed Limits",
         "items": [
-          { "label": "Built-up areas", "value": "50 km/h", "sub": "Default urban limit" },
-          { "label": "Major roads / arterials", "value": "70 km/h", "sub": "Signed roads" },
-          { "label": "Expressways (PIE, CTE…)", "value": "90 km/h", "sub": "Unless signed otherwise" },
-          { "label": "School zones", "value": "40 km/h", "sub": "7 am – 7 pm school days" }
+          {
+            "label": "Built-up areas",
+            "value": "50 km/h",
+            "sub": "Default urban limit"
+          },
+          {
+            "label": "Major roads / arterials",
+            "value": "70 km/h",
+            "sub": "Signed roads"
+          },
+          {
+            "label": "Expressways (PIE, CTE…)",
+            "value": "90 km/h",
+            "sub": "Unless signed otherwise"
+          },
+          {
+            "label": "School zones",
+            "value": "40 km/h",
+            "sub": "7 am – 7 pm school days"
+          }
         ]
       },
       "alcohol_limits": {
         "title": "Alcohol Limits",
         "items": [
-          { "label": "Breath test limit", "value": "35 µg", "sub": "per 100 ml of breath" },
-          { "label": "Blood test limit", "value": "80 mg", "sub": "per 100 ml of blood" },
-          { "label": "New drivers", "value": "0", "sub": "Zero tolerance in first year" }
+          {
+            "label": "Breath test limit",
+            "value": "35 µg",
+            "sub": "per 100 ml of breath"
+          },
+          {
+            "label": "Blood test limit",
+            "value": "80 mg",
+            "sub": "per 100 ml of blood"
+          },
+          {
+            "label": "New drivers",
+            "value": "0",
+            "sub": "Zero tolerance in first year"
+          }
         ],
         "note": "Exceeding the limit: fine up to S$10,000 and/or up to 12 months jail for first offence. Disqualification from driving."
       },
       "demerit_points": {
         "title": "Demerit Points",
         "items": [
-          { "label": "Suspension threshold", "value": "24 pts", "sub": "within any 2-year period" },
-          { "label": "New driver threshold", "value": "12 pts", "sub": "within first year of licence" },
-          { "label": "Suspension duration", "value": "3 months", "sub": "for 24-point accumulation" },
-          { "label": "Revocation", "value": "24 pts", "sub": "(already suspended) = revocation" }
+          {
+            "label": "Suspension threshold",
+            "value": "24 pts",
+            "sub": "within any 2-year period"
+          },
+          {
+            "label": "New driver threshold",
+            "value": "12 pts",
+            "sub": "within first year of licence"
+          },
+          {
+            "label": "Suspension duration",
+            "value": "3 months",
+            "sub": "for 24-point accumulation"
+          },
+          {
+            "label": "Revocation",
+            "value": "24 pts",
+            "sub": "(already suspended) = revocation"
+          }
         ],
         "note": "Common offences: Speeding (+30 km/h over limit = 6–24 points). Running red light = 12 points. Using mobile phone = 6 points."
       },
       "stopping_distances": {
         "title": "Stopping Distances (dry road)",
-        "headers": ["Speed", "Thinking (14–15 m/s)", "Braking", "Total"],
+        "headers": [
+          "Speed",
+          "Thinking (14–15 m/s)",
+          "Braking",
+          "Total"
+        ],
         "rows": [
-          ["50 km/h", "~14 m", "~14 m", "~28 m"],
-          ["70 km/h", "~19 m", "~28 m", "~47 m"],
-          ["90 km/h", "~25 m", "~46 m", "~71 m"]
+          [
+            "50 km/h",
+            "~14 m",
+            "~14 m",
+            "~28 m"
+          ],
+          [
+            "70 km/h",
+            "~19 m",
+            "~28 m",
+            "~47 m"
+          ],
+          [
+            "90 km/h",
+            "~25 m",
+            "~46 m",
+            "~71 m"
+          ]
         ],
         "note": "Double these distances on wet roads. Always maintain a 2-second following gap in normal conditions."
       },
@@ -501,28 +693,72 @@
       "speed_limits": {
         "title": "Speed Limits (最高速度)",
         "items": [
-          { "label": "Residential / school zones", "value": "30 km/h", "sub": "生活道路 / ゾーン30" },
-          { "label": "General roads", "value": "60 km/h", "sub": "一般道路 (default)" },
-          { "label": "Expressways", "value": "100 km/h", "sub": "高速道路 (default)" },
-          { "label": "Some expressways", "value": "120 km/h", "sub": "指定区間のみ" }
+          {
+            "label": "Residential / school zones",
+            "value": "30 km/h",
+            "sub": "生活道路 / ゾーン30"
+          },
+          {
+            "label": "General roads",
+            "value": "60 km/h",
+            "sub": "一般道路 (default)"
+          },
+          {
+            "label": "Expressways",
+            "value": "100 km/h",
+            "sub": "高速道路 (default)"
+          },
+          {
+            "label": "Some expressways",
+            "value": "120 km/h",
+            "sub": "指定区間のみ"
+          }
         ]
       },
       "alcohol_limits": {
         "title": "Alcohol Limits (飲酒運転)",
         "items": [
-          { "label": "酒気帯び (impaired)", "value": "0.15 mg/L", "sub": "breath / 0.3 mg/dL blood" },
-          { "label": "酔い (drunk)", "value": "0.05 mg/L", "sub": "breath / 0.1 mg/dL blood — harsher penalty" },
-          { "label": "Designated drivers", "value": "0", "sub": "代行・ハンドルキーパーは飲酒不可" }
+          {
+            "label": "酒気帯び (impaired)",
+            "value": "0.15 mg/L",
+            "sub": "breath / 0.3 mg/dL blood"
+          },
+          {
+            "label": "酔い (drunk)",
+            "value": "0.05 mg/L",
+            "sub": "breath / 0.1 mg/dL blood — harsher penalty"
+          },
+          {
+            "label": "Designated drivers",
+            "value": "0",
+            "sub": "代行・ハンドルキーパーは飲酒不可"
+          }
         ],
         "note": "Passengers who knowingly accompany a drunk driver also face penalties. Providing alcohol to someone about to drive is also illegal."
       },
       "demerit_points": {
         "title": "Demerit Points (違反点数)",
         "items": [
-          { "label": "30-day suspension", "value": "6–8 pts", "sub": "in 1 year (no prior offences)" },
-          { "label": "60-day suspension", "value": "9–11 pts", "sub": "in 1 year" },
-          { "label": "90-day suspension", "value": "12–14 pts", "sub": "in 1 year" },
-          { "label": "Revocation", "value": "15+ pts", "sub": "or prior suspension on record" }
+          {
+            "label": "30-day suspension",
+            "value": "6–8 pts",
+            "sub": "in 1 year (no prior offences)"
+          },
+          {
+            "label": "60-day suspension",
+            "value": "9–11 pts",
+            "sub": "in 1 year"
+          },
+          {
+            "label": "90-day suspension",
+            "value": "12–14 pts",
+            "sub": "in 1 year"
+          },
+          {
+            "label": "Revocation",
+            "value": "15+ pts",
+            "sub": "or prior suspension on record"
+          }
         ],
         "note": "Speeding 30–50 km/h over limit = 6 points. Running a red light = 2 points. Mobile phone while driving = 3 points."
       },
@@ -647,26 +883,73 @@
     "sg": {
       "theory_title": "Theory Test Fees (Traffic Police)",
       "theory_rows": [
-        { "item": "Basic Theory Test (BTT)", "fee": "S$7.09", "note": "Includes 9% GST. Payable at OneMotoring." },
-        { "item": "Final Theory Test (FTT)", "fee": "S$7.09", "note": "Can only book after ≥ 5 practical lessons." },
-        { "item": "Riding Theory Test (RTT) — motorcycle", "fee": "S$7.09", "note": "Replaces FTT for motorcycle classes." },
-        { "item": "Re-test (any theory)", "fee": "S$7.09", "note": "Same fee for each attempt." }
+        {
+          "item": "Basic Theory Test (BTT)",
+          "fee": "S$7.09",
+          "note": "Includes 9% GST. Payable at OneMotoring."
+        },
+        {
+          "item": "Final Theory Test (FTT)",
+          "fee": "S$7.09",
+          "note": "Can only book after ≥ 5 practical lessons."
+        },
+        {
+          "item": "Riding Theory Test (RTT) — motorcycle",
+          "fee": "S$7.09",
+          "note": "Replaces FTT for motorcycle classes."
+        },
+        {
+          "item": "Re-test (any theory)",
+          "fee": "S$7.09",
+          "note": "Same fee for each attempt."
+        }
       ],
       "theory_note": "Theory test fees are set by the Traffic Police and do not vary between BBDC, CDC or SSDC.",
       "tp_title": "Traffic Police (TP) Practical Test Fees",
       "tp_rows": [
-        { "item": "Class 3 / 3A (car) — first attempt", "fee": "S$35.97", "note": "Includes GST." },
-        { "item": "Class 3 / 3A — re-test", "fee": "S$35.97", "note": "Re-test booked through your centre." },
-        { "item": "Class 2B / 2A / 2 (motorcycle)", "fee": "~S$33.00", "note": "Check current rate at your centre." },
-        { "item": "Class 4 / 5 (goods / bus)", "fee": "~S$40–S$55", "note": "Varies by vehicle class." }
+        {
+          "item": "Class 3 / 3A (car) — first attempt",
+          "fee": "S$35.97",
+          "note": "Includes GST."
+        },
+        {
+          "item": "Class 3 / 3A — re-test",
+          "fee": "S$35.97",
+          "note": "Re-test booked through your centre."
+        },
+        {
+          "item": "Class 2B / 2A / 2 (motorcycle)",
+          "fee": "~S$33.00",
+          "note": "Check current rate at your centre."
+        },
+        {
+          "item": "Class 4 / 5 (goods / bus)",
+          "fee": "~S$40–S$55",
+          "note": "Varies by vehicle class."
+        }
       ],
       "lesson_title": "Practical Lesson Fees (per lesson, approx. 2026)",
       "lesson_label_car": "Car (Class 3/3A)",
       "lesson_label_moto": "Motorcycle",
       "lesson_centres": [
-        { "centre": "BBDC", "area": "Bukit Batok", "car": "S$26–S$34", "moto": "S$19–S$26" },
-        { "centre": "CDC", "area": "Ubi", "car": "S$27–S$35", "moto": "S$20–S$27" },
-        { "centre": "SSDC", "area": "Serangoon", "car": "S$25–S$33", "moto": "S$18–S$25" }
+        {
+          "centre": "BBDC",
+          "area": "Bukit Batok",
+          "car": "S$26–S$34",
+          "moto": "S$19–S$26"
+        },
+        {
+          "centre": "CDC",
+          "area": "Ubi",
+          "car": "S$27–S$35",
+          "moto": "S$20–S$27"
+        },
+        {
+          "centre": "SSDC",
+          "area": "Serangoon",
+          "car": "S$25–S$33",
+          "moto": "S$18–S$25"
+        }
       ],
       "lesson_note": "Lesson fees increase slightly during peak hours (evenings, weekends). Book off-peak to save. Prices include GST and are approximate for 2026 — check each centre's website for current rates.",
       "total_car_title": "Total Cost Estimate — Class 3 (Car)",
@@ -677,33 +960,101 @@
         "slow": "More lessons"
       },
       "total_rows": [
-        { "item": "BTT + FTT fees", "fast": "S$14.18", "avg": "S$21.27", "slow": "S$28.36", "note": "(assume 1–2 re-tests)" },
-        { "item": "Practical lessons (×lessons)", "fast": "S$600", "avg": "S$1,000", "slow": "S$1,500", "note": "20 / 35 / 50 lessons" },
-        { "item": "TP test (1–2 attempts)", "fast": "S$36", "avg": "S$72", "slow": "S$108", "note": "" },
-        { "item": "Licence collection fee", "fast": "S$50", "avg": "S$50", "slow": "S$50", "note": "Approx." }
+        {
+          "item": "BTT + FTT fees",
+          "fast": "S$14.18",
+          "avg": "S$21.27",
+          "slow": "S$28.36",
+          "note": "(assume 1–2 re-tests)"
+        },
+        {
+          "item": "Practical lessons (×lessons)",
+          "fast": "S$600",
+          "avg": "S$1,000",
+          "slow": "S$1,500",
+          "note": "20 / 35 / 50 lessons"
+        },
+        {
+          "item": "TP test (1–2 attempts)",
+          "fast": "S$36",
+          "avg": "S$72",
+          "slow": "S$108",
+          "note": ""
+        },
+        {
+          "item": "Licence collection fee",
+          "fast": "S$50",
+          "avg": "S$50",
+          "slow": "S$50",
+          "note": "Approx."
+        }
       ],
       "total_footer": "TOTAL (approx.)",
       "total_note": "These are estimates only. Registration fees at each centre and admin charges are not included. Check the BBDC, CDC, or SSDC website for the latest lesson packages which may include bundled discounts.",
       "total_moto_title": "Total Cost Estimate — Class 2B (Entry Motorcycle)",
       "moto_highlight": "Total estimate",
       "moto_rows": [
-        { "item": "BTT + RTT fees (1 attempt each)", "fee": "S$14.18", "note": "" },
-        { "item": "Practical lessons (~15–25 lessons)", "fee": "S$285–S$675", "note": "At S$19–S$27/lesson" },
-        { "item": "TP test (1–2 attempts)", "fee": "S$33–S$66", "note": "" },
-        { "item": "Helmet (if not owned)", "fee": "S$80–S$250", "note": "Approved helmet required for test and road" },
-        { "item": "Total estimate", "fee": "S$400–S$1,000", "note": "Varies significantly by ability and centre" }
+        {
+          "item": "BTT + RTT fees (1 attempt each)",
+          "fee": "S$14.18",
+          "note": ""
+        },
+        {
+          "item": "Practical lessons (~15–25 lessons)",
+          "fee": "S$285–S$675",
+          "note": "At S$19–S$27/lesson"
+        },
+        {
+          "item": "TP test (1–2 attempts)",
+          "fee": "S$33–S$66",
+          "note": ""
+        },
+        {
+          "item": "Helmet (if not owned)",
+          "fee": "S$80–S$250",
+          "note": "Approved helmet required for test and road"
+        },
+        {
+          "item": "Total estimate",
+          "fee": "S$400–S$1,000",
+          "note": "Varies significantly by ability and centre"
+        }
       ]
     },
     "jp_title": "Japan",
     "jp": {
       "fees_title": "Official Test & Licence Fees (免許センター)",
       "fee_rows": [
-        { "item": "仮免許学科試験 (Provisional theory test)", "fee": "¥1,700", "note": "At the 免許センター / licence centre" },
-        { "item": "仮免許技能試験 (Provisional skill test)", "fee": "¥1,700", "note": "Per attempt. Re-test fee is same." },
-        { "item": "本免許学科試験 (Final theory test)", "fee": "¥1,750", "note": "95 questions, 90% pass mark" },
-        { "item": "本免許技能試験 (Final skill test)", "fee": "¥1,750", "note": "Only if going 一発試験 (centre-direct)" },
-        { "item": "免許証交付 (Licence issue fee)", "fee": "¥2,050", "note": "Payable at the licence centre on passing" },
-        { "item": "JAF translation (required for foreign holders)", "fee": "¥3,000", "note": "Japan Automobile Federation certified translation" }
+        {
+          "item": "仮免許学科試験 (Provisional theory test)",
+          "fee": "¥1,700",
+          "note": "At the 免許センター / licence centre"
+        },
+        {
+          "item": "仮免許技能試験 (Provisional skill test)",
+          "fee": "¥1,700",
+          "note": "Per attempt. Re-test fee is same."
+        },
+        {
+          "item": "本免許学科試験 (Final theory test)",
+          "fee": "¥1,750",
+          "note": "95 questions, 90% pass mark"
+        },
+        {
+          "item": "本免許技能試験 (Final skill test)",
+          "fee": "¥1,750",
+          "note": "Only if going 一発試験 (centre-direct)"
+        },
+        {
+          "item": "免許証交付 (Licence issue fee)",
+          "fee": "¥2,050",
+          "note": "Payable at the licence centre on passing"
+        },
+        {
+          "item": "JAF translation (required for foreign holders)",
+          "fee": "¥3,000",
+          "note": "Japan Automobile Federation certified translation"
+        }
       ],
       "fees_note": "Fees are set nationally and do not vary between prefectures. Additional costs (photo, 住民票 certificate) are typically ¥300–¥600 each.",
       "paths_title": "Two Paths to a Japanese Licence",
@@ -712,11 +1063,27 @@
         "title": "指定教習所 (Driving School)",
         "badge": "Most reliable",
         "rows": [
-          { "label": "Tuition (Stage 1 + Stage 2)", "value": "¥250,000–¥400,000" },
-          { "label": "仮免 + school tests (included)", "value": "—" },
-          { "label": "本免学科試験 at licence centre", "value": "¥1,750" },
-          { "label": "Licence issue fee", "value": "¥2,050" },
-          { "label": "Total estimate", "value": "¥254,000–¥404,000", "bold": true }
+          {
+            "label": "Tuition (Stage 1 + Stage 2)",
+            "value": "¥250,000–¥400,000"
+          },
+          {
+            "label": "仮免 + school tests (included)",
+            "value": "—"
+          },
+          {
+            "label": "本免学科試験 at licence centre",
+            "value": "¥1,750"
+          },
+          {
+            "label": "Licence issue fee",
+            "value": "¥2,050"
+          },
+          {
+            "label": "Total estimate",
+            "value": "¥254,000–¥404,000",
+            "bold": true
+          }
         ],
         "note": "Passing the 卒業検定 exempts you from the 免許センター skill test. You only face the written theory test."
       },
@@ -725,22 +1092,53 @@
         "title": "一発試験 (Licence Centre Direct)",
         "badge": "Cheaper but harder",
         "rows": [
-          { "label": "JAF translation (if needed)", "value": "¥3,000" },
-          { "label": "仮免 tests (multiple attempts typical)", "value": "¥5,000–¥15,000" },
-          { "label": "本免 skill tests (multiple attempts)", "value": "¥3,000–¥10,500" },
-          { "label": "本免学科試験", "value": "¥1,750" },
-          { "label": "Licence issue fee", "value": "¥2,050" },
-          { "label": "Total estimate", "value": "¥15,000–¥32,000", "bold": true }
+          {
+            "label": "JAF translation (if needed)",
+            "value": "¥3,000"
+          },
+          {
+            "label": "仮免 tests (multiple attempts typical)",
+            "value": "¥5,000–¥15,000"
+          },
+          {
+            "label": "本免 skill tests (multiple attempts)",
+            "value": "¥3,000–¥10,500"
+          },
+          {
+            "label": "本免学科試験",
+            "value": "¥1,750"
+          },
+          {
+            "label": "Licence issue fee",
+            "value": "¥2,050"
+          },
+          {
+            "label": "Total estimate",
+            "value": "¥15,000–¥32,000",
+            "bold": true
+          }
         ],
         "note": "The skill test at the licence centre is notoriously difficult without school training. Most people need several attempts."
       },
       "myanmar_title": "Myanmar Nationals — Recommended Budget 🇲🇲",
       "myanmar_intro": "Because Myanmar has no reciprocal licence agreement with Japan, you cannot convert directly. You must either attend a driving school or attempt the 一発試験. The recommended path for most people is Path A (指定教習所):",
       "myanmar_rows": [
-        { "label": "指定教習所 full course", "value": "¥250,000–¥400,000" },
-        { "label": "本免学科試験 (theory at licence centre)", "value": "¥1,750" },
-        { "label": "免許証交付 (licence fee)", "value": "¥2,050" },
-        { "label": "住民票 + photos + misc.", "value": "~¥1,500" }
+        {
+          "label": "指定教習所 full course",
+          "value": "¥250,000–¥400,000"
+        },
+        {
+          "label": "本免学科試験 (theory at licence centre)",
+          "value": "¥1,750"
+        },
+        {
+          "label": "免許証交付 (licence fee)",
+          "value": "¥2,050"
+        },
+        {
+          "label": "住民票 + photos + misc.",
+          "value": "~¥1,500"
+        }
       ],
       "myanmar_total": "Total",
       "myanmar_tip": "Tip: Some schools offer discount packages for foreign nationals or have staff who speak English. Ask when enrolling. The 本免学科試験 (which this app helps you prepare for) is taken at the end — after completing school."
@@ -775,34 +1173,117 @@
     "jp_fees_note": "Fees at the licence centre are set by prefecture and may vary slightly. 指定自動車教習所 course fees are paid directly to the school.",
     "jp_questions_title": "よくある質問 — Common Questions",
     "sg_fees": [
-      { "test": "Basic Theory Test (BTT)", "fee": "$6.50", "gst": "$7.09", "note": "Taken before practical lessons begin" },
-      { "test": "Final Theory Test (FTT)", "fee": "$6.50", "gst": "$7.09", "note": "Taken after at least 5 practical lessons" },
-      { "test": "Riding Theory Test (RTT)", "fee": "$6.50", "gst": "$7.09", "note": "For motorcycle licence (Class 2/2A/2B)" },
-      { "test": "Class 3 Driving Test", "fee": "$33.00", "gst": "$35.97", "note": "Traffic Police practical test — car" },
-      { "test": "Class 3A Driving Test", "fee": "$33.00", "gst": "$35.97", "note": "Auto-only car licence" },
-      { "test": "Class 2/2A/2B Riding Test", "fee": "$33.00", "gst": "$35.97", "note": "Traffic Police practical test — motorcycle" }
+      {
+        "test": "Basic Theory Test (BTT)",
+        "fee": "$6.50",
+        "gst": "$7.09",
+        "note": "Taken before practical lessons begin"
+      },
+      {
+        "test": "Final Theory Test (FTT)",
+        "fee": "$6.50",
+        "gst": "$7.09",
+        "note": "Taken after at least 5 practical lessons"
+      },
+      {
+        "test": "Riding Theory Test (RTT)",
+        "fee": "$6.50",
+        "gst": "$7.09",
+        "note": "For motorcycle licence (Class 2/2A/2B)"
+      },
+      {
+        "test": "Class 3 Driving Test",
+        "fee": "$33.00",
+        "gst": "$35.97",
+        "note": "Traffic Police practical test — car"
+      },
+      {
+        "test": "Class 3A Driving Test",
+        "fee": "$33.00",
+        "gst": "$35.97",
+        "note": "Auto-only car licence"
+      },
+      {
+        "test": "Class 2/2A/2B Riding Test",
+        "fee": "$33.00",
+        "gst": "$35.97",
+        "note": "Traffic Police practical test — motorcycle"
+      }
     ],
     "jp_fees": [
-      { "test": "本免許学科試験", "fee": "¥1,750", "note": "Written theory test at the licence centre" },
-      { "test": "本免許技能試験", "fee": "¥7,200", "note": "Practical test at licence centre (指定校 graduates are exempt)" },
-      { "test": "仮免許試験（学科）", "fee": "¥1,700", "note": "Provisional licence theory test" },
-      { "test": "仮免許試験（技能）", "fee": "¥2,850", "note": "Provisional licence practical test" },
-      { "test": "指定校 full course", "fee": "¥250,000–¥400,000", "note": "Total cost varies by school and prefecture" }
+      {
+        "test": "本免許学科試験",
+        "fee": "¥1,750",
+        "note": "Written theory test at the licence centre"
+      },
+      {
+        "test": "本免許技能試験",
+        "fee": "¥7,200",
+        "note": "Practical test at licence centre (指定校 graduates are exempt)"
+      },
+      {
+        "test": "仮免許試験（学科）",
+        "fee": "¥1,700",
+        "note": "Provisional licence theory test"
+      },
+      {
+        "test": "仮免許試験（技能）",
+        "fee": "¥2,850",
+        "note": "Provisional licence practical test"
+      },
+      {
+        "test": "指定校 full course",
+        "fee": "¥250,000–¥400,000",
+        "note": "Total cost varies by school and prefecture"
+      }
     ],
     "sg_faq": [
-      { "q": "How many times can I retake the BTT/FTT/RTT?", "a": "There is no limit on retakes. You pay the fee each time and can rebook after 3 days." },
-      { "q": "Can I book the FTT before completing all practical lessons?", "a": "You must have completed at least 5 practical lessons (Class 3/3A) before booking the FTT." },
-      { "q": "How long is a Singapore licence valid?", "a": "A full Class 3/3A licence is valid for 10 years and can be renewed online via OneMotoring." },
-      { "q": "What happens if I accumulate 24 demerit points?", "a": "Your licence is suspended for 3 months. A new driver (within 1 year of passing) is suspended at 12 points." },
-      { "q": "Is there a minimum age to sit the BTT?", "a": "Yes — 17 years old for car licence (Class 3/3A) and 18 for motorcycle (Class 2/2A/2B)." },
-      { "q": "Which driving centres are Traffic Police approved?", "a": "Three centres: BBDC (Bukit Batok), CDC (ComfortDelGro), and SSDC (Serangoon). All offer the same standard." }
+      {
+        "q": "How many times can I retake the BTT/FTT/RTT?",
+        "a": "There is no limit on retakes. You pay the fee each time and can rebook after 3 days."
+      },
+      {
+        "q": "Can I book the FTT before completing all practical lessons?",
+        "a": "You must have completed at least 5 practical lessons (Class 3/3A) before booking the FTT."
+      },
+      {
+        "q": "How long is a Singapore licence valid?",
+        "a": "A full Class 3/3A licence is valid for 10 years and can be renewed online via OneMotoring."
+      },
+      {
+        "q": "What happens if I accumulate 24 demerit points?",
+        "a": "Your licence is suspended for 3 months. A new driver (within 1 year of passing) is suspended at 12 points."
+      },
+      {
+        "q": "Is there a minimum age to sit the BTT?",
+        "a": "Yes — 17 years old for car licence (Class 3/3A) and 18 for motorcycle (Class 2/2A/2B)."
+      },
+      {
+        "q": "Which driving centres are Traffic Police approved?",
+        "a": "Three centres: BBDC (Bukit Batok), CDC (ComfortDelGro), and SSDC (Serangoon). All offer the same standard."
+      }
     ],
     "jp_faq": [
-      { "q": "本免許学科試験に落ちたらどうなる？", "a": "再受験できます。費用は毎回かかります。次の受験日は翌日以降に予約可能です。" },
-      { "q": "指定校を卒業すると技能試験は免除されますか？", "a": "はい。公安委員会指定の自動車教習所を卒業すると、免許センターでの技能試験が免除されます。学科試験のみ受験すれば取得できます。" },
-      { "q": "本免許の合格点は？", "a": "95問中86問以上正解（90%）で合格です（二輪は同様）。" },
-      { "q": "日本の免許証の有効期間は？", "a": "取得時の年齢や違反歴によって異なりますが、通常はゴールド免許で5年、一般免許で3年です。" },
-      { "q": "仮免許の有効期間は？", "a": "6ヶ月間です。仮免取得後6ヶ月以内に路上教習・卒業試験を修了する必要があります。" }
+      {
+        "q": "本免許学科試験に落ちたらどうなる？",
+        "a": "再受験できます。費用は毎回かかります。次の受験日は翌日以降に予約可能です。"
+      },
+      {
+        "q": "指定校を卒業すると技能試験は免除されますか？",
+        "a": "はい。公安委員会指定の自動車教習所を卒業すると、免許センターでの技能試験が免除されます。学科試験のみ受験すれば取得できます。"
+      },
+      {
+        "q": "本免許の合格点は？",
+        "a": "95問中86問以上正解（90%）で合格です（二輪は同様）。"
+      },
+      {
+        "q": "日本の免許証の有効期間は？",
+        "a": "取得時の年齢や違反歴によって異なりますが、通常はゴールド免許で5年、一般免許で3年です。"
+      },
+      {
+        "q": "仮免許の有効期間は？",
+        "a": "6ヶ月間です。仮免取得後6ヶ月以内に路上教習・卒業試験を修了する必要があります。"
+      }
     ],
     "back_home": "← Back to home"
   },
@@ -840,34 +1321,197 @@
     "common_badge": "Common",
     "compare": {
       "title": "Quick comparison — most common class",
-      "headers": ["", "Singapore Class 3", "Singapore Class 2B", "Japan 普通免許", "Japan 普通二輪"],
+      "headers": [
+        "",
+        "Singapore Class 3",
+        "Singapore Class 2B",
+        "Japan 普通免許",
+        "Japan 普通二輪"
+      ],
       "rows": [
-        { "label": "Theory tests", "values": ["BTT + FTT", "BTT + RTT", "仮免 + 本免 (学科)", "仮免 + 本免 (学科)"] },
-        { "label": "Practical test", "values": ["TP test", "TP test", "指定校卒 or 技能試験", "指定校卒 or 技能試験"] },
-        { "label": "Minimum age", "values": ["18", "18", "18", "18 (16 for ≤125cc)"] },
-        { "label": "Pass mark", "values": ["90% (45/50)", "90% (45/50)", "90% (86/95)", "90% (46/50)"] },
-        { "label": "Validity", "values": ["10 years", "10 years", "3 years (initial)", "3 years (initial)"] }
+        {
+          "label": "Theory tests",
+          "values": [
+            "BTT + FTT",
+            "BTT + RTT",
+            "仮免 + 本免 (学科)",
+            "仮免 + 本免 (学科)"
+          ]
+        },
+        {
+          "label": "Practical test",
+          "values": [
+            "TP test",
+            "TP test",
+            "指定校卒 or 技能試験",
+            "指定校卒 or 技能試験"
+          ]
+        },
+        {
+          "label": "Minimum age",
+          "values": [
+            "18",
+            "18",
+            "18",
+            "18 (16 for ≤125cc)"
+          ]
+        },
+        {
+          "label": "Pass mark",
+          "values": [
+            "90% (45/50)",
+            "90% (45/50)",
+            "90% (86/95)",
+            "90% (46/50)"
+          ]
+        },
+        {
+          "label": "Validity",
+          "values": [
+            "10 years",
+            "10 years",
+            "3 years (initial)",
+            "3 years (initial)"
+          ]
+        }
       ]
     },
     "sg_classes": [
-      { "code": "3", "name": "Car — Manual", "vehicle": "Saloon, MPV, SUV (manual gearbox)", "limit": "Max 3,000 kg GVW · max 7 passengers", "age": "Min. 18 years", "note": "Most common licence. Requires BTT + FTT + TP test.", "highlight": true },
-      { "code": "3A", "name": "Car — Automatic", "vehicle": "Saloon, MPV, SUV (auto only)", "limit": "Max 3,000 kg GVW · max 7 passengers", "age": "Min. 18 years", "note": "Restricted to automatic vehicles only. Cannot drive manual cars.", "highlight": true },
-      { "code": "2B", "name": "Motorcycle — Entry", "vehicle": "Motorcycle / scooter", "limit": "≤ 200 cc or ≤ 30 kW power output", "age": "Min. 18 years", "note": "Entry-level motorcycle licence. Requires BTT + RTT + TP test.", "highlight": true },
-      { "code": "2A", "name": "Motorcycle — Mid", "vehicle": "Motorcycle / scooter", "limit": "201–400 cc or 26–47 kW", "age": "Min. 18 years", "note": "Must hold Class 2B for at least 1 year before upgrading." },
-      { "code": "2", "name": "Motorcycle — Full", "vehicle": "Motorcycle, any engine size", "limit": "Unlimited engine size / power", "age": "Min. 18 years", "note": "Must hold Class 2A for at least 1 year. Covers all motorcycles." },
-      { "code": "4", "name": "Light Goods Vehicle", "vehicle": "Panel van, light truck", "limit": "3,001 – 5,000 kg GVW", "age": "Min. 18 years", "note": "Separate practical test required." },
-      { "code": "4A", "name": "Light Goods — Articulated", "vehicle": "Articulated light goods", "limit": "3,001 – 5,000 kg GVW", "age": "Min. 21 years", "note": "Requires Class 3 or 4 first." },
-      { "code": "5", "name": "Bus", "vehicle": "All passenger buses", "limit": "> 7 passengers or > 3,000 kg", "age": "Min. 21 years", "note": "Requires separate bus-specific training and test." }
+      {
+        "code": "3",
+        "name": "Car — Manual",
+        "vehicle": "Saloon, MPV, SUV (manual gearbox)",
+        "limit": "Max 3,000 kg GVW · max 7 passengers",
+        "age": "Min. 18 years",
+        "note": "Most common licence. Requires BTT + FTT + TP test.",
+        "highlight": true
+      },
+      {
+        "code": "3A",
+        "name": "Car — Automatic",
+        "vehicle": "Saloon, MPV, SUV (auto only)",
+        "limit": "Max 3,000 kg GVW · max 7 passengers",
+        "age": "Min. 18 years",
+        "note": "Restricted to automatic vehicles only. Cannot drive manual cars.",
+        "highlight": true
+      },
+      {
+        "code": "2B",
+        "name": "Motorcycle — Entry",
+        "vehicle": "Motorcycle / scooter",
+        "limit": "≤ 200 cc or ≤ 30 kW power output",
+        "age": "Min. 18 years",
+        "note": "Entry-level motorcycle licence. Requires BTT + RTT + TP test.",
+        "highlight": true
+      },
+      {
+        "code": "2A",
+        "name": "Motorcycle — Mid",
+        "vehicle": "Motorcycle / scooter",
+        "limit": "201–400 cc or 26–47 kW",
+        "age": "Min. 18 years",
+        "note": "Must hold Class 2B for at least 1 year before upgrading."
+      },
+      {
+        "code": "2",
+        "name": "Motorcycle — Full",
+        "vehicle": "Motorcycle, any engine size",
+        "limit": "Unlimited engine size / power",
+        "age": "Min. 18 years",
+        "note": "Must hold Class 2A for at least 1 year. Covers all motorcycles."
+      },
+      {
+        "code": "4",
+        "name": "Light Goods Vehicle",
+        "vehicle": "Panel van, light truck",
+        "limit": "3,001 – 5,000 kg GVW",
+        "age": "Min. 18 years",
+        "note": "Separate practical test required."
+      },
+      {
+        "code": "4A",
+        "name": "Light Goods — Articulated",
+        "vehicle": "Articulated light goods",
+        "limit": "3,001 – 5,000 kg GVW",
+        "age": "Min. 21 years",
+        "note": "Requires Class 3 or 4 first."
+      },
+      {
+        "code": "5",
+        "name": "Bus",
+        "vehicle": "All passenger buses",
+        "limit": "> 7 passengers or > 3,000 kg",
+        "age": "Min. 21 years",
+        "note": "Requires separate bus-specific training and test."
+      }
     ],
     "jp_classes": [
-      { "code": "普通免許", "name": "Regular Car", "vehicle": "普通自動車 — standard car / MPV", "limit": "≤ 3,500 kg · ≤ 10 passengers · trailer ≤ 750 kg", "age": "Min. 18 years", "note": "The standard licence obtained at a 指定教習所. Covers most everyday cars.", "highlight": true },
-      { "code": "準中型免許", "name": "Semi-medium Truck", "vehicle": "準中型自動車 — light-to-medium truck", "limit": "≤ 7,500 kg · ≤ 4 passengers", "age": "Min. 18 years", "note": "Introduced in 2017. Allows driving delivery trucks from age 18 without waiting." },
-      { "code": "中型免許", "name": "Medium Truck", "vehicle": "中型自動車 — medium truck / bus", "limit": "≤ 11,000 kg · ≤ 29 passengers", "age": "Min. 20 years · held licence ≥ 2 years", "note": "Needed for larger delivery vehicles, minibuses." },
-      { "code": "大型免許", "name": "Large Truck", "vehicle": "大型自動車 — large truck / coach", "limit": "Unlimited weight / passengers", "age": "Min. 21 years · held licence ≥ 3 years", "note": "Required for heavy goods vehicles, full-size coaches." },
-      { "code": "普通二輪", "name": "Regular Motorcycle", "vehicle": "普通自動二輪車 — motorcycle / scooter", "limit": "≤ 400 cc", "age": "Min. 16 years (小型 ≤125cc) / 18 years (full 普通二輪)", "note": "小型限定 (≤125cc) licence is available from age 16. Full licence covers up to 400cc.", "highlight": true },
-      { "code": "大型二輪", "name": "Large Motorcycle", "vehicle": "大型自動二輪車 — large motorcycle", "limit": "> 400 cc, unlimited power", "age": "Min. 18 years", "note": "Must already hold 普通二輪 (or equivalent). Covers all engine sizes." },
-      { "code": "原付免許", "name": "Moped", "vehicle": "原動機付自転車 — moped / scooter", "limit": "≤ 50 cc · max 30 km/h", "age": "Min. 16 years", "note": "Simplest licence — 1-day test at licence centre, no driving school needed." },
-      { "code": "大型特殊", "name": "Large Special", "vehicle": "大型特殊自動車 — construction machinery", "limit": "Bulldozers, cranes, forklifts on public road", "age": "Min. 18 years", "note": "Covers slow-moving construction vehicles on public roads (not off-road operation)." }
+      {
+        "code": "普通免許",
+        "name": "Regular Car",
+        "vehicle": "普通自動車 — standard car / MPV",
+        "limit": "≤ 3,500 kg · ≤ 10 passengers · trailer ≤ 750 kg",
+        "age": "Min. 18 years",
+        "note": "The standard licence obtained at a 指定教習所. Covers most everyday cars.",
+        "highlight": true
+      },
+      {
+        "code": "準中型免許",
+        "name": "Semi-medium Truck",
+        "vehicle": "準中型自動車 — light-to-medium truck",
+        "limit": "≤ 7,500 kg · ≤ 4 passengers",
+        "age": "Min. 18 years",
+        "note": "Introduced in 2017. Allows driving delivery trucks from age 18 without waiting."
+      },
+      {
+        "code": "中型免許",
+        "name": "Medium Truck",
+        "vehicle": "中型自動車 — medium truck / bus",
+        "limit": "≤ 11,000 kg · ≤ 29 passengers",
+        "age": "Min. 20 years · held licence ≥ 2 years",
+        "note": "Needed for larger delivery vehicles, minibuses."
+      },
+      {
+        "code": "大型免許",
+        "name": "Large Truck",
+        "vehicle": "大型自動車 — large truck / coach",
+        "limit": "Unlimited weight / passengers",
+        "age": "Min. 21 years · held licence ≥ 3 years",
+        "note": "Required for heavy goods vehicles, full-size coaches."
+      },
+      {
+        "code": "普通二輪",
+        "name": "Regular Motorcycle",
+        "vehicle": "普通自動二輪車 — motorcycle / scooter",
+        "limit": "≤ 400 cc",
+        "age": "Min. 16 years (小型 ≤125cc) / 18 years (full 普通二輪)",
+        "note": "小型限定 (≤125cc) licence is available from age 16. Full licence covers up to 400cc.",
+        "highlight": true
+      },
+      {
+        "code": "大型二輪",
+        "name": "Large Motorcycle",
+        "vehicle": "大型自動二輪車 — large motorcycle",
+        "limit": "> 400 cc, unlimited power",
+        "age": "Min. 18 years",
+        "note": "Must already hold 普通二輪 (or equivalent). Covers all engine sizes."
+      },
+      {
+        "code": "原付免許",
+        "name": "Moped",
+        "vehicle": "原動機付自転車 — moped / scooter",
+        "limit": "≤ 50 cc · max 30 km/h",
+        "age": "Min. 16 years",
+        "note": "Simplest licence — 1-day test at licence centre, no driving school needed."
+      },
+      {
+        "code": "大型特殊",
+        "name": "Large Special",
+        "vehicle": "大型特殊自動車 — construction machinery",
+        "limit": "Bulldozers, cranes, forklifts on public road",
+        "age": "Min. 18 years",
+        "note": "Covers slow-moving construction vehicles on public roads (not off-road operation)."
+      }
     ],
     "back_home": "← Back to home"
   },
@@ -954,28 +1598,88 @@
       {
         "category": "Regulatory — Must Obey",
         "signs": [
-          { "file": "stop.png", "title": "Stop", "subtitle": "ရပ်ရမည်", "desc": "Come to a complete stop at the line before proceeding." },
-          { "file": "give-way.png", "title": "Give Way", "subtitle": "လမ်းပေးရမည်", "desc": "Yield to traffic on the major road before entering." },
-          { "file": "no-entry.png", "title": "No Entry", "subtitle": "ဝင်ခွင့်မပြု", "desc": "No vehicles may enter this road." },
-          { "file": "speed-50.png", "title": "Speed Limit 50", "subtitle": "အမြန်နှုန်း ၅၀", "desc": "Maximum speed of 50 km/h on this road." },
-          { "file": "no-overtaking.png", "title": "No Overtaking", "subtitle": "ကျော်ဖြတ်ခွင့်မရှိ", "desc": "Overtaking other vehicles is prohibited ahead." },
-          { "file": "mandatory-sign.png", "title": "Mandatory Direction", "subtitle": "ညွှန်ကြားသောဘက် သွားရမည်", "desc": "Must proceed in the direction shown by the arrow." }
+          {
+            "file": "stop.png",
+            "title": "Stop",
+            "subtitle": "ရပ်ရမည်",
+            "desc": "Come to a complete stop at the line before proceeding."
+          },
+          {
+            "file": "give-way.png",
+            "title": "Give Way",
+            "subtitle": "လမ်းပေးရမည်",
+            "desc": "Yield to traffic on the major road before entering."
+          },
+          {
+            "file": "no-entry.png",
+            "title": "No Entry",
+            "subtitle": "ဝင်ခွင့်မပြု",
+            "desc": "No vehicles may enter this road."
+          },
+          {
+            "file": "speed-50.png",
+            "title": "Speed Limit 50",
+            "subtitle": "အမြန်နှုန်း ၅၀",
+            "desc": "Maximum speed of 50 km/h on this road."
+          },
+          {
+            "file": "no-overtaking.png",
+            "title": "No Overtaking",
+            "subtitle": "ကျော်ဖြတ်ခွင့်မရှိ",
+            "desc": "Overtaking other vehicles is prohibited ahead."
+          },
+          {
+            "file": "mandatory-sign.png",
+            "title": "Mandatory Direction",
+            "subtitle": "ညွှန်ကြားသောဘက် သွားရမည်",
+            "desc": "Must proceed in the direction shown by the arrow."
+          }
         ]
       },
       {
         "category": "Warning — Hazard Ahead",
         "signs": [
-          { "file": "warning-sign.png", "title": "General Warning", "subtitle": "သတိပေး", "desc": "Exercise caution — a hazard lies ahead." },
-          { "file": "pedestrian-crossing.png", "title": "Pedestrian Crossing", "subtitle": "လမ်းဖြတ်ကူးရှိ", "desc": "Slow down; pedestrians may be crossing ahead." },
-          { "file": "school-zone.png", "title": "School Zone", "subtitle": "ကျောင်းဇုန်", "desc": "Slow to 40 km/h during school hours; children may be present." },
-          { "file": "traffic-signals-sign.png", "title": "Traffic Signals Ahead", "subtitle": "မီးပွိုင့်ရှိ", "desc": "Traffic lights at the next junction — be prepared to stop." }
+          {
+            "file": "warning-sign.png",
+            "title": "General Warning",
+            "subtitle": "သတိပေး",
+            "desc": "Exercise caution — a hazard lies ahead."
+          },
+          {
+            "file": "pedestrian-crossing.png",
+            "title": "Pedestrian Crossing",
+            "subtitle": "လမ်းဖြတ်ကူးရှိ",
+            "desc": "Slow down; pedestrians may be crossing ahead."
+          },
+          {
+            "file": "school-zone.png",
+            "title": "School Zone",
+            "subtitle": "ကျောင်းဇုန်",
+            "desc": "Slow to 40 km/h during school hours; children may be present."
+          },
+          {
+            "file": "traffic-signals-sign.png",
+            "title": "Traffic Signals Ahead",
+            "subtitle": "မီးပွိုင့်ရှိ",
+            "desc": "Traffic lights at the next junction — be prepared to stop."
+          }
         ]
       },
       {
         "category": "Informational",
         "signs": [
-          { "file": "parking-sign.png", "title": "Parking / No Parking", "subtitle": "ကားရပ်နားခြင်း", "desc": "Check posted restrictions for times and conditions." },
-          { "file": "roundabout.png", "title": "Roundabout Ahead", "subtitle": "လည်ပတ်လမ်းဆုံ", "desc": "Give way to traffic already in the roundabout." }
+          {
+            "file": "parking-sign.png",
+            "title": "Parking / No Parking",
+            "subtitle": "ကားရပ်နားခြင်း",
+            "desc": "Check posted restrictions for times and conditions."
+          },
+          {
+            "file": "roundabout.png",
+            "title": "Roundabout Ahead",
+            "subtitle": "လည်ပတ်လမ်းဆုံ",
+            "desc": "Give way to traffic already in the roundabout."
+          }
         ]
       }
     ],
@@ -983,22 +1687,77 @@
       {
         "category": "規制標識 — Regulatory",
         "signs": [
-          { "file": "jp-stop.png", "title": "止まれ", "subtitle": "Stop", "desc": "Come to a complete stop at the line. — 停止線の手前で一時停止。" },
-          { "file": "jp-no-entry.png", "title": "進入禁止", "subtitle": "No Entry", "desc": "Vehicles may not enter this road. — この道路へは進入禁止。" },
-          { "file": "jp-speed-limit.png", "title": "最高速度", "subtitle": "Speed Limit", "desc": "Do not exceed the posted speed. — 表示速度を超えてはいけない。" },
-          { "file": "jp-no-overtaking.png", "title": "追い越し禁止", "subtitle": "No Overtaking", "desc": "Overtaking prohibited in this section. — この区間は追い越し禁止。" },
-          { "file": "jp-give-way.png", "title": "徐行", "subtitle": "Proceed Slowly", "desc": "Slow down and be prepared to stop at any moment. — いつでも止まれる速度で徐行。" },
-          { "file": "jp-one-way.png", "title": "一方通行", "subtitle": "One Way", "desc": "Traffic flows in one direction only. — 一方向のみ通行可。" },
-          { "file": "jp-parking.png", "title": "駐車禁止", "subtitle": "No Parking", "desc": "Stopping to park is prohibited. — 駐車は禁止。" }
+          {
+            "file": "jp-stop.png",
+            "title": "止まれ",
+            "subtitle": "Stop",
+            "desc": "Come to a complete stop at the line. — 停止線の手前で一時停止。"
+          },
+          {
+            "file": "jp-no-entry.png",
+            "title": "進入禁止",
+            "subtitle": "No Entry",
+            "desc": "Vehicles may not enter this road. — この道路へは進入禁止。"
+          },
+          {
+            "file": "jp-speed-limit.png",
+            "title": "最高速度",
+            "subtitle": "Speed Limit",
+            "desc": "Do not exceed the posted speed. — 表示速度を超えてはいけない。"
+          },
+          {
+            "file": "jp-no-overtaking.png",
+            "title": "追い越し禁止",
+            "subtitle": "No Overtaking",
+            "desc": "Overtaking prohibited in this section. — この区間は追い越し禁止。"
+          },
+          {
+            "file": "jp-give-way.png",
+            "title": "徐行",
+            "subtitle": "Proceed Slowly",
+            "desc": "Slow down and be prepared to stop at any moment. — いつでも止まれる速度で徐行。"
+          },
+          {
+            "file": "jp-one-way.png",
+            "title": "一方通行",
+            "subtitle": "One Way",
+            "desc": "Traffic flows in one direction only. — 一方向のみ通行可。"
+          },
+          {
+            "file": "jp-parking.png",
+            "title": "駐車禁止",
+            "subtitle": "No Parking",
+            "desc": "Stopping to park is prohibited. — 駐車は禁止。"
+          }
         ]
       },
       {
         "category": "警戒標識 — Warning",
         "signs": [
-          { "file": "jp-pedestrian-cross.png", "title": "横断歩道", "subtitle": "Pedestrian Crossing", "desc": "Yield to pedestrians crossing. — 横断歩道あり、歩行者優先。" },
-          { "file": "jp-school-zone.png", "title": "スクールゾーン", "subtitle": "School Zone", "desc": "Slow down; children may be present. — 子供が多い区域、徐行。" },
-          { "file": "jp-warning.png", "title": "警戒", "subtitle": "Hazard Warning", "desc": "Danger or unusual road conditions ahead. — 前方に危険箇所あり。" },
-          { "file": "jp-pedestrian.png", "title": "歩行者通行あり", "subtitle": "Pedestrians Present", "desc": "Pedestrians may be using this road. — 歩行者の通行に注意。" }
+          {
+            "file": "jp-pedestrian-cross.png",
+            "title": "横断歩道",
+            "subtitle": "Pedestrian Crossing",
+            "desc": "Yield to pedestrians crossing. — 横断歩道あり、歩行者優先。"
+          },
+          {
+            "file": "jp-school-zone.png",
+            "title": "スクールゾーン",
+            "subtitle": "School Zone",
+            "desc": "Slow down; children may be present. — 子供が多い区域、徐行。"
+          },
+          {
+            "file": "jp-warning.png",
+            "title": "警戒",
+            "subtitle": "Hazard Warning",
+            "desc": "Danger or unusual road conditions ahead. — 前方に危険箇所あり。"
+          },
+          {
+            "file": "jp-pedestrian.png",
+            "title": "歩行者通行あり",
+            "subtitle": "Pedestrians Present",
+            "desc": "Pedestrians may be using this road. — 歩行者の通行に注意。"
+          }
         ]
       }
     ],
@@ -1479,7 +2238,6 @@
     "gate_premium": "Go Premium",
     "result_attempts": "Tries",
     "wrong_review": "Review wrong answers",
-    "your_answer": "Your answer",
     "correct_answer": "Correct answer",
     "retry_wrong": "Retry wrong answers",
     "practice_result": "Practice complete",

@@ -5,24 +5,14 @@ import { useSearchParams, useRouter, useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useAuth } from '@/components/AuthProvider';
 import { createClient } from '@/lib/supabase';
-import { PLANS, type PlanKey } from '@/lib/subscription';
+import { getPlans, PLANS, type PlanKey } from '@/lib/subscription';
 import { SUPPORT_EMAIL } from '@/lib/brand';
 import Link from 'next/link';
 
-const WALLETS = [
-  {
-    key: 'KBZPay',
-    label: 'KBZPay',
-    number: process.env.NEXT_PUBLIC_KBZPAY_NUMBER ?? '09 XXXX XXXX',
-    color: '#E8192C',
-  },
-  {
-    key: 'WavePay',
-    label: 'WavePay',
-    number: process.env.NEXT_PUBLIC_WAVEPAY_NUMBER ?? '09 XXXX XXXX',
-    color: '#0066CC',
-  },
-] as const;
+const DEFAULT_WALLETS = {
+  KBZPay: process.env.NEXT_PUBLIC_KBZPAY_NUMBER ?? '09 XXXX XXXX',
+  WavePay: process.env.NEXT_PUBLIC_WAVEPAY_NUMBER ?? '09 XXXX XXXX',
+} as const;
 
 type WalletKey = 'KBZPay' | 'WavePay';
 
@@ -34,7 +24,17 @@ export default function PaymentPage() {
   const locale = (params.locale as string) ?? 'en';
   const { user, loading } = useAuth();
   const planKey = (searchParams.get('plan') ?? 'monthly') as PlanKey;
-  const plan = PLANS[planKey] ?? PLANS.monthly;
+  const [pricing, setPricing] = useState<{ monthlyPrice: number; yearlyPrice: number }>({
+    monthlyPrice: PLANS.monthly.price,
+    yearlyPrice: PLANS.yearly.price,
+  });
+  const [walletNumbers, setWalletNumbers] = useState({ KBZPay: DEFAULT_WALLETS.KBZPay, WavePay: DEFAULT_WALLETS.WavePay });
+  const plans = getPlans(pricing);
+  const plan = plans[planKey] ?? plans.monthly;
+  const wallets = [
+    { key: 'KBZPay' as const, label: 'KBZPay', number: walletNumbers.KBZPay, color: '#E8192C' },
+    { key: 'WavePay' as const, label: 'WavePay', number: walletNumbers.WavePay, color: '#0066CC' },
+  ];
   const planLabels = {
     monthly: t('plan_monthly_label'),
     yearly: t('plan_yearly_label'),
@@ -53,6 +53,31 @@ export default function PaymentPage() {
       router.push(`/${locale}/auth/login?redirect=${returnUrl}`);
     }
   }, [user, loading, locale, planKey, router]);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch('/api/settings/public')
+      .then(async (res) => {
+        if (!res.ok) throw new Error('Failed');
+        const data = await res.json() as {
+          monthlyPrice?: number;
+          yearlyPrice?: number;
+          kbzpayNumber?: string;
+          wavepayNumber?: string;
+        };
+        if (cancelled) return;
+        setPricing({
+          monthlyPrice: Number.isFinite(data.monthlyPrice) && (data.monthlyPrice ?? 0) > 0 ? Number(data.monthlyPrice) : PLANS.monthly.price,
+          yearlyPrice: Number.isFinite(data.yearlyPrice) && (data.yearlyPrice ?? 0) > 0 ? Number(data.yearlyPrice) : PLANS.yearly.price,
+        });
+        setWalletNumbers({
+          KBZPay: data.kbzpayNumber?.trim() || DEFAULT_WALLETS.KBZPay,
+          WavePay: data.wavepayNumber?.trim() || DEFAULT_WALLETS.WavePay,
+        });
+      })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, []);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -146,7 +171,7 @@ export default function PaymentPage() {
           <div style={{ marginBottom: 20 }}>
             <div className="field-label" style={{ marginBottom: 10 }}>{t('step_method')}</div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
-              {WALLETS.map(w => (
+              {wallets.map(w => (
                 <button
                   key={w.key}
                   type="button"
@@ -185,7 +210,7 @@ export default function PaymentPage() {
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12 }}>
               <div>
                 <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.3rem' }}>
-                  {WALLETS.find(w => w.key === wallet)?.number}
+                  {wallets.find(w => w.key === wallet)?.number}
                 </div>
                 <div style={{ fontSize: '.82rem', color: 'var(--ink-soft)', marginTop: 2 }}>
                   {wallet} · {t('brand_name')}
@@ -193,7 +218,7 @@ export default function PaymentPage() {
               </div>
               <button
                 type="button"
-                onClick={() => navigator.clipboard.writeText(WALLETS.find(w => w.key === wallet)?.number ?? '')}
+                onClick={() => navigator.clipboard.writeText(wallets.find(w => w.key === wallet)?.number ?? '')}
                 style={{ fontSize: '.78rem', fontFamily: 'var(--display)', fontWeight: 700, padding: '6px 12px', border: '1px solid var(--line)', borderRadius: 8, background: '#fff', cursor: 'pointer', color: 'var(--ink-soft)' }}
               >
                 {t('copy')}

@@ -57,3 +57,16 @@ export const PLANS = {
 } as const;
 
 export type PlanKey = keyof typeof PLANS;
+
+export function getPlans(pricing?: { monthlyPrice?: number; yearlyPrice?: number }) {
+  return {
+    monthly: {
+      ...PLANS.monthly,
+      price: pricing?.monthlyPrice ?? PLANS.monthly.price,
+    },
+    yearly: {
+      ...PLANS.yearly,
+      price: pricing?.yearlyPrice ?? PLANS.yearly.price,
+    },
+  } as const;
+}
