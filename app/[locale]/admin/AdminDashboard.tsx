@@ -167,6 +167,7 @@ export default function AdminDashboard({
   const [runtimeConfig, setRuntimeConfig] = useState<Config>(config);
   const [settingBusy, setSettingBusy] = useState<string | null>(null);
   const [settingSaved, setSettingSaved] = useState<string | null>(null);
+  const [settingError, setSettingError] = useState<Record<string, string>>({});
   const [faqs, setFaqs] = useState<Faq[]>(initialFaqs);
   const [faqForm, setFaqForm] = useState<Omit<Faq, 'id'> | null>(null);
   const [editingFaq, setEditingFaq] = useState<string | null>(null);
@@ -174,35 +175,53 @@ export default function AdminDashboard({
   const [faqLang, setFaqLang] = useState<'en' | 'my' | 'ja'>('en');
 
   async function saveSetting(key: string, value: string) {
+    const trimmed = value.trim();
+    setSettingError(prev => ({ ...prev, [key]: '' }));
+
+    if (key === 'monthly_price' || key === 'yearly_price') {
+      const parsed = Number(trimmed);
+      if (!Number.isInteger(parsed) || parsed <= 0) {
+        setSettingError(prev => ({ ...prev, [key]: 'Please enter a positive whole number.' }));
+        return;
+      }
+    }
+    if ((key === 'kbzpay_number' || key === 'wavepay_number') && !trimmed) {
+      setSettingError(prev => ({ ...prev, [key]: 'Wallet number cannot be empty.' }));
+      return;
+    }
+
     setSettingBusy(key);
     const res = await fetch('/api/admin/settings', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ key, value }),
+      body: JSON.stringify({ key, value: trimmed }),
     });
     if (res.ok) {
       setSettings(prev => {
         const found = prev.some(s => s.key === key);
-        if (found) return prev.map(s => s.key === key ? { ...s, value } : s);
-        return [...prev, { key, value, label: key }];
+        if (found) return prev.map(s => s.key === key ? { ...s, value: trimmed } : s);
+        return [...prev, { key, value: trimmed, label: key }];
       });
       setRuntimeConfig(prev => {
         if (key === 'monthly_price') {
-          const parsed = Number(value);
+          const parsed = Number(trimmed);
           if (Number.isFinite(parsed) && parsed > 0) return { ...prev, monthlyPrice: parsed };
           return prev;
         }
         if (key === 'yearly_price') {
-          const parsed = Number(value);
+          const parsed = Number(trimmed);
           if (Number.isFinite(parsed) && parsed > 0) return { ...prev, yearlyPrice: parsed };
           return prev;
         }
-        if (key === 'kbzpay_number') return { ...prev, kbzpay: value.trim() };
-        if (key === 'wavepay_number') return { ...prev, wavepay: value.trim() };
+        if (key === 'kbzpay_number') return { ...prev, kbzpay: trimmed };
+        if (key === 'wavepay_number') return { ...prev, wavepay: trimmed };
         return prev;
       });
       setSettingSaved(key);
       setTimeout(() => setSettingSaved(null), 2000);
-    } else alert('Save failed');
+    } else {
+      const json = await res.json().catch(() => ({}));
+      setSettingError(prev => ({ ...prev, [key]: json?.error ?? 'Save failed' }));
+    }
     setSettingBusy(null);
   }
 
@@ -789,6 +808,7 @@ export default function AdminDashboard({
                     setting={s}
                     busy={settingBusy === s.key}
                     saved={settingSaved === s.key}
+                    error={settingError[s.key] ?? ''}
                     onSave={v => saveSetting(s.key, v)}
                   />
                 ))}
@@ -1062,10 +1082,11 @@ function SettingRow({ label, value, mono }: { label: string; value: string; mono
   );
 }
 
-function SettingEditor({ setting, busy, saved, onSave }: {
+function SettingEditor({ setting, busy, saved, error, onSave }: {
   setting: AppSetting;
   busy: boolean;
   saved: boolean;
+  error: string;
   onSave: (v: string) => void;
 }) {
   const [val, setVal] = useState(setting.value);
@@ -1096,6 +1117,11 @@ function SettingEditor({ setting, busy, saved, onSave }: {
       >
         {saved ? '✓ Saved' : busy ? 'Saving…' : 'Save'}
       </button>
+      {error && (
+        <span style={{ color: '#dc2626', fontSize: '.78rem', fontWeight: 600 }}>
+          {error}
+        </span>
+      )}
     </div>
   );
 }
