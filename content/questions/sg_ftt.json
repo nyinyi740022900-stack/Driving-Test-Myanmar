@@ -10297,7 +10297,15 @@
       "en": "A circular sign with a red border and white bar means No Entry. Find another route — entering is illegal and risks a head-on collision.",
       "my": "အနီရောင်နယ်နိမိတ်နှင့် အဖြူရောင်မျဉ်းပါ စက်ဝိုင်းဆိုင်းဘုတ်ဆိုသည်မှာ မဝင်ရဟု ဆိုလိုသည်။ အခြားလမ်းကြောင်း ရှာပါ — ဝင်ခြင်းသည် တရားမဝင်ပြီး တည့်တည့်တိုက်မိမှု အန္တရာယ်ရှိသည်။"
     },
-    "syllabusRef": "ftt.traffic.oncoming"
+    "syllabusRef": "ftt.traffic.oncoming",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry.png",
+      "alt": {
+        "en": "You are about to enter a one-way street but see a circular sign with a red border showing a white horizontal bar. What must you do?",
+        "my": "တစ်လမ်းသွယ်လမ်းသို့ ဝင်တော့မည် ဆိုသော်လည်း အနီရောင်နယ်နိမိတ်ပါ စက်ဝိုင်းဆိုင်းဘုတ်တွင် အဖြူရောင် အလျားလိုက်မျဉ်း တပ်ထားသည်ကို မြင်ရသည်။ သင် ဘာလုပ်ရမည်လဲ။"
+      }
+    }
   },
   {
     "id": "sg_ftt_0286",

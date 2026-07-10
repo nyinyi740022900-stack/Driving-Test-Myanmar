@@ -681,7 +681,15 @@
       "en": "This warning sign alerts drivers that traffic from a side road will be merging into their lane ahead.",
       "my": "ဒီသတိပေးဆိုင်းဘုတ်သည် ဘေးလမ်းမှ ယာဉ်ကြောသည် ရှေ့တွင် သူတို့၏ လိုင်းသို့ ပေါင်းစည်းလာမည်ဟု ယာဉ်မောင်းသူများကို သတိပေးသည်။"
     },
-    "syllabusRef": "btt.signs.warning"
+    "syllabusRef": "btt.signs.warning",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/merging-traffic.png",
+      "alt": {
+        "en": "What does a sign showing a curved arrow merging from the left mean?",
+        "my": "ဘယ်ဘက်မှ ပေါင်းစည်းနေသော ကွေ့မြှားပါသော ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0018",
@@ -921,7 +929,15 @@
       "en": "A road narrowing warning sign tells drivers to reduce speed and be cautious as the carriageway width decreases ahead.",
       "my": "လမ်းကျုံ့ခြင်း သတိပေးဆိုင်းဘုတ်သည် ရှေ့တွင် လမ်းအကျယ် လျော့ကျသွားမည့်အတွက် အမြန်နှုန်းလျှော့ပြီး သတိနှင့်မောင်းရန် ပြောပြသည်။"
     },
-    "syllabusRef": "btt.signs.warning"
+    "syllabusRef": "btt.signs.warning",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/both-sides.png",
+      "alt": {
+        "en": "A sign shows a picture of a narrowing road with lines converging on both sides. What should you do?",
+        "my": "ဘေးနှစ်ဘက်မှ မျဉ်းများ စုစည်းနေသည့် လမ်းကျုံ့ပုံပါသော ဆိုင်းဘုတ်ကို မြင်လျှင် သင်ဘာလုပ်သင့်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0024",
@@ -1161,7 +1177,15 @@
       "en": "Orange/yellow work-zone signs are temporary signs used to warn of roadworks, diversions, or hazards on a worksite.",
       "my": "လိမ္မော်/ရွှေဝါရောင် လမ်းအလုပ်ဆိုင်ရာ ဆိုင်းဘုတ်များသည် လမ်းအလုပ်ဆောင်ခြင်း၊ လမ်းလွှဲခြင်း သို့မဟုတ် အလုပ်ခွင်တွင်းရှိ အန္တရာယ်များအတွက် ခေတ္တသတိပေးရန် အသုံးပြုသော ဆိုင်းဘုတ်များဖြစ်သည်။"
     },
-    "syllabusRef": "btt.signs.warning"
+    "syllabusRef": "btt.signs.warning",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roadworks.png",
+      "alt": {
+        "en": "What does an orange/yellow rectangular warning sign with a black border typically indicate at roadworks?",
+        "my": "လမ်းအလုပ်ဆောင်နေရာများတွင် အနက်ရောင်အနားသတ်ပါသော လိမ္မော်/ရွှေဝါရောင် စိန်ပုံဆိုင်းဘုတ်သည် ပုံမှန်အားဖြင့် ဘာကိုဆိုလိုတာလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0030",
@@ -1197,7 +1221,15 @@
       "en": "This warning sign indicates a slippery road surface where vehicles may skid, especially in wet conditions.",
       "my": "ဒီသတိပေးဆိုင်းဘုတ်သည် အထူးသဖြင့် စိုထိုင်းသောအခါ ယာဉ်များ ဘီးလွဲနိုင်သော ချော်တိသောလမ်းမျက်နှာပြင်ကို ဖော်ပြသည်။"
     },
-    "syllabusRef": "btt.signs.prohibitory"
+    "syllabusRef": "btt.signs.prohibitory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/slippery-road.png",
+      "alt": {
+        "en": "What does a sign showing a car with wavy lines under its wheels mean?",
+        "my": "ဘီးအောက်တွင် လှိုင်းမျဉ်းများပါသော ကားပုံပါသော ဆိုင်းဘုတ်သည် ဘာကိုဆိုလိုသလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0031",
@@ -9493,7 +9525,15 @@
       "en": "A \"No Overtaking\" restriction remains in force until a cancellation sign or the end of the zone. You must never overtake while the sign is in effect — not even if the road ahead appears clear.",
       "my": "\"ကျော်တက်ခြင်း မပြုရ\" ကန့်သတ်ချက်သည် ဖျက်သိမ်းဆိုင်းဘုတ် ပေါ်သည်အထိ သို့မဟုတ် ဇုန် အဆုံးအထိ တည်ရှိနေသည်။ ဆိုင်းဘုတ် ထိန်းကျောင်းနေသမျှ ကျော်တက်ခြင်း လုံးဝ မပြုရ။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-overtaking.png",
+      "alt": {
+        "en": "You are driving on a road with a \"No Overtaking\" sign. When does this restriction end?",
+        "my": "\"ကျော်တက်ခြင်း မပြုရ\" ဆိုင်းဘုတ်ရှိသော လမ်းပေါ် မောင်းနှင်နေသည်။ ဤကန့်သတ်ချက် မည်သောအခါ ပြီးဆုံးသည်?"
+      }
+    }
   },
   {
     "id": "sg_btt_0249",

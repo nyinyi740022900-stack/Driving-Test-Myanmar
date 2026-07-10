@@ -231,6 +231,14 @@
     "explanation": {
       "en": "A steady amber light means stop unless you are so close that stopping safely is not possible, in which case proceed with caution.",
       "my": "တည်ငြိမ်သော မီးဝါသည် ဘေးကင်းစွာ ရပ်နိုင်ခြင်း မရှိပါက လွဲ၍ ရပ်ရမည်ကို ဆိုလိုသည်၊ ထိုအခြေအနေတွင် သတိနှင့် ဆက်သွားနိုင်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/amber.png",
+      "alt": {
+        "en": "At a junction, the traffic light shows a steady amber after green. What should a rider do?",
+        "my": "လမ်းဆုံတွင် မီးစိမ်းပြီးနောက် မီးဝါ တည်ငြိမ်စွာ ပြသည်။ ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      }
     }
   },
   {
@@ -387,6 +395,14 @@
     "explanation": {
       "en": "This sign warns of a steep gradient; riders should reduce speed and select an appropriate gear in advance, since steep slopes affect motorcycle balance and braking.",
       "my": "ဒီဆိုင်းဘုတ်သည် တောင်ကုန်းစောက်ရှိကြောင်း သတိပေးသည်၊ စောက်သောကုန်းများသည် ဆိုင်ကယ်၏ ထိန်းချုပ်မှုနှင့် ဘရိတ်ကိုက်မှုကို ထိခိုက်စေသောကြောင့် ယာဉ်မောင်းသူသည် မြန်နှုန်းလျှော့ပြီး သင့်လျော်သော ဂီယာကို ကြိုတင်ရွေးချယ်သင့်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/steep-upward-slope.png",
+      "alt": {
+        "en": "What does a sign showing a steep upward arrow with the figure '10%' mean for a rider?",
+        "my": "'10%' ဂဏန်းနှင့်အတူ ရှေ့သို့ မြင့်တက်နေသော မြှားပုံဆိုင်းဘုတ်သည် ယာဉ်မောင်းသူအတွက် ဘာကို ဆိုလိုသလဲ။"
+      }
     }
   },
   {
@@ -839,6 +855,14 @@
     "explanation": {
       "en": "A number inside a red-bordered circle indicates the maximum speed permitted on that stretch of road.",
       "my": "အနီရောင်အနားသတ်စက်ဝိုင်းအတွင်းရှိ ဂဏန်းသည် ထိုလမ်းပိုင်းတွင် ခွင့်ပြုထားသော အများဆုံးအမြန်နှုန်းကို ဖော်ပြသည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/speed-limit-70.png",
+      "alt": {
+        "en": "A circular sign showing the number '70' inside a red border on a white background means what?",
+        "my": "အဖြူရောင်နောက်ခံပေါ် အနီရောင်အနားသတ်အတွင်း '70' ဂဏန်းပါသော စက်ဝိုင်းဆိုင်းဘုတ်သည် ဘာကိုဆိုလိုသလဲ။"
+      }
     }
   },
   {
