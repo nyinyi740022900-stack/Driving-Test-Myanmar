@@ -4365,7 +4365,15 @@
       "en": "Drivers must give way to pedestrians at zebra crossings; slowing down and being ready to stop protects vulnerable road users.",
       "my": "ယာဉ်မောင်းသူများသည် zebra ဖြတ်ကျော်လမ်းများတွင် ခြေလျင်သွားလာသူများကို လမ်းဖယ်ပေးရမည် — အရှိန်လျှော့ပြီး ရပ်ရန်အသင့်ထားခြင်းသည် ထိခိုက်လွယ်သော လမ်းသုံးသူများကို ကာကွယ်ပေးသည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/zebra-crossing.png",
+      "alt": {
+        "en": "At a zebra (uncontrolled pedestrian) crossing with no traffic light, what must a driver do when a pedestrian is waiting to cross?",
+        "my": "မီးပွိုင့်မရှိသော zebra (ထိန်းချုပ်ထားခြင်းမရှိသော) ဖြတ်ကျော်လမ်းတွင် ခြေလျင်သွားလာသူတစ်ဦး ဖြတ်ကျော်ရန် စောင့်နေလျှင် ယာဉ်မောင်းသူ ဘာလုပ်ရမည်လဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0115",
@@ -7005,7 +7013,15 @@
       "en": "A solid white centre line must not be crossed for overtaking — it marks where sight distances or road width make overtaking dangerous.",
       "my": "ကျော်တက်ရန် ရေကာသည့် အဖြူရောင် အလယ်ကြောင်းကို ဖြတ်ကျော်မရ — မြင်ကွင်းအကွာ သို့မဟုတ် လမ်းနှုတ်သည် ကျော်တက်ခြင်းကို အန္တရာယ်ဖြစ်စေသောနေရာ ညွှန်ပြသည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/continuous-white-line.png",
+      "alt": {
+        "en": "What does a solid white centre line on a road mean?",
+        "my": "လမ်းပေါ်ရှိ ရေကာသည့် အဖြူရောင် အလယ်ကြောင်းသည် ဘာကို ဆိုလိုသလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0183",
@@ -12829,7 +12845,15 @@
       "en": "In tunnels: switch headlights on, maintain the speed limit (70 km/h unless signed otherwise), do not stop except in emergency, follow exit door signs in emergencies.",
       "my": "မြေအောက် လမ်းတွင် — မီး ဖွင့်ပါ၊ မြန်နှုန်းကန့်သတ် (ဆိုင်းဘုတ် မဖော်ပြပါက ၇၀ ကီလိုမီတာ) ထိန်းသိမ်းပါ၊ အရေးပေါ် မဟုတ်ပါက ရပ် မပါနှင့်၊ အရေးပေါ်တွင် ထွက်ပေါက် ဆိုင်းဘုတ် လိုက်ပါ။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/tunnel-ahead.png",
+      "alt": {
+        "en": "When driving through a tunnel in Singapore, what must you do?",
+        "my": "စင်ကာပူ မြေအောက် လမ်းတွင် မောင်းနှင်သောအခါ မည်သို့ ဆောင်ရွက်ရမည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0335",
@@ -13117,7 +13141,15 @@
       "en": "Sounding the horn is only allowed when necessary — to prevent an accident or alert other road users of your presence. Do not use it unnecessarily (e.g. near hospitals or at night in quiet areas).",
       "my": "ဟွန်း တီးခြင်းသည် လိုအပ်သောအခါ သာ ခွင့်ပြုသည် — မတော်တဆ ကာကွယ်ရန် သို့မဟုတ် အခြား လမ်းသုံးသူများ သင်ရှိကြောင်း သိစေရန်။ မလိုအပ်ဘဲ (ဥပမာ ဆေးရုံနား သို့မဟုတ် ညချိန် တိတ်ဆိတ်သော နေရာ) တီးမပါနှင့်။"
     },
-    "syllabusRef": "btt.signs.information"
+    "syllabusRef": "btt.signs.information",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-sounding-of-horn.png",
+      "alt": {
+        "en": "When is sounding the horn allowed?",
+        "my": "ဟွန်း တီးခြင်း မည်သောအခါ ခွင့်ပြုသလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0343",
@@ -19413,6 +19445,14 @@
     "explanation": {
       "en": "Children near schools can act unpredictably. Slow early and be prepared to stop completely. Never assume a child will wait.",
       "my": "ကျောင်းအနီး ကလေးများ မမျှော်လင့်ထားသော လုပ်ဆောင်ချက် ပြနိုင်သည်။ စောစောလျှော့ပြီး လုံးဝ ရပ်နိုင်ရန် အဆင်သင့် ဖြစ်ပါ။ ကလေး စောင့်မည် ဟု မယူဆပါနှင့်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/zebra-crossing.png",
+      "alt": {
+        "en": "A child runs toward the zebra crossing near a school without looking. You are approaching at 30 km/h. What is the safest response?",
+        "my": "ကလေး တစ်ဦး ကျောင်းအနီး မျဉ်းစောင်း ဖြတ်သန်းရာ ကို မကြည့်ဘဲ ပြေးလာပါသည်။ သင် ၃၀ km/h ဖြင့် ချဉ်းကပ်နေပါသည်။ အလုံခြုံဆုံး တုံ့ပြန်မှု ဘာလဲ?"
+      }
     }
   },
   {
@@ -19853,6 +19893,14 @@
     "explanation": {
       "en": "Headlights must be on when driving in tunnels so your vehicle is visible to others. Use dipped beam unless otherwise directed.",
       "my": "တူးလိုင် တွင် မောင်းသည့်အခါ အခြားသူများ မြင်နိုင်ရန် မှန်ဘီလူး မီး ဖွင့်ရမည်။ ညွှန်ကြားချက် မရှိလျှင် အနိမ့် မီးလုံး သုံးပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/tunnel-ahead.png",
+      "alt": {
+        "en": "You are about to enter a road tunnel in daylight. What should you do with your headlights?",
+        "my": "နေ့ခြင်း လမ်း တူးလိုင် သို့ ဝင်တော့မည် ဖြစ်ပါသည်။ မှန်ဘီလူး မီး နှင့် ဘာလုပ်ရမလဲ?"
+      }
     }
   },
   {
@@ -19889,6 +19937,14 @@
     "explanation": {
       "en": "In tunnels, use hazard lights and emergency phones. Leave the vehicle only if it is safer outside, and follow tunnel safety instructions.",
       "my": "တူးလိုင် တွင် အန္တရာယ် မီး နှင့် အရေးပေါ် ဖုန်း သုံးပါ။ အပြင်ဘက် ဘေးကင်းမှသာ ယာဉ် မှ ထွက်ပြီး တူးလိုင် ဘေးကင်း ရေး ညွှန်ကြားချက် လိုက်နာပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/tunnel-ahead.png",
+      "alt": {
+        "en": "Your vehicle breaks down inside a tunnel and cannot be moved. What is the safest first step?",
+        "my": "တူးလိုင် အတွင်း ယာဉ် ချို့တဲ့ပြီး ရွှေ့မရပါ။ အလုံခြုံဆုံး ပထမဆုံး လုပ်ဆောင်ချက် ဘာလဲ?"
+      }
     }
   },
   {
@@ -19925,6 +19981,14 @@
     "explanation": {
       "en": "Stopping or reversing in tunnels is dangerous and usually prohibited except in emergencies or when directed by tunnel operators.",
       "my": "တူးလိုင် တွင် ရပ်ခြင်း သို့မဟုတ် နောက်ပြန် မောင်းခြင်း အန္တရာယ်ရှိပြီး အရေးပေါ် သို့မဟုတ် အော်ပရေတာ ညွှန်ကြားမှသာ ခွင့်ပြု။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/tunnel-ahead.png",
+      "alt": {
+        "en": "Traffic is moving slowly in a tunnel. Which action is prohibited unless instructed?",
+        "my": "တူးလိုင် တွင် ယာဉ်ကြောင်း ဖြည်းစွာ ရွေ့နေပါသည်။ ညွှန်ကြားချက် မရှိလျှင် မည်သည့်လုပ်ဆောင်ချက် တားမြစ်ထားသလဲ?"
+      }
     }
   },
   {
@@ -20249,6 +20313,14 @@
     "explanation": {
       "en": "At merge points near works, cooperate with other drivers and merge smoothly in turn to keep traffic flowing safely.",
       "my": "လုပ်ငန်း အနီး ပေါင်းဝင်ရာ တွင် အခြား ယာဉ်မောင်းများနှင့် ပူးပေါင်းပြီး လှဲလှဲ ချောမွေ့စွာ ပေါင်းဝင်ကာ ယာဉ်ကြောင်း ဘေးကင်းစွာ ထိန်းပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/the-red-cross.png",
+      "alt": {
+        "en": "At road works, one lane is closed and traffic merges using a zipper merge. What is expected of you?",
+        "my": "လမ်း လုပ်ငန်း တွင် လမ်း တစ်ကြောင်း ပိတ်ထားပြီး ယာဉ်များ ပေါင်းဝင်ရာ တွင် ဇစ်ပာ ပေါင်းဝင်မှု သုံးပါသည်။ သင့်ထံမှ ဘာမျှော်လင့်ထားသလဲ?"
+      }
     }
   },
   {
@@ -20645,6 +20717,14 @@
     "explanation": {
       "en": "Slow before bends to maintain control. Advisory speed signs warn where the safe speed is lower than the limit.",
       "my": "ထိန်းချုပ်မှု ထိန်းရန် အကွေ့ မတိုင်မီ နှေးပါ။ အကြံပြု အမြန်နှုန်း ဆိုင်းဘုတ် သည် ဘေးကင်း အမြန်နှုန်း ကန့်သတ်ချက် ထက် နည်းသည့် နေရာ ကို သတိပေးသည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/left-bend.png",
+      "alt": {
+        "en": "You are approaching a sharp bend with a warning sign recommending lower speed. What should you do?",
+        "my": "အမြန်နှုန်း လျှော့ အကြံပြု သတိပေး ဆိုင်းဘုတ် နှင့် အကွေ့ ကြမ်းသော နေရာ ကို ချဉ်းကပ်ပါသည်။ ဘာလုပ်ရမလဲ?"
+      }
     }
   },
   {
@@ -21301,6 +21381,14 @@
     "explanation": {
       "en": "A solid centre line means overtaking is not permitted when it would require crossing that line into oncoming traffic.",
       "my": "ကြားဖြတ် အစိုင်း မျဉ်း သည် ဆန့်ကျင်ဘက် ယာဉ်ကြောင်း ဖြတ်ကျော်ရန် လိုသော ကျော်တက်ခြင်း ခွင့်မပြု ကြောင်း ဆိုလိုသည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/continuous-white-line.png",
+      "alt": {
+        "en": "You want to overtake but a solid white centre line separates your lane from oncoming traffic. What should you do?",
+        "my": "ကြားဖြတ် အဖြူရောင် မျဉ်း သည် သင် လမ်း နှင့် ဆန့်ကျင်ဘက် ယာဉ်ကြောင်း ကို ခွဲထားပါသည်။ ကျော်တက် လိုပါသည်။ ဘာလုပ်ရမလဲ?"
+      }
     }
   },
   {

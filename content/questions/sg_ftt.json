@@ -753,7 +753,15 @@
       "en": "At night your view ahead is limited by headlight range; you must be able to stop within the distance you can actually see to be clear, so slow down before entering the bend.",
       "my": "ညအချိန်တွင် သင့်ရှေ့ကြည့်ရှုနိုင်မှုသည် ကားမီးအလင်းအစီအစဉ်ဖြင့်ကန့်သတ်ခံရသည်၊ သင်အမှန်တကယ်မြင်နိုင်သောအကွာအဝေးအတွင်း ရပ်တန့်နိုင်ရမည်ဖြစ်သောကြောင့် ကွေ့ချောင်းမဝင်မီ အမြန်နှုန်းလျှော့ပါ။"
     },
-    "syllabusRef": "ftt.skills.bends"
+    "syllabusRef": "ftt.skills.bends",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/left-bend.png",
+      "alt": {
+        "en": "Approaching a sharp bend on a rural road at night, what should you do regarding speed?",
+        "my": "ညအချိန် ကျေးလက်လမ်းပေါ်ရှိ ထက်လေးသော ကွေ့ချောင်းသို့ ချဉ်းကပ်နေချိန် အမြန်နှုန်းနှင့်ပတ်သက်ပြီး မည်သို့ပြုလုပ်သင့်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_ftt_0022",
@@ -1581,7 +1589,15 @@
       "en": "A distracted pedestrian near a crossing is a strong cue they may step out without checking; anticipating this and slowing down is a key defensive driving habit.",
       "my": "ကူးလမ်းအနီးတွင် အာရုံပျံ့လွင့်နေသောသွားလာသူသည် မကြည့်ဘဲထွက်လာနိုင်သည့် ပြင်းထန်သောအချက်ပြမှုဖြစ်သည်၊ ၎င်းကိုကြိုတင်မျှော်လင့်ပြီး အရှိန်လျှော့ခြင်းသည် ခုခံကာကွယ်မောင်းနှင်မှု၏အဓိကအလေ့အကျင့်တစ်ခုဖြစ်သည်။"
     },
-    "syllabusRef": "ftt.traffic.defensive"
+    "syllabusRef": "ftt.traffic.defensive",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/zebra-crossing.png",
+      "alt": {
+        "en": "A pedestrian is standing at the edge of a zebra crossing looking at their phone, not at traffic. What should a defensive driver do?",
+        "my": "သွားလာသူတစ်ဦးသည် ဇီးဘြာကူးရန်လမ်းအနားတွင် ယာဉ်ကြောကိုမကြည့်ဘဲ ဖုန်းကိုကြည့်နေသည်။ ခုခံကာကွယ်မောင်းနှင်သူတစ်ဦးအနေဖြင့် မည်သို့ပြုလုပ်သင့်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_ftt_0045",
@@ -2409,7 +2425,15 @@
       "en": "Merging early and smoothly when you see a lane closure ahead avoids last-minute, dangerous lane changes.",
       "my": "ရှေ့တွင် လမ်းကြောင်းပိတ်ထားသည်ကို တွေ့သောအခါ စောစီးစွာနှင့် ချောမွေ့စွာ ပေါင်းစည်းဝင်ခြင်းသည် နောက်ဆုံးအချိန်တွင် အန္တရာယ်ရှိသော လမ်းကြောင်းပြောင်းခြင်းကို ရှောင်ရှားစေသည်။"
     },
-    "syllabusRef": "ftt.skills.lanes"
+    "syllabusRef": "ftt.skills.lanes",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/the-red-cross.png",
+      "alt": {
+        "en": "What should you do when you see a 'Lane Closed Ahead' sign while driving on an expressway?",
+        "my": "အမြန်လမ်းပေါ်တွင် ယာဉ်မောင်းနေချိန် 'ရှေ့လမ်းကြောင်းပိတ်ထားသည်' ဆိုင်းဘုတ်တွေ့လျှင် ဘာလုပ်သင့်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_ftt_0068",
@@ -3453,7 +3477,15 @@
       "en": "The safe principle is to drive at a speed where you can stop within the distance you can actually see ahead — this is especially important on blind bends where hazards may appear suddenly.",
       "my": "ဘေးကင်းသောမူသည် ရှေ့တွင် အမှန်တကယ်မြင်နိုင်သောအကွာအဝေးအတွင်း ရပ်နိုင်သောအမြန်နှုန်းဖြင့် မောင်းနှင်ခြင်းဖြစ်သည် — အန္တရာယ်များ ရုတ်တရက်ပေါ်လာနိုင်သော မျက်လုံးမမြင်ရသောကွေ့ရာများတွင် အထူးအရေးကြီးသည်။"
     },
-    "syllabusRef": "ftt.skills.bends"
+    "syllabusRef": "ftt.skills.bends",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/left-bend.png",
+      "alt": {
+        "en": "What is the safest speed management approach when approaching a sharp bend with limited visibility ahead?",
+        "my": "ရှေ့မြင်ကွင်းကန့်သတ်ထားသော ပြင်းထန်သောကွေ့ရာချဉ်းကပ်ချိန် ဘေးကင်းဆုံးအမြန်နှုန်းစီမံခန့်ခွဲမှုနည်းလမ်းက ဘာဖြစ်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_ftt_0097",
@@ -7673,7 +7705,15 @@
       "en": "Tunnel speed limits are mandatory — enforced by cameras. Tunnels have limited visibility, restricted airflow and fire risks. Accidents inside are harder to escape and respond to.",
       "my": "Tunnel မြန်နှုန်း ကန့်သတ်များ တာဝန်ကြောင့် ဖြစ်သည် — ကင်မရာများ ဖြင့် ကြပ်မတ်သည်။ Tunnel ၌ မြင်ကွင်း ကန့်သတ်ရှိ၊ လေ စီးမှု ကန့်သတ်ရှိပြီး မီးလောင်မှု အန္တရာယ် ရှိသည်။ အတွင်း ၌ မတော်မဆ ဖြစ်ပါ လွတ်မြောက်ရန်နှင့် ကူညီမှု ပေးရန် ပိုခက်သည်။"
     },
-    "syllabusRef": "ftt.traffic.large_vehicles"
+    "syllabusRef": "ftt.traffic.large_vehicles",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/tunnel-ahead.png",
+      "alt": {
+        "en": "What does a 'tunnel speed limit' sign mean and why must you follow it?",
+        "my": "'Tunnel speed limit' ဆိုင်းဘုတ် ဆိုသည် မည်သည်လဲ၊ မည်ကြောင့် လိုက်နာရမည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0214",
@@ -8401,7 +8441,15 @@
       "en": "Once a pedestrian steps onto a zebra crossing, all vehicles must give way. Do not creep forward or overtake stopped vehicles at a crossing.",
       "my": "လမ်းလျောက်သူ zebra ဖြတ်ကူးရာ ၌ ခြေချပြီးပါ ယာဉ်အားလုံး လမ်းပေးရမည်။ ဖြတ်ကူးရာ ၌ ရပ်ဆိုင်းနေသော ယာဉ် ကို ဖြည်းဖြည်းချင်း ရှေ့တိုးမပါနှင့် သို့မဟုတ် ကျော်မပါနှင့်။"
     },
-    "syllabusRef": "ftt.skills.overtaking"
+    "syllabusRef": "ftt.skills.overtaking",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/zebra-crossing.png",
+      "alt": {
+        "en": "What is the rule when a pedestrian has already started crossing at a zebra crossing?",
+        "my": "လမ်းလျောက်သူ zebra ဖြတ်ကူးရာ ၌ ဖြတ်ကူးရန် မစတင်မြဲ မတိုင်မီ စည်းမျဉ်း မည်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0234",
@@ -10485,7 +10533,15 @@
       "en": "Double yellow lines = no parking at any time. Single yellow = restricted during hours shown on sign plate. Stopping briefly to drop/pick up passengers may still be an offence depending on the zone.",
       "my": "Double yellow မျဉ်းများ = မည်သည့်အချိန် ၌ မဆို ရပ်နားခြင်း မပြုရ ဖြစ်သည်။ Single yellow = ဆိုင်းဘုတ် ကြည်းပေါ် ပြသသော နာရီများ ၌ ကန့်သတ်သည်။ ဇုန် ပေါ် မူတည်ပြီး ခရီးသည် ဆင်း/တင်ရန် တဟုတ် ရပ်ဆိုင်းမှုသည် ကျူးလွန်မှု ဖြစ်နိုင်သည်"
     },
-    "syllabusRef": "ftt.skills.basics"
+    "syllabusRef": "ftt.skills.basics",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/unbroken-double-yellow-lines.png",
+      "alt": {
+        "en": "When can you legally park on double yellow lines?",
+        "my": "Double yellow line ၌ တရားဝင်စွာ ရပ်နားနိုင်သည်မှာ မည်သည့်အချိန်နည်း?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0291",
@@ -10881,7 +10937,15 @@
       "en": "In tunnels: headlights on (legally required), maintain lane, no overtaking unless signed, follow speed limits. In case of fire: do not stop if possible, exit immediately, leave car if engine stalls.",
       "my": "Tunnel ၌: headlight ဖွင့် (ဥပဒေ ၌ လိုအပ်သည်)၊ lane ထိန်းသိမ်း၊ ဆိုင်းဘုတ် မပြနိုင်ပါ ကျော်တက်မပါ၊ မြန်နှုန်း ကန့်သတ် လိုက်နာပါ။ မီးလောင်မှု ဖြစ်ပါ: ဖြစ်နိုင်ပါ မရပ်ပါနှင့်၊ ချက်ချင်း ထွက်ပါ၊ အင်ဂျင် ရပ်သွားပါ ကားကို ချပါ"
     },
-    "syllabusRef": "ftt.skills.overtaking"
+    "syllabusRef": "ftt.skills.overtaking",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/tunnel-ahead.png",
+      "alt": {
+        "en": "What must you do when driving in a tunnel?",
+        "my": "လှောင်ဥမင် ၌ မောင်းနှင်သောအခါ မည်သို့ ဆောင်ရွက်ရမည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0302",
@@ -11853,7 +11917,15 @@
       "en": "Do not use horn: in stationary traffic (road rage risk), between 11pm–7am in residential areas (noise ordinance), near hospitals or schools unless for safety. Unnecessary honking = offence.",
       "my": "ဟွန်း မသုံးပါနှင့်: ရပ်ဆိုင်းနေသော ယာဉ်ကြောင်း ၌ (road rage ဖြစ်နိုင်ချေ)၊ နေထိုင်ရာ ဧရိယာ ৌ ₌ည ၁၁–မနက် ၇ ကြား ၌ (ဆူညံသံ နည်းဥပဒေ)၊ ဘေးကင်းရေး ₌ မလိုပါ ဆေးရုံ သို့မဟုတ် ကျောင်းနား ₌ ဖြစ်သည်။ မလိုအပ်ဘဲ ဟွန်းတီးခြင်းသည် ကျူးလွန်မှု ဖြစ်သည်"
     },
-    "syllabusRef": "ftt.expressway"
+    "syllabusRef": "ftt.expressway",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-sounding-of-horn.png",
+      "alt": {
+        "en": "When must you NOT use your horn?",
+        "my": "မည်သည့်အချိန် ၌ ဟွန်း မသုံးရ?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0329",
@@ -12573,7 +12645,15 @@
       "en": "Double yellow lines along the kerb mean no parking at any time. Single yellow line means restricted parking during certain hours.",
       "my": "လမ်းနဘေးတွင် အဝါရောင်မျဉ်းနှစ်ကြောင်းသည် မည်သည့်အချိန်မဆို ကားရပ်ခြင်း မပြုရကြောင်း ဆိုတာပါ။ အဝါရောင်မျဉ်းတစ်ကြောင်းသည် အချိန်တချို့တွင် ကန့်သတ်ကားရပ်ခြင်းကို ဆိုလိုပါသည်။"
     },
-    "syllabusRef": "ftt.skills.parking"
+    "syllabusRef": "ftt.skills.parking",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/unbroken-double-yellow-lines.png",
+      "alt": {
+        "en": "What does a double yellow line along the kerb indicate?",
+        "my": "လမ်းနဘေးတွင် အဝါရောင် မျဉ်းနှစ်ကြောင်းသည် မည်သည်ကို ဆိုလိုသလဲ?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0349",
@@ -12933,7 +13013,15 @@
       "en": "You must give way to any pedestrian who is on or about to step onto a zebra crossing. Failing to do so is a traffic offence.",
       "my": "Zebra crossing ပေါ်ရှိသော သို့မဟုတ် ထိုးဝင်တော့မည့် မည်သည့်လျှောက်သူမဆို နေရာပေးရမည်။ မပေးဘဲနေခြင်းသည် ယာဉ်ကြောမှုပြစ်မှုဖြစ်သည်။"
     },
-    "syllabusRef": "ftt.traffic.pedestrians"
+    "syllabusRef": "ftt.traffic.pedestrians",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/zebra-crossing.png",
+      "alt": {
+        "en": "At a zebra crossing, when must you give way to pedestrians?",
+        "my": "Zebra crossing တွင် မည်သည့်အခါ လျှောက်သူများကို နေရာပေးရမည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0359",
@@ -16998,7 +17086,15 @@
       "en": "Using a horn unnecessarily, especially in residential areas at night, is an offence under Singapore traffic law. Horns should only be used as a warning device when necessary for safety.",
       "my": "မလိုအပ်ဘဲ တော်တူ သုံးစွဲခြင်း — ထူးသဖြင့် ညနေ နေအိမ်ဧရိယာတွင် — သည် စင်္ကာပူ ယာဉ်ကြောဥပဒေ အောက်တွင် ပြစ်မှုဖြစ်သည်။ တော်တူကို ဘေးကင်းရေးအတွက် လိုအပ်သောအချိန်တွင်သာ သတိပေးကိရိယာအဖြစ် သုံးသင့်သည်။"
     },
-    "syllabusRef": "ftt.expressway"
+    "syllabusRef": "ftt.expressway",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-sounding-of-horn.png",
+      "alt": {
+        "en": "What is the rule regarding the use of horns in residential areas in Singapore at night?",
+        "my": "စင်္ကာပူတွင် ညနေ နေအိမ်ဧရိယာများတွင် တော်တူ သုံးစွဲခြင်းနှင့် ပတ်သက်သောစည်းမျဉ်းမှာ ဘာနည်း?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0471",
@@ -17214,7 +17310,15 @@
       "en": "A flashing green man means the signal is about to change to red. Do not start crossing if the green man is flashing. If you are already on the crossing, complete it as quickly as possible.",
       "my": "မှိတ်တုတ်မှိတ်တုတ် အစိမ်းလူပုံ ဆိုသည်မှာ မှောင် အနီသို့ ပြောင်းတော့မည်ကို ဆိုလိုပါသည်။ အစိမ်းလူပုံ မှိတ်တုတ်မှိတ်တုတ် ဖြစ်နေပါက ဖြတ်ကူးစတင်ခြင်း မပြုပါနှင့်။ ဖြတ်ကူးနေပြီးဆိုလျှင် မြန်နိုင်သမျှ မြန်မြန် ဖြတ်ကူးပါ။"
     },
-    "syllabusRef": "ftt.skills.lanes"
+    "syllabusRef": "ftt.skills.lanes",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/pedestrian-signal-green-man.png",
+      "alt": {
+        "en": "What is the rule for pedestrians when the green man is flashing at a crossing?",
+        "my": "Crossing တွင် အစိမ်းလူပုံ မှိတ်တုတ်မှိတ်တုတ် ဖြစ်နေသောအခါ လျှောက်သူများ မည်သည့်စည်းမျဉ်း လိုက်နာသင့်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0477",
