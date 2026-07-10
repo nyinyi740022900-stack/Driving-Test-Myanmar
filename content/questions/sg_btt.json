@@ -20645,6 +20645,14 @@
     "explanation": {
       "en": "School zone limits apply during stated hours regardless of whether you see children at that moment.",
       "my": "ထိုအချိန် တွင် ကလေး မမြင်ရသေးလည်း ကျောင်းဇုန် ကန့်သတ်ချက် သက်ရောက်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/school-zone.png",
+      "alt": {
+        "en": "You pass a school zone sign with a lower speed limit during operating hours. What must you do?",
+        "my": "လုပ်ဆောင်ချိန် တွင် အမြန်နှုန်း လျှော့ ကန့်သတ် ဖြင့် ကျောင်းဇုန် ဆိုင်းဘုတ် ဖြတ်သွားပါသည်။ ဘာလုပ်ရမလဲ?"
+      }
     }
   },
   {
