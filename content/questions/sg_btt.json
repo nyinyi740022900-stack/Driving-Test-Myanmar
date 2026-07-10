@@ -389,7 +389,15 @@
       "en": "Singapore traffic lights move from red, to red-and-amber together (prepare to move), then to green.",
       "my": "Singapore၏ မီးလုံးများသည် အနီမှ၊ အနီနှင့်ရွှေဝါ အတူတကွ (ထွက်ရန်ပြင်ဆင်ရန်)၊ ပြီးမှ အစိမ်းသို့ ပြောင်းသည်။"
     },
-    "syllabusRef": "btt.signs.signals"
+    "syllabusRef": "btt.signs.signals",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/traffic-signals.png",
+      "alt": {
+        "en": "Which traffic light sequence is correct in Singapore (from stop to go)?",
+        "my": "Singapore တွင် ရပ်မှ သွားသို့ မှန်ကန်သော မီးလုံးအစီအစဉ်မှာ အောက်ပါတို့အနက် ဘယ်ခုလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0011",
@@ -461,7 +469,15 @@
       "en": "A green arrow filter light permits movement only in the arrow's direction while the main signal remains red.",
       "my": "အစိမ်းရောင် မြှားစစ်ထုတ်မီးသည် အဓိကမီးက အနီရောင်ဖြစ်နေစဉ် မြှားညွှန်ပြသော ဦးတည်ရာသို့သာ ရွှေ့ခွင့်ပေးသည်။"
     },
-    "syllabusRef": "btt.signs.information"
+    "syllabusRef": "btt.signs.information",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/the-green-arrow.png",
+      "alt": {
+        "en": "What does a green arrow signal showing alongside a red light allow a driver to do?",
+        "my": "အနီရောင်မီးနှင့်အတူ ပြသနေသော အစိမ်းရောင် မြှားမီးသည် ယာဉ်မောင်းသူကို ဘာလုပ်ခွင့်ပေးသလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0013",
@@ -585,7 +601,15 @@
       "en": "A traffic police officer with one arm raised vertically while facing you is signalling traffic from your direction to stop.",
       "my": "သင့်ကို တည့်တည့်ကြည့်ပြီး လက်တစ်ဖက်ကို ဒေါင်လိုက်တင်ထားသော ယာဉ်ထိန်းရဲသည် သင့်ဘက်မှ ယာဉ်များ ရပ်ရမည်ဟု အချက်ပြနေခြင်းဖြစ်သည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/police-traffic2.png",
+      "alt": {
+        "en": "A police officer at a junction faces you directly with one arm raised vertically. What should you do?",
+        "my": "လမ်းဆုံတွင် ရဲတပ်ဖွဲ့သားတစ်ဦးသည် သင့်ကို တည့်တည့်ကြည့်ပြီး လက်တစ်ဖက်ကို ဒေါင်လိုက်တင်ထားသည်။ သင်ဘာလုပ်သင့်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0016",
@@ -1209,7 +1233,15 @@
       "en": "Vehicles already on the roundabout have priority; vehicles entering must give way to them.",
       "my": "လမ်းမှောင့်အတွင်း ရှိနှင့်ပြီးသား ယာဉ်များက ဦးစားပေးခွင့်ရှိပြီး ဝင်လာသောယာဉ်များက သူတို့ကို လမ်းဖယ်ပေးရမည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "At a roundabout, who generally has right of way?",
+        "my": "လမ်းမှောင့်တွင် ပုံမှန်အားဖြင့် ဘယ်သူက လမ်းအခွင့်အရေးရှိသလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0032",
@@ -1585,7 +1617,15 @@
       "en": "Drivers must give way to emergency vehicles with sirens and flashing lights by safely pulling aside to let them pass.",
       "my": "ယာဉ်မောင်းသူများသည် အသံနှင့်မီးပြနေသော အရေးပေါ်ယာဉ်များကို လုံခြုံစွာ ဘေးဖယ်ပြီး ဖြတ်သွားနိုင်ရန် လမ်းဖယ်ပေးရမည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/ambulance.png",
+      "alt": {
+        "en": "When an ambulance approaches from behind with siren and lights on, what should you do?",
+        "my": "ဆိုင်ရင်အသံမြည်ကာ မီးများဖွင့်ပြီး နောက်မှ ချဉ်းကပ်လာသော အရေးပေါ်လူနာတင်ယာဉ်ကို မြင်လျှင် သင်ဘာလုပ်သင့်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0042",
@@ -3381,7 +3421,15 @@
       "en": "ERP (Electronic Road Pricing) gantries automatically deduct a toll from the in-vehicle unit as vehicles pass through at normal speed — no stopping is needed.",
       "my": "ERP Gantry များသည် ယာဉ်များ ပုံမှန်အမြန်နှုန်းဖြင့် ဖြတ်သန်းချိန် ယာဉ်တွင်းတန်ဆာမှ ကောက်ကြေးကို အလိုအလျောက် နှိမ့်သည် — ရပ်ရန်မလိုပါ။"
     },
-    "syllabusRef": "btt.rules.overtaking"
+    "syllabusRef": "btt.rules.overtaking",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/gantry-sign.png",
+      "alt": {
+        "en": "What should a driver do when approaching an overhead gantry sign marked 'ERP' before a charging zone?",
+        "my": "ကောက်ကြေးတောင်းခံရန် ကျော်တန်း Gantry ဆိုင်းဘုတ်ပေါ်တွင် 'ERP' စာသားကို မြင်လျှင် ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0091",
@@ -3505,7 +3553,15 @@
       "en": "A railway-track symbol warns drivers to slow down, look both ways, and be prepared to stop for an approaching train at a level crossing.",
       "my": "မီးရထားလမ်းကြောင်း သင်္ကေတသည် ယာဉ်မောင်းသူများကို အရှိန်လျှော့ပြီး နှစ်ဖက်ကြည့်ကာ မီးရထားအတွက် ရပ်နားရန် အသင့်ပြင်ဆင်ထားရန် သတိပေးသည်။"
     },
-    "syllabusRef": "btt.signs.warning"
+    "syllabusRef": "btt.signs.warning",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/ungated-level-crossing.png",
+      "alt": {
+        "en": "What does a red triangular warning sign with a railway locomotive symbol ahead of a junction warn about?",
+        "my": "လမ်းဆုံမတိုင်မီ မီးရထားခေါင်းတွဲ သင်္ကေတပါသော အနီရောင်တြိဂံ သတိပေးဆိုင်းဘုတ်သည် ဘာကို သတိပေးသလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0094",
@@ -5197,7 +5253,15 @@
       "en": "School zone warning signs mean children may cross unexpectedly. Slow down, scan both sides, and be prepared to stop even if they are on the pavement.",
       "my": "ကျောင်းဇုန်သတိပေးဆိုင်းဘုတ်များသည် ကလေးများ မမျှော်လင့်ဘဲ ဖြတ်ကူးနိုင်သည်ဟု ဆိုလိုသည်။ အမြန်နှုန်းလျှော့ချပြီး နှစ်ဘက်လုံးကို ကြည့်ရှုပြီး လမ်းဘေးတွင်ရှိသော်လည်း ရပ်နိုင်ရန် ပြင်ဆင်ထားပါ။"
     },
-    "syllabusRef": "btt.signs.warning"
+    "syllabusRef": "btt.signs.warning",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/children.png",
+      "alt": {
+        "en": "Near a primary school you see a yellow diamond sign showing two children crossing. School has just ended and pupils are walking along the pavement. What should you do?",
+        "my": "မူလတန်းကျောင်းအနီးတွင် ကလေးနှစ်ဦး ဖြတ်ကူးနေပုံပါသော ဝါရောင်စိန်ပုံဆိုင်းဘုတ်ကို မြင်ရသည်။ ကျောင်းပြီးချိန်ဖြစ်ပြီး ကျောင်းသားများ လမ်းဘေးလျှောက်နေသည်။ သင် ဘာလုပ်သင့်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0139",
@@ -6337,7 +6401,15 @@
       "en": "A Give Way sign requires you to slow down and yield to all traffic on the main road. You may proceed when it is safe.",
       "my": "'လမ်းပေး' ဆိုင်းဘုတ်သည် မင်္ဂလာလမ်းပေါ်ရှိ ယာဉ်အားလုံးကို နှေးလျှော့ပြီး လမ်းပေးရန် လိုအပ်သည်။ ဘေးကင်းသောအခါ ဆက်သွားနိုင်သည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/give-way.png",
+      "alt": {
+        "en": "When approaching a Give Way sign at a junction, what must you do?",
+        "my": "ဆုံနေရာတွင် 'လမ်းပေး' ဆိုင်းဘုတ်ကို ချဉ်းကပ်သောအခါ ဘာလုပ်ရမည်လဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0168",
@@ -6373,7 +6445,15 @@
       "en": "At a roundabout, vehicles already in the roundabout have priority. Vehicles entering must give way and wait for a safe gap.",
       "my": "လှည့်ပတ်လမ်းဆုံတွင် အတွင်းရှိ ယာဉ်များသည် ဦးစားပေးအဆင့် ရှိသည်။ ဝင်ရောက်မည့် ယာဉ်များသည် လမ်းပေးပြီး ဘေးကင်းသောကွာဟချက်ကို စောင့်ရမည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "At a roundabout, who has the right of way?",
+        "my": "လှည့်ပတ်လမ်းဆုံတွင် မည်သူ့တွင် လမ်းပေးပိုင်ခွင့်ရှိသလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0169",
@@ -6409,7 +6489,15 @@
       "en": "When an emergency vehicle approaches with lights and siren, pull to the left side of the road and stop to allow it to pass.",
       "my": "မီးနှင့် ဆိုင်ရင်းတီးကာ အရေးပေါ်ယာဉ် ချဉ်းကပ်လာသောအခါ လမ်း၏ ဘယ်ဘက်သို့ ရွှေ့ပြီး ၎င်းကို ဖြတ်ကျော်ခွင့်ပြုရန် ရပ်တန့်ပါ။"
     },
-    "syllabusRef": "btt.rules.lanes"
+    "syllabusRef": "btt.rules.lanes",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/ambulance.png",
+      "alt": {
+        "en": "An ambulance with lights and siren is approaching from behind. What should you do?",
+        "my": "ရှေ့မီးနှင့် ဆိုင်ရင်းတီးလာသော အမဘူလင်ကား နောက်မှ ချဉ်းကပ်လာသည်။ ဘာလုပ်သင့်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0170",
@@ -6481,7 +6569,15 @@
       "en": "A Stop sign requires a complete stop at the stop line — you must stop even if the road appears clear, then proceed only when safe.",
       "my": "Stop ဆိုင်းဘုတ်သည် ရပ်တည်ကြောင်းတွင် လုံးဝ ရပ်တန့်ရန် လိုအပ်သည် — လမ်းကြည်ကြည်ဖြစ်ပေစေ ရပ်ရမည်ဖြစ်ပြီး ဘေးကင်းမှသာ ဆက်သွားပါ။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/stop.png",
+      "alt": {
+        "en": "What does a 'Stop' sign require you to do?",
+        "my": "'Stop' ဆိုင်းဘုတ်သည် ဘာလုပ်ရမည်ကို တောင်းဆိုသလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0172",
@@ -8009,7 +8105,15 @@
       "en": "Broken white lines are lane dividers — you may cross them to change lanes, overtake or turn, as long as it is safe to do so.",
       "my": "ကြောင်းပြတ်ပြတ် အဖြူကြောင်းများ လမ်းကြောင်းပိုင်းနားကို ညွှန်ပြသည် — ဘေးကင်းသောအချိန်တွင် လမ်းကြောင်းပြောင်း၊ ကျော်တက် သို့မဟုတ် ကွေ့ရန် ဖြတ်ကျော်နိုင်သည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/broken-white-line.png",
+      "alt": {
+        "en": "What do white broken (dashed) lines in the centre of a road indicate?",
+        "my": "လမ်းအလယ်ရှိ ဖြူဖြူကြောင်းပြတ်ပြတ် (ကြောင်းပြတ်) ကြောင်းများ ဘာကို ညွှန်ပြသလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0214",
@@ -8233,7 +8337,15 @@
       "en": "During bus lane operating hours, only buses and taxis are permitted to use the bus lane. Other vehicles must stay out — but ALL vehicles may use the bus lane outside of operating hours.",
       "my": "Bus lane လည်ပတ်ချိန်တွင် ဘတ်စ်ကားများနှင့် တက်ဆီများသာ bus lane ကို အသုံးပြုခွင့်ရှိသည်။ အခြားယာဉ်များ မဝင်ရ — သို့သော် လည်ပတ်ချိန်ပြင်ပတွင် ယာဉ်အားလုံး bus lane ကို အသုံးပြုနိုင်သည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/bus-lane.png",
+      "alt": {
+        "en": "During bus lane operating hours (e.g. 7:30am–9:30am on weekdays), which vehicles may use the bus lane?",
+        "my": "Bus lane လည်ပတ်ချိန် (ဥပမာ တနင်္လာ-သောကြာ မနက် ၇:၃၀–၉:၃၀) တွင် မည်သည့်ယာဉ်များသည် bus lane ကို သုံးနိုင်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0220",
@@ -8753,7 +8865,15 @@
       "en": "After stopping at a STOP sign, you may proceed only when the road is clear and it is safe to do so. There is no specific time requirement — safety is what matters.",
       "my": "STOP ဆိုင်းဘုတ်တွင် ရပ်ပြီးနောက် လမ်း ဖောက်ရှင်းပြီး ဘေးကင်းမှသာ ဆက်သွားနိုင်သည်။ အချိန် သတ်မှတ်ချက် မရှိ — ဘေးကင်းရေးသာ အဓိကဖြစ်သည်။"
     },
-    "syllabusRef": "btt.rules.parking"
+    "syllabusRef": "btt.rules.parking",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/stop.png",
+      "alt": {
+        "en": "At a STOP sign, after stopping completely, when may you proceed?",
+        "my": "STOP ဆိုင်းဘုတ်တွင် လုံးဝ ရပ်ပြီးနောက် မည်သောအခါ ဆက်သွားနိုင်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0234",
@@ -8789,7 +8909,15 @@
       "en": "Slowing down without stopping is NOT acceptable at a STOP sign. The law requires a complete stop. Rolling through — even slowly — is an offence.",
       "my": "STOP ဆိုင်းဘုတ်တွင် ရပ်မကပ်ဘဲ နှေးချရုံသာ မလုံလောက်ပါ။ ဥပဒေအရ လုံးဝ ရပ်ရမည်ဖြစ်သည်။ နှေးနှေးလှိမ့်သွားသည်မျှဖြင့် မရ — ပြစ်မှု ဖြစ်သည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/stop.png",
+      "alt": {
+        "en": "Which statement about the STOP sign is INCORRECT?",
+        "my": "STOP ဆိုင်းဘုတ်နှင့် ပတ်သက်သော မည်သည့် ထောက်ခံချက် မှားသလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0235",
@@ -9445,7 +9573,15 @@
       "en": "A warning sign near a school means children may cross the road unexpectedly. Reduce speed significantly, be ready to stop, and do not sound the horn unnecessarily as it may startle children.",
       "my": "ကျောင်းအနီးရှိ သတိပေးဆိုင်းဘုတ်သည် ကလေးများ မမျှော်လင့်ဘဲ ကူးနိုင်ကြောင်း ဆိုလိုသည်။ မြန်နှုန်းသိသိသာသာ လျော့ချပြီး ရပ်ရန် အသင့်ဆင်ပြင်ထားပါ။"
     },
-    "syllabusRef": "btt.signs.warning"
+    "syllabusRef": "btt.signs.warning",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/children.png",
+      "alt": {
+        "en": "You see a red triangular warning sign near a school entrance showing a child figure. What should you do?",
+        "my": "ကျောင်းဝင်ပေါက် အနီးတွင် ကလေးပုံပါ အနီရောင်တြိဂံသတိပေးဆိုင်းဘုတ်တစ်ခု မြင်သည်။ ဘာ ဆောင်ရွက်ရမည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0251",
@@ -9517,7 +9653,15 @@
       "en": "A warning sign with a T-shape indicates a T-junction ahead. You should slow down and be prepared to give way.",
       "my": "T ပုံ သတိပေး ဆိုင်းဘုတ်သည် ရှေ့တွင် T လမ်းဆုံ ရှိကြောင်း ညွှန်ပြသည်။ နှေးချ၍ ဦးစားပေးရန် ပြင်ဆင်သင့်သည်။"
     },
-    "syllabusRef": "btt.signs.warning"
+    "syllabusRef": "btt.signs.warning",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/t-junction.png",
+      "alt": {
+        "en": "A warning sign shows a T-shape. What does it mean?",
+        "my": "T ပုံသဏ္ဌာန် ပါ သတိပေး ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0253",
@@ -9633,7 +9777,15 @@
       "en": "This warning sign indicates elderly and handicapped people may be crossing. You must slow down and wait for them to cross safely.",
       "my": "ဒီ သတိပေး ဆိုင်းဘုတ်သည် သက်ကြီးရွယ်အို နှင့် မသန်မစွမ်းသူများ ဖြတ်ကူးနိုင်ကြောင်း ညွှန်ပြသည်။ နှေးချ၍ ၎င်းတို့ ဘေးကင်းစွာ ဖြတ်ကူးနိုင်သည်အထိ စောင့်ဆိုင်းရမည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/elderly-or-handicapped-pedestrians.png",
+      "alt": {
+        "en": "A warning sign shows a person walking with a cane next to a person in a wheelchair. What does it mean?",
+        "my": "တုတ်ကိုင် လမ်းလျောက်သူနှင့် ကဲလတ်ကုလားထိုင် ပါ သတိပေး ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0256",
@@ -10237,7 +10389,15 @@
       "en": "Stopping in a yellow box that causes obstruction is an offence. The only exceptions: waiting to turn when traffic is held up, or waiting to turn when oncoming traffic prevents you.",
       "my": "ယာဉ် ပိတ်ဆို့မည်ဖြစ်ပြီး Yellow Box ထဲ ရပ်ခြင်းသည် ပြစ်မှုဖြစ်သည်။ ခြွင်းချက်များ — တာဝန်ကြောင့် လှည့်ရန် ယာဉ် ပိတ်ဆို့ နေသောအခါ၊ သို့မဟုတ် ဆန့်ကျင်ဘက် ယာဉ်ကြောင့် လှည့်ရန် မနိုင်သောအခါ ပဲ ဖြစ်သည်။"
     },
-    "syllabusRef": "btt.signs.pedestrian"
+    "syllabusRef": "btt.signs.pedestrian",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/yellow-box.png",
+      "alt": {
+        "en": "What is the Yellow Box marking on the road and what is the rule?",
+        "my": "လမ်းပေါ်ရှိ Yellow Box မှတ်သားချက် မည်သည်လဲ၊ စည်းကမ်း မည်သည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0271",
@@ -10273,7 +10433,15 @@
       "en": "During operating hours, only buses, emergency service vehicles, police vehicles and bicycles may use bus lanes. Motorists may be fined up to $1,000 or jailed for 3 months for unauthorised use.",
       "my": "လည်ပတ်ချိန်အတွင်း ဘတ်စ်ကား၊ အရေးပေါ် ဝန်ဆောင်မှု ယာဉ်၊ ရဲ ယာဉ်နှင့် စက်ဘီးများ သာ ဘတ်စ်ကား လမ်းကြောင်း သုံးနိုင်သည်။"
     },
-    "syllabusRef": "btt.signs.markings"
+    "syllabusRef": "btt.signs.markings",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/bus-lane.png",
+      "alt": {
+        "en": "During bus lane operating hours, which vehicles may use the bus lane?",
+        "my": "ဘတ်စ်ကား လမ်းကြောင်း လည်ပတ်ချိန်အတွင်း မည်သည့် ယာဉ်များ ထို လမ်းကြောင်းကို သုံးနိုင်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0272",
@@ -10309,7 +10477,15 @@
       "en": "Normal bus lanes operate Mon–Fri 7:30–9:30am and on Saturdays 7:30–9:30am. Full-day bus lanes operate Mon–Sat 7:30am–11pm.",
       "my": "ပုံမှန် ဘတ်စ်ကား လမ်းကြောင်းသည် တနင်္လာ-သောကြာ ၇:၃၀-၉:၃၀ နှင့် စနေ ၇:၃၀-၉:၃၀ လည်ပတ်သည်။ တစ်နေ့တာ ဘတ်စ်ကား လမ်းကြောင်းသည် တနင်္လာ-စနေ ၇:၃၀ နံနက် – ၁၁ ည လည်ပတ်သည်။"
     },
-    "syllabusRef": "btt.signs.markings"
+    "syllabusRef": "btt.signs.markings",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/bus-lane.png",
+      "alt": {
+        "en": "What are the operating hours of a normal bus lane (Mon–Fri)?",
+        "my": "ပုံမှန် ဘတ်စ်ကား လမ်းကြောင်း (တနင်္လာ-သောကြာ)၏ လည်ပတ်ချိန် မည်သည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0273",
@@ -10345,7 +10521,15 @@
       "en": "Exceptions to bus lane rules: you may cross or use a bus lane when turning from a bus lane road into a side road, or from a side road into a bus lane road, at a cross junction.",
       "my": "ဘတ်စ်ကား လမ်းကြောင်း ခြွင်းချက်များ: ဘတ်စ်ကား လမ်းကြောင်းမှ ဘေးလမ်းသို့ လှည့်သောအခါ၊ ဘေးလမ်းမှ ဘတ်စ်ကား လမ်းကြောင်းသို့ ဝင်သောအခါ၊ လမ်းဆုံတွင် ဖြတ်ကူး သောအခါ ဝင်နိုင်သည်။"
     },
-    "syllabusRef": "btt.signs.markings"
+    "syllabusRef": "btt.signs.markings",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/bus-lane.png",
+      "alt": {
+        "en": "When may you drive in a bus lane even during operating hours?",
+        "my": "လည်ပတ်ချိန်တွင်ပင် ဘတ်စ်ကား လမ်းကြောင်း ထဲ မောင်းနှင်နိုင်သည့် အချိန် မည်သည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0274",
@@ -10469,7 +10653,15 @@
       "en": "A red light camera sign warns that cameras at the next traffic light will capture vehicles that run the red light. Fines and demerit points will be imposed.",
       "my": "Red light camera ဆိုင်းဘုတ်သည် နောက် မီးပွိုင့်ရှိ Camera သည် အနီမီး ဖောက်ပြန်သည့် ယာဉ်များ ဓာတ်ပုံ ရိုက်မည်ဟု သတိပေးသည်။"
     },
-    "syllabusRef": "btt.signs.signals"
+    "syllabusRef": "btt.signs.signals",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/red-light-camera-ahead.png",
+      "alt": {
+        "en": "A red light camera sign ahead means:",
+        "my": "ရှေ့ Red Light Camera ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0277",
@@ -10505,7 +10697,15 @@
       "en": "Both hands raised means STOP for vehicles approaching from all directions. No vehicle may proceed until the officer signals otherwise.",
       "my": "နှစ်ဖက် လက် မြှောက်ထားခြင်းသည် ဘက် အားလုံးမှ ချဉ်းကပ်နေသော ယာဉ် အားလုံး ရပ်ရမည် ဆိုသည်ဖြစ်သည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/vehicles-approaching-police-officer-from-all-directions-to-stop.png",
+      "alt": {
+        "en": "A police officer raises both hands upward. What must ALL approaching vehicles do?",
+        "my": "ရဲ အရာရှိ နှစ်ဖက် လက် မြှောက်ထားသည်။ ချဉ်းကပ်နေသော ယာဉ် အားလုံး မည်သို့ ဆောင်ရွက်ရမည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0278",
@@ -10577,7 +10777,15 @@
       "en": "Amber means 'Stop' unless you are so close to the stop line that stopping would be dangerous. Do not speed up to beat the amber light.",
       "my": "ကြာပဲ မီးသည် 'ရပ်ပါ' ဆိုတာပါ — stop line နှင့် နီးလွန်းလျှင် ရပ်ခြင်း အန္တရာယ်ရှိမှ မဟုတ်လျှင် ဖြစ်သည်။ ကြာပဲ မီးကို ဖြတ်ရန် အမြန်နှုန်း မတိုးရ။"
     },
-    "syllabusRef": "btt.signs.pedestrian"
+    "syllabusRef": "btt.signs.pedestrian",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/amber.png",
+      "alt": {
+        "en": "What does an amber (orange) traffic light mean?",
+        "my": "ကြာပဲ (လိမ္မော်ရောင်) မီးပွိုင့်၏ အဓိပ္ပာယ် မည်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0280",
@@ -10649,7 +10857,15 @@
       "en": "'Left Turn on Red' means you may turn left after stopping at the red light, but you must first give way to all pedestrians crossing and to traffic approaching from the right.",
       "my": "'Left Turn on Red' ဆိုသည်မှာ အနီမီးတွင် ရပ်ပြီးနောက် ဘယ်သို့ လှည့်နိုင်သည်; သို့သော် လမ်းလျောက်သူများ နှင့် ညာဘက်မှ ချဉ်းကပ်သော ယာဉ်များ ဦးစားပေးရမည်ဖြစ်သည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/left-turn-on-red.png",
+      "alt": {
+        "en": "What does 'Left Turn on Red' at a traffic junction mean?",
+        "my": "မီးပွိုင့်ရှိ 'Left Turn on Red' ဆိုင်းဘုတ်၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း?"
+      }
+    }
   },
   {
     "id": "sg_btt_0282",
@@ -12205,7 +12421,15 @@
       "en": "At a Give Way sign, slow down and be prepared to stop. Give way to traffic on the major road. You only need to stop if traffic requires it — unlike a STOP sign where you must always stop.",
       "my": "Give Way ဆိုင်းဘုတ်တွင် နှေးချပြီး ရပ်ရန် ပြင်ဆင်ပါ။ ကြီးမားသော လမ်းမ ယာဉ်ကို ဦးစားပေးပါ။ ယာဉ် ရှိသောအခါ သာ ရပ်ရမည် — STOP ဆိုင်းဘုတ်ကဲ့သို့ အမြဲ ရပ်ရမည် မဟုတ်ပါ။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/give-way.png",
+      "alt": {
+        "en": "What must you do when approaching a Give Way sign?",
+        "my": "'Give Way' ဆိုင်းဘုတ် ချဉ်းကပ်သောအခါ မည်သို့ ဆောင်ရွက်ရမည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0325",
@@ -13537,7 +13761,15 @@
       "en": "Vehicles already inside a roundabout have right of way. Wait for a safe gap before entering and always signal when exiting.",
       "my": "လမ်းကွင်းအတွင်းရှိ ယာဉ်များတွင် ဦးစားပေးခွင့်ရှိသည်။ ဘေးကင်းသော ကွာဟချက်ရှိမှသာ ဝင်ပါ၊ ထွက်သောအခါ အမြဲ အချက်ပြပါ။"
     },
-    "syllabusRef": "btt.signs.signals"
+    "syllabusRef": "btt.signs.signals",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "You approach a roundabout and a car is already circulating inside from your left. What should you do?",
+        "my": "လမ်းကွင်းသို့ ချဉ်းကပ်နေပြီး ကားတစ်စီး သင်၏ဘယ်ဘက်မှ လည်ပတ်နေပြီးသား ဖြစ်သည်။ သင် ဘာလုပ်သင့်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0362",
@@ -14165,7 +14397,15 @@
       "en": "A Silver Zone is a road safety initiative for areas with many elderly pedestrians. Three speed-regulating strips and 40km/h speed markings are installed to slow drivers.",
       "my": "Silver Zone သည် သက်ကြီးရွယ်အို လမ်းလျောက်သူ များသော နေရာ အတွက် လမ်း ဘေးကင်းရေး အစပြုမှု ဖြစ်သည်။ ယာဉ်မောင်းများ နှေးချစေရန် မြန်နှုန်း ထိန်းကြာပ် သုံးခု နှင့် ၄၀ ကီလိုမီတာ/နာရီ မြန်နှုန်း မှတ်သားချက်များ တပ်ဆင်ထားသည်။"
     },
-    "syllabusRef": "btt.signs.pedestrian"
+    "syllabusRef": "btt.signs.pedestrian",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/start-of-silver-zone.png",
+      "alt": {
+        "en": "What is a 'Silver Zone'?",
+        "my": "'Silver Zone' ဆိုသည် မည်သည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0379",
@@ -14821,7 +15061,15 @@
       "en": "A green filter arrow allows you to turn in the direction of the arrow even if the main signal is red. Always give way to pedestrians crossing in that direction.",
       "my": "မြ မျှားတံ (filter arrow) သည် ဓာတ်မီး အနီ ဖြစ်နေသော်လည်း မျှားတံ ညွှန်ပြသော ဦးတည်ချက်သို့ လှည့်ခွင့် ပေးသည်။ ထို ဦးတည်ချက်တွင် ဖြတ်ကူးသော လမ်းလျောက်သူ ကိုအမြဲ ဦးစားပေးပါ။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/green-arrow.png",
+      "alt": {
+        "en": "What does a green traffic arrow pointing right mean?",
+        "my": "ညာဘက်သို့ ညွှန်ပြနေသော အစိမ်းရောင် မြှားမီး၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း?"
+      }
+    }
   },
   {
     "id": "sg_btt_0397",
@@ -14929,7 +15177,15 @@
       "en": "Road humps, speed tables and speed cushions are traffic-calming measures that slow drivers to a safe speed in areas with pedestrians and children.",
       "my": "လမ်း ကြာပ်၊ speed table နှင့် speed cushion တို့သည် လမ်းလျောက်သူနှင့် ကလေးများ ရှိသော နေရာတွင် ယာဉ်မောင်းများ ကို ဘေးကင်းသော မြန်နှုန်းသို့ နှေးချစေသော ယာဉ်ကြောင်း ထိန်းချုပ်မှု နည်းလမ်းများ ဖြစ်သည်။"
     },
-    "syllabusRef": "btt.signs.pedestrian"
+    "syllabusRef": "btt.signs.pedestrian",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/road-hump-ahead.png",
+      "alt": {
+        "en": "What is a road hump used for?",
+        "my": "လမ်း ကြာပ် (road hump) ကို မည်သည့်အတွက် သုံးသလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0400",
@@ -14965,7 +15221,15 @@
       "en": "A 'road narrows' warning sign tells you the carriageway becomes narrower. Reduce speed and be prepared to give way.",
       "my": "'လမ်း ကျဉ်းသည်' သတိပေး ဆိုင်းဘုတ်သည် ကားလမ်း ပိုကျဉ်းလာသည် ဟု ညွှန်ပြသည်။ မြန်နှုန်း လျှော့ချပြီး ဦးစားပေးရန် အသင့်ပြင်ဆင်ပါ။"
     },
-    "syllabusRef": "btt.signs.warning"
+    "syllabusRef": "btt.signs.warning",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/road-narrows-on-pne-side.png",
+      "alt": {
+        "en": "What does 'road narrowing' ahead sign warn?",
+        "my": "ရှေ့ 'လမ်း ကျဉ်းသည်' ဆိုင်းဘုတ် သည် မည်သည်ကို သတိပေးသလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0401",
@@ -15637,7 +15901,15 @@
       "en": "A \"No Entry\" sign prohibits entry from that direction for all vehicles. There are no exceptions — you must not enter regardless of whether traffic is visible. Find an alternative route.",
       "my": "\"ဝင်ခွင့်မရှိ\" ဆိုင်းဘုတ်သည် ယာဉ်အားလုံးအတွက် ထိုဦးတည်ချက်မှ ဝင်ခြင်းကို တားမြစ်သည်။ ကင်းလွတ်ချက် မရှိ — ယာဉ်မမြင်ရစေကာမူ မဝင်ရ။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry.png",
+      "alt": {
+        "en": "You are about to turn into a side road and see a \"No Entry\" sign at its entrance. What must you do?",
+        "my": "ဘေးလမ်းတစ်ခုသို့ ဝင်ရန် ကြိုးစားနေပြီး ၎င်း၏ ဝင်ပေါက်တွင် \"ဝင်ခွင့်မရှိ\" ဆိုင်းဘုတ်တစ်ခု မြင်သည်။ ဘာ ဆောင်ရွက်ရမည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0419",
@@ -15789,7 +16061,15 @@
       "en": "The \"Keep Left\" sign (blue circle with downward-left arrow) means you must pass on the left side of the obstacle or traffic island. Passing on the right is not permitted where this sign is displayed.",
       "my": "\"ဘယ်ဘက်နေပါ\" ဆိုင်းဘုတ်သည် အတားအဆီး သို့မဟုတ် ယာဉ်ကွင်းဆက်၏ ဘယ်ဘက်ကို ဖြတ်ကျော်ရမည်ဟု ဆိုလိုသည်။ ဤဆိုင်းဘုတ် ပြထားသောနေရာတွင် ညာဘက်ကို ဖြတ်ကျော်ခြင်း ခွင့်မပြု။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/keep-left.png",
+      "alt": {
+        "en": "You are driving towards a traffic island with a \"Keep Left\" sign. What must you do?",
+        "my": "\"ဘယ်ဘက်နေပါ\" ဆိုင်းဘုတ်ပါ ယာဉ်ကွင်းဆက်တစ်ခုသို့ မောင်းနှင်နေသည်။ ဘာ ဆောင်ရွက်ရမည်လဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0423",
@@ -16893,7 +17173,15 @@
       "en": "A 'Children Crossing' sign warns that children may be crossing ahead — often near schools. Slow down significantly and be ready to stop.",
       "my": "'ကလေးများ ဖြတ်ကူးရာ' ဆိုင်းဘုတ်သည် ရှေ့တွင် ကလေးများ ဖြတ်ကူးနေနိုင်ကြောင်း — မကြာခဏ ကျောင်းနား ရှိ — သတိပေးသည်။ သိသိသာသာ နှေးချပြီး ရပ်ရန် အသင့်ပြင်ဆင်ပါ။"
     },
-    "syllabusRef": "btt.signs.pedestrian"
+    "syllabusRef": "btt.signs.pedestrian",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/children.png",
+      "alt": {
+        "en": "What does a 'Children Crossing' sign warn you about?",
+        "my": "'ကလေးများ ဖြတ်ကူးရာ' ဆိုင်းဘုတ် မည်သည်ကို သတိပေးသလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0453",
@@ -17629,7 +17917,15 @@
       "en": "At a Stop sign, you MUST come to a complete stop at the white stop line. A slow roll without stopping fully is a traffic offence. After stopping completely, check in all directions and proceed only when it is safe.",
       "my": "\"ရပ်\" ဆိုင်းဘုတ်တွင် အဖြူရောင် ရပ်တန့်မျဉ်းတွင် လုံးဝ ရပ်တန့်ရမည်။ ရပ်တန့်ခြင်းမပြုဘဲ နှေးနှေး ဖြတ်သွားခြင်းသည် ယာဉ်ကြောင်းဆိုင်ရာ ကျူးလွန်မှုဖြစ်သည်။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/stop.png",
+      "alt": {
+        "en": "At a junction controlled by a \"Stop\" sign, a driver slows down but does not fully stop before proceeding. What rule have they broken?",
+        "my": "\"ရပ်\" ဆိုင်းဘုတ် ထိန်းချုပ်သော လမ်းဆုံတစ်ခုတွင် ယာဉ်မောင်းသူတစ်ဦးသည် မြန်နှုန်းလျော့သော်လည်း လုံးဝ မရပ်ဘဲ ဆက်မောင်းသည်။ မည်သည့်စည်းကမ်းကို ချိုးဖောက်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0473",
@@ -17665,7 +17961,15 @@
       "en": "A Give Way sign means you must give way to traffic on the major road. Slow down and proceed only when it is safe — you do not need to stop if the road is clear.",
       "my": "ဦးစားပေးဆိုင်းဘုတ်ဆိုသည်မှာ အဓိကလမ်းပေါ်ယာဉ်များကို လမ်းပေးရမည်ဟု ဆိုလိုသည်။ အမြန်နှုန်းလျှော့ချပြီး ဘေးကင်းသောအခါသာ ဆက်သွားပါ — လမ်း ရှင်းနေလျှင် ရပ်ရန် မလိုပါ။"
     },
-    "syllabusRef": "btt.signs.mandatory"
+    "syllabusRef": "btt.signs.mandatory",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/give-way.png",
+      "alt": {
+        "en": "You approach a T-junction from a minor road. An inverted red triangle sign is posted and a car is approaching on the main road. What must you do?",
+        "my": "ဘေးလမ်းမှ T-junction သို့ ချဉ်းကပ်နေသည်။ ပြောင်းပြန် အနီ တြိဂံဆိုင်းဘုတ် တပ်ထားပြီး အဓိကလမ်းပေါ်မှ ကားတစ်စီး ချဉ်းကပ်လာသည်။ သင် ဘာလုပ်ရမည်လဲ။"
+      }
+    }
   },
   {
     "id": "sg_btt_0474",
