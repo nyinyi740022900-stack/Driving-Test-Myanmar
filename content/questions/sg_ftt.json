@@ -6693,7 +6693,15 @@
       "en": "A red X sign means 'No Stopping' — stricter than 'No Parking'. You cannot stop at all, not even briefly. Applies at yellow zigzag lines and some restricted zones.",
       "my": "အနီ X ဆိုင်းဘုတ် ဆိုသည်မှာ 'မရပ်ရ' ဖြစ်သည် — 'မရပ်နားရ' ထက် ပိုကြပ်မတ်သည်။ လုံးဝ ရပ်ခြင်း မပြုရ၊ တဟုတ်မျှပင်မဆို ဖြစ်သည်။ ဝါ zigzag မျဉ်းများနှင့် တချို့ ကန့်သတ် ဇုန်များ ၌ ကျင့်သုံးသည်။"
     },
-    "syllabusRef": "ftt.skills.basics"
+    "syllabusRef": "ftt.skills.basics",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-stopping.png",
+      "alt": {
+        "en": "What does a white square sign with a red X mean?",
+        "my": "အဖြူရောင်စတုရန်းပေါ်တွင် အနီရောင် 'X' ပါသော ဆိုင်းဘုတ်၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0187",
@@ -7737,7 +7745,15 @@
       "en": "Double continuous white centre lines: you must not cross or straddle them. Overtaking is prohibited. May only be crossed in an emergency to avoid an obstacle if safe.",
       "my": "ဖြူ ဆက်တိုက် ကြားစောင်ကန် မျဉ်း နှစ်ကြောင်း: ဖြတ်ကူးခြင်း သို့မဟုတ် ကြားမြင်ကွင်း ၌ ကျောင်းချ မပါနှင့်။ ကျော်တက်ခြင်း တားမြစ်ထားသည်။ ဘေးကင်းပါ အတားအဆီး ကို ရှောင်ကွင်းရန် အရေးပေါ် ၌ ကိုသာ ဖြတ်ကူးနိုင်သည်။"
     },
-    "syllabusRef": "ftt.skills.parking"
+    "syllabusRef": "ftt.skills.parking",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/unbroken-double-white-lines.png",
+      "alt": {
+        "en": "What do double white lines in the centre of the road mean?",
+        "my": "လမ်းအလယ်ရှိ အဖြူရောင်မျဉ်းနှစ်ကြောင်း (double white lines) ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0216",
@@ -8673,7 +8689,15 @@
       "en": "Give way triangle: you must give way to traffic on the road you are joining. Slow down, assess gaps, stop if needed. Unlike STOP — you do not have to stop if road is clear.",
       "my": "Give way တြိဂံ: သင် ဝင်ရောက်မည့် လမ်း ၌ ရှိသော ယာဉ်ကြောင်း ကို လမ်းပေးရမည်။ နှေးချ၊ ကွာဝေးမှု ဆန်းစစ်၊ လိုအပ်ပါ ရပ်ပါ။ STOP နှင့် မတူ — လမ်း ဖောင့်ရှင်းပါ ရပ်ရမည် မဟုတ်ပါ။"
     },
-    "syllabusRef": "ftt.traffic.oncoming"
+    "syllabusRef": "ftt.traffic.oncoming",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/give-way.png",
+      "alt": {
+        "en": "What does a 'give way' triangle sign mean?",
+        "my": "'Give way' တြိဂံ ဆိုင်းဘုတ် ဆိုသည် မည်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0242",
@@ -8745,7 +8769,15 @@
       "en": "STOP sign: mandatory complete stop at stop line. Even if the road is clear you must stop. Failure to stop is a fine + 4 demerit points in Singapore.",
       "my": "STOP ဆိုင်းဘုတ်: ရပ်ဆိုင်း မျဉ်း ၌ တာဝန်ကြောင့် လုံးဝ ရပ်ပါ။ လမ်း ဖောင့်ရှင်းပါ ရပ်ရမည်။ မရပ်ပါ စင်ကာပူ ၌ ဒဏ်ငွေ + demerit point ၄ မှတ် ဖြစ်သည်။"
     },
-    "syllabusRef": "ftt.singapore"
+    "syllabusRef": "ftt.singapore",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/stop.png",
+      "alt": {
+        "en": "What does a red octagonal STOP sign require?",
+        "my": "အနီ ရှစ်ထောင့် STOP ဆိုင်းဘုတ် ဆိုသည် မည်ကိုမျှော်လင့်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0244",
@@ -10221,7 +10253,15 @@
       "en": "Warning signs alert you to hazards ahead. At merging junctions, slow down and be prepared to give way if necessary.",
       "my": "သတိပေးဆိုင်းဘုတ်များသည် ရှေ့တွင် အန္တရာယ်ရှိကြောင်း သတိပေးသည်။ ပေါင်းစည်းသည့် လမ်းဆုံများတွင် အမြန်နှုန်းလျှော့ချပြီး လိုအပ်လျှင် လမ်းပေးရန် ပြင်ဆင်ထားပါ။"
     },
-    "syllabusRef": "ftt.skills.junctions"
+    "syllabusRef": "ftt.skills.junctions",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/merging-traffic.png",
+      "alt": {
+        "en": "You approach a junction where a triangular red-bordered sign warns that traffic merges from the right. What should you do?",
+        "my": "ညာဘက်မှ ယာဉ်များ ပေါင်းစည်းလာကြောင်း သတိပေးသော အနီရောင်နယ်နိမိတ်ပါ တြိဂံဆိုင်းဘုတ်ရှိသော လမ်းဆုံသို့ ချဉ်းကပ်နေသည်။ သင် ဘာလုပ်သင့်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_ftt_0285",
@@ -12921,7 +12961,15 @@
       "en": "A general hazard warning sign means conditions ahead may be unusual. Reduce speed and stay alert for workers, uneven surfaces, or temporary lane changes.",
       "my": "ယေဘုယျ အန္တရာယ်သတိပေးဆိုင်းဘုတ်ဆိုသည်မှာ ရှေ့တွင် အခြေအနေ ပုံမှန်မဟုတ်နိုင်ကြောင်း ဆိုလိုသည်။ အမြန်နှုန်းလျှော့ချပြီး လုပ်သားများ၊ မညီမညာမျက်နှာပြင် သို့မဟုတ် ယာယီလမ်းကြောင်းပြောင်းမှုများအတွက် သတိထားပါ။"
     },
-    "syllabusRef": "ftt.skills.lanes"
+    "syllabusRef": "ftt.skills.lanes",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roadworks.png",
+      "alt": {
+        "en": "You drive through a roadworks area with no specific hazard sign, only a triangular warning sign with an exclamation mark. What is the correct response?",
+        "my": "သတ်သတ်မှတ်မှတ် အန္တရာယ်ဆိုင်းဘုတ်မရှိဘဲ အာမေဍိတ်ပါ တြိဂံသတိပေးဆိုင်းဘုတ်သာ ရှိသော လမ်းပြင်ဆင်ရေးဧရိယာကို ဖြတ်သွားနေသည်။ မှန်ကန်သော တုံ့ပြန်မှု ဘာဖြစ်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_ftt_0360",
@@ -12957,7 +13005,15 @@
       "en": "A blue circular sign with an upward arrow is a mandatory instruction to go straight. You must not turn left or right at that point.",
       "my": "အပြာရောင် စက်ဝိုင်းပုံ၌ အပေါ်ဘက်မြားသည် ရှေ့တည့်တည့် မဖြစ်မနေ သွားရမည်ကို ညွှန်ကြားသည်။ ထိုနေရာတွင် ဘယ်ဘက် သို့မဟုတ် ညာဘက် မကွေ့ရ။"
     },
-    "syllabusRef": "legacy.advanced_road_signs"
+    "syllabusRef": "legacy.advanced_road_signs",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/ahead-only.png",
+      "alt": {
+        "en": "What does a blue circular sign with a white arrow pointing upward indicate?",
+        "my": "အဖြူရောင် မြားတစ်ချောင်းနှင့် အပြာရောင် စက်ဝိုင်းပုံ ဆိုင်းဘုတ်သည် မည်သည်ကို ဆိုလိုသလဲ?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0361",
@@ -13677,7 +13733,15 @@
       "en": "Steep descent warning signs mean you should slow down early and use a lower gear to control speed, rather than relying only on the footbrake.",
       "my": "စောင်းဆင်းသတိပေးဆိုင်းဘုတ်များဆိုသည်မှာ စောစီးစွာ အမြန်နှုန်းလျှော့ချပြီး ခြေဘရိတ်သာမက အောက်ဂီယာသုံး၍ အမြန်နှုန်းထိန်းရမည်ဟု ဆိုလိုသည်။"
     },
-    "syllabusRef": "ftt.skills.basics"
+    "syllabusRef": "ftt.skills.basics",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/steep-downward-slope.png",
+      "alt": {
+        "en": "On a rural road you see a yellow diamond sign showing a steep hill descending ahead. What should you do before the slope?",
+        "my": "ကျေးလက်လမ်းပေါ်တွင် ရှေ့တွင် စောင်းတက်သော ကုန်းဆင်းရှိကြောင်း ပြသော ဝါရောင်စိန်ပုံဆိုင်းဘုတ်ကို မြင်ရသည်။ စောင်းမတိုင်မီ သင် ဘာလုပ်သင့်သလဲ။"
+      }
+    }
   },
   {
     "id": "sg_ftt_0381",
@@ -15477,7 +15541,15 @@
       "en": "A lorry on a steep downhill sign warns of a steep gradient ahead. Gear down before the descent, use engine braking, and do not rely solely on brakes to avoid overheating and brake fade.",
       "my": "ဆင်းလမ်းပေါ် ထရပ်ကားဆိုင်းဘုတ်သည် ရှေ့တွင် ပြင်းထန်သောဆင်းလမ်း ရှိကြောင်း သတိပေးသည်။ ဆင်းမတိုင်မှီ ဂီယာဆင်းကာ အင်ဂျင်ဘရိတ်သုံးပြီး ဘရိတ်ကိုသာ မအားကိုးပါနှင့်။"
     },
-    "syllabusRef": "ftt.skills.basics"
+    "syllabusRef": "ftt.skills.basics",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/steep-downward-slope.png",
+      "alt": {
+        "en": "What does a sign showing a lorry on a steep hill with arrows pointing downward warn you about?",
+        "my": "ဆင်းလမ်းပေါ်တွင် မြားအောက်ညွှန်ပြနေသော ထရပ်ကားပါ ဆိုင်းဘုတ်သည် မည်သည်ကို သတိပေးသလဲ?"
+      }
+    }
   },
   {
     "id": "sg_ftt_0431",
@@ -18178,6 +18250,14 @@
     "explanation": {
       "en": "Choose the correct lane before entering. For an immediate left or first exit, use the left lane unless markings direct otherwise.",
       "my": "ဝင်မီ မှန်ကန်သော လမ်း ရွေးပါ။ ဘယ်ဘက် သို့မဟုတ် ပထမ ထွက်ရာ အတွက် ဆိုင်းဘုတ် မညွှန်ပြလျှင် ဘယ်ဘက် လမ်း သုံးပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "You are in the right lane approaching a two-lane roundabout and intend to take the first exit. Which lane should you have chosen?",
+        "my": "လမ်း နှစ်ကြောင်း အဝိုင်းလမ်းမ ကို ညာဘက် လမ်း ဖြင့် ချဉ်းကပ်ပြီး ပထမ ထွက်ရာ ယူမည် ဖြစ်ပါသည်။ မည်သည့် လမ်း ရွေးသင့်ခဲ့သလဲ?"
+      }
     }
   },
   {
@@ -18214,6 +18294,14 @@
     "explanation": {
       "en": "Never stop or reverse on a roundabout. Continue circulating and leave safely at the next opportunity.",
       "my": "အဝိုင်းလမ်းမ ပေါ် ရပ်ခြင်း သို့မဟုတ် နောက်ပြန် လုပ်ခြင်း မလုပ်ပါနှင့်။ လည်ပတ်ဆက်ပြီး နောက်ထပ် အခွင့်အရေး တွင် ဘေးကင်းစွာ ထွက်ပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "Circulating traffic is heavy on a roundabout and you miss your intended exit. What is the safest action?",
+        "my": "အဝိုင်းလမ်းမ ပေါ် လည်ပတ်နေသော ယာဉ်များ များပြီး သင် ရည်ရွယ်ထားသော ထွက်ရာ လွဲသွားပါသည်။ အလုံခြုံဆုံး လုပ်ဆောင်ချက် ဘာလဲ?"
+      }
     }
   },
   {
@@ -18250,6 +18338,14 @@
     "explanation": {
       "en": "Large vehicles can hide circulating traffic. Give way only when you can confirm it is safe, not just because the vehicle ahead moved.",
       "my": "ယာဉ် ကြီးများသည် လည်ပတ်နေသော ယာဉ်ကို ဖုံးကွယ်နိုင်သည်။ ရှေ့ယာဉ် ရွေ့သောကြောင့် မဟုတ် ဘဲ ဘေးကင်းကြောင်း သေချာမှသာ ဝင်ပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "You enter a roundabout behind a large lorry blocking your view of circulating traffic. How should you proceed?",
+        "my": "လည်ပတ်နေသော ယာဉ်ကို မမြင်ရအောင် ပိတ်ထားသော လေးလံကုန်တင်ယာဉ် နောက်မှ အဝိုင်းလမ်းမ သို့ ဝင်ပါသည်။ မည်သို့ ဆက်လုပ်ရမလဲ?"
+      }
     }
   },
   {
@@ -18286,6 +18382,14 @@
     "explanation": {
       "en": "Keep the left signal on until you have completely exited so other drivers understand your movement.",
       "my": "အခြား ယာဉ်မောင်းများ သင်၏ လှုပ်ရှားမှု နားလည်နိုင်ရန် လုံးဝ ထွက်ပြီးသည်အထိ ဘယ်ဘက် ညွှန်ပြမီး ထားပါ။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "When exiting a roundabout, when should you cancel your left signal?",
+        "my": "အဝိုင်းလမ်းမ မှ ထွက်သည့်အခါ ဘယ်ဘက် ညွှန်ပြမီး ကို မည်သည့်အချိန် ပိတ်ရမလဲ?"
+      }
     }
   },
   {

@@ -32,6 +32,14 @@
     "explanation": {
       "en": "A red-bordered circular sign is a prohibition sign; with a motorcycle symbol it bans motorcycles from that road or area.",
       "my": "အနီရောင်အနားသတ်ပါသော စက်ဝိုင်းဆိုင်းဘုတ်သည် တားမြစ်ဆိုင်းဘုတ်ဖြစ်ပြီး ဆိုင်ကယ်ပုံပါလျှင် ထိုလမ်း သို့မဟုတ် နေရာတွင် ဆိုင်ကယ်များ ဝင်ခွင့်မရှိကြောင်း ဆိုလိုသည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "A circular sign with a red border and a motorcycle symbol inside means what?",
+        "my": "အနီရောင်အနားသတ်ပါသော စက်ဝိုင်းဆိုင်းဘုတ်အတွင်း ဆိုင်ကယ်ပုံပါရှိလျှင် ဘာကို ဆိုလိုသလဲ။"
+      }
     }
   },
   {
@@ -137,6 +145,14 @@
     "explanation": {
       "en": "This warning sign indicates a slippery road; riders should reduce speed and avoid sudden braking or steering to prevent skidding.",
       "my": "ဒီသတိပေးဆိုင်းဘုတ်သည် ချော်လွယ်သောလမ်းကို ဆိုလိုသောကြောင့် ယာဉ်မောင်းသူများသည် မြန်နှုန်းလျှော့ပြီး ရုတ်တရက် ဘရိတ်ကိုက် သို့မဟုတ် လှည့်ခြင်းကို ရှောင်ရှားသင့်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/slippery-road.png",
+      "alt": {
+        "en": "You see a warning sign showing a motorcycle skidding on a wavy line. What should you do?",
+        "my": "လှိုင်းကွေးမျဉ်းပေါ် ဆိုင်ကယ်တစ်စီး ချောချွတ်နေသည့်ပုံပါသော သတိပေးဆိုင်းဘုတ်ကို မြင်လျှင် ဘာလုပ်သင့်သလဲ။"
+      }
     }
   },
   {
@@ -172,6 +188,14 @@
     "explanation": {
       "en": "This warning sign alerts riders that the road they are on ends ahead at a T-junction, requiring a turn left or right.",
       "my": "ဒီသတိပေးဆိုင်းဘုတ်သည် မောင်းနှင်နေသောလမ်းသည် ရှေ့တွင် T-လမ်းဆုံတွင် ဆုံးသွားမည်ဖြစ်ပြီး ဘယ် သို့မဟုတ် ညာ ကွေ့ရန် လိုအပ်ကြောင်း သတိပေးသည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/t-junction.png",
+      "alt": {
+        "en": "What does a yellow diamond-shaped sign with a black T-junction symbol mean?",
+        "my": "အနက်ရောင် T-လမ်းဆုံပုံပါသော အဝါရောင်စိန်ပုံဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
+      }
     }
   },
   {
@@ -242,6 +266,14 @@
     "explanation": {
       "en": "An officer raising one arm straight up is a signal for all traffic facing and behind the officer to stop.",
       "my": "ရဲတစ်ဦး လက်တစ်ဖက်ကို ဖြောင့်တန်းစွာ အပေါ်သို့ထောင်ခြင်းသည် ရဲကို မျက်နှာချင်းဆိုင်နေသော နှင့် နောက်ကျောဘက်ရှိ ယာဉ်အားလုံး ရပ်ရမည်ကို အချက်ပြခြင်းဖြစ်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/police-traffic2.png",
+      "alt": {
+        "en": "A police officer at a junction raises one arm straight up. What does this mean for riders facing the officer?",
+        "my": "လမ်းဆုံတွင် ရဲတစ်ဦးက လက်တစ်ဖက်ကို ဖြောင့်တန်းစွာ အပေါ်သို့ထောင်လျှင် ရဲကိုမျက်နှာချင်းဆိုင်နေသော ယာဉ်မောင်းသူများအတွက် ဘာကိုဆိုလိုသလဲ။"
+      }
     }
   },
   {
@@ -277,6 +309,14 @@
     "explanation": {
       "en": "Extending the right arm straight out horizontally is the hand signal for an intended right turn, used when indicators are not visible or as reinforcement.",
       "my": "ညာဘက်လက်ကို ဘေးတိုက်ဖြောင့်တန်းညှင်းခြင်းသည် မီးပြမမြင်ရသောအခါ သို့မဟုတ် အားဖြည့်အချက်ပြရန် ညာဘက်ကွေ့မည့် လက်အချက်ပြဖြစ်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/the-right-or-turn-right.png",
+      "alt": {
+        "en": "What does a rider signal by extending the right arm straight out horizontally?",
+        "my": "ညာဘက်လက်ကို ဘေးတိုက်ဖြောင့်တန်းညှင်းလျှင် ယာဉ်မောင်းသူက ဘာအချက်ပြသလဲ။"
+      }
     }
   },
   {
@@ -417,6 +457,14 @@
     "explanation": {
       "en": "A motorcycle symbol within a red-bordered regulatory sign always signals a rule, restriction, or hazard that specifically applies to motorcyclists.",
       "my": "အနီရောင်အနားသတ် စည်းမျဉ်းဆိုင်းဘုတ်ထဲတွင် ဆိုင်ကယ်ပုံပါရှိလျှင် ဆိုင်ကယ်မောင်းသူများအတွက် သီးသန့်သက်ဆိုင်သော စည်းမျဉ်း၊ ကန့်သတ်ချက် သို့မဟုတ် အန္တရာယ်ကို အမြဲဆိုလိုသည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "A round sign with a black motorcycle on a white background and red border, with no other marking, generally indicates what?",
+        "my": "အခြားမည်သည့်အမှတ်အသားမှမရှိသော အဖြူရောင်နောက်ခံပေါ်ရှိ အနက်ရောင်ဆိုင်ကယ်ပုံပါသည့် အနီရောင်အနားသတ်စက်ဝိုင်းဆိုင်းဘုတ်သည် အများအားဖြင့် ဘာကိုဆိုလိုသလဲ။"
+      }
     }
   },
   {
@@ -592,6 +640,14 @@
     "explanation": {
       "en": "A stop sign requires every vehicle to come to a complete halt before proceeding when it is safe.",
       "my": "ရပ်ဆိုင်းဘုတ်သည် ယာဉ်တိုင်းအား ဘေးကင်းမှ ဆက်မသွားမီ အပြည့်အဝ ရပ်ရန် လိုအပ်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/stop.png",
+      "alt": {
+        "en": "What does an octagonal red sign with the word 'STOP' require?",
+        "my": "'STOP' စာလုံးပါသော ရှစ်ဒေါင့်ပုံ အနီရောင်ဆိုင်းဘုတ်သည် ဘာလုပ်ရန် လိုအပ်သလဲ။"
+      }
     }
   },
   {
@@ -662,6 +718,14 @@
     "explanation": {
       "en": "A symbol crossed by a red diagonal bar within a circle is a prohibition; here it bans bicycles from that road.",
       "my": "စက်ဝိုင်းအတွင်း အနီရောင်ဖြတ်မျဉ်းဖြတ်ထားသော သင်္ကေတသည် တားမြစ်ခြင်းဖြစ်ပြီး ဒီနေရာတွင် စက်ဘီးများကို ထိုလမ်းမှ တားမြစ်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-bicycles.png",
+      "alt": {
+        "en": "A sign with a bicycle symbol inside a red circle with a diagonal bar means what?",
+        "my": "အနီရောင်စက်ဝိုင်းအတွင်း ဖြတ်မျဉ်းနှင့်အတူ စက်ဘီးပုံပါသော ဆိုင်းဘုတ်သည် ဘာကိုဆိုလိုသလဲ။"
+      }
     }
   },
   {
@@ -697,6 +761,14 @@
     "explanation": {
       "en": "Moving an extended arm up and down is the hand signal for slowing down or stopping, alerting riders or drivers behind.",
       "my": "ညှင်းထားသောလက်ကို အပေါ်အောက်လှုပ်ခြင်းသည် မြန်နှုန်းလျှော့မည် သို့မဟုတ် ရပ်တော့မည်ကို နောက်က ယာဉ်မောင်းသူများအား အသိပေးသော လက်အချက်ပြဖြစ်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/i-intend-to-slow-down.png",
+      "alt": {
+        "en": "What does it mean when a rider ahead of you extends their left arm and moves it up and down?",
+        "my": "ရှေ့မှ ယာဉ်မောင်းသူသည် ဘယ်ဘက်လက်ကို ညှင်းပြီး အပေါ်အောက်လှုပ်လျှင် ဘာကိုဆိုလိုသလဲ။"
+      }
     }
   },
   {
@@ -1012,6 +1084,14 @@
     "explanation": {
       "en": "Emergency vehicles have priority; riders should calmly and safely move aside to let them pass without abrupt manoeuvres that could cause an accident.",
       "my": "အရေးပေါ်ယာဉ်များသည် ဦးစားပေးခွင့်ရှိသောကြောင့် ယာဉ်မောင်းသူများသည် မတော်တဆမှု မဖြစ်စေရန် ရုတ်တရက်လှုပ်ရှားမှုမပါဘဲ တည်ငြိမ်စွာ ဘေးကင်းစွာ ဖယ်ပေးသင့်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/ambulance.png",
+      "alt": {
+        "en": "When an ambulance with flashing lights and siren approaches from behind, what should a rider do?",
+        "my": "မီးတောက်တောက်ပြီး ဆိုင်ရင်းအော်သံပါသော ဆေးရုံကားက နောက်ကျောမှ ချဥ်းကပ်လာလျှင် ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      }
     }
   },
   {
@@ -1082,6 +1162,14 @@
     "explanation": {
       "en": "All vehicles, including every lane of traffic, must stop for pedestrians actively crossing at a zebra crossing.",
       "my": "ဇီဘရာလူကူးမျဉ်းတွင် တက်ကြွစွာ ဖြတ်ကျော်နေသော လူများအတွက် လမ်းကြောတိုင်းရှိ ယာဉ်အားလုံး ရပ်ရမည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/zebra-crossing.png",
+      "alt": {
+        "en": "Two motorcycles approach a zebra crossing where pedestrians are actively crossing. What is required?",
+        "my": "လူများ တက်ကြွစွာ ဖြတ်ကျော်နေသော ဇီဘရာလူကူးမျဉ်းသို့ ဆိုင်ကယ်နှစ်စီး ချဥ်းကပ်လာလျှင် ဘာလုပ်ရန် လိုအပ်သလဲ။"
+      }
     }
   },
   {
@@ -1187,6 +1275,14 @@
     "explanation": {
       "en": "A give-way sign requires riders to slow down, check for approaching traffic in both directions, and yield to traffic already on the main road.",
       "my": "လမ်းဖယ်ဆိုင်းဘုတ်သည် ယာဉ်မောင်းသူအား မြန်နှုန်းလျှော့ပြီး ဘက်နှစ်ဖက်မှ လာနေသော ယာဉ်များကို စစ်ဆေးကာ အဓိကလမ်းမပေါ်ရှိ ယာဉ်များကို လမ်းဖယ်ပေးရန် လိုအပ်သည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/give-way.png",
+      "alt": {
+        "en": "When approaching a give-way junction, a rider must do what before entering the main road?",
+        "my": "လမ်းဖယ်ရန် လမ်းဆုံသို့ ချဥ်းကပ်သောအခါ ယာဉ်မောင်းသူသည် အဓိကလမ်းမသို့ ဝင်မီ ဘာလုပ်ရမည်လဲ။"
+      }
     }
   },
   {
@@ -1257,6 +1353,14 @@
     "explanation": {
       "en": "A traffic police officer's hand signals always override traffic lights, whether the lights are working or not.",
       "my": "ယာဉ်ရဲ၏ လက်အချက်ပြများသည် ယာဉ်အချက်ပြမီး အလုပ်လုပ်သည် သို့မလုပ်သည် မရွေး အမြဲတမ်း ဦးစားပေးခွင့်ရှိသည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/police-traffic.png",
+      "alt": {
+        "en": "At a junction controlled by traffic police only (no working traffic light), what must drivers and riders do?",
+        "my": "ယာဉ်အချက်ပြမီး အလုပ်မလုပ်ဘဲ ရဲမှသာ ထိန်းချုပ်နေသော လမ်းဆုံတွင် ယာဉ်မောင်းသူများ ဘာလုပ်ရမည်လဲ။"
+      }
     }
   },
   {
@@ -1362,6 +1466,14 @@
     "explanation": {
       "en": "School zone signs warn of children who may suddenly cross; all vehicles, including motorcycles, must slow down and stay alert.",
       "my": "ကျောင်းဇုန်ဆိုင်းဘုတ်များသည် ရုတ်တရက် ဖြတ်ကျော်နိုင်သော ကလေးများအကြောင်း သတိပေးသောကြောင့် ဆိုင်ကယ်အပါအဝင် ယာဉ်အားလုံး မြန်နှုန်းလျှော့ပြီး သတိရှိနေရမည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/school-zone.png",
+      "alt": {
+        "en": "What should a rider do when approaching a school zone sign during school hours?",
+        "my": "ကျောင်းချိန်အတွင်း ကျောင်းဇုန်ဆိုင်းဘုတ်ကို ချဥ်းကပ်လာသောအခါ ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      }
     }
   },
   {
@@ -1397,6 +1509,14 @@
     "explanation": {
       "en": "Even when the major road appears empty, riders must still slow down and check carefully, as a give-way rule is a safety habit, not just a reaction to visible traffic.",
       "my": "အဓိကလမ်းသည် ယာဉ်မရှိဟု ထင်ရသော်လည်း လမ်းဖယ်စည်းမျဉ်းသည် မြင်ရသော ယာဉ်များအတွက်သာ တုံ့ပြန်ခြင်းမဟုတ်ဘဲ ဘေးကင်းရေးအလေ့အကျင့်ဖြစ်သောကြောင့် ယာဉ်မောင်းသူများသည် မြန်နှုန်းလျှော့ပြီး သတိနှင့်စစ်ဆေးရမည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/give-way.png",
+      "alt": {
+        "en": "When emerging from a side road onto a major road with a 'Give Way' sign, traffic on the major road has priority. What if the major road is empty?",
+        "my": "'လမ်းဖယ်' ဆိုင်းဘုတ်ပါသော ဘေးလမ်းမှ အဓိကလမ်းသို့ ဝင်သောအခါ အဓိကလမ်းပေါ်ရှိ ယာဉ်များက ဦးစားပေးခွင့်ရှိသည်။ အဓိကလမ်းတွင် ယာဉ်မရှိလျှင် ဘယ်လိုလုပ်ရမလဲ။"
+      }
     }
   },
   {
