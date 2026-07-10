@@ -516,6 +516,14 @@
     "explanation": {
       "en": "This sign warns riders of an approaching roundabout, where they must give way to traffic already circulating from the right.",
       "my": "ဒီဆိုင်းဘုတ်သည် ချဥ်းကပ်လာသော အလှည့်ဝန်းကို သတိပေးပြီး ညာဘက်မှ လှည့်ပတ်နေသော ယာဉ်များကို လမ်းဖယ်ပေးရမည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "What does a sign showing two opposing arrows curving around each other indicate?",
+        "my": "တစ်ခုနှင့်တစ်ခု ဆန့်ကျင်ဘက်ပတ်ပတ်လည်ကွေ့နေသော မြှားနှစ်ချောင်းပါသော ဆိုင်းဘုတ်သည် ဘာကိုဆိုလိုသလဲ။"
+      }
     }
   },
   {
@@ -898,6 +906,14 @@
     "explanation": {
       "en": "ERP gantries automatically deduct road usage charges from registered vehicles, including motorcycles, when passing under them during operating hours.",
       "my": "ERP တံခါးများသည် လုပ်ငန်းချိန်အတွင်း အောက်မှ ဖြတ်သန်းသော ဆိုင်ကယ်အပါအဝင် မှတ်ပုံတင်ထားသော ယာဉ်များမှ လမ်းသုံးခကို အလိုအလျောက် နှိမ့်ယူသည်။"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/gantry-sign.png",
+      "alt": {
+        "en": "What does a sign showing a motorcycle with the word 'ERP' typically warn riders about?",
+        "my": "'ERP' စာလုံးနှင့်အတူ ဆိုင်ကယ်ပုံပါသော ဆိုင်းဘုတ်သည် ယာဉ်မောင်းသူများကို အများအားဖြင့် ဘာကို သတိပေးသလဲ။"
+      }
     }
   },
   {

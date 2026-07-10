@@ -9797,7 +9797,15 @@
       "en": "A wavy line in a triangular warning sign means slippery road ahead. Slow down and drive with extra care.",
       "my": "တြိဂံ သတိပေး ဆိုင်းဘုတ်ထဲ လှိုင်းပုံ ကြောင်းသည် ရှေ့တွင် လမ်း ချောဆိပ်ကြောင်း သတိပေးသည်။ နှေးချ၍ အထူး ဂရုပြု မောင်းနှင်ပါ။"
     },
-    "syllabusRef": "btt.signs.warning"
+    "syllabusRef": "btt.signs.warning",
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/slippery-road.png",
+      "alt": {
+        "en": "A triangular warning sign shows a wavy line. What does it warn of?",
+        "my": "လှိုင်းပုံ ကြောင်း ပါ တြိဂံ သတိပေး ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
+      }
+    }
   },
   {
     "id": "sg_btt_0255",
