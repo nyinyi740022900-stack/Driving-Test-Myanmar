@@ -6,7 +6,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "You approach a one-way street entrance and see a red circle with a white horizontal bar. What must you do?",
-      "my": "တစ်လမ်းသွား လမ်း ဝင်ပေါက် ကို ချဉ်းကပ်ပြီး အဖြူရောင် အလျားတန်း ပါသော အနီရောင် စက်ဝိုင်း ဆိုင်းဘုတ် မြင်ရပါသည်။ ဘာလုပ်ရမလဲ?"
+      "my": "တစ်လမ်းသွားလမ်း ဝင်ပေါက်ကို ချဉ်းကပ်ရာတွင် အဖြူရောင် အလျားတန်းပါသော အနီရောင်စက်ဝိုင်း ဆိုင်းဘုတ်ကို မြင်ရသည်။ ဘာလုပ်ရမည်နည်း?"
     },
     "choices": [
       {
@@ -38,8 +38,8 @@
       "type": "image",
       "src": "/signs/sg/No entry.png",
       "alt": {
-        "en": "You approach a one-way street entrance and see a red circle with a white horizon",
-        "my": "တစ်လမ်းသွား လမ်း ဝင်ပေါက် ကို ချဉ်းကပ်ပြီး အဖြူရောင် အလျားတန"
+        "en": "You approach a one-way street entrance and see a red circle with a white horizontal bar. What must you do?",
+        "my": "တစ်လမ်းသွားလမ်း ဝင်ပေါက်ကို ချဉ်းကပ်ရာတွင် အဖြူရောင် အလျားတန်းပါသော အနီရောင်စက်ဝိုင်း ဆိုင်းဘုတ်ကို မြင်ရသည်။ ဘာလုပ်ရမည်နည်း?"
       }
     }
   },
@@ -154,8 +154,8 @@
       "type": "image",
       "src": "/signs/sg/Left bend.png",
       "alt": {
-        "en": "You approach a sharp bend on Bukit Timah Road. A triangular warning sign with a ",
-        "my": "Bukit Timah လမ်းပေါ်တွင် ကောက်ကွေ့တစ်ခုသို့ ချဉ်းကပ်နေသည်။ က"
+        "en": "You approach a sharp bend on Bukit Timah Road. A triangular warning sign with a red border showing a curving road is posted before it. What should you do?",
+        "my": "Bukit Timah လမ်းပေါ်တွင် ကောက်ကွေ့တစ်ခုသို့ ချဉ်းကပ်နေသည်။ ကောက်ကွေ့မတိုင်မီ အနီရောင်နယ်နိမိတ်ပါ ကောက်ကွေ့လမ်းပြ တြိဂံသတိပေးဆိုင်းဘုတ် တပ်ထားသည်။ သင် ဘာလုပ်သင့်သလဲ။"
       }
     }
   },
@@ -234,8 +234,8 @@
       "type": "image",
       "src": "/signs/sg/No overtaking .png",
       "alt": {
-        "en": "What does a sign showing a black car overtaking inside a red circle (with a red ",
-        "my": "အနီရောင်စက်ဝိုင်း (ဖြတ်ကျော်မျဉ်းပါ) အတွင်း ကားတစ်စီးကို ကျေ"
+        "en": "What does a sign showing a black car overtaking inside a red circle (with a red diagonal line) mean?",
+        "my": "အနီရောင်စက်ဝိုင်း (ဖြတ်ကျော်မျဉ်းပါ) အတွင်း ကားတစ်စီးကို ကျော်တက်နေသည့်ပုံ ပါသော ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -279,7 +279,7 @@
       "src": "/signs/sg/Parking Signboard.png",
       "alt": {
         "en": "A blue rectangular sign with a white 'P' typically indicates what?",
-        "my": "အဖြူရောင် 'P' စာလုံးပါသော အပြာရောင်ထောင့်မှန်ဆိုင်းဘုတ်သည် မ"
+        "my": "အဖြူရောင် 'P' စာလုံးပါသော အပြာရောင်ထောင့်မှန်ဆိုင်းဘုတ်သည် များသောအားဖြင့် ဘာကို ဆိုလိုတာလဲ။"
       }
     }
   },
@@ -387,7 +387,7 @@
     "answer": 0,
     "explanation": {
       "en": "Singapore traffic lights move from red, to red-and-amber together (prepare to move), then to green.",
-      "my": "Singapore ၏ မီးလုံးများသည် အနီမှ၊ အနီနှင့်ရွှေဝါ အတူတကွ (ထွက်ရန်ပြင်ဆင်ရန်)၊ ပြီးမှ အစိမ်းသို့ ပြောင်းသည်။"
+      "my": "Singapore၏ မီးလုံးများသည် အနီမှ၊ အနီနှင့်ရွှေဝါ အတူတကွ (ထွက်ရန်ပြင်ဆင်ရန်)၊ ပြီးမှ အစိမ်းသို့ ပြောင်းသည်။"
     },
     "syllabusRef": "btt.signs.signals"
   },
@@ -502,8 +502,8 @@
       "type": "image",
       "src": "/signs/sg/the right or turn right.png",
       "alt": {
-        "en": "Hand signal: a motorcyclist extends their right arm straight out horizontally. W",
-        "my": "လက်ဖြင့်အချက်ပြခြင်း: မော်တော်ဆိုင်ကယ်မောင်းသူသည် ညာဘက်လက်ကိ"
+        "en": "Hand signal: a motorcyclist extends their right arm straight out horizontally. What does this mean?",
+        "my": "လက်ဖြင့်အချက်ပြခြင်း: မော်တော်ဆိုင်ကယ်မောင်းသူသည် ညာဘက်လက်ကို ဘေးတိုက် ဖြောင့်ဖြောင့် ဆန့်ထားသည်။ ဒါက ဘာကိုဆိုလိုသလဲ။"
       }
     }
   },
@@ -546,8 +546,8 @@
       "type": "image",
       "src": "/signs/sg/I intend to stop.png",
       "alt": {
-        "en": "Hand signal: a cyclist raises their right arm with the hand pointing upward (for",
-        "my": "လက်ဖြင့်အချက်ပြခြင်း: စက်ဘီးစီးသူသည် ညာဘက်လက်ကို အထက်သို့ ထေ"
+        "en": "Hand signal: a cyclist raises their right arm with the hand pointing upward (forearm vertical). What does this commonly indicate?",
+        "my": "လက်ဖြင့်အချက်ပြခြင်း: စက်ဘီးစီးသူသည် ညာဘက်လက်ကို အထက်သို့ ထောင်ထားသည် (လက်မောင်း ဒေါင်လိုက်)။ ဒါက ဘာကိုဆိုလိုသလဲ။"
       }
     }
   },
@@ -699,7 +699,7 @@
       "src": "/signs/sg/Weight limit .png",
       "alt": {
         "en": "What does a circular red sign showing '10 TONNES' mean?",
-        "my": "'10 TONNES' ဂဏန်းပါသော အနီရောင် အဝိုင်းဆိုင်းဘုတ်သည် ဘာကို ဆ"
+        "my": "'10 TONNES' ဂဏန်းပါသော အနီရောင် အဝိုင်းဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -743,7 +743,7 @@
       "src": "/signs/sg/Animals.png",
       "alt": {
         "en": "What does a sign showing a silhouette of a deer or animal crossing mean?",
-        "my": "တောရိုင်းတိရစ္ဆာန် (သို့) သမင်ရိပ် ဖြတ်ကူးနေသည့်ပုံ ပါသော ဆိ"
+        "my": "တောရိုင်းတိရစ္ဆာန် (သို့) သမင်ရိပ် ဖြတ်ကူးနေသည့်ပုံ ပါသော ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -859,7 +859,7 @@
       "src": "/signs/sg/No entry for bicycles.png",
       "alt": {
         "en": "What does a sign showing a bicycle inside a red circle with a diagonal bar mean?",
-        "my": "အနီရောင်ဖြတ်ကျော်မျဉ်းပါသော အနီရောင်အဝိုင်းအတွင်း စက်ဘီးပုံပ"
+        "my": "အနီရောင်ဖြတ်ကျော်မျဉ်းပါသော အနီရောင်အဝိုင်းအတွင်း စက်ဘီးပုံပါသော ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -975,7 +975,7 @@
       "src": "/signs/sg/Series of bends.png",
       "alt": {
         "en": "What does a sign showing two opposing curved arrows (like an S-shape) mean?",
-        "my": "ဆန့်ကျင်ဘက် ကွေ့မြှားနှစ်ခု (S ပုံစံ) ပါသော ဆိုင်းဘုတ်သည် ဘာ"
+        "my": "ဆန့်ကျင်ဘက် ကွေ့မြှားနှစ်ခု (S ပုံစံ) ပါသော ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -1018,8 +1018,8 @@
       "type": "image",
       "src": "/signs/sg/Light signals ahead.png",
       "alt": {
-        "en": "What does a sign with a picture of traffic lights (just a graphic of a signal he",
-        "my": "မီးလုံးပုံ (signal head ပုံသာ) ပါသော ဆိုင်းဘုတ်သည် ဘာကို ဆို"
+        "en": "What does a sign with a picture of traffic lights (just a graphic of a signal head) mean?",
+        "my": "မီးလုံးပုံ (signal head ပုံသာ) ပါသော ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -1098,8 +1098,8 @@
       "type": "image",
       "src": "/signs/sg/Steep upward slope.png",
       "alt": {
-        "en": "What does a sign showing a steep upward slope (triangle with an incline graphic ",
-        "my": "ထောင့်လေးထောင့်/တြိဂံပုံအတွင်း တောင်ကုန်းမတ်တက်ပုံနှင့် ရာခိ"
+        "en": "What does a sign showing a steep upward slope (triangle with an incline graphic and a percentage) mean?",
+        "my": "ထောင့်လေးထောင့်/တြိဂံပုံအတွင်း တောင်ကုန်းမတ်တက်ပုံနှင့် ရာခိုင်နှုန်းပါသော ဆိုင်းဘုတ်သည် ဘာကိုဆိုလိုသလဲ။"
       }
     }
   },
@@ -1218,7 +1218,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What is the typical speed limit on an expressway in Singapore unless otherwise signed?",
-      "my": "ဆိုင်းဘုတ်က အခြားနည်း မဖော်ပြလျှင် Singapore ၏ အမြန်လမ်းမတွင် ပုံမှန်အမြန်နှုန်းကန့်သတ်ချက် မည်မျှလဲ။"
+      "my": "ဆိုင်းဘုတ်က အခြားနည်း မဖော်ပြလျှင် Singapore၏ အမြန်လမ်းမတွင် ပုံမှန်အမြန်နှုန်းကန့်သတ်ချက် မည်မျှလဲ။"
     },
     "choices": [
       {
@@ -1287,7 +1287,7 @@
       "src": "/signs/sg/Unbroken Yellow Line.png",
       "alt": {
         "en": "What does a single continuous yellow line along the kerb mean?",
-        "my": "လမ်းအစွန်းရှိ မပြတ်တောက်သော ရွှေဝါရောင် မျဉ်းတစ်ကြောင်းသည် ဘ"
+        "my": "လမ်းအစွန်းရှိ မပြတ်တောက်သော ရွှေဝါရောင် မျဉ်းတစ်ကြောင်းသည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -1395,7 +1395,7 @@
     "answer": 0,
     "explanation": {
       "en": "At a T-junction, the road that ends (the stem of the T) must give way to traffic on the continuing through road.",
-      "my": "T-junction တွင် ကုန်ဆုံးသွားသောလမ်း (T ၏ အောက်ခြေအပိုင်း) သည် ဆက်လက်ဖြတ်သွားသော လမ်းမပေါ်ရှိ ယာဉ်ကြောကို လမ်းဖယ်ပေးရမည်။"
+      "my": "T-junction တွင် ကုန်ဆုံးသွားသောလမ်း (T၏ အောက်ခြေအပိုင်း) သည် ဆက်လက်ဖြတ်သွားသော လမ်းမပေါ်ရှိ ယာဉ်ကြောကို လမ်းဖယ်ပေးရမည်။"
     },
     "syllabusRef": "btt.signs.mandatory"
   },
@@ -1467,7 +1467,7 @@
     "answer": 1,
     "explanation": {
       "en": "School zones in Singapore typically enforce a reduced speed limit of 40 km/h during school hours to protect children.",
-      "my": "Singapore ၏ ကျောင်းဇုန်များသည် ကလေးများကို ကာကွယ်ရန် ကျောင်းချိန်များအတွင်း ပုံမှန်အားဖြင့် ၄၀ km/h အထိ လျှော့ချထားသော အမြန်နှုန်းကန့်သတ်ချက်ကို စောင့်ထိန်းသည်။"
+      "my": "Singapore၏ ကျောင်းဇုန်များသည် ကလေးများကို ကာကွယ်ရန် ကျောင်းချိန်များအတွင်း ပုံမှန်အားဖြင့် ၄၀ km/h အထိ လျှော့ချထားသော အမြန်နှုန်းကန့်သတ်ချက်ကို စောင့်ထိန်းသည်။"
     },
     "syllabusRef": "btt.signs.regulatory"
   },
@@ -1546,8 +1546,8 @@
       "type": "image",
       "src": "/signs/sg/Continuous White Line.png",
       "alt": {
-        "en": "What does a continuous white line in the middle of the road (separating two dire",
-        "my": "လမ်းအလယ်ရှိ (ဦးတည်ရာနှစ်ခုကို ပိုင်းခြားသော) မပြတ်တောက်သည့် "
+        "en": "What does a continuous white line in the middle of the road (separating two directions) mean?",
+        "my": "လမ်းအလယ်ရှိ (ဦးတည်ရာနှစ်ခုကို ပိုင်းခြားသော) မပြတ်တောက်သည့် အဖြူရောင်မျဉ်းသည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -1770,8 +1770,8 @@
       "type": "image",
       "src": "/signs/sg/Unbroken Double Yellow Lines.png",
       "alt": {
-        "en": "What do double yellow lines along the kerb typically indicate compared to a sing",
-        "my": "ရွှေဝါရောင်မျဉ်းနှစ်ကြောင်းသည် ရွှေဝါရောင်မျဉ်းတစ်ကြောင်းနှင"
+        "en": "What do double yellow lines along the kerb typically indicate compared to a single yellow line?",
+        "my": "ရွှေဝါရောင်မျဉ်းနှစ်ကြောင်းသည် ရွှေဝါရောင်မျဉ်းတစ်ကြောင်းနှင့် နှိုင်းယှဉ်လျှင် ပုံမှန်အားဖြင့် ဘာကို ပိုဆိုလိုတာလဲ။"
       }
     }
   },
@@ -2174,8 +2174,8 @@
       "type": "image",
       "src": "/signs/sg/Zebra Crossing.png",
       "alt": {
-        "en": "When a pedestrian is already on a zebra crossing without traffic lights, what mu",
-        "my": "ယာဉ်ထိန်းမီးလုံးမရှိသော zebra လူကူးမျဉ်းတွင် လူသွားလူလာတစ်ဦး"
+        "en": "When a pedestrian is already on a zebra crossing without traffic lights, what must drivers do?",
+        "my": "ယာဉ်ထိန်းမီးလုံးမရှိသော zebra လူကူးမျဉ်းတွင် လူသွားလူလာတစ်ဦး ရှိနှင့်ပြီးသားဖြစ်လျှင် ယာဉ်မောင်းသူများ ဘာလုပ်ရမည်လဲ။"
       }
     }
   },
@@ -2291,7 +2291,7 @@
       "src": "/signs/sg/Broken White Line.png",
       "alt": {
         "en": "What does a broken (dashed) white line between two lanes generally allow?",
-        "my": "လိုင်းနှစ်ခုကြားရှိ ပြတ်တောက်နေသော (အစက်စက်) အဖြူရောင်မျဉ်းသ"
+        "my": "လိုင်းနှစ်ခုကြားရှိ ပြတ်တောက်နေသော (အစက်စက်) အဖြူရောင်မျဉ်းသည် ပုံမှန်အားဖြင့် ဘာကို ခွင့်ပြုသလဲ။"
       }
     }
   },
@@ -3130,7 +3130,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What is the danger of 'aquaplaning' (hydroplaning) and when is it most likely?",
-      "my": "'aquaplaning' (ရေပေါ်ပျံချောခြင်း) ၏ အန္တရာယ်က ဘာလဲ၊ ဘယ်အချိန်တွင် အဖြစ်များဆုံးလဲ။"
+      "my": "'aquaplaning' (ရေပေါ်ပျံချောခြင်း)၏ အန္တရာယ်က ဘာလဲ၊ ဘယ်အချိန်တွင် အဖြစ်များဆုံးလဲ။"
     },
     "choices": [
       {
@@ -3342,8 +3342,8 @@
       "type": "image",
       "src": "/signs/sg/Height limit .png",
       "alt": {
-        "en": "A circular red sign shows '4.5m' between a downward and an upward arrow. What do",
-        "my": "အနီရောင် အဝိုင်းဆိုင်းဘုတ်တွင် အောက်/အထက် မြှားနှစ်ခုကြား '4"
+        "en": "A circular red sign shows '4.5m' between a downward and an upward arrow. What does it mean?",
+        "my": "အနီရောင် အဝိုင်းဆိုင်းဘုတ်တွင် အောက်/အထက် မြှားနှစ်ခုကြား '4.5m' ပြထားသည်။ ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -3422,8 +3422,8 @@
       "type": "image",
       "src": "/signs/sg/Keep left.png",
       "alt": {
-        "en": "What does a blue circular sign showing a white arrow pointing diagonally down to",
-        "my": "အဖြူရောင်မြှားကို ဘယ်ဘက်အောက်သို့ စောင်းညွှန်ထားသော အပြာစက်ဝ"
+        "en": "What does a blue circular sign showing a white arrow pointing diagonally down to the left instruct drivers to do?",
+        "my": "အဖြူရောင်မြှားကို ဘယ်ဘက်အောက်သို့ စောင်းညွှန်ထားသော အပြာစက်ဝိုင်းဆိုင်းဘုတ်သည် ယာဉ်မောင်းသူများကို ဘာလုပ်ခိုင်းသလဲ။"
       }
     }
   },
@@ -3467,7 +3467,7 @@
       "src": "/signs/sg/Unbroken Double White Lines.png",
       "alt": {
         "en": "What do double white lines along the centre of a road mean for overtaking?",
-        "my": "လမ်းအလယ်တွင် ပါရှိသော အဖြူရောင်မျဉ်းနှစ်ထပ်သည် ကျော်တက်ခြင်း"
+        "my": "လမ်းအလယ်တွင် ပါရှိသော အဖြူရောင်မျဉ်းနှစ်ထပ်သည် ကျော်တက်ခြင်းနှင့်ပတ်သက်၍ ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -3546,8 +3546,8 @@
       "type": "image",
       "src": "/signs/sg/Bus lane.png",
       "alt": {
-        "en": "A sign shows a bus symbol above the words '7.30am-9.30am, 5.00pm-8.00pm'. What d",
-        "my": "ဘတ်စ်ကားသင်္ကေတအောက်တွင် '7.30am-9.30am, 5.00pm-8.00pm' စာသာ"
+        "en": "A sign shows a bus symbol above the words '7.30am-9.30am, 5.00pm-8.00pm'. What does this mean for other vehicles?",
+        "my": "ဘတ်စ်ကားသင်္ကေတအောက်တွင် '7.30am-9.30am, 5.00pm-8.00pm' စာသားပါသော ဆိုင်းဘုတ်သည် အခြားယာဉ်များအတွက် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -3627,7 +3627,7 @@
       "src": "/signs/sg/Weight limit .png",
       "alt": {
         "en": "A red circular sign shows '10 TONNES' inside it. What does this restrict?",
-        "my": "အနီရောင်စက်ဝိုင်းဆိုင်းဘုတ်အတွင်း '10 TONNES' ဟု ပြထားသည်။ ဒ"
+        "my": "အနီရောင်စက်ဝိုင်းဆိုင်းဘုတ်အတွင်း '10 TONNES' ဟု ပြထားသည်။ ဒီသည် ဘာကို ကန့်သတ်သလဲ။"
       }
     }
   },
@@ -4607,7 +4607,7 @@
       "src": "/signs/sg/Unbroken Double Yellow Lines.png",
       "alt": {
         "en": "What does a double yellow line marked along the kerb indicate?",
-        "my": "လမ်းနောင်ဘေး ဆပ်ကြောင်းနှစ်ကြောင်း အဝါ မျဉ်းသည် ဘာကို ဆိုလို"
+        "my": "လမ်းနောင်ဘေး ဆပ်ကြောင်းနှစ်ကြောင်း အဝါ မျဉ်းသည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -4687,7 +4687,7 @@
       "src": "/signs/sg/Yellow Box.png",
       "alt": {
         "en": "A yellow box junction is marked on a road. When may a vehicle enter it?",
-        "my": "လမ်းတွင် အဝါရောင် သေတ္တာပုံ လမ်းဆုံ မှတ်သားထားသည်။ ယာဉ်တစ်စီ"
+        "my": "လမ်းတွင် အဝါရောင် သေတ္တာပုံ လမ်းဆုံ မှတ်သားထားသည်။ ယာဉ်တစ်စီး ဘယ်အချိန်တွင် ဝင်နိုင်သလဲ။"
       }
     }
   },
@@ -4910,8 +4910,8 @@
       "type": "image",
       "src": "/signs/sg/Slippery road.png",
       "alt": {
-        "en": "You are driving and see a red triangular sign with a picture of a car skidding. ",
-        "my": "ကားမောင်းနေစဉ် ကား ချော်နေသော ပုံပါ အနီရောင်တြိဂံဆိုင်းဘုတ်တ"
+        "en": "You are driving and see a red triangular sign with a picture of a car skidding. What does this warn you about?",
+        "my": "ကားမောင်းနေစဉ် ကား ချော်နေသော ပုံပါ အနီရောင်တြိဂံဆိုင်းဘုတ်တစ်ခု မြင်သည်။ ၎င်းသည် ဘာကို သတိပေးနေသလဲ?"
       }
     }
   },
@@ -4955,7 +4955,7 @@
       "src": "/signs/sg/Pedestrian crossing ahead.png",
       "alt": {
         "en": "What does a sign showing a pedestrian inside a triangle mean?",
-        "my": "တြိဂံပုံအတွင်း လမ်းလျှောက်သူပုံပါ ဆိုင်းဘုတ်သည် ဘာကို ဆိုလို"
+        "my": "တြိဂံပုံအတွင်း လမ်းလျှောက်သူပုံပါ ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -4999,7 +4999,7 @@
       "src": "/signs/sg/Speed limit(50).png",
       "alt": {
         "en": "What does a circular sign with '50' inside a red border mean?",
-        "my": "အနီရောင်နယ်နိမိတ်အတွင်း '50' ပါသော စက်ဝိုင်းဆိုင်းဘုတ်သည် ဘာ"
+        "my": "အနီရောင်နယ်နိမိတ်အတွင်း '50' ပါသော စက်ဝိုင်းဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -5079,7 +5079,7 @@
       "src": "/signs/sg/Ahead only.png",
       "alt": {
         "en": "What does a blue circular sign with a white arrow pointing up mean?",
-        "my": "အပေါ်ကိုညွှန်သော အဖြူရောင်မြှားပါ အပြာရောင်စက်ဝိုင်းဆိုင်းဘု"
+        "my": "အပေါ်ကိုညွှန်သော အဖြူရောင်မြှားပါ အပြာရောင်စက်ဝိုင်းဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -5159,7 +5159,7 @@
       "src": "/signs/sg/No entry for bicycles.png",
       "alt": {
         "en": "What does a sign showing a bicycle inside a red-bordered circle mean?",
-        "my": "အနီနယ်နိမိတ်စက်ဝိုင်းအတွင်း စက်ဘီးပုံပါ ဆိုင်းဘုတ်သည် ဘာကို "
+        "my": "အနီနယ်နိမိတ်စက်ဝိုင်းအတွင်း စက်ဘီးပုံပါ ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -5238,8 +5238,8 @@
       "type": "image",
       "src": "/signs/sg/Slippery road.png",
       "alt": {
-        "en": "A sign shows a car with skid marks beneath it inside a triangle. What does this ",
-        "my": "တြိဂံပုံအတွင်း ဘောင်ခတ်ကြောင်းများဘေးပါ ကားပုံပါ ဆိုင်းဘုတ်သ"
+        "en": "A sign shows a car with skid marks beneath it inside a triangle. What does this warn?",
+        "my": "တြိဂံပုံအတွင်း ဘောင်ခတ်ကြောင်းများဘေးပါ ကားပုံပါ ဆိုင်းဘုတ်သည် မည်သည်ကို သတိပေးသလဲ။"
       }
     }
   },
@@ -5283,7 +5283,7 @@
       "src": "/signs/sg/T junction.png",
       "alt": {
         "en": "What does a sign showing a 'T' junction symbol inside a triangle mean?",
-        "my": "တြိဂံပုံအတွင်း 'T' ဆုံအဆုံ သင်္ကေတပါ ဆိုင်းဘုတ်သည် ဘာကို ဆို"
+        "my": "တြိဂံပုံအတွင်း 'T' ဆုံအဆုံ သင်္ကေတပါ ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -5327,7 +5327,7 @@
       "src": "/signs/sg/Steep upward slope.png",
       "alt": {
         "en": "What does a triangular sign showing a car on an upward (uphill) slope warn?",
-        "my": "တြိဂံပုံအတွင်း ကုန်းပေါ်တက်နေသော ကားသင်္ကေတပါ ဆိုင်းဘုတ်သည် "
+        "my": "တြိဂံပုံအတွင်း ကုန်းပေါ်တက်နေသော ကားသင်္ကေတပါ ဆိုင်းဘုတ်သည် မည်သည်ကို သတိပေးသလဲ။"
       }
     }
   },
@@ -5371,7 +5371,7 @@
       "src": "/signs/sg/Parking Signboard.png",
       "alt": {
         "en": "What does a rectangular blue sign with a white 'P' mean?",
-        "my": "အဖြူရောင် 'P' ပါ အပြာရောင် ထောင့်မှန်ကိုက်ဆိုင်းဘုတ်သည် ဘာကိ"
+        "my": "အဖြူရောင် 'P' ပါ အပြာရောင် ထောင့်မှန်ကိုက်ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -5450,8 +5450,8 @@
       "type": "image",
       "src": "/signs/sg/No overtaking .png",
       "alt": {
-        "en": "What does a sign with two cars side by side inside a red-bordered circle with a ",
-        "my": "ဖြတ်ကြောင်းပါ အနီနယ်နိမိတ်စက်ဝိုင်းအတွင်း ကားနှစ်စီ ယှဉ်တွဲပ"
+        "en": "What does a sign with two cars side by side inside a red-bordered circle with a line through it mean?",
+        "my": "ဖြတ်ကြောင်းပါ အနီနယ်နိမိတ်စက်ဝိုင်းအတွင်း ကားနှစ်စီ ယှဉ်တွဲပါ ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -5494,8 +5494,8 @@
       "type": "image",
       "src": "/signs/sg/No sounding of horn.png",
       "alt": {
-        "en": "What does a sign with a horn inside a red-bordered circle with a line through it",
-        "my": "ဖြတ်ကြောင်းပါ အနီနယ်နိမိတ်စက်ဝိုင်းအတွင်း ဟောင်းသံပေးကိရိယာပ"
+        "en": "What does a sign with a horn inside a red-bordered circle with a line through it mean?",
+        "my": "ဖြတ်ကြောင်းပါ အနီနယ်နိမိတ်စက်ဝိုင်းအတွင်း ဟောင်းသံပေးကိရိယာပုံပါ ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -5539,7 +5539,7 @@
       "src": "/signs/sg/Road hump ahead.png",
       "alt": {
         "en": "A sign shows a speed bump symbol inside a triangle. What should you do?",
-        "my": "တြိဂံပုံအတွင်း အမြန်နှုန်းတားဆီးနံ သင်္ကေတပါ ဆိုင်းဘုတ်ကို မ"
+        "my": "တြိဂံပုံအတွင်း အမြန်နှုန်းတားဆီးနံ သင်္ကေတပါ ဆိုင်းဘုတ်ကို မြင်ပါက ဘာလုပ်သင့်သလဲ။"
       }
     }
   },
@@ -5691,7 +5691,7 @@
       "src": "/signs/sg/Roadworks.png",
       "alt": {
         "en": "What does a triangular sign showing a digging machine (roadworks symbol) mean?",
-        "my": "တြိဂံပုံအတွင်း လမ်းတူးစက်ပုံပါ ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ"
+        "my": "တြိဂံပုံအတွင်း လမ်းတူးစက်ပုံပါ ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -5987,7 +5987,7 @@
       "src": "/signs/sg/Unbroken Double Yellow Lines.png",
       "alt": {
         "en": "What do double yellow lines painted at the edge of a road mean?",
-        "my": "လမ်းဘောင်တွင် ဆေးထိုးထားသော ကြောင်းနှစ်ကြောင်း အဝါဆေးများ ဆိ"
+        "my": "လမ်းဘောင်တွင် ဆေးထိုးထားသော ကြောင်းနှစ်ကြောင်း အဝါဆေးများ ဆိုတာပါမှာ ဘာလဲ။"
       }
     }
   },
@@ -6075,7 +6075,7 @@
       "src": "/signs/sg/A Single Yellow Zig-Zag Line.png",
       "alt": {
         "en": "Yellow zigzag lines on the road near a school or bus stop mean:",
-        "my": "ကျောင်း သို့မဟုတ် ဘတ်စ်ကားမှတ်တိုင်အနီး လမ်းပေါ်ရှိ အဝါရောင်"
+        "my": "ကျောင်း သို့မဟုတ် ဘတ်စ်ကားမှတ်တိုင်အနီး လမ်းပေါ်ရှိ အဝါရောင်ဇစ်ဇက်ကြောင်းများ ဆိုတာပါမှာ:"
       }
     }
   },
@@ -6118,8 +6118,8 @@
       "type": "image",
       "src": "/signs/sg/Unbroken Yellow Line.png",
       "alt": {
-        "en": "You want to park your car. There is a single yellow line with a sign showing 7am",
-        "my": "ကားပါကင်ဖို့ ရှိသည်။ 7am–7pm ဆိုင်းဘုတ်ပါ ကြောင်းတစ်ကြောင်း "
+        "en": "You want to park your car. There is a single yellow line with a sign showing 7am–7pm. It is 8pm. Can you park?",
+        "my": "ကားပါကင်ဖို့ ရှိသည်။ 7am–7pm ဆိုင်းဘုတ်ပါ ကြောင်းတစ်ကြောင်း အဝါဆေးတွင် ညနေ 8 နာရီဖြစ်သည်။ ပါကင်ရပ် နိုင်သလား။"
       }
     }
   },
@@ -7250,8 +7250,8 @@
       "type": "image",
       "src": "/signs/sg/Zebra Crossing.png",
       "alt": {
-        "en": "A pedestrian is standing at the kerb of a zebra crossing but has not yet stepped",
-        "my": "ကျားဒင်ဖြတ်ကူးနေရာ ဘောင်တွင် လမ်းလျှောက်သူ ရပ်နေသော်လည်း မတက"
+        "en": "A pedestrian is standing at the kerb of a zebra crossing but has not yet stepped onto it. What should you do?",
+        "my": "ကျားဒင်ဖြတ်ကူးနေရာ ဘောင်တွင် လမ်းလျှောက်သူ ရပ်နေသော်လည်း မတက်လှမ်းသေးပါ။ ဘာလုပ်သင့်သလဲ။"
       }
     }
   },
@@ -8051,7 +8051,7 @@
       "src": "/signs/sg/Yellow Box.png",
       "alt": {
         "en": "What do yellow box junction markings on the road mean?",
-        "my": "လမ်းပေါ်ရှိ အဝါရောင် ဘောင်ကွပ်ဆုံ (yellow box junction) မှတ်"
+        "my": "လမ်းပေါ်ရှိ အဝါရောင် ဘောင်ကွပ်ဆုံ (yellow box junction) မှတ်ပြုကြောင်းများ ဘာကို ဆိုလိုသလဲ။"
       }
     }
   },
@@ -8714,8 +8714,8 @@
       "type": "image",
       "src": "/signs/sg/Stop.png",
       "alt": {
-        "en": "This sign is found at intersections. What does it mean for drivers approaching i",
-        "my": "ဒီ ဆိုင်းဘုတ်ကို လမ်းဆုံများတွင် တွေ့ရသည်။ ချဉ်းကပ်နေသောယာဉ်"
+        "en": "This sign is found at intersections. What does it mean for drivers approaching it?",
+        "my": "ဒီ ဆိုင်းဘုတ်ကို လမ်းဆုံများတွင် တွေ့ရသည်။ ချဉ်းကပ်နေသောယာဉ်မောင်းများအတွက် မည်သည့် အဓိပ္ပာယ်ဖြစ်သလဲ?"
       }
     }
   },
@@ -8810,7 +8810,7 @@
       {
         "text": {
           "en": "Keep to the left of the obstacle or divider ahead",
-          "my": "ရှေ့တွင်ရှိသော အတားအဆီး သို့မဟုတ် ခွဲကန့် ၏ ဘယ်ဘက်တွင် နေပါ"
+          "my": "ရှေ့တွင်ရှိသော အတားအဆီး သို့မဟုတ် ခွဲကန့်၏ ဘယ်ဘက်တွင် နေပါ"
         }
       },
       {
@@ -8831,7 +8831,7 @@
       "src": "/signs/sg/Keep left.png",
       "alt": {
         "en": "You see a blue circular sign with a white downward-left arrow. What must you do?",
-        "my": "ဘယ်ဘက်အောက်ဖြင့် ညွှန်နေသော အဖြူရောင်မြှားပါ အပြာရောင်စက်ဝို"
+        "my": "ဘယ်ဘက်အောက်ဖြင့် ညွှန်နေသော အဖြူရောင်မြှားပါ အပြာရောင်စက်ဝိုင်းဆိုင်းဘုတ်တစ်ခု မြင်သည်။ ဘာ ဆောင်ရွက်ရမည်လဲ?"
       }
     }
   },
@@ -8842,7 +8842,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "A blue circular sign with a white upward arrow means:",
-      "my": "အဖြူ အပေါ်သို့ မြှားပါသော အပြာ ဝိုင်းပတ် ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "အဖြူ အပေါ်သို့ မြှားပါသော အပြာ ဝိုင်းပတ် ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -8875,7 +8875,7 @@
       "src": "/signs/sg/Ahead only.png",
       "alt": {
         "en": "A blue circular sign with a white upward arrow means:",
-        "my": "အဖြူ အပေါ်သို့ မြှားပါသော အပြာ ဝိုင်းပတ် ဆိုင်းဘုတ် ၏ အဓိပ္ပ"
+        "my": "အဖြူ အပေါ်သို့ မြှားပါသော အပြာ ဝိုင်းပတ် ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -8886,7 +8886,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "A blue circular sign with a white bicycle symbol means:",
-      "my": "အဖြူ စက်ဘီး သင်္ကေတ ပါသော အပြာ ဝိုင်းပတ် ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "အဖြူ စက်ဘီး သင်္ကေတ ပါသော အပြာ ဝိုင်းပတ် ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -8922,7 +8922,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A blue circle showing a pedestrian and bicycle symbol side by side means:",
-      "my": "လမ်းလျောက်သူနှင့် စက်ဘီး သင်္ကေတ နှစ်ခုပေါင်း ပါသော အပြာ ဝိုင်းပတ် ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "လမ်းလျောက်သူနှင့် စက်ဘီး သင်္ကေတ နှစ်ခုပေါင်း ပါသော အပြာ ဝိုင်းပတ် ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9026,8 +9026,8 @@
       "type": "image",
       "src": "/signs/sg/No entry.png",
       "alt": {
-        "en": "A red circular sign with a white horizontal bar is placed at a road entrance. Wh",
-        "my": "လမ်းဝင်ပေါက်တစ်ခုတွင် အဖြူရောင်အလျားတန်းပါ အနီရောင်စက်ဝိုင်း"
+        "en": "A red circular sign with a white horizontal bar is placed at a road entrance. What does this mean for drivers?",
+        "my": "လမ်းဝင်ပေါက်တစ်ခုတွင် အဖြူရောင်အလျားတန်းပါ အနီရောင်စက်ဝိုင်းဆိုင်းဘုတ်တစ်ခု ရှိသည်။ ယာဉ်မောင်းသူများအတွက် ဘာကို ဆိုလိုသလဲ?"
       }
     }
   },
@@ -9038,7 +9038,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "A red circle with a horizontal white bar means:",
-      "my": "အဖြူ အလျားလိုက် ဘား ပါသော အနီ ဝိုင်းပတ် ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "အဖြူ အလျားလိုက် ဘား ပါသော အနီ ဝိုင်းပတ် ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9071,7 +9071,7 @@
       "src": "/signs/sg/No entry.png",
       "alt": {
         "en": "A red circle with a horizontal white bar means:",
-        "my": "အဖြူ အလျားလိုက် ဘား ပါသော အနီ ဝိုင်းပတ် ဆိုင်းဘုတ် ၏ အဓိပ္ပာ"
+        "my": "အဖြူ အလျားလိုက် ဘား ပါသော အနီ ဝိုင်းပတ် ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -9082,7 +9082,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What does a blue sign with a red border and a large red cross (×) mean?",
-      "my": "အနီ နယ်နိမိတ်နှင့် အနီ ကြက်ခြေ (×) ကြီး ပါသော အပြာ ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "အနီ နယ်နိမိတ်နှင့် အနီ ကြက်ခြေ (×) ကြီး ပါသော အပြာ ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9115,7 +9115,7 @@
       "src": "/signs/sg/No stopping.png",
       "alt": {
         "en": "What does a blue sign with a red border and a large red cross (×) mean?",
-        "my": "အနီ နယ်နိမိတ်နှင့် အနီ ကြက်ခြေ (×) ကြီး ပါသော အပြာ ဆိုင်းဘုတ"
+        "my": "အနီ နယ်နိမိတ်နှင့် အနီ ကြက်ခြေ (×) ကြီး ပါသော အပြာ ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -9170,7 +9170,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a prohibitory sign with '>23m<' mean?",
-      "my": "'>23m<' ဟု ဖော်ပြသော တားမြစ် ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "'>23m<' ဟု ဖော်ပြသော တားမြစ် ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9206,7 +9206,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A prohibitory sign shows '4.5m' inside a red circle. What does it mean?",
-      "my": "အနီ ဝိုင်းပတ်ထဲ '4.5m' ဟု ပြသော တားမြစ် ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "အနီ ဝိုင်းပတ်ထဲ '4.5m' ဟု ပြသော တားမြစ် ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9239,7 +9239,7 @@
       "src": "/signs/sg/Height limit .png",
       "alt": {
         "en": "A prohibitory sign shows '4.5m' inside a red circle. What does it mean?",
-        "my": "အနီ ဝိုင်းပတ်ထဲ '4.5m' ဟု ပြသော တားမြစ် ဆိုင်းဘုတ် ၏ အဓိပ္ပာ"
+        "my": "အနီ ဝိုင်းပတ်ထဲ '4.5m' ဟု ပြသော တားမြစ် ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -9250,7 +9250,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a '10 TONNES' prohibitory sign mean?",
-      "my": "'10 TONNES' ဟု ဖော်ပြသော တားမြစ် ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "'10 TONNES' ဟု ဖော်ပြသော တားမြစ် ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9283,7 +9283,7 @@
       "src": "/signs/sg/Weight limit .png",
       "alt": {
         "en": "What does a '10 TONNES' prohibitory sign mean?",
-        "my": "'10 TONNES' ဟု ဖော်ပြသော တားမြစ် ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သ"
+        "my": "'10 TONNES' ဟု ဖော်ပြသော တားမြစ် ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -9294,7 +9294,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A red circle with a speed number inside (e.g. 90) means:",
-      "my": "အနီ ဝိုင်းပတ်ထဲ မြန်နှုန်း ဂဏန်း (ဥပမာ ၉၀) ပါသော ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "အနီ ဝိုင်းပတ်ထဲ မြန်နှုန်း ဂဏန်း (ဥပမာ ၉၀) ပါသော ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9374,7 +9374,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A red circle with a motorcycle inside (diagonal bar) means:",
-      "my": "မော်တော်ဆိုင်ကယ် ပါ အနီ ဝိုင်းပတ် (ဖြတ်တန်း) ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "မော်တော်ဆိုင်ကယ် ပါ အနီ ဝိုင်းပတ် (ဖြတ်တန်း) ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9407,7 +9407,7 @@
       "src": "/signs/sg/No entry for motorcycles .png",
       "alt": {
         "en": "A red circle with a motorcycle inside (diagonal bar) means:",
-        "my": "မော်တော်ဆိုင်ကယ် ပါ အနီ ဝိုင်းပတ် (ဖြတ်တန်း) ဆိုင်းဘုတ် ၏ အဓ"
+        "my": "မော်တော်ဆိုင်ကယ် ပါ အနီ ဝိုင်းပတ် (ဖြတ်တန်း) ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -9490,7 +9490,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A warning sign shows a T-shape. What does it mean?",
-      "my": "T ပုံသဏ္ဌာန် ပါ သတိပေး ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "T ပုံသဏ္ဌာန် ပါ သတိပေး ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9526,7 +9526,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A warning sign shows a minor road merging into the main road. What does this mean?",
-      "my": "အနီးလမ်းတစ်ခု အဓိကလမ်းထဲ ပေါင်းဝင်သွားသည့် သတိပေး ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "အနီးလမ်းတစ်ခု အဓိကလမ်းထဲ ပေါင်းဝင်သွားသည့် သတိပေး ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9558,8 +9558,8 @@
       "type": "image",
       "src": "/signs/sg/Merging traffic.png",
       "alt": {
-        "en": "A warning sign shows a minor road merging into the main road. What does this mea",
-        "my": "အနီးလမ်းတစ်ခု အဓိကလမ်းထဲ ပေါင်းဝင်သွားသည့် သတိပေး ဆိုင်းဘုတ်"
+        "en": "A warning sign shows a minor road merging into the main road. What does this mean?",
+        "my": "အနီးလမ်းတစ်ခု အဓိကလမ်းထဲ ပေါင်းဝင်သွားသည့် သတိပေး ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -9570,7 +9570,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A triangular warning sign shows a wavy line. What does it warn of?",
-      "my": "လှိုင်းပုံ ကြောင်း ပါ တြိဂံ သတိပေး ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "လှိုင်းပုံ ကြောင်း ပါ တြိဂံ သတိပေး ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9606,7 +9606,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A warning sign shows a person walking with a cane next to a person in a wheelchair. What does it mean?",
-      "my": "တုတ်ကိုင် လမ်းလျောက်သူနှင့် ကဲလတ်ကုလားထိုင် ပါ သတိပေး ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "တုတ်ကိုင် လမ်းလျောက်သူနှင့် ကဲလတ်ကုလားထိုင် ပါ သတိပေး ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9678,7 +9678,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "A rectangular blue sign with 'ONE WAY' and a white arrow means:",
-      "my": "'ONE WAY' နှင့် အဖြူ မြှား ပါ ထောင့်မှန် အပြာ ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "'ONE WAY' စာတန်းနှင့် အဖြူရောင်မြှားပါသော ထောင့်မှန်ပုံ အပြာရောင်ဆိုင်းဘုတ်၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း?"
     },
     "choices": [
       {
@@ -9711,7 +9711,7 @@
       "src": "/signs/sg/One-way street.png",
       "alt": {
         "en": "A rectangular blue sign with 'ONE WAY' and a white arrow means:",
-        "my": "'ONE WAY' နှင့် အဖြူ မြှား ပါ ထောင့်မှန် အပြာ ဆိုင်းဘုတ် ၏ အ"
+        "my": "'ONE WAY' နှင့် အဖြူ မြှား ပါ ထောင့်မှန် အပြာ ဆိုင်းဘုတ်၏ အ"
       }
     }
   },
@@ -9722,7 +9722,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a 'DETOUR' sign indicate?",
-      "my": "'DETOUR' ဆိုင်းဘုတ် ၏ ညွှန်ပြချက် မည်သလဲ?"
+      "my": "'DETOUR' ဆိုင်းဘုတ်၏ ညွှန်ပြချက် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9755,7 +9755,7 @@
       "src": "/signs/sg/detour ahead.png",
       "alt": {
         "en": "What does a 'DETOUR' sign indicate?",
-        "my": "'DETOUR' ဆိုင်းဘုတ် ၏ ညွှန်ပြချက် မည်သလဲ?"
+        "my": "'DETOUR' ဆိုင်းဘုတ်၏ ညွှန်ပြချက် မည်သလဲ?"
       }
     }
   },
@@ -9910,7 +9910,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "A broken white line in the centre of a two-way road means:",
-      "my": "နှစ်လမ်း ကြောင်း လမ်းမ အလယ်ရှိ ကျဲ အဖြူ ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "နှစ်လမ်း ကြောင်း လမ်းမ အလယ်ရှိ ကျဲ အဖြူ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9935,7 +9935,7 @@
     "answer": 0,
     "explanation": {
       "en": "A broken white centre line divides a two-way road. Keep left of it; you may cross it to overtake only when it is safe to do so.",
-      "my": "ကျဲ အဖြူ အလယ်ကြောင်းသည် နှစ်လမ်း ကြောင်း လမ်းကို ပိုင်းခြားသည်။ ၎င်း ၏ ဘယ်ဘက် ကပ်ပါ; ဘေးကင်းမှသာ ကျော်ရန် ဖြတ်ကူးနိုင်သည်။"
+      "my": "ကျဲ အဖြူ အလယ်ကြောင်းသည် နှစ်လမ်း ကြောင်း လမ်းကို ပိုင်းခြားသည်။ ၎င်း၏ ဘယ်ဘက် ကပ်ပါ; ဘေးကင်းမှသာ ကျော်ရန် ဖြတ်ကူးနိုင်သည်။"
     },
     "syllabusRef": "btt.signs.prohibitory",
     "media": {
@@ -9943,7 +9943,7 @@
       "src": "/signs/sg/Broken White Line.png",
       "alt": {
         "en": "A broken white line in the centre of a two-way road means:",
-        "my": "နှစ်လမ်း ကြောင်း လမ်းမ အလယ်ရှိ ကျဲ အဖြူ ကြောင်း ၏ အဓိပ္ပာယ် "
+        "my": "နှစ်လမ်း ကြောင်း လမ်းမ အလယ်ရှိ ကျဲ အဖြူ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -9954,7 +9954,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "A double continuous white line in the centre of the road means:",
-      "my": "လမ်း အလယ်ရှိ နှစ်ကြောင်း ဆက်တိုက် အဖြူ ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "လမ်း အလယ်ရှိ နှစ်ကြောင်း ဆက်တိုက် အဖြူ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -9987,7 +9987,7 @@
       "src": "/signs/sg/Unbroken Double White Lines.png",
       "alt": {
         "en": "A double continuous white line in the centre of the road means:",
-        "my": "လမ်း အလယ်ရှိ နှစ်ကြောင်း ဆက်တိုက် အဖြူ ကြောင်း ၏ အဓိပ္ပာယ် မ"
+        "my": "လမ်း အလယ်ရှိ နှစ်ကြောင်း ဆက်တိုက် အဖြူ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -9998,7 +9998,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A yellow line along the side of the road means:",
-      "my": "လမ်းနှင်းဆီ ရှိ အဝါ ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "လမ်းနှင်းဆီ ရှိ အဝါ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -10031,7 +10031,7 @@
       "src": "/signs/sg/Unbroken Yellow Line.png",
       "alt": {
         "en": "A yellow line along the side of the road means:",
-        "my": "လမ်းနှင်းဆီ ရှိ အဝါ ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+        "my": "လမ်းနှင်းဆီ ရှိ အဝါ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -10042,7 +10042,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a double yellow line along the side of the road mean?",
-      "my": "လမ်းနှင်းဆီ ရှိ နှစ်ကြောင်း အဝါ ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "လမ်းနှင်းဆီ ရှိ နှစ်ကြောင်း အဝါ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -10075,7 +10075,7 @@
       "src": "/signs/sg/Unbroken Double Yellow Lines.png",
       "alt": {
         "en": "What does a double yellow line along the side of the road mean?",
-        "my": "လမ်းနှင်းဆီ ရှိ နှစ်ကြောင်း အဝါ ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+        "my": "လမ်းနှင်းဆီ ရှိ နှစ်ကြောင်း အဝါ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -10118,8 +10118,8 @@
       "type": "image",
       "src": "/signs/sg/Double Yellow Zig-Zag Lines.png",
       "alt": {
-        "en": "A friend asks you to stop beside double yellow zig-zag lines outside an office t",
-        "my": "သူငယ်ချင်းတစ်ဦးသည် ရုံးအပြင်ရှိ ဆပ်ကြောင်းနှစ်ကြောင်း အဝါ ဇစ"
+        "en": "A friend asks you to stop beside double yellow zig-zag lines outside an office to pick them up quickly. What should you do?",
+        "my": "သူငယ်ချင်းတစ်ဦးသည် ရုံးအပြင်ရှိ ဆပ်ကြောင်းနှစ်ကြောင်း အဝါ ဇစ်ဇက်ကြောင်းဘေးတွင် မြန်ဆန်စွာ လာကြိုရန် ရပ်ခိုင်းသည်။ သင် ဘာလုပ်သင့်သလဲ။"
       }
     }
   },
@@ -10130,7 +10130,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A zigzag white line near a pedestrian crossing means:",
-      "my": "လမ်းလျောက်သူ ဖြတ်ကူးရာ နား ဇစ်ဇပ် အဖြူ ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "လမ်းလျောက်သူ ဖြတ်ကူးရာ နား ဇစ်ဇပ် အဖြူ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -10163,7 +10163,7 @@
       "src": "/signs/sg/Zig-Zag Lines by Side of the Road.png",
       "alt": {
         "en": "A zigzag white line near a pedestrian crossing means:",
-        "my": "လမ်းလျောက်သူ ဖြတ်ကူးရာ နား ဇစ်ဇပ် အဖြူ ကြောင်း ၏ အဓိပ္ပာယ် မ"
+        "my": "လမ်းလျောက်သူ ဖြတ်ကူးရာ နား ဇစ်ဇပ် အဖြူ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -10282,7 +10282,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What are the operating hours of a normal bus lane (Mon–Fri)?",
-      "my": "ပုံမှန် ဘတ်စ်ကား လမ်းကြောင်း (တနင်္လာ-သောကြာ) ၏ လည်ပတ်ချိန် မည်သည်လဲ?"
+      "my": "ပုံမှန် ဘတ်စ်ကား လမ်းကြောင်း (တနင်္လာ-သောကြာ)၏ လည်ပတ်ချိန် မည်သည်လဲ?"
     },
     "choices": [
       {
@@ -10354,7 +10354,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "At a pedestrian crossing with a flashing green man, what does this mean?",
-      "my": "အစိမ်းလူပုံ မှိတ်တုတ်မှိတ်တုတ် ပြနေသော လမ်းလျောက်သူ ဖြတ်ကူးရာတွင် ၎င်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "အစိမ်းလူပုံ မှိတ်တုတ်မှိတ်တုတ် ပြနေသော လမ်းလျောက်သူ ဖြတ်ကူးရာတွင် ၎င်း၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -10387,7 +10387,7 @@
       "src": "/signs/sg/Pedestrian signal ‘Green Man.png",
       "alt": {
         "en": "At a pedestrian crossing with a flashing green man, what does this mean?",
-        "my": "အစိမ်းလူပုံ မှိတ်တုတ်မှိတ်တုတ် ပြနေသော လမ်းလျောက်သူ ဖြတ်ကူးရ"
+        "my": "အစိမ်းလူပုံ မှိတ်တုတ်မှိတ်တုတ် ပြနေသော လမ်းလျောက်သူ ဖြတ်ကူးရာတွင် ၎င်း၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -10431,7 +10431,7 @@
       "src": "/signs/sg/Raised Zebra Crossing.png",
       "alt": {
         "en": "What is a 'Raised Zebra Crossing' and what should drivers do there?",
-        "my": "'Raised Zebra Crossing' ဆိုသည် မည်သည်လဲ၊ ယာဉ်မောင်းများ ၎င်း"
+        "my": "'Raised Zebra Crossing' ဆိုသည် မည်သည်လဲ၊ ယာဉ်မောင်းများ ၎င်းတွင် မည်သို့ ဆောင်ရွက်ရမည်လဲ?"
       }
     }
   },
@@ -10442,7 +10442,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A red light camera sign ahead means:",
-      "my": "ရှေ့ Red Light Camera ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "ရှေ့ Red Light Camera ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -10550,7 +10550,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What does an amber (orange) traffic light mean?",
-      "my": "ကြာပဲ (လိမ္မော်ရောင်) မီးပွိုင့် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "ကြာပဲ (လိမ္မော်ရောင်) မီးပွိုင့်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -10586,7 +10586,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a flashing amber light at a junction mean?",
-      "my": "လမ်းဆုံ ရှိ မှိတ်တုတ် ကြာပဲမီး ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "လမ်းဆုံ ရှိ မှိတ်တုတ် ကြာပဲမီး၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -10622,7 +10622,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does 'Left Turn on Red' at a traffic junction mean?",
-      "my": "မီးပွိုင့် ရှိ 'Left Turn on Red' ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "မီးပွိုင့်ရှိ 'Left Turn on Red' ဆိုင်းဘုတ်၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း?"
     },
     "choices": [
       {
@@ -10730,7 +10730,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "A sign saying 'Speed Camera Ahead' warns that:",
-      "my": "'Speed Camera Ahead' ဆိုင်းဘုတ် ၏ သတိပေးချက် မည်သလဲ?"
+      "my": "'Speed Camera Ahead' ဆိုင်းဘုတ်၏ သတိပေးချက် မည်သလဲ?"
     },
     "choices": [
       {
@@ -10766,7 +10766,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does an ERP (Electronic Road Pricing) sign indicate?",
-      "my": "ERP (Electronic Road Pricing) ဆိုင်းဘုတ် ၏ ညွှန်ပြချက် မည်သလဲ?"
+      "my": "ERP (Electronic Road Pricing) ဆိုင်းဘုတ်၏ ညွှန်ပြချက် မည်သလဲ?"
     },
     "choices": [
       {
@@ -10799,7 +10799,7 @@
       "src": "/signs/sg/Pricing Zone ahead.png",
       "alt": {
         "en": "What does an ERP (Electronic Road Pricing) sign indicate?",
-        "my": "ERP (Electronic Road Pricing) ဆိုင်းဘုတ် ၏ ညွှန်ပြချက် မည်သလ"
+        "my": "ERP (Electronic Road Pricing) ဆိုင်းဘုတ်၏ ညွှန်ပြချက် မည်သလဲ?"
       }
     }
   },
@@ -11098,7 +11098,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "When should you use dipped (low beam) headlights instead of full beam?",
-      "my": "မီး အပြည့် (full beam) အစား မှောင်ချ (low beam) မီး မည်သောအခါ သုံးသင့်သလဲ?"
+      "my": "မီးအပြည့် (full beam) အစား မှိန်မီး (low beam) ကို မည်သည့်အခါ သုံးသင့်သနည်း?"
     },
     "choices": [
       {
@@ -13175,7 +13175,7 @@
     "answer": 1,
     "explanation": {
       "en": "You must be able to read 6 letters or numerals (white on black background) from 25 metres. Glasses/contact lenses are allowed. Colour-blind drivers need a letter from a government hospital eye specialist.",
-      "my": "အမည်း နောက်ခံ အပေါ် အဖြူ ၆ စာ/ဂဏန်း ကို ၂၅ မီတာ မှ ဖတ်နိုင်ရမည်။ မျက်မှန်/contact lens ပါ ခွင့်ပြုသည်။ အရောင် မခွဲတတ်သောသူ ဆိုပါက အစိုးရ ဆေးရုံ မျက်စိ ကျွမ်းကျင်ပညာရှင် ၏ လက်မှတ် လိုအပ်သည်။"
+      "my": "အမည်း နောက်ခံ အပေါ် အဖြူ ၆ စာ/ဂဏန်း ကို ၂၅ မီတာ မှ ဖတ်နိုင်ရမည်။ မျက်မှန်/contact lens ပါ ခွင့်ပြုသည်။ အရောင် မခွဲတတ်သောသူ ဆိုပါက အစိုးရ ဆေးရုံ မျက်စိ ကျွမ်းကျင်ပညာရှင်၏ လက်မှတ် လိုအပ်သည်။"
     },
     "syllabusRef": "btt.signs.mandatory"
   },
@@ -13211,7 +13211,7 @@
     "answer": 2,
     "explanation": {
       "en": "Defensive driving means anticipating hazards, keeping safe distances, being alert at all times, and being prepared to react to the actions of other road users.",
-      "my": "Defensive driving ဆိုသည်မှာ အန္တရာယ် ကြိုမြင်ပြီး ဘေးကင်းသော ကွာဟချက်များ ထိန်းသိမ်းကာ အချိန်မရွေး သတိနိုးကြားပြီး အခြား လမ်းသုံးသူများ ၏ ဆောင်ရွက်မှုများကို တုံ့ပြန်ရန် ပြင်ဆင်ထားခြင်း ဖြစ်သည်။"
+      "my": "Defensive driving ဆိုသည်မှာ အန္တရာယ် ကြိုမြင်ပြီး ဘေးကင်းသော ကွာဟချက်များ ထိန်းသိမ်းကာ အချိန်မရွေး သတိနိုးကြားပြီး အခြား လမ်းသုံးသူများ၏ ဆောင်ရွက်မှုများကို တုံ့ပြန်ရန် ပြင်ဆင်ထားခြင်း ဖြစ်သည်။"
     },
     "syllabusRef": "btt.conduct.following"
   },
@@ -13222,7 +13222,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "How does alcohol affect a driver's ability?",
-      "my": "အရက် သည် ယာဉ်မောင်း ၏ စွမ်းဆောင်ရည် ကို မည်သို့ အကျိုးသက်ရောက်သလဲ?"
+      "my": "အရက် သည် ယာဉ်မောင်း၏ စွမ်းဆောင်ရည် ကို မည်သို့ အကျိုးသက်ရောက်သလဲ?"
     },
     "choices": [
       {
@@ -13582,7 +13582,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a 'Tow Away Zone' sign mean?",
-      "my": "'Tow Away Zone' ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "'Tow Away Zone' ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -13594,7 +13594,7 @@
       {
         "text": {
           "en": "Vehicles parked here will be towed away at the owner's expense",
-          "my": "ဒီနေရာ ရပ်နားသော ယာဉ်များ ပိုင်ရှင် ၏ ကုန်ကျစရိတ်ဖြင့် ဆွဲသွားမည်"
+          "my": "ဒီနေရာ ရပ်နားသော ယာဉ်များ ပိုင်ရှင်၏ ကုန်ကျစရိတ်ဖြင့် ဆွဲသွားမည်"
         }
       },
       {
@@ -13654,7 +13654,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What does a 'Give Way to Buses Exiting' sign mean?",
-      "my": "'Give Way to Buses Exiting' ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "'Give Way to Buses Exiting' ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -13687,7 +13687,7 @@
       "src": "/signs/sg/Give-way to buse.png",
       "alt": {
         "en": "What does a 'Give Way to Buses Exiting' sign mean?",
-        "my": "'Give Way to Buses Exiting' ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+        "my": "'Give Way to Buses Exiting' ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -13842,7 +13842,7 @@
     "difficulty": "hard",
     "prompt": {
       "en": "What is the exception for stopping in a yellow box junction?",
-      "my": "Yellow box လမ်းဆုံ တွင် ရပ်ခြင်း ၏ ခြွင်းချက် မည်သည်လဲ?"
+      "my": "Yellow box လမ်းဆုံ တွင် ရပ်ခြင်း၏ ခြွင်းချက် မည်သည်လဲ?"
     },
     "choices": [
       {
@@ -13875,7 +13875,7 @@
       "src": "/signs/sg/Yellow Box.png",
       "alt": {
         "en": "What is the exception for stopping in a yellow box junction?",
-        "my": "Yellow box လမ်းဆုံ တွင် ရပ်ခြင်း ၏ ခြွင်းချက် မည်သည်လဲ?"
+        "my": "Yellow box လမ်းဆုံ တွင် ရပ်ခြင်း၏ ခြွင်းချက် မည်သည်လဲ?"
       }
     }
   },
@@ -14174,7 +14174,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does this blue \"Give Way to Buses Exiting\" sign instruct drivers to do?",
-      "my": "ဤ \"Give Way to Buses Exiting\" အပြာ ဆိုင်းဘုတ်သည် ယာဉ်မောင်းများ ကို ဘာ လုပ်ရန် ညွှန်ကြားသလဲ?"
+      "my": "'Give Way to Buses Exiting' အပြာရောင်ဆိုင်းဘုတ်သည် ယာဉ်မောင်းသူများအား ဘာလုပ်ရန် ညွှန်ကြားသနည်း?"
     },
     "choices": [
       {
@@ -14207,7 +14207,7 @@
       "src": "/signs/sg/Give-way to buse.png",
       "alt": {
         "en": "What does this blue \"Give Way to Buses Exiting\" sign instruct drivers to do?",
-        "my": "ဤ \"Give Way to Buses Exiting\" အပြာ ဆိုင်းဘုတ်သည် ယာဉ်မောင်းမ"
+        "my": "'Give Way to Buses Exiting' အပြာရောင်ဆိုင်းဘုတ်သည် ယာဉ်မောင်းသူများအား ဘာလုပ်ရန် ညွှန်ကြားသနည်း?"
       }
     }
   },
@@ -14470,7 +14470,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What does a red oil pressure warning light on the dashboard indicate?",
-      "my": "Dashboard တွင် အနီ ဆီ ဖိအား သတိပေး မီး ဖွင့်ခြင်း ညွှန်ပြသည်မှာ မည်သလဲ?"
+      "my": "Dashboard ပေါ်ရှိ အနီရောင် ဆီဖိအား သတိပေးမီး လင်းလာခြင်းသည် ဘာကို ဆိုလိုသနည်း?"
     },
     "choices": [
       {
@@ -14578,7 +14578,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "When must you switch from high beam to low beam headlights?",
-      "my": "မျက်မှောင် မီး (high beam) မှ မျက်နှောင်း မီး (low beam) သို့ မည်သောအခါ ပြောင်းရမည်လဲ?"
+      "my": "အဝေးကြည့်မီး (high beam) မှ မှိန်မီး (low beam) သို့ မည်သည့်အခါ ပြောင်းရမည်နည်း?"
     },
     "choices": [
       {
@@ -14686,7 +14686,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What are the dangers of 'road rage'?",
-      "my": "'Road rage' ၏ အန္တရာယ်များ မည်သည်လဲ?"
+      "my": "'Road rage'၏ အန္တရာယ်များ မည်သည်လဲ?"
     },
     "choices": [
       {
@@ -14758,7 +14758,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a flashing amber traffic light mean?",
-      "my": "မင်္ဂလာ မျက်မှောင် မီး (flashing amber) ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "မင်္ဂလာ မျက်မှောင် မီး (flashing amber)၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -14794,7 +14794,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What does a green traffic arrow pointing right mean?",
-      "my": "ညာ ညွှန်ပြသော မြ မီး မျှားတံ ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "ညာဘက်သို့ ညွှန်ပြနေသော အစိမ်းရောင် မြှားမီး၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း?"
     },
     "choices": [
       {
@@ -15118,7 +15118,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What is the purpose of vehicle insurance?",
-      "my": "ယာဉ် အာမခံ ၏ ရည်ရွယ်ချက် မည်သလဲ?"
+      "my": "ယာဉ် အာမခံ၏ ရည်ရွယ်ချက် မည်သလဲ?"
     },
     "choices": [
       {
@@ -15190,7 +15190,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What is the benefit of smooth, progressive braking compared to sudden hard braking?",
-      "my": "ရုတ်တရက် ဘရိတ် ဆွဲခြင်းနှင့် နှိုင်းယှဉ်ပါက ချောမွေ့သော တဖြည်းဖြည်း ဘရိတ် ဆွဲခြင်း ၏ အကျိုးကျေးဇူး မည်သလဲ?"
+      "my": "ရုတ်တရက် ဘရိတ် ဆွဲခြင်းနှင့် နှိုင်းယှဉ်ပါက ချောမွေ့သော တဖြည်းဖြည်း ဘရိတ် ဆွဲခြင်း၏ အကျိုးကျေးဇူး မည်သလဲ?"
     },
     "choices": [
       {
@@ -15226,7 +15226,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a double yellow line at the edge of the road mean?",
-      "my": "လမ်းနံဘေး ရှိ နှစ်ကြောင်း အဝါ ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "လမ်းနံဘေး ရှိ နှစ်ကြောင်း အဝါ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -15259,7 +15259,7 @@
       "src": "/signs/sg/Unbroken Double Yellow Lines.png",
       "alt": {
         "en": "What does a double yellow line at the edge of the road mean?",
-        "my": "လမ်းနံဘေး ရှိ နှစ်ကြောင်း အဝါ ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+        "my": "လမ်းနံဘေး ရှိ နှစ်ကြောင်း အဝါ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -15270,7 +15270,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a single yellow line at the edge of the road mean?",
-      "my": "လမ်းနံဘေး ရှိ တစ်ကြောင်း အဝါ ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "လမ်းနံဘေး ရှိ တစ်ကြောင်း အဝါ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -15303,7 +15303,7 @@
       "src": "/signs/sg/Unbroken Yellow Line.png",
       "alt": {
         "en": "What does a single yellow line at the edge of the road mean?",
-        "my": "လမ်းနံဘေး ရှိ တစ်ကြောင်း အဝါ ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+        "my": "လမ်းနံဘေး ရှိ တစ်ကြောင်း အဝါ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -15350,7 +15350,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What is the risk of wearing a seatbelt incorrectly (e.g., under the arm instead of over the shoulder)?",
-      "my": "လုံခြုံရေး ခါး ပတ် မမှန်ကန်ဘဲ တပ်ဆင်ခြင်း (ဥပမာ ပခုံး ပေါ်မဟုတ်ဘဲ လက်မောင်း အောက်) ၏ အန္တရာယ် မည်သလဲ?"
+      "my": "လုံခြုံရေး ခါး ပတ် မမှန်ကန်ဘဲ တပ်ဆင်ခြင်း (ဥပမာ ပခုံး ပေါ်မဟုတ်ဘဲ လက်မောင်း အောက်)၏ အန္တရာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -15411,7 +15411,7 @@
     "answer": 2,
     "explanation": {
       "en": "In heavy rain: reduce speed, increase following distance (double the normal gap), turn on headlights, watch for aquaplaning, and be alert for pedestrians with umbrellas reducing their own visibility.",
-      "my": "မိုးပြင်းပြင်း ရွာသောအခါ: မြန်နှုန်း လျှော့ချ၊ နောက်ကပ် ကွာဟချက် တိုးပြ (ပုံမှန် ကွာဟချက် နှစ်ဆ)၊ မီး ဖွင့်၊ aquaplaning ကြည့်ပြီး ထီး ဆောင်းသော လမ်းလျောက်သူများ ၏ မြင်ကွင်း ကျဆင်းမှု ကိုလည်း သတိပြုပါ။"
+      "my": "မိုးပြင်းပြင်း ရွာသောအခါ: မြန်နှုန်း လျှော့ချ၊ နောက်ကပ် ကွာဟချက် တိုးပြ (ပုံမှန် ကွာဟချက် နှစ်ဆ)၊ မီး ဖွင့်၊ aquaplaning ကြည့်ပြီး ထီး ဆောင်းသော လမ်းလျောက်သူများ၏ မြင်ကွင်း ကျဆင်းမှု ကိုလည်း သတိပြုပါ။"
     },
     "syllabusRef": "btt.signs.pedestrian"
   },
@@ -15562,8 +15562,8 @@
       "type": "image",
       "src": "/signs/sg/Road leading to quay.png",
       "alt": {
-        "en": "A red triangular sign showing a car going off the edge of a road is posted near ",
-        "my": "တံတားအနီးတွင် လမ်းနားသို့ ကား ကျနေသောပုံပါ အနီရောင်တြိဂံဆိုင"
+        "en": "A red triangular sign showing a car going off the edge of a road is posted near a bridge. What does this warn you about?",
+        "my": "တံတားအနီးတွင် လမ်းနားသို့ ကား ကျနေသောပုံပါ အနီရောင်တြိဂံဆိုင်းဘုတ်တစ်ခု ရှိသည်။ ဘာကို သတိပေးနေသလဲ?"
       }
     }
   },
@@ -15646,7 +15646,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a blue circle road sign containing two white arrows pointing in opposite directions mean?",
-      "my": "ဆန့်ကျင်ဘက် ညွှန်ပြသော အဖြူ မျှားတံ နှစ်ခုပါ အပြာ ဝိုင်းပတ် လမ်း ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "ဆန့်ကျင်ဘက် ညွှန်ပြသော အဖြူ မျှားတံ နှစ်ခုပါ အပြာ ဝိုင်းပတ် လမ်း ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -15750,8 +15750,8 @@
       "type": "image",
       "src": "/signs/sg/Ahead only.png",
       "alt": {
-        "en": "A blue circular sign with a white arrow pointing straight ahead is posted on a r",
-        "my": "ရှေ့တည့်တည့်သို့ ညွှန်နေသော အဖြူရောင်မြှားပါ အပြာရောင်စက်ဝို"
+        "en": "A blue circular sign with a white arrow pointing straight ahead is posted on a road. What does this tell drivers?",
+        "my": "ရှေ့တည့်တည့်သို့ ညွှန်နေသော အဖြူရောင်မြှားပါ အပြာရောင်စက်ဝိုင်းဆိုင်းဘုတ်တစ်ခု လမ်းပေါ်တွင် ရှိသည်။ ၎င်းသည် ယာဉ်မောင်းသူများကို ဘာ ပြောနေသလဲ?"
       }
     }
   },
@@ -15798,7 +15798,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What does a red circle with a number inside mean?",
-      "my": "ထဲတွင် နံပါတ် ပါသော အနီ ဝိုင်းပတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "ထဲတွင် နံပါတ် ပါသော အနီ ဝိုင်းပတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -15831,7 +15831,7 @@
       "src": "/signs/sg/Speed limit(50).png",
       "alt": {
         "en": "What does a red circle with a number inside mean?",
-        "my": "ထဲတွင် နံပါတ် ပါသော အနီ ဝိုင်းပတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+        "my": "ထဲတွင် နံပါတ် ပါသော အနီ ဝိုင်းပတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -15842,7 +15842,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What does a blue circle with a white number inside mean?",
-      "my": "ထဲတွင် အဖြူ နံပါတ် ပါသော အပြာ ဝိုင်းပတ် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "ထဲတွင် အဖြူ နံပါတ် ပါသော အပြာ ဝိုင်းပတ်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -15878,7 +15878,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a white solid line painted across your lane mean?",
-      "my": "သင်၏ လမ်းကြောင်း တစ်လျှောက် ဆေးသုတ်ထားသော အဖြူ တောင့်တင်းသော ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "သင်၏ လမ်းကြောင်း တစ်လျှောက် ဆေးသုတ်ထားသော အဖြူ တောင့်တင်းသော ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -15914,7 +15914,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a broken white line across your lane mean?",
-      "my": "သင်၏ လမ်းကြောင်း တစ်လျှောက် ဆေးသုတ်ထားသော ကျိုးကြောင်းသော အဖြူ ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "သင်၏ လမ်းကြောင်း တစ်လျှောက် ဆေးသုတ်ထားသော ကျိုးကြောင်းသော အဖြူ ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -15950,7 +15950,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does an unbroken white centre line on a two-way road mean?",
-      "my": "နှစ်လမ်း ယာဉ်ကြောင်း လမ်းပေါ် ကျိုးမကြောင်းသော အဖြူ အလယ် ကြောင်း ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "နှစ်လမ်း ယာဉ်ကြောင်း လမ်းပေါ် ကျိုးမကြောင်းသော အဖြူ အလယ် ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -15983,7 +15983,7 @@
       "src": "/signs/sg/Continuous White Line.png",
       "alt": {
         "en": "What does an unbroken white centre line on a two-way road mean?",
-        "my": "နှစ်လမ်း ယာဉ်ကြောင်း လမ်းပေါ် ကျိုးမကြောင်းသော အဖြူ အလယ် ကြေ"
+        "my": "နှစ်လမ်း ယာဉ်ကြောင်း လမ်းပေါ် ကျိုးမကြောင်းသော အဖြူ အလယ် ကြောင်း၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -16102,7 +16102,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What is the purpose of the 'black box' (in-vehicle monitoring unit) in Singapore taxis and buses?",
-      "my": "စင်ကာပူ တက်စီနှင့် ဘတ်စ်ကားများ တွင် 'black box' (ယာဉ်အတွင်း စောင့်ကြပ်မှု ယူနစ်) ၏ ရည်ရွယ်ချက် မည်သလဲ?"
+      "my": "စင်ကာပူ တက်စီနှင့် ဘတ်စ်ကားများ တွင် 'black box' (ယာဉ်အတွင်း စောင့်ကြပ်မှု ယူနစ်)၏ ရည်ရွယ်ချက် မည်သလဲ?"
     },
     "choices": [
       {
@@ -16199,7 +16199,7 @@
     "answer": 1,
     "explanation": {
       "en": "You must not park within 6 metres of a road junction. Parking near a junction blocks visibility for drivers wishing to enter or exit.",
-      "my": "လမ်းဆုံ မှ မီတာ ၆ အတွင်း ကားရပ်နား မရ။ လမ်းဆုံ နား ကားရပ်ခြင်းသည် ဝင်/ထွက်လိုသော ယာဉ်မောင်းများ ၏ မြင်ကွင်း ကို ပိတ်ဆို့သည်။"
+      "my": "လမ်းဆုံ မှ မီတာ ၆ အတွင်း ကားရပ်နား မရ။ လမ်းဆုံ နား ကားရပ်ခြင်းသည် ဝင်/ထွက်လိုသော ယာဉ်မောင်းများ၏ မြင်ကွင်း ကို ပိတ်ဆို့သည်။"
     },
     "syllabusRef": "btt.signs.mandatory"
   },
@@ -16246,13 +16246,13 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What is the purpose of the L-plate on a learner driver's vehicle?",
-      "my": "မောင်းနှင်တတ် ဆဲ ယာဉ်မောင်းပေါ် L-ဆိုင်းဘုတ် ၏ ရည်ရွယ်ချက် မည်သလဲ?"
+      "my": "မောင်းနှင်တတ် ဆဲ ယာဉ်မောင်းပေါ် L-ဆိုင်းဘုတ်၏ ရည်ရွယ်ချက် မည်သလဲ?"
     },
     "choices": [
       {
         "text": {
           "en": "To warn other drivers that the vehicle is driven by a learner — other drivers should give extra patience",
-          "my": "ယာဉ်မောင်းတတ် ဆဲ ၏ ယာဉ် ဆိုကြောင်း အခြား ယာဉ်မောင်းများ ကို သတိပေးသည် — အခြား ယာဉ်မောင်းများ သည် ပိုမို ခဏ်မ ရှိသင့်သည်"
+          "my": "ယာဉ်မောင်းတတ် ဆဲ၏ ယာဉ် ဆိုကြောင်း အခြား ယာဉ်မောင်းများ ကို သတိပေးသည် — အခြား ယာဉ်မောင်းများ သည် ပိုမို ခဏ်မ ရှိသင့်သည်"
         }
       },
       {
@@ -16271,7 +16271,7 @@
     "answer": 0,
     "explanation": {
       "en": "The L-plate (Learner) must be displayed front and rear on a learner driver's vehicle. It warns other road users to give the learner extra space and patience.",
-      "my": "L-ဆိုင်းဘုတ် (တတ်ဆဲ) ကို မောင်းနှင်တတ် ဆဲ ၏ ယာဉ် ရှေ့နှင့် နောက်တွင် ပြသရမည်။ ၎င်းသည် အခြား လမ်းသုံးသူများ ကို မောင်းနှင်တတ် ဆဲ ကို ပိုမို နေရာ နှင့် ခဏ်မ ပေးရန် သတိပေးသည်။"
+      "my": "L-ဆိုင်းဘုတ် (တတ်ဆဲ) ကို မောင်းနှင်တတ် ဆဲ၏ ယာဉ် ရှေ့နှင့် နောက်တွင် ပြသရမည်။ ၎င်းသည် အခြား လမ်းသုံးသူများ ကို မောင်းနှင်တတ် ဆဲ ကို ပိုမို နေရာ နှင့် ခဏ်မ ပေးရန် သတိပေးသည်။"
     },
     "syllabusRef": "btt.signs.mandatory"
   },
@@ -16552,14 +16552,14 @@
       {
         "text": {
           "en": "Police signals override all traffic lights and signs — always obey the officer's directions",
-          "my": "ရဲ ဆဲဗ်နယ် သည် မီး ဆိုင်းဘုတ် နှင့် ဆိုင်းဘုတ် အားလုံး ကျော်လွန်သည် — အမြဲ တာဝန်ရှိ ရဲ ၏ ညွှန်ကြားချက် လိုက်နာပါ"
+          "my": "ရဲ ဆဲဗ်နယ် သည် မီး ဆိုင်းဘုတ် နှင့် ဆိုင်းဘုတ် အားလုံး ကျော်လွန်သည် — အမြဲ တာဝန်ရှိ ရဲ၏ ညွှန်ကြားချက် လိုက်နာပါ"
         }
       }
     ],
     "answer": 2,
     "explanation": {
       "en": "Police signals override everything — traffic lights, road markings and road signs. Always follow a police officer's directions above all else.",
-      "my": "ရဲ ဆဲဗ်နယ် သည် အားလုံး ကျော်လွန်သည် — မီး ဆိုင်းဘုတ်၊ လမ်း မှတ်သားချက်နှင့် လမ်း ဆိုင်းဘုတ်များ။ ရဲ ၏ ညွှန်ကြားချက် ကို အမြဲ အထက်ဆုံး လိုက်နာပါ။"
+      "my": "ရဲ ဆဲဗ်နယ် သည် အားလုံး ကျော်လွန်သည် — မီး ဆိုင်းဘုတ်၊ လမ်း မှတ်သားချက်နှင့် လမ်း ဆိုင်းဘုတ်များ။ ရဲ၏ ညွှန်ကြားချက် ကို အမြဲ အထက်ဆုံး လိုက်နာပါ။"
     },
     "syllabusRef": "btt.signs.information"
   },
@@ -16606,7 +16606,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What is the danger of using a mobile phone as a GPS/map while it is in your hand while driving?",
-      "my": "ကားမောင်းနေစဉ် လက်ဖြင့် ကိုင်ထားသော မိုဘိုင်း ဖုန်းကို GPS/မြေပုံ အဖြစ် သုံးခြင်း ၏ အန္တရာယ် မည်သလဲ?"
+      "my": "ကားမောင်းနေစဉ် လက်ဖြင့် ကိုင်ထားသော မိုဘိုင်း ဖုန်းကို GPS/မြေပုံ အဖြစ် သုံးခြင်း၏ အန္တရာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -16714,7 +16714,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What is the main rule for lane usage on multi-lane roads?",
-      "my": "မျိုးစုံ လမ်းကြောင်း ပါ လမ်းများ တွင် လမ်းကြောင်း သုံးစွဲမှု ၏ အဓိက စည်းမျဉ်း မည်သလဲ?"
+      "my": "မျိုးစုံ လမ်းကြောင်း ပါ လမ်းများ တွင် လမ်းကြောင်း သုံးစွဲမှု၏ အဓိက စည်းမျဉ်း မည်သလဲ?"
     },
     "choices": [
       {
@@ -16750,13 +16750,13 @@
     "difficulty": "medium",
     "prompt": {
       "en": "If you are involved in an accident and someone is injured, what is your first duty?",
-      "my": "မတော်တဆ ဖြစ်ပျက်မှု ၌ ပါဝင်ပြီး တစ်ဦးဦး ဒဏ်ရာ ရပါက သင်၏ ပထမ တာဝန် မည်သလဲ?"
+      "my": "ယာဉ်မတော်တဆမှုတွင် ပါဝင်ခဲ့ပြီး တစ်စုံတစ်ဦး ဒဏ်ရာရရှိပါက သင်၏ ပထမဆုံးတာဝန်မှာ အဘယ်နည်း?"
     },
     "choices": [
       {
         "text": {
           "en": "Take photos of the accident first",
-          "my": "ဦးစွာ မတော်တဆ ဖြစ်ရပ် ၏ ဓာတ်ပုံ ရိုက်ပါ"
+          "my": "ဦးစွာ မတော်တဆ ဖြစ်ရပ်၏ ဓာတ်ပုံ ရိုက်ပါ"
         }
       },
       {
@@ -16854,8 +16854,8 @@
       "type": "image",
       "src": "/signs/sg/Pedestrian crossing ahead.png",
       "alt": {
-        "en": "A warning sign showing a walking figure in a red triangle is posted before an un",
-        "my": "လမ်းသတ်မှတ်မထားသောဖြတ်လမ်းမတိုင်မီ လမ်းသွားပုံပါ အနီရောင်တြိ"
+        "en": "A warning sign showing a walking figure in a red triangle is posted before an unmarked crossing. How should you drive past it?",
+        "my": "လမ်းသတ်မှတ်မထားသောဖြတ်လမ်းမတိုင်မီ လမ်းသွားပုံပါ အနီရောင်တြိဂံသတိပေးဆိုင်းဘုတ်တစ်ခု ရှိသည်။ မည်သို့ ဖြတ်ကျော်မောင်းနှင်ရမည်လဲ?"
       }
     }
   },
@@ -16902,7 +16902,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What is a 'Slow' road marking on the road surface for?",
-      "my": "လမ်းမျက်နှာ ပေါ် 'SLOW' လမ်းမှတ်သားချက် ၏ ရည်ရွယ်ချက် မည်သလဲ?"
+      "my": "လမ်းမျက်နှာ ပေါ် 'SLOW' လမ်းမှတ်သားချက်၏ ရည်ရွယ်ချက် မည်သလဲ?"
     },
     "choices": [
       {
@@ -16938,7 +16938,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a bus lane sign mean and who may use it?",
-      "my": "ဘတ်စ်ကား လမ်းကြောင်း ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ၊ မည်သူ သုံးနိုင်သလဲ?"
+      "my": "ဘတ်စ်ကား လမ်းကြောင်း ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ၊ မည်သူ သုံးနိုင်သလဲ?"
     },
     "choices": [
       {
@@ -16971,7 +16971,7 @@
       "src": "/signs/sg/Bus lane.png",
       "alt": {
         "en": "What does a bus lane sign mean and who may use it?",
-        "my": "ဘတ်စ်ကား လမ်းကြောင်း ဆိုင်းဘုတ် ၏ အဓိပ္ပာယ် မည်သလဲ၊ မည်သူ သု"
+        "my": "ဘတ်စ်ကား လမ်းကြောင်း ဆိုင်းဘုတ်၏ အဓိပ္ပာယ် မည်သလဲ၊ မည်သူ သုံးနိုင်သလဲ?"
       }
     }
   },
@@ -16982,7 +16982,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a 'Bus Stop' box marking on the road mean?",
-      "my": "လမ်းပေါ် 'ဘတ်စ်ကား ရပ်နားရာ' ဘောင် မှတ်သားချက် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "လမ်းပေါ် 'ဘတ်စ်ကား ရပ်နားရာ' ဘောင် မှတ်သားချက်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -17144,14 +17144,14 @@
       {
         "text": {
           "en": "Driving under the influence of drugs is illegal — police can require a urine or blood test",
-          "my": "မူးယစ်ဆေးဝါး ၏ အကျိုးသက်ရောက်မှု အောက်တွင် မောင်းနှင်ခြင်း တရားမဝင် — ရဲ သည် ဆီး သို့မဟုတ် သွေး စစ်ဆေးမှု တောင်းနိုင်သည်"
+          "my": "မူးယစ်ဆေးဝါး၏ အကျိုးသက်ရောက်မှု အောက်တွင် မောင်းနှင်ခြင်း တရားမဝင် — ရဲ သည် ဆီး သို့မဟုတ် သွေး စစ်ဆေးမှု တောင်းနိုင်သည်"
         }
       }
     ],
     "answer": 2,
     "explanation": {
       "en": "Driving under the influence of drugs is a serious offence in Singapore. Officers can require a urine/blood test. Being impaired by any drug — illegal or prescription — is an offence.",
-      "my": "မူးယစ်ဆေးဝါး ၏ အကျိုးသက်ရောက်မှု အောက်တွင် မောင်းနှင်ခြင်းသည် စင်ကာပူတွင် ပြင်းထန်သော ပြစ်မှု ဖြစ်သည်။ တာဝန်ရှိ ရဲ ကိုင်သည် ဆီး/သွေး စစ်ဆေးမှု တောင်းနိုင်သည်။ တရားမဝင် သို့မဟုတ် ဆရာဝန် ညွှန်ကြားချက်ဖြင့် မည်သည့် ဆေးကိုမဆို ကြောင့် ကျပ်ကျပ်မနေနိုင်ခြင်းသည် ပြစ်မှု ဖြစ်သည်။"
+      "my": "မူးယစ်ဆေးဝါး၏ အကျိုးသက်ရောက်မှု အောက်တွင် မောင်းနှင်ခြင်းသည် စင်ကာပူတွင် ပြင်းထန်သော ပြစ်မှု ဖြစ်သည်။ တာဝန်ရှိ ရဲ ကိုင်သည် ဆီး/သွေး စစ်ဆေးမှု တောင်းနိုင်သည်။ တရားမဝင် သို့မဟုတ် ဆရာဝန် ညွှန်ကြားချက်ဖြင့် မည်သည့် ဆေးကိုမဆို ကြောင့် ကျပ်ကျပ်မနေနိုင်ခြင်းသည် ပြစ်မှု ဖြစ်သည်။"
     },
     "syllabusRef": "btt.conduct.following"
   },
@@ -17378,7 +17378,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What is the penalty for exceeding the speed limit by up to 20 km/h (light vehicle) in Singapore?",
-      "my": "စင်ကာပူတွင် မြန်နှုန်း ကန့်သတ် ထက် ကီလိုမီတာ/နာရီ ၂၀ အထိ ကျော်ပြီး မောင်းနှင်ခြင်း (ပေါ့ပါး ယာဉ်) ၏ ဒဏ်ချမှတ်မှု မည်သလဲ?"
+      "my": "စင်ကာပူတွင် မြန်နှုန်း ကန့်သတ် ထက် ကီလိုမီတာ/နာရီ ၂၀ အထိ ကျော်ပြီး မောင်းနှင်ခြင်း (ပေါ့ပါး ယာဉ်)၏ ဒဏ်ချမှတ်မှု မည်သလဲ?"
     },
     "choices": [
       {
@@ -17414,7 +17414,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What is the speed limit for a private car in a car park in Singapore?",
-      "my": "စင်ကာပူ ကားရပ်ကွင်း ၌ ကိုယ်ပိုင် ကား ၏ မြန်နှုန်း ကန့်သတ် မည်မျှ ရှိသလဲ?"
+      "my": "စင်ကာပူ ကားရပ်ကွင်း ၌ ကိုယ်ပိုင် ကား၏ မြန်နှုန်း ကန့်သတ် မည်မျှ ရှိသလဲ?"
     },
     "choices": [
       {
@@ -17558,7 +17558,7 @@
     "difficulty": "hard",
     "prompt": {
       "en": "What is the meaning of the criss-cross yellow box road marking at certain junctions?",
-      "my": "အချို့ လမ်းဆုံ တွင် ရှိသော ကြက်ခြေခတ် အဝါ box လမ်း မှတ်သားချက် ၏ အဓိပ္ပာယ် မည်သလဲ?"
+      "my": "အချို့ လမ်းဆုံ တွင် ရှိသော ကြက်ခြေခတ် အဝါ box လမ်း မှတ်သားချက်၏ အဓိပ္ပာယ် မည်သလဲ?"
     },
     "choices": [
       {
@@ -17590,8 +17590,8 @@
       "type": "image",
       "src": "/signs/sg/Yellow Box.png",
       "alt": {
-        "en": "What is the meaning of the criss-cross yellow box road marking at certain juncti",
-        "my": "အချို့ လမ်းဆုံ တွင် ရှိသော ကြက်ခြေခတ် အဝါ box လမ်း မှတ်သားချ"
+        "en": "What is the meaning of the criss-cross yellow box road marking at certain junctions?",
+        "my": "အချို့ လမ်းဆုံ တွင် ရှိသော ကြက်ခြေခတ် အဝါ box လမ်း မှတ်သားချက်၏ အဓိပ္ပာယ် မည်သလဲ?"
       }
     }
   },
@@ -17836,7 +17836,7 @@
       {
         "text": {
           "en": "A rest area for cyclists",
-          "my": "စက်ဘီး စီးသူများ ၏ နားနေရာ"
+          "my": "စက်ဘီး စီးသူများ၏ နားနေရာ"
         }
       }
     ],
@@ -18076,7 +18076,7 @@
       {
         "text": {
           "en": "Any lane — motorcycles are allowed in all lanes on Singapore expressways",
-          "my": "မည်သည့် လမ်းကြောင်းမဆို — မော်တော်ဆိုင်ကယ်များ စင်ကာပူ အမြန်လမ်းမ ၏ လမ်းကြောင်း အားလုံး ၌ ခွင့်ပြုသည်"
+          "my": "မည်သည့် လမ်းကြောင်းမဆို — မော်တော်ဆိုင်ကယ်များ စင်ကာပူ အမြန်လမ်းမ၏ လမ်းကြောင်း အားလုံး ၌ ခွင့်ပြုသည်"
         }
       },
       {
@@ -18095,7 +18095,7 @@
     "answer": 0,
     "explanation": {
       "en": "Motorcycles are allowed in all lanes on Singapore expressways. However, motorcyclists should exercise extra caution, especially in blind spots of larger vehicles.",
-      "my": "မော်တော်ဆိုင်ကယ်များ စင်ကာပူ အမြန်လမ်းမ ၏ လမ်းကြောင်း အားလုံး ၌ ခွင့်ပြုသည်။ ဒါသော်လည်း ဆိုင်ကယ် စီးသူများ ကြီးမားသော ယာဉ်များ ၏ blind spot ၌ အထူးသဖြင့် ပိုမို ဂရုပြုသင့်သည်။"
+      "my": "မော်တော်ဆိုင်ကယ်များ စင်ကာပူ အမြန်လမ်းမ၏ လမ်းကြောင်း အားလုံး ၌ ခွင့်ပြုသည်။ ဒါသော်လည်း ဆိုင်ကယ် စီးသူများ ကြီးမားသော ယာဉ်များ၏ blind spot ၌ အထူးသဖြင့် ပိုမို ဂရုပြုသင့်သည်။"
     },
     "syllabusRef": "btt.rules.keep_left"
   },
@@ -18178,7 +18178,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What is the purpose of a car's rear-view mirror?",
-      "my": "ကားနောက်မှန် ၏ ရည်ရွယ်ချက် မည်သလဲ?"
+      "my": "ကားနောက်မှန်၏ ရည်ရွယ်ချက် မည်သလဲ?"
     },
     "choices": [
       {
@@ -18538,7 +18538,7 @@
     "difficulty": "hard",
     "prompt": {
       "en": "What is the difference between compulsory and comprehensive car insurance?",
-      "my": "မဖြစ်မနေ ၍ ကျယ်ဝန်းသော ကား အာမခံ ၏ ကွာခြားမှု မည်သလဲ?"
+      "my": "မဖြစ်မနေ ၍ ကျယ်ဝန်းသော ကား အာမခံ၏ ကွာခြားမှု မည်သလဲ?"
     },
     "choices": [
       {
@@ -18610,13 +18610,13 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What is the most important attitude for a responsible driver?",
-      "my": "တာဝန်ရှိသော ယာဉ်မောင်း တစ်ဦး ၏ အရေးအကြီးဆုံး သဘောထား မည်သလဲ?"
+      "my": "တာဝန်ရှိသော ယာဉ်မောင်း တစ်ဦး၏ အရေးအကြီးဆုံး သဘောထား မည်သလဲ?"
     },
     "choices": [
       {
         "text": {
           "en": "Speed — arriving quickly is most important",
-          "my": "မြန်နှုန်း — မြန်မြန် ရောက်ရှိခြင်း ၏ အကြီးဆုံး အရေးပါမှု"
+          "my": "မြန်နှုန်း — မြန်မြန် ရောက်ရှိခြင်း၏ အကြီးဆုံး အရေးပါမှု"
         }
       },
       {
@@ -18635,7 +18635,7 @@
     "answer": 2,
     "explanation": {
       "en": "A responsible driver's most important quality is a safe, patient and courteous attitude. Skills help, but attitude determines how those skills are applied on the road.",
-      "my": "တာဝန်ရှိသော ယာဉ်မောင်း ၏ အရေးကြီးဆုံး အရည်အသွေးသည် ဘေးကင်း၊ သည်းခံ ပြီး ယဉ်ကျေးသော သဘောထား ဖြစ်သည်။ ကျွမ်းကျင်မှု ကူညီသော်လည်း သဘောထား သည် ထို ကျွမ်းကျင်မှု ကို လမ်းပေါ် မည်သို့ ကျင့်သုံးမည်ကို ဆုံးဖြတ်သည်။"
+      "my": "တာဝန်ရှိသော ယာဉ်မောင်း၏ အရေးကြီးဆုံး အရည်အသွေးသည် ဘေးကင်း၊ သည်းခံ ပြီး ယဉ်ကျေးသော သဘောထား ဖြစ်သည်။ ကျွမ်းကျင်မှု ကူညီသော်လည်း သဘောထား သည် ထို ကျွမ်းကျင်မှု ကို လမ်းပေါ် မည်သို့ ကျင့်သုံးမည်ကို ဆုံးဖြတ်သည်။"
     },
     "syllabusRef": "legacy.safe_practices"
   },
@@ -19111,7 +19111,7 @@
       "src": "/signs/sg/Children.png",
       "alt": {
         "en": "You see a triangular sign showing two children walking. This warns you that:",
-        "my": "လမ်းလျှောက်နေသော ကလေး နှစ်ဦး ပြသော သုံးထောင့်ပုံ ဆိုင်းဘုတ် "
+        "my": "လမ်းလျှောက်နေသော ကလေး နှစ်ဦး ပြသော သုံးထောင့်ပုံ ဆိုင်းဘုတ် မြင်ရပါသည်။ ဤသည်မှာ ဘာကို သတိပေးသလဲ?"
       }
     }
   },
@@ -19447,7 +19447,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "At a roundabout, you hear a siren from an emergency vehicle already on the roundabout. What should you do if you are waiting to enter?",
-      "my": "အဝိုင်းလမ်းမ တွင် အဝိုင်းလမ်းမ ပေါ် ရှိပြီးသော အရေးပေါ် ယာဉ် ၏ အသံပေးမှု ကြားရပါသည်။ ဝင်ရန် စောင့်နေလျှင် ဘာလုပ်ရမလဲ?"
+      "my": "အဝိုင်းလမ်းမ တွင် အဝိုင်းလမ်းမ ပေါ် ရှိပြီးသော အရေးပေါ် ယာဉ်၏ အသံပေးမှု ကြားရပါသည်။ ဝင်ရန် စောင့်နေလျှင် ဘာလုပ်ရမလဲ?"
     },
     "choices": [
       {
@@ -20239,7 +20239,7 @@
     "difficulty": "hard",
     "prompt": {
       "en": "Traffic in the left lane is moving at 60 km/h in a 50 km/h zone. What should you do as a safe driver?",
-      "my": "၅၀ km/h ဇုန် တွင် ဘယ်ဘက် လမ်း ယာဉ်များ ၆၀ km/h ဖြင့် ရွေ့နေပါသည်။ ဘေးကင်း ယာဉ်မောင်း အနေဖြင့် ဘာလုပ်ရမလဲ?"
+      "my": "၅၀ km/h ဇုန်တွင် ဘယ်ဘက်လမ်းကြောင်းရှိ ယာဉ်များသည် ၆၀ km/h ဖြင့် မောင်းနှင်နေကြသည်။ ဘေးကင်းစွာ မောင်းနှင်သူတစ်ဦးအနေဖြင့် ဘာလုပ်သင့်သနည်း?"
     },
     "choices": [
       {
@@ -20342,8 +20342,8 @@
       "type": "image",
       "src": "/signs/sg/Zebra Crossing.png",
       "alt": {
-        "en": "A pedestrian is waiting at the edge of a zebra crossing and looks ready to step ",
-        "my": "မျဉ်းစောင်း ဖြတ်သန်းရာ ဘေးတွင် လမ်းလျှောက်သူ တစ်ဦး စောင့်ပြီ"
+        "en": "A pedestrian is waiting at the edge of a zebra crossing and looks ready to step on. What should you do?",
+        "my": "မျဉ်းစောင်း ဖြတ်သန်းရာ ဘေးတွင် လမ်းလျှောက်သူ တစ်ဦး စောင့်ပြီး ဖြတ်တော့မည့် ပုံ ရပါသည်။ ဘာလုပ်ရမလဲ?"
       }
     }
   },
@@ -20715,7 +20715,7 @@
     "difficulty": "hard",
     "prompt": {
       "en": "Two cars arrive at an uncontrolled cross junction at the same time. You are on the right of the other driver. What usually applies in Singapore?",
-      "my": "ထိန်းချုပ်မှု မရှိသော လမ်းဆုံ တွင် ကား နှစ်စီး တစ်ချိန်တည်း ရောက်ပါသည်။ အခြား ယာဉ်မောင်း ၏ ညာဘက် တွင် သင် ရှိပါသည်။ စင်္ကာပူ တွင် ပုံမှန်အားဖြင့် ဘာသက်ရောက်လဲ?"
+      "my": "ထိန်းချုပ်မှု မရှိသော လမ်းဆုံ တွင် ကား နှစ်စီး တစ်ချိန်တည်း ရောက်ပါသည်။ အခြား ယာဉ်မောင်း၏ ညာဘက် တွင် သင် ရှိပါသည်။ စင်္ကာပူ တွင် ပုံမှန်အားဖြင့် ဘာသက်ရောက်လဲ?"
     },
     "choices": [
       {
@@ -20967,7 +20967,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "Before moving off from the kerb, which defensive check helps you spot cyclists in your blind spot?",
-      "my": "ဘေးလမ်း ဘေး မှ ရွေ့မီ ဘယ်ဘက် မျက်လုံး မမြင်ရသော နေရာ တွင် စက်ဘီး စီးသူများ မြင်ရန် ကာကွယ်ရေး စစ်ဆေးမှု ဘာလဲ?"
+      "my": "ဘေးလမ်းဘေးမှ ကားစတင်ထွက်ခွာမီ ဘယ်ဘက် အမြင်ကွယ်နေရာ (blind spot) ရှိ စက်ဘီးစီးသူများကို မြင်နိုင်ရန် မည်သည့် ကာကွယ်ရေးစစ်ဆေးမှုက အထောက်အကူဖြစ်သနည်း?"
     },
     "choices": [
       {
