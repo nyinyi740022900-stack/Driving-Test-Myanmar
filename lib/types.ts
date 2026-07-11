@@ -40,12 +40,14 @@ export interface Question {
   parts?: QuestionPart[];
   /** Points in mock scoring (hazard illustration = 2). */
   points?: number;
-  /** Exam-style practice set built from original TheoryLane questions (not copied papers). */
+  /** Exam-style practice set mapped to BTT topic progression (not copied papers). */
   inspiredSet?: {
     id: string;
     number: number;
     title?: string;
     titleMy?: string;
+    /** Internal reference to practice-paper topic focus (e.g. btt-test-1). */
+    refPaper?: string;
   };
 }
 
@@ -171,7 +173,7 @@ export const TEST_META: TestMeta[] = [
   {
     category: 'sg_btt',
     tag: 'BTT',
-    bankQuestionCount: 565,
+    bankQuestionCount: 500,
     questionCount: 50,
     timeLimitMinutes: 50,
     passPercent: 90,
