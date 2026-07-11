@@ -11,8 +11,8 @@ import { INSPIRED_SET_CONFIGS } from './inspired-set-config.mjs';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
 
-const MAX_BANK = 500;
-const SET_COUNT = 12;
+const DEFAULT_MAX_BANK = 500;
+const DEFAULT_SET_COUNT = 12;
 
 function stripInspired(q) {
   const { inspiredSet, pastPaper, ...rest } = q;
@@ -20,6 +20,8 @@ function stripInspired(q) {
 }
 
 function createEngine(config) {
+  const MAX_BANK = config.maxBank ?? DEFAULT_MAX_BANK;
+  const SET_COUNT = config.setCount ?? DEFAULT_SET_COUNT;
   const { topicPriority, topicTargets, defaultTopicTarget, syllabusPrefix, deprioritizedTopics, sets: SETS } = config;
 
   function scoreQuestion(q) {
@@ -168,6 +170,7 @@ function createEngine(config) {
     return {
       manifest: { category: config.category, maxQuestions: MAX_BANK, sets: manifestSets, questionIds: [] },
       tagById,
+      maxBank: MAX_BANK,
     };
   }
 
@@ -222,7 +225,7 @@ function main() {
   fs.writeFileSync(manifestPath, `${JSON.stringify({ ...manifest, topicCounts }, null, 2)}\n`, 'utf8');
   fs.writeFileSync(bankPath, `${JSON.stringify(merged, null, 2)}\n`, 'utf8');
 
-  console.log(`[${category}] Bank: ${merged.length} questions (max ${MAX_BANK})`);
+  console.log(`[${category}] Bank: ${merged.length} questions (max ${config.maxBank ?? DEFAULT_MAX_BANK})`);
   console.log(`Inspired sets: ${manifest.sets.length}, per-set: ${manifest.sets.map(s => s.questionCount).join(', ')}`);
   console.log('Top topics:', Object.entries(topicCounts).sort((a, b) => b[1] - a[1]).slice(0, 8).map(([k, v]) => `${v} ${k}`).join(', '));
 }
