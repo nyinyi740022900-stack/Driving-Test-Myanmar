@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Extract BTT / Driving Test past-paper questions from scanned PDFs via OCR."""
+"""
+DEPRECATED — Do not use for production without full paraphrase.
+
+Extracts scanned PDF text via OCR. Practice and Test File PDFs are reference-only;
+verbatim import risks copyright issues. Use scripts/build-inspired-sets.mjs instead.
+"""
 
 from typing import List, Optional
 import json

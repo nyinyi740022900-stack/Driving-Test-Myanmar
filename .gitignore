@@ -21,8 +21,8 @@ Thumbs.db
 # public/signs/ on import, so the multi-MB originals must never enter git.
 content/spreadsheet-workflow/images/
 
-# OCR page renders (large); sign-*.png assets are kept for the app
-public/past-papers/**/page-*.png
+# Extracted PDF assets — not used in production (copyright-safe inspired sets only)
+public/past-papers/
 
 # Vercel
 .vercel

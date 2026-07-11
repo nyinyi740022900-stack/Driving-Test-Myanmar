@@ -40,8 +40,8 @@ export interface Question {
   parts?: QuestionPart[];
   /** Points in mock scoring (hazard illustration = 2). */
   points?: number;
-  /** Past-practice paper from Practice and Test File (SG BTT). */
-  pastPaper?: {
+  /** Exam-style practice set built from original TheoryLane questions (not copied papers). */
+  inspiredSet?: {
     id: string;
     number: number;
     title?: string;
@@ -171,7 +171,7 @@ export const TEST_META: TestMeta[] = [
   {
     category: 'sg_btt',
     tag: 'BTT',
-    bankQuestionCount: 1101,
+    bankQuestionCount: 565,
     questionCount: 50,
     timeLimitMinutes: 50,
     passPercent: 90,

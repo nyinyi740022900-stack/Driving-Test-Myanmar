@@ -1,6 +1,6 @@
 import type { Category, Question } from './types';
 import { CATEGORY_COUNTRY } from './types';
-import { sortPastPaperFirst } from './past-papers';
+import { sortInspiredSetsFirst } from './inspired-sets';
 
 const JP_CATEGORIES: Category[] = ['jp_car', 'jp_moto'];
 
@@ -12,7 +12,7 @@ export async function getQuestions(category: Category): Promise<Question[]> {
   try {
     const data = await import(`../content/questions/${category}.json`);
     const questions: Question[] = Array.isArray(data.default) ? data.default : data;
-    cache[category] = category === 'sg_btt' ? sortPastPaperFirst(questions) : questions;
+    cache[category] = category === 'sg_btt' ? sortInspiredSetsFirst(questions) : questions;
     return questions;
   } catch {
     return [];

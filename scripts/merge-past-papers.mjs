@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
- * Merge OCR-extracted past papers into sg_btt.json — past papers first, then supplementary bank.
+ * DEPRECATED — Do not use for production. Verbatim OCR merge risks copyright issues.
+ * Use scripts/build-inspired-sets.mjs for copyright-safe exam-style sets instead.
  */
 import fs from 'node:fs';
 import path from 'node:path';

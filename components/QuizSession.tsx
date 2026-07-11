@@ -7,7 +7,7 @@ import BackButton from './BackButton';
 import type { Category, Question } from '@/lib/types';
 import { TEST_META } from '@/lib/types';
 import { shuffleArray, pickLocalized, isJpTrueFalseChoice } from '@/lib/questions';
-import { buildQuestionSets, getPastPaperQuestions, pickPastPaperPool } from '@/lib/past-papers';
+import { buildQuestionSets, getInspiredSetQuestions, pickInspiredSetPool } from '@/lib/inspired-sets';
 import type { QuizAnswer } from '@/lib/quiz-answers';
 import {
   emptyAnswerFor,
@@ -102,7 +102,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
   const pendingAfterAdRef = useRef<(() => void) | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
-  // ── Sets (lesson + practice) — past papers first, then supplementary batches ──
+  // ── Sets (lesson + practice) — inspired sets first, then supplementary batches ──
   const setInfos = useMemo(() => {
     if (mode === 'test') return [];
     return buildQuestionSets(questions, BATCH_SIZE);
@@ -122,12 +122,12 @@ export default function QuizSession({ category, mode, questions }: Props) {
   const pool = useMemo<Question[]>(() => {
     if (retryPool) return retryPool; // already shuffled on creation
     if (mode === 'test') {
-      const past = getPastPaperQuestions(questions);
-      if (category === 'sg_btt' && past.length >= meta.questionCount) {
-        const useFullPaper = Math.random() < 0.75;
-        const source = useFullPaper
-          ? pickPastPaperPool(questions, meta.questionCount)
-          : shuffleArray([...past]).slice(0, meta.questionCount);
+      const inspired = getInspiredSetQuestions(questions);
+      if (category === 'sg_btt' && inspired.length >= meta.questionCount) {
+        const useFullSet = Math.random() < 0.75;
+        const source = useFullSet
+          ? pickInspiredSetPool(questions, meta.questionCount)
+          : shuffleArray([...inspired]).slice(0, meta.questionCount);
         return shuffleArray([...source]).map(shuffleChoices);
       }
       return shuffleArray([...questions]).slice(0, meta.questionCount).map(shuffleChoices);
@@ -449,7 +449,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
   // ══════════════════════════════════════════════════════════════════
   if ((mode === 'practice' || mode === 'lesson') && selectedSet === null && !retryPool) {
     const isLesson = mode === 'lesson';
-    const hasPastPapers = setInfos.some(s => s.isPastPaper);
+    const hasInspiredSets = setInfos.some(s => s.isInspiredSet);
     return (
       <div className="quiz-layout">
         <div className="quiz-wrap">
@@ -463,8 +463,8 @@ export default function QuizSession({ category, mode, questions }: Props) {
               {t('choose_set') ?? 'Choose a set'}
             </h2>
             <p style={{ color: 'var(--ink-soft)', fontSize: '.9rem' }}>
-              {hasPastPapers
-                ? (isLesson ? t('set_desc_learn_past') : t('set_desc_past'))
+              {hasInspiredSets
+                ? (isLesson ? t('set_desc_learn_inspired') : t('set_desc_inspired'))
                 : (isLesson
                   ? (t('set_desc_learn') ?? `${questions.length} questions · ${setInfos.length} sets · self-paced`)
                   : (t('set_desc') ?? `${questions.length} questions · ${setInfos.length} sets · ${PRACTICE_MINUTES} min each`))}
@@ -474,9 +474,9 @@ export default function QuizSession({ category, mode, questions }: Props) {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))', gap: 14 }}>
             {setInfos.map((info, si) => {
               const set = info.questions;
-              const paperTitle = info.isPastPaper
+              const setTitle = info.isInspiredSet
                 ? (locale === 'my'
-                  ? set[0]?.pastPaper?.titleMy ?? info.labelValues?.title
+                  ? set[0]?.inspiredSet?.titleMy ?? info.labelValues?.title
                   : info.labelValues?.title)
                 : null;
               return (
@@ -485,7 +485,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
                   onClick={() => handleSelectSet(si)}
                   style={{
                     background: '#fff',
-                    border: info.isPastPaper ? '2px solid var(--guide)' : '2px solid var(--line)',
+                    border: info.isInspiredSet ? '2px solid var(--guide)' : '2px solid var(--line)',
                     borderRadius: 16,
                     padding: '24px 16px',
                     cursor: 'pointer',
@@ -497,22 +497,22 @@ export default function QuizSession({ category, mode, questions }: Props) {
                     gap: 8,
                   }}
                   onMouseEnter={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = 'var(--guide)'; (e.currentTarget as HTMLButtonElement).style.boxShadow = '0 4px 16px rgba(27,156,86,.15)'; }}
-                  onMouseLeave={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = info.isPastPaper ? 'var(--guide)' : 'var(--line)'; (e.currentTarget as HTMLButtonElement).style.boxShadow = 'none'; }}
+                  onMouseLeave={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = info.isInspiredSet ? 'var(--guide)' : 'var(--line)'; (e.currentTarget as HTMLButtonElement).style.boxShadow = 'none'; }}
                 >
                   <div style={{
                     width: 44, height: 44, borderRadius: '50%',
-                    background: info.isPastPaper ? 'var(--guide-deep)' : 'var(--guide)', color: '#fff',
+                    background: info.isInspiredSet ? 'var(--guide-deep)' : 'var(--guide)', color: '#fff',
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.1rem',
                   }}>
                     {si + 1}
                   </div>
                   <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '.88rem', lineHeight: 1.25 }}>
-                    {paperTitle ?? `${t('set_label') ?? 'Set'} ${si + 1}`}
+                    {setTitle ?? `${t('set_label') ?? 'Set'} ${si + 1}`}
                   </div>
-                  {info.isPastPaper && (
+                  {info.isInspiredSet && (
                     <div style={{ fontSize: '.68rem', color: 'var(--guide-deep)', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase' }}>
-                      {t('past_paper_badge')}
+                      {t('inspired_set_badge')}
                     </div>
                   )}
                   <div style={{ fontSize: '.78rem', color: 'var(--ink-soft)', background: 'var(--paint)', padding: '3px 10px', borderRadius: 20 }}>
