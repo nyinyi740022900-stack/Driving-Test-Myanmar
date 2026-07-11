@@ -1,28 +1,37 @@
 'use client';
 
+import type React from 'react';
 import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useCountry } from '@/components/CountryProvider';
 import BackButton from '@/components/BackButton';
 
+type StatItem = { label: string; value: string; sub?: string };
+
 export default function GuidePage() {
   const params = useParams();
-  const locale = (params?.locale as string) ?? 'en';
   const { country } = useCountry();
   const t = useTranslations('resourcesGuide');
+  const noteLabel = t('note_label');
 
-  const sgSpeedLimits = t.raw('sg.speed_limits.items') as { label: string; value: string; sub?: string }[];
-  const sgAlcoholLimits = t.raw('sg.alcohol_limits.items') as { label: string; value: string; sub?: string }[];
-  const sgDemeritPoints = t.raw('sg.demerit_points.items') as { label: string; value: string; sub?: string }[];
+  const sgTestFormat = t.raw('sg.test_format.items') as StatItem[];
+  const sgSpeedLimits = t.raw('sg.speed_limits.items') as StatItem[];
+  const sgAlcoholLimits = t.raw('sg.alcohol_limits.items') as StatItem[];
+  const sgDemeritPoints = t.raw('sg.demerit_points.items') as StatItem[];
   const sgStoppingHeaders = t.raw('sg.stopping_distances.headers') as string[];
   const sgStoppingRows = t.raw('sg.stopping_distances.rows') as string[][];
+  const sgRightOfWay = t.raw('sg.right_of_way.items') as string[];
+  const sgExpressway = t.raw('sg.expressway_tunnel.items') as string[];
+  const sgCrossings = t.raw('sg.crossings_parking.items') as string[];
   const sgKeyRules = t.raw('sg.key_rules') as string[];
 
-  const jpSpeedLimits = t.raw('jp.speed_limits.items') as { label: string; value: string; sub?: string }[];
-  const jpAlcoholLimits = t.raw('jp.alcohol_limits.items') as { label: string; value: string; sub?: string }[];
-  const jpDemeritPoints = t.raw('jp.demerit_points.items') as { label: string; value: string; sub?: string }[];
+  const jpTestFormat = t.raw('jp.test_format.items') as StatItem[];
+  const jpSpeedLimits = t.raw('jp.speed_limits.items') as StatItem[];
+  const jpAlcoholLimits = t.raw('jp.alcohol_limits.items') as StatItem[];
+  const jpDemeritPoints = t.raw('jp.demerit_points.items') as StatItem[];
+  const jpStoppingHeaders = t.raw('jp.stopping_distances.headers') as string[];
+  const jpStoppingRows = t.raw('jp.stopping_distances.rows') as string[][];
   const jpKeyRules = t.raw('jp.key_rules') as string[];
-  const noteLabel = t('note_label');
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>
@@ -45,101 +54,98 @@ export default function GuidePage() {
           </p>
         </div>
 
-        {/* Singapore */}
-        {country === 'sg' && (<div style={{ marginBottom: 64 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 32 }}>
-            <span style={{ fontSize: '1.4rem' }}>🇸🇬</span>
-            <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{t('sg.title')}</h2>
+        {country === 'sg' && (
+          <div style={{ marginBottom: 64 }}>
+            <CountryHeading flag="🇸🇬" title={t('sg.title')} />
+
+            <Section title={t('sg.test_format.title')}>
+              <StatGrid items={sgTestFormat} />
+            </Section>
+
+            <Section title={t('sg.speed_limits.title')}>
+              <StatGrid items={sgSpeedLimits} />
+            </Section>
+
+            <Section title={t('sg.alcohol_limits.title')}>
+              <StatGrid items={sgAlcoholLimits} />
+              <Note label={noteLabel}>{t('sg.alcohol_limits.note')}</Note>
+            </Section>
+
+            <Section title={t('sg.demerit_points.title')}>
+              <StatGrid items={sgDemeritPoints} />
+              <Note label={noteLabel}>{t('sg.demerit_points.note')}</Note>
+            </Section>
+
+            <Section title={t('sg.stopping_distances.title')}>
+              <StoppingTable headers={sgStoppingHeaders} rows={sgStoppingRows} />
+              <Note label={noteLabel}>{t('sg.stopping_distances.note')}</Note>
+            </Section>
+
+            <Section title={t('sg.right_of_way.title')}>
+              <BulletList items={sgRightOfWay} />
+            </Section>
+
+            <Section title={t('sg.expressway_tunnel.title')}>
+              <BulletList items={sgExpressway} />
+              <Note label={noteLabel}>{t('sg.expressway_tunnel.note')}</Note>
+            </Section>
+
+            <Section title={t('sg.crossings_parking.title')}>
+              <BulletList items={sgCrossings} />
+            </Section>
+
+            <Section title={t('sg.key_rules_title')}>
+              <BulletList items={sgKeyRules} />
+            </Section>
           </div>
+        )}
 
-          <Section title={t('sg.speed_limits.title')}>
-            <StatGrid items={sgSpeedLimits} />
-          </Section>
+        {country === 'jp' && (
+          <div>
+            <CountryHeading flag="🇯🇵" title={t('jp.title')} />
 
-          <Section title={t('sg.alcohol_limits.title')}>
-            <StatGrid items={sgAlcoholLimits} />
-            <Note label={noteLabel}>{t('sg.alcohol_limits.note')}</Note>
-          </Section>
+            <Section title={t('jp.test_format.title')}>
+              <StatGrid items={jpTestFormat} />
+            </Section>
 
-          <Section title={t('sg.demerit_points.title')}>
-            <StatGrid items={sgDemeritPoints} />
-            <Note label={noteLabel}>{t('sg.demerit_points.note')}</Note>
-          </Section>
+            <Section title={t('jp.speed_limits.title')}>
+              <StatGrid items={jpSpeedLimits} />
+            </Section>
 
-          <Section title={t('sg.stopping_distances.title')}>
-            <div style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 14, overflow: 'hidden' }}>
-              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '.9rem' }}>
-                <thead>
-                  <tr style={{ background: 'var(--paint-2)', borderBottom: '1px solid var(--line)' }}>
-                    {sgStoppingHeaders.map(h => (
-                      <th key={h} style={{ padding: '10px 16px', textAlign: 'center', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.78rem', letterSpacing: '.06em', textTransform: 'uppercase' }}>{h}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {sgStoppingRows.map(([speed, think, brake, total], i, arr) => (
-                    <tr key={speed} style={{ borderBottom: i < arr.length - 1 ? '1px solid var(--line)' : undefined, textAlign: 'center' }}>
-                      <td style={{ padding: '10px 16px', fontFamily: 'var(--display)', fontWeight: 700 }}>{speed}</td>
-                      <td style={{ padding: '10px 16px', color: 'var(--ink-soft)' }}>{think}</td>
-                      <td style={{ padding: '10px 16px', color: 'var(--ink-soft)' }}>{brake}</td>
-                      <td style={{ padding: '10px 16px', fontFamily: 'var(--display)', fontWeight: 700, color: 'var(--guide-deep)' }}>{total}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            <Note label={noteLabel}>{t('sg.stopping_distances.note')}</Note>
-          </Section>
+            <Section title={t('jp.alcohol_limits.title')}>
+              <StatGrid items={jpAlcoholLimits} />
+              <Note label={noteLabel}>{t('jp.alcohol_limits.note')}</Note>
+            </Section>
 
-          <Section title={t('sg.key_rules_title')}>
-            <ul style={{ display: 'flex', flexDirection: 'column', gap: 10, paddingLeft: 0, listStyle: 'none' }}>
-              {sgKeyRules.map(rule => (
-                <li key={rule} style={{ display: 'flex', gap: 12, alignItems: 'flex-start', background: '#fff', border: '1px solid var(--line)', borderRadius: 10, padding: '12px 16px', fontSize: '.9rem', color: 'var(--ink-soft)' }}>
-                  <span style={{ color: 'var(--guide)', fontWeight: 700, flexShrink: 0 }}>✓</span>
-                  {rule}
-                </li>
-              ))}
-            </ul>
-          </Section>
-        </div>)}
+            <Section title={t('jp.demerit_points.title')}>
+              <StatGrid items={jpDemeritPoints} />
+              <Note label={noteLabel}>{t('jp.demerit_points.note')}</Note>
+            </Section>
 
-        {/* Japan */}
-        {country === 'jp' && (<div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 32 }}>
-            <span style={{ fontSize: '1.4rem' }}>🇯🇵</span>
-            <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{t('jp.title')}</h2>
+            <Section title={t('jp.stopping_distances.title')}>
+              <StoppingTable headers={jpStoppingHeaders} rows={jpStoppingRows} />
+              <Note label={noteLabel}>{t('jp.stopping_distances.note')}</Note>
+            </Section>
+
+            <Section title={t('jp.key_rules_title')}>
+              <BulletList items={jpKeyRules} />
+            </Section>
           </div>
-
-          <Section title={t('jp.speed_limits.title')}>
-            <StatGrid items={jpSpeedLimits} />
-          </Section>
-
-          <Section title={t('jp.alcohol_limits.title')}>
-            <StatGrid items={jpAlcoholLimits} />
-            <Note label={noteLabel}>{t('jp.alcohol_limits.note')}</Note>
-          </Section>
-
-          <Section title={t('jp.demerit_points.title')}>
-            <StatGrid items={jpDemeritPoints} />
-            <Note label={noteLabel}>{t('jp.demerit_points.note')}</Note>
-          </Section>
-
-          <Section title={t('jp.key_rules_title')}>
-            <ul style={{ display: 'flex', flexDirection: 'column', gap: 10, paddingLeft: 0, listStyle: 'none' }}>
-              {jpKeyRules.map(rule => (
-                <li key={rule} style={{ display: 'flex', gap: 12, alignItems: 'flex-start', background: '#fff', border: '1px solid var(--line)', borderRadius: 10, padding: '12px 16px', fontSize: '.9rem', color: 'var(--ink-soft)' }}>
-                  <span style={{ color: 'var(--guide)', fontWeight: 700, flexShrink: 0 }}>✓</span>
-                  {rule}
-                </li>
-              ))}
-            </ul>
-          </Section>
-        </div>)}
+        )}
 
         <div style={{ marginTop: 48, textAlign: 'center' }}>
           <BackButton label={t('back_home')} style={{ color: 'var(--guide-deep)', fontWeight: 600, fontSize: '.9rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} />
         </div>
       </div>
+    </div>
+  );
+}
+
+function CountryHeading({ flag, title }: { flag: string; title: string }) {
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 32 }}>
+      <span style={{ fontSize: '1.4rem' }}>{flag}</span>
+      <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{title}</h2>
     </div>
   );
 }
@@ -155,7 +161,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
-function StatGrid({ items }: { items: { label: string; value: string; sub?: string }[] }) {
+function StatGrid({ items }: { items: StatItem[] }) {
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: 12, marginBottom: 12 }}>
       {items.map(({ label, value, sub }) => (
@@ -169,12 +175,49 @@ function StatGrid({ items }: { items: { label: string; value: string; sub?: stri
   );
 }
 
-function Note({ children, label }: { children: React.ReactNode; label: string }) {
+function StoppingTable({ headers, rows }: { headers: string[]; rows: string[][] }) {
   return (
-    <div style={{ background: 'var(--paint-2)', border: '1px solid var(--line)', borderRadius: 10, padding: '10px 14px', fontSize: '.82rem', color: 'var(--ink-soft)', lineHeight: 1.5 }}>
-      <strong>{label}</strong> {children}
+    <div style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 14, overflow: 'hidden' }}>
+      <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '.9rem' }}>
+        <thead>
+          <tr style={{ background: 'var(--paint-2)', borderBottom: '1px solid var(--line)' }}>
+            {headers.map(h => (
+              <th key={h} style={{ padding: '10px 16px', textAlign: 'center', fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.78rem', letterSpacing: '.06em', textTransform: 'uppercase' }}>{h}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(([speed, think, brake, total], i, arr) => (
+            <tr key={speed} style={{ borderBottom: i < arr.length - 1 ? '1px solid var(--line)' : undefined, textAlign: 'center' }}>
+              <td style={{ padding: '10px 16px', fontFamily: 'var(--display)', fontWeight: 700 }}>{speed}</td>
+              <td style={{ padding: '10px 16px', color: 'var(--ink-soft)' }}>{think}</td>
+              <td style={{ padding: '10px 16px', color: 'var(--ink-soft)' }}>{brake}</td>
+              <td style={{ padding: '10px 16px', fontFamily: 'var(--display)', fontWeight: 700, color: 'var(--guide-deep)' }}>{total}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 }
 
-import type React from 'react';
+function BulletList({ items }: { items: string[] }) {
+  return (
+    <ul style={{ display: 'flex', flexDirection: 'column', gap: 10, paddingLeft: 0, listStyle: 'none' }}>
+      {items.map(item => (
+        <li key={item} style={{ display: 'flex', gap: 12, alignItems: 'flex-start', background: '#fff', border: '1px solid var(--line)', borderRadius: 10, padding: '12px 16px', fontSize: '.9rem', color: 'var(--ink-soft)' }}>
+          <span style={{ color: 'var(--guide)', fontWeight: 700, flexShrink: 0 }}>✓</span>
+          {item}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function Note({ children, label }: { children: React.ReactNode; label: string }) {
+  return (
+    <div style={{ background: 'var(--paint-2)', border: '1px solid var(--line)', borderRadius: 10, padding: '10px 14px', fontSize: '.82rem', color: 'var(--ink-soft)', lineHeight: 1.5, marginTop: 12 }}>
+      <strong>{label}</strong> {children}
+    </div>
+  );
+}

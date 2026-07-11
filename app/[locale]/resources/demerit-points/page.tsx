@@ -30,6 +30,7 @@ export default function DemeritPointsPage() {
   const offences = t.raw(`${country}.offences`) as string[][];
   const levels = t.raw(`${country}.levels`) as Level[];
   const newdriverBody = t(`${country}.newdriver_body`);
+  const recoveryBody = t(`${country}.recovery_body`);
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>
@@ -128,6 +129,13 @@ export default function DemeritPointsPage() {
         <Section title={t('newdriver_title')}>
           <div style={{ background: '#fff', border: '1px solid var(--line)', borderLeft: '4px solid var(--guide)', borderRadius: 12, padding: '16px 20px', fontSize: '.92rem', color: 'var(--ink-soft)', lineHeight: 1.6 }}>
             {newdriverBody}
+          </div>
+        </Section>
+
+        {/* Recovery */}
+        <Section title={t('recovery_title')}>
+          <div style={{ background: 'var(--paint-2)', border: '1px solid var(--line)', borderRadius: 12, padding: '16px 20px', fontSize: '.92rem', color: 'var(--ink-soft)', lineHeight: 1.6 }}>
+            {recoveryBody}
           </div>
         </Section>
 

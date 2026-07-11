@@ -120,12 +120,27 @@
     "hero": {
       "eyebrow": "Study smarter",
       "title": "Easy-to-remember tips",
-      "lead": "Short memory hooks that make the key numbers and rules stick. For the exact figures, check the study guide — this page is about remembering them."
+      "lead": "Short memory hooks for test format, speed limits, demerit points, signs and right-of-way — the rules that come up again and again in BTT, FTT, RTT and Japan written tests."
     },
     "note_label": "Why it works:",
     "sg": {
       "title": "Singapore — memory hooks",
       "groups": [
+        {
+          "heading": "Theory test format",
+          "tips": [
+            {
+              "hook": "\"50-50-90\"",
+              "topic": "BTT / FTT / RTT",
+              "detail": "50 questions, 50 minutes, pass 45 correct (90%). All three Singapore theory tests use the same format."
+            },
+            {
+              "hook": "\"BTT before FTT\"",
+              "topic": "Test order",
+              "detail": "Pass BTT first → start practical lessons → pass FTT (or RTT for motorcycles) after at least 5 lessons → book the Traffic Police practical test."
+            }
+          ]
+        },
         {
           "heading": "Speed & following distance",
           "tips": [
@@ -138,6 +153,26 @@
               "hook": "\"50 in town, 90 on the E-way\"",
               "topic": "Default speed limits",
               "detail": "Built-up roads default to 50 km/h; expressways go up to 90 km/h unless a sign says otherwise."
+            },
+            {
+              "hook": "\"School & silver = 40\"",
+              "topic": "Lower speed zones",
+              "detail": "School zones (7 am–7 pm on school days) and silver zones when amber lights flash both mean 40 km/h."
+            }
+          ]
+        },
+        {
+          "heading": "Alcohol & safety",
+          "tips": [
+            {
+              "hook": "\"35 breath · 80 blood\"",
+              "topic": "Legal alcohol limits",
+              "detail": "35 µg per 100 ml breath or 80 mg per 100 ml blood. New drivers: zero tolerance in the first year."
+            },
+            {
+              "hook": "\"Belt every seat\"",
+              "topic": "Seat belts",
+              "detail": "Front and rear occupants must wear seat belts. Children under 1.35 m need an approved child restraint."
             }
           ]
         },
@@ -158,6 +193,51 @@
               "hook": "\"Triangle = think ahead\"",
               "topic": "Warning signs",
               "detail": "Triangular red-border signs warn of a hazard coming up — a bend, junction, or crossing."
+            },
+            {
+              "hook": "\"Octagon = STOP\"",
+              "topic": "Stop sign",
+              "detail": "The only octagonal sign is STOP — wheels must stop completely at the stop line before proceeding."
+            }
+          ]
+        },
+        {
+          "heading": "Right of way & junctions",
+          "tips": [
+            {
+              "hook": "\"Uncontrolled = yield right\"",
+              "topic": "Unmarked junctions",
+              "detail": "At junctions without traffic lights or signs, give way to traffic approaching from your right."
+            },
+            {
+              "hook": "\"Roundabout: give way to the circle\"",
+              "topic": "Roundabouts",
+              "detail": "Slow down, look right, and give way to vehicles already circulating before you enter."
+            },
+            {
+              "hook": "\"Right turn waits for oncoming\"",
+              "topic": "Turning right",
+              "detail": "When turning right, yield to oncoming traffic going straight or turning left."
+            }
+          ]
+        },
+        {
+          "heading": "Expressway, crossings & parking",
+          "tips": [
+            {
+              "hook": "\"Yellow box = don't block\"",
+              "topic": "Yellow box junction",
+              "detail": "Enter a yellow box only if your exit is clear — never block crossing traffic."
+            },
+            {
+              "hook": "\"Zig-zag = no stop\"",
+              "topic": "Pedestrian crossings",
+              "detail": "Zig-zag lines near crossings mean no stopping or parking — keeps pedestrians visible."
+            },
+            {
+              "hook": "\"Left lane on the E-way\"",
+              "topic": "Expressway discipline",
+              "detail": "Keep left unless overtaking. Minimum speed is typically 60 km/h — don't obstruct faster traffic."
             }
           ]
         }
@@ -167,22 +247,42 @@
       "title": "Japan — memory hooks",
       "groups": [
         {
+          "heading": "Theory test format",
+          "tips": [
+            {
+              "hook": "\"仮免 50 · 本免 95\"",
+              "topic": "Written test sizes",
+              "detail": "Provisional 仮免学科: 50 Q, 45 min, pass 45/50. Final 本免学科: 95 Q, 50 min, pass 86/95 — both need 90%."
+            },
+            {
+              "hook": "\"仮 before 本\"",
+              "topic": "Licence stages",
+              "detail": "At a driving school: pass 仮免学科 + 仮免技能 → get provisional licence → complete on-road training → pass 本免学科 at the centre."
+            }
+          ]
+        },
+        {
           "heading": "Speed & lane",
           "tips": [
             {
               "hook": "\"60 general, 100 expressway\"",
               "topic": "Default speed limits",
-              "detail": "Ordinary roads default to around 60 km/h; expressways go up to 100 km/h unless posted otherwise."
+              "detail": "Ordinary roads default to around 60 km/h; expressways go up to 100 km/h unless posted otherwise. Residential zones: 30 km/h."
             },
             {
               "hook": "\"Keep left, pass right\"",
               "topic": "Lane discipline",
               "detail": "Drive in the left lane and use the right lane only to overtake — then move back left."
+            },
+            {
+              "hook": "\"Joko = 1 metre stop\"",
+              "topic": "徐行 (slow driving)",
+              "detail": "徐行 means slow enough to stop within 1 metre at any moment — common in residential areas and near crossings."
             }
           ]
         },
         {
-          "heading": "Points & signals",
+          "heading": "Points & drink-driving",
           "tips": [
             {
               "hook": "\"15 points = licence gone\"",
@@ -190,14 +290,54 @@
               "detail": "Reaching 15 violation points (or fewer with a prior suspension on record) means your licence is revoked."
             },
             {
+              "hook": "\"6-9-12-15\"",
+              "topic": "Suspension steps",
+              "detail": "6–8 pts = 30 days off, 9–11 = 60 days, 12–14 = 90 days, 15+ = revocation. Count points in a rolling 1-year window."
+            },
+            {
               "hook": "\"In Japan, aim for ZERO alcohol\"",
               "topic": "Drink-driving",
               "detail": "The legal limit is very low and penalties are severe — the safe memory rule is simply never drink and drive."
-            },
+            }
+          ]
+        },
+        {
+          "heading": "Signals & signs",
+          "tips": [
             {
               "hook": "\"赤 stop · 青 go · 黄 slow\"",
               "topic": "Traffic lights",
               "detail": "Red means stop, green (called 青) means go, amber means stop if you safely can — never speed up to beat it."
+            },
+            {
+              "hook": "\"一時停止 = full stop + look both ways\"",
+              "topic": "Stop sign (一時停止)",
+              "detail": "Stop completely at the stop line, check left and right, then proceed only when safe."
+            },
+            {
+              "hook": "\"No sign = yield right\"",
+              "topic": "Unmarked intersections",
+              "detail": "At intersections without signals or signs, yield to vehicles from the right. Broad road beats narrow road."
+            }
+          ]
+        },
+        {
+          "heading": "Turns, crossings & expressway",
+          "tips": [
+            {
+              "hook": "\"Left turn: cyclists & walkers first\"",
+              "topic": "Left turn priority",
+              "detail": "When turning left, cyclists and pedestrians crossing have priority — check mirrors and blind spots."
+            },
+            {
+              "hook": "\"Lights on in tunnels\"",
+              "topic": "Headlights",
+              "detail": "Switch on headlights in tunnels and at night — even when street lighting is present."
+            },
+            {
+              "hook": "\"Expressway min 50\"",
+              "topic": "Highway rules",
+              "detail": "Do not drive too slowly on expressways — minimum is typically 50 km/h. Use the passing lane only to overtake."
             }
           ]
         }
@@ -221,6 +361,7 @@
     "offences_note": "Point values follow the official Traffic Police / police schedules and can change — always confirm the current figure with the official source before relying on it.",
     "levels_title": "How suspension escalates",
     "newdriver_title": "New & probationary drivers",
+    "recovery_title": "How points clear & recovery",
     "sg": {
       "title": "Singapore (DIPS)",
       "golden": "24 demerit points in 24 months = 3-month suspension.",
@@ -245,6 +386,16 @@
           "label": "Repeat suspension",
           "value": "Longer",
           "sub": "6+ months / possible revocation"
+        },
+        {
+          "label": "Red light offence",
+          "value": "12 pts",
+          "sub": "one of the highest common offences"
+        },
+        {
+          "label": "Mobile phone",
+          "value": "6 pts",
+          "sub": "holding phone while driving"
         }
       ],
       "offences_headers": [
@@ -257,8 +408,24 @@
           "12 pts"
         ],
         [
-          "Speeding 30+ km/h over the limit",
+          "Reckless driving",
+          "12 pts"
+        ],
+        [
+          "Driving against traffic flow",
+          "12 pts"
+        ],
+        [
+          "Drink-driving (above limit)",
+          "12 pts + court"
+        ],
+        [
+          "Speeding 31+ km/h over the limit",
           "6–24 pts"
+        ],
+        [
+          "Speeding 21–30 km/h over the limit",
+          "6 pts"
         ],
         [
           "Using a mobile phone while driving",
@@ -269,8 +436,16 @@
           "6 pts"
         ],
         [
+          "Crossing double white lines",
+          "6 pts"
+        ],
+        [
           "Not wearing a seat belt",
           "3 pts"
+        ],
+        [
+          "Speeding 1–20 km/h over the limit",
+          "0 pts (fine only)"
         ]
       ],
       "levels": [
@@ -285,9 +460,14 @@
         {
           "label": "Suspended before + reach 24 again",
           "value": "Licence revocation"
+        },
+        {
+          "label": "New driver: 12 points in first year",
+          "value": "Licence revoked — must re-sit all tests"
         }
       ],
-      "newdriver_body": "During the first 12 months you hold a licence you are on probation. Reaching just 12 demerit points in that year means your licence is revoked and you must re-sit the tests — half the normal threshold, so drive extra carefully."
+      "newdriver_body": "During the first 12 months you hold a licence you are on probation. Reaching just 12 demerit points in that year means your licence is revoked and you must re-sit the tests — half the normal threshold, so drive extra carefully.",
+      "recovery_body": "Demerit points are counted on a rolling 24-month basis — older offences drop off after 24 months from the date of the offence. After serving a suspension, you start with a clean slate for that period, but repeat offences within 12 months of restoration lead to longer suspensions. Safe driving is the only reliable way to protect your licence."
     },
     "jp": {
       "title": "Japan (違反点数)",
@@ -313,6 +493,16 @@
           "label": "Revocation (取消)",
           "value": "15+ pts",
           "sub": "or with a prior suspension"
+        },
+        {
+          "label": "Red light",
+          "value": "2 pts",
+          "sub": "信号無視"
+        },
+        {
+          "label": "Mobile phone",
+          "value": "3 pts",
+          "sub": "ながら運転"
         }
       ],
       "offences_headers": [
@@ -321,12 +511,20 @@
       ],
       "offences": [
         [
-          "Drink-driving (酒気帯び, lower band)",
-          "13–25 pts"
+          "Drink-driving — drunk (酔い)",
+          "25 pts + criminal"
+        ],
+        [
+          "Drink-driving — impaired (酒気帯び)",
+          "13 pts"
         ],
         [
           "Speeding 30–50 km/h over (general road)",
           "6 pts"
+        ],
+        [
+          "Speeding 25–30 km/h over",
+          "3 pts"
         ],
         [
           "Using a mobile phone while driving",
@@ -337,8 +535,20 @@
           "2 pts"
         ],
         [
+          "Failing to stop at 一時停止",
+          "2 pts"
+        ],
+        [
+          "Not yielding to pedestrian at crossing",
+          "2 pts"
+        ],
+        [
           "Not wearing a seat belt",
           "1 pt"
+        ],
+        [
+          "Illegal parking (dangerous location)",
+          "1–2 pts"
         ]
       ],
       "levels": [
@@ -357,9 +567,14 @@
         {
           "label": "15+ points",
           "value": "Licence revocation"
+        },
+        {
+          "label": "Prior suspension on record",
+          "value": "Revocation at lower point totals"
         }
       ],
-      "newdriver_body": "In your first year on a regular licence you follow the beginner (初心運転者) rules. Accumulating 3 or more points can trigger a compulsory beginner re-training lecture — points count faster against new drivers, so build safe habits early."
+      "newdriver_body": "In your first year on a regular licence you follow the beginner (初心運転者) rules. Accumulating 3 or more points can trigger a compulsory beginner re-training lecture — points count faster against new drivers, so build safe habits early.",
+      "recovery_body": "Violation points are counted in a rolling 1-year window for suspension purposes. After a suspension is served, the clock resets for that tier — but a prior suspension means revocation can happen at a lower total next time. Attend any required lectures promptly and avoid even minor offences during your first year."
     },
     "see_guide": "See the full study guide →",
     "see_memory": "See easy-to-remember tips →",
@@ -575,12 +790,37 @@
     "hero": {
       "eyebrow": "Study material",
       "title": "Study Guide & Key Facts",
-      "lead": "Speed limits, alcohol limits, demerit points and stopping distances — the numbers you must know for the test."
+      "lead": "Test format, speed limits, alcohol limits, demerit points, stopping distances, right-of-way and parking rules — the facts you must know for BTT, FTT, RTT and Japan written tests."
     },
     "note_label": "Note:",
     "back_home": "← Back to home",
     "sg": {
       "title": "Singapore",
+      "test_format": {
+        "title": "Theory Test Format",
+        "items": [
+          {
+            "label": "BTT (Basic Theory)",
+            "value": "50 Q",
+            "sub": "50 min · pass 45/50 (90%)"
+          },
+          {
+            "label": "FTT (Final Theory)",
+            "value": "50 Q",
+            "sub": "50 min · pass 45/50 (90%)"
+          },
+          {
+            "label": "RTT (Riding Theory)",
+            "value": "50 Q",
+            "sub": "50 min · pass 45/50 (90%)"
+          },
+          {
+            "label": "BTT / FTT validity",
+            "value": "2 years",
+            "sub": "Complete practical within this period"
+          }
+        ]
+      },
       "speed_limits": {
         "title": "Speed Limits",
         "items": [
@@ -603,6 +843,11 @@
             "label": "School zones",
             "value": "40 km/h",
             "sub": "7 am – 7 pm school days"
+          },
+          {
+            "label": "Silver zone",
+            "value": "40 km/h",
+            "sub": "When amber lights are flashing"
           }
         ]
       },
@@ -683,20 +928,83 @@
         ],
         "note": "Double these distances on wet roads. Always maintain a 2-second following gap in normal conditions."
       },
+      "right_of_way": {
+        "title": "Right of Way & Junctions",
+        "items": [
+          "At uncontrolled junctions: yield to traffic from the right.",
+          "At T-junctions: through-traffic and traffic on the major road have priority.",
+          "When turning right: give way to oncoming traffic going straight or turning left.",
+          "At roundabouts: give way to traffic already on the roundabout (approach from the right).",
+          "When merging: traffic already on the main road has priority — match speed and find a safe gap.",
+          "Emergency vehicles (police, fire, ambulance) with lights/siren: pull left and stop."
+        ]
+      },
+      "expressway_tunnel": {
+        "title": "Expressway & Tunnel Rules",
+        "items": [
+          "Minimum speed on expressways is typically 60 km/h — do not obstruct faster traffic.",
+          "Keep left on expressways; use the right lane only for overtaking.",
+          "Do not stop, reverse or make U-turns on expressways except in emergencies.",
+          "Switch on headlights when entering tunnels — even in daylight.",
+          "If you break down: move to the emergency lane, switch on hazard lights, exit vehicle if safe.",
+          "Bus lanes and yellow box junctions: do not enter unless your exit is clear."
+        ],
+        "note": "Obstructing an emergency lane or stopping on an expressway is a serious offence with heavy demerit points."
+      },
+      "crossings_parking": {
+        "title": "Crossings, Yellow Box & Parking",
+        "items": [
+          "Yellow box junction: enter only if you can clear the box without blocking crossing traffic.",
+          "Zig-zag lines near pedestrian crossings: no stopping or parking — keeps sight lines clear.",
+          "Silver zones (signed): extra care for elderly pedestrians — often lower speed limits apply.",
+          "Double yellow lines: no parking at any time. Single yellow: no parking during signed hours.",
+          "At bus stops: do not park within 9 m of the bus stop sign (towards the next bus stop).",
+          "School zone flashes: 40 km/h when amber lights are operating on school days."
+        ]
+      },
       "key_rules_title": "Key Rules to Know",
       "key_rules": [
         "Seat belts are compulsory for ALL occupants — front and rear.",
         "Mobile phone use while driving: illegal unless on hands-free.",
         "Children under 1.35 m must use an approved child restraint.",
-        "Minimum following distance: 2 seconds in normal conditions.",
+        "Minimum following distance: 2 seconds in normal conditions (4 seconds in rain).",
         "Flashing amber at a pedestrian crossing — must yield to pedestrians.",
         "At a stop line with a red light or STOP sign — wheels must stop completely.",
         "Lane discipline: keep left unless overtaking.",
-        "Motorcyclists must wear an approved helmet at all times."
+        "Motorcyclists must wear an approved helmet at all times.",
+        "Do not drive in bus lanes during restricted hours unless you are a bus or authorised vehicle.",
+        "Give way to pedestrians at signalised crossings when the green man is showing.",
+        "U-turn only where permitted by signs or road markings — never at traffic lights unless signed.",
+        "Hazard perception (FTT): identify developing hazards early — the test uses video clips."
       ]
     },
     "jp": {
       "title": "Japan",
+      "test_format": {
+        "title": "Written Test Format (学科試験)",
+        "items": [
+          {
+            "label": "Provisional (仮免)",
+            "value": "50 Q",
+            "sub": "45 min · true/false · pass 45/50 (90%)"
+          },
+          {
+            "label": "Final (本免)",
+            "value": "95 Q",
+            "sub": "50 min · true/false · pass 86/95 (90%)"
+          },
+          {
+            "label": "Motorcycle (二輪)",
+            "value": "95 Q",
+            "sub": "50 min · same pass mark as car"
+          },
+          {
+            "label": "仮免 validity",
+            "value": "~6 months",
+            "sub": "Must pass 本免 before expiry"
+          }
+        ]
+      },
       "speed_limits": {
         "title": "Speed Limits (最高速度)",
         "items": [
@@ -769,6 +1077,36 @@
         ],
         "note": "Speeding 30–50 km/h over limit = 6 points. Running a red light = 2 points. Mobile phone while driving = 3 points."
       },
+      "stopping_distances": {
+        "title": "Stopping Distances (dry road / 乾燥路)",
+        "headers": [
+          "Speed",
+          "Thinking (14–15 m/s)",
+          "Braking",
+          "Total"
+        ],
+        "rows": [
+          [
+            "30 km/h",
+            "~7 m",
+            "~6 m",
+            "~13 m"
+          ],
+          [
+            "60 km/h",
+            "~14 m",
+            "~24 m",
+            "~38 m"
+          ],
+          [
+            "100 km/h",
+            "~23 m",
+            "~66 m",
+            "~89 m"
+          ]
+        ],
+        "note": "Wet or icy roads can double stopping distance. In residential zones (30 km/h), 徐行 (joko) means slow enough to stop within 1 metre at any time."
+      },
       "key_rules_title": "Key Rules to Know (重要事項)",
       "key_rules": [
         "徐行 (joko) means slow to a speed where you can stop within 1 metre at any time.",
@@ -778,7 +1116,11 @@
         "Left turn: cyclists and pedestrians have priority; check mirrors and blind spots.",
         "Horn use: only allowed in emergencies or at designated horn-use zones (警笛鳴らせ).",
         "Headlights must be on in tunnels and at night — even if street lighting is present.",
-        "Right of way at intersections: broad road > narrow road; otherwise yield to the right."
+        "Right of way at intersections: broad road > narrow road; otherwise yield to the right.",
+        "Stop completely at stop signs (一時停止) and check left and right before proceeding.",
+        "No overtaking near pedestrian crossings, intersections, or on curves/hills where visibility is limited.",
+        "Expressway minimum speed is typically 50 km/h — do not drive too slowly and block traffic.",
+        "Temporary provisional licence (仮免): must display the 仮 mark and be accompanied by a licensed instructor or holder over 3 years."
       ]
     }
   },
@@ -1311,14 +1653,22 @@
     "hero": {
       "eyebrow": "Human-reviewed",
       "title": "Bilingual Traffic Glossary",
-      "lead": "Every key traffic term in English, Myanmar (Burmese) and Japanese — checked by a human so a mistranslation never costs you a mark."
+      "lead": "Every key traffic term in English, Myanmar (Burmese) and Japanese — organised by topic and checked by a human so a mistranslation never costs you a mark."
     },
     "table": {
       "english": "English",
       "my": "မြန်မာ",
       "ja": "日本語"
     },
-    "footer_note": "30 terms · Updated July 2026 · Human-reviewed",
+    "categories": {
+      "signs": "Road signs & markings",
+      "rules": "Rules & right of way",
+      "vehicle": "Vehicle & controls",
+      "licence": "Licences & theory tests",
+      "penalties": "Penalties & alcohol",
+      "expressway": "Expressway & special zones"
+    },
+    "footer_note": "{count} terms · Updated July 2026 · Human-reviewed",
     "back_home": "← Back to home"
   },
   "resourcesLicenceClasses": {

@@ -120,24 +120,59 @@
     "hero": {
       "eyebrow": "賢く学ぶ",
       "title": "覚えやすいコツ",
-      "lead": "重要な数字やルールを頭に残す短い記憶のコツ。正確な数値は学習ガイドを確認してください — このページは覚えるためのものです。"
+      "lead": "試験形式・速度・違反点数・標識・優先道路など、BTT/FTT/RTTと日本学科試験で繰り返し出る覚え方のコツ。"
     },
     "note_label": "効く理由:",
     "sg": {
-      "title": "シンガポール — 記憶のコツ",
+      "title": "シンガポール — 覚え方",
       "groups": [
+        {
+          "heading": "学科試験の形式",
+          "tips": [
+            {
+              "hook": "\"50-50-90\"",
+              "topic": "BTT / FTT / RTT",
+              "detail": "50問・50分・45問正解(90%)。シンガポールの3つの学科試験は同じ形式。"
+            },
+            {
+              "hook": "\"BTT before FTT\"",
+              "topic": "試験の順番",
+              "detail": "BTT合格 → 実技教習開始 → 5回以上の教習後にFTT(RTT) → TP実技試験。"
+            }
+          ]
+        },
         {
           "heading": "速度と車間距離",
           "tips": [
             {
-              "hook": "「2秒ルール」",
+              "hook": "\"Only a fool breaks the 2-second rule\"",
               "topic": "安全な車間距離",
-              "detail": "路肩の目印を決めます。前の車がそこを通過してから、あなたが到達するまで2秒以上空けます — 雨なら4秒に。"
+              "detail": "目印を選び、前の車が通過してから2秒以上経ってから自分が通過。雨天は4秒。"
             },
             {
-              "hook": "「街中50、高速90」",
-              "topic": "既定の速度制限",
-              "detail": "市街地は既定で50km/h、高速道路は標識がなければ90km/hまで。"
+              "hook": "\"50 in town, 90 on the E-way\"",
+              "topic": "標準速度",
+              "detail": "市街地50km/h、高速道路は標識がなければ90km/h。"
+            },
+            {
+              "hook": "\"School & silver = 40\"",
+              "topic": "低速ゾーン",
+              "detail": "スクールゾーン(学校日7–19時)とシルバーゾーン点滅時は40km/h。"
+            }
+          ]
+        },
+        {
+          "heading": "飲酒と安全",
+          "tips": [
+            {
+              "hook": "\"35 breath · 80 blood\"",
+              "topic": "飲酒基準",
+              "detail": "呼気35µg/100ml、血液80mg/100ml。新規ドライバーは初年度ゼロ。"
+            },
+            {
+              "hook": "\"Belt every seat\"",
+              "topic": "シートベルト",
+              "detail": "前後席すべて必須。身長1.35m未満はチャイルドシート。"
             }
           ]
         },
@@ -145,59 +180,164 @@
           "heading": "違反点数と標識",
           "tips": [
             {
-              "hook": "「24 → 3か月停止」",
-              "topic": "免許停止の基準",
-              "detail": "24か月以内に違反点数24点で3か月の停止。新規ドライバーは最初の1年間、12点で停止になります。"
+              "hook": "\"24 → out for 3\"",
+              "topic": "停止基準",
+              "detail": "24か月以内に24点で3か月停止。新規は初年度12点で停止。"
             },
             {
-              "hook": "「赤はダメ、青はOK」",
+              "hook": "\"Red says NO, Blue says GO\"",
               "topic": "標識の色",
-              "detail": "赤い丸の標識は禁止（進入禁止、駐車禁止）。青い標識は指示（左側通行、左折）。"
+              "detail": "赤輪は禁止、青は指示(左側走行など)。"
             },
             {
-              "hook": "「三角形＝先を考える」",
+              "hook": "\"Triangle = think ahead\"",
               "topic": "警戒標識",
-              "detail": "赤縁の三角標識は前方の危険を警告します — カーブ、交差点、横断歩道など。"
+              "detail": "赤枠三角は前方の危険を警告。"
+            },
+            {
+              "hook": "\"Octagon = STOP\"",
+              "topic": "一時停止標識",
+              "detail": "八角形はSTOPのみ — 停止線で完全停止。"
+            }
+          ]
+        },
+        {
+          "heading": "優先道路と交差点",
+          "tips": [
+            {
+              "hook": "\"Uncontrolled = yield right\"",
+              "topic": "無信号交差点",
+              "detail": "信号・標識のない交差点は右側優先。"
+            },
+            {
+              "hook": "\"Roundabout: give way to the circle\"",
+              "topic": "ラウンドアバウト",
+              "detail": "右から来る環状内の車に譲ってから進入。"
+            },
+            {
+              "hook": "\"Right turn waits for oncoming\"",
+              "topic": "右折",
+              "detail": "右折時は対向の直進・左折車に譲る。"
+            }
+          ]
+        },
+        {
+          "heading": "高速道路・横断歩道・駐車",
+          "tips": [
+            {
+              "hook": "\"Yellow box = don't block\"",
+              "topic": "黄色ボックス",
+              "detail": "出口が空いている場合のみ進入。"
+            },
+            {
+              "hook": "\"Zig-zag = no stop\"",
+              "topic": "横断歩道",
+              "detail": "ジグザグ線付近は停止・駐車禁止。"
+            },
+            {
+              "hook": "\"Left lane on the E-way\"",
+              "topic": "高速道路",
+              "detail": "左側走行、追い越し時のみ右。最低速度は通常60km/h。"
             }
           ]
         }
       ]
     },
     "jp": {
-      "title": "日本 — 記憶のコツ",
+      "title": "日本 — 覚え方",
       "groups": [
         {
-          "heading": "速度と車線",
+          "heading": "学科試験の形式",
           "tips": [
             {
-              "hook": "「一般60、高速100」",
-              "topic": "既定の速度制限",
-              "detail": "一般道は既定で約60km/h、高速道路は標識がなければ100km/hまで。"
+              "hook": "\"仮免 50 · 本免 95\"",
+              "topic": "試験問題数",
+              "detail": "仮免学科50問45分(45/50)、本免学科95問50分(86/95) — いずれも90%合格。"
             },
             {
-              "hook": "「左を走り、右で追い越す」",
-              "topic": "車線の規律",
-              "detail": "左車線を走行し、右車線は追い越しのみに使い — 追い越したら左に戻ります。"
+              "hook": "\"仮 before 本\"",
+              "topic": "免許の段階",
+              "detail": "指定校: 仮免学科+仮免技能 → 仮免取得 → 路上教習 → 本免学科。"
             }
           ]
         },
         {
-          "heading": "点数と信号",
+          "heading": "速度と車線",
           "tips": [
             {
-              "hook": "「15点で免許取消」",
-              "topic": "免許取消",
-              "detail": "違反点数15点（前歴があればより少なく）に達すると免許が取り消されます。"
+              "hook": "\"60 general, 100 expressway\"",
+              "topic": "標準速度",
+              "detail": "一般道60km/h、高速100km/h。生活道路は30km/h。"
             },
             {
-              "hook": "「日本では飲酒ゼロを目指す」",
+              "hook": "\"Keep left, pass right\"",
+              "topic": "車線",
+              "detail": "左側走行、追い越し時のみ右レーン。"
+            },
+            {
+              "hook": "\"Joko = 1 metre stop\"",
+              "topic": "徐行",
+              "detail": "いつでも1m以内で止まれる速度 — 横断歩道付近で重要。"
+            }
+          ]
+        },
+        {
+          "heading": "点数と飲酒",
+          "tips": [
+            {
+              "hook": "\"15 points = licence gone\"",
+              "topic": "取消し",
+              "detail": "15点(または停止歴ありでより少なく)で免許取消。"
+            },
+            {
+              "hook": "\"6-9-12-15\"",
+              "topic": "停止の段階",
+              "detail": "6–8点=30日、9–11=60日、12–14=90日、15+=取消。1年間の累計。"
+            },
+            {
+              "hook": "\"In Japan, aim for ZERO alcohol\"",
               "topic": "飲酒運転",
-              "detail": "基準値は非常に低く罰則も厳しい — 安全な覚え方は「飲んだら乗らない」だけ。"
+              "detail": "基準は非常に低く罰則も厳しい — 飲んでは運転しない。"
+            }
+          ]
+        },
+        {
+          "heading": "信号と標識",
+          "tips": [
+            {
+              "hook": "\"赤 stop · 青 go · 黄 slow\"",
+              "topic": "信号",
+              "detail": "赤=停止、青=進行、黄=安全なら停止。黄信号を追いかけない。"
             },
             {
-              "hook": "「赤=止まれ · 青=進め · 黄=減速」",
-              "topic": "信号",
-              "detail": "赤は停止、青は進行、黄は安全に止まれるなら停止 — 信号を抜けようと加速しないこと。"
+              "hook": "\"一時停止 = full stop + look both ways\"",
+              "topic": "一時停止",
+              "detail": "停止線で完全停止、左右確認後に進む。"
+            },
+            {
+              "hook": "\"No sign = yield right\"",
+              "topic": "無標識交差点",
+              "detail": "右側優先。広い道>狭い道。"
+            }
+          ]
+        },
+        {
+          "heading": "左折・横断歩道・高速",
+          "tips": [
+            {
+              "hook": "\"Left turn: cyclists & walkers first\"",
+              "topic": "左折",
+              "detail": "左折時は自転車・歩行者優先。死角確認。"
+            },
+            {
+              "hook": "\"Lights on in tunnels\"",
+              "topic": "ヘッドライト",
+              "detail": "トンネル内と夜間は点灯 — 街灯があっても。"
+            },
+            {
+              "hook": "\"Expressway min 50\"",
+              "topic": "高速道路",
+              "detail": "最低速度は通常50km/h — 遅すぎて妨げない。"
             }
           ]
         }
@@ -223,147 +363,222 @@
     "newdriver_title": "新規・初心運転者",
     "sg": {
       "title": "シンガポール (DIPS)",
-      "golden": "24か月で違反点数24点 = 3か月の免許停止。",
-      "hook": "「24のうち24 → 3か月停止」。24か月で24点なら3か月間、道路から離れることになります。",
+      "golden": "24か月以内に24点 = 3か月停止。",
+      "hook": "「24 in 24 → out for 3」— 24か月で24点なら3か月停止。",
       "stats": [
         {
-          "label": "停止の基準",
-          "value": "24点",
-          "sub": "任意の24か月以内"
+          "label": "Suspension threshold",
+          "value": "24 pts",
+          "sub": "within any 24 months"
         },
         {
-          "label": "新規ドライバー基準",
-          "value": "12点",
-          "sub": "最初の12か月以内"
+          "label": "New driver threshold",
+          "value": "12 pts",
+          "sub": "within first 12 months"
         },
         {
-          "label": "初回停止",
-          "value": "3か月",
-          "sub": "24点到達で"
+          "label": "First suspension",
+          "value": "3 months",
+          "sub": "for hitting 24 points"
         },
         {
-          "label": "再度の停止",
-          "value": "より長く",
-          "sub": "6か月+ / 取消の可能性"
+          "label": "Repeat suspension",
+          "value": "Longer",
+          "sub": "6+ months / possible revocation"
+        },
+        {
+          "label": "Red light offence",
+          "value": "12 pts",
+          "sub": "one of the highest common offences"
+        },
+        {
+          "label": "Mobile phone",
+          "value": "6 pts",
+          "sub": "holding phone while driving"
         }
       ],
       "offences_headers": [
-        "違反",
-        "違反点数"
+        "Offence",
+        "Demerit points"
       ],
       "offences": [
         [
-          "信号無視",
-          "12点"
+          "Running a red light",
+          "12 pts"
         ],
         [
-          "制限を30km/h以上超過",
-          "6〜24点"
+          "Reckless driving",
+          "12 pts"
         ],
         [
-          "運転中の携帯電話使用",
-          "6点"
+          "Driving against traffic flow",
+          "12 pts"
         ],
         [
-          "歩行者に道を譲らない",
-          "6点"
+          "Drink-driving (above limit)",
+          "12 pts + court"
         ],
         [
-          "シートベルト未着用",
-          "3点"
+          "Speeding 31+ km/h over the limit",
+          "6–24 pts"
+        ],
+        [
+          "Speeding 21–30 km/h over the limit",
+          "6 pts"
+        ],
+        [
+          "Using a mobile phone while driving",
+          "6 pts"
+        ],
+        [
+          "Failing to give way to a pedestrian",
+          "6 pts"
+        ],
+        [
+          "Crossing double white lines",
+          "6 pts"
+        ],
+        [
+          "Not wearing a seat belt",
+          "3 pts"
+        ],
+        [
+          "Speeding 1–20 km/h over the limit",
+          "0 pts (fine only)"
         ]
       ],
       "levels": [
         {
-          "label": "24点（初回）",
-          "value": "3か月の停止"
+          "label": "24 points (1st time)",
+          "value": "3-month suspension"
         },
         {
-          "label": "回復後12か月以内に再び24点",
-          "value": "6か月の停止"
+          "label": "24 points again within 12 months of restoration",
+          "value": "6-month suspension"
         },
         {
-          "label": "停止歴あり + 再び24点",
-          "value": "免許取消"
+          "label": "Suspended before + reach 24 again",
+          "value": "Licence revocation"
+        },
+        {
+          "label": "New driver: 12 points in first year",
+          "value": "Licence revoked — must re-sit all tests"
         }
       ],
-      "newdriver_body": "免許取得後の最初の12か月は保護観察期間です。その年に違反点数12点に達するだけで免許が取り消され、試験を再受験しなければなりません — 通常の基準の半分なので、特に慎重に運転してください。"
+      "newdriver_body": "免許取得後12か月は試用期間。12点で免許取消 — 通常の半分の基準なので特に注意。",
+      "recovery_body": "違反点数は24か月のローリングで計算 — 24か月経過で古い違反はカウントから外れます。停止後はその期間クリーンに再スタートできますが、復帰後12か月以内の再犯はより長い停止に。安全運転が唯一の確実な方法です。"
     },
     "jp": {
       "title": "日本 (違反点数)",
       "golden": "違反点数15点 = 免許取消。",
-      "hook": "「6-9-12-15」：停止は6点から始まり、15点で免許は完全に取り消されます。",
+      "hook": "「6-9-12-15」— 6点から停止、15点で免許取消。",
       "stats": [
         {
-          "label": "30日停止",
-          "value": "6〜8点",
-          "sub": "1年間・前歴なし"
+          "label": "30-day suspension",
+          "value": "6–8 pts",
+          "sub": "in 1 year, no prior record"
         },
         {
-          "label": "60日停止",
-          "value": "9〜11点",
-          "sub": "1年間"
+          "label": "60-day suspension",
+          "value": "9–11 pts",
+          "sub": "in 1 year"
         },
         {
-          "label": "90日停止",
-          "value": "12〜14点",
-          "sub": "1年間"
+          "label": "90-day suspension",
+          "value": "12–14 pts",
+          "sub": "in 1 year"
         },
         {
-          "label": "取消",
-          "value": "15点+",
-          "sub": "または前歴ありで"
+          "label": "Revocation (取消)",
+          "value": "15+ pts",
+          "sub": "or with a prior suspension"
+        },
+        {
+          "label": "赤信号無視",
+          "value": "2 pts",
+          "sub": "信号無視"
+        },
+        {
+          "label": "携帯使用",
+          "value": "3 pts",
+          "sub": "ながら運転"
         }
       ],
       "offences_headers": [
-        "違反",
-        "違反点数"
+        "Offence",
+        "Violation points"
       ],
       "offences": [
         [
-          "飲酒運転（酒気帯び・下位）",
-          "13〜25点"
+          "Drink-driving — drunk (酔い)",
+          "25 pts + criminal"
         ],
         [
-          "一般道で30〜50km/h超過",
-          "6点"
+          "Drink-driving — impaired (酒気帯び)",
+          "13 pts"
         ],
         [
-          "運転中の携帯電話使用",
-          "3点"
+          "Speeding 30–50 km/h over (general road)",
+          "6 pts"
         ],
         [
-          "信号無視",
-          "2点"
+          "Speeding 25–30 km/h over",
+          "3 pts"
         ],
         [
-          "シートベルト未着用",
-          "1点"
+          "Using a mobile phone while driving",
+          "3 pts"
+        ],
+        [
+          "Running a red light",
+          "2 pts"
+        ],
+        [
+          "Failing to stop at 一時停止",
+          "2 pts"
+        ],
+        [
+          "Not yielding to pedestrian at crossing",
+          "2 pts"
+        ],
+        [
+          "Not wearing a seat belt",
+          "1 pt"
+        ],
+        [
+          "Illegal parking (dangerous location)",
+          "1–2 pts"
         ]
       ],
       "levels": [
         {
-          "label": "6〜8点",
-          "value": "30日の停止"
+          "label": "6–8 points",
+          "value": "30-day suspension"
         },
         {
-          "label": "9〜11点",
-          "value": "60日の停止"
+          "label": "9–11 points",
+          "value": "60-day suspension"
         },
         {
-          "label": "12〜14点",
-          "value": "90日の停止"
+          "label": "12–14 points",
+          "value": "90-day suspension"
         },
         {
-          "label": "15点+",
-          "value": "免許取消"
+          "label": "15+ points",
+          "value": "Licence revocation"
+        },
+        {
+          "label": "停止歴あり",
+          "value": "Revocation at lower point totals"
         }
       ],
-      "newdriver_body": "普通免許の最初の1年間は初心運転者ルールが適用されます。3点以上を累積すると初心運転者講習が義務づけられることがあります — 新規ドライバーには点数が早く効くため、早めに安全な習慣を身につけましょう。"
+      "newdriver_body": "本免取得後1年間は初心運転者ルール。3点以上で講習受講の対象 — 新規は点数が早くたまるので最初から安全運転を。",
+      "recovery_body": "停止判定は1年間の累計点数。停止を終えればその段階はリセット — ただし停止歴があると次回はより少ない点数で取消になります。講習は期限までに受講し、初年度は軽微な違反も避けましょう。"
     },
     "see_guide": "学習ガイド全体を見る →",
     "see_memory": "覚えやすいコツを見る →",
-    "back_home": "ホームに戻る"
+    "back_home": "ホームに戻る",
+    "recovery_title": "点数の経過と回復"
   },
   "faq": {
     "eyebrow": "知っておきたいこと",
@@ -575,12 +790,37 @@
     "hero": {
       "eyebrow": "学習教材",
       "title": "学習ガイドと重要ポイント",
-      "lead": "速度制限・飲酒基準・違反点数・停止距離など、試験に必要な数字をまとめました。"
+      "lead": "試験形式・速度制限・飲酒基準・違反点数・停止距離・優先道路・駐車ルールなど、学科試験に必要な重要ポイントをまとめました。"
     },
     "note_label": "注:",
     "back_home": "← ホームへ戻る",
     "sg": {
       "title": "シンガポール",
+      "test_format": {
+        "title": "学科試験の形式",
+        "items": [
+          {
+            "label": "BTT (基礎学科)",
+            "value": "50 Q",
+            "sub": "50分 · 45/50 (90%) 合格"
+          },
+          {
+            "label": "FTT (最終学科)",
+            "value": "50 Q",
+            "sub": "50分 · 45/50 (90%) 合格"
+          },
+          {
+            "label": "RTT (二輪学科)",
+            "value": "50 Q",
+            "sub": "50分 · 45/50 (90%) 合格"
+          },
+          {
+            "label": "BTT / FTT 有効期間",
+            "value": "2年",
+            "sub": "この期間内に実技を完了"
+          }
+        ]
+      },
       "speed_limits": {
         "title": "速度制限",
         "items": [
@@ -603,6 +843,11 @@
             "label": "スクールゾーン",
             "value": "40 km/h",
             "sub": "学校日 7am–7pm"
+          },
+          {
+            "label": "シルバーゾーン",
+            "value": "40 km/h",
+            "sub": "黄点滅灯が作動中"
           }
         ]
       },
@@ -683,20 +928,83 @@
         ],
         "note": "濡れた路面では距離は約2倍。通常は2秒の車間距離を保ちましょう。"
       },
+      "right_of_way": {
+        "title": "優先道路と交差点",
+        "items": [
+          "信号のない交差点では右から来る車に譲る。",
+          "T字路では幹線道路・直進車が優先。",
+          "右折時は対向の直進・左折車に譲る。",
+          "ラウンドアバウトでは環状内の車が優先（右から進入する車に注意）。",
+          "合流時は本線の車が優先 — 速度を合わせ安全な間隔を確保。",
+          "緊急車両（警察・消防・救急）がサイレン点灯時は左に寄って停止。"
+        ]
+      },
+      "expressway_tunnel": {
+        "title": "高速道路・トンネル",
+        "items": [
+          "高速道路の最低速度は通常60km/h — 遅すぎて後続を妨げない。",
+          "高速道路は左側走行、追い越し時のみ右レーン使用。",
+          "緊急時以外、高速道路上での停止・後退・Uターン禁止。",
+          "トンネル進入時はライト点灯 — 昼間でも。",
+          "故障時は路肩へ移動、ハザード点灯、安全なら車外へ。",
+          "バスレーン・黄色ボックス：出口が空いている場合のみ進入。"
+        ],
+        "note": "路肩の妨害や高速道路上での停止は重大違反で、多くの違反点数が付きます。"
+      },
+      "crossings_parking": {
+        "title": "横断歩道・黄色ボックス・駐車",
+        "items": [
+          "黄色ボックス：交差交通を塞がずに通過できる場合のみ進入。",
+          "横断歩道前のジグザグ線：停止・駐車禁止（視界確保）。",
+          "シルバーゾーン（標識あり）：高齢者に注意 — 速度制限が低い場合あり。",
+          "二重黄線：常時駐車禁止。単線黄：標識時間帯は駐車禁止。",
+          "バス停：次のバス停方向へ標識から9m以内に駐車禁止。",
+          "スクールゾーン点滅：学校日は40km/h。"
+        ]
+      },
       "key_rules_title": "重要ルール",
       "key_rules": [
         "前席・後席すべての乗員はシートベルト必須。",
         "運転中の携帯使用は禁止（ハンズフリーのみ可）。",
         "身長1.35m未満の子どもはチャイルドシート必須。",
-        "通常時の車間距離は2秒以上。",
+        "通常時の車間距離は2秒以上（雨天は4秒）。",
         "横断歩道の点滅黄信号では歩行者優先。",
         "赤信号やSTOP標識の停止線では完全停止。",
         "追い越し時以外は左側走行。",
-        "バイクは常に認可ヘルメット着用。"
+        "バイクは常に認可ヘルメット着用。",
+        "制限時間中はバスレーン進入禁止（バス等を除く）。",
+        "信号付き横断歩道で青信号の歩行者に譲る。",
+        "Uターンは標識・路面標示で許可された場所のみ。",
+        "危険予測（FTT）：ビデオで発展する危険を早く識別する。"
       ]
     },
     "jp": {
       "title": "日本",
+      "test_format": {
+        "title": "学科試験の形式",
+        "items": [
+          {
+            "label": "仮免許 (仮免)",
+            "value": "50 Q",
+            "sub": "45分 · 正誤 · 45/50 (90%) 合格"
+          },
+          {
+            "label": "本免許 (本免)",
+            "value": "95 Q",
+            "sub": "50分 · 正誤 · 86/95 (90%) 合格"
+          },
+          {
+            "label": "二輪免許",
+            "value": "95 Q",
+            "sub": "50分 · 普通免許と同じ合格基準"
+          },
+          {
+            "label": "仮免 有効期間",
+            "value": "約6か月",
+            "sub": "期限前に本免を取得"
+          }
+        ]
+      },
       "speed_limits": {
         "title": "速度制限 (最高速度)",
         "items": [
@@ -769,6 +1077,36 @@
         ],
         "note": "速度超過30–50km/hは6点、信号無視2点、携帯使用3点。"
       },
+      "stopping_distances": {
+        "title": "停止距離（乾燥路）",
+        "headers": [
+          "速度",
+          "空走距離(14–15 m/s)",
+          "制動距離",
+          "合計"
+        ],
+        "rows": [
+          [
+            "30 km/h",
+            "~7 m",
+            "~6 m",
+            "~13 m"
+          ],
+          [
+            "60 km/h",
+            "~14 m",
+            "~24 m",
+            "~38 m"
+          ],
+          [
+            "100 km/h",
+            "~23 m",
+            "~66 m",
+            "~89 m"
+          ]
+        ],
+        "note": "濡れ・凍結路では停止距離が約2倍。生活道路（30km/h）では徐行＝いつでも1m以内で止まれる速度。"
+      },
       "key_rules_title": "重要事項",
       "key_rules": [
         "徐行 (joko) は「いつでも1m以内で止まれる速度で走る」こと。",
@@ -778,7 +1116,11 @@
         "左折時は自転車・歩行者が優先。ミラーと死角を確認。",
         "クラクションは緊急時または警笛鳴らせ区間のみ。",
         "トンネル内や夜間はライト点灯（街灯があっても）。",
-        "交差点の優先: 広い道 > 狭い道、同等なら右側優先。"
+        "交差点の優先: 広い道 > 狭い道、同等なら右側優先。",
+        "一時停止標識では完全停止し、左右確認後に進む。",
+        "横断歩道・交差点付近、見通しの悪いカーブ・坂では追い越し禁止。",
+        "高速道路の最低速度は通常50km/h — 遅すぎて交通を妨げない。",
+        "仮免許：仮マーク表示、3年以上の免許保持者または指導員の同乗が必要。"
       ]
     }
   },
@@ -1307,18 +1649,26 @@
   },
   "resourcesGlossary": {
     "breadcrumb_home": "← ホームへ戻る",
-    "breadcrumb_title": "交通用語集（多言語）",
+    "breadcrumb_title": "三言語 交通用語集",
     "hero": {
-      "eyebrow": "人力チェック済み",
-      "title": "交通用語集（多言語）",
-      "lead": "英語・ミャンマー語・日本語の主要交通用語を掲載。人による確認済みで誤訳による失点を防ぎます。"
+      "eyebrow": "人間が確認済み",
+      "title": "三言語 交通用語集",
+      "lead": "英語・ミャンマー語・日本語の重要交通用語 — トピック別に整理し、誤訳で点を落とさないよう人間が確認しました。"
     },
     "table": {
       "english": "English",
       "my": "မြန်မာ",
       "ja": "日本語"
     },
-    "footer_note": "30語 · 2026年7月更新 · 人力チェック済み",
+    "categories": {
+      "signs": "道路標識・路面標示",
+      "rules": "ルールと優先道路",
+      "vehicle": "車両と操作",
+      "licence": "免許と学科試験",
+      "penalties": "罰則と飲酒",
+      "expressway": "高速道路と特別区域"
+    },
+    "footer_note": "{count}語 · 2026年7月更新 · 人間が確認済み",
     "back_home": "← ホームへ戻る"
   },
   "resourcesLicenceClasses": {
