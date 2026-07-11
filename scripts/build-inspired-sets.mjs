@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Build copyright-safe exam-style inspired sets from original question banks.
- * Usage: node scripts/build-inspired-sets.mjs [sg_btt|sg_ftt|sg_rtt]
+ * Usage: node scripts/build-inspired-sets.mjs [sg_btt|sg_ftt|sg_rtt|jp_car|jp_moto]
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -206,7 +206,7 @@ function main() {
   const category = process.argv[2] ?? 'sg_btt';
   const config = INSPIRED_SET_CONFIGS[category];
   if (!config) {
-    console.error(`Unknown category: ${category}. Use sg_btt, sg_ftt, or sg_rtt.`);
+    console.error(`Unknown category: ${category}. Use sg_btt, sg_ftt, sg_rtt, jp_car, or jp_moto.`);
     process.exit(1);
   }
 
