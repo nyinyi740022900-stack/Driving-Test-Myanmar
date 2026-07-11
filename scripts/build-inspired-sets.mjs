@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Build 12 copyright-safe exam-style sets (500 Q) from original question banks.
- * Usage: node scripts/build-inspired-sets.mjs [sg_btt|sg_ftt]
+ * Build copyright-safe exam-style inspired sets from original question banks.
+ * Usage: node scripts/build-inspired-sets.mjs [sg_btt|sg_ftt|sg_rtt]
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -170,7 +170,6 @@ function createEngine(config) {
     return {
       manifest: { category: config.category, maxQuestions: MAX_BANK, sets: manifestSets, questionIds: [] },
       tagById,
-      maxBank: MAX_BANK,
     };
   }
 
@@ -197,7 +196,7 @@ function createEngine(config) {
     const topicCounts = {};
     for (const q of merged) topicCounts[q.topic] = (topicCounts[q.topic] || 0) + 1;
 
-    return { merged, manifest, topicCounts };
+    return { merged, manifest, topicCounts, maxBank: MAX_BANK };
   }
 
   return { build };
@@ -207,7 +206,7 @@ function main() {
   const category = process.argv[2] ?? 'sg_btt';
   const config = INSPIRED_SET_CONFIGS[category];
   if (!config) {
-    console.error(`Unknown category: ${category}. Use sg_btt or sg_ftt.`);
+    console.error(`Unknown category: ${category}. Use sg_btt, sg_ftt, or sg_rtt.`);
     process.exit(1);
   }
 
@@ -219,13 +218,13 @@ function main() {
   const clean = raw.filter(q => !q.id.startsWith(pastPrefix)).map(stripInspired);
 
   const { build } = createEngine(config);
-  const { merged, manifest, topicCounts } = build(clean);
+  const { merged, manifest, topicCounts, maxBank } = build(clean);
 
   fs.mkdirSync(path.dirname(manifestPath), { recursive: true });
   fs.writeFileSync(manifestPath, `${JSON.stringify({ ...manifest, topicCounts }, null, 2)}\n`, 'utf8');
   fs.writeFileSync(bankPath, `${JSON.stringify(merged, null, 2)}\n`, 'utf8');
 
-  console.log(`[${category}] Bank: ${merged.length} questions (max ${config.maxBank ?? DEFAULT_MAX_BANK})`);
+  console.log(`[${category}] Bank: ${merged.length} questions (max ${maxBank})`);
   console.log(`Inspired sets: ${manifest.sets.length}, per-set: ${manifest.sets.map(s => s.questionCount).join(', ')}`);
   console.log('Top topics:', Object.entries(topicCounts).sort((a, b) => b[1] - a[1]).slice(0, 8).map(([k, v]) => `${v} ${k}`).join(', '));
 }

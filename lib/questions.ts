@@ -3,7 +3,7 @@ import { CATEGORY_COUNTRY } from './types';
 import { sortInspiredSetsFirst } from './inspired-sets';
 
 const JP_CATEGORIES: Category[] = ['jp_car', 'jp_moto'];
-const INSPIRED_SORT_CATEGORIES: Category[] = ['sg_btt', 'sg_ftt'];
+const INSPIRED_SORT_CATEGORIES: Category[] = ['sg_btt', 'sg_ftt', 'sg_rtt'];
 
 const cache: Partial<Record<Category, Question[]>> = {};
 

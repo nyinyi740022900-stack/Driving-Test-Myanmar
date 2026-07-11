@@ -187,7 +187,7 @@ export const TEST_META: TestMeta[] = [
   {
     category: 'sg_ftt',
     tag: 'FTT',
-    bankQuestionCount: 100,
+    bankQuestionCount: 500,
     questionCount: 50,
     timeLimitMinutes: 50,
     passPercent: 90,
@@ -201,7 +201,7 @@ export const TEST_META: TestMeta[] = [
   {
     category: 'sg_rtt',
     tag: 'RTT',
-    bankQuestionCount: 109,
+    bankQuestionCount: 100,
     questionCount: 50,
     timeLimitMinutes: 50,
     passPercent: 90,
