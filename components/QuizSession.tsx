@@ -123,7 +123,7 @@ export default function QuizSession({ category, mode, questions }: Props) {
     if (retryPool) return retryPool; // already shuffled on creation
     if (mode === 'test') {
       const inspired = getInspiredSetQuestions(questions);
-      if (category === 'sg_btt' && inspired.length >= meta.questionCount) {
+      if ((category === 'sg_btt' || category === 'sg_ftt') && inspired.length >= meta.questionCount) {
         const useFullSet = Math.random() < 0.75;
         const source = useFullSet
           ? pickInspiredSetPool(questions, meta.questionCount)

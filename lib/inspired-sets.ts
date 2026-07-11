@@ -1,7 +1,7 @@
 import type { Question } from './types';
 
-/** Twelve exam-style practice sets built from original TheoryLane questions (not copied papers). */
-export const SG_BTT_INSPIRED_SET_ORDER = [
+/** Twelve exam-style practice sets (shared IDs across SG categories). */
+export const SG_INSPIRED_SET_ORDER = [
   'inspired-01',
   'inspired-02',
   'inspired-03',
@@ -16,7 +16,11 @@ export const SG_BTT_INSPIRED_SET_ORDER = [
   'inspired-12',
 ] as const;
 
-export type SgBttInspiredSetId = (typeof SG_BTT_INSPIRED_SET_ORDER)[number];
+export type SgInspiredSetId = (typeof SG_INSPIRED_SET_ORDER)[number];
+
+/** @deprecated Use SG_INSPIRED_SET_ORDER */
+export const SG_BTT_INSPIRED_SET_ORDER = SG_INSPIRED_SET_ORDER;
+export type SgBttInspiredSetId = SgInspiredSetId;
 
 export interface QuestionSetInfo {
   questions: Question[];
@@ -38,7 +42,7 @@ export function buildQuestionSets(questions: Question[], batchSize = 50): Questi
 
   const sets: QuestionSetInfo[] = [];
 
-  for (const setId of SG_BTT_INSPIRED_SET_ORDER) {
+  for (const setId of SG_INSPIRED_SET_ORDER) {
     const setQs = bySet.get(setId);
     if (!setQs?.length) continue;
     setQs.sort((a, b) => (a.inspiredSet?.number ?? 0) - (b.inspiredSet?.number ?? 0));
@@ -79,14 +83,14 @@ export function pickInspiredSetPool(questions: Question[], count: number): Quest
 }
 
 export function sortInspiredSetsFirst(questions: Question[]): Question[] {
-  const order = new Map(SG_BTT_INSPIRED_SET_ORDER.map((id, i) => [id, i]));
+  const order = new Map(SG_INSPIRED_SET_ORDER.map((id, i) => [id, i]));
 
   return [...questions].sort((a, b) => {
     const aSet = a.inspiredSet?.id;
     const bSet = b.inspiredSet?.id;
     if (aSet && bSet) {
-      const ai = order.get(aSet as SgBttInspiredSetId) ?? 999;
-      const bi = order.get(bSet as SgBttInspiredSetId) ?? 999;
+      const ai = order.get(aSet as SgInspiredSetId) ?? 999;
+      const bi = order.get(bSet as SgInspiredSetId) ?? 999;
       if (ai !== bi) return ai - bi;
       return (a.inspiredSet?.number ?? 0) - (b.inspiredSet?.number ?? 0);
     }

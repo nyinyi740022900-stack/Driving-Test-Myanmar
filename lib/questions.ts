@@ -3,6 +3,7 @@ import { CATEGORY_COUNTRY } from './types';
 import { sortInspiredSetsFirst } from './inspired-sets';
 
 const JP_CATEGORIES: Category[] = ['jp_car', 'jp_moto'];
+const INSPIRED_SORT_CATEGORIES: Category[] = ['sg_btt', 'sg_ftt'];
 
 const cache: Partial<Record<Category, Question[]>> = {};
 
@@ -12,7 +13,9 @@ export async function getQuestions(category: Category): Promise<Question[]> {
   try {
     const data = await import(`../content/questions/${category}.json`);
     const questions: Question[] = Array.isArray(data.default) ? data.default : data;
-    cache[category] = category === 'sg_btt' ? sortInspiredSetsFirst(questions) : questions;
+    cache[category] = INSPIRED_SORT_CATEGORIES.includes(category)
+      ? sortInspiredSetsFirst(questions)
+      : questions;
     return questions;
   } catch {
     return [];
