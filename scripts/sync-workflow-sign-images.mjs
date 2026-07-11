@@ -24,6 +24,16 @@ function slugify(name) {
     .concat('.png');
 }
 
+function walkPng(dir, out = []) {
+  if (!fs.existsSync(dir)) return out;
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) walkPng(full, out);
+    else if (entry.name.toLowerCase().endsWith('.png')) out.push(full);
+  }
+  return out;
+}
+
 function main() {
   if (!fs.existsSync(SRC_DIR)) {
     console.error('No workflow images at', SRC_DIR);
@@ -31,12 +41,12 @@ function main() {
   }
   fs.mkdirSync(DEST_DIR, { recursive: true });
 
-  const files = fs.readdirSync(SRC_DIR).filter(f => f.toLowerCase().endsWith('.png'));
+  const files = walkPng(SRC_DIR);
   let copied = 0;
   let skipped = 0;
 
-  for (const file of files) {
-    const src = path.join(SRC_DIR, file);
+  for (const src of files) {
+    const file = path.basename(src);
     const destName = slugify(file);
     const dest = path.join(DEST_DIR, destName);
     const srcStat = fs.statSync(src);

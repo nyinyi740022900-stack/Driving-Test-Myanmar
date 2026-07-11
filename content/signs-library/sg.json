@@ -1,0 +1,1159 @@
+{
+  "sections": [
+    {
+      "category": {
+        "en": "Regulatory — Must Obey",
+        "my": "စည်းမျဉ်း — လိုက်နာရမည်",
+        "ja": "規制標識 — 必ず守る"
+      },
+      "signs": [
+        {
+          "file": "stop.png",
+          "title": {
+            "en": "Stop",
+            "my": "ရပ်",
+            "ja": "一時停止"
+          },
+          "desc": {
+            "en": "Come to a complete stop. Give way to all traffic before moving.",
+            "my": "လုံးဝရပ်ပါ။ မသွားမီ လမ်းပေါ်က ယာဉ်အားလုံးကို ဦးစားပေးပါ။",
+            "ja": "完全に停止し、安全を確認してから進む。"
+          }
+        },
+        {
+          "file": "give-way.png",
+          "title": {
+            "en": "Give Way",
+            "my": "လမ်းပေးရန်",
+            "ja": "徐行"
+          },
+          "desc": {
+            "en": "Slow down and give way to traffic on the main road.",
+            "my": "ဖြည်းချပြီး အဓိကလမ်းပေါ်က ယာဉ်များကို လမ်းပေးပါ။",
+            "ja": "減速し、優先道路の車両に道を譲る。"
+          }
+        },
+        {
+          "file": "no-entry.png",
+          "title": {
+            "en": "No Entry",
+            "my": "ဝင်ခွင့်မရှိ",
+            "ja": "進入禁止"
+          },
+          "desc": {
+            "en": "Do not enter this road or area.",
+            "my": "ဤလမ်း သို့မဟုတ် ဧရိယာသို့ မဝင်ရ။",
+            "ja": "この道路・区域に進入してはいけない。"
+          }
+        },
+        {
+          "file": "no-stopping.png",
+          "title": {
+            "en": "No Stopping",
+            "my": "ရပ်နားခွင့်မရှိ",
+            "ja": "駐停車禁止"
+          },
+          "desc": {
+            "en": "Do not stop your vehicle here, even briefly.",
+            "my": "ယာဉ်ကို ဤနေရာတွင် ခဏမျှမဟုတ် ရပ်နားခွင့်မရှိ။",
+            "ja": "一時的でもここで停車してはいけない。"
+          }
+        },
+        {
+          "file": "no-waiting.png",
+          "title": {
+            "en": "No Waiting",
+            "my": "စောင့်ဆိုင်းခွင့်မရှိ",
+            "ja": "駐車禁止"
+          },
+          "desc": {
+            "en": "Do not wait or park here beyond the allowed time.",
+            "my": "ခွင့်ပြုထားသော အချိန်ထက် ပိုပြီး ဤနေရာတွင် စောင့်ဆိုး သို့မဟုတ် ရပ်နားခွင့်မရှိ။",
+            "ja": "許可時間を超えて待機・駐車してはいけない。"
+          }
+        },
+        {
+          "file": "no-overtaking.png",
+          "title": {
+            "en": "No Overtaking",
+            "my": "ကျော်တက်ခွင့်မရှိ",
+            "ja": "追い越し禁止"
+          },
+          "desc": {
+            "en": "Do not overtake other vehicles on this stretch.",
+            "my": "ဤလမ်းအပိုင်းတွင် အခြားယာဉ်များကို ကျော်တက်ခွင့်မရှိ။",
+            "ja": "この区間では他車を追い越してはいけない。"
+          }
+        },
+        {
+          "file": "speed-limit-40.png",
+          "title": {
+            "en": "Speed Limit 40",
+            "my": "အမြန်နှုန်း ၄၀",
+            "ja": "制限速度40"
+          },
+          "desc": {
+            "en": "Maximum speed is 40 km/h.",
+            "my": "အမြင့်ဆုံးအမြန်နှုန်း ၄၀ km/h ဖြစ်သည်။",
+            "ja": "最高速度は時速40km。"
+          }
+        },
+        {
+          "file": "speed-limit-50.png",
+          "title": {
+            "en": "Speed Limit 50",
+            "my": "အမြန်နှုန်း ၅၀",
+            "ja": "制限速度50"
+          },
+          "desc": {
+            "en": "Maximum speed is 50 km/h.",
+            "my": "အမြင့်ဆုံးအမြန်နှုန်း ၅၀ km/h ဖြစ်သည်။",
+            "ja": "最高速度は時速50km。"
+          }
+        },
+        {
+          "file": "speed-limit-60.png",
+          "title": {
+            "en": "Speed Limit 60",
+            "my": "အမြန်နှုန်း ၆၀",
+            "ja": "制限速度60"
+          },
+          "desc": {
+            "en": "Maximum speed is 60 km/h.",
+            "my": "အမြင့်ဆုံးအမြန်နှုန်း ၆၀ km/h ဖြစ်သည်။",
+            "ja": "最高速度は時速60km。"
+          }
+        },
+        {
+          "file": "speed-limit-70.png",
+          "title": {
+            "en": "Speed Limit 70",
+            "my": "အမြန်နှုန်း ၇၀",
+            "ja": "制限速度70"
+          },
+          "desc": {
+            "en": "Maximum speed is 70 km/h.",
+            "my": "အမြင့်ဆုံးအမြန်နှုန်း ၇၀ km/h ဖြစ်သည်။",
+            "ja": "最高速度は時速70km。"
+          }
+        },
+        {
+          "file": "speed-limit-80.png",
+          "title": {
+            "en": "Speed Limit 80",
+            "my": "အမြန်နှုန်း ၈၀",
+            "ja": "制限速度80"
+          },
+          "desc": {
+            "en": "Maximum speed is 80 km/h.",
+            "my": "အမြင့်ဆုံးအမြန်နှုန်း ၈၀ km/h ဖြစ်သည်။",
+            "ja": "最高速度は時速80km。"
+          }
+        },
+        {
+          "file": "speed-limit-90.png",
+          "title": {
+            "en": "Speed Limit 90",
+            "my": "အမြန်နှုန်း ၉၀",
+            "ja": "制限速度90"
+          },
+          "desc": {
+            "en": "Maximum speed is 90 km/h.",
+            "my": "အမြင့်ဆုံးအမြန်နှုန်း ၉၀ km/h ဖြစ်သည်။",
+            "ja": "最高速度は時速90km。"
+          }
+        },
+        {
+          "file": "no-entry-for-motorcycles.png",
+          "title": {
+            "en": "No Entry for Motorcycles",
+            "my": "မော်တော်ဆိုင်ကယ်ဝင်ခွင့်မရှိ",
+            "ja": "二輪車進入禁止"
+          },
+          "desc": {
+            "en": "Motorcycles must not enter.",
+            "my": "မော်တော်ဆိုင်ကယ်များ ဝင်ခွင့်မရှိ။",
+            "ja": "二輪車は進入禁止。"
+          }
+        },
+        {
+          "file": "no-entry-for-bicycles.png",
+          "title": {
+            "en": "No Entry for Bicycles",
+            "my": "စက်ဘီးဝင်ခွင့်မရှိ",
+            "ja": "自転車進入禁止"
+          },
+          "desc": {
+            "en": "Bicycles must not enter.",
+            "my": "စက်ဘီးများ ဝင်ခွင့်မရှိ။",
+            "ja": "自転車は進入禁止。"
+          }
+        },
+        {
+          "file": "no-entry-for-pedestrians.png",
+          "title": {
+            "en": "No Entry for Pedestrians",
+            "my": "လမ်းလျှောက်ဝင်ခွင့်မရှိ",
+            "ja": "歩行者進入禁止"
+          },
+          "desc": {
+            "en": "Pedestrians must not enter.",
+            "my": "လမ်းလျှောက်များ ဝင်ခွင့်မရှိ။",
+            "ja": "歩行者は進入禁止。"
+          }
+        },
+        {
+          "file": "no-left-turn.png",
+          "title": {
+            "en": "No Left Turn",
+            "my": "ဘယ်ဘက်မကွေ့ရ",
+            "ja": "左折禁止"
+          },
+          "desc": {
+            "en": "Left turns are not allowed.",
+            "my": "ဘယ်ဘက်သို့ မကွေ့ရ။",
+            "ja": "左折してはいけない。"
+          }
+        },
+        {
+          "file": "no-right-turn.png",
+          "title": {
+            "en": "No Right Turn",
+            "my": "ညာဘက်မကွေ့ရ",
+            "ja": "右折禁止"
+          },
+          "desc": {
+            "en": "Right turns are not allowed.",
+            "my": "ညာဘက်သို့ မကွေ့ရ။",
+            "ja": "右折してはいけない。"
+          }
+        },
+        {
+          "file": "no-through-road.png",
+          "title": {
+            "en": "No Through Road",
+            "my": "ဆက်မသွားရ",
+            "ja": "行き止まり"
+          },
+          "desc": {
+            "en": "Road ends ahead; no through route.",
+            "my": "ရှေ့တွင် လမ်းဆုံးသည်။ ဆက်မသွားရ။",
+            "ja": "前方は行き止まり。通過できない。"
+          }
+        },
+        {
+          "file": "no-sounding-of-horn.png",
+          "title": {
+            "en": "No Horn",
+            "my": "ဟွန်းမတီးရ",
+            "ja": "警音器使用禁止"
+          },
+          "desc": {
+            "en": "Do not sound your horn in this area.",
+            "my": "ဤနေရာတွင် ဟွန်းမတီးရ။",
+            "ja": "この区域ではクラクションを鳴らしてはいけない。"
+          }
+        },
+        {
+          "file": "height-limit.png",
+          "title": {
+            "en": "Height Limit",
+            "my": "အမြင့်ကန့်သတ်ချက်",
+            "ja": "高さ制限"
+          },
+          "desc": {
+            "en": "Vehicles taller than the limit must not pass.",
+            "my": "ကန့်သတ်ထားသော အမြင့်ထက် ကျော်လွန်သော ယာဉ်များ မဖြတ်သန်းရ။",
+            "ja": "制限高さを超える車両は通過禁止。"
+          }
+        },
+        {
+          "file": "weight-limit.png",
+          "title": {
+            "en": "Weight Limit",
+            "my": "အလေးချိန်ကန့်သတ်ချက်",
+            "ja": "重量制限"
+          },
+          "desc": {
+            "en": "Vehicles heavier than the limit must not use this route.",
+            "my": "ကန့်သတ်ထားသော အလေးချိန်ထက် ကျော်လွန်သော ယာဉ်များ ဤလမ်းကို မသုံးရ။",
+            "ja": "制限重量を超える車両は通行禁止。"
+          }
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Mandatory Direction",
+        "my": "လမ်းညွှန်မှု — လိုက်နာရမည်",
+        "ja": "指示標識 — 進路指定"
+      },
+      "signs": [
+        {
+          "file": "keep-left.png",
+          "title": {
+            "en": "Keep Left",
+            "my": "ဘယ်ဘက်သို့စီးရန်",
+            "ja": "左側通行"
+          },
+          "desc": {
+            "en": "Keep to the left side of the road or divider.",
+            "my": "လမ်း သို့မဟုတ် ခွဲထားသော ဘယ်ဘက်သို့ စီးရန်။",
+            "ja": "道路の左側を通行する。"
+          }
+        },
+        {
+          "file": "ahead-only.png",
+          "title": {
+            "en": "Ahead Only",
+            "my": "ရှေ့သို့သာ",
+            "ja": "直進"
+          },
+          "desc": {
+            "en": "You must proceed straight ahead only.",
+            "my": "ရှေ့သို့သာ တိုက်ရိုက်သွားရမည်။",
+            "ja": "直進のみ可能。"
+          }
+        },
+        {
+          "file": "turn-left-only.png",
+          "title": {
+            "en": "Turn Left Only",
+            "my": "ဘယ်ဘက်သာကွေ့ရ",
+            "ja": "左折のみ"
+          },
+          "desc": {
+            "en": "You must turn left at this junction.",
+            "my": "ဤလမ်းဆုံမှ ဘယ်ဘက်သာ ကွေ့ရမည်။",
+            "ja": "この交差点では左折のみ。"
+          }
+        },
+        {
+          "file": "turn-right-only.png",
+          "title": {
+            "en": "Turn Right Only",
+            "my": "ညာဘက်သာကွေ့ရ",
+            "ja": "右折のみ"
+          },
+          "desc": {
+            "en": "You must turn right at this junction.",
+            "my": "ဤလမ်းဆုံမှ ညာဘက်သာ ကွေ့ရမည်။",
+            "ja": "この交差点では右折のみ。"
+          }
+        },
+        {
+          "file": "one-way-street.png",
+          "title": {
+            "en": "One-Way Street",
+            "my": "တစ်လမ်းသွားလမ်း",
+            "ja": "一方通行"
+          },
+          "desc": {
+            "en": "Traffic flows in one direction only.",
+            "my": "ယာဉ်များ တစ်လမ်းသွားအတိုင်း သာစီးသည်။",
+            "ja": "一方通行道路。逆走禁止。"
+          }
+        },
+        {
+          "file": "exclusive-left-turn.png",
+          "title": {
+            "en": "Exclusive Left Turn Lane",
+            "my": "ဘယ်ကွေ့လီးသန့်",
+            "ja": "左折専用レーン"
+          },
+          "desc": {
+            "en": "Use this lane only to turn left.",
+            "my": "ဘယ်ဘက်သို့ ကွေ့ရန်အတွက်သာ ဤလမ်းကို သုံးပါ။",
+            "ja": "左折専用レーン。左折以外は進入禁止。"
+          }
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Warning — Hazard Ahead",
+        "my": "သတိပေး — အန္တရာယ်ရှေ့တွင်",
+        "ja": "警戒標識 — 危険注意"
+      },
+      "signs": [
+        {
+          "file": "left-bend.png",
+          "title": {
+            "en": "Left Bend Ahead",
+            "my": "ဘယ်ဘက်ကွေ့လမ်းရှေ့တွင်",
+            "ja": "左カーブ"
+          },
+          "desc": {
+            "en": "Sharp bend to the left ahead; reduce speed.",
+            "my": "ရှေ့တွင် ဘယ်ဘက်သို့ ကွေ့လမ်းရှိသည်။ အမြန်နှုန်းလျှော့ပါ။",
+            "ja": "前方左カーブ。減速する。"
+          }
+        },
+        {
+          "file": "right-bend.png",
+          "title": {
+            "en": "Right Bend Ahead",
+            "my": "ညာဘက်ကွေ့လမ်းရှေ့တွင်",
+            "ja": "右カーブ"
+          },
+          "desc": {
+            "en": "Sharp bend to the right ahead; reduce speed.",
+            "my": "ရှေ့တွင် ညာဘက်သို့ ကွေ့လမ်းရှိသည်။ အမြန်နှုန်းလျှော့ပါ။",
+            "ja": "前方右カーブ。減速する。"
+          }
+        },
+        {
+          "file": "series-of-bends.png",
+          "title": {
+            "en": "Series of Bends",
+            "my": "ကွေ့လမ်းဆက်တိုက်",
+            "ja": "連続カーブ"
+          },
+          "desc": {
+            "en": "Multiple bends ahead; drive carefully.",
+            "my": "ရှေ့တွင် ကွေ့လမ်းများဆက်တိုက် ရှိသည်။ သတိထားမောင်းပါ။",
+            "ja": "連続カーブあり。慎重に運転。"
+          }
+        },
+        {
+          "file": "slippery-road.png",
+          "title": {
+            "en": "Slippery Road",
+            "my": "လမ်းချောသည်",
+            "ja": "滑りやすい道路"
+          },
+          "desc": {
+            "en": "Road may be slippery; slow down and avoid sudden braking.",
+            "my": "လမ်းချောနိုင်သည်။ဖြည်းချပြီး ရုတ်တရက် ဘရိတ်မနင်းပါနှင့်။",
+            "ja": "路面が滑りやすい。減速し急ブレーキを避ける。"
+          }
+        },
+        {
+          "file": "road-hump-ahead.png",
+          "title": {
+            "en": "Road Hump Ahead",
+            "my": "လမ်းမြင့်ရှေ့တွင်",
+            "ja": "ハンプあり"
+          },
+          "desc": {
+            "en": "Speed bump ahead; slow down.",
+            "my": "ရှေ့တွင် လမ်းမြင့်ရှိသည်။ အမြန်နှုန်းလျှော့ပါ။",
+            "ja": "前方にハンプ。減速する。"
+          }
+        },
+        {
+          "file": "steep-upward-slope.png",
+          "title": {
+            "en": "Steep Upward Slope",
+            "my": "စောင်းတက်လမ်းပြင်းထန်",
+            "ja": "急上り"
+          },
+          "desc": {
+            "en": "Steep uphill ahead; use lower gear if needed.",
+            "my": "ရှေ့တွင် စောင်းတက်လမ်းပြင်းထန်သည်။ လိုအပ်ပါက ဂီယာနိမ့်သုံးပါ။",
+            "ja": "急な上り坂。必要なら低いギアを使う。"
+          }
+        },
+        {
+          "file": "steep-downward-slope.png",
+          "title": {
+            "en": "Steep Downward Slope",
+            "my": "စောင်းဆင်းလမ်းပြင်းထန်",
+            "ja": "急下り"
+          },
+          "desc": {
+            "en": "Steep downhill ahead; control speed with engine braking.",
+            "my": "ရှေ့တွင် စောင်းဆင်းလမ်းပြင်းထန်သည်။ အင်ဂျင်ဘရိတ်ဖြင့် အမြန်နှုန်းထိန်းပါ။",
+            "ja": "急な下り坂。エンジンブレーキで速度を制御。"
+          }
+        },
+        {
+          "file": "children.png",
+          "title": {
+            "en": "Children Ahead",
+            "my": "ကလေးများရှေ့တွင်",
+            "ja": "児童注意"
+          },
+          "desc": {
+            "en": "Children may be on or near the road; drive slowly.",
+            "my": "ကလေးများ လမ်းပေါ် သို့မဟုတ် အနီးတွင် ရှိနိုင်သည်။ဖြည်းချ မောင်းပါ။",
+            "ja": "子どもが道路付近にいる可能性。徐行する。"
+          }
+        },
+        {
+          "file": "animals.png",
+          "title": {
+            "en": "Animals Ahead",
+            "my": "တိရစ္ဆာန်များရှေ့တွင်",
+            "ja": "動物注意"
+          },
+          "desc": {
+            "en": "Animals may cross the road; be prepared to stop.",
+            "my": "တိရစ္ဆာန်များ လမ်းဖြတ်သန်းနိုင်သည်။ ရပ်နိုင်ရန် ပြင်ဆင်ထားပါ။",
+            "ja": "動物が横断する可能性。停止に備える。"
+          }
+        },
+        {
+          "file": "elderly-or-handicapped-pedestrians.png",
+          "title": {
+            "en": "Elderly or Disabled Pedestrians",
+            "my": "သက်ကြီးရွယ်အို/မသန်စွမ်း လမ်းလျှောက်များ",
+            "ja": "高齢者・障がい者注意"
+          },
+          "desc": {
+            "en": "Vulnerable pedestrians may cross; give them extra time.",
+            "my": "အန္တရာယ်ရှိသော လမ်းလျှောက်များ ဖြတ်သန်းနိုင်သည်။ အချိန်ပိုပေးပါ။",
+            "ja": "高齢者・障がい者が横断する可能性。ゆっくり譲る。"
+          }
+        },
+        {
+          "file": "school-zone.png",
+          "title": {
+            "en": "School Zone",
+            "my": "ကျောင်းဧရိယာ",
+            "ja": "学校区域"
+          },
+          "desc": {
+            "en": "School area; reduce speed and watch for children.",
+            "my": "ကျောင်းဧရိယာ။ အမြန်နှုန်းလျှော့ပြီး ကလေးများကို စောင့်ကြည့်ပါ။",
+            "ja": "学校区域。減速し子どもに注意。"
+          }
+        },
+        {
+          "file": "start-of-school-zone.png",
+          "title": {
+            "en": "Start of School Zone",
+            "my": "ကျောင်းဧရိယာ စတင်ရာ",
+            "ja": "学校区域開始"
+          },
+          "desc": {
+            "en": "You are entering a school zone; obey the lower speed limit.",
+            "my": "ကျောင်းဧရိယာသို့ ဝင်လာသည်။ အမြန်နှုန်းကန့်သတ်ချက်ကို လိုက်နာပါ။",
+            "ja": "学校区域に入る。制限速度を守る。"
+          }
+        },
+        {
+          "file": "pedestrian-crossing-ahead.png",
+          "title": {
+            "en": "Pedestrian Crossing Ahead",
+            "my": "လမ်းလျှောက်ဖြတ်သန်းရာ ရှေ့တွင်",
+            "ja": "横断歩道あり"
+          },
+          "desc": {
+            "en": "Pedestrian crossing ahead; be ready to stop.",
+            "my": "ရှေ့တွင် လမ်းလျှောက်ဖြတ်သန်းရာ ရှိသည်။ ရပ်နိုင်ရန် ပြင်ဆင်ထားပါ။",
+            "ja": "前方に横断歩道。歩行者に道を譲る。"
+          }
+        },
+        {
+          "file": "light-signals-ahead.png",
+          "title": {
+            "en": "Traffic Lights Ahead",
+            "my": "မီးပွိုင့် ရှေ့တွင်",
+            "ja": "信号機あり"
+          },
+          "desc": {
+            "en": "Traffic signals ahead; prepare to stop if needed.",
+            "my": "ရှေ့တွင် မီးပွိုင့် ရှိသည်။ လိုအပ်ပါက ရပ်ရန် ပြင်ဆင်ပါ။",
+            "ja": "前方に信号機。停止に備える。"
+          }
+        },
+        {
+          "file": "merging-traffic.png",
+          "title": {
+            "en": "Merging Traffic",
+            "my": "ယာဉ်ပေါင်းစီးမှု",
+            "ja": "車線合流"
+          },
+          "desc": {
+            "en": "Traffic merges from the side; adjust speed and give way.",
+            "my": "ဘေးမှ ယာဉ်များ ပေါင်းစီးသည်။ အမြန်နှုန်းညှိပြီး လမ်းပေးပါ။",
+            "ja": "側方から車線合流。速度を調整し譲る。"
+          }
+        },
+        {
+          "file": "lanes-merging.png",
+          "title": {
+            "en": "Lanes Merging",
+            "my": "လမ်းကြောင်းပေါင်းစည်းမှု",
+            "ja": "車線減少"
+          },
+          "desc": {
+            "en": "Lanes merge ahead; merge early and safely.",
+            "my": "ရှေ့တွင် လမ်းကြောင်းများ ပေါင်းစည်းသည်။ စောစောလုံခြုံစွာ ပေါင်းပါ။",
+            "ja": "前方で車線が合流。早めに安全に合流。"
+          }
+        },
+        {
+          "file": "roundabout.png",
+          "title": {
+            "en": "Roundabout Ahead",
+            "my": "လမ်းဝိုင်း ရှေ့တွင်",
+            "ja": "ラウンドアバウト"
+          },
+          "desc": {
+            "en": "Roundabout ahead; give way to traffic already in the circle.",
+            "my": "ရှေ့တွင် လမ်းဝိုင်း ရှိသည်။ လမ်းဝိုင်းထဲရှိ ယာဉ်များကို လမ်းပေးပါ။",
+            "ja": "前方にラウンドアバウト。円内の車両に譲る。"
+          }
+        },
+        {
+          "file": "t-junction.png",
+          "title": {
+            "en": "T-Junction Ahead",
+            "my": "T ပုံလမ်းဆုံ ရှေ့တွင်",
+            "ja": "T字路"
+          },
+          "desc": {
+            "en": "T-junction ahead; check both directions.",
+            "my": "ရှေ့တွင် T ပုံလမ်းဆုံ ရှိသည်။ နှစ်ဘက်လမ်းကို စစ်ဆေးပါ။",
+            "ja": "前方T字路。左右を確認。"
+          }
+        },
+        {
+          "file": "cross-junction.png",
+          "title": {
+            "en": "Cross Junction Ahead",
+            "my": "လမ်းဆုံကြား ရှေ့တွင်",
+            "ja": "十字路"
+          },
+          "desc": {
+            "en": "Cross junction ahead; check all approaches.",
+            "my": "ရှေ့တွင် လမ်းဆုံကြား ရှိသည်။ လမ်းဝင်ပေါက်အားလုံးကို စစ်ဆေးပါ။",
+            "ja": "前方十字路。全方向を確認。"
+          }
+        },
+        {
+          "file": "road-narrows-on-pne-side.png",
+          "title": {
+            "en": "Road Narrows on One Side",
+            "my": "လမ်းတစ်ဘက်ကျဉ်း",
+            "ja": "道路幅員減少"
+          },
+          "desc": {
+            "en": "Road narrows on one side; adjust position and speed.",
+            "my": "လမ်းတစ်ဘက်ကျဉ်းသည်။ နေရာနှင့် အမြန်နှုန်းညှိပါ။",
+            "ja": "片側が狭くなる。走行位置と速度を調整。"
+          }
+        },
+        {
+          "file": "ungated-level-crossing.png",
+          "title": {
+            "en": "Ungated Level Crossing",
+            "my": "တံခါးမပါ ချိန်ကျော်ရာ",
+            "ja": "無遮断踏切"
+          },
+          "desc": {
+            "en": "Railway crossing without gates; stop and look both ways.",
+            "my": "တံခါးမပါ ချိန်ကျော်ရာ။ ရပ်ပြီး နှစ်ဘက်ကြည့်ပါ။",
+            "ja": "遮断機のない踏切。一時停止し左右確認。"
+          }
+        },
+        {
+          "file": "gated-level-crossing.png",
+          "title": {
+            "en": "Gated Level Crossing",
+            "my": "တံခါးပါ ချိန်ကျော်ရာ",
+            "ja": "遮断踏切"
+          },
+          "desc": {
+            "en": "Railway crossing with gates; never cross when barriers are down.",
+            "my": "တံခါးပါ ချိန်ကျော်ရာ။ တံခါးချထားချိန် ဘယ်တော့မှ မဖြတ်ပါနှင့်။",
+            "ja": "遮断機あり踏切。バーが下がっている時は渡らない。"
+          }
+        },
+        {
+          "file": "roadworks.png",
+          "title": {
+            "en": "Roadworks Ahead",
+            "my": "လမ်းဆောက်လုပ်ရေး ရှေ့တွင်",
+            "ja": "道路工事中"
+          },
+          "desc": {
+            "en": "Roadworks ahead; slow down and follow temporary signs.",
+            "my": "ရှေ့တွင် လမ်းဆောက်လုပ်ရေး ရှိသည်။ဖြည်းချပြီး ယာယီဆိုင်းဘုတ်များကို လိုက်နာပါ။",
+            "ja": "前方道路工事中。減速し仮標識に従う。"
+          }
+        },
+        {
+          "file": "tunnel-ahead.png",
+          "title": {
+            "en": "Tunnel Ahead",
+            "my": "ဥမင်လိုဏ်ခေါင်း ရှေ့တွင်",
+            "ja": "トンネルあり"
+          },
+          "desc": {
+            "en": "Tunnel ahead; switch on headlights and maintain safe distance.",
+            "my": "ရှေ့တွင် ဥမင်လိုဏ်ခေါင်း ရှိသည်။ မီးဖွင့်ပြီး လုံခြုံသော အကွာအဝေးထိန်းပါ။",
+            "ja": "前方トンネル。ヘッドライトを点灯し車間距離を保つ。"
+          }
+        },
+        {
+          "file": "expressway-ahead.png",
+          "title": {
+            "en": "Expressway Ahead",
+            "my": "အမြန်လမ်း ရှေ့တွင်",
+            "ja": "高速道路入口"
+          },
+          "desc": {
+            "en": "Expressway entrance ahead; match merging speed and give way.",
+            "my": "ရှေ့တွင် အမြန်လမ်းဝင်ပေါက် ရှိသည်။ ပေါင်းစီးအမြန်နှုန်းညှိပြီး လမ်းပေးပါ။",
+            "ja": "高速道路入口。合流速度に合わせ譲る。"
+          }
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Informational",
+        "my": "အချက်အလက်",
+        "ja": "案内標識"
+      },
+      "signs": [
+        {
+          "file": "zebra-crossing.png",
+          "title": {
+            "en": "Zebra Crossing",
+            "my": "ဇီဘရာဖြတ်သန်းရာ",
+            "ja": "横断歩道"
+          },
+          "desc": {
+            "en": "Pedestrians have priority at this crossing; stop if needed.",
+            "my": "ဤဖြတ်သန်းရာတွင် လမ်းလျှောက်များကို ဦးစားပေးပါ။ လိုအပ်ပါက ရပ်ပါ။",
+            "ja": "横断歩道。歩行者優先。必要なら停止。"
+          }
+        },
+        {
+          "file": "raised-zebra-crossing.png",
+          "title": {
+            "en": "Raised Zebra Crossing",
+            "my": "မြင့်ထားသော ဇီဘရာဖြတ်သန်းရာ",
+            "ja": "盛り上がり横断歩道"
+          },
+          "desc": {
+            "en": "Raised crossing ahead; slow down for pedestrians.",
+            "my": "မြင့်ထားသော ဖြတ်သန်းရာ ရှေ့တွင်။ လမ်းလျှောက်များအတွက် အမြန်နှုန်းလျှော့ပါ။",
+            "ja": "盛り上がり横断歩道。歩行者のため減速。"
+          }
+        },
+        {
+          "file": "bus-lane.png",
+          "title": {
+            "en": "Bus Lane",
+            "my": "ဘတ်စ်ကားလမ်း",
+            "ja": "バスレーン"
+          },
+          "desc": {
+            "en": "Lane reserved for buses during shown hours.",
+            "my": "ြထားသော အချိန်တွင် ဘတ်စ်ကားများအတွက် သီးသန့်လမ်း။",
+            "ja": "表示時間はバス専用レーン。"
+          }
+        },
+        {
+          "file": "full-day-bus-lane.png",
+          "title": {
+            "en": "Full-Day Bus Lane",
+            "my": "တစ်နေ့လုံး ဘတ်စ်ကားလမ်း",
+            "ja": "終日バスレーン"
+          },
+          "desc": {
+            "en": "Bus lane active all day; other vehicles must not use it.",
+            "my": "တစ်နေ့လုံး ဘတ်စ်ကားလမ်း။ အခြားယာဉ်များ မသုံးရ။",
+            "ja": "終日バス専用。他車両は進入禁止。"
+          }
+        },
+        {
+          "file": "gantry-sign.png",
+          "title": {
+            "en": "ERP Gantry",
+            "my": "ERP တံခါန်း",
+            "ja": "ERPゲート"
+          },
+          "desc": {
+            "en": "Electronic road pricing gantry; ensure In-Vehicle Unit is working.",
+            "my": "အီလက်ထရွန်နစ် လမ်းကြေးတံခါန်း။ ယာဉ်တွင်း ယူနစ်အလုပ်လုပ်ကြောင်း သေချာပါစေ။",
+            "ja": "ERPゲート。車載機器が作動しているか確認。"
+          }
+        },
+        {
+          "file": "parking-signboard.png",
+          "title": {
+            "en": "Parking Area",
+            "my": "ကားရပ်နားရာ",
+            "ja": "駐車場"
+          },
+          "desc": {
+            "en": "Parking allowed as shown on the sign or time plate.",
+            "my": "ဆိုင်းဘုတ် သို့မဟုတ် အချိန်ပြားအတိုင်း ကားရပ်နားခွင့်ရှိသည်။",
+            "ja": "標識・時間板の条件で駐車可。"
+          }
+        },
+        {
+          "file": "yellow-box.png",
+          "title": {
+            "en": "Yellow Box Junction",
+            "my": "အဝါရောင် ဘောက်စ် လမ်းဆုံ",
+            "ja": "黄色ボックス"
+          },
+          "desc": {
+            "en": "Do not enter the yellow box unless your exit is clear.",
+            "my": "ထွက်ပေါက် ရှင်းလင်းမှသာ အဝါရောင် ဘောက်စ်သို့ ဝင်ပါ။",
+            "ja": "出口が空いている時だけ黄色ボックスに進入。"
+          }
+        },
+        {
+          "file": "start-of-silver-zone.png",
+          "title": {
+            "en": "Silver Zone",
+            "my": "Silver Zone ဧရိယာ",
+            "ja": "シルバーゾーン"
+          },
+          "desc": {
+            "en": "Senior-friendly zone; extra care for elderly pedestrians.",
+            "my": "သက်ကြီးရွယ်အိုများအတွက် ဧရိယာ။ လမ်းလျှောက်များကို အထူးဂရုစိုက်ပါ။",
+            "ja": "高齢者配慮区域。歩行者に特に注意。"
+          }
+        },
+        {
+          "file": "pricing-zone-ahead.png",
+          "title": {
+            "en": "Pricing Zone Ahead",
+            "my": "ကြေးကောက်ခံ ဧရိယာ ရှေ့တွင်",
+            "ja": "料金区域"
+          },
+          "desc": {
+            "en": "Paid parking or pricing zone ahead; check rates.",
+            "my": "ရှေ့တွင် ကြေးကောက်ခံ ဧရိယာ ရှိသည်။ နှုန်းထားကို စစ်ဆေးပါ။",
+            "ja": "前方料金区域。料金を確認。"
+          }
+        },
+        {
+          "file": "u-turn-ahead.png",
+          "title": {
+            "en": "U-Turn Ahead",
+            "my": "U ပုံကွေ့ရာ ရှေ့တွင်",
+            "ja": "Uターン可"
+          },
+          "desc": {
+            "en": "U-turn facility ahead; use only if safe and permitted.",
+            "my": "ရှေ့တွင် U ပုံကွေ့ရာ ရှိသည်။ လုံခြုံပြီး ခွင့်ပြုထားမှသာ သုံးပါ။",
+            "ja": "前方Uターン可。安全かつ許可時のみ。"
+          }
+        },
+        {
+          "file": "detour-ahead.png",
+          "title": {
+            "en": "Detour Ahead",
+            "my": "လမ်းလွှဲ ရှေ့တွင်",
+            "ja": "迂回路"
+          },
+          "desc": {
+            "en": "Follow the detour route; do not use closed roads.",
+            "my": "လမ်းလွှဲလမ်းကို လိုက်နာပါ။ ပိတ်ထားသော လမ်းများကို မသုံးပါနှင့်။",
+            "ja": "迂回路に従う。通行止め道路は使わない。"
+          }
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Road Markings",
+        "my": "လမ်းအမှတ်အသားများ",
+        "ja": "道路標示"
+      },
+      "signs": [
+        {
+          "file": "unbroken-double-yellow-lines.png",
+          "title": {
+            "en": "Double Yellow Lines",
+            "my": "အဝါရောင်နှစ်ကြောင်း",
+            "ja": "二重黄色実線"
+          },
+          "desc": {
+            "en": "No parking on either side at all times.",
+            "my": "နှစ်ဘက်လမ်းတွင် အချိန်မရွေး ကားရပ်နားခွင့်မရှိ။",
+            "ja": "両側常時駐車禁止。"
+          }
+        },
+        {
+          "file": "unbroken-yellow-line.png",
+          "title": {
+            "en": "Single Yellow Line",
+            "my": "အဝါရောင်တစ်ကြောင်း",
+            "ja": "黄色実線"
+          },
+          "desc": {
+            "en": "No parking on that side during restricted hours.",
+            "my": "ကန့်သတ်ထားသော အချိန်တွင် ထိုဘက်လမ်းတွင် ကားရပ်နားခွင့်မရှိ။",
+            "ja": "表示時間は片側駐車禁止。"
+          }
+        },
+        {
+          "file": "unbroken-double-white-lines.png",
+          "title": {
+            "en": "Double White Lines",
+            "my": "အဖြူရောင်နှစ်ကြောင်း",
+            "ja": "二重白色実線"
+          },
+          "desc": {
+            "en": "Do not cross or straddle the centre lines.",
+            "my": "အလယ်လမ်းကြောင်းကို မဖြတ်ရ၊ မတင်ရ။",
+            "ja": "中央線を越えてはいけない。"
+          }
+        },
+        {
+          "file": "broken-white-line.png",
+          "title": {
+            "en": "Broken White Line",
+            "my": "အဖြူရောင်ပြတ်တိုက်",
+            "ja": "白色破線"
+          },
+          "desc": {
+            "en": "Lane divider; you may change lanes when safe.",
+            "my": "လမ်းကြောင်းခွဲမှတ်။ လုံခြုံပါက လမ်းကြောင်းပြောင်းနိုင်သည်။",
+            "ja": "車線境界。安全なら車線変更可。"
+          }
+        },
+        {
+          "file": "continuous-white-line.png",
+          "title": {
+            "en": "Continuous White Line",
+            "my": "အဖြူရောင်ဆက်တိုက်",
+            "ja": "白色実線"
+          },
+          "desc": {
+            "en": "Do not cross this line to overtake or change lanes.",
+            "my": "ကျော်တက်ရန် သို့မဟုတ် လမ်းကြောင်းပြောင်းရန် ဤလိုင်းကို မဖြတ်ရ။",
+            "ja": "追い越し・車線変更のため越えてはいけない。"
+          }
+        },
+        {
+          "file": "double-yellow-zig-zag-lines.png",
+          "title": {
+            "en": "Double Yellow Zig-Zag Lines",
+            "my": "အဝါရောင် ဇစ်ဇက် နှစ်ကြောင်း",
+            "ja": "二重黄色ジグザグ"
+          },
+          "desc": {
+            "en": "No stopping or parking near a pedestrian crossing.",
+            "my": "လမ်းလျှောက်ဖြတ်သန်းရာ အနီးတွင် ရပ်နား သို့မဟုတ် ကားရပ်ခွင့်မရှိ။",
+            "ja": "横断歩道付近は駐停車禁止。"
+          }
+        },
+        {
+          "file": "a-single-yellow-zig-zag-line.png",
+          "title": {
+            "en": "Single Yellow Zig-Zag Line",
+            "my": "အဝါရောင် ဇစ်ဇက် တစ်ကြောင်း",
+            "ja": "黄色ジグザグ"
+          },
+          "desc": {
+            "en": "No waiting on the side with zig-zag markings.",
+            "my": "ဇစ်ဇက်အမှတ်အသားရှိ ဘက်တွင် စောင့်ဆိုင်းခွင့်မရှိ။",
+            "ja": "ジグザグ側は待機禁止。"
+          }
+        },
+        {
+          "file": "zig-zag-lines-by-side-of-the-road.png",
+          "title": {
+            "en": "Zig-Zag Lines by Roadside",
+            "my": "လမ်းဘေးဇစ်ဇက်အမှတ်",
+            "ja": "路側ジグザグ"
+          },
+          "desc": {
+            "en": "Marks a school or pedestrian zone; no stopping.",
+            "my": "ကျောင်း သို့မဟုတ် လမ်းလျှောက်ဧရိယာ အမှတ်အသား။ ရပ်နားခွင့်မရှိ။",
+            "ja": "学校・歩行者区域。駐停車禁止。"
+          }
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Traffic Lights & Signals",
+        "my": "မီးပွိုင့်နှင့် အချက်ပြမှုများ",
+        "ja": "交通信号"
+      },
+      "signs": [
+        {
+          "file": "amber.png",
+          "title": {
+            "en": "Amber Light",
+            "my": "အဝါရောင်မီး",
+            "ja": "黄信号"
+          },
+          "desc": {
+            "en": "Prepare to stop unless you cannot stop safely.",
+            "my": "လုံခြုံစွာ မရပ်နိုင်မှသာ ရပ်ရန် ပြင်ဆင်ပါ။",
+            "ja": "安全に停止できない場合を除き停止準備。"
+          }
+        },
+        {
+          "file": "green.png",
+          "title": {
+            "en": "Green Light",
+            "my": "အစိမ်းရောင်မီး",
+            "ja": "青信号"
+          },
+          "desc": {
+            "en": "Proceed if the way is clear; give way to pedestrians still crossing.",
+            "my": "လမ်းရှင်းလျှင် သွားပါ။ ဖြတ်သန်းနေသော လမ်းလျှောက်များကို လမ်းပေးပါ။",
+            "ja": "安全なら進む。横断中の歩行者に譲る。"
+          }
+        },
+        {
+          "file": "red.png",
+          "title": {
+            "en": "Red Light",
+            "my": "အနီရောင်မီး",
+            "ja": "赤信号"
+          },
+          "desc": {
+            "en": "Stop behind the stop line and wait.",
+            "my": "ရပ်တန့်လိုင်းနောက်တွင် ရပ်ပြီး စောင့်ပါ။",
+            "ja": "停止線の手前で停止して待つ。"
+          }
+        },
+        {
+          "file": "green-arrow.png",
+          "title": {
+            "en": "Green Arrow",
+            "my": "အစိမ်းရောင် မြှား",
+            "ja": "青矢印"
+          },
+          "desc": {
+            "en": "You may proceed in the direction of the arrow if clear.",
+            "my": "လမ်းရှင်းလျှင် မြှားညွှန်သည့်ဘက်သို့ သွားနိုင်သည်။",
+            "ja": "安全なら矢印の方向に進行可。"
+          }
+        },
+        {
+          "file": "the-green-arrow.png",
+          "title": {
+            "en": "Green Arrow (Filter)",
+            "my": "အစိမ်းရောင် မြှား (စစ်ထုတ်)",
+            "ja": "青矢印（進行可）"
+          },
+          "desc": {
+            "en": "Filtered green arrow allows turning while other traffic is stopped.",
+            "my": "အခြားယာဉ်ရပ်နေချိန် ကွေ့ခွင့်ပြုသော အစိမ်းရောင်မြှား။",
+            "ja": "他方向が赤の時、矢印方向へ進行可。"
+          }
+        },
+        {
+          "file": "the-red-cross.png",
+          "title": {
+            "en": "Red Cross (Lane Closed)",
+            "my": "အနီရောင် မျဉ်းကြေး (လမ်းပိတ်)",
+            "ja": "赤×（車線閉鎖）"
+          },
+          "desc": {
+            "en": "Lane closed; do not enter this lane.",
+            "my": "လမ်းကြောင်းပိတ်ထားသည်။ ဤလမ်းကြောင်းသို့ မဝင်ရ။",
+            "ja": "車線閉鎖。このレーンに進入禁止。"
+          }
+        },
+        {
+          "file": "pedestrian-signal-green-man.png",
+          "title": {
+            "en": "Pedestrian Green Man",
+            "my": "လမ်းလျှောက် အစိမ်းရောင် လူပုံ",
+            "ja": "歩行者青信号"
+          },
+          "desc": {
+            "en": "Pedestrians may cross; drivers must give way.",
+            "my": "လမ်းလျှောက်များ ဖြတ်သန်းနိုင်သည်။ ယာဉ်မောင်းများက လမ်းပေးရမည်။",
+            "ja": "歩行者通行可。車両は譲る。"
+          }
+        },
+        {
+          "file": "countdown-timer.png",
+          "title": {
+            "en": "Countdown Timer",
+            "my": "နှစ်သက်ရေတွက်",
+            "ja": "カウントダウン"
+          },
+          "desc": {
+            "en": "Shows seconds remaining; do not start crossing on low counts.",
+            "my": "ကျန်ရှိသော စက္ကန့်ပြသည်။ နောက်ဆုံးစက္ကန့်များတွင် မဖြတ်သန်းပါနှင့်။",
+            "ja": "残り秒数表示。少ない時は進入しない。"
+          }
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Police & Hand Signals",
+        "my": "ရဲနှင့် လက်ဟန်ချက်များ",
+        "ja": "警察官の手信号"
+      },
+      "signs": [
+        {
+          "file": "police-traffic.png",
+          "title": {
+            "en": "Police Traffic Control",
+            "my": "ရဲယာဉ်ကြောညွှန်မှု",
+            "ja": "警察の交通整理"
+          },
+          "desc": {
+            "en": "Obey the police officer's directions over traffic lights.",
+            "my": "မီးပွိုင့်ထက် ရဲအရာရှိ၏ ညွှန်ကြားချက်ကို လိုက်နာပါ။",
+            "ja": "信号より警察官の指示を優先する。"
+          }
+        },
+        {
+          "file": "police-traffic2.png",
+          "title": {
+            "en": "Police Directing Traffic",
+            "my": "ရဲယာဉ်ကြောညွှန်နေသည်",
+            "ja": "交通誘導中"
+          },
+          "desc": {
+            "en": "Follow the officer's hand signals at the junction.",
+            "my": "လမ်းဆုံမှ ရဲ၏ လက်ဟန်ချက်ကို လိုက်နာပါ။",
+            "ja": "交差点で警察官の手信号に従う。"
+          }
+        },
+        {
+          "file": "i-intend-to-stop.png",
+          "title": {
+            "en": "Stop Signal (Hand Raised)",
+            "my": "ရပ်ရန် လက်ဟန်",
+            "ja": "停止の手信号"
+          },
+          "desc": {
+            "en": "Officer signals all traffic to stop; halt immediately.",
+            "my": "ရဲက ယာဉ်အားလုံး ရပ်ရန် လက်ဟန်ပြသည်။ ချက်ချင်း ရပ်ပါ။",
+            "ja": "全車両停止の合図。直ちに停止。"
+          }
+        },
+        {
+          "file": "i-intend-to-slow-down.png",
+          "title": {
+            "en": "Slow Down Signal",
+            "my": "ဖြည်းချရန် လက်ဟန်",
+            "ja": "減速の手信号"
+          },
+          "desc": {
+            "en": "Officer signals traffic to slow down.",
+            "my": "ရဲက ယာဉ်များဖြည်းချရန် လက်ဟန်ပြသည်။",
+            "ja": "減速を指示する手信号。"
+          }
+        },
+        {
+          "file": "vehicles-approaching-police-officer-from-all-directions-to-stop.png",
+          "title": {
+            "en": "Stop All Directions",
+            "my": "လမ်းလေးဘက်လုံး ရပ်ရန်",
+            "ja": "全方向停止"
+          },
+          "desc": {
+            "en": "All vehicles from every direction must stop.",
+            "my": "လမ်းလေးဘက်လုံးမှ ယာဉ်အားလုံး ရပ်ရမည်။",
+            "ja": "全方向からの車両は停止。"
+          }
+        }
+      ]
+    }
+  ]
+}
