@@ -40,6 +40,13 @@ export interface Question {
   parts?: QuestionPart[];
   /** Points in mock scoring (hazard illustration = 2). */
   points?: number;
+  /** Past-practice paper from Practice and Test File (SG BTT). */
+  pastPaper?: {
+    id: string;
+    number: number;
+    title?: string;
+    titleMy?: string;
+  };
 }
 
 export const CATEGORY_COUNTRY: Record<Category, Country> = {
@@ -164,7 +171,7 @@ export const TEST_META: TestMeta[] = [
   {
     category: 'sg_btt',
     tag: 'BTT',
-    bankQuestionCount: 565,
+    bankQuestionCount: 1101,
     questionCount: 50,
     timeLimitMinutes: 50,
     passPercent: 90,

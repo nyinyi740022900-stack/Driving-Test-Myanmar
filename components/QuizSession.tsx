@@ -7,6 +7,7 @@ import BackButton from './BackButton';
 import type { Category, Question } from '@/lib/types';
 import { TEST_META } from '@/lib/types';
 import { shuffleArray, pickLocalized, isJpTrueFalseChoice } from '@/lib/questions';
+import { buildQuestionSets, getPastPaperQuestions, pickPastPaperPool } from '@/lib/past-papers';
 import type { QuizAnswer } from '@/lib/quiz-answers';
 import {
   emptyAnswerFor,
@@ -101,29 +102,36 @@ export default function QuizSession({ category, mode, questions }: Props) {
   const pendingAfterAdRef = useRef<(() => void) | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
-  // ── Sets (lesson + practice) ──────────────────────────────────────
+  // ── Sets (lesson + practice) — past papers first, then supplementary batches ──
+  const setInfos = useMemo(() => {
+    if (mode === 'test') return [];
+    return buildQuestionSets(questions, BATCH_SIZE);
+  }, [questions, mode]);
+
   const lessonSets = useMemo<Question[][]>(() => {
     if (mode !== 'lesson') return [];
-    const sets: Question[][] = [];
-    for (let i = 0; i < questions.length; i += BATCH_SIZE) {
-      sets.push(questions.slice(i, i + BATCH_SIZE));
-    }
-    return sets;
-  }, [questions, mode]);
+    return setInfos.map(s => s.questions);
+  }, [setInfos, mode]);
 
   const practiceSets = useMemo<Question[][]>(() => {
     if (mode !== 'practice') return [];
-    const sets: Question[][] = [];
-    for (let i = 0; i < questions.length; i += BATCH_SIZE) {
-      sets.push(questions.slice(i, i + BATCH_SIZE));
-    }
-    return sets;
-  }, [questions, mode]);
+    return setInfos.map(s => s.questions);
+  }, [setInfos, mode]);
 
   // ── Active pool ───────────────────────────────────────────────────
   const pool = useMemo<Question[]>(() => {
     if (retryPool) return retryPool; // already shuffled on creation
-    if (mode === 'test') return shuffleArray([...questions]).slice(0, meta.questionCount).map(shuffleChoices);
+    if (mode === 'test') {
+      const past = getPastPaperQuestions(questions);
+      if (category === 'sg_btt' && past.length >= meta.questionCount) {
+        const useFullPaper = Math.random() < 0.75;
+        const source = useFullPaper
+          ? pickPastPaperPool(questions, meta.questionCount)
+          : shuffleArray([...past]).slice(0, meta.questionCount);
+        return shuffleArray([...source]).map(shuffleChoices);
+      }
+      return shuffleArray([...questions]).slice(0, meta.questionCount).map(shuffleChoices);
+    }
     if (mode === 'practice' && selectedSet !== null) return shuffleArray([...practiceSets[selectedSet]]).map(shuffleChoices);
     if (mode === 'lesson' && selectedSet !== null) return lessonSets[selectedSet];
     return questions; // fallback
@@ -440,8 +448,8 @@ export default function QuizSession({ category, mode, questions }: Props) {
   //  SET PICKER (practice + lesson)
   // ══════════════════════════════════════════════════════════════════
   if ((mode === 'practice' || mode === 'lesson') && selectedSet === null && !retryPool) {
-    const activeSets = mode === 'practice' ? practiceSets : lessonSets;
     const isLesson = mode === 'lesson';
+    const hasPastPapers = setInfos.some(s => s.isPastPaper);
     return (
       <div className="quiz-layout">
         <div className="quiz-wrap">
@@ -455,23 +463,29 @@ export default function QuizSession({ category, mode, questions }: Props) {
               {t('choose_set') ?? 'Choose a set'}
             </h2>
             <p style={{ color: 'var(--ink-soft)', fontSize: '.9rem' }}>
-              {isLesson
-                ? (t('set_desc_learn') ?? `${questions.length} questions · ${activeSets.length} sets of ${BATCH_SIZE} · self-paced`)
-                : (t('set_desc') ?? `${questions.length} questions · ${activeSets.length} sets of ${BATCH_SIZE} · ${PRACTICE_MINUTES} min each`)}
+              {hasPastPapers
+                ? (isLesson ? t('set_desc_learn_past') : t('set_desc_past'))
+                : (isLesson
+                  ? (t('set_desc_learn') ?? `${questions.length} questions · ${setInfos.length} sets · self-paced`)
+                  : (t('set_desc') ?? `${questions.length} questions · ${setInfos.length} sets · ${PRACTICE_MINUTES} min each`))}
             </p>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))', gap: 14 }}>
-            {activeSets.map((set, si) => {
-              const from = si * BATCH_SIZE + 1;
-              const to   = si * BATCH_SIZE + set.length;
+            {setInfos.map((info, si) => {
+              const set = info.questions;
+              const paperTitle = info.isPastPaper
+                ? (locale === 'my'
+                  ? set[0]?.pastPaper?.titleMy ?? info.labelValues?.title
+                  : info.labelValues?.title)
+                : null;
               return (
                 <button
                   key={si}
                   onClick={() => handleSelectSet(si)}
                   style={{
                     background: '#fff',
-                    border: '2px solid var(--line)',
+                    border: info.isPastPaper ? '2px solid var(--guide)' : '2px solid var(--line)',
                     borderRadius: 16,
                     padding: '24px 16px',
                     cursor: 'pointer',
@@ -483,22 +497,24 @@ export default function QuizSession({ category, mode, questions }: Props) {
                     gap: 8,
                   }}
                   onMouseEnter={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = 'var(--guide)'; (e.currentTarget as HTMLButtonElement).style.boxShadow = '0 4px 16px rgba(27,156,86,.15)'; }}
-                  onMouseLeave={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = 'var(--line)'; (e.currentTarget as HTMLButtonElement).style.boxShadow = 'none'; }}
+                  onMouseLeave={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = info.isPastPaper ? 'var(--guide)' : 'var(--line)'; (e.currentTarget as HTMLButtonElement).style.boxShadow = 'none'; }}
                 >
                   <div style={{
                     width: 44, height: 44, borderRadius: '50%',
-                    background: 'var(--guide)', color: '#fff',
+                    background: info.isPastPaper ? 'var(--guide-deep)' : 'var(--guide)', color: '#fff',
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.1rem',
                   }}>
                     {si + 1}
                   </div>
-                  <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '.95rem' }}>
-                    {t('set_label') ?? 'Set'} {si + 1}
+                  <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '.88rem', lineHeight: 1.25 }}>
+                    {paperTitle ?? `${t('set_label') ?? 'Set'} ${si + 1}`}
                   </div>
-                  <div style={{ fontSize: '.78rem', color: 'var(--ink-soft)' }}>
-                    Q {from}–{to}
-                  </div>
+                  {info.isPastPaper && (
+                    <div style={{ fontSize: '.68rem', color: 'var(--guide-deep)', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase' }}>
+                      {t('past_paper_badge')}
+                    </div>
+                  )}
                   <div style={{ fontSize: '.78rem', color: 'var(--ink-soft)', background: 'var(--paint)', padding: '3px 10px', borderRadius: 20 }}>
                     {set.length} {t('questions_count')}
                   </div>
