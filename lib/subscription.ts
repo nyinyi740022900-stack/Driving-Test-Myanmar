@@ -19,36 +19,70 @@ export async function isPremium(supabase: SupabaseClient, userId: string): Promi
   return new Date(sub.expires_at) > new Date();
 }
 
-export async function canRunMockTest(
+export type MockTestSource = 'free' | 'ad_unlock';
+
+function todayUtc(): string {
+  return new Date().toISOString().split('T')[0]!;
+}
+
+async function hasUsageToday(
   supabase: SupabaseClient,
   userId: string,
-  category: string
+  category: string,
+  source: MockTestSource,
 ): Promise<boolean> {
-  const premium = await isPremium(supabase, userId);
-  if (premium) return true;
-
-  const today = new Date().toISOString().split('T')[0];
-  const { data } = await supabase
+  const { data, error } = await supabase
     .from('mock_test_usage')
     .select('id')
     .eq('user_id', userId)
     .eq('category', category)
-    .eq('used_date', today)
+    .eq('used_date', todayUtc())
+    .eq('source', source)
     .limit(1);
 
-  return !data || data.length === 0;
+  if (error) {
+    console.error('[hasUsageToday]', error.message);
+    return true;
+  }
+  return (data?.length ?? 0) > 0;
+}
+
+export async function canRunMockTest(
+  supabase: SupabaseClient,
+  userId: string,
+  category: string,
+  source: MockTestSource = 'free',
+): Promise<boolean> {
+  const premium = await isPremium(supabase, userId);
+  if (premium) return true;
+
+  if (source === 'free') {
+    return !(await hasUsageToday(supabase, userId, category, 'free'));
+  }
+
+  const freeUsed = await hasUsageToday(supabase, userId, category, 'free');
+  if (!freeUsed) return false;
+  return !(await hasUsageToday(supabase, userId, category, 'ad_unlock'));
 }
 
 export async function recordMockTestUsage(
   supabase: SupabaseClient,
   userId: string,
-  category: string
-) {
-  const today = new Date().toISOString().split('T')[0];
-  await supabase.from('mock_test_usage').upsert(
-    { user_id: userId, category, used_date: today },
-    { onConflict: 'user_id,category,used_date' }
-  );
+  category: string,
+  source: MockTestSource = 'free',
+): Promise<{ ok: boolean; error?: string }> {
+  const { error } = await supabase.from('mock_test_usage').insert({
+    user_id: userId,
+    category,
+    used_date: todayUtc(),
+    source,
+  });
+
+  if (error) {
+    console.error('[recordMockTestUsage]', error.message);
+    return { ok: false, error: error.message };
+  }
+  return { ok: true };
 }
 
 export const PLANS = {

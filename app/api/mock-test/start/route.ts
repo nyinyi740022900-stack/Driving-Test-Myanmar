@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase-server';
-import { canRunMockTest, recordMockTestUsage } from '@/lib/subscription';
+import { canRunMockTest, recordMockTestUsage, type MockTestSource } from '@/lib/subscription';
 import type { Category } from '@/lib/types';
 
 const VALID: Category[] = ['sg_btt', 'sg_ftt', 'sg_rtt', 'jp_car', 'jp_moto'];
@@ -13,7 +13,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Unauthorized', allowed: false }, { status: 401 });
   }
 
-  let body: { category?: string };
+  let body: { category?: string; source?: string };
   try {
     body = await request.json();
   } catch {
@@ -25,14 +25,20 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Invalid category', allowed: false }, { status: 400 });
   }
 
+  const source: MockTestSource = body.source === 'ad_unlock' ? 'ad_unlock' : 'free';
+
   try {
-    const allowed = await canRunMockTest(supabase, user.id, category);
+    const allowed = await canRunMockTest(supabase, user.id, category, source);
     if (!allowed) {
       return NextResponse.json({ allowed: false, reason: 'daily_limit' });
     }
 
-    await recordMockTestUsage(supabase, user.id, category);
-    return NextResponse.json({ allowed: true });
+    const recorded = await recordMockTestUsage(supabase, user.id, category, source);
+    if (!recorded.ok) {
+      return NextResponse.json({ error: 'usage_record_failed', allowed: false }, { status: 500 });
+    }
+
+    return NextResponse.json({ allowed: true, source });
   } catch (err) {
     console.error('[mock-test/start]', err instanceof Error ? err.message : err);
     return NextResponse.json({ error: 'server_error', allowed: false }, { status: 500 });

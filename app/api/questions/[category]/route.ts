@@ -2,11 +2,12 @@ import { NextResponse } from 'next/server';
 import type { Category } from '@/lib/types';
 import { TEST_META } from '@/lib/types';
 import { getQuestions } from '@/lib/questions';
+import { sanitizeQuestionsForPublicApi } from '@/lib/question-sanitize';
 
-const VALID = new Set(TEST_META.map((m) => m.category));
+const VALID = new Set(TEST_META.map(m => m.category));
 
 export async function GET(
-  _req: Request,
+  req: Request,
   { params }: { params: Promise<{ category: string }> },
 ) {
   const { category } = await params;
@@ -16,10 +17,15 @@ export async function GET(
   }
 
   const questions = await getQuestions(category as Category);
+  const url = new URL(req.url);
+  const mode = url.searchParams.get('mode');
+  const payload =
+    mode === 'lesson'
+      ? questions
+      : sanitizeQuestionsForPublicApi(questions);
 
-  return NextResponse.json(questions, {
+  return NextResponse.json(payload, {
     headers: {
-      // Question banks change infrequently — cache aggressively at CDN + browser.
       'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
     },
   });

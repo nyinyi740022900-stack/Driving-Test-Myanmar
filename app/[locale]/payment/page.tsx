@@ -141,14 +141,21 @@ export default function PaymentPage() {
         screenshotRef = path;
       }
 
-      const { error: insertErr } = await supabase.from('payment_submissions').insert({
-        user_id: user.id,
-        plan: planKey,
-        amount: plan.price,
-        wallet,
-        transaction_id: txnDigits,
-        screenshot_url: screenshotRef,
-        status: 'pending',
+      const { error: insertErr } = await fetch('/api/payment/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          plan: planKey,
+          wallet,
+          transaction_id: txnDigits,
+          screenshot_url: screenshotRef,
+        }),
+      }).then(async (res) => {
+        if (!res.ok) {
+          const data = (await res.json().catch(() => ({}))) as { error?: string };
+          return { error: { message: data.error ?? 'Submit failed' } };
+        }
+        return { error: null };
       });
       if (insertErr) throw insertErr;
       setDone(true);

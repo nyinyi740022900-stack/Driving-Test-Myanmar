@@ -13,22 +13,36 @@ type Mode = 'lesson' | 'practice' | 'test';
 interface Props {
   category: Category;
   mode: Mode;
+  questions?: Question[];
+  answersHidden?: boolean;
   questionCount: number;
   testTag: string;
 }
 
-export default function QuizLoader({ category, mode, questionCount, testTag }: Props) {
+export default function QuizLoader({
+  category,
+  mode,
+  questions: initialQuestions,
+  answersHidden = false,
+  questionCount,
+  testTag,
+}: Props) {
   const t = useTranslations('quiz');
   const locale = useLocale();
-  const [questions, setQuestions] = useState<Question[] | null>(null);
+  const [questions, setQuestions] = useState<Question[] | null>(initialQuestions ?? null);
   const [error, setError] = useState(false);
 
   useEffect(() => {
+    if (initialQuestions) {
+      setQuestions(initialQuestions);
+      return;
+    }
+
     let cancelled = false;
     setQuestions(null);
     setError(false);
 
-    fetch(`/api/questions/${category}`)
+    fetch(`/api/questions/${category}?mode=${mode}`)
       .then(async (res) => {
         if (!res.ok) throw new Error('fetch failed');
         const data = (await res.json()) as Question[];
@@ -41,7 +55,7 @@ export default function QuizLoader({ category, mode, questionCount, testTag }: P
     return () => {
       cancelled = true;
     };
-  }, [category]);
+  }, [category, mode, initialQuestions]);
 
   if (error) {
     return (
@@ -91,5 +105,12 @@ export default function QuizLoader({ category, mode, questionCount, testTag }: P
     );
   }
 
-  return <QuizSession category={category} mode={mode} questions={questions} />;
+  return (
+    <QuizSession
+      category={category}
+      mode={mode}
+      questions={questions}
+      answersHidden={answersHidden}
+    />
+  );
 }

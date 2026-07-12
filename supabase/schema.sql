@@ -66,8 +66,9 @@ create table if not exists public.mock_test_usage (
   user_id     uuid references auth.users(id) on delete cascade not null,
   category    text not null,
   used_date   date not null default current_date,
+  source      text not null default 'free' check (source in ('free','ad_unlock')),
   created_at  timestamptz default now(),
-  unique(user_id, category, used_date)
+  unique(user_id, category, used_date, source)
 );
 alter table public.mock_test_usage enable row level security;
 
@@ -92,6 +93,7 @@ create policy "Auth users upload screenshots"
   with check (
     bucket_id = 'payment-screenshots'
     and auth.role() = 'authenticated'
+    and auth.uid()::text = (storage.foldername(name))[1]
   );
 
 drop policy if exists "Users read own screenshots" on storage.objects;

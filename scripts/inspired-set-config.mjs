@@ -173,8 +173,8 @@ export const INSPIRED_SET_CONFIGS = {
       {
         id: 'inspired-12',
         refPaper: 'driving-test-p6',
-        title: 'Inspired Set 12 · Full mock review',
-        titleMy: 'Inspired Set 12 · mock review',
+        title: 'Inspired Set 12 · Full topic review',
+        titleMy: 'Inspired Set 12 · topic review',
         topics: [
           'road_signs',
           'traffic_rules_right_of_way',
@@ -351,8 +351,8 @@ export const INSPIRED_SET_CONFIGS = {
       {
         id: 'inspired-12',
         refPaper: 'ftt-set-12',
-        title: 'Inspired Set 12 · FTT mock review',
-        titleMy: 'Inspired Set 12 · FTT mock review',
+        title: 'Inspired Set 12 · FTT topic review',
+        titleMy: 'Inspired Set 12 · FTT topic review',
         topics: [
           'advanced_traffic_rules',
           'expressway_driving',
@@ -470,8 +470,8 @@ export const INSPIRED_SET_CONFIGS = {
       {
         id: 'inspired-12',
         refPaper: 'rtt-set-12',
-        title: 'Inspired Set 12 · RTT mock review',
-        titleMy: 'Inspired Set 12 · RTT mock review',
+        title: 'Inspired Set 12 · RTT topic review',
+        titleMy: 'Inspired Set 12 · RTT topic review',
         topics: [
           'road_signs_signals',
           'right_of_way_traffic_rules',
@@ -596,16 +596,16 @@ export const INSPIRED_SET_CONFIGS = {
       {
         id: 'inspired-11',
         refPaper: 'karimen-mock',
-        title: 'Inspired Set 11 · 仮免 mock review',
-        titleMy: 'Inspired Set 11 · 仮免 mock review (50問スタイル)',
+        title: 'Inspired Set 11 · 仮免 topic review',
+        titleMy: 'Inspired Set 11 · 仮免 topic review',
         topics: ['karimen_road_signs', 'karimen_right_of_way', 'karimen_speed_limits_parking'],
         syllabusHints: ['jp.car.karimen'],
       },
       {
         id: 'inspired-12',
         refPaper: 'honmen-mock',
-        title: 'Inspired Set 12 · 本免 mock review',
-        titleMy: 'Inspired Set 12 · 本免 mock review (95問スタイル)',
+        title: 'Inspired Set 12 · 本免 topic review',
+        titleMy: 'Inspired Set 12 · 本免 topic review',
         topics: [
           'honmen_road_signs_signals',
           'honmen_right_of_way_intersections',
@@ -738,8 +738,8 @@ export const INSPIRED_SET_CONFIGS = {
       {
         id: 'inspired-12',
         refPaper: 'moto-mock',
-        title: 'Inspired Set 12 · 本免 mock review',
-        titleMy: 'Inspired Set 12 · 本免 mock review (95問スタイル)',
+        title: 'Inspired Set 12 · 本免 topic review',
+        titleMy: 'Inspired Set 12 · 本免 topic review',
         topics: [
           'road_signs_signals',
           'right_of_way_traffic_rules',

@@ -4,6 +4,8 @@ import { getTranslations } from 'next-intl/server';
 import type { Category } from '@/lib/types';
 import { TEST_META } from '@/lib/types';
 import { buildQuizMetadata } from '@/lib/seo';
+import { getQuestions } from '@/lib/questions';
+import { sanitizeQuestionsForClient } from '@/lib/question-sanitize';
 import QuizLoader from '@/components/QuizLoader';
 
 const VALID_MODES = ['lesson', 'practice', 'test'] as const;
@@ -36,6 +38,9 @@ export default async function QuizPage({ params }: PageProps) {
 
   const t = await getTranslations({ locale, namespace: 'seo.quiz' });
   const meta = TEST_META.find(m => m.category === category);
+  const allQuestions = await getQuestions(category as Category);
+  const clientQuestions =
+    mode === 'lesson' ? allQuestions : sanitizeQuestionsForClient(allQuestions);
 
   return (
     <>
@@ -71,6 +76,8 @@ export default async function QuizPage({ params }: PageProps) {
       <QuizLoader
         category={category as Category}
         mode={mode as Mode}
+        questions={clientQuestions}
+        answersHidden={mode !== 'lesson'}
         questionCount={meta?.bankQuestionCount ?? 0}
         testTag={meta?.tag ?? category}
       />

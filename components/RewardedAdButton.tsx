@@ -36,8 +36,8 @@ export default function RewardedAdButton({ onRewarded, label, className = '' }: 
     }
 
     if (typeof window.adBreak !== 'function') {
-      setState('idle');
-      onRewarded();
+      setState('skipped');
+      setTimeout(() => setState('idle'), 2500);
       return;
     }
 
