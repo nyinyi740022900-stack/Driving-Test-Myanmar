@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient, createServiceClient } from '@/lib/supabase-server';
-import { PLANS, type PlanKey } from '@/lib/subscription';
-import { sendPaymentStatusEmail } from '@/lib/payment-email';
 
 const ADMIN_EMAILS = (process.env.ADMIN_EMAILS ?? '').split(',').map(e => e.trim()).filter(Boolean);
 
@@ -25,8 +23,6 @@ export async function POST(req: NextRequest) {
   if (fetchErr || !sub) return NextResponse.json({ error: 'Submission not found' }, { status: 404 });
   if (sub.status !== 'pending') return NextResponse.json({ error: 'Already processed' }, { status: 409 });
 
-  const plan = PLANS[sub.plan as PlanKey];
-
   const { error: updErr } = await service
     .from('payment_submissions')
     .update({
@@ -37,17 +33,6 @@ export async function POST(req: NextRequest) {
     })
     .eq('id', submissionId);
   if (updErr) return NextResponse.json({ error: updErr.message }, { status: 500 });
-
-  const { data: authUser } = await service.auth.admin.getUserById(sub.user_id);
-  const email = authUser?.user?.email;
-  if (email) {
-    await sendPaymentStatusEmail({
-      to: email,
-      type: 'rejected',
-      planLabel: plan?.label ?? sub.plan,
-      notes: notes ?? null,
-    });
-  }
 
   return NextResponse.json({ ok: true });
 }

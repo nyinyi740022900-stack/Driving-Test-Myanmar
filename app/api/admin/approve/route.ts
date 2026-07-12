@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createClient, createServiceClient } from '@/lib/supabase-server';
 import { PLANS, type PlanKey } from '@/lib/subscription';
 import { computeStackedExpiry } from '@/lib/subscription-expiry';
-import { sendPaymentStatusEmail } from '@/lib/payment-email';
 
 const ADMIN_EMAILS = (process.env.ADMIN_EMAILS ?? '').split(',').map(e => e.trim()).filter(Boolean);
 
@@ -60,17 +59,6 @@ export async function POST(req: NextRequest) {
     })
     .eq('id', submissionId);
   if (updErr) return NextResponse.json({ error: updErr.message }, { status: 500 });
-
-  const { data: authUser } = await service.auth.admin.getUserById(sub.user_id);
-  const email = authUser?.user?.email;
-  if (email) {
-    await sendPaymentStatusEmail({
-      to: email,
-      type: 'approved',
-      planLabel: plan.label,
-      expiresAt,
-    });
-  }
 
   return NextResponse.json({ ok: true, expires_at: expiresAt.toISOString() });
 }

@@ -10,8 +10,6 @@ Completed items for launch readiness (July 2026).
 ## Payments & premium
 
 - **Expiry stacking** — approving a plan extends from current `expires_at` if still premium (`lib/subscription-expiry.ts`)
-- **Email notifications** — Resend on approve/reject (`lib/payment-email.ts`)
-- Env: `RESEND_API_KEY`, `FROM_EMAIL` (see `.env.local.example`)
 
 ## Tooling
 
@@ -43,8 +41,6 @@ npm run test:e2e
 
 | Variable | Required |
 |----------|----------|
-| `RESEND_API_KEY` | For payment emails |
-| `FROM_EMAIL` | Verified sender in Resend |
 | `ADMIN_EMAILS` | Admin access |
 | Supabase keys | Already set |
 

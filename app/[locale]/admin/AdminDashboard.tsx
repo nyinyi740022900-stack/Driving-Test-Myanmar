@@ -126,39 +126,6 @@ const BLANK_TUTORIAL: Omit<Tutorial, 'id'> = {
   youtube_url: '', sort_order: 0, published: true,
 };
 
-function ExpiryReminderButton({ userEmail }: { userEmail: string }) {
-  const [status, setStatus] = useState<'idle' | 'sending' | 'done' | 'error'>('idle');
-  const [result, setResult] = useState('');
-
-  async function send() {
-    setStatus('sending');
-    try {
-      const res = await fetch('/api/admin/send-expiry-reminders', { method: 'POST' });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error ?? 'Failed');
-      setResult(`✓ Sent ${data.sent} / ${data.total} emails`);
-      setStatus('done');
-    } catch (e) {
-      setResult(e instanceof Error ? e.message : 'Error');
-      setStatus('error');
-    }
-  }
-
-  return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
-      <button
-        onClick={send}
-        disabled={status === 'sending'}
-        style={{ padding: '9px 18px', background: status === 'done' ? 'rgba(27,156,86,.15)' : '#1B9C56', color: status === 'done' ? '#1B9C56' : '#fff', border: 'none', borderRadius: 8, fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.85rem', cursor: status === 'sending' ? 'wait' : 'pointer', opacity: status === 'sending' ? .6 : 1 }}
-      >
-        {status === 'sending' ? 'Sending…' : '📧 Send reminders now'}
-      </button>
-      {result && (
-        <span style={{ fontSize: '.82rem', color: status === 'error' ? '#dc2626' : 'var(--guide-deep)', fontWeight: 600 }}>{result}</span>
-      )}
-    </div>
-  );
-}
 
 export default function AdminDashboard({
   locale, submissions: initialSubs, reviews: initialReviews, feedback: initialFeedback, users, stats, settings: initialSettings, faqs: initialFaqs, tutorials: initialTutorials, config,
@@ -1245,15 +1212,6 @@ export default function AdminDashboard({
               <SettingRow label="ADMIN_EMAILS" value={runtimeConfig.adminEmails || '(not set)'} mono />
               <div style={{ marginTop: 12, padding: '10px 14px', background: '#eff6ff', borderRadius: 8, fontSize: '.82rem', color: '#1e40af' }}>
                 Add multiple admin emails with comma separation: <code>admin1@x.com,admin2@x.com</code>
-              </div>
-            </SettingsCard>
-
-            {/* Email reminders */}
-            <SettingsCard title="📧 Premium expiry reminders" subtitle="Send email to users whose premium expires within 3 days">
-              <ExpiryReminderButton userEmail={user?.email ?? ''} />
-              <div style={{ marginTop: 10, fontSize: '.8rem', color: 'var(--ink-soft)', lineHeight: 1.5 }}>
-                Requires <code>RESEND_API_KEY</code> and <code>FROM_EMAIL</code> in .env.local.<br />
-                Sign up free at <strong>resend.com</strong> to get an API key.
               </div>
             </SettingsCard>
 
