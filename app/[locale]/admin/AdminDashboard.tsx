@@ -1033,7 +1033,7 @@ export default function AdminDashboard({
                 })}
                 {faqs.length === 0 && (
                   <div style={{ textAlign: 'center', padding: '32px 0', color: 'var(--ink-soft)', fontSize: '.9rem' }}>
-                    No FAQs yet — run the SQL schema update, then click "+ Add FAQ".
+                    No FAQs yet — run the SQL schema update, then click &quot;+ Add FAQ&quot;.
                   </div>
                 )}
               </div>
@@ -1211,7 +1211,7 @@ export default function AdminDashboard({
                 })}
                 {tutorials.length === 0 && (
                   <div style={{ textAlign: 'center', padding: '32px 0', color: 'var(--ink-soft)', fontSize: '.9rem' }}>
-                    No videos yet — run <code>supabase/video_tutorials.sql</code> in Supabase, then click "+ Add video".
+                    No videos yet — run <code>supabase/video_tutorials.sql</code> in Supabase, then click &quot;+ Add video&quot;.
                   </div>
                 )}
               </div>

@@ -59,6 +59,7 @@ export default function Footer() {
           <Link href={`/${locale}/about#contact`} style={{ fontSize: '.8rem', color: 'var(--ink-soft)' }}>{t('contact')}</Link>
           <Link href={`/${locale}/privacy`} style={{ fontSize: '.8rem', color: 'var(--ink-soft)' }}>{t('privacy')}</Link>
           <Link href={`/${locale}/terms`} style={{ fontSize: '.8rem', color: 'var(--ink-soft)' }}>{t('terms')}</Link>
+          <Link href={`/${locale}/refund`} style={{ fontSize: '.8rem', color: 'var(--ink-soft)' }}>{t('refund')}</Link>
         </div>
         <p className="fnote">{t('note')}</p>
       </div>

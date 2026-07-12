@@ -20,7 +20,7 @@ export default function QuizError({ error, reset }: { error: Error; reset: () =>
           Something went wrong
         </h2>
         <p style={{ color: 'var(--ink-soft)', marginBottom: 24, fontSize: '.95rem' }}>
-          The quiz couldn't load. Try again or go back to the tests.
+          The quiz couldn&apos;t load. Try again or go back to the tests.
         </p>
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center' }}>
           <button className="btn btn-primary" onClick={reset}>Try again</button>

@@ -15,7 +15,7 @@ export default function LocaleNotFound() {
           Page not found
         </h1>
         <p style={{ color: 'var(--ink-soft)', marginBottom: 24 }}>
-          The page you're looking for doesn't exist.
+          The page you&apos;re looking for doesn&apos;t exist.
         </p>
         <Link href={`/${locale}`} className="btn btn-primary" style={{ display: 'inline-flex' }}>
           ← Back to home

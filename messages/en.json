@@ -2356,6 +2356,56 @@
       }
     ]
   },
+  "refund": {
+    "meta_title": "Refund Policy",
+    "meta_description": "Refund policy for TheoryLane Premium manual payments (KBZPay, WavePay).",
+    "title": "Refund Policy",
+    "updated": "Last updated: July 2026",
+    "back": "← Back to {brand}",
+    "contact_title": "Contact",
+    "sections": [
+      {
+        "title": "1. Overview",
+        "paragraphs": [
+          "TheoryLane Premium is sold as a digital subscription. Because access is granted immediately after manual payment review, refunds are limited and handled case by case."
+        ]
+      },
+      {
+        "title": "2. When we may refund",
+        "paragraphs": [
+          "We may approve a refund if:"
+        ],
+        "bullets": [
+          "You were charged twice for the same plan and period",
+          "We approved the wrong plan or duration by mistake",
+          "Premium was never activated within 7 days of a verified payment",
+          "You contact us within 14 days of payment and have not substantially used Premium features (e.g. unlimited mock tests)"
+        ]
+      },
+      {
+        "title": "3. When we usually cannot refund",
+        "bullets": [
+          "You changed your mind after Premium was activated",
+          "You failed an official driving theory exam",
+          "You submitted an incorrect transaction ID or screenshot that delayed approval",
+          "Your subscription period has already ended or you used Premium extensively"
+        ]
+      },
+      {
+        "title": "4. How to request a refund",
+        "paragraphs": [
+          "Email us with your account email, payment wallet (KBZPay or WavePay), transaction ID, payment date, and a brief reason. We respond within 3–5 business days.",
+          "Approved refunds for manual wallet payments are returned via the same wallet where possible, or by another method we agree on."
+        ]
+      },
+      {
+        "title": "5. Subscription extensions",
+        "paragraphs": [
+          "If you renew while Premium is still active, new days are added to your current expiry date — you do not lose remaining time."
+        ]
+      }
+    ]
+  },
   "about": {
     "meta_title": "About & Contact",
     "meta_description": "About TheoryLane — Singapore and Japan driving theory test practice in English, Myanmar, and Japanese.",
@@ -2402,6 +2452,7 @@
     "report_btn": "Report issue →",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
+    "refund": "Refund Policy",
     "about": "About",
     "contact": "Contact",
     "note": "An independent study tool. Not affiliated with the Singapore Traffic Police, Japan's National Police Agency, or any driving centre. All questions and illustrations are original."
