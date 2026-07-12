@@ -38,6 +38,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-no-overtaking.png",
+      "alt": {
+        "ja": "対面通行の道路において、路面に黄色の線が一本引かれている場合、その線をはみ出して追い越しをしてはならない。",
+        "my": "နှစ်ဖက်သွားလမ်းတွင် လမ်းပေါ်၌ အဝါရောင်လိုင်းတစ်ကြောင်း ဆိုးထ",
+        "en": "If there is a single yellow line drawn on the road on a two-way road, you must n"
+      }
     }
   },
   {
@@ -79,6 +88,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-speed-limit.png",
+      "alt": {
+        "ja": "「最高速度」の標識がない道路でも、原動機付自転車には法定の最高速度が適用される。",
+        "my": "\"အမြန်နှုန်းအများဆုံး\" ဆိုင်းဘုတ်မရှိသော လမ်းတွင်လည်း အင်ဂျင",
+        "en": "Even on roads where there are no \"maximum speed\" signs, mopeds are subject to th"
+      }
     }
   },
   {
@@ -120,6 +138,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-one-way.png",
+      "alt": {
+        "ja": "原動機付自転車が「軽車両を除く」の補助標識がついた一方通行の標識がある道路を逆走することは違反である。",
+        "my": "အင်ဂျင်တပ်စက်ဘီးသည် 「ယာဉ်ပေါ့ပါးမှလွဲ၍」ဟူသော အထောက်အကူဆိုင်း",
+        "en": "It is illegal for a moped to ride the wrong way on a road marked with a one-way "
+      }
     }
   },
   {
@@ -161,6 +188,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "「原動機付自転車の右折方法（二段階右折）」の標識がある交差点では、小回り右折をしてはならない。",
+        "my": "「အင်ဂျင်တပ်စက်ဘီး၏ ညာဘက်ကွေ့နည်း (နှစ်ဆင့်ညာဘက်ကွေ့ခြင်း)」ဆိ",
+        "en": "Do not make a short right turn at an intersection where there is a sign that say"
+      }
     }
   },
   {
@@ -202,6 +238,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-expressway.png",
+      "alt": {
+        "ja": "大型自動二輪車は、「大型自動二輪車二人乗り禁止」の標識がある高速道路の区間で二人乗りをしてはならない。",
+        "my": "အော်တိုနှစ်ဘီးယာဉ်အကြီးစားသည် 「အော်တိုနှစ်ဘီးယာဉ်အကြီးစား နှ",
+        "en": "Large motorcycles must not be ridden by two people on sections of the expressway"
+      }
     }
   },
   {
@@ -243,6 +288,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-one-way.png",
+      "alt": {
+        "ja": "「軽car両を除く」という補助標識がある一方通行の標識は、原動機付自転車にも適用される。",
+        "my": "「ယာဉ်ပေါ့ပါးမှလွဲ၍」ဟူသော အထောက်အကူဆိုင်းဘုတ် ပါသော တစ်ဖက်သွာ",
+        "en": "One-way signs with a supplementary sign that says \"excluding light vehicles\" als"
+      }
     }
   },
   {
@@ -284,6 +338,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "信号のある交差点で「二段階右折」の標示がある場合、原付は右折方向の信号が青でも直進車線側に一旦進んでから待つ。",
+        "my": "မီးပွိုင့်ရှိသော လမ်းဆုံတွင် 「နှစ်ဆင့်ညာဘက်ကွေ့ခြင်း」ဖော်ပြခ",
+        "en": "If there is a \"two-step right turn\" sign at an intersection with a traffic light"
+      }
     }
   },
   {
@@ -325,6 +388,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "「専用通行帯（二輪車・原付を除く）」の標示がある車線には、原動機付自転車は通行することができる。",
+        "my": "「အထူးလမ်းကြောင်း (နှစ်ဘီးယာဉ်/အင်ဂျင်တပ်စက်ဘီးမှလွဲ၍)」ဖော်ပြ",
+        "en": "Mopeds are allowed to pass in lanes marked as \"Exclusive lanes (excluding motorc"
+      }
     }
   },
   {
@@ -366,6 +438,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "交差点で「専用通行帯」を示す標示がある場合、原付は必ずその車線を走行しなければならない。",
+        "my": "လမ်းဆုံတွင် 「အထူးလမ်းကြောင်း」ဖော်ပြသော အမှတ်အသားရှိပါက အင်ဂျ",
+        "en": "If there is a sign indicating a \"exclusive lane\" at an intersection, mopeds must"
+      }
     }
   },
   {
@@ -407,6 +488,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "「徐行」の標識がある場所では、ブレーキをいつでもかけられる速度まで落として進行しなければならない。",
+        "my": "\"ဖြည်းညင်းစွာ မောင်းရန်\" ဆိုင်းဘုတ်ရှိသည့်နေရာတွင် မည်သည့်အခ",
+        "en": "In areas where there is a \"slow down\" sign, you must proceed at a speed that all"
+      }
     }
   },
   {
@@ -448,6 +538,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "「指定方向外進行禁止」の標識は、矢印で示された方向以外への進行を禁止するものである。",
+        "my": "\"ညွှန်ပြထားသောဦးတည်ရာဖြင့်သာ သွားရန်\" ဆိုင်းဘုတ်သည် မြှားဖြင",
+        "en": "The \"Prohibition of proceeding outside the specified direction\" sign prohibits p"
+      }
     }
   },
   {
@@ -489,6 +588,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "「踏切あり」の警戒標識は、踏切が近いことを知らせ、速度を落として安全確認をするよう促すものである。",
+        "my": "\"ရထားလမ်းဖြတ်ရှိသည်\" သတိပေးဆိုင်းဘုတ်သည် ရထားလမ်းဖြတ်အနီးရှိ",
+        "en": "The \"Level Crossing\" warning sign alerts you that a railroad crossing is near an"
+      }
     }
   },
   {
@@ -530,6 +638,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-no-overtaking.png",
+      "alt": {
+        "ja": "「追越し禁止」の標識がある区間では、原動機付自転車であっても自転車を追い越すことは禁止される。",
+        "my": "\"ကျော်တက်ခြင်းမပြုလုပ်ရ\" ဆိုင်းဘုတ်ရှိသောကဏ္ဍတွင် အင်ဂျင်တပ်",
+        "en": "In areas where there is a \"No Passing\" sign, it is prohibited to overtake bicycl"
+      }
     }
   },
   {
@@ -571,6 +688,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-stop.png",
+      "alt": {
+        "ja": "信号機のない踏切に接近したときは、二輪車であっても必ず踏切の手前で一時停止し、安全を確認しなければならない。",
+        "my": "အချက်ပြမီးမရှိသော ရထားလမ်းဖြတ်အနီးသို့ ရောက်သည့်အခါ နှစ်ဘီးယ",
+        "en": "When approaching a railroad crossing without traffic lights, even if you are rid"
+      }
     }
   },
   {
@@ -612,6 +738,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "「警笛鳴らせ」の標識がある場所では、見通しの悪いカーブや踏切でなくても常にクラクションを鳴らさなければならない。",
+        "my": "\"တွန်းမှုတ်ရန်\" ဆိုင်းဘုတ်ရှိသောနေရာတွင် မြင်ကွင်းမကောင်းသော",
+        "en": "You must always honk your horn in areas where there is a \"honk your horn\" sign, "
+      }
     }
   },
   {
@@ -653,6 +788,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "「二人乗り通行禁止」の標識がある道路では、大型自動二輪車であっても二人乗りをしてはならない。",
+        "my": "「နှစ်ဦးတွဲစီးခွင့်မရှိ」ဆိုင်းဘုတ်ရှိသောလမ်းတွင် အော်တိုနှစ်ဘ",
+        "en": "On roads where there is a sign saying \"Double Riders Prohibited\", do not ride wi"
+      }
     }
   },
   {
@@ -694,6 +838,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-speed-limit.png",
+      "alt": {
+        "ja": "「最高速度」の標識に表示された速度は、二輪車と四輪車で異なる場合がある。",
+        "my": "「အမြန်ဆုံးအရှိန်」ဆိုင်းဘုတ်ပေါ်ရှိ အရှိန်သည် နှစ်ဘီးယာဉ်နှင့",
+        "en": "The speed displayed on the \"maximum speed\" sign may be different for two-wheeled"
+      }
     }
   },
   {
@@ -735,6 +888,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-expressway.png",
+      "alt": {
+        "ja": "原動機付自転車は、原則として高速道路や自動車専用道路を通行することができる。",
+        "my": "အင်ဂျင်တပ်စက်ဘီးများသည် အခြေခံအားဖြင့် မြန်နှုန်းမြင့်လမ်းမန",
+        "en": "In principle, mopeds can be used on expressways and automobile-only roads."
+      }
     }
   },
   {
@@ -776,6 +938,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "「路線バス等優先通行帯」がある道路では、二輪車もその車線の走行が制限されることがある。",
+        "my": "「ဘတ်စ်ကားလိုင်းဦးစားပေးလမ်းကြောင်း」ရှိသောလမ်းတွင် နှစ်ဘီးယာဉ",
+        "en": "On roads that have \"priority lanes for route buses,\" motorcycles may also be res"
+      }
     }
   },
   {
@@ -817,6 +988,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-no-entry.png",
+      "alt": {
+        "ja": "自動二輪車は、「大型貨物自動車等通行止め」の標識がある道路を通行することができる。",
+        "my": "အော်တိုနှစ်ဘီးယာဉ်သည် 「ကားအကြီးစားထရပ်ကားများ ဖြတ်သန်းခွင့်မ",
+        "en": "Motorcycles are allowed to drive on roads marked with \"Large Trucks Closed\" sign"
+      }
     }
   },
   {
@@ -858,6 +1038,15 @@
       "title": "Inspired Set 1 · 標識・信号",
       "titleMy": "Inspired Set 1 · 標識・信号 (ဆိုင်းဘုတ်)",
       "refPaper": "moto-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "「並進可」の補助標識がある道路では、原動機付自転車が二台並んで走行することが認められている。",
+        "my": "「အတူတွဲမောင်းနိုင်」ဟူသော အထောက်အကူဆိုင်းဘုတ်ရှိသောလမ်းတွင် အ",
+        "en": "Two mopeds are allowed to ride side by side on roads with supplementary signs th"
+      }
     }
   },
   {
@@ -899,6 +1088,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-expressway.png",
+      "alt": {
+        "ja": "二輪車が原動機付自転車であっても、自動車専用道路を通行することができる。",
+        "my": "နှစ်ဘီးယာဉ်သည် အင်ဂျင်တပ်စက်ဘီးဖြစ်လျှင်လည်း မော်တော်ကားအထူး",
+        "en": "Even if the two-wheeled vehicle is a moped, it can be used on motor-vehicle road"
+      }
     }
   },
   {
@@ -940,6 +1138,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-hazard.png",
+      "alt": {
+        "ja": "進路変更によって後方から接近してくる車両の速度や方向を変えさせることになる場合でも、合図を出していれば進路変更してよい。",
+        "my": "လမ်းကြောင်းပြောင်းခြင်းကြောင့် နောက်ဘက်မှ ချဉ်းကပ်လာသောယာဉ်၏",
+        "en": "Even if changing course means changing the speed or direction of a vehicle appro"
+      }
     }
   },
   {
@@ -981,6 +1188,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "けん引中の自動車は、二輪車にとって追い越しの優先対象とはならないため、自由に追い越してよい。",
+        "my": "အခြားယာဉ်ကို ဆွဲငင်နေသော မော်တော်ကားသည် နှစ်ဘီးယာဉ်အတွက် ကျေ",
+        "en": "Motorcycles that are being towed do not have priority overtaking for motorcycles"
+      }
     }
   },
   {
@@ -1022,6 +1238,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "対向車が右折待ちをしているとき、直進する自動二輪車は対向車の陰に隠れやすいため、対向車も注意が必要である。",
+        "my": "ဆန့်ကျင်ဘက်ကားက ညာဘက်ကွေ့ရန် စောင့်နေချိန် တည့်တည့်သွားနေသော",
+        "en": "When an oncoming vehicle is waiting to make a right turn, a motorcycle traveling"
+      }
     }
   },
   {
@@ -1063,6 +1288,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "山道で行き違いが困難な場合、上り坂を走行しているバイクが道を譲るのが原則である。",
+        "my": "တောင်ပေါ်လမ်းတွင် ယာဉ်ဖြတ်သန်းမှု ခက်ခဲသောအခါ တောင်တက်နေသော ",
+        "en": "If it is difficult to pass each other on a mountain road, the general rule is to"
+      }
     }
   },
   {
@@ -1104,6 +1338,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "信号のない交差点で、道幅が同じくらいの道路が交わる場合、左方から来る車が右方から来る車に対して優先される。",
+        "my": "အချက်ပြမီးမရှိသော လမ်းဆုံတွင် လမ်းအကျယ်အတူတူနီးပါးရှိသော လမ်",
+        "en": "When roads of similar width intersect at an intersection without traffic lights,"
+      }
     }
   },
   {
@@ -1145,6 +1388,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-ambulance.png",
+      "alt": {
+        "ja": "緊急自動車が接近してきたときは、交差点内であっても直ちにその場で停止しなければならない。",
+        "my": "အရေးပေါ်ယာဉ် ချဉ်းကပ်လာသည့်အခါ လမ်းဆုံအတွင်းရှိနေလျှင်လည်း ခ",
+        "en": "When an emergency vehicle approaches, you must stop immediately, even if you are"
+      }
     }
   },
   {
@@ -1186,6 +1438,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "追い越しは、前車が右折のため道路の中央に寄っているときに、その左側からしてもよい。",
+        "my": "ရှေ့ယာဉ်သည် ညာကွေ့ရန် လမ်းအလယ်ဘက်သို့ ကပ်နေသည့်အခါ ၎င်း၏ဘယ်ဘ",
+        "en": "You may overtake from the left side of the vehicle in front of you when it is in"
+      }
     }
   },
   {
@@ -1227,6 +1488,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-roundabout.png",
+      "alt": {
+        "ja": "環状交差点（ラウンドアバウト）内を通行している車両がある場合、これから進入する車両は徐行して環状交差点内の車両の通行を妨げないようにしなければならない。",
+        "my": "လမ်းဝန်းကွက် (ရောင်းဒ်အာဘောက်) အတွင်း ဖြတ်သန်းနေသောယာဉ်ရှိပါ",
+        "en": "If there are vehicles passing through a roundabout, vehicles entering the rounda"
+      }
     }
   },
   {
@@ -1268,6 +1538,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "二輪車は、交差点で右折する際、あらかじめ道路の中央に寄ってから大回りで右折しなければならない。",
+        "my": "နှစ်ဘီးယာဉ်သည် လမ်းဆုံတွင် ညာကွေ့သည့်အခါ ကြိုတင်ပြီး လမ်းအလယ",
+        "en": "When making a right turn at an intersection, motorcycles must first approach the"
+      }
     }
   },
   {
@@ -1309,6 +1588,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-parking.png",
+      "alt": {
+        "ja": "停車中の路線バスが発進の合図をしているとき、後方の二輪車はバスの発進を妨げないようにしなければならない。",
+        "my": "ရပ်နားနေသော လမ်းကြောင်းအသွားအပြန်ဘတ်စ်ကား ထွက်ခွာရန် အချက်ပြ",
+        "en": "When a parked route bus is giving the signal to start, motorcycles behind the bu"
+      }
     }
   },
   {
@@ -1350,6 +1638,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "二輪車が他の車を追い越すときは、追い越される車の右側を通行しなければならない。",
+        "my": "နှစ်ဘီးယာဉ်သည် အခြားယာဉ်ကို ကျော်တက်သည့်အခါ ကျော်တက်ခံရမည့်ယ",
+        "en": "When a motorcycle passes another vehicle, it must pass on the right side of the "
+      }
     }
   },
   {
@@ -1391,6 +1688,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "道幅が明らかに狭い道路から広い道路に進入する自動二輪車は、広い道路の車両より優先される。",
+        "my": "လမ်းကျဉ်းသောနေရာမှ လမ်းကျယ်သောနေရာသို့ ဝင်ရောက်သော အော်တိုနှ",
+        "en": "Motorcycles entering a wider road from an obviously narrower road have priority "
+      }
     }
   },
   {
@@ -1432,6 +1738,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-pedestrian-cross.png",
+      "alt": {
+        "ja": "自動二輪車が左折するときは、その左折先の直進する自転車や歩行者よりも優先して通行できる。",
+        "my": "အော်တိုနှစ်ဘီးယာဉ်သည် ဘယ်ဘက်ကွေ့ချိန် ကွေ့ရာလမ်းရှိ တည့်တည့်",
+        "en": "When a motorcycle makes a left turn, it has priority over bicycles and pedestria"
+      }
     }
   },
   {
@@ -1473,6 +1788,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "自動二輪車が走行しているとき、四輪車の運転者は二輪車を軽視して幅寄せしてもよい。",
+        "my": "အော်တိုနှစ်ဘီးယာဉ် မောင်းနှင်နေချိန် ယာဉ်လေးဘီး ယာဉ်မောင်းသူ",
+        "en": "When a motorcycle is running, a driver of a four-wheeled vehicle may disregard t"
+      }
     }
   },
   {
@@ -1514,6 +1838,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "自動二輪車は路面電車が走行しているとき、追い越してはならない。",
+        "my": "အော်တိုနှစ်ဘီးယာဉ်သည် တရံလမ်းရထား မောင်းနေချိန် ကျော်တက်ခွင့",
+        "en": "Motorcycles must not overtake streetcars when they are moving."
+      }
     }
   },
   {
@@ -1555,6 +1888,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-roundabout.png",
+      "alt": {
+        "ja": "環状交差点に進入する自動二輪車は、環道内をすでに通行している車両より優先される。",
+        "my": "လမ်းစက်ဝိုင်းသို့ ဝင်ရောက်သော အော်တိုနှစ်ဘီးယာဉ်သည် စက်ဝိုင်",
+        "en": "Motorcycles entering a roundabout have priority over vehicles already on the rin"
+      }
     }
   },
   {
@@ -1596,6 +1938,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "路線バスが停留所から発進の合図を出しているとき、後続のバイクは道を譲る必要はない。",
+        "my": "ဘတ်စ်ကားသည် ရပ်နားစခန်းမှ ထွက်ခွာမည့်လက္ခဏာပြသနေချိန် နောက်လ",
+        "en": "When a route bus signals to start from a stop, motorcycles following it do not h"
+      }
     }
   },
   {
@@ -1637,6 +1988,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "交差点で複数の車両が同時に到達し道幅が同じ場合、バイクよりも四輪車が優先される。",
+        "my": "လမ်းဆုံတွင် ယာဉ်များစွာ တစ်ပြိုင်နက်ရောက်ရှိပြီး လမ်းအကျယ်တူ",
+        "en": "When multiple vehicles arrive at an intersection at the same time and the road w"
+      }
     }
   },
   {
@@ -1678,6 +2038,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-parking.png",
+      "alt": {
+        "ja": "自動二輪車は、私有地の駐車場から道路に出る際、道路を走行する車両より優先される。",
+        "my": "အော်တိုနှစ်ဘီးယာဉ်သည် ပုဂ္ဂလိကနေရာရပ်နားရာမှ လမ်းပေါ်သို့ ထွ",
+        "en": "Motorcycles have priority over vehicles on the road when exiting a parking lot o"
+      }
     }
   },
   {
@@ -1719,6 +2088,15 @@
       "title": "Inspired Set 2 · 交通規則 A",
       "titleMy": "Inspired Set 2 · 交通規則 A (စည်းမျဉ်း)",
       "refPaper": "moto-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-give-way.png",
+      "alt": {
+        "ja": "見通しの悪い交差点に近づくバイクは、優先道路であっても速度を落として周囲を確認するべきである。",
+        "my": "မြင်နိုင်စွမ်းနည်းသော လမ်းဆုံသို့ ချဉ်းကပ်နေသော ဆိုင်ကယ်သည် ",
+        "en": "Motorcyclists approaching intersections with poor visibility should slow down an"
+      }
     }
   },
   {
@@ -1760,6 +2138,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-pedestrian-cross.png",
+      "alt": {
+        "ja": "右折待ちのバイクは、対向車線の直進車だけでなく、横断中の歩行者や自転車にも道を譲らなければならない。",
+        "my": "ညာဘက်ကွေ့ရန်စောင့်နေသော ဆိုင်ကယ်သည် ဆန့်ကျင်ဘက်လမ်းကြောင်းရှ",
+        "en": "Motorcycles waiting to make a right turn must yield not only to oncoming vehicle"
+      }
     }
   },
   {
@@ -1801,6 +2188,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "狭い道で対向車と行き違うとき、自動二輪車は四輪車よりも優先的に道を確保できる。",
+        "my": "လမ်းကျဉ်းတွင် ဆန့်ကျင်ဘက်ကားနှင့် ဖြတ်သန်းရာတွင် အော်တိုနှစ်",
+        "en": "When passing oncoming vehicles on narrow roads, motorcycles can have priority ov"
+      }
     }
   },
   {
@@ -1842,6 +2238,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-pedestrian-cross.png",
+      "alt": {
+        "ja": "自動二輪車は、優先道路上であれば、歩行者の横断があっても速度を落とさず通過してよい。",
+        "my": "အော်တိုနှစ်ဘီးယာဉ်သည် ဦးစားပေးလမ်းပေါ်တွင်ဖြစ်လျှင် လူသွားလူ",
+        "en": "Motorcycles may pass without slowing down even if pedestrians cross the road as "
+      }
     }
   },
   {
@@ -1883,6 +2288,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "自動二輪車が交差点を直進するとき、後方から接近する緊急車両にも注意しながら安全確認を行う。",
+        "my": "အော်တိုနှစ်ဘီးယာဉ်သည် လမ်းဆုံကို တည့်တည့်ဖြတ်သန်းချိန် နောက်",
+        "en": "When a motorcycle goes straight through an intersection, check the safety while "
+      }
     }
   },
   {
@@ -1924,6 +2338,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-stop.png",
+      "alt": {
+        "ja": "交差点で優先道路を通行している車両があるときは、そうでない道路から進入する車両は一時停止して進路を譲らなければならない。",
+        "my": "လမ်းဆုံတွင် ဦးစားပေးလမ်းပေါ်၌ သွားနေသော ယာဉ်ရှိပါက ထိုလမ်းမဟ",
+        "en": "When a vehicle is using the right-of-way at an intersection, vehicles approachin"
+      }
     }
   },
   {
@@ -1965,6 +2388,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-parking.png",
+      "alt": {
+        "ja": "二輪車は、駐車禁止の場所であっても短時間であれば停車してもよい。",
+        "my": "နှစ်ဘီးယာဉ်များသည် ကားရပ်ခွင့်မရှိသောနေရာများတွင်လည်း အချိန်",
+        "en": "Motorcycles may stop for a short period of time even in areas where parking is p"
+      }
     }
   },
   {
@@ -2006,6 +2438,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-pedestrian-cross.png",
+      "alt": {
+        "ja": "歩行者が横断歩道を横断しようとしているときは、二輪車は必ず一時停止して歩行者の通行を妨げないようにしなければならない。",
+        "my": "လူသွားလမ်းကို ဖြတ်ကူးနေသူရှိသည့်အခါ နှစ်ဘီးယာဉ်သည် ခေတ္တရပ်ပ",
+        "en": "When a pedestrian is about to cross a crosswalk, motorcycles must stop temporari"
+      }
     }
   },
   {
@@ -2047,6 +2488,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "二人乗りの自動二輪車は、高速自動車国道の一部区間を除き、原則として二人乗りで通行することができる。",
+        "my": "လူနှစ်ယောက်တင် မော်တော်ဆိုင်ကယ်သည် အမြန်လမ်းမကြီး၏ အချို့သော",
+        "en": "In principle, two-seater motorcycles are allowed, except for some sections of na"
+      }
     }
   },
   {
@@ -2088,6 +2538,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "「二段階右折」の指定がある交差点では、原動機付自転車は小回りで右折してはならない。",
+        "my": "\"နှစ်ဆင့်ညာကွေ့ရန်\" သတ်မှတ်ထားသော လမ်းဆုံတွင် အင်ဂျင်တပ်စက်ဘ",
+        "en": "At intersections where a \"two-stage right turn\" is designated, mopeds must not m"
+      }
     }
   },
   {
@@ -2129,6 +2588,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-give-way.png",
+      "alt": {
+        "ja": "優先道路を走行している自動二輪車は、交差する道路から出てくる車両に対して優先される。",
+        "my": "ဦးစားပေးလမ်းကို ဖြတ်သန်းနေသော အော်တိုနှစ်ဘီးယာဉ်သည် ဖြတ်သန်း",
+        "en": "Motorcycles traveling on priority roads have priority over vehicles exiting from"
+      }
     }
   },
   {
@@ -2170,6 +2638,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "自動二輪車が右折するときは、四輪車と同様に対向車線の直進車・左折車の通行を妨げてはならない。",
+        "my": "အော်တိုနှစ်ဘီးယာဉ်သည် ညာဘက်ကွေ့ချိန် ယာဉ်လေးဘီးများကဲ့သို့ပင",
+        "en": "When a motorcycle turns right, it must not obstruct the passage of vehicles trav"
+      }
     }
   },
   {
@@ -2211,6 +2688,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-pedestrian-cross.png",
+      "alt": {
+        "ja": "横断歩道を渡っている歩行者がいる場合、自動二輪車は歩行者の通行を妨げないよう一時停止しなければならない。",
+        "my": "လူကူးမျဉ်းကို ဖြတ်ကူးနေသော လူသွားလူလာရှိပါက အော်တိုနှစ်ဘီးယာ",
+        "en": "If there is a pedestrian crossing the street, the motorcycle must stop temporari"
+      }
     }
   },
   {
@@ -2252,6 +2738,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-stop.png",
+      "alt": {
+        "ja": "サイレンを鳴らして走行する緊急自動車が接近してきたときは、バイクは車と同様に道路の左側に寄って一時停止する。",
+        "my": "အသံမြည်ကာ မောင်းလာသော အရေးပေါ်ယာဉ် ချဉ်းကပ်လာသောအခါ ဆိုင်ကယ်",
+        "en": "When an emergency vehicle approaches with its siren blaring, the motorcycle must"
+      }
     }
   },
   {
@@ -2293,6 +2788,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-stop.png",
+      "alt": {
+        "ja": "自転車横断帯を自転車が横断しているときは、自動二輪車も一時停止して待たなければならない。",
+        "my": "စက်ဘီးဖြတ်ကျော်လမ်းကို စက်ဘီးများ ဖြတ်ကျော်နေချိန် အော်တိုနှ",
+        "en": "When a bicycle is crossing a bicycle crossing zone, motorcycles must also stop a"
+      }
     }
   },
   {
@@ -2334,6 +2838,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-stop.png",
+      "alt": {
+        "ja": "一時停止の標識がある交差点では、バイクの車両が小さく他に交通がないと見えても必ず停止する。",
+        "my": "ခေတ္တရပ်ဆိုင်းဘုတ်ရှိသော လမ်းဆုံတွင် ဆိုင်ကယ်၏ ယာဉ်ငယ်ငယ်သည်",
+        "en": "Always stop at intersections with stop signs, even if the motorcycles are small "
+      }
     }
   },
   {
@@ -2375,6 +2888,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-stop.png",
+      "alt": {
+        "ja": "踏切の直前では、バイクも一時停止し、左右の安全を確認してから通過しなければならない。",
+        "my": "မီးရထားဖြတ်ကျော်၏ ရှေ့တွင် ဆိုင်ကယ်များသည်လည်း ခေတ္တရပ်ပြီး ",
+        "en": "Just before a railroad crossing, motorcyclists must stop temporarily and check t"
+      }
     }
   },
   {
@@ -2416,6 +2938,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "交差点内で対向車が右折待ちをしているとき、直進するバイクの通行が優先される。",
+        "my": "လမ်းဆုံအတွင်း ဆန့်ကျင်ဘက်ကားက ညာဘက်ကွေ့ရန် စောင့်နေချိန် တည့",
+        "en": "When an oncoming vehicle is waiting to turn right at an intersection, motorcycle"
+      }
     }
   },
   {
@@ -2457,6 +2988,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-parking.png",
+      "alt": {
+        "ja": "「駐停車禁止」の標識は、二輪車には適用されず、四輪車のみが対象となる。",
+        "my": "「ရပ်/ရပ်နားခွင့်မရှိ」ဆိုင်းဘုတ်သည် နှစ်ဘီးယာဉ်များအတွက် အကျု",
+        "en": "The \"No Parking\" sign does not apply to two-wheeled vehicles, only four-wheeled "
+      }
     }
   },
   {
@@ -2498,6 +3038,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-no-entry.png",
+      "alt": {
+        "ja": "「自動二輪車・原付以外の自動車通行止め」の標識がある道路は、自動二輪車と原付だけが通行できる。",
+        "my": "「အော်တိုနှစ်ဘီးယာဉ်/အင်ဂျင်တပ်စက်ဘီးမှလွဲ၍ ကားများ ဖြတ်သန်းခ",
+        "en": "Only motorcycles and mopeds can pass on roads with signs that say \"Closed to veh"
+      }
     }
   },
   {
@@ -2539,6 +3088,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-no-entry.png",
+      "alt": {
+        "ja": "「進入禁止」の標識は、逆走を防ぐために一方通行の出口側に設置されることが多い。",
+        "my": "「ဝင်ရောက်ခွင့်မရှိ」ဆိုင်းဘုတ်သည် ပြောင်းပြန်မောင်းခြင်းကို က",
+        "en": "\"No Entry\" signs are often placed on the exit side of one-way streets to prevent"
+      }
     }
   },
   {
@@ -2580,6 +3138,15 @@
       "title": "Inspired Set 3 · 交通規則 B",
       "titleMy": "Inspired Set 3 · 交通規則 B (လမ်းပေးခွင့်)",
       "refPaper": "moto-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "「二輪車通行禁止」の標識がある道路は、原動機付自転車も通行することができる。",
+        "my": "\"နှစ်ဘီးယာဉ် ဖြတ်သန်းခွင့်မရှိ\" ဆိုင်းဘုတ်ရှိသောလမ်းတွင် အင်",
+        "en": "Mopeds are also allowed on roads marked with \"No Motorcycles Allowed\" signs."
+      }
     }
   },
   {
@@ -2621,6 +3188,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "カーブの途中で予想以上に膨らんでしまった場合、さらに車体を傾けるよりもブレーキをかけて速度を落とす方が安全である。",
+        "my": "ကွေ့ရာလမ်းအတွင်း မမျှော်လင့်ထားသည်ထက် ပိုကျယ်စွာ သွားသွားရော",
+        "en": "If the car bulges out more than expected in the middle of a curve, it is safer t"
+      }
     }
   },
   {
@@ -2662,6 +3238,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "下り坂のカーブでは、エンジンブレーキを使わずフロントブレーキのみで速度調整するのが最も安全である。",
+        "my": "တောင်ကုန်းကွေ့ရာလမ်းတွင် အင်ဂျင်ဘရိတ်ကို မသုံးဘဲ ရှေ့ဘရိတ်တစ",
+        "en": "On downhill curves, it is safest to adjust the speed using only the front brake "
+      }
     }
   },
   {
@@ -2703,6 +3288,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "高速道路のカーブでは、一般道のカーブよりも傾斜角を大きくして通行するのが基本である。",
+        "my": "အမြန်လမ်းမရှိ ကွေ့ရာလမ်းတွင် ပုံမှန်လမ်းရှိ ကွေ့ရာလမ်းထက် ကိ",
+        "en": "In curves on expressways, it is basic to drive at a larger angle of inclination "
+      }
     }
   },
   {
@@ -2744,6 +3338,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "連続するカーブ（つづら折り）では、一つ目のカーブを抜けたらすぐに次のカーブの形状に関わらず最大限まで加速してよい。",
+        "my": "ကွေ့ဆက်ဆက် (twisty road) တွင် ကွေ့တစ်ခုကို ကျော်ပြီးပြီးချင်",
+        "en": "In a series of curves (a zigzag), as soon as you exit the first curve, you may a"
+      }
     }
   },
   {
@@ -2785,6 +3388,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "急な下り坂でバイクの速度を落とすときは、前輪ブレーキだけを強くかけるのが最も安全である。",
+        "my": "တောင်ကုန်း ပြင်းထန်စွာ ဆင်းရာလမ်းတွင် ဆိုင်ကယ်၏ အရှိန်လျှော့",
+        "en": "When slowing your bike down a steep slope, it's safest to apply only the front b"
+      }
     }
   },
   {
@@ -2826,6 +3438,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "カーブを曲がる際、路面の中央にある油や砂は特に気にする必要はない。",
+        "my": "ကွေ့ရာလမ်းကို ကွေ့ချိန် လမ်းမျက်နှာပြင် အလယ်ရှိ ဆီစွန်း သို့",
+        "en": "When taking a curve, there is no need to worry about oil or sand in the center o"
+      }
     }
   },
   {
@@ -2867,6 +3488,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "カーブに進入する速度が速すぎると感じた場合、カーブの途中で強くブレーキをかけて速度を調整するのがよい。",
+        "my": "ကွေ့ရာလမ်းသို့ ဝင်ရောက်သည့်အရှိန် လျင်မြန်လွန်းသည်ဟု ခံစားရလ",
+        "en": "If you feel that you are entering a curve too fast, it is a good idea to brake h"
+      }
     }
   },
   {
@@ -2908,6 +3538,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "強い横風を受けたときは、ハンドルを固く握りしめ、風上側に体を傾けてバランスをとる。",
+        "my": "ပြင်းထန်သော အနားလေခံရချိန် လက်တံကို တင်းကျပ်စွာ ဆုပ်ကိုင်ပြီ",
+        "en": "When you are caught in a strong crosswind, grip the handle firmly and lean your "
+      }
     }
   },
   {
@@ -2949,6 +3588,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "カーブを通行するときは、車体を傾けるよりも、ハンドルだけで方向を変える方が安全である。",
+        "my": "ကွေ့ရာလမ်းကို ဖြတ်သန်းချိန် ကိုယ်ထည်ကို စောင်းခြင်းထက် လက်တံ",
+        "en": "When passing through a curve, it is safer to change direction using the steering"
+      }
     }
   },
   {
@@ -2990,6 +3638,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "カーブの半径が小さいほど、必要な傾斜角（バンク角）は小さくなる。",
+        "my": "ကွေ့ရာလမ်း၏ စက်ဝိုင်းအချင်းဝက် သေးငယ်လေ လိုအပ်သော ကိုယ်ထည်စေ",
+        "en": "The smaller the radius of the curve, the smaller the bank angle required."
+      }
     }
   },
   {
@@ -3031,6 +3688,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "雨で濡れた路面でカーブを通行するときは、乾燥時と同じ速度・傾斜角で進入してもよい。",
+        "my": "မိုးရွာပြီး စိုစွတ်နေသောလမ်းပေါ်တွင် ကွေ့ရာလမ်းကို ဖြတ်သန်းခ",
+        "en": "When negotiating a curve on a wet road, you may approach the curve at the same s"
+      }
     }
   },
   {
@@ -3072,6 +3738,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "カーブの手前では、まずアクセルを戻し、必要に応じて前後ブレーキを併用して速度を落とすのがよい。",
+        "my": "ကွေ့ရာလမ်းမတိုင်မီ ဦးစွာ အရှိန်ပေးချက်ကို ပြန်ဆုတ်ပြီး လိုအပ",
+        "en": "Before entering a curve, it is best to first release the accelerator and use bot"
+      }
     }
   },
   {
@@ -3113,6 +3788,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "S字状の道路やクランク（屈折）コースを通行するときは、ハンドルではなく主に体重移動とアクセル調整で車体を安定させる。",
+        "my": "S-ပုံစံ လမ်း သို့မဟုတ် ကွေ့ကောက်ထိုးနေသော (crank) လမ်းကို ဖြ",
+        "en": "When driving on S-shaped roads or crank courses, the vehicle is stabilized prima"
+      }
     }
   },
   {
@@ -3154,6 +3838,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "二人乗りのときは、一人乗りのときと同じ感覚でカーブを通行してよい。",
+        "my": "လူနှစ်ယောက်တင်ချိန်တွင် လူတစ်ယောက်တင်ချိန်ကဲ့သို့ တူညီသောခံစ",
+        "en": "When riding with two people, you can negotiate curves in the same way as when ri"
+      }
     }
   },
   {
@@ -3195,6 +3888,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "カーブを曲がるときは、進入前にあらかじめ十分に減速し、カーブの中では極力ブレーキをかけないようにする。",
+        "my": "ကွေ့ရာလမ်းကို ကွေ့ချိန် မဝင်မီ ကြိုတင်၍ လုံလောက်စွာ အရှိန်လျ",
+        "en": "When turning a curve, slow down sufficiently before entering the curve, and avoi"
+      }
     }
   },
   {
@@ -3236,6 +3938,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-corner.png",
+      "alt": {
+        "ja": "低速で走行しているときは、時速の速いときよりもバランスを崩しやすい。",
+        "my": "အရှိန်နှေးစွာ မောင်းနှင်နေချိန် အရှိန်မြန်ချိန်ထက် ဟန်ချက်ပျ",
+        "en": "When driving at low speeds, it is easier to lose balance than when driving at hi"
+      }
     }
   },
   {
@@ -3277,6 +3988,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "カーブでは、車体を傾けるだけでなく、体も車体と一緒に自然に傾けることでスムーズに曲がることができる。",
+        "my": "ကွေ့ရာလမ်းတွင် ယာဉ်ကိုယ်ထည်ကို စောင်းရုံသာမက ခန္ဓာကိုယ်ကိုလည",
+        "en": "When taking a curve, the vehicle not only leans, but also allows the body to nat"
+      }
     }
   },
   {
@@ -3318,6 +4038,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "雨で濡れたマンホールや白線の上でハンドルを大きく切ると、スリップしやすい。",
+        "my": "မိုးရေစွတ်နေသော မန်ဟိုးလ် သို့မဟုတ် အဖြူရောင်လမ်းမျဉ်းပေါ်တွ",
+        "en": "If you turn the steering wheel sharply over a wet manhole or white line, you are"
+      }
     }
   },
   {
@@ -3359,6 +4088,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "砂利道やぬかるみでは、急なハンドル操作や急ブレーキを避け、車体をまっすぐ保つように心がける。",
+        "my": "ကျောက်စရစ်လမ်း သို့မဟုတ် ရွှံ့စေးလမ်းတွင် ရုတ်တရက်လက်တံကိုင်",
+        "en": "On gravel roads or muddy roads, avoid sudden steering or sudden braking, and try"
+      }
     }
   },
   {
@@ -3400,6 +4138,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "連続するカーブが続く山道では、カーブごとにアクセルとブレーキのタイミングを一定にする必要はない。",
+        "my": "ကွေ့ရာဆက်တိုက်ရှိသော တောင်ပေါ်လမ်းတွင် ကွေ့ရာတစ်ခုစီအတွက် အက",
+        "en": "On mountain roads with continuous curves, there is no need to adjust the timing "
+      }
     }
   },
   {
@@ -3441,6 +4188,15 @@
       "title": "Inspired Set 4 · バランス・カーブ",
       "titleMy": "Inspired Set 4 · バランス・カーブ (balance/corner)",
       "refPaper": "moto-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "カーブでの適切な速度は、乾いた路面であれば天候にかかわらず常に一定でよい。",
+        "my": "ကွေ့ရာလမ်းအတွက် သင့်လျော်သောအရှိန်သည် ခြောက်သွေ့သော လမ်းမျက်",
+        "en": "The appropriate speed for a curve should always be the same on a dry road, regar"
+      }
     }
   },
   {
@@ -3482,6 +4238,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "交差点で右折待ちをしている対向車がいる場合、二輪車は車体が小さいため、その運転者から見落とされて right turn してくる危険がある。",
+        "my": "လမ်းဆုံတွင် ညာကွေ့ရန် စောင့်နေသော ဆန့်ကျင်ဘက်ယာဉ်ရှိသည့်အခါ ",
+        "en": "If there is an oncoming vehicle waiting to turn right at an intersection, there "
+      }
     }
   },
   {
@@ -3523,6 +4288,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "二輪車は車体が小さく速度感覚をつかみにくいため、自動車の運転者は二輪車との距離を実際より遠いと感じる傾向がある。",
+        "my": "နှစ်ဘီးယာဉ်သည် ကိုယ်ထည်သေးငယ်ပြီး အမြန်နှုန်း ခံစားမှု ဖမ်းယ",
+        "en": "Because motorcycles have small bodies and it is difficult to get a sense of thei"
+      }
     }
   },
   {
@@ -3564,6 +4338,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-night-road.png",
+      "alt": {
+        "ja": "二輪車は車体が小さいため、自動車の運転者から見落とされやすく、自らライトを点灯して存在を知らせることが重要である。",
+        "my": "နှစ်ဘီးယာဉ်သည် ကိုယ်ထည်သေးငယ်သောကြောင့် မော်တော်ကားယာဉ်မောင်",
+        "en": "Because motorcycles are small, they are easily overlooked by motorists, so it is"
+      }
     }
   },
   {
@@ -3605,6 +4388,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-night-road.png",
+      "alt": {
+        "ja": "夜間に対向車のライトで自分が見えにくくなることはあるが、二輪車のライトの位置自体が対向車に見落とされる原因になることはない。",
+        "my": "ညအချိန်တွင် ဆန့်ကျင်ဘက်ယာဉ်၏ မီးအလင်းကြောင့် မိမိကိုယ် မြင်ရ",
+        "en": "Although it may be difficult to see yourself at night due to the lights of an on"
+      }
     }
   },
   {
@@ -3646,6 +4438,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "二輪車のライダーは、運転中に体を動かしてミラーで見えない範囲を目視で確認する習慣を持つべきである。",
+        "my": "နှစ်ဘီးယာဉ်မောင်းသူသည် မောင်းနှင်နေချိန် ကိုယ်ထည်ကို ရွှေ့ပြ",
+        "en": "Motorcycle riders should get into the habit of moving their bodies while driving"
+      }
     }
   },
   {
@@ -3687,6 +4488,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-pedestrian-cross.png",
+      "alt": {
+        "ja": "停車中のバスやトラックの脇から出てくる歩行者は、ドライバーだけでなく二輪車にとっても見えにくいことがある。",
+        "my": "ရပ်နားနေသော ဘတ်စ်ကား သို့မဟုတ် ထရပ်ကား၏ဘေးမှ ထွက်လာသော လူသွာ",
+        "en": "Pedestrians emerging from the side of parked buses and trucks can be difficult t"
+      }
     }
   },
   {
@@ -3728,6 +4538,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "車線変更をする四輪車の横に並んで走行することは、死角に入りやすいため避けるべきである。",
+        "my": "လမ်းကြောင်းပြောင်းလဲမည့် ယာဉ်လေးဘီးအနား တန်းစီ၍ မောင်းနှင်ခြ",
+        "en": "You should avoid riding next to a four-wheeler that is changing lanes, as it is "
+      }
     }
   },
   {
@@ -3769,6 +4588,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "交差点で右折を待つ四輪車の運転者から、直進してくるバイクは見落とされやすい。",
+        "my": "လမ်းဆုံတွင် ညာဘက်ကွေ့ရန် စောင့်နေသော ယာဉ်လေးဘီးယာဉ်မောင်းသူမ",
+        "en": "Motorcycles coming straight on are easily overlooked by drivers of four-wheeled "
+      }
     }
   },
   {
@@ -3810,6 +4638,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "バスの左後方は運転席から見えにくい死角となるため、バイクは特に注意して走行するべきである。",
+        "my": "ဘတ်စ်ကား၏ ဘယ်ဘက် နောက်ပိုင်းသည် ယာဉ်မောင်းနေရာမှ မြင်ရခက်သော",
+        "en": "Motorcyclists should be especially careful when riding a motorbike, as the rear "
+      }
     }
   },
   {
@@ -3851,6 +4688,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "バイクで四輪車を追い越すときは、追い越し後すぐに幅寄せするように前に入ってよい。",
+        "my": "ဆိုင်ကယ်ဖြင့် ယာဉ်လေးဘီးကို ကျော်တက်ချိန် ကျော်တက်ပြီးချက်ချ",
+        "en": "When passing a four-wheeled vehicle on a motorcycle, you may move in front of it"
+      }
     }
   },
   {
@@ -3892,6 +4738,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "交差点で左折する四輪車の内輪差により巻き込まれる危険があるため、バイクは車の左側に並ばないよう注意する。",
+        "my": "လမ်းဆုံတွင် ဘယ်ဘက်ကွေ့သော ယာဉ်လေးဘီး၏ အတွင်းဘီးကွာဟမှုကြောင့",
+        "en": "Motorcycles should be careful not to line up on the left side of cars, as there "
+      }
     }
   },
   {
@@ -3933,6 +4788,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-night-road.png",
+      "alt": {
+        "ja": "夜間、四輪車のミラーにヘッドライトの光が反射しないバイクの位置は、死角に入っている可能性が高い。",
+        "my": "ညဘက် ယာဉ်လေးဘီး၏ ထောင်ရောင်မှန်တွင် ရှေ့မီးအလင်းရောင် ရောင်ပ",
+        "en": "At night, if the motorcycle's headlights do not reflect on the mirror of a four-"
+      }
     }
   },
   {
@@ -3974,6 +4838,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-pedestrian-cross.png",
+      "alt": {
+        "ja": "駐車車両の間から歩行者や自転車が飛び出してくることは、バイクにとって死角による危険の一種である。",
+        "my": "ရပ်နားထားသော ယာဉ်များကြားမှ လူသွားလူလာနှင့် စက်ဘီးများ ရုတ်တ",
+        "en": "Pedestrians and bicycles jumping out from between parked vehicles are a type of "
+      }
     }
   },
   {
@@ -4015,6 +4888,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-expressway.png",
+      "alt": {
+        "ja": "高速道路の合流地点では、本線を走行する車のミラーに映らない位置に長時間とどまってもよい。",
+        "my": "မြန်နှုန်းမြင့်လမ်းမ ပေါင်းစည်းရာနေရာတွင် ပင်မလမ်းကြောင်း မေ",
+        "en": "At expressway junctions, you may stay for a long time out of sight of the mirror"
+      }
     }
   },
   {
@@ -4056,6 +4938,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "信号待ちで停止するときは、前の車両の死角を避け、その運転者から見える位置に止まることが望ましい。",
+        "my": "မီးပွိုင့်စောင့်၍ ရပ်နားချိန် ရှေ့ယာဉ်၏ မြင်ရခက်သောနေရာကို ရ",
+        "en": "When stopping at a traffic light, it is desirable to avoid the blind spot of the"
+      }
     }
   },
   {
@@ -4097,6 +4988,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "大型トラックの運転席の真後ろや左側面は、ドライバーから見えにくい死角になりやすい。",
+        "my": "ထရပ်ကားကြီး၏ ယာဉ်မောင်းနေရာ၏ ဖြောင့်တန်းနောက်ဘက်နှင့် ဘယ်ဘက်",
+        "en": "The area directly behind the driver's seat and on the left side of a large truck"
+      }
     }
   },
   {
@@ -4138,6 +5038,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "他の車のすぐ後ろに連続して接近して走行すると、その車の運転者から二輪車が見えにくくなることがある。",
+        "my": "အခြားယာဉ်တစ်စီး၏ နောက်ကျောကပ်၍ ဆက်တိုက်ကပ်ပြီးမောင်းပါက ထိုယ",
+        "en": "If you drive closely behind another vehicle, it may be difficult for the driver "
+      }
     }
   },
   {
@@ -4179,6 +5088,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "雨の日や夕暮れ時は、二輪車の視認性が下がるため、より明るい色のヘルメットやジャケットを着用することが勧められる。",
+        "my": "မိုးရွာသောနေ့ သို့မဟုတ် နေဝင်ချိန်များတွင် နှစ်ဘီးယာဉ်ကို မြ",
+        "en": "On rainy days and at dusk, visibility of motorcycles is reduced, so it is recomm"
+      }
     }
   },
   {
@@ -4220,6 +5138,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "二輪車のライダーは、自分のミラーで後方を確認したらそれだけで十分であり、首を振って確認する必要はない。",
+        "my": "နှစ်ဘီးယာဉ်မောင်းသူသည် မိမိ၏မှန်ဖြင့် နောက်ဘက်ကို စစ်ဆေးလျှင",
+        "en": "Motorcycle riders only need to check what's behind them in their mirrors; they d"
+      }
     }
   },
   {
@@ -4261,6 +5188,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "大型トラックの後方を走行するときは、トラックの死角に入らないよう、車間距離を十分にとる。",
+        "my": "ကားအကြီးစားထရပ်ကား၏ နောက်တွင် မောင်းနှင်ချိန် ထရပ်ကား၏ မြင်ရ",
+        "en": "When driving behind a large truck, maintain sufficient distance between vehicles"
+      }
     }
   },
   {
@@ -4302,6 +5238,15 @@
       "title": "Inspired Set 5 · 死角・見通し",
       "titleMy": "Inspired Set 5 · 死角・見通し (blind spot)",
       "refPaper": "moto-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "四輪車の運転者からバイクは見えやすいため、二輪車側が特に注意する必要はない。",
+        "my": "ယာဉ်လေးဘီးယာဉ်မောင်းသူများက ဆိုင်ကယ်ကို ရှင်းလင်းစွာ မြင်နို",
+        "en": "Motorcycles are easily visible to four-wheeled vehicle drivers, so two-wheeled v"
+      }
     }
   },
   {
@@ -4343,6 +5288,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "車道の左端を走行する際、路肩の砂利や落ち葉が溜まっている部分は中央寄りの走行位置に比べて滑りやすいことが多い。",
+        "my": "လမ်းဘယ်ဘက်စွန်းကို မောင်းနှင်ချိန် လမ်းနံဘေးရှိ ကျောက်စရစ်မျ",
+        "en": "When driving on the left edge of the road, the part of the road where gravel and"
+      }
     }
   },
   {
@@ -4384,6 +5338,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "わだち（車輪のくぼみ）ができている道路では、わだちの中を走るよりも、わだちの間（盛り上がった部分）を走る方が常に安全である。",
+        "my": "ယာဉ်ဘီးညှပ်ရွေ့ ဖြစ်နေသောလမ်းတွင် ထိုညှပ်ရွေ့ထဲကို မောင်းနှင",
+        "en": "On roads with ruts (wheel divots), it is always safer to drive between the ruts "
+      }
     }
   },
   {
@@ -4425,6 +5388,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "車線の中央を走行すると、路面の凹凸や砂利の影響を受けやすいことがあるため、状況に応じて走行位置を調整するのがよい。",
+        "my": "လမ်းကြောင်းအလယ်ဗိုလ်ကို မောင်းနှင်ပါက လမ်းပြင်ညီညွတ်မှုမရှိမ",
+        "en": "If you drive in the center of the lane, you may be susceptible to uneven road su"
+      }
     }
   },
   {
@@ -4466,6 +5438,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "工事現場などにある鉄板（仮設の覆い）の上を通過するときは、できるだけ速度を上げて一気に通過する方が安全である。",
+        "my": "ဆောက်လုပ်ရေးနေရာစသည်တို့ရှိ သံပြားလုပ် (ယာယီအုပ်ထားသော) ပစ္စ",
+        "en": "When passing over a steel plate (temporary cover) at a construction site, etc., "
+      }
     }
   },
   {
@@ -4507,6 +5488,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-fog-road.png",
+      "alt": {
+        "ja": "トンネルの出入口付近は、明暗の差が大きく、一時的に視界が悪くなることがある。",
+        "my": "လှိုဏ်ခေါင်း၏ ဝင်/ထွက်ဝအနီးတွင် အလင်းအမှောင်ကွာခြားမှု ကြီးမ",
+        "en": "There is a large difference in light and darkness near the entrance and exit of "
+      }
     }
   },
   {
@@ -4548,6 +5538,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "道路の中央付近に積もった落ち葉や砂は、晴れた日でも乾いた路面より滑りやすい場合がある。",
+        "my": "လမ်းအလယ်ဘက်အနီးတွင် စုပုံနေသော ရွက်ကြွေနှင့် သဲများသည် နေသာသ",
+        "en": "Fallen leaves and sand that accumulate near the center of the road can be more s"
+      }
     }
   },
   {
@@ -4589,6 +5588,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "車線内を走行する位置は、常に車線の中央に固定しなければならない。",
+        "my": "လမ်းကြောင်းအတွင်း မောင်းနှင်ရန် တည်နေရာသည် အမြဲ လမ်းကြောင်း၏",
+        "en": "Vehicles must always drive in the center of the lane."
+      }
     }
   },
   {
@@ -4630,6 +5638,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "車線の左端ぎりぎりを走行し続けることは、路肩の砂利や段差の危険があるため推奨されない。",
+        "my": "လမ်းကြောင်း၏ ဘယ်ဘက်အစွန်းကို ကပ်ကာ ဆက်လက်မောင်းနှင်ခြင်းသည် ",
+        "en": "Driving on the very edge of the left lane is not recommended due to the danger o"
+      }
     }
   },
   {
@@ -4671,6 +5688,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "四輪車の間をすり抜けて走行すること（すり抜け運転）は、追突や接触の危険が高く避けるべきである。",
+        "my": "ယာဉ်လေးဘီးများကြားကို ဖြတ်ကျော်၍ မောင်းနှင်ခြင်း (ဖြတ်ကျော်မ",
+        "en": "Driving between four-wheeled vehicles (driving through) is highly risky and shou"
+      }
     }
   },
   {
@@ -4712,6 +5738,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "雨の日は、車線中央にできた油膜（オイルライン）を避けて走行位置を選ぶとよい。",
+        "my": "မိုးရွာသောနေ့တွင် လမ်းကြောင်းအလယ်၌ ဖြစ်ပေါ်လေ့ရှိသော ဆီအလွှာ",
+        "en": "On rainy days, it is a good idea to choose a driving position that avoids the oi"
+      }
     }
   },
   {
@@ -4753,6 +5788,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "トンネル内やアンダーパスでは、路面が濡れていることが多いため、走行位置を選ぶ際に注意する。",
+        "my": "ဥမင်လိုဏ်ခေါင်းအတွင်း သို့မဟုတ် လမ်းအောက်ဖြတ်ရာနေရာများတွင် ",
+        "en": "The road surface is often wet in tunnels and underpasses, so be careful when cho"
+      }
     }
   },
   {
@@ -4794,6 +5838,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "轍（わだち）が深い道路では、車線の端を選んで走行するほうが安定する。",
+        "my": "ဘီးလမ်းကြောင်း (ဝါဒိချိ) နက်ရှိုင်းသော လမ်းများတွင် လမ်းကြော",
+        "en": "On roads with deep ruts, it is more stable to drive along the edge of the lane."
+      }
     }
   },
   {
@@ -4835,6 +5888,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "信号待ちで停止する際は、四輪車の後方中央ではなく、車線の端に寄って停止すると発見されやすい。",
+        "my": "မီးပွိုင့်စောင့်၍ ရပ်နားချိန် ယာဉ်လေးဘီး၏ နောက်ဘက်အလယ်တွင် မ",
+        "en": "When stopping at a traffic light, it is easier to be spotted if you stop near th"
+      }
     }
   },
   {
@@ -4876,6 +5938,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "複数車線の道路で車線を選ぶときは、路肩に近い車線が常に最も安全である。",
+        "my": "လမ်းကြောင်း များစွာရှိသော လမ်းတွင် လမ်းကြောင်း ရွေးချယ်ချိန်",
+        "en": "When choosing a lane on a multi-lane road, the lane closest to the shoulder is a"
+      }
     }
   },
   {
@@ -4917,6 +5988,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "交差点を右折する際、あらかじめ車線内で右寄りの位置をとることで進路が明確になる。",
+        "my": "လမ်းဆုံတွင် ညာဘက်ကွေ့ချိန် ကြိုတင်၍ လမ်းကြောင်းအတွင်း ညာဘက်က",
+        "en": "When turning right at an intersection, position yourself on the right side of th"
+      }
     }
   },
   {
@@ -4958,6 +6038,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "落ち葉が積もった道路では、落ち葉の下に隠れた段差や穴に注意して走行位置を選ぶ。",
+        "my": "အရွက်ကြွေများ စုပုံနေသော လမ်းတွင် အရွက်အောက်၌ ဖုံးကွယ်နေသော ",
+        "en": "On roads covered with fallen leaves, choose a driving position while paying atte"
+      }
     }
   },
   {
@@ -4999,6 +6088,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "バイクは車線内のどの位置を走行しても、他の車両からの視認性に違いはない。",
+        "my": "ဆိုင်ကယ်သည် လမ်းကြောင်းအတွင်း မည်သည့်နေရာတွင် မောင်းနှင်သည်ဖ",
+        "en": "Motorcycles are visible to other vehicles regardless of where they are in the la"
+      }
     }
   },
   {
@@ -5040,6 +6138,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "トラックの後ろを走行するときは、荷物が落下する可能性を考え、真後ろを避けた位置を走行するのがよい。",
+        "my": "ထရပ်ကား၏ နောက်တွင် မောင်းနှင်ချိန် ပစ္စည်းများ ကျဆင်းနိုင်ခြ",
+        "en": "When driving behind a truck, it is best to avoid directly behind the truck to av"
+      }
     }
   },
   {
@@ -5081,6 +6188,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "鉄道の線路（路面電車の軌道）を斜めに横切ると、タイヤが溝にはまりやすく転倒の危険がある。",
+        "my": "ရထားလမ်းကြောင်း (လမ်းပေါ်ရထား၏ တရွက်) ကို ထောင့်ဖြတ်စွာ ဖြတ်",
+        "en": "If you cross railroad tracks (streetcar tracks) diagonally, your tires are likel"
+      }
     }
   },
   {
@@ -5122,6 +6238,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "マンホールのふたや白線（ペイント）の上は、雨天時は特に滑りやすくなることがある。",
+        "my": "မန်ဟိုးလ်အဖုံးနှင့် အဖြူရောင်လိုင်း (paint) ပေါ်တွင် မိုးရွာ",
+        "en": "Manhole covers and painted white lines can become slippery, especially in the ra"
+      }
     }
   },
   {
@@ -5163,6 +6288,15 @@
       "title": "Inspired Set 6 · 走行位置・路面",
       "titleMy": "Inspired Set 6 · 走行位置・路面 (lane position)",
       "refPaper": "moto-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "対向車から自分の存在をよく見てもらうためには、車線の中で他車に隠れない位置を選んで走行するのがよい。",
+        "my": "ဆန့်ကျင်ဘက်ယာဉ်မှ မိမိ၏တည်ရှိမှုကို ကောင်းစွာမြင်စေရန် လမ်းက",
+        "en": "In order to make your presence more visible to oncoming vehicles, it is best to "
+      }
     }
   },
   {
@@ -5204,6 +6338,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "雨が降り始めた直後は、路面の油分とほこりが浮き上がって非常に滑りやすくなるため、二輪車は特に注意が必要である。",
+        "my": "မိုးစတင်ရွာချိန် လမ်းမျက်နှာပြင်ရှိ ဆီနှင့် မှုန်များသည် ပေါ",
+        "en": "Motorcycles must be especially careful right after it starts raining, as oil and"
+      }
     }
   },
   {
@@ -5245,6 +6388,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-tyre-check.png",
+      "alt": {
+        "ja": "夏の猛暑日にアスファルトが軟化している場合、二輪車のタイヤが沈み込みハンドルが取られやすくなることがある。",
+        "my": "နွေရာသီပူနွေးသောနေ့တွင် ကတ္တရာလမ်းပျော့ပျောင်းနေချိန် နှစ်ဘီ",
+        "en": "If the asphalt is softened on a hot summer day, the tires of a motorcycle may si"
+      }
     }
   },
   {
@@ -5286,6 +6438,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-night-road.png",
+      "alt": {
+        "ja": "トンネルの出入り口付近は明暗の差が激しいだけでなく、強い風が発生しやすいため二輪車は速度調整に注意する必要がある。",
+        "my": "လုံဏ်ဂူ ဝင်/ထွက်ပေါက်အနီးတွင် အလင်းအမှောင်ကွာခြားမှုကြီးမားသ",
+        "en": "Not only is the area near the entrance and exit of the tunnel markedly different"
+      }
     }
   },
   {
@@ -5327,6 +6488,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "雪道でのバイク走行は、四輪車以上に慎重な速度管理とブレーキ操作が求められる。",
+        "my": "နှင်းလမ်းတွင် ဆိုင်ကယ်ဖြင့် မောင်းနှင်ခြင်းသည် ယာဉ်လေးဘီးထက်",
+        "en": "Riding a motorcycle on snowy roads requires more careful speed management and br"
+      }
     }
   },
   {
@@ -5368,6 +6538,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "雨の日、マンホールや白線の上はタイヤが滑りやすいため、できるだけ避けて通行するのがよい。",
+        "my": "မိုးရွာသောနေ့တွင် မန်ဟိုးလ် သို့မဟုတ် အဖြူရောင်လိုင်းအပေါ်တွ",
+        "en": "On rainy days, tires can be slippery over manholes and white lines, so it's best"
+      }
     }
   },
   {
@@ -5409,6 +6588,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "強い横風が吹く橋の上では、二輪車はハンドルを取られやすいため速度を落とし、車体を傾けて備えるとよい。",
+        "my": "အင်အားကြီးလေဘေးတိုက်နေသော တံတားပေါ်တွင် နှစ်ဘီးယာဉ်များသည် ဘ",
+        "en": "On bridges where strong crosswinds blow, it is easy for motorcycles to lose cont"
+      }
     }
   },
   {
@@ -5450,6 +6638,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "雨天時、二輪車はブレーキをかける際に前後輪に均等に強い力をかけるとよい。",
+        "my": "မိုးရွာချိန် နှစ်ဘီးယာဉ်များသည် ဘရိတ်နှိပ်ချိန် ရှေ့ဘီးနှင့်",
+        "en": "In rainy weather, when applying the brakes on a two-wheeled vehicle, it is a goo"
+      }
     }
   },
   {
@@ -5491,6 +6688,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "落ち葉が積もった道路は、晴れた日でも湿った落ち葉の下が滑りやすいため、二輪車は注意して通行する必要がある。",
+        "my": "ရွက်ကြွေများ စုပုံနေသောလမ်းသည် နေသာချိန်ပင် စွတ်စိုနေသော ရွက",
+        "en": "Roads covered with fallen leaves can be slippery even on sunny days, so motorcyc"
+      }
     }
   },
   {
@@ -5532,6 +6738,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "雪道や凍結した道路では、二輪車での走行は避けるべきであり、可能であれば車両の利用を控えるのが望ましい。",
+        "my": "နှင်းလမ်း သို့မဟုတ် ရေခဲနေသောလမ်းများတွင် နှစ်ဘီးယာဉ်ဖြင့်မေ",
+        "en": "Riding a motorcycle on snowy or icy roads should be avoided, and if possible, it"
+      }
     }
   },
   {
@@ -5573,6 +6788,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "強風時にバイクを運転する場合は、突風に備えてハンドルをしっかりと握り、速度を落として走行する。",
+        "my": "လေပြင်းချိန်တွင် ဆိုင်ကယ်ကို မောင်းနှင်ချိန် ရုတ်တရက်လေတိုက်",
+        "en": "When riding a motorcycle during strong winds, grip the handlebars firmly and red"
+      }
     }
   },
   {
@@ -5614,6 +6838,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "大型トラックを追い越すときに発生する風圧は、バイクのバランスにほとんど影響しない。",
+        "my": "ကားအကြီးစားထရပ်ကားကို ကျော်တက်ချိန် ဖြစ်ပေါ်သော လေအားဖိအားသည",
+        "en": "The wind pressure generated when passing a large truck has little effect on the "
+      }
     }
   },
   {
@@ -5655,6 +6888,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "雷が鳴っているときにバイクで走行することは、四輪車と比べて特に危険が増すわけではない。",
+        "my": "မိုးကြိုးသံ ကြားနေချိန် ဆိုင်ကယ်ဖြင့် မောင်းနှင်ခြင်းသည် ယာဉ",
+        "en": "Riding a motorcycle during thunderstorms is no more dangerous than riding a four"
+      }
     }
   },
   {
@@ -5696,6 +6938,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-fog-road.png",
+      "alt": {
+        "ja": "雨具（レインウェア）を着用するときは、視界と操作性を妨げないサイズのものを選ぶべきである。",
+        "my": "မိုးကာအင်္ကျီ (ရိန်ဝဲယား) ဝတ်ဆင်ချိန် မြင်ကွင်းနှင့် ကိုင်တွ",
+        "en": "When wearing rain gear, choose a size that does not obstruct visibility and mane"
+      }
     }
   },
   {
@@ -5737,6 +6988,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "濡れた道路標示（白線や黄線）の上を走行するときは、通常の路面よりも滑りやすいことを意識する。",
+        "my": "စွတ်စိုနေသော လမ်းအမှတ်အသား (အဖြူရောင် သို့မဟုတ် အဝါရောင်မျဉ်",
+        "en": "When driving on wet road markings (white or yellow lines), be aware that they ar"
+      }
     }
   },
   {
@@ -5778,6 +7038,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-fog-road.png",
+      "alt": {
+        "ja": "冬季にバイクに乗る場合、防寒対策よりも視界の確保を優先するべきである。",
+        "my": "ဆောင်းရာသီတွင် ဆိုင်ကယ်စီးချိန် အအေးဒဏ်ခံနိုင်ရေးထက် မြင်ကွင",
+        "en": "When riding a motorcycle in the winter, you should prioritize ensuring visibilit"
+      }
     }
   },
   {
@@ -5819,6 +7088,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-fog-road.png",
+      "alt": {
+        "ja": "濃霧の中でバイクを運転するときは、ハザードランプを使用して自分の存在を周囲に知らせることが有効である。",
+        "my": "မြူခိုးထူထပ်ချိန် ဆိုင်ကယ်ကို မောင်းနှင်ချိန် အန္တရာယ်သတိပေး",
+        "en": "When riding a motorcycle in dense fog, it is effective to use hazard lights to a"
+      }
     }
   },
   {
@@ -5860,6 +7138,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-night-road.png",
+      "alt": {
+        "ja": "気温が下がる早朝や夜間は、日中より路面が凍結しやすいため、バイクでの走行は特に注意する。",
+        "my": "အပူချိန်ကျဆင်းသော မနက်စောစော သို့မဟုတ် ညဘက်တွင် နေ့ဘက်ထက် လမ",
+        "en": "Roads are more likely to freeze during the early morning and night hours when te"
+      }
     }
   },
   {
@@ -5901,6 +7188,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-fog-road.png",
+      "alt": {
+        "ja": "濃い霧の中を走行する際は、テールランプやフォグランプを点灯して自車の存在を周囲に知らせるとよい。",
+        "my": "မီးခိုးထူထပ်ချိန် ယာဉ်မောင်းချိန် နောက်မီး သို့မဟုတ် မီးခိုး",
+        "en": "When driving in thick fog, it's a good idea to turn on your tail lights and fog "
+      }
     }
   },
   {
@@ -5942,6 +7238,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-fog-road.png",
+      "alt": {
+        "ja": "夜間や雨天時は視界が悪くなるため、二輪車は速度を落とし車間距離を通常より広くとるべきである。",
+        "my": "ညဘက် သို့မဟုတ် မိုးရွာချိန် မြင်ကွင်းညံ့ဖျင်းသောကြောင့် နှစ်",
+        "en": "Visibility is poor at night or in rainy weather, so motorcycles should slow down"
+      }
     }
   },
   {
@@ -5983,6 +7288,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "雨の日は、四輪車よりもバイクのほうがスリップによる転倒の危険が高い。",
+        "my": "မိုးရွာသောနေ့တွင် ယာဉ်လေးဘီးထက် ဆိုင်ကယ်သည် ချော်တွန့်ခြင်းက",
+        "en": "On rainy days, there is a higher risk of slipping and falling on a motorcycle th"
+      }
     }
   },
   {
@@ -6024,6 +7338,15 @@
       "title": "Inspired Set 7 · 悪天候",
       "titleMy": "Inspired Set 7 · 悪天候 (ရာသီဥတု)",
       "refPaper": "moto-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "雨の日はブレーキの効きが悪くなるため、いつもより早めにブレーキをかけ始めることが望ましい。",
+        "my": "မိုးရွာသောနေ့တွင် ဘရိတ်၏ အသက်ဝင်မှု ညံ့ဖျင်းလာသောကြောင့် ပုံ",
+        "en": "Brakes become less effective on rainy days, so it is advisable to start braking "
+      }
     }
   },
   {
@@ -6065,6 +7388,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "夏の暑い日は、長袖・長ズボンを着用すると暑いため、半袖や短いズボンで運転する方が安全である。",
+        "my": "နွေရာသီပူနွေးသောနေ့တွင် လက်ရှည်/ဘောင်းဘီရှည်ဝတ်ဆင်ခြင်းသည် ပ",
+        "en": "On hot summer days, wearing long sleeves and long pants can get hot, so it is sa"
+      }
     }
   },
   {
@@ -6106,6 +7438,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "ヘルメットは購入から何年経過しても、外観に損傷がなければ性能は変わらず安全に使用できる。",
+        "my": "ဦးထုပ်သည် ဝယ်ယူပြီးနောက် နှစ်အတန်ကြာသော်လည်း အပြင်ပန်းကျိုးပ",
+        "en": "No matter how many years have passed since purchase, a helmet can still be used "
+      }
     }
   },
   {
@@ -6147,6 +7488,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "ヘルメットはあごひもを正しく締めずに被るだけでも法律上の着用義務を満たしたことになる。",
+        "my": "ဦးထုပ်ကို မေးတိုက်ကြိုးကို မှန်ကန်စွာချည်ထားခြင်းမရှိဘဲ ဆောင",
+        "en": "Just wearing a helmet without properly tightening the chinstrap means that the l"
+      }
     }
   },
   {
@@ -6188,6 +7538,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "二輪車運転時は、サンダルや裸足ではなく足首を保護する履物を着用することが望ましい。",
+        "my": "နှစ်ဘီးယာဉ်မောင်းနှင်ချိန် ဖိနပ် သို့မဟုတ် ခြေနေအလွတ်မဟုတ်ဘဲ",
+        "en": "When riding a motorcycle, it is preferable to wear footwear that protects the an"
+      }
     }
   },
   {
@@ -6229,6 +7588,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "プロテクター付きのグローブを着用することは、転倒時の手のけがを軽減するのに役立つ。",
+        "my": "ကာကွယ်ကရိယာတပ်ဆင်ထားသော လက်အိတ်ဝတ်ဆင်ခြင်းသည် လှိမ့်ကျချိန် ",
+        "en": "Wearing gloves with protectors can help reduce hand injuries during falls."
+      }
     }
   },
   {
@@ -6270,6 +7638,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-night-road.png",
+      "alt": {
+        "ja": "明るい色や反射材付きのジャケットを着用すると、夜間や悪天候時に他の車両から見つけてもらいやすくなる。",
+        "my": "အလင်းရောင်ရောင်စုံ သို့မဟုတ် အလင်းပြန်ပစ္စည်းတပ်ဆင်ထားသော အပ",
+        "en": "Wearing brightly colored or reflective jackets will help you be seen by other ve"
+      }
     }
   },
   {
@@ -6311,6 +7688,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "膝や肘のプロテクターを服の下に着用することは、見た目に影響するため事故防止には推奨されない。",
+        "my": "ဒူးနှင့်တံတောင်ကာကွယ်ကရိယာများကို အပေါ်အကျင်အောက်တွင် ဝတ်ဆင်",
+        "en": "Wearing knee and elbow protectors under clothing is not recommended for accident"
+      }
     }
   },
   {
@@ -6352,6 +7738,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "ヘルメットのあごひもは、緩めに締めておいたほうが快適に走行できる。",
+        "my": "ဦးထုပ်၏ မေးရိုးကြိုးကို ချောင်းစွာ ချည်ထားလျှင် ပိုသက်တောင့်",
+        "en": "It will be more comfortable to ride if you keep your helmet's chinstrap loosely "
+      }
     }
   },
   {
@@ -6393,6 +7788,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "サンダルやビーチサンダルでバイクを運転することは、足の保護の観点から避けるべきである。",
+        "my": "ညွှန်း သို့မဟုတ် ကမ်းခြေညွှန်းဖြင့် ဆိုင်ကယ်ကို မောင်းနှင်ခြ",
+        "en": "Riding a motorcycle in sandals or flip-flops should be avoided to protect your f"
+      }
     }
   },
   {
@@ -6434,6 +7838,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "プロテクター（胸部や肩などの防具）は、レース用車両にのみ着用が推奨される装備である。",
+        "my": "ကာကွယ်ပစ္စည်း (ရင်ဘတ်နှင့် ပခုံးစသည့် ကာကွယ်ရေးပစ္စည်း) သည် ",
+        "en": "Protectors (protective equipment for the chest, shoulders, etc.) are equipment t"
+      }
     }
   },
   {
@@ -6475,6 +7888,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-fog-road.png",
+      "alt": {
+        "ja": "ヘルメットのシールド（フェイスシールド）が汚れていても、視界に問題がなければ交換の必要はない。",
+        "my": "ဦးထုပ်၏ ရှီးလ် (မျက်နှာဖုံးရှီးလ်) ညစ်ပတ်နေသော်လည်း မြင်ကွင်",
+        "en": "Even if the helmet shield (face shield) is dirty, there is no need to replace it"
+      }
     }
   },
   {
@@ -6516,6 +7938,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-fog-road.png",
+      "alt": {
+        "ja": "雨の日にバイクに乗るときは、視界を確保するため、曇り止め加工されたシールドを使用するとよい。",
+        "my": "မိုးရွာသောနေ့တွင် ဆိုင်ကယ်စီးချိန် မြင်ကွင်းကို ရရှိစေရန် တွ",
+        "en": "When riding your bike on rainy days, it's a good idea to use an anti-fog shield "
+      }
     }
   },
   {
@@ -6557,6 +7988,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "ヘルメットは、購入時のサイズが合っていれば、長期間使用しても交換する必要はない。",
+        "my": "ဦးထုပ်သည် ဝယ်ယူချိန်တွင် အရွယ်အစား ကိုက်ညီပါက ကြာရှည်စွာ အသု",
+        "en": "If the helmet is the correct size when purchased, there is no need to replace it"
+      }
     }
   },
   {
@@ -6598,6 +8038,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "冬季に手がかじかんでいても、グローブを外して素手で運転するほうがブレーキ操作は正確になる。",
+        "my": "ဆောင်းရာသီတွင် လက်ချောင်းများ ခိုင်နေသည့်တိုင် လက်အိတ်ကို ချ",
+        "en": "Even if your hands are cold in the winter, you can operate the brakes more accur"
+      }
     }
   },
   {
@@ -6639,6 +8088,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "体にフィットしたウェアを着用することで、走行風によるバタつきを抑え、疲労を軽減できる。",
+        "my": "ခန္ဓာကိုယ်နှင့် ကိုက်ညီသော အဝတ်အစားကို ဝတ်ဆင်ခြင်းဖြင့် မောင",
+        "en": "By wearing clothing that fits your body, you can reduce flapping caused by the w"
+      }
     }
   },
   {
@@ -6680,6 +8138,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "ヘルメットを購入するときは、デザインだけでなく、国が定めた規格に適合しているかを確認するべきである。",
+        "my": "ဦးထုပ်ကို ဝယ်ယူချိန် ဒီဇိုင်းသာမက နိုင်ငံသတ်မှတ်ထားသော စံသတ်",
+        "en": "When purchasing a helmet, you should check not only the design but also whether "
+      }
     }
   },
   {
@@ -6721,6 +8188,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "二輪車を運転する際は、運転者・同乗者ともにヘルメットの着用が法律で義務付けられている。",
+        "my": "နှစ်ဘီးယာဉ်မောင်းနှင်ချိန် ယာဉ်မောင်းသူနှင့် ပါဆင်လာသူ နှစ်ဦ",
+        "en": "When driving a motorcycle, both the driver and passenger are required by law to "
+      }
     }
   },
   {
@@ -6762,6 +8238,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "ヘルメットのシールド（フェイスガード）は、走行中の風や虫、小石などから目を保護する役割がある。",
+        "my": "ဦးထုပ်၏ မျက်နှာအကာသည် မောင်းနှင်နေချိန် လေ၊ပျား/ယင်နှင့် ကျေ",
+        "en": "The helmet shield (face guard) has the role of protecting the eyes from wind, in"
+      }
     }
   },
   {
@@ -6803,6 +8288,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "ヘルメットは日本の安全規格（PSCマークなど）に適合したものを選ぶことが推奨される。",
+        "my": "ဦးထုပ်သည် ဂျပန်၏ ဘေးကင်းရေးစံချိန်စံညွှန်း (PSC အမှတ်တံဆိပ်စ",
+        "en": "It is recommended that you choose a helmet that complies with Japanese safety st"
+      }
     }
   },
   {
@@ -6844,6 +8338,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "自動二輪車を運転するときは、規格に適合したヘルメットを正しく着用しなければならない。",
+        "my": "အော်တိုနှစ်ဘီးယာဉ်ကို မောင်းနှင်ချိန် စံသတ်မှတ်ချက်နှင့်ကိုက",
+        "en": "When driving a motorcycle, a helmet that complies with the standards must be pro"
+      }
     }
   },
   {
@@ -6885,6 +8388,15 @@
       "title": "Inspired Set 8 · 保護具",
       "titleMy": "Inspired Set 8 · 保護具 (protective gear)",
       "refPaper": "moto-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "原動機付自転車を運転する場合でも、ヘルメットの着用は義務付けられている。",
+        "my": "အင်ဂျင်တပ်စက်ဘီးကို မောင်းနှင်သောအခါတွင်လည်း ဦးထုပ်ဆောင်းရန်",
+        "en": "It is compulsory to wear a helmet even when driving a moped."
+      }
     }
   },
   {
@@ -6956,6 +8468,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n住宅街の狭い道で、前方左側に停まっているバスから人が下車している場面に二輪車で接近している。最も注",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7027,6 +8548,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-parking.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n交差点に接近中、信号は青だが、左側の駐車車両の陰から自転車が出てこようとしている様子が見える。最も",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7098,6 +8628,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n雨の夜、片側1車線の道路を走行中、前方に大型トラックが走っており視界が遮られている。最も注意すべき",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7169,6 +8708,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n片側2車線の道路を走行中、左側車線の先で工事が行われており、作業員が誘導をしている。最も注意すべき",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7240,6 +8788,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n見通しの悪い山道のカーブに二輪車で接近している。対向車線から落石が時々あることを示す標識が見える。",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7311,6 +8868,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-pedestrian-cross.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n学校近くの道路を下校時間帯に走行中、前方の歩道に複数の小学生が歩いている。最も注意すべき危険は何か",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7382,6 +8948,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-stop.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n信号のない交差点に接近中、左方から一時停止せずに進入しようとする自転車が見える。最も注意すべき危険",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7453,6 +9028,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-parking.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n渋滞している道路の脇を二輪車で通行している際、停車中の車のドアが急に開く可能性がある。最も注意すべ",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7524,6 +9108,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n夕暮れ時、交差点を右折しようとしている。対向直進車のうしろに自転車が並走している可能性がある。最も",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7595,6 +9188,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n住宅街の細い道で、前方の自宅前に停まっている車に向かって、買い物帰りの高齢者が歩道から横断しようと",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7666,6 +9268,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n山道のカーブに落ち葉が積もっている。落ち葉の下は濡れて滑りやすくなっている可能性がある。最も注意す",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7737,6 +9348,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n交差点で左折しようとする大型トラックの左側に自分のバイクが並んでいる。最も注意すべき危険は何か。",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7808,6 +9428,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n雨の中、交差点の手前にマンホールが見える。ハンドルを切りながらこの上を通過しようとしている。最も注",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7879,6 +9508,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n未舗装の荷物を積んだトラックの後ろを走行している。荷物が固定されていないように見える。最も注意すべ",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -7950,6 +9588,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-parking.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n道路の左側に駐車しているタクシーの脇を通過しようとしている。後部座席に乗客の姿が見える。最も注意す",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -8021,6 +9668,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-pedestrian-cross.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n住宅街の狭い道路を走行中、電柱の陰から子供の声が聞こえる。最も注意すべき危険は何か。",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -8092,6 +9748,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n夜間、対向車のヘッドライトがまぶしく、路面の段差が見えにくくなっている。最も注意すべき危険は何か。",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -8163,6 +9828,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n高速道路の合流部分を走行中、加速車線から本線に強引に入ろうとしている四輪車がいる。最も注意すべき危",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -8234,6 +9908,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n踏切に近づいたところ、警報機が鳴り始めているのに、無理に渡ろうとしている高齢者の自転車が見える。最",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -8305,6 +9988,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-no-overtaking.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n見通しの悪い山道のカーブを走行している。対向車がセンターラインを越えて自分の車線にはみ出してくる可",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -8376,6 +10068,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n対向車線で右折待ちをしている車の陰から、直進する別の車が見えにくくなっている状態で交差点に近づいて",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -8417,6 +10118,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-expressway.png",
+      "alt": {
+        "ja": "高速道路で同乗者を乗せて走行する場合、運転者の年齢や免許の保有期間に関する条件はない。",
+        "my": "လမ်းမကြီးတွင် ပါဆင်လာသူနှင့်အတူ မောင်းနှင်ချိန် ယာဉ်မောင်းသူ",
+        "en": "When driving with a passenger on the expressway, there are no requirements regar"
+      }
     }
   },
   {
@@ -8458,6 +10168,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-expressway.png",
+      "alt": {
+        "ja": "高速道路での二人乗りは、運転者の年齢や免許経験年数にかかわらず、常に自由に行うことができる。",
+        "my": "မြန်နှုန်းမြင့်လမ်းမပေါ်တွင် နှစ်ဦးတွဲစီးခြင်းသည် ယာဉ်မောင်း",
+        "en": "Riding with two people on the expressway is always free, regardless of the drive"
+      }
     }
   },
   {
@@ -8499,6 +10218,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "一般道路では、運転者は何人までの同乗者を乗せることができるか定められており、自由に複数人乗せることはできない。",
+        "my": "ပုံမှန်လမ်းများတွင် ယာဉ်မောင်းသူသည် ပါဆင်လာသူ မည်မျှအထိ စီးန",
+        "en": "On general roads, there are restrictions on how many passengers a driver can car"
+      }
     }
   },
   {
@@ -8540,6 +10268,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "同乗者を乗せて走行する際は、急加速や急ブレーキを避け、いつもより慎重な運転操作を心がける必要がある。",
+        "my": "ပါဆင်လာသူနှင့်အတူ မောင်းနှင်ချိန် ရုတ်တရက်အရှိန်မြှင့်ခြင်း ",
+        "en": "When driving with a passenger on board, it is necessary to avoid sudden accelera"
+      }
     }
   },
   {
@@ -8581,6 +10318,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "原動機付自転車（原付）には、構造上同乗者を乗せることは一般的に認められていない。",
+        "my": "အင်ဂျင်တပ်စက်ဘီး (ဂန်ပတ်) တွင် တည်ဆောက်ပုံအရ ပါဆင်လာသူတင်ခြင",
+        "en": "Mopeds (mopeds) are generally not allowed to carry passengers due to their struc"
+      }
     }
   },
   {
@@ -8622,6 +10368,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "自動二輪車の運転者が二人乗り（同乗者）をさせるためには、免許取得後一定期間の経過などの条件を満たす必要がある。",
+        "my": "အော်တိုနှစ်ဘီးယာဉ် ယာဉ်မောင်းသူသည် နှစ်ဦးတွဲစီးခြင်း (တွဲစီး",
+        "en": "In order for motorcycle drivers to be allowed to ride with two people (passenger"
+      }
     }
   },
   {
@@ -8663,6 +10418,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "同乗者を乗せているときは、通常よりも車両の重心が高くなり不安定になりやすいため、速度を控えめにする。",
+        "my": "တွဲစီးသူ တင်ဆောင်ထားချိန် ပုံမှန်ထက် ယာဉ်၏ ဆွဲအားဗဟိုချက် မြ",
+        "en": "When carrying a passenger, the center of gravity of the vehicle is higher than n"
+      }
     }
   },
   {
@@ -8704,6 +10468,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-pedestrian-cross.png",
+      "alt": {
+        "ja": "小学生以下の子供を同乗者として二人乗りさせることは、年齢にかかわらず問題なく認められている。",
+        "my": "မူလတန်းကျောင်းသားနှင့် အောက် ကလေးများကို တွဲစီးသူအဖြစ် နှစ်ဦ",
+        "en": "It is permitted to carry two children under elementary school age as passengers "
+      }
     }
   },
   {
@@ -8745,6 +10518,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "同乗者を乗せて走行するときは、通常よりも早めにブレーキをかけ始め、急な操作を避けることが大切である。",
+        "my": "တွဲစီးသူကို တင်ဆောင်ပြီး မောင်းနှင်ချိန် ပုံမှန်ထက် စောစီးစွ",
+        "en": "When driving with a passenger on board, it is important to start applying the br"
+      }
     }
   },
   {
@@ -8786,6 +10568,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "二輪車の同乗者（タンデム）は、運転者と同様にヘルメットの着用が義務付けられている。",
+        "my": "နှစ်ဘီးယာဉ်ပါဆင်လာသူ (တန်ဒမ်) သည် ယာဉ်မောင်းသူနည်းတူ ဦးထုပ်ဝ",
+        "en": "Passengers (tandems) on motorcycles are required to wear helmets, just like the "
+      }
     }
   },
   {
@@ -8827,6 +10618,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "同乗者（二人乗りの乗客）も、運転者と同様にヘルメットを着用しなければならない。",
+        "my": "တွဲစီးသူ (နှစ်ဦးတွဲစီးရာတွင် ခရီးသည်) သည်လည်း ယာဉ်မောင်းသူကဲ",
+        "en": "Passengers (passengers in a two-person vehicle) must also wear a helmet, just li"
+      }
     }
   },
   {
@@ -8868,6 +10668,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "同乗者は、運転者の腰やベルトなどにしっかりつかまり、運転者の動きに合わせて体を動かすことが望ましい。",
+        "my": "တွဲစီးသူသည် ယာဉ်မောင်းသူ၏ ခါး သို့မဟုတ် ခါးပတ်စသည်ကို သေချာစ",
+        "en": "It is recommended that the passenger firmly hold on to the driver's waist or bel"
+      }
     }
   },
   {
@@ -8909,6 +10718,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "黄色の灯火信号が点滅しているときは、他の交通に注意して進行することができる。",
+        "my": "အဝါရောင် မီးအချက်ပြမီးသည် မှိတ်တုတ်မှိတ်တုတ်ပြနေချိန် အခြားယ",
+        "en": "When the yellow light signal is flashing, you can proceed with caution towards o"
+      }
     }
   },
   {
@@ -8950,6 +10768,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "警察官が右腕を垂直に上げているとき、その正面と背面に向かう交通は信号が赤になったときと同じ意味である。",
+        "my": "ရဲတပ်ဖွဲ့ဝင်သည် ညာလက်ကို ဒေါင်လိုက်မြှောက်ထားချိန် သူ့ရှေ့နှ",
+        "en": "When a police officer raises his right arm vertically, traffic in front of him a"
+      }
     }
   },
   {
@@ -8991,6 +10818,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-one-way.png",
+      "alt": {
+        "ja": "「一方通行」の標識がある道路では、二輪車も指定された方向以外に進んではいけない。",
+        "my": "\"တစ်လမ်းသွား\" ဆိုင်းဘုတ်ရှိသောလမ်းတွင် နှစ်ဘီးယာဉ်များသည်လည်",
+        "en": "On roads with \"one-way\" signs, motorcycles are also prohibited from proceeding i"
+      }
     }
   },
   {
@@ -9032,6 +10868,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "右折・左折を行う合図は、その行為を始める3秒前までに出さなければならない。",
+        "my": "ညာ/ဘယ်ကွေ့ရန် အချက်ပြမှုကို လုပ်ဆောင်မည့်အချိန်မတိုင်မီ ၃ စက",
+        "en": "The signal to turn right or left must be given at least 3 seconds before the act"
+      }
     }
   },
   {
@@ -9073,6 +10918,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-no-entry.png",
+      "alt": {
+        "ja": "「車両通行止め」の標識は、二輪の自動車や原動機付自転車を含むすべての車両の通行を禁止する。",
+        "my": "\"ယာဉ်ဖြတ်သန်းခွင့်မရှိ\" ဆိုင်းဘုတ်သည် နှစ်ဘီးယာဉ်နှင့် အင်ဂျ",
+        "en": "A \"No Vehicles\" sign prohibits all vehicles, including two-wheeled cars and mope"
+      }
     }
   },
   {
@@ -9114,6 +10968,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "右折を表す手による合図は、右腕を水平に伸ばす、または左腕を車外に出して肘を垂直に上げる方法がある。",
+        "my": "ညာကွေ့ခြင်းကို ဖော်ပြသော လက်ဖြင့်အချက်ပြမှုတွင် ညာလက်ကို ပြာ",
+        "en": "A hand signal indicating a right turn can be made by extending the right arm hor"
+      }
     }
   },
   {
@@ -9155,6 +11018,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-no-entry.png",
+      "alt": {
+        "ja": "「二輪車通行止め」の標識がある道路には、原動機付自転車も自動二輪車も通行できない。",
+        "my": "「နှစ်ဘီးယာဉ် ဖြတ်သန်းခွင့်မရှိ」ဆိုင်းဘုတ်ရှိသောလမ်းတွင် အင်ဂ",
+        "en": "Mopeds and motorcycles are not allowed to pass on roads marked with \"No Motorcyc"
+      }
     }
   },
   {
@@ -9196,6 +11068,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-speed-limit.png",
+      "alt": {
+        "ja": "原動機付自転車の法定最高速度は、標識による指定がない一般道路では時速30キロメートルである。",
+        "my": "အင်ဂျင်တပ်စက်ဘီး၏ ဥပဒေအရ အမြန်ဆုံးအရှိန်သည် ဆိုင်းဘုတ်ဖြင့် ",
+        "en": "The legal maximum speed for mopeds is 30 kilometers per hour on public roads tha"
+      }
     }
   },
   {
@@ -9237,6 +11118,15 @@
       "title": "Inspired Set 10 · 同乗者",
       "titleMy": "Inspired Set 10 · 同乗者 (pillion)",
       "refPaper": "moto-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-pedestrian-cross.png",
+      "alt": {
+        "ja": "「通行止め」の標識は、二輪車を含むすべての車両と歩行者の通行を禁止するものである。",
+        "my": "「ဖြတ်သန်းခွင့်မရှိ」ဆိုင်းဘုတ်သည် နှစ်ဘီးယာဉ်အပါအဝင် ယာဉ်အားလ",
+        "en": "A \"Road Closed\" sign prohibits the passage of all vehicles, including motorcycle"
+      }
     }
   },
   {
@@ -9278,6 +11168,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "「駐輪禁止」の標識がある場所には、自動二輪車や原動機付自転車を止めてはならない。",
+        "my": "「စက်ဘီး/ဆိုင်ကယ်ရပ်နားခွင့်မရှိ」ဆိုင်းဘုတ်ရှိသောနေရာတွင် အော",
+        "en": "Motorcycles and mopeds must not be parked in areas with \"No Bicycle Parking\" sig"
+      }
     }
   },
   {
@@ -9319,6 +11218,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-stop.png",
+      "alt": {
+        "ja": "見通しの悪い交差点で「一時停止」の標識がある場合、二輪車も必ず停止線で停止しなければならない。",
+        "my": "မြင်နိုင်စွမ်းနည်းသော လမ်းဆုံတွင် 「ခေတ္တရပ်」ဆိုင်းဘုတ်ရှိပါက",
+        "en": "If there is a stop sign at an intersection with poor visibility, motorcycles mus"
+      }
     }
   },
   {
@@ -9360,6 +11268,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-night-road.png",
+      "alt": {
+        "ja": "夜間、原動機付自転車もヘッドライトを点灯しなければならない。",
+        "my": "ညဘက် အင်ဂျင်တပ်စက်ဘီးများသည်လည်း ရှေ့မီးများကို ထွန်းညှိရမည်",
+        "en": "Mopeds must also have headlights on at night."
+      }
     }
   },
   {
@@ -9401,6 +11318,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "「速度落とせ」の警戒標識は、その先の道路状況に応じて速度を落とすよう促すものである。",
+        "my": "「အရှိန်လျှော့ချ」သတိပေးဆိုင်းဘုတ်သည် ရှေ့ဘက်လမ်းအခြေအနေအလိုက်",
+        "en": "The \"Slow Down\" warning sign urges drivers to slow down depending on the road co"
+      }
     }
   },
   {
@@ -9442,6 +11368,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-tyre-check.png",
+      "alt": {
+        "ja": "轍（わだち）がある道路を走行するときは、轍にタイヤをとられないよう注意しながら走行する。",
+        "my": "ဘီးလမ်းကြောင်း (ဝါဒိချိ) ရှိသောလမ်းကို မောင်းနှင်ချိန် ဘီးလမ",
+        "en": "When driving on a road with ruts, be careful not to get your tires caught in the"
+      }
     }
   },
   {
@@ -9483,6 +11418,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-intersection.png",
+      "alt": {
+        "ja": "交差点を曲がるときは、車体を大きく傾けて速いスピードで曲がることが推奨される。",
+        "my": "လမ်းဆုံကို ကွေ့ချိန် ယာဉ်ကိုယ်ထည်ကို ကြီးမားစွာ စောင်းပြီး လ",
+        "en": "When turning at an intersection, it is recommended to lean the vehicle significa"
+      }
     }
   },
   {
@@ -9524,6 +11468,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "バイクの重心は、荷物を高い位置に積むほど安定しやすくなる。",
+        "my": "ဆိုင်ကယ်၏ ဆွဲအားဗဟိုချက်သည် ပစ္စည်းများကို မြင့်သောနေရာတွင် ",
+        "en": "The center of gravity of the bike becomes more stable the higher you load your l"
+      }
     }
   },
   {
@@ -9565,6 +11518,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "狭いスペースでUターンをするときは、ハンドルを大きく切り、視線を進みたい方向に向けるとよい。",
+        "my": "နေရာကျဉ်းတွင် ယူတန်း ကျော်ကွေ့ချိန် လက်တံကို ကြီးမားစွာ လှည့",
+        "en": "When making a U-turn in a tight space, it's a good idea to turn the steering whe"
+      }
     }
   },
   {
@@ -9606,6 +11568,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "カーブの手前で速度を落とす際は、車体を起こした状態（直立姿勢）でブレーキをかけるのが基本である。",
+        "my": "ကွေ့ရာမတိုင်မီ အရှိန်လျှော့ချိန် ယာဉ်ကိုယ်ထည်ကို ဖြောင့်တန်း",
+        "en": "When slowing down before a curve, the basic rule is to apply the brakes while th"
+      }
     }
   },
   {
@@ -9647,6 +11618,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "雨の日にマンホールの上を通過するときは、車体を傾けたまま通過しても問題ない。",
+        "my": "မိုးရွာသောနေ့တွင် မန်ဟိုးလ်ပေါ်ကို ဖြတ်သန်းချိန် ယာဉ်ကိုယ်ထည",
+        "en": "When passing over a manhole on a rainy day, there is no problem even if the vehi"
+      }
     }
   },
   {
@@ -9718,6 +11698,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n霧が発生している山道を走行している。視界が非常に悪く、カーブの先がほとんど見えない。最も注意すべき",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -9789,6 +11778,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n強風が吹いている橋の上を走行している。突風でハンドルをとられそうになっている。最も注意すべき危険は",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -9860,6 +11858,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-pedestrian-cross.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n信号が青に変わった直後、横断歩道の途中で立ち止まってしまった高齢の歩行者がいる。最も注意すべき危険",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -9931,6 +11938,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-no-overtaking.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n商店街の狭い道路を走行中、荷物を積んだ自転車を押す店員が車道側にはみ出して歩いている。最も注意すべ",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru"
+      }
     }
   },
   {
@@ -9972,6 +11988,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "カーブの途中で急ブレーキをかけると、タイヤが滑って転倒する危険が高い。",
+        "my": "ကွေ့ရာလမ်းအတွင်း ရုတ်တရက် ဘရိတ်ပြင်းနှိပ်ပါက ဘီးချော်ပြီး လှ",
+        "en": "If you brake suddenly in the middle of a curve, there is a high risk that the ti"
+      }
     }
   },
   {
@@ -10013,6 +12038,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-corner.png",
+      "alt": {
+        "ja": "低速でバランスをとるときは、視線を近くの一点に集中させるのがよい。",
+        "my": "အလျင်နှေးချိန် ချိန်ညှိရန် အမြှော်ကို အနီးအနားရှိ အမှတ်တစ်ခု",
+        "en": "When balancing at low speeds, it's best to focus your gaze on one nearby point."
+      }
     }
   },
   {
@@ -10054,6 +12088,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "停止する直前は、ハンドルを切ったまま停止すると足をつきやすく安定する。",
+        "my": "ရပ်တန့်မည့် မတိုင်မီ လက်တံကို လှည့်ထားလျက် ရပ်ပါက ခြေထောက်တင",
+        "en": "Just before stopping, keep the steering wheel turned to make it easier to find y"
+      }
     }
   },
   {
@@ -10095,6 +12138,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-tyre-check.png",
+      "alt": {
+        "ja": "発進するときは、半クラッチを使いながらゆっくりアクセルを開けると安定しやすい。",
+        "my": "ထွက်ခွာသည့်အခါ ကလပ်ချ်ကို တစ်ဝက်အသုံးပြုလျက် ဖြည်းညင်းစွာ အရ",
+        "en": "When starting, it is easier to stabilize the vehicle by slowly opening the accel"
+      }
     }
   },
   {
@@ -10136,6 +12188,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-corner.png",
+      "alt": {
+        "ja": "停止しているときは、両足を地面につけてバランスをとるのが基本である。",
+        "my": "ရပ်နားနေချိန်တွင် ခြေထောက်နှစ်ဖက်လုံးကို မြေပြင်တွင် ထားလျက်",
+        "en": "When stopped, the basic idea is to keep both feet on the ground for balance."
+      }
     }
   },
   {
@@ -10177,6 +12238,15 @@
       "title": "Inspired Set 11 · Mixed review",
       "titleMy": "Inspired Set 11 · mixed review",
       "refPaper": "moto-mixed"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-warning.png",
+      "alt": {
+        "ja": "カーブを曲がるときは、視線をカーブの出口や曲がっていく先の方向に向けるとバランスがとりやすい。",
+        "my": "ကွေ့ရာလမ်းကို ကွေ့ချိန် အမြင်ကို ကွေ့ရာ၏ ထွက်ပေါက် သို့မဟုတ်",
+        "en": "When turning a curve, it is easier to maintain balance if you direct your eyes t"
+      }
     }
   },
   {
@@ -10218,6 +12288,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "バイクを停止させるときは、両足を地面につけて安定させてから完全に停止するのが基本である。",
+        "my": "ဆိုင်ကယ်ကို ရပ်နားချိန် ခြေထောက်နှစ်ဖက်ကို မြေပြင်ပေါ် ချထား",
+        "en": "When stopping a bike, it is important to put both feet on the ground for stabili"
+      }
     }
   },
   {
@@ -10259,6 +12338,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "二輪車は四輪車と違い、停止時や低速時に自ら重心バランスを保つ必要がある。",
+        "my": "နှစ်ဘီးယာဉ်သည် ယာဉ်လေးဘီးနှင့်မတူဘဲ ရပ်နားချိန် သို့မဟုတ် အရ",
+        "en": "Unlike four-wheeled vehicles, two-wheeled vehicles must maintain their own cente"
+      }
     }
   },
   {
@@ -10300,6 +12388,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "急発進や急停止を繰り返す運転は、バイクの安定性を損ない転倒のリスクを高める。",
+        "my": "ရုတ်တရက်ထွက်ခွာခြင်းနှင့် ရုတ်တရက်ရပ်ခြင်းကို ထပ်ခါထပ်ခါ ပြု",
+        "en": "Riding with repeated sudden starts and stops impairs the stability of the bike a"
+      }
     }
   },
   {
@@ -10341,6 +12438,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-corner.png",
+      "alt": {
+        "ja": "低速でのUターンやスラローム走行の練習は、バランス感覚の向上に役立つ。",
+        "my": "အရှိန်နှေးဖြင့် ယူတန်းကျော်ကွေ့ခြင်း သို့မဟုတ် စလာလမ်ကွေ့ရေး",
+        "en": "Practicing U-turns and slalom runs at low speeds will help improve your sense of"
+      }
     }
   },
   {
@@ -10382,6 +12488,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-car-interior.png",
+      "alt": {
+        "ja": "車両の死角は、車の大きさが大きいほど広くなる傾向がある。",
+        "my": "ယာဉ်၏ မြင်ရခက်သောနေရာသည် ယာဉ်အရွယ်အစား ကြီးလေလေ ကျယ်ဝန်းလေဖြ",
+        "en": "The blind spot of a vehicle tends to become wider as the size of the vehicle inc"
+      }
     }
   },
   {
@@ -10423,6 +12538,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "サイドミラーだけに頼らず、車線変更前には必ず目視で後方や側方を確認する（いわゆる「目視確認」）。",
+        "my": "ဘေးထောက်မှန်ကိုသာ အားမကိုးဘဲ လမ်းကြောင်းပြောင်းမီ မဖြစ်မနေ မ",
+        "en": "Don't rely solely on your side mirrors; always visually check behind and to the "
+      }
     }
   },
   {
@@ -10464,6 +12588,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-expressway.png",
+      "alt": {
+        "ja": "交差点や合流地点では、バイクは自分の姿が他の車両から見えているかを常に意識する必要がある。",
+        "my": "လမ်းဆုံ သို့မဟုတ် ပေါင်းစည်းရာနေရာများတွင် ဆိုင်ကယ်သည် မိမိက",
+        "en": "At intersections and merging points, motorcyclists must always be aware of wheth"
+      }
     }
   },
   {
@@ -10505,6 +12638,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "自分がライダーとして周囲から見えやすい服装（明るい色や反射材）を選ぶことは、死角対策として有効である。",
+        "my": "မိမိသည် ဆိုင်ကယ်စီးသူအဖြစ် ပတ်ဝန်းကျင်မှ မြင်ရလွယ်သော အဝတ်အစ",
+        "en": "As a rider, choosing clothing that makes you easily visible to others (bright co"
+      }
     }
   },
   {
@@ -10546,6 +12688,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-expressway.png",
+      "alt": {
+        "ja": "高速道路の合流地点では、本線を走る車から見えやすい位置を維持しながら速度を合わせて合流するのがよい。",
+        "my": "အမြန်လမ်းမ ပေါင်းစည်းရာနေရာတွင် main lane မောင်းနေသော ယာဉ်မျ",
+        "en": "At expressway merging points, it is best to merge at the same speed while mainta"
+      }
     }
   },
   {
@@ -10587,6 +12738,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "マンホールや排水溝の上を避けて走行位置を選ぶことは、スリップ防止のために有効である。",
+        "my": "မန်ဟိုးလ် သို့မဟုတ် ရေမြောင်းပေါ်ကို ရှောင်ကွင်း၍ မောင်းနှင်",
+        "en": "Choosing a driving position that avoids over manholes and drainage ditches is an"
+      }
     }
   },
   {
@@ -10628,6 +12788,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-parking.png",
+      "alt": {
+        "ja": "道路の中央寄りを走行すれば、駐車車両のドア開閉による事故を避けやすくなる。",
+        "my": "လမ်း၏ အလယ်ဗဟိုဘက်ကို မောင်းနှင်ပါက ရပ်နားထားသော ယာဉ်များ၏ တံ",
+        "en": "Driving closer to the center of the road will help you avoid accidents caused by"
+      }
     }
   },
   {
@@ -10669,6 +12838,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-road-markings.png",
+      "alt": {
+        "ja": "道路の継ぎ目（ジョイント部分）は、段差が大きいことがあるため、通過時は走行位置と速度に注意する。",
+        "my": "လမ်းအဆက်နေရာ (ဂျွိုင့်နေရာ) သည် အမြင့်ကွာဟမှု ကြီးမားနိုင်သေ",
+        "en": "Road joints can have large steps, so be careful of your driving position and spe"
+      }
     }
   },
   {
@@ -10710,6 +12888,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "夏の炎天下でバイクに乗るときは、熱中症予防のため、こまめな水分補給と休憩が重要である。",
+        "my": "နွေရာသီ နေပူထဲတွင် ဆိုင်ကယ်စီးချိန် အပူဒဏ်ရောဂါ ကာကွယ်ရန်အတွ",
+        "en": "When riding a motorcycle under the scorching summer sun, it is important to hydr"
+      }
     }
   },
   {
@@ -10751,6 +12938,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-fog-road.png",
+      "alt": {
+        "ja": "台風などで視界が極端に悪いときは、走行を中止して安全な場所に避難することも重要な判断である。",
+        "my": "တိုင်ဖွန်းစသည့်အကြောင်းကြောင့် မြင်ကွင်း အလွန်ဆိုးဝါးချိန် မ",
+        "en": "When visibility is extremely poor due to a typhoon, etc., it is important to sto"
+      }
     }
   },
   {
@@ -10792,6 +12988,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-wet-road.png",
+      "alt": {
+        "ja": "雨天走行後は、ブレーキやタイヤの状態を点検し、水分や汚れを取り除くことが推奨される。",
+        "my": "မိုးရွာချိန် မောင်းနှင်ပြီးနောက် ဘရိတ်နှင့် ဘီး၏ အခြေအနေကို ",
+        "en": "After driving in the rain, it is recommended to check the condition of the brake"
+      }
     }
   },
   {
@@ -10833,6 +13038,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-fog-road.png",
+      "alt": {
+        "ja": "視界不良の悪天候時は、後続車に自分の位置を知らせるため、テールランプが正常に点灯しているか確認しておくとよい。",
+        "my": "မြင်ကွင်းညံ့ဖျင်းသော ရာသီဥတုဆိုးချိန် နောက်လိုက်ကားများအား မ",
+        "en": "In bad weather with poor visibility, it's a good idea to check that your taillig"
+      }
     }
   },
   {
@@ -10874,6 +13088,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle-gear.png",
+      "alt": {
+        "ja": "グローブ（手袋）を着用することは、転倒時の手のけがを防ぐために有効である。",
+        "my": "လက်အိတ်ကို ဆောင်းခြင်းသည် ပြုတ်ကျသောအခါ လက်ဒဏ်ရာရရှိခြင်းကို",
+        "en": "Wearing gloves is effective in preventing hand injuries during falls."
+      }
     }
   },
   {
@@ -10915,6 +13138,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "半袖や短パンでバイクに乗ることは、転倒時の擦過傷のリスクを高めるため避けたほうがよい。",
+        "my": "လက်တိုနှင့် ဘောင်းဘီတိုဖြင့် ဆိုင်ကယ်စီးခြင်းသည် ပြုတ်ကျသောအ",
+        "en": "It is best to avoid riding a bike in short sleeves or shorts as this increases t"
+      }
     }
   },
   {
@@ -10956,6 +13188,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-night-road.png",
+      "alt": {
+        "ja": "夜間走行では、明るい色や反射材のついたジャケットを着用することで、他の車両から発見されやすくなる。",
+        "my": "ညဘက်မောင်းနှင်ချိန် တောက်ပသောအရောင် သို့မဟုတ် အလင်းရောင်ပြန်",
+        "en": "When driving at night, wearing a brightly colored or reflective jacket will make"
+      }
     }
   },
   {
@@ -10997,6 +13238,15 @@
       "title": "Inspired Set 12 · 本免 topic review",
       "titleMy": "Inspired Set 12 · 本免 topic review",
       "refPaper": "moto-mock"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-motorcycle.png",
+      "alt": {
+        "ja": "ブーツ（くるぶしを覆う靴）は、足首を保護し、シフト操作もしやすいため運転に適している。",
+        "my": "ဖိနပ်ရှည် (ခြေမောင်းကို ဖုံးအုပ်သော ဖိနပ်) သည် ခြေမောင်းကို ",
+        "en": "Boots (shoes that cover the ankles) are suitable for driving because they protec"
+      }
     }
   }
 ]

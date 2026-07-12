@@ -6,10 +6,12 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { loadAvailableSgSigns, resolveSgImage } from './lib/sign-assets.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RTT_PATH = path.join(__dirname, '..', 'content', 'questions', 'sg_rtt.json');
 const SIGNS_DIR = path.join(__dirname, '..', 'public', 'signs', 'sg');
+const AVAILABLE = loadAvailableSgSigns(SIGNS_DIR);
 
 /** Per-question overrides (from download-question-images.py RTT map). */
 const RTT_MEDIA = {
@@ -135,11 +137,8 @@ const questions = JSON.parse(fs.readFileSync(RTT_PATH, 'utf8'));
 let updated = 0;
 
 for (const q of questions) {
-  const file = RTT_MEDIA[q.id] ?? TOPIC_DEFAULT[q.topic] ?? 'motorcycle-city.png';
-  const fullPath = path.join(SIGNS_DIR, file);
-  if (!fs.existsSync(fullPath)) {
-    console.warn(`[rtt-media] missing asset ${file} for ${q.id}`);
-  }
+  const raw = RTT_MEDIA[q.id] ?? TOPIC_DEFAULT[q.topic] ?? 'motorcycle-city.png';
+  const file = resolveSgImage(raw, AVAILABLE);
   const src = `/signs/sg/${file}`;
   if (q.media?.src !== src) {
     q.media = { type: 'image', src, alt: altFromPrompt(q) };

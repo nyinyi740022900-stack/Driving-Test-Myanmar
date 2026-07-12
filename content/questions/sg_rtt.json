@@ -37,8 +37,8 @@
       "type": "image",
       "src": "/signs/sg/slippery-road.png",
       "alt": {
-        "en": "You see a warning sign showing a motorcycle skidding on a wavy line. What should you do?",
-        "my": "လှိုင်းကွေးမျဉ်းပေါ် ဆိုင်ကယ်တစ်စီး ချောချွတ်နေသည့်ပုံပါသော သတိပေးဆိုင်းဘုတ်ကို မြင်လျှင် ဘာလုပ်သင့်သလဲ။"
+        "en": "You see a warning sign showing a motorcycle skidding on a wavy line. What should",
+        "my": "လှိုင်းကွေးမျဉ်းပေါ် ဆိုင်ကယ်တစ်စီး ချောချွတ်နေသည့်ပုံပါသော သတိပေးဆိုင်းဘုတ်ကို "
       }
     },
     "inspiredSet": {
@@ -87,8 +87,8 @@
       "type": "image",
       "src": "/signs/sg/amber.png",
       "alt": {
-        "en": "At a junction, the traffic light shows a steady amber after green. What should a rider do?",
-        "my": "လမ်းဆုံတွင် မီးစိမ်းပြီးနောက် မီးဝါ တည်ငြိမ်စွာ ပြသည်။ ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+        "en": "At a junction, the traffic light shows a steady amber after green. What should a",
+        "my": "လမ်းဆုံတွင် မီးစိမ်းပြီးနောက် မီးဝါ တည်ငြိမ်စွာ ပြသည်။ ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလ"
       }
     },
     "inspiredSet": {
@@ -135,7 +135,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/the-right-or-turn-right.png",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
       "alt": {
         "en": "What does a rider signal by extending the right arm straight out horizontally?",
         "my": "ညာဘက်လက်ကို ဘေးတိုက်ဖြောင့်တန်းညှင်းလျှင် ယာဉ်မောင်းသူက ဘာအချက်ပြသလဲ။"
@@ -185,10 +185,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/steep-upward-slope.png",
+      "src": "/signs/sg/caution.png",
       "alt": {
-        "en": "What does a sign showing a steep upward arrow with the figure '10%' mean for a rider?",
-        "my": "'10%' ဂဏန်းနှင့်အတူ ရှေ့သို့ မြင့်တက်နေသော မြှားပုံဆိုင်းဘုတ်သည် ယာဉ်မောင်းသူအတွက် ဘာကို ဆိုလိုသလဲ။"
+        "en": "What does a sign showing a steep upward arrow with the figure '10%' mean for a r",
+        "my": "'10%' ဂဏန်းနှင့်အတူ ရှေ့သို့ မြင့်တက်နေသော မြှားပုံဆိုင်းဘုတ်သည် ယာဉ်မောင်းသူအတွ"
       }
     },
     "inspiredSet": {
@@ -235,10 +235,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/roundabout.png",
+      "src": "/signs/sg/caution.png",
       "alt": {
         "en": "What does a sign showing two opposing arrows curving around each other indicate?",
-        "my": "တစ်ခုနှင့်တစ်ခု ဆန့်ကျင်ဘက်ပတ်ပတ်လည်ကွေ့နေသော မြှားနှစ်ချောင်းပါသော ဆိုင်းဘုတ်သည် ဘာကိုဆိုလိုသလဲ။"
+        "my": "တစ်ခုနှင့်တစ်ခု ဆန့်ကျင်ဘက်ပတ်ပတ်လည်ကွေ့နေသော မြှားနှစ်ချောင်းပါသော ဆိုင်းဘုတ်သည"
       }
     },
     "inspiredSet": {
@@ -285,10 +285,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/i-intend-to-slow-down.png",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
       "alt": {
-        "en": "What does it mean when a rider ahead of you extends their left arm and moves it up and down?",
-        "my": "ရှေ့မှ ယာဉ်မောင်းသူသည် ဘယ်ဘက်လက်ကို ညှင်းပြီး အပေါ်အောက်လှုပ်လျှင် ဘာကိုဆိုလိုသလဲ။"
+        "en": "What does it mean when a rider ahead of you extends their left arm and moves it ",
+        "my": "ရှေ့မှ ယာဉ်မောင်းသူသည် ဘယ်ဘက်လက်ကို ညှင်းပြီး အပေါ်အောက်လှုပ်လျှင် ဘာကိုဆိုလိုသလ"
       }
     },
     "inspiredSet": {
@@ -337,8 +337,8 @@
       "type": "image",
       "src": "/signs/sg/gantry-sign.png",
       "alt": {
-        "en": "What does a sign showing a motorcycle with the word 'ERP' typically warn riders about?",
-        "my": "'ERP' စာလုံးနှင့်အတူ ဆိုင်ကယ်ပုံပါသော ဆိုင်းဘုတ်သည် ယာဉ်မောင်းသူများကို အများအားဖြင့် ဘာကို သတိပေးသလဲ။"
+        "en": "What does a sign showing a motorcycle with the word 'ERP' typically warn riders ",
+        "my": "'ERP' စာလုံးနှင့်အတူ ဆိုင်ကယ်ပုံပါသော ဆိုင်းဘုတ်သည် ယာဉ်မောင်းသူများကို အများအား"
       }
     },
     "inspiredSet": {
@@ -385,10 +385,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "src": "/signs/sg/no-entry.png",
       "alt": {
         "en": "A circular sign with a red border and a motorcycle symbol inside means what?",
-        "my": "အနီရောင်အနားသတ်ပါသော စက်ဝိုင်းဆိုင်းဘုတ်အတွင်း ဆိုင်ကယ်ပုံပါရှိလျှင် ဘာကို ဆိုလိုသလဲ။"
+        "my": "အနီရောင်အနားသတ်ပါသော စက်ဝိုင်းဆိုင်းဘုတ်အတွင်း ဆိုင်ကယ်ပုံပါရှိလျှင် ဘာကို ဆိုလိ"
       }
     },
     "inspiredSet": {
@@ -435,7 +435,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/t-junction.png",
+      "src": "/signs/sg/caution.png",
       "alt": {
         "en": "What does a yellow diamond-shaped sign with a black T-junction symbol mean?",
         "my": "အနက်ရောင် T-လမ်းဆုံပုံပါသော အဝါရောင်စိန်ပုံဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုသလဲ။"
@@ -535,10 +535,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/zebra-crossing.png",
+      "src": "/signs/sg/pedestrian-crossing-ahead.png",
       "alt": {
-        "en": "Two motorcycles approach a zebra crossing where pedestrians are actively crossing. What is required?",
-        "my": "လူများ တက်ကြွစွာ ဖြတ်ကျော်နေသော ဇီဘရာလူကူးမျဉ်းသို့ ဆိုင်ကယ်နှစ်စီး ချဥ်းကပ်လာလျှင် ဘာလုပ်ရန် လိုအပ်သလဲ။"
+        "en": "Two motorcycles approach a zebra crossing where pedestrians are actively crossin",
+        "my": "လူများ တက်ကြွစွာ ဖြတ်ကျော်နေသော ဇီဘရာလူကူးမျဉ်းသို့ ဆိုင်ကယ်နှစ်စီး ချဥ်းကပ်လာလျ"
       }
     },
     "inspiredSet": {
@@ -685,10 +685,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/police-traffic.png",
+      "src": "/signs/sg/cross-junction.png",
       "alt": {
-        "en": "At a junction controlled by traffic police only (no working traffic light), what must drivers and riders do?",
-        "my": "ယာဉ်အချက်ပြမီး အလုပ်မလုပ်ဘဲ ရဲမှသာ ထိန်းချုပ်နေသော လမ်းဆုံတွင် ယာဉ်မောင်းသူများ ဘာလုပ်ရမည်လဲ။"
+        "en": "At a junction controlled by traffic police only (no working traffic light), what",
+        "my": "ယာဉ်အချက်ပြမီး အလုပ်မလုပ်ဘဲ ရဲမှသာ ထိန်းချုပ်နေသော လမ်းဆုံတွင် ယာဉ်မောင်းသူများ "
       }
     },
     "inspiredSet": {
@@ -789,6 +789,14 @@
       "title": "Inspired Set 2 · Right of way A",
       "titleMy": "Inspired Set 2 · လမ်းပေးခွင့် A",
       "refPaper": "rtt-set-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/expressway-ahead.png",
+      "alt": {
+        "en": "A motorcycle is travelling on a single-lane road and reaches a narrow bridge whe",
+        "my": "လမ်းကြောတစ်ကြောင်းတည်းပါသော လမ်းပေါ်တွင် ဆိုင်ကယ်တစ်စီးသည် တစ်ကြိမ်လျှင် ယာဉ်တစ်"
+      }
     }
   },
   {
@@ -831,6 +839,14 @@
       "title": "Inspired Set 2 · Right of way A",
       "titleMy": "Inspired Set 2 · လမ်းပေးခွင့် A",
       "refPaper": "rtt-set-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/amber.png",
+      "alt": {
+        "en": "A motorcycle is stopped at a red light in the leftmost lane marked for 'left tur",
+        "my": "ဆိုင်ကယ်တစ်စီးသည် 'ဘယ်ဘက်ကွေ့ရန်သာ' ဟု အမှတ်အသားပြုထားသော ဘယ်ဘက်အစွန်ဆုံးလမ်းကြေ"
+      }
     }
   },
   {
@@ -873,6 +889,14 @@
       "title": "Inspired Set 2 · Right of way A",
       "titleMy": "Inspired Set 2 · လမ်းပေးခွင့် A",
       "refPaper": "rtt-set-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "A rider is found riding a Class 2B motorcycle while holding only a Class 3 (car)",
+        "my": "ဆိုင်ကယ်လိုင်စင်မရှိဘဲ Class 3 (ကား) လိုင်စင်သာရှိသူက Class 2B ဆိုင်ကယ်ကို မောင်"
+      }
     }
   },
   {
@@ -915,6 +939,14 @@
       "title": "Inspired Set 3 · Right of way B",
       "titleMy": "Inspired Set 3 · လမ်းပေးခွင့် B",
       "refPaper": "rtt-set-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/parking-signboard.png",
+      "alt": {
+        "en": "Where are motorcycles strictly prohibited from parking?",
+        "my": "ဆိုင်ကယ်များ ရပ်နားခွင့်လုံးဝမရှိသော နေရာများကား မည်သည့်နေရာများဖြစ်သလဲ။"
+      }
     }
   },
   {
@@ -957,6 +989,14 @@
       "title": "Inspired Set 3 · Right of way B",
       "titleMy": "Inspired Set 3 · လမ်းပေးခွင့် B",
       "refPaper": "rtt-set-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/expressway-ahead.png",
+      "alt": {
+        "en": "Can a motorcycle legally tow another vehicle or trailer on a public road in Sing",
+        "my": "Singapore ရှိ အများသုံးလမ်းပေါ်တွင် ဆိုင်ကယ်တစ်စီးသည် အခြားယာဉ် သို့မဟုတ် ဒရွတ်တ"
+      }
     }
   },
   {
@@ -999,6 +1039,14 @@
       "title": "Inspired Set 3 · Right of way B",
       "titleMy": "Inspired Set 3 · လမ်းပေးခွင့် B",
       "refPaper": "rtt-set-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What does Singapore law require regarding the maximum number of motorcycles allo",
+        "my": "Singapore ဥပဒေအရ လမ်းကြောတစ်ကြောင်းတည်းတွင် ဆိုင်ကယ်များ တန်းလျားစီ မောင်းနှင်ရန"
+      }
     }
   },
   {
@@ -1041,6 +1089,14 @@
       "title": "Inspired Set 3 · Right of way B",
       "titleMy": "Inspired Set 3 · လမ်းပေးခွင့် B",
       "refPaper": "rtt-set-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/merging-arrow-markings.png",
+      "alt": {
+        "en": "On a road with a continuous (solid) white line separating lanes, what does this ",
+        "my": "လမ်းကြောများကို ပိုင်းခြားထားသော အဆက်မပြတ် (အစဥ်အမြဲ) အဖြူရောင်မျဉ်းရှိသောလမ်းတွ"
+      }
     }
   },
   {
@@ -1083,6 +1139,14 @@
       "title": "Inspired Set 3 · Right of way B",
       "titleMy": "Inspired Set 3 · လမ်းပေးခွင့် B",
       "refPaper": "rtt-set-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry.png",
+      "alt": {
+        "en": "A motorcyclist wants to make a U-turn at a junction where a 'No U-Turn' sign is ",
+        "my": "'ပြန်လှည့်ခွင့်မရှိ' ဆိုင်းဘုတ်ရှိသော လမ်းဆုံတွင် ပြန်လှည့်လိုသော ယာဉ်မောင်းသူ ဘ"
+      }
     }
   },
   {
@@ -1125,6 +1189,14 @@
       "title": "Inspired Set 3 · Right of way B",
       "titleMy": "Inspired Set 3 · လမ်းပေးခွင့် B",
       "refPaper": "rtt-set-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/roundabout.png",
+      "alt": {
+        "en": "At a roundabout, which traffic generally has the right of way?",
+        "my": "အလှည့်ဝန်းတွင် မည်သည့်ယာဉ်များက ပုံမှန်အားဖြင့် ဦးစားပေးခွင့်ရှိသလဲ။"
+      }
     }
   },
   {
@@ -1167,6 +1239,14 @@
       "title": "Inspired Set 3 · Right of way B",
       "titleMy": "Inspired Set 3 · လမ်းပေးခွင့် B",
       "refPaper": "rtt-set-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/expressway-ahead.png",
+      "alt": {
+        "en": "What is the general speed limit on Singapore expressways unless otherwise signpo",
+        "my": "ဆိုင်းဘုတ်က အခြားနည်းမဖော်ပြလျှင် Singapore အဝှေးလမ်းမများ၏ ပုံမှန်အမြန်နှုန်းကန"
+      }
     }
   },
   {
@@ -1209,6 +1289,14 @@
       "title": "Inspired Set 3 · Right of way B",
       "titleMy": "Inspired Set 3 · လမ်းပေးခွင့် B",
       "refPaper": "rtt-set-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/bus-lane.png",
+      "alt": {
+        "en": "Is it legal for a motorcycle to use the bus lane during its hours of operation?",
+        "my": "ဘတ်စ်ကားလိုင်း လုပ်ငန်းချိန်အတွင်း ဆိုင်ကယ်များ အသုံးပြုခြင်းသည် ဥပဒေနှင့် ညီပါသ"
+      }
     }
   },
   {
@@ -1251,6 +1339,14 @@
       "title": "Inspired Set 3 · Right of way B",
       "titleMy": "Inspired Set 3 · လမ်းပေးခွင့် B",
       "refPaper": "rtt-set-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What is the minimum age requirement and licence class needed to ride a Class 2B ",
+        "my": "Singapore တွင် Class 2B ဆိုင်ကယ်မောင်းနှင်ရန် လိုအပ်သော အသက်အနည်းဆုံးနှင့် လိုင်"
+      }
     }
   },
   {
@@ -1293,6 +1389,14 @@
       "title": "Inspired Set 4 · Lane filtering A",
       "titleMy": "Inspired Set 4 · Lane filtering A",
       "refPaper": "rtt-set-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "While filtering, a car in the queue suddenly activates its left turn signal. Wha",
+        "my": "ဖြတ်ကျော်မောင်းနှင်နေစဉ် ယာဉ်တန်းရှိကားတစ်စီးသည် ရုတ်တရက် ဘယ်ဘက်ကွေ့မီးပြရန် ဖွင"
+      }
     }
   },
   {
@@ -1335,6 +1439,14 @@
       "title": "Inspired Set 4 · Lane filtering A",
       "titleMy": "Inspired Set 4 · Lane filtering A",
       "refPaper": "rtt-set-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/bus-lane.png",
+      "alt": {
+        "en": "While filtering at low speed between two lanes, a gust of wind from a passing bu",
+        "my": "လမ်းကြောနှစ်ကြောင်းကြား နှေးနှေးဖြတ်ကျော်မောင်းနှင်နေစဉ် ဖြတ်သွားသော ဘတ်စ်ကားမှ "
+      }
     }
   },
   {
@@ -1377,6 +1489,14 @@
       "title": "Inspired Set 4 · Lane filtering A",
       "titleMy": "Inspired Set 4 · Lane filtering A",
       "refPaper": "rtt-set-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/pedestrian-crossing-ahead.png",
+      "alt": {
+        "en": "A rider is filtering and notices a pedestrian crossing between the stationary ca",
+        "my": "ဖြတ်ကျော်မောင်းနှင်နေသော ယာဉ်မောင်းသူသည် ရပ်နားနေသော ကားများကြားမှ လူတစ်ဦး ဖြတ်က"
+      }
     }
   },
   {
@@ -1419,6 +1539,14 @@
       "title": "Inspired Set 4 · Lane filtering A",
       "titleMy": "Inspired Set 4 · Lane filtering A",
       "refPaper": "rtt-set-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What is the safest road position for a motorcycle when riding in the centre of a",
+        "my": "ကားတစ်စီးနောက်တွင် လမ်းကြောအလယ်၌ မောင်းနှင်သောအခါ ဆိုင်ကယ်အတွက် အဘေးကင်းဆုံးနေရာ"
+      }
     }
   },
   {
@@ -1461,6 +1589,14 @@
       "title": "Inspired Set 4 · Lane filtering A",
       "titleMy": "Inspired Set 4 · Lane filtering A",
       "refPaper": "rtt-set-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/cross-junction.png",
+      "alt": {
+        "en": "Why should a rider avoid filtering near a junction where vehicles may be turning",
+        "my": "ယာဉ်များ ကွေ့နိုင်သော လမ်းဆုံအနီးတွင် ဖြတ်ကျော်မောင်းနှင်ခြင်းကို ယာဉ်မောင်းသူ ဘ"
+      }
     }
   },
   {
@@ -1503,6 +1639,14 @@
       "title": "Inspired Set 4 · Lane filtering A",
       "titleMy": "Inspired Set 4 · Lane filtering A",
       "refPaper": "rtt-set-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Before filtering past a long queue of stopped vehicles, what should a rider chec",
+        "my": "ရပ်နားနေသော ယာဉ်တန်းရှည်ကို ဖြတ်ကျော်မီ ယာဉ်မောင်းသူ ဦးစွာ ဘာကို စစ်ဆေးသင့်သလဲ။"
+      }
     }
   },
   {
@@ -1545,6 +1689,14 @@
       "title": "Inspired Set 4 · Lane filtering A",
       "titleMy": "Inspired Set 4 · Lane filtering A",
       "refPaper": "rtt-set-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/parking-signboard.png",
+      "alt": {
+        "en": "When approaching a row of parked vehicles on the left, what lane position helps ",
+        "my": "ဘယ်ဘက်ရှိ ရပ်နားထားသောယာဉ်တန်းကို ချဥ်းကပ်သောအခါ ရုတ်တရက်ဖွင့်လှစ်လာသော ကားတံခါး"
+      }
     }
   },
   {
@@ -1587,6 +1739,14 @@
       "title": "Inspired Set 4 · Lane filtering A",
       "titleMy": "Inspired Set 4 · Lane filtering A",
       "refPaper": "rtt-set-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/bus-lane.png",
+      "alt": {
+        "en": "What is a key reason to avoid riding in a heavy vehicle's blind spot for a long ",
+        "my": "ယာဉ်ကြီးတစ်စီး၏ မျက်စိမမြင်ရသောနေရာတွင် ကြာရှည်စွာ မောင်းနှင်ခြင်းကို ရှောင်ကြဥ်"
+      }
     }
   },
   {
@@ -1629,6 +1789,14 @@
       "title": "Inspired Set 4 · Lane filtering A",
       "titleMy": "Inspired Set 4 · Lane filtering A",
       "refPaper": "rtt-set-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "On a multi-lane road, which lane position generally gives a rider the best forwa",
+        "my": "လမ်းကြောအများရှိသောလမ်းတွင် ယာဉ်မောင်းသူအတွက် ယာဉ်အသွားအလာနှင့် အန္တရာယ်များကို "
+      }
     }
   },
   {
@@ -1671,6 +1839,14 @@
       "title": "Inspired Set 5 · Lane filtering B",
       "titleMy": "Inspired Set 5 · Lane filtering B",
       "refPaper": "rtt-set-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/amber.png",
+      "alt": {
+        "en": "When stopping behind a car at a red light, where should a motorcyclist position ",
+        "my": "မီးနီတွင် ကားနောက်ရပ်နားသောအခါ ဆိုင်ကယ်မောင်းသူသည် ဆိုင်ကယ်ကို မည်သည့်နေရာတွင် ထ"
+      }
     }
   },
   {
@@ -1713,6 +1889,14 @@
       "title": "Inspired Set 5 · Lane filtering B",
       "titleMy": "Inspired Set 5 · Lane filtering B",
       "refPaper": "rtt-set-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Where should a motorcyclist position themselves within a lane on a multi-lane ro",
+        "my": "လမ်းကြောင်းများစွာပါသော လမ်းပေါ်တွင် ဆိုင်ကယ်မောင်းသူသည် မိမိ လမ်းကြောင်းအတွင်း "
+      }
     }
   },
   {
@@ -1755,6 +1939,14 @@
       "title": "Inspired Set 5 · Lane filtering B",
       "titleMy": "Inspired Set 5 · Lane filtering B",
       "refPaper": "rtt-set-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Lane filtering refers to what action by a motorcyclist?",
+        "my": "လမ်းကြောဖြတ်ကျော်မောင်းနှင်ခြင်း (Lane filtering) ဆိုသည်မှာ ဆိုင်ကယ်မောင်းသူ၏ မည"
+      }
     }
   },
   {
@@ -1797,6 +1989,14 @@
       "title": "Inspired Set 5 · Lane filtering B",
       "titleMy": "Inspired Set 5 · Lane filtering B",
       "refPaper": "rtt-set-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/slippery-road.png",
+      "alt": {
+        "en": "When riding in heavy rain, why might a rider choose to avoid the centre of the l",
+        "my": "မိုးကြီးချိန် မောင်းနှင်စဉ် ယာဉ်မောင်းသူသည် လမ်းကြောအလယ်ကို ဘာကြောင့် ရှောင်ကြဥ်"
+      }
     }
   },
   {
@@ -1839,6 +2039,14 @@
       "title": "Inspired Set 5 · Lane filtering B",
       "titleMy": "Inspired Set 5 · Lane filtering B",
       "refPaper": "rtt-set-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/expressway-ahead.png",
+      "alt": {
+        "en": "What is the recommended following distance behind a vehicle in normal dry condit",
+        "my": "ပုံမှန်ခြောက်သွေ့သောအခြေအနေတွင် ယာဉ်တစ်စီးနောက်ကျောတွင် ဆိုင်ကယ်မောင်းသူအတွက် အက"
+      }
     }
   },
   {
@@ -1881,6 +2089,14 @@
       "title": "Inspired Set 5 · Lane filtering B",
       "titleMy": "Inspired Set 5 · Lane filtering B",
       "refPaper": "rtt-set-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Why should a rider avoid riding in the gutter or extreme edge of the lane near t",
+        "my": "ယာဉ်မောင်းသူသည် လမ်းကြောအစွန်း သို့မဟုတ် လမ်းဘေးရေမြောင်းအနီးတွင် မောင်းနှင်ခြင်"
+      }
     }
   },
   {
@@ -1919,10 +2135,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/police-traffic2.png",
+      "src": "/signs/sg/cross-junction.png",
       "alt": {
-        "en": "A police officer at a junction raises one arm straight up. What does this mean for riders facing the officer?",
-        "my": "လမ်းဆုံတွင် ရဲတစ်ဦးက လက်တစ်ဖက်ကို ဖြောင့်တန်းစွာ အပေါ်သို့ထောင်လျှင် ရဲကိုမျက်နှာချင်းဆိုင်နေသော ယာဉ်မောင်းသူများအတွက် ဘာကိုဆိုလိုသလဲ။"
+        "en": "A police officer at a junction raises one arm straight up. What does this mean f",
+        "my": "လမ်းဆုံတွင် ရဲတစ်ဦးက လက်တစ်ဖက်ကို ဖြောင့်တန်းစွာ အပေါ်သို့ထောင်လျှင် ရဲကိုမျက်နှ"
       }
     },
     "inspiredSet": {
@@ -1969,10 +2185,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "src": "/signs/sg/no-entry.png",
       "alt": {
-        "en": "A round sign with a black motorcycle on a white background and red border, with no other marking, generally indicates what?",
-        "my": "အခြားမည်သည့်အမှတ်အသားမှမရှိသော အဖြူရောင်နောက်ခံပေါ်ရှိ အနက်ရောင်ဆိုင်ကယ်ပုံပါသည့် အနီရောင်အနားသတ်စက်ဝိုင်းဆိုင်းဘုတ်သည် အများအားဖြင့် ဘာကိုဆိုလိုသလဲ။"
+        "en": "A round sign with a black motorcycle on a white background and red border, with ",
+        "my": "အခြားမည်သည့်အမှတ်အသားမှမရှိသော အဖြူရောင်နောက်ခံပေါ်ရှိ အနက်ရောင်ဆိုင်ကယ်ပုံပါသည့"
       }
     },
     "inspiredSet": {
@@ -2023,6 +2239,14 @@
       "title": "Inspired Set 6 · Balance & cornering",
       "titleMy": "Inspired Set 6 · Balance နှင့် cornering",
       "refPaper": "rtt-set-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "A rider enters a corner faster than expected and realises mid-turn they are runn",
+        "my": "ယာဉ်မောင်းသူသည် မျှော်မှန်းထားသည်ထက် ပိုမြန်စွာ ကွေ့ချိုးသို့ ဝင်ပြီး ကွေ့ဆဲတွင်"
+      }
     }
   },
   {
@@ -2065,6 +2289,14 @@
       "title": "Inspired Set 6 · Balance & cornering",
       "titleMy": "Inspired Set 6 · Balance နှင့် cornering",
       "refPaper": "rtt-set-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Approaching a downhill corner with a decreasing radius (the corner gets sharper)",
+        "my": "ထောင့်ရှင်းလာသော (ကွေ့ချိုးက ပိုစောက်လာသော) တောင်ကုန်းအောက်ကွေ့ချိုးသို့ ချဥ်းကပ"
+      }
     }
   },
   {
@@ -2107,6 +2339,14 @@
       "title": "Inspired Set 6 · Balance & cornering",
       "titleMy": "Inspired Set 6 · Balance နှင့် cornering",
       "refPaper": "rtt-set-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What is the correct technique for braking while a motorcycle is leaning through ",
+        "my": "ဆိုင်ကယ်တစ်စီးသည် ကွေ့ချိုးတစ်ခုကို ယိမ်းကွေ့ဖြတ်နေစဉ် မှန်ကန်သော ဘရိတ်ကိုက်နည်း"
+      }
     }
   },
   {
@@ -2149,6 +2389,14 @@
       "title": "Inspired Set 6 · Balance & cornering",
       "titleMy": "Inspired Set 6 · Balance နှင့် cornering",
       "refPaper": "rtt-set-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Why is loose gravel on the road particularly hazardous when cornering on a motor",
+        "my": "ကွေ့ချိုးကို ဖြတ်သန်းစဉ် လမ်းပေါ်ရှိ ကျောက်စရစ်များသည် ဆိုင်ကယ်အတွက် အထူးအန္တရာယ"
+      }
     }
   },
   {
@@ -2191,6 +2439,14 @@
       "title": "Inspired Set 6 · Balance & cornering",
       "titleMy": "Inspired Set 6 · Balance နှင့် cornering",
       "refPaper": "rtt-set-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/expressway-ahead.png",
+      "alt": {
+        "en": "Why should a rider reduce speed before crossing railway tracks or metal road pla",
+        "my": "သံချပ် သို့မဟုတ် မြေအောက်ရထားလမ်းကြောင်းကို ထောင့်ဖြတ်ကျော်မီ ယာဉ်မောင်းသူ ဘာကြေ"
+      }
     }
   },
   {
@@ -2233,6 +2489,14 @@
       "title": "Inspired Set 6 · Balance & cornering",
       "titleMy": "Inspired Set 6 · Balance နှင့် cornering",
       "refPaper": "rtt-set-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/slippery-road.png",
+      "alt": {
+        "en": "Painted road markings such as arrows or lane lines can become a hazard for motor",
+        "my": "မြှားများ သို့မဟုတ် လမ်းကြောမျဉ်းများကဲ့သို့ ပန်းချီအမှတ်အသားများသည် ကွေ့ချိုးတွ"
+      }
     }
   },
   {
@@ -2275,6 +2539,14 @@
       "title": "Inspired Set 6 · Balance & cornering",
       "titleMy": "Inspired Set 6 · Balance နှင့် cornering",
       "refPaper": "rtt-set-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "When riding two-up (with a pillion) through corners, how does the extra weight t",
+        "my": "ကွေ့ချိုးများကို နောက်ကုန်တင်(ပီလီယွန်)နှင့်အတူ မောင်းနှင်သောအခါ အပိုဝန်သည် ဆိုင"
+      }
     }
   },
   {
@@ -2317,6 +2589,14 @@
       "title": "Inspired Set 6 · Balance & cornering",
       "titleMy": "Inspired Set 6 · Balance နှင့် cornering",
       "refPaper": "rtt-set-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "When cornering on a wet road, what should a motorcyclist do?",
+        "my": "ရွှံ့ပြေနေသော လမ်းတွင် ကွေ့ကောက်သောအခါ ဆိုင်ကယ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      }
     }
   },
   {
@@ -2359,6 +2639,14 @@
       "title": "Inspired Set 7 · Protective gear",
       "titleMy": "Inspired Set 7 · Protective gear",
       "refPaper": "rtt-set-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "How does carrying a pillion passenger change a motorcycle's handling that a ride",
+        "my": "ပွဲတွဲစီးသူ ဆောင်ရွက်ခြင်းသည် ဆိုင်ကယ်၏ ကိုင်တွယ်မှုကို မည်သို့ပြောင်းလဲစေပြီး ယ"
+      }
     }
   },
   {
@@ -2401,6 +2689,14 @@
       "title": "Inspired Set 7 · Protective gear",
       "titleMy": "Inspired Set 7 · Protective gear",
       "refPaper": "rtt-set-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/slippery-road.png",
+      "alt": {
+        "en": "What is the main safety concern with wearing dark, non-reflective clothing while",
+        "my": "ညဘက်ဆိုင်ကယ်မောင်းနှင်ချိန် မှောင်ပြီး အလင်းမထောင်ပြန်သော အဝတ်အထည်ဝတ်ဆင်ခြင်းတွင"
+      }
     }
   },
   {
@@ -2443,6 +2739,14 @@
       "title": "Inspired Set 7 · Protective gear",
       "titleMy": "Inspired Set 7 · Protective gear",
       "refPaper": "rtt-set-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Why is wearing a helmet with the chin strap unfastened considered unsafe, even i",
+        "my": "ဦးထုပ်ဆောင်းထားသော်လည်း ပါးစေ့ကြိုးကို မချည်ထားလျှင် ဘေးကင်းမှုမရှိဟု သတ်မှတ်ရသည"
+      }
     }
   },
   {
@@ -2485,6 +2789,14 @@
       "title": "Inspired Set 7 · Protective gear",
       "titleMy": "Inspired Set 7 · Protective gear",
       "refPaper": "rtt-set-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Besides a helmet, why are riding gloves, a jacket, and over-the-ankle footwear r",
+        "my": "ဦးထုပ်အပြင် ဆိုင်ကယ်လက်အိတ်၊ ဂျာကင်နှင့် ခြေဖနောင့်အထက် ဖိနပ်များကို ခရီးတိုများ"
+      }
     }
   },
   {
@@ -2527,6 +2839,14 @@
       "title": "Inspired Set 7 · Protective gear",
       "titleMy": "Inspired Set 7 · Protective gear",
       "refPaper": "rtt-set-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What should a rider check about a helmet's visor before a night ride?",
+        "my": "ညဘက် ဆိုင်ကယ်မောင်းမီ ဦးထုပ်၏ မျက်နှာစောင်းနှင့်ပတ်သက်၍ ဘာကို စစ်ဆေးသင့်သလဲ။"
+      }
     }
   },
   {
@@ -2569,6 +2889,14 @@
       "title": "Inspired Set 7 · Protective gear",
       "titleMy": "Inspired Set 7 · Protective gear",
       "refPaper": "rtt-set-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Why should a pillion passenger hold onto the rider or designated grab handles ra",
+        "my": "ပွဲတွဲစီးသူသည် ယာဉ်မောင်းသူ၏ ပခုံးအစား ယာဉ်မောင်းသူကိုယ်တိုင် သို့မဟုတ် သတ်မှတ်ထ"
+      }
     }
   },
   {
@@ -2611,6 +2939,14 @@
       "title": "Inspired Set 7 · Protective gear",
       "titleMy": "Inspired Set 7 · Protective gear",
       "refPaper": "rtt-set-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Why is it unsafe for a pillion passenger to lean or look around independently of",
+        "my": "ဆိုင်ကယ်ကွေ့နေချိန် ပွဲတွဲစီးသူ ယာဉ်မောင်းသူနှင့် သီးခြားစွာ ညိမ့်ခြင်း သို့မဟုတ"
+      }
     }
   },
   {
@@ -2653,6 +2989,14 @@
       "title": "Inspired Set 7 · Protective gear",
       "titleMy": "Inspired Set 7 · Protective gear",
       "refPaper": "rtt-set-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What is the minimum protective gear legally required to ride a motorcycle in Sin",
+        "my": "Singapore တွင် ဆိုင်ကယ်မောင်းရန် ဥပဒေအရ လိုအပ်သော အနိမ့်ဆုံး ကာကွယ်ရေးပစ္စည်းက ဘ"
+      }
     }
   },
   {
@@ -2695,6 +3039,14 @@
       "title": "Inspired Set 8 · Blind spots",
       "titleMy": "Inspired Set 8 · Blind spot",
       "refPaper": "rtt-set-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/expressway-ahead.png",
+      "alt": {
+        "en": "A rider notices a car's right turn signal blinking while the car is in the lane ",
+        "my": "ယာဉ်မောင်းသူ၏ ဘယ်ဘက်လမ်းကြောတွင် အနည်းငယ်ရှေ့ကရှိသော ကားတစ်စီး၏ ညာဘက်ကွေ့မီးပြ မ"
+      }
     }
   },
   {
@@ -2737,6 +3089,14 @@
       "title": "Inspired Set 8 · Blind spots",
       "titleMy": "Inspired Set 8 · Blind spot",
       "refPaper": "rtt-set-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/bus-lane.png",
+      "alt": {
+        "en": "While overtaking a slow-moving lorry, a rider should be most cautious of which b",
+        "my": "နှေးနှေးသွားနေသော ကုန်တင်ကားကို ကျော်တက်နေစဉ် ယာဉ်မောင်းသူသည် မည်သည့် မျက်စိမမြင"
+      }
     }
   },
   {
@@ -2779,6 +3139,14 @@
       "title": "Inspired Set 8 · Blind spots",
       "titleMy": "Inspired Set 8 · Blind spot",
       "refPaper": "rtt-set-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What can a rider wear to improve visibility to other road users, especially at n",
+        "my": "ညဘက်တွင် အခြားလမ်းသုံးသူများက ပိုမြင်နိုင်ရန် ယာဉ်မောင်းသူသည် ဘာဝတ်ဆင်နိုင်သလဲ။"
+      }
     }
   },
   {
@@ -2821,6 +3189,14 @@
       "title": "Inspired Set 8 · Blind spots",
       "titleMy": "Inspired Set 8 · Blind spot",
       "refPaper": "rtt-set-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/bus-lane.png",
+      "alt": {
+        "en": "Why should a rider avoid lingering directly beside a large vehicle at a junction",
+        "my": "လမ်းဆုံတွင် ယာဉ်ကြီးတစ်စီးဘေးတွင် တိုက်ရိုက်ကြာရှည်ရပ်နားခြင်းကို ယာဉ်မောင်းသူ ဘ"
+      }
     }
   },
   {
@@ -2863,6 +3239,14 @@
       "title": "Inspired Set 8 · Blind spots",
       "titleMy": "Inspired Set 8 · Blind spot",
       "refPaper": "rtt-set-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/bus-lane.png",
+      "alt": {
+        "en": "When riding behind a bus that is about to depart from a bus stop, what should a ",
+        "my": "ဘတ်စ်ကားမှတ်တိုင်မှ ထွက်ခွာတော့မည့် ဘတ်စ်ကားနောက်တွင် မောင်းနှင်စဉ် ယာဉ်မောင်းသူ"
+      }
     }
   },
   {
@@ -2905,6 +3289,14 @@
       "title": "Inspired Set 8 · Blind spots",
       "titleMy": "Inspired Set 8 · Blind spot",
       "refPaper": "rtt-set-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/cross-junction.png",
+      "alt": {
+        "en": "What riding technique helps make a motorcycle more visible when approaching a ju",
+        "my": "ရပ်နားထားသောယာဉ်များက အမြင်ကို ပိတ်ဆို့နေသော လမ်းဆုံသို့ ချဥ်းကပ်သောအခါ ဆိုင်ကယ်"
+      }
     }
   },
   {
@@ -2947,6 +3339,14 @@
       "title": "Inspired Set 8 · Blind spots",
       "titleMy": "Inspired Set 8 · Blind spot",
       "refPaper": "rtt-set-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Why are motorcyclists particularly vulnerable at signalised intersections?",
+        "my": "ဆိုင်ကယ်မောင်းသူများသည် မီးပွိုင့် ထားသော လမ်းဆုံများတွင် အဘယ်ကြောင့် အထူးသဖြင့်"
+      }
     }
   },
   {
@@ -2989,6 +3389,14 @@
       "title": "Inspired Set 8 · Blind spots",
       "titleMy": "Inspired Set 8 · Blind spot",
       "refPaper": "rtt-set-8"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Why are motorcycles especially vulnerable to other drivers' blind spots?",
+        "my": "ဆိုင်ကယ်များသည် အခြားယာဉ်မောင်းသူများ၏ မျက်စိမမြင်ရသောနေရာများတွင် အထူးထိခိုက်လွ"
+      }
     }
   },
   {
@@ -3031,6 +3439,14 @@
       "title": "Inspired Set 9 · Weather & road surface",
       "titleMy": "Inspired Set 9 · ရာသီဥတု",
       "refPaper": "rtt-set-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/expressway-ahead.png",
+      "alt": {
+        "en": "In strong gusty crosswinds (e.g. when passing a gap between buildings), what sho",
+        "my": "အင်အားကြီး လေတိုက်ထောင့်လေများ (ဥပမာ အဆောက်အအုံများကြားမှ ဖြတ်သန်းချိန်) ၌ ယာဉ်မ"
+      }
     }
   },
   {
@@ -3073,6 +3489,14 @@
       "title": "Inspired Set 9 · Weather & road surface",
       "titleMy": "Inspired Set 9 · ရာသီဥတု",
       "refPaper": "rtt-set-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/expressway-ahead.png",
+      "alt": {
+        "en": "On a hot day, why might road tar feel different to ride over compared to a coole",
+        "my": "နေပူသောနေ့တွင် လမ်းကတ္တရာသည် အေးသောနေ့နှင့် နှိုင်းယှဉ်ပါက ယာဉ်မောင်းနှင်ရန် ကွဲ"
+      }
     }
   },
   {
@@ -3115,6 +3539,14 @@
       "title": "Inspired Set 9 · Weather & road surface",
       "titleMy": "Inspired Set 9 · ရာသီဥတု",
       "refPaper": "rtt-set-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/slippery-road.png",
+      "alt": {
+        "en": "Why is a painted lane marking or metal manhole cover especially hazardous for a ",
+        "my": "မိုးထဲတွင် ဆိုင်ကယ်အတွက် ပန်းချီရေးသား လမ်းကြောင်းအမှတ်အသား သို့မဟုတ် သံပြားလျှေ"
+      }
     }
   },
   {
@@ -3157,6 +3589,14 @@
       "title": "Inspired Set 9 · Weather & road surface",
       "titleMy": "Inspired Set 9 · ရာသီဥတု",
       "refPaper": "rtt-set-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/caution-road-users.png",
+      "alt": {
+        "en": "Why are loose gravel or sand patches particularly dangerous for motorcycles?",
+        "my": "ကျောက်စရစ် သို့မဟုတ် သဲလွတ်ကျိုးများသော နေရာများသည် ဆိုင်ကယ်များအတွက် အထူးအန္တရာ"
+      }
     }
   },
   {
@@ -3199,6 +3639,14 @@
       "title": "Inspired Set 9 · Weather & road surface",
       "titleMy": "Inspired Set 9 · ရာသီဥတု",
       "refPaper": "rtt-set-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/slippery-road.png",
+      "alt": {
+        "en": "Why is the first 10-15 minutes of rainfall often the most slippery time to ride?",
+        "my": "မိုးစတင်ရွာသွန်းချိန် ပထမ ၁၀-၁၅ မိနစ်သည် ယာဉ်မောင်းရန် အချော်လိမ့်ဆုံးအချိန် ဖြစ"
+      }
     }
   },
   {
@@ -3241,6 +3689,14 @@
       "title": "Inspired Set 9 · Weather & road surface",
       "titleMy": "Inspired Set 9 · ရာသီဥတု",
       "refPaper": "rtt-set-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/bus-lane.png",
+      "alt": {
+        "en": "Why should a rider increase following distance behind a heavy vehicle during rai",
+        "my": "မိုးရွာချိန် ယာဉ်ကြီးတစ်စီးနောက်တွင် နောက်လိုက်အကွာအဝေးကို တိုးသင့်သည် ဘာကြောင့်"
+      }
     }
   },
   {
@@ -3283,6 +3739,14 @@
       "title": "Inspired Set 9 · Weather & road surface",
       "titleMy": "Inspired Set 9 · ရာသီဥတု",
       "refPaper": "rtt-set-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/slippery-road.png",
+      "alt": {
+        "en": "What additional risk do fallen leaves or wet leaf litter on the road create for ",
+        "my": "လမ်းပေါ်ရှိ ကျသွားသော သစ်ရွက်များ သို့မဟုတ် စွတ်စိုနေသော သစ်ရွက်အစများသည် ယာဉ်မေ"
+      }
     }
   },
   {
@@ -3325,6 +3789,14 @@
       "title": "Inspired Set 9 · Weather & road surface",
       "titleMy": "Inspired Set 9 · ရာသီဥတု",
       "refPaper": "rtt-set-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/slippery-road.png",
+      "alt": {
+        "en": "What should a rider do when riding through a puddle or pool of standing water of",
+        "my": "အနက်မသိသော ရေအိုင် သို့မဟုတ် ရေတိုက်ခြင်းကို ဖြတ်သန်းချိန် ယာဉ်မောင်းသူ ဘာလုပ်သင"
+      }
     }
   },
   {
@@ -3413,10 +3885,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/no-entry-for-bicycles.png",
+      "src": "/signs/sg/no-overtaking.png",
       "alt": {
         "en": "A sign with a bicycle symbol inside a red circle with a diagonal bar means what?",
-        "my": "အနီရောင်စက်ဝိုင်းအတွင်း ဖြတ်မျဉ်းနှင့်အတူ စက်ဘီးပုံပါသော ဆိုင်းဘုတ်သည် ဘာကိုဆိုလိုသလဲ။"
+        "my": "အနီရောင်စက်ဝိုင်းအတွင်း ဖြတ်မျဉ်းနှင့်အတူ စက်ဘီးပုံပါသော ဆိုင်းဘုတ်သည် ဘာကိုဆိုလ"
       }
     },
     "inspiredSet": {
@@ -3463,10 +3935,10 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/sg/speed-limit-70.png",
+      "src": "/signs/sg/drive-within-the-speed-limit.png",
       "alt": {
-        "en": "A circular sign showing the number '70' inside a red border on a white background means what?",
-        "my": "အဖြူရောင်နောက်ခံပေါ် အနီရောင်အနားသတ်အတွင်း '70' ဂဏန်းပါသော စက်ဝိုင်းဆိုင်းဘုတ်သည် ဘာကိုဆိုလိုသလဲ။"
+        "en": "A circular sign showing the number '70' inside a red border on a white backgroun",
+        "my": "အဖြူရောင်နောက်ခံပေါ် အနီရောင်အနားသတ်အတွင်း '70' ဂဏန်းပါသော စက်ဝိုင်းဆိုင်းဘုတ်သည"
       }
     },
     "inspiredSet": {
@@ -3517,6 +3989,14 @@
       "title": "Inspired Set 10 · Mixed review A",
       "titleMy": "Inspired Set 10 · mixed review A",
       "refPaper": "rtt-set-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/amber.png",
+      "alt": {
+        "en": "You approach a junction with flashing red traffic lights but no officer present.",
+        "my": "ရဲမရှိသော လမ်းဆုံတွင် မီးနီ တဖျတ်ဖျတ်ပြနေသည်ကို တွေ့ရလျှင် မှန်ကန်သောလုပ်ဆောင်ချ"
+      }
     }
   },
   {
@@ -3559,6 +4039,14 @@
       "title": "Inspired Set 10 · Mixed review A",
       "titleMy": "Inspired Set 10 · mixed review A",
       "refPaper": "rtt-set-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/pedestrian-crossing-ahead.png",
+      "alt": {
+        "en": "At an unsignalised pedestrian crossing, a pedestrian is waiting at the curb but ",
+        "my": "မီးပြမရှိသော လူကူးမျဉ်းတွင် လူတစ်ဦးသည် လမ်းကောင်ဘေးတွင် စောင့်နေသော်လည်း လူကူးမျ"
+      }
     }
   },
   {
@@ -3601,6 +4089,14 @@
       "title": "Inspired Set 10 · Mixed review A",
       "titleMy": "Inspired Set 10 · mixed review A",
       "refPaper": "rtt-set-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/amber.png",
+      "alt": {
+        "en": "A flashing amber arrow at a signalised junction allows you to turn in that direc",
+        "my": "ယာဉ်မီးပြလမ်းဆုံတွင် မီးဝါမြှား တဖျတ်ဖျတ်ပြနေလျှင် မည်သည့်အခြေအနေနှင့် ကိုက်ညီမှ"
+      }
     }
   },
   {
@@ -3643,6 +4139,14 @@
       "title": "Inspired Set 10 · Mixed review A",
       "titleMy": "Inspired Set 10 · mixed review A",
       "refPaper": "rtt-set-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/cross-junction.png",
+      "alt": {
+        "en": "Two riders approach a junction from opposite directions, both wanting to turn ri",
+        "my": "ယာဉ်မီးပြမရှိသော လမ်းဆုံသို့ ယာဉ်မောင်းသူနှစ်ဦးသည် ဆန့်ကျင်ဘက်လမ်းကြောင်းများမှ "
+      }
     }
   },
   {
@@ -3685,6 +4189,14 @@
       "title": "Inspired Set 10 · Mixed review A",
       "titleMy": "Inspired Set 10 · mixed review A",
       "refPaper": "rtt-set-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/caution.png",
+      "alt": {
+        "en": "What does a sign with a black exclamation mark in a yellow triangle, placed with",
+        "my": "အခြားအမှတ်အသားမပါဘဲ အဝါရောင်တြိဂံအတွင်း အနက်ရောင် အာမေဋိတ်အမှတ်ပါသော ဆိုင်းဘုတ်သ"
+      }
     }
   },
   {
@@ -3727,6 +4239,14 @@
       "title": "Inspired Set 11 · Mixed review B",
       "titleMy": "Inspired Set 11 · mixed review B",
       "refPaper": "rtt-set-11"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What is the legal requirement for a motorcycle's headlight during daytime riding",
+        "my": "Singapore တွင် နေ့ဘက်မောင်းနှင်စဉ် ဆိုင်ကယ်၏ ရှေ့မီးအတွက် ဥပဒေအရ လိုအပ်ချက်က ဘာလ"
+      }
     }
   },
   {
@@ -3769,6 +4289,14 @@
       "title": "Inspired Set 11 · Mixed review B",
       "titleMy": "Inspired Set 11 · mixed review B",
       "refPaper": "rtt-set-11"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/expressway-ahead.png",
+      "alt": {
+        "en": "What must a motorcyclist do before changing lanes?",
+        "my": "လမ်းကြောပြောင်းမီ ဆိုင်ကယ်မောင်းသူ ဘာလုပ်ရမည်လဲ။"
+      }
     }
   },
   {
@@ -3811,6 +4339,14 @@
       "title": "Inspired Set 11 · Mixed review B",
       "titleMy": "Inspired Set 11 · mixed review B",
       "refPaper": "rtt-set-11"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What effect does a strong crosswind have on a motorcycle?",
+        "my": "ပြင်းထန်သော အလျားကိုင်ကွေ့လေသည် ဆိုင်ကယ်အပေါ် မည်သို့ သက်ရောက်သလဲ။"
+      }
     }
   },
   {
@@ -3853,6 +4389,14 @@
       "title": "Inspired Set 11 · Mixed review B",
       "titleMy": "Inspired Set 11 · mixed review B",
       "refPaper": "rtt-set-11"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What should a rider do with their eyes when going through a corner?",
+        "my": "ကွေ့ချိုးကို ဖြတ်သန်းစဉ် ယာဉ်မောင်းသူသည် မျက်စိကို ဘယ်ဘက်သို့ ထားရှိသင့်သလဲ။"
+      }
     }
   },
   {
@@ -3895,6 +4439,14 @@
       "title": "Inspired Set 11 · Mixed review B",
       "titleMy": "Inspired Set 11 · mixed review B",
       "refPaper": "rtt-set-11"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What riding technique helps maintain stability and control while cornering on a ",
+        "my": "ဆိုင်ကယ်ဖြင့် ကွေ့ချိုးကိုဖြတ်သန်းစဉ် တည်ငြိမ်မှုနှင့်ထိန်းချုပ်မှုကို ထိန်းသိမ်"
+      }
     }
   },
   {
@@ -3937,6 +4489,14 @@
       "title": "Inspired Set 11 · Mixed review B",
       "titleMy": "Inspired Set 11 · mixed review B",
       "refPaper": "rtt-set-11"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Before changing lanes, in addition to checking the mirrors, what else should a r",
+        "my": "လမ်းကြောမပြောင်းမီ ကြေးမှန်ကို စစ်ဆေးခြင်းအပြင် ယာဉ်မောင်းသူ ဘာထပ်လုပ်ရမည်လဲ။"
+      }
     }
   },
   {
@@ -3979,6 +4539,14 @@
       "title": "Inspired Set 11 · Mixed review B",
       "titleMy": "Inspired Set 11 · mixed review B",
       "refPaper": "rtt-set-11"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What is the purpose of a motorcycle's tail light flashing brighter during hard b",
+        "my": "ဆိုင်ကယ်တွင် ပါရှိလျှင် ပြင်းထန်စွာ ဘရိတ်ကိုက်စဉ် နောက်မီးပိုတောက်ပစေခြင်း၏ ရည်ရ"
+      }
     }
   },
   {
@@ -4021,6 +4589,14 @@
       "title": "Inspired Set 11 · Mixed review B",
       "titleMy": "Inspired Set 11 · mixed review B",
       "refPaper": "rtt-set-11"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/expressway-ahead.png",
+      "alt": {
+        "en": "A sign shows a motorcycle and a car side by side with an arrow merging into one ",
+        "my": "ဆိုင်ကယ်နှင့်ကားကို တန်းလျားကွပ်ပြီး လမ်းကြောတစ်ကြောင်းတည်းသို့ ပေါင်းစည်းနေသည့်"
+      }
     }
   },
   {
@@ -4063,6 +4639,14 @@
       "title": "Inspired Set 12 · RTT topic review",
       "titleMy": "Inspired Set 12 · RTT topic review",
       "refPaper": "rtt-set-12"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/caution.png",
+      "alt": {
+        "en": "A triangular sign with a red border generally indicates what type of message?",
+        "my": "အနီရောင်အနားသတ်ပါသော တြိဂံပုံဆိုင်းဘုတ်သည် ပုံမှန်အားဖြင့် မည်သည့်အမျိုးအစားအချက"
+      }
     }
   },
   {
@@ -4105,6 +4689,14 @@
       "title": "Inspired Set 12 · RTT topic review",
       "titleMy": "Inspired Set 12 · RTT topic review",
       "refPaper": "rtt-set-12"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/ahead-only.png",
+      "alt": {
+        "en": "A round blue sign with a white arrow pointing left means what?",
+        "my": "အပြာရောင်စက်ဝိုင်းအတွင်း ဘယ်ဘက်သို့ ညွှန်နေသော အဖြူရောင်မြှားသည် ဘာကို ဆိုလိုသလဲ"
+      }
     }
   },
   {
@@ -4147,6 +4739,14 @@
       "title": "Inspired Set 12 · RTT topic review",
       "titleMy": "Inspired Set 12 · RTT topic review",
       "refPaper": "rtt-set-12"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/parking-signboard.png",
+      "alt": {
+        "en": "A blue rectangular sign showing a white 'P' with a red diagonal bar through it m",
+        "my": "အဖြူရောင် 'P' စာလုံးနှင့် အနီရောင်ဖြတ်မျဉ်းပါသော အပြာရောင် စတုဂံဆိုင်းဘုတ်သည် ဘာ"
+      }
     }
   },
   {
@@ -4189,6 +4789,14 @@
       "title": "Inspired Set 12 · RTT topic review",
       "titleMy": "Inspired Set 12 · RTT topic review",
       "refPaper": "rtt-set-12"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/expressway-ahead.png",
+      "alt": {
+        "en": "A green rectangular sign with a white arrow and text showing a place name is wha",
+        "my": "နေရာအမည်နှင့် အဖြူရောင်မြှားပါသော အစိမ်းရောင် စတုဂံဆိုင်းဘုတ်သည် မည်သည့်အမျိုးအစ"
+      }
     }
   },
   {
@@ -4231,6 +4839,14 @@
       "title": "Inspired Set 12 · RTT topic review",
       "titleMy": "Inspired Set 12 · RTT topic review",
       "refPaper": "rtt-set-12"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What does the rider need to ensure before allowing someone to ride as a pillion ",
+        "my": "တစ်စုံတစ်ယောက်ကို ပွဲတွဲတစီးနင်းခွင့်ပြုမီ ယာဉ်မောင်းသူ ဘာကို သေချာလုပ်ရမည်လဲ။"
+      }
     }
   },
   {
@@ -4273,6 +4889,14 @@
       "title": "Inspired Set 12 · RTT topic review",
       "titleMy": "Inspired Set 12 · RTT topic review",
       "refPaper": "rtt-set-12"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "Is it legal to carry more than one pillion passenger on a standard Class 2B moto",
+        "my": "စံ Class 2B ဆိုင်ကယ်တစ်စီးတွင် ပွဲတွဲစီးသူတစ်ဦးထက်ပို၍ ဆောင်ရွက်ခွင့် ဥပဒေအရ ရှိ"
+      }
     }
   },
   {
@@ -4315,6 +4939,14 @@
       "title": "Inspired Set 12 · RTT topic review",
       "titleMy": "Inspired Set 12 · RTT topic review",
       "refPaper": "rtt-set-12"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/no-entry-for-motorcycles.png",
+      "alt": {
+        "en": "What standard must a motorcycle helmet meet to be legally worn in Singapore?",
+        "my": "Singapore တွင် တရားဝင် ဆိုင်ကယ် ဦးထုပ်သည် မည်သည့် စံနှုန်းနှင့် ကိုက်ညီရမည်လဲ။"
+      }
     }
   },
   {
@@ -4357,6 +4989,14 @@
       "title": "Inspired Set 12 · RTT topic review",
       "titleMy": "Inspired Set 12 · RTT topic review",
       "refPaper": "rtt-set-12"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/slippery-road.png",
+      "alt": {
+        "en": "What is the safest action if a sudden heavy downpour severely reduces visibility",
+        "my": "ဆိုင်ကယ်မောင်းနှင်နေချိန် ရုတ်တရက် မိုးသည်းထန်စွာ ရွာသွန်းကာ မြင်နိုင်စွမ်းကို ပ"
+      }
     }
   }
 ]
