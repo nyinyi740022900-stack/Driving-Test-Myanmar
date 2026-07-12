@@ -1,6 +1,6 @@
 export interface LegalSection {
   title: string;
-  paragraphs: string[];
+  paragraphs?: string[];
   bullets?: string[];
 }
 
@@ -69,7 +69,7 @@ export default function LegalDocument({
                 gap: 10,
               }}
             >
-              {section.paragraphs.map(paragraph => (
+              {(section.paragraphs ?? []).map(paragraph => (
                 <p key={paragraph}>{paragraph}</p>
               ))}
               {section.bullets && section.bullets.length > 0 && (

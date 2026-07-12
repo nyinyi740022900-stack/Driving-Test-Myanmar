@@ -23,7 +23,7 @@ export default async function PrivacyPage({ params }: PageProps) {
 
   const localizedSections = sections.map(section => ({
     ...section,
-    paragraphs: section.paragraphs.map(p =>
+    paragraphs: (section.paragraphs ?? []).map(p =>
       p.replaceAll('{brand}', BRAND_NAME).replaceAll('{site}', siteHost),
     ),
     bullets: section.bullets?.map(b =>
