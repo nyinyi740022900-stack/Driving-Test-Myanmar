@@ -8,6 +8,24 @@ Use these when rebuilding JP quiz media (copyright-safe: trace or redraw from of
 |--------|-----|----------|
 | **国土交通省 — 道路標識一覧** | https://www.mlit.go.jp/road/sign/sign/douro/ichiran.pdf | Full catalog: 警戒・規制・指示・案内・補助標識 with official shapes and colours |
 
+**Local copy (not in git — `images/` is gitignored):**
+
+```bash
+# Already downloaded to:
+web/content/spreadsheet-workflow/images/jp/mlit-ichiran.pdf
+
+# Render vector PDF at 300 DPI (~4960×3508 px — much sharper than a browser screenshot)
+cd web && python3 scripts/extract-jp-mlit-signs.py render
+
+# Crop one sign into 800×600 (pick x,y,w,h from the full PNG in Preview/Figma)
+python3 scripts/extract-jp-mlit-signs.py crop --name jp-stop --x 1200 --y 2100 --w 180 --h 180
+
+# Or batch from crops.json after adding boxes
+python3 scripts/extract-jp-mlit-signs.py batch
+```
+
+Output frames: `content/spreadsheet-workflow/images/jp/crops/*.png` (800×600, white padding).
+
 ## Police / legal (authoritative definitions + appendix diagrams)
 
 | Source | URL | Contents |
