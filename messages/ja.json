@@ -1,2855 +1,2858 @@
 {
-  "nav": {
-    "tests": "試験",
-    "try": "練習",
-    "how": "使い方",
-    "res": "学ぶ",
-    "pricing": "料金",
-    "centre": "教習所",
-    "premium": "プレミアム",
-    "signin": "ログイン",
-    "signout": "ログアウト",
-    "report": "問題を報告",
-    "help": "ヘルプ"
-  },
+ "nav": {
+  "tests": "試験",
+  "try": "練習",
+  "how": "使い方",
+  "res": "学ぶ",
+  "pricing": "料金",
+  "centre": "教習所",
+  "premium": "プレミアム",
+  "signin": "ログイン",
+  "signout": "ログアウト",
+  "report": "問題を報告",
+  "help": "ヘルプ"
+ },
+ "hero": {
+  "eyebrow_sg": "シンガポール · BTT / FTT / RTT",
+  "eyebrow_jp": "日本 · 普通免許 / 二輪免許",
+  "title": "一発で学科試験に合格。",
+  "lead": "すべての問題に画像かアニメーションつき。標識を見て、ルールを理解し、自信を持って試験へ。",
+  "cta_start": "無料で練習を始める",
+  "cta_how": "使い方を見る",
+  "stat_q": "練習問題",
+  "stat_pass": "合格点",
+  "stat_lang": "学習言語",
+  "stat_lang_sg": "EN · MY",
+  "stat_lang_jp": "JA · MY"
+ },
+ "tests": {
+  "eyebrow": "ルートを選ぶ",
+  "heading": "受ける試験を選んでください",
+  "sub": "各試験に3つの学習モード — シンガポール BTT・FTT・RTT 合計 {count} 問の練習問題。",
+  "sub_jp": "各試験に3つの学習モード — 普通免許・二輪免許 合計 {count} 問の練習問題。",
+  "questions": "問",
+  "practice_questions": "練習問題",
+  "mock_questions": "模擬試験",
+  "to_pass": "合格",
+  "learn": "学ぶ",
+  "practise": "練習",
+  "mock": "模擬試験",
+  "learn_more": "{test}について"
+ },
+ "demo": {
+  "eyebrow": "見てから答える",
+  "heading": "今すぐ問題を解いてみる",
+  "sub": "登録不要。答えをタップすると即フィードバック — すべての問題がこの形式です。",
+  "correct": "正解 —",
+  "wrong": "不正解 —"
+ },
+ "how": {
+  "eyebrow": "3つのモード、1本の道",
+  "heading": "学び、練習し、実力を証明",
+  "s1_h": "学ぶ",
+  "s1_p": "各ルールを標識やアニメーションと一緒に、わかりやすい解説つきで読めます。",
+  "s2_h": "練習",
+  "s2_p": "自分のペースで即時フィードバック。間違えた理由も表示されるので定着します。",
+  "s3_h": "模擬試験",
+  "s3_p": "本番と同じ問題数・90%の合格点で時間制限つき受験。試験日前に実力を確認。"
+ },
+ "centre": {
+  "eyebrow": "どこで学ぶ",
+  "heading": "指定教習所",
+  "sub_sg": "シンガポールの学科試験と教習は、交通警察が認可した3つの教習所で行われます。",
+  "sub_jp": "お住まいの都道府県にある公安委員会指定の自動車教習所から始めましょう。",
+  "directions": "経路を見る →",
+  "approx": "位置は目安",
+  "jp_1": "日本では、公安委員会指定の自動車教習所を卒業することで、免許センターでの技能試験が免除されます。あとは本免許学科試験（筆記）を受験するだけです。",
+  "jp_2": "お住まいの都道府県にある教習所をお選びください。ほとんどの教習所でMT・AT両コースが利用できます。全課程は第1段階（場内教習）・第2段階（路上教習）の2段階制で、修了まで2〜4ヶ月が目安です。",
+  "view_details": "詳細を見る ↓",
+  "hide_details": "閉じる ↑",
+  "visit_website": "ウェブサイト →",
+  "contact_info": "連絡先・情報",
+  "requirements": "入校要件",
+  "steps_heading": "取得の流れ：普通免許（Class 3/3A）",
+  "highlights_label": "特長",
+  "classes_label": "取得可能な免許の種類",
+  "fees_label": "教習料金の目安（2026年）",
+  "fee_car": "普通車（Class 3/3A）",
+  "fee_moto": "バイク",
+  "fee_reg": "登録料"
+ },
+ "res": {
+  "eyebrow": "試験対策だけじゃない",
+  "heading": "本当に理解するための教材すべて",
+  "sub": "練習問題と一緒に使える無料の学習教材 — 問題だけでなく、その背景にある理解まで。",
+  "r1_h": "標識ライブラリ",
+  "r1_p": "規制・警戒・案内の全標識を種類別に整理。それぞれ画像と取るべき行動つき。",
+  "r2_h": "学習ガイドと重要ポイント",
+  "r2_p": "速度制限・違反点数・アルコール基準・車間距離を、わかりやすい図解で。",
+  "r3_h": "免許取得ロードマップ",
+  "r3_p": "教習所の登録から本免許まで、すべてのステップ — シンガポールと日本の両方。",
+  "r4_h": "二言語の交通用語集",
+  "r4_p": "すべての交通用語を両方の言語で。人の手で確認済みだから、訳の誤りで失点しない。",
+  "r5_h": "外国人ガイド",
+  "r5_p": "海外免許の切替や、ミャンマー国籍の方が運転するために必要なこと。",
+  "r6_h": "よくある質問と費用",
+  "r6_p": "試験費用・再受験ルール・免許の有効期間など、初心者がよく尋ねる質問。",
+  "r7_h": "免許の種類",
+  "r7_p": "シンガポールと日本のすべての免許種別 — 対応車両・重量制限・取得可能年齢を一覧で。",
+  "r8_h": "費用・料金一覧",
+  "r8_p": "学科試験料・教習料・免許取得にかかる総費用の完全内訳。",
+  "open": "開く →",
+  "human_reviewed": "人が確認済み",
+  "coming_soon": "近日公開",
+  "r9_h": "公式ハンドブック",
+  "r9_p": "交通警察のハンドブックと日本の免許学習資料をダウンロード — 誰でも無料。",
+  "r10_h": "会員の体験談",
+  "r10_p": "合格したプレミアム会員のリアルなアドバイス — 公開前に確認済み。",
+  "r11_h": "実技試験 減点ガイド",
+  "r11_p": "Class 3/3A最終実技試験の減点ルール — 各ミスの減点と合格基準を解説。",
+  "r12_h": "覚えやすいコツ",
+  "r12_p": "速度制限・違反点数・標識のための短い記憶のコツ — 試験前に重要な数字が頭に残ります。",
+  "r13_h": "罰則・違反点数",
+  "r13_p": "違反点数の全体像 — 基準点数、免許停止、よくある違反、免許を守る方法を1つのガイドに集約。",
+  "r14_h": "動画チュートリアル",
+  "r14_p": "厳選されたYouTubeレッスン — 運転理論をステップごとに解説する動画をアプリ内で視聴できます。"
+ },
+ "resourcesMemory": {
+  "breadcrumb_home": "ホーム",
+  "breadcrumb_title": "覚え方のコツ",
   "hero": {
-    "eyebrow_sg": "シンガポール · BTT / FTT / RTT",
-    "eyebrow_jp": "日本 · 普通免許 / 二輪免許",
-    "title": "一発で学科試験に合格。",
-    "lead": "すべての問題に画像かアニメーションつき。標識を見て、ルールを理解し、自信を持って試験へ。",
-    "cta_start": "無料で練習を始める",
-    "cta_how": "使い方を見る",
-    "stat_q": "練習問題",
-    "stat_pass": "合格点",
-    "stat_lang": "学習言語",
-    "stat_lang_sg": "EN · MY",
-    "stat_lang_jp": "JA · MY"
+   "eyebrow": "賢く学ぶ",
+   "title": "覚えやすいコツ",
+   "lead": "試験形式・速度・違反点数・標識・優先道路など、BTT/FTT/RTTと日本学科試験で繰り返し出る覚え方のコツ。"
   },
-  "tests": {
-    "eyebrow": "ルートを選ぶ",
-    "heading": "受ける試験を選んでください",
-    "sub": "各試験に3つの学習モード — シンガポール BTT・FTT・RTT 合計 {count} 問の練習問題。",
-    "sub_jp": "各試験に3つの学習モード — 普通免許・二輪免許 合計 {count} 問の練習問題。",
-    "questions": "問",
-    "practice_questions": "練習問題",
-    "mock_questions": "模擬試験",
-    "to_pass": "合格",
-    "learn": "学ぶ",
-    "practise": "練習",
-    "mock": "模擬試験",
-    "learn_more": "{test}について"
-  },
-  "demo": {
-    "eyebrow": "見てから答える",
-    "heading": "今すぐ問題を解いてみる",
-    "sub": "登録不要。答えをタップすると即フィードバック — すべての問題がこの形式です。",
-    "correct": "正解 —",
-    "wrong": "不正解 —"
-  },
-  "how": {
-    "eyebrow": "3つのモード、1本の道",
-    "heading": "学び、練習し、実力を証明",
-    "s1_h": "学ぶ",
-    "s1_p": "各ルールを標識やアニメーションと一緒に、わかりやすい解説つきで読めます。",
-    "s2_h": "練習",
-    "s2_p": "自分のペースで即時フィードバック。間違えた理由も表示されるので定着します。",
-    "s3_h": "模擬試験",
-    "s3_p": "本番と同じ問題数・90%の合格点で時間制限つき受験。試験日前に実力を確認。"
-  },
-  "centre": {
-    "eyebrow": "どこで学ぶ",
-    "heading": "指定教習所",
-    "sub_sg": "シンガポールの学科試験と教習は、交通警察が認可した3つの教習所で行われます。",
-    "sub_jp": "お住まいの都道府県にある公安委員会指定の自動車教習所から始めましょう。",
-    "directions": "経路を見る →",
-    "approx": "位置は目安",
-    "jp_1": "日本では、公安委員会指定の自動車教習所を卒業することで、免許センターでの技能試験が免除されます。あとは本免許学科試験（筆記）を受験するだけです。",
-    "jp_2": "お住まいの都道府県にある教習所をお選びください。ほとんどの教習所でMT・AT両コースが利用できます。全課程は第1段階（場内教習）・第2段階（路上教習）の2段階制で、修了まで2〜4ヶ月が目安です。",
-    "view_details": "詳細を見る ↓",
-    "hide_details": "閉じる ↑",
-    "visit_website": "ウェブサイト →",
-    "contact_info": "連絡先・情報",
-    "requirements": "入校要件",
-    "steps_heading": "取得の流れ：普通免許（Class 3/3A）",
-    "highlights_label": "特長",
-    "classes_label": "取得可能な免許の種類",
-    "fees_label": "教習料金の目安（2026年）",
-    "fee_car": "普通車（Class 3/3A）",
-    "fee_moto": "バイク",
-    "fee_reg": "登録料"
-  },
-  "res": {
-    "eyebrow": "試験対策だけじゃない",
-    "heading": "本当に理解するための教材すべて",
-    "sub": "練習問題と一緒に使える無料の学習教材 — 問題だけでなく、その背景にある理解まで。",
-    "r1_h": "標識ライブラリ",
-    "r1_p": "規制・警戒・案内の全標識を種類別に整理。それぞれ画像と取るべき行動つき。",
-    "r2_h": "学習ガイドと重要ポイント",
-    "r2_p": "速度制限・違反点数・アルコール基準・車間距離を、わかりやすい図解で。",
-    "r3_h": "免許取得ロードマップ",
-    "r3_p": "教習所の登録から本免許まで、すべてのステップ — シンガポールと日本の両方。",
-    "r4_h": "二言語の交通用語集",
-    "r4_p": "すべての交通用語を両方の言語で。人の手で確認済みだから、訳の誤りで失点しない。",
-    "r5_h": "外国人ガイド",
-    "r5_p": "海外免許の切替や、ミャンマー国籍の方が運転するために必要なこと。",
-    "r6_h": "よくある質問と費用",
-    "r6_p": "試験費用・再受験ルール・免許の有効期間など、初心者がよく尋ねる質問。",
-    "r7_h": "免許の種類",
-    "r7_p": "シンガポールと日本のすべての免許種別 — 対応車両・重量制限・取得可能年齢を一覧で。",
-    "r8_h": "費用・料金一覧",
-    "r8_p": "学科試験料・教習料・免許取得にかかる総費用の完全内訳。",
-    "open": "開く →",
-    "human_reviewed": "人が確認済み",
-    "coming_soon": "近日公開",
-    "r9_h": "公式ハンドブック",
-    "r9_p": "交通警察のハンドブックと日本の免許学習資料をダウンロード — 誰でも無料。",
-    "r10_h": "会員の体験談",
-    "r10_p": "合格したプレミアム会員のリアルなアドバイス — 公開前に確認済み。",
-    "r11_h": "実技試験 減点ガイド",
-    "r11_p": "Class 3/3A最終実技試験の減点ルール — 各ミスの減点と合格基準を解説。",
-    "r12_h": "覚えやすいコツ",
-    "r12_p": "速度制限・違反点数・標識のための短い記憶のコツ — 試験前に重要な数字が頭に残ります。",
-    "r13_h": "罰則・違反点数",
-    "r13_p": "違反点数の全体像 — 基準点数、免許停止、よくある違反、免許を守る方法を1つのガイドに集約。",
-    "r14_h": "動画チュートリアル",
-    "r14_p": "厳選されたYouTubeレッスン — 運転理論をステップごとに解説する動画をアプリ内で視聴できます。"
-  },
-  "resourcesMemory": {
-    "breadcrumb_home": "ホーム",
-    "breadcrumb_title": "覚え方のコツ",
-    "hero": {
-      "eyebrow": "賢く学ぶ",
-      "title": "覚えやすいコツ",
-      "lead": "試験形式・速度・違反点数・標識・優先道路など、BTT/FTT/RTTと日本学科試験で繰り返し出る覚え方のコツ。"
-    },
-    "note_label": "効く理由:",
-    "sg": {
-      "title": "シンガポール — 覚え方",
-      "groups": [
-        {
-          "heading": "学科試験の形式",
-          "tips": [
-            {
-              "hook": "\"50-50-90\"",
-              "topic": "BTT / FTT / RTT",
-              "detail": "50問・50分・45問正解(90%)。シンガポールの3つの学科試験は同じ形式。"
-            },
-            {
-              "hook": "\"BTT before FTT\"",
-              "topic": "試験の順番",
-              "detail": "BTT合格 → 実技教習開始 → 5回以上の教習後にFTT(RTT) → TP実技試験。"
-            }
-          ]
-        },
-        {
-          "heading": "速度と車間距離",
-          "tips": [
-            {
-              "hook": "\"Only a fool breaks the 2-second rule\"",
-              "topic": "安全な車間距離",
-              "detail": "目印を選び、前の車が通過してから2秒以上経ってから自分が通過。雨天は4秒。"
-            },
-            {
-              "hook": "\"50 in town, 90 on the E-way\"",
-              "topic": "標準速度",
-              "detail": "市街地50km/h、高速道路は標識がなければ90km/h。"
-            },
-            {
-              "hook": "\"School & silver = 40\"",
-              "topic": "低速ゾーン",
-              "detail": "スクールゾーン(学校日7–19時)とシルバーゾーン点滅時は40km/h。"
-            }
-          ]
-        },
-        {
-          "heading": "飲酒と安全",
-          "tips": [
-            {
-              "hook": "\"35 breath · 80 blood\"",
-              "topic": "飲酒基準",
-              "detail": "呼気35µg/100ml、血液80mg/100ml。新規ドライバーは初年度ゼロ。"
-            },
-            {
-              "hook": "\"Belt every seat\"",
-              "topic": "シートベルト",
-              "detail": "前後席すべて必須。身長1.35m未満はチャイルドシート。"
-            }
-          ]
-        },
-        {
-          "heading": "違反点数と標識",
-          "tips": [
-            {
-              "hook": "\"24 → out for 3\"",
-              "topic": "停止基準",
-              "detail": "24か月以内に24点で3か月停止。新規は初年度12点で停止。"
-            },
-            {
-              "hook": "\"Red says NO, Blue says GO\"",
-              "topic": "標識の色",
-              "detail": "赤輪は禁止、青は指示(左側走行など)。"
-            },
-            {
-              "hook": "\"Triangle = think ahead\"",
-              "topic": "警戒標識",
-              "detail": "赤枠三角は前方の危険を警告。"
-            },
-            {
-              "hook": "\"Octagon = STOP\"",
-              "topic": "一時停止標識",
-              "detail": "八角形はSTOPのみ — 停止線で完全停止。"
-            }
-          ]
-        },
-        {
-          "heading": "優先道路と交差点",
-          "tips": [
-            {
-              "hook": "\"Uncontrolled = yield right\"",
-              "topic": "無信号交差点",
-              "detail": "信号・標識のない交差点は右側優先。"
-            },
-            {
-              "hook": "\"Roundabout: give way to the circle\"",
-              "topic": "ラウンドアバウト",
-              "detail": "右から来る環状内の車に譲ってから進入。"
-            },
-            {
-              "hook": "\"Right turn waits for oncoming\"",
-              "topic": "右折",
-              "detail": "右折時は対向の直進・左折車に譲る。"
-            }
-          ]
-        },
-        {
-          "heading": "高速道路・横断歩道・駐車",
-          "tips": [
-            {
-              "hook": "\"Yellow box = don't block\"",
-              "topic": "黄色ボックス",
-              "detail": "出口が空いている場合のみ進入。"
-            },
-            {
-              "hook": "\"Zig-zag = no stop\"",
-              "topic": "横断歩道",
-              "detail": "ジグザグ線付近は停止・駐車禁止。"
-            },
-            {
-              "hook": "\"Left lane on the E-way\"",
-              "topic": "高速道路",
-              "detail": "左側走行、追い越し時のみ右。最低速度は通常60km/h。"
-            }
-          ]
-        }
-      ]
-    },
-    "jp": {
-      "title": "日本 — 覚え方",
-      "groups": [
-        {
-          "heading": "学科試験の形式",
-          "tips": [
-            {
-              "hook": "\"仮免 50 · 本免 95\"",
-              "topic": "試験問題数",
-              "detail": "仮免学科50問45分(45/50)、本免学科95問50分(86/95) — いずれも90%合格。"
-            },
-            {
-              "hook": "\"仮 before 本\"",
-              "topic": "免許の段階",
-              "detail": "指定校: 仮免学科+仮免技能 → 仮免取得 → 路上教習 → 本免学科。"
-            }
-          ]
-        },
-        {
-          "heading": "速度と車線",
-          "tips": [
-            {
-              "hook": "\"60 general, 100 expressway\"",
-              "topic": "標準速度",
-              "detail": "一般道60km/h、高速100km/h。生活道路は30km/h。"
-            },
-            {
-              "hook": "\"Keep left, pass right\"",
-              "topic": "車線",
-              "detail": "左側走行、追い越し時のみ右レーン。"
-            },
-            {
-              "hook": "\"Joko = 1 metre stop\"",
-              "topic": "徐行",
-              "detail": "いつでも1m以内で止まれる速度 — 横断歩道付近で重要。"
-            }
-          ]
-        },
-        {
-          "heading": "点数と飲酒",
-          "tips": [
-            {
-              "hook": "\"15 points = licence gone\"",
-              "topic": "取消し",
-              "detail": "15点(または停止歴ありでより少なく)で免許取消。"
-            },
-            {
-              "hook": "\"6-9-12-15\"",
-              "topic": "停止の段階",
-              "detail": "6–8点=30日、9–11=60日、12–14=90日、15+=取消。1年間の累計。"
-            },
-            {
-              "hook": "\"In Japan, aim for ZERO alcohol\"",
-              "topic": "飲酒運転",
-              "detail": "基準は非常に低く罰則も厳しい — 飲んでは運転しない。"
-            }
-          ]
-        },
-        {
-          "heading": "信号と標識",
-          "tips": [
-            {
-              "hook": "\"赤 stop · 青 go · 黄 slow\"",
-              "topic": "信号",
-              "detail": "赤=停止、青=進行、黄=安全なら停止。黄信号を追いかけない。"
-            },
-            {
-              "hook": "\"一時停止 = full stop + look both ways\"",
-              "topic": "一時停止",
-              "detail": "停止線で完全停止、左右確認後に進む。"
-            },
-            {
-              "hook": "\"No sign = yield right\"",
-              "topic": "無標識交差点",
-              "detail": "右側優先。広い道>狭い道。"
-            }
-          ]
-        },
-        {
-          "heading": "左折・横断歩道・高速",
-          "tips": [
-            {
-              "hook": "\"Left turn: cyclists & walkers first\"",
-              "topic": "左折",
-              "detail": "左折時は自転車・歩行者優先。死角確認。"
-            },
-            {
-              "hook": "\"Lights on in tunnels\"",
-              "topic": "ヘッドライト",
-              "detail": "トンネル内と夜間は点灯 — 街灯があっても。"
-            },
-            {
-              "hook": "\"Expressway min 50\"",
-              "topic": "高速道路",
-              "detail": "最低速度は通常50km/h — 遅すぎて妨げない。"
-            }
-          ]
-        }
-      ]
-    },
-    "back_home": "ホームに戻る"
-  },
-  "resourcesDemerit": {
-    "breadcrumb_home": "ホーム",
-    "breadcrumb_title": "罰則・違反点数",
-    "hero": {
-      "eyebrow": "集中ガイド",
-      "title": "罰則・違反点数制度",
-      "lead": "違反点数のすべてを1か所に — 免許停止になる点数、よくある違反、そして安全に運転する方法。簡潔で、覚えやすく、完全です。"
-    },
-    "golden_label": "覚えるべき一つのルール",
-    "remember_label": "記憶のコツ:",
-    "note_label": "注:",
-    "stats_title": "ひと目でわかる",
-    "offences_title": "よくある違反と点数",
-    "offences_note": "点数は公式の警察・交通警察の基準に従い、変更されることがあります — 参考にする前に必ず公式情報で最新の数値を確認してください。",
-    "levels_title": "免許停止の段階",
-    "newdriver_title": "新規・初心運転者",
-    "sg": {
-      "title": "シンガポール (DIPS)",
-      "golden": "24か月以内に24点 = 3か月停止。",
-      "hook": "「24 in 24 → out for 3」— 24か月で24点なら3か月停止。",
-      "stats": [
-        {
-          "label": "Suspension threshold",
-          "value": "24 pts",
-          "sub": "within any 24 months"
-        },
-        {
-          "label": "New driver threshold",
-          "value": "12 pts",
-          "sub": "within first 12 months"
-        },
-        {
-          "label": "First suspension",
-          "value": "3 months",
-          "sub": "for hitting 24 points"
-        },
-        {
-          "label": "Repeat suspension",
-          "value": "Longer",
-          "sub": "6+ months / possible revocation"
-        },
-        {
-          "label": "Red light offence",
-          "value": "12 pts",
-          "sub": "one of the highest common offences"
-        },
-        {
-          "label": "Mobile phone",
-          "value": "6 pts",
-          "sub": "holding phone while driving"
-        }
-      ],
-      "offences_headers": [
-        "Offence",
-        "Demerit points"
-      ],
-      "offences": [
-        [
-          "Running a red light",
-          "12 pts"
-        ],
-        [
-          "Reckless driving",
-          "12 pts"
-        ],
-        [
-          "Driving against traffic flow",
-          "12 pts"
-        ],
-        [
-          "Drink-driving (above limit)",
-          "12 pts + court"
-        ],
-        [
-          "Speeding 31+ km/h over the limit",
-          "6–24 pts"
-        ],
-        [
-          "Speeding 21–30 km/h over the limit",
-          "6 pts"
-        ],
-        [
-          "Using a mobile phone while driving",
-          "6 pts"
-        ],
-        [
-          "Failing to give way to a pedestrian",
-          "6 pts"
-        ],
-        [
-          "Crossing double white lines",
-          "6 pts"
-        ],
-        [
-          "Not wearing a seat belt",
-          "3 pts"
-        ],
-        [
-          "Speeding 1–20 km/h over the limit",
-          "0 pts (fine only)"
-        ]
-      ],
-      "levels": [
-        {
-          "label": "24 points (1st time)",
-          "value": "3-month suspension"
-        },
-        {
-          "label": "24 points again within 12 months of restoration",
-          "value": "6-month suspension"
-        },
-        {
-          "label": "Suspended before + reach 24 again",
-          "value": "Licence revocation"
-        },
-        {
-          "label": "New driver: 12 points in first year",
-          "value": "Licence revoked — must re-sit all tests"
-        }
-      ],
-      "newdriver_body": "免許取得後12か月は試用期間。12点で免許取消 — 通常の半分の基準なので特に注意。",
-      "recovery_body": "違反点数は24か月のローリングで計算 — 24か月経過で古い違反はカウントから外れます。停止後はその期間クリーンに再スタートできますが、復帰後12か月以内の再犯はより長い停止に。安全運転が唯一の確実な方法です。"
-    },
-    "jp": {
-      "title": "日本 (違反点数)",
-      "golden": "違反点数15点 = 免許取消。",
-      "hook": "「6-9-12-15」— 6点から停止、15点で免許取消。",
-      "stats": [
-        {
-          "label": "30-day suspension",
-          "value": "6–8 pts",
-          "sub": "in 1 year, no prior record"
-        },
-        {
-          "label": "60-day suspension",
-          "value": "9–11 pts",
-          "sub": "in 1 year"
-        },
-        {
-          "label": "90-day suspension",
-          "value": "12–14 pts",
-          "sub": "in 1 year"
-        },
-        {
-          "label": "Revocation (取消)",
-          "value": "15+ pts",
-          "sub": "or with a prior suspension"
-        },
-        {
-          "label": "赤信号無視",
-          "value": "2 pts",
-          "sub": "信号無視"
-        },
-        {
-          "label": "携帯使用",
-          "value": "3 pts",
-          "sub": "ながら運転"
-        }
-      ],
-      "offences_headers": [
-        "Offence",
-        "Violation points"
-      ],
-      "offences": [
-        [
-          "Drink-driving — drunk (酔い)",
-          "25 pts + criminal"
-        ],
-        [
-          "Drink-driving — impaired (酒気帯び)",
-          "13 pts"
-        ],
-        [
-          "Speeding 30–50 km/h over (general road)",
-          "6 pts"
-        ],
-        [
-          "Speeding 25–30 km/h over",
-          "3 pts"
-        ],
-        [
-          "Using a mobile phone while driving",
-          "3 pts"
-        ],
-        [
-          "Running a red light",
-          "2 pts"
-        ],
-        [
-          "Failing to stop at 一時停止",
-          "2 pts"
-        ],
-        [
-          "Not yielding to pedestrian at crossing",
-          "2 pts"
-        ],
-        [
-          "Not wearing a seat belt",
-          "1 pt"
-        ],
-        [
-          "Illegal parking (dangerous location)",
-          "1–2 pts"
-        ]
-      ],
-      "levels": [
-        {
-          "label": "6–8 points",
-          "value": "30-day suspension"
-        },
-        {
-          "label": "9–11 points",
-          "value": "60-day suspension"
-        },
-        {
-          "label": "12–14 points",
-          "value": "90-day suspension"
-        },
-        {
-          "label": "15+ points",
-          "value": "Licence revocation"
-        },
-        {
-          "label": "停止歴あり",
-          "value": "Revocation at lower point totals"
-        }
-      ],
-      "newdriver_body": "本免取得後1年間は初心運転者ルール。3点以上で講習受講の対象 — 新規は点数が早くたまるので最初から安全運転を。",
-      "recovery_body": "停止判定は1年間の累計点数。停止を終えればその段階はリセット — ただし停止歴があると次回はより少ない点数で取消になります。講習は期限までに受講し、初年度は軽微な違反も避けましょう。"
-    },
-    "see_guide": "学習ガイド全体を見る →",
-    "see_memory": "覚えやすいコツを見る →",
-    "back_home": "ホームに戻る",
-    "recovery_title": "点数の経過と回復"
-  },
-  "faq": {
-    "eyebrow": "知っておきたいこと",
-    "heading": "よくある質問",
-    "sub_sg": "シンガポール BTT・FTT・RTT — 学習者向けの実用Q&A",
-    "sub_jp": "日本 普通免許・二輪免許 — 学習者向けの実用Q&A",
-    "sg": [
+  "note_label": "効く理由:",
+  "sg": {
+   "title": "シンガポール — 覚え方",
+   "groups": [
+    {
+     "heading": "学科試験の形式",
+     "tips": [
       {
-        "q": "BTT・FTT・RTTの問題数と合格点は？",
-        "a": "各試験は50問・50分・90%合格（45問正解）。バイクはBTTの後FTTの代わりにRTTを受けます。TheoryLaneの模擬試験も同じ形式です。"
+       "hook": "\"50-50-90\"",
+       "topic": "BTT / FTT / RTT",
+       "detail": "50問・50分・45問正解(90%)。シンガポールの3つの学科試験は同じ形式。"
       },
       {
-        "q": "BTT・FTT・実技教習の順番は？",
-        "a": "BBDC/CDC/SSDCに登録 → BTT合格 → 実技教習開始 → 車は5回以上の教習後にFTT（バイクはRTT）→ Traffic Policeの技能試験予約。BTTは省略できません。"
-      },
-      {
-        "q": "学科試験の予約と受験料は？",
-        "a": "OneMotoring（onemotoring.lta.gov.sg）で予約。1回あたり約S$7.09（GST込）。不合格の場合は3日後に再予約でき、都度受験料がかかります。"
-      },
-      {
-        "q": "ミャンマー国籍 — 免許切替はできる？BTTは必要？",
-        "a": "有効なミャンマー免許とシンガポールの就労ビザ・PRがあればTraffic Policeで切替できる場合があり、BTTが不要なこともあります。Work Permitや入国12ヶ月超で未切替の場合はBTTが必要になることが多いです。OneMotoringでご自身の状況を確認してください。"
-      },
-      {
-        "q": "シンガポールの学科試験をミャンマー語で学習できる？",
-        "a": "はい。TheoryLaneはBTT/FTT/RTTの問題と解説を英語に加えミャンマー語で提供する数少ないサイトです。シンガポールで働くミャンマー人学習者に最適です。"
+       "hook": "\"BTT before FTT\"",
+       "topic": "試験の順番",
+       "detail": "BTT合格 → 実技教習開始 → 5回以上の教習後にFTT(RTT) → TP実技試験。"
       }
-    ],
-    "jp": [
-      {
-        "q": "本免許学科試験の問題数と合格点は？",
-        "a": "車・バイクの本免許学科試験は95問・50分・86問正解（90%）。教習所の仮免学科は50問・同じく90%合格です。"
-      },
-      {
-        "q": "ミャンマー国籍者の免許取得 — おすすめのルートは？",
-        "a": "ミャンマーとは免許切替協定がありません。指定教習所（高額だが確実）か免許センター一発試験（安いが教習なしは難しい）のどちらか。いずれも学科試験合格が必要です。"
-      },
-      {
-        "q": "仮免許と本免許学科試験はいつ受ける？",
-        "a": "教習所：第1段階で仮免学科・仮免技能に合格 → 仮免許取得 → 第2段階の路上教習 → 卒業検定 → 免許センターで本免許学科のみ受験。教習所卒業で技能試験が免除されます。"
-      },
-      {
-        "q": "危険予測（ア・イ・ウ）問題はある？",
-        "a": "はい。日本の学科試験には危険予測問題が含まれます。TheoryLaneでもイラスト付きで日本語・ミャンマー語の解説があります。"
-      },
-      {
-        "q": "日本の学科試験をミャンマー語で学習できる？",
-        "a": "はい。普通免許・二輪免許の練習問題を日本語とミャンマー語で提供。本免許学科試験の準備中のミャンマー人労働者に役立ちます。"
-      }
-    ],
-    "shared": [
-      {
-        "q": "本当に無料？",
-        "a": "はい。学習・練習はすべて無料。無料アカウントはカテゴリごとに1日1回模擬試験。プレミアムは広告なし・模擬試験無制限・履歴保存。"
-      },
-      {
-        "q": "プレミアムの支払いと開始時期は？",
-        "a": "月額か年額を選び、KBZPayまたはWavePayで送金し、取引IDとスクリーンショットを送信。手動承認（通常数時間以内）後、すぐにプレミアムが開始します。"
-      }
-    ]
-  },
-  "pricing": {
-    "eyebrow": "シンプルな料金",
-    "heading": "無料で開始。本気になったらプレミアムへ。",
-    "sub": "KBZPay・WavePayで支払い。プレミアムは手動確認、通常は数時間以内。",
-    "free": "無料",
-    "free_price": "無料",
-    "free_1": "学習・練習問題すべて",
-    "free_2": "模擬試験は1日1回",
-    "free_3": "広告つき",
-    "monthly": "月額プレミアム",
-    "monthly_price": "4,900 Ks",
-    "pro_1": "広告なし",
-    "pro_2": "模擬試験は無制限",
-    "pro_3": "クイズ履歴・ベストスコア",
-    "yearly": "年額プレミアム",
-    "yearly_price": "39,000 Ks",
-    "year_1": "月額の全機能",
-    "year_2": "30%以上お得",
-    "year_3": "優先確認",
-    "manual": "手動確認",
-    "cta_monthly": "月額を選ぶ",
-    "cta_yearly": "年額を選ぶ",
-    "ks": " Ks"
-  },
-  "premium": {
-    "eyebrow": "シンプルな料金",
-    "title": "プレミアムへ",
-    "lead": "広告なし、模擬試験が無制限、履歴管理も使えます。KBZPayまたはWavePayで支払い、手動確認は通常数時間以内。",
-    "best_value": "お得",
-    "plan_monthly_label": "月額プレミアム",
-    "plan_yearly_label": "年額プレミアム",
-    "plan_days": "{days}日",
-    "plan_monthly_note": "月ごとに支払い",
-    "plan_yearly_note": "30%以上お得",
-    "feature_1": "広告なし",
-    "feature_2": "模擬試験無制限",
-    "feature_3": "クイズ履歴・ベストスコア",
-    "feature_4": "優先サポート",
-    "feature_5": "プロフィールで間違えた問題を復習",
-    "choose_plan": "{plan}を選ぶ →",
-    "currency_ks": " Ks",
-    "back_home": "← ホームへ戻る",
-    "faq_prompt": "質問がある方は",
-    "faq_link": "FAQ"
-  },
-  "payment": {
-    "plan_monthly_label": "月額プレミアム",
-    "plan_yearly_label": "年額プレミアム",
-    "currency_ks": "Ks",
-    "eyebrow": "支払いを完了",
-    "step_method": "1. 支払い方法を選択",
-    "step_transfer": "2. {amount} Ks を送金",
-    "account_name": "口座名義",
-    "brand_name": "TheoryLane",
-    "copy": "コピー",
-    "step_txn": "3. 取引コードの下6桁を入力",
-    "txn_placeholder": "例: 123456",
-    "step_screenshot": "4. 支払いスクリーンショット（任意・承認が早くなります）",
-    "compressing": "スクリーンショットを最適化中…",
-    "screenshot_ready": "アップロード準備完了 · {size} KB",
-    "submitting": "送信中…",
-    "submit_cta": "支払い情報を送信 →",
-    "footer_note": "数時間以内にアカウントがアップグレードされます。",
-    "verify_name_note": "受取名義が {name} と一致することを確認してください。",
-    "submitted_title": "支払いを送信しました！",
-    "submitted_desc": "{plan} の支払い情報を受け取りました。確認後、数時間以内にアップグレードされます。",
-    "submitted_note": "承認は手動で行われます（通常数時間以内）。プレミアム状態は再ログイン後に更新してください。",
-    "submitted_contact": "24時間以内に反映されない場合は連絡してください",
-    "back_home": "← ホームへ戻る",
-    "error_generic": "エラーが発生しました",
-    "error_txn_digits": "取引コードの下6桁を入力してください"
-  },
-  "profile": {
-    "back_home": "← ホームへ戻る",
-    "member_since": "{date} からメンバー",
-    "sign_out": "ログアウト",
-    "current_plan": "現在のプラン",
-    "plan_free": "無料",
-    "plan_premium": "プレミアム",
-    "plan_monthly": "月額プレミアム",
-    "plan_yearly": "年額プレミアム",
-    "status_active": "● 有効",
-    "status_free": "○ 無料プラン",
-    "upgrade_cta": "プレミアムへアップグレード →",
-    "expires": "有効期限",
-    "features": "特典",
-    "features_value": "広告なし · 模擬試験無制限 · クイズ履歴・ベストスコア · 優先サポート",
-    "free_note": "無料プランはカテゴリーごとに1日1回の模擬試験が含まれます。無制限・広告なし・履歴管理のためにアップグレードしてください。",
-    "progress_heading": "進捗サマリー",
-    "attempts_label": "挑戦 {count} 回",
-    "no_attempts": "まだ未挑戦",
-    "best_score": "最高スコア",
-    "settings_heading": "アカウント設定",
-    "email_label": "メールアドレス",
-    "account_id_label": "アカウントID",
-    "email_verified_label": "メール認証",
-    "email_verified": "✓ 認証済み",
-    "email_not_verified": "✗ 未認証",
-    "payments_heading": "支払い履歴",
-    "payments_empty": "支払いはまだありません。",
-    "view_plans": "プランを見る →",
-    "rejection_note": "メモ: {note}",
-    "currency_ks": "Ks",
-    "wrong_answers_heading": "復習すべき問題",
-    "wrong_answers_empty": "練習で間違えた問題がここに保存されます。",
-    "wrong_answers_clear": "リストを消去",
-    "wrong_answers_practice_link": "もう一度練習",
-    "wrong_answers_more": "他 {count} 件保存中"
-  },
-  "countdown": {
-    "heading": "試験カウントダウン",
-    "intro": "試験日を設定すると、残り日数をお知らせします。",
-    "date_label": "試験日",
-    "set_cta": "日付を設定",
-    "change_cta": "変更",
-    "clear_cta": "クリア",
-    "save_cta": "保存",
-    "days_to_go": "あと {count} 日",
-    "today": "今日が試験日です — 頑張ってください！🚗",
-    "passed": "試験日が過ぎました。新しく設定しますか？",
-    "exam_on": "試験日：{date}"
-  },
-  "streak": {
-    "heading": "連続学習",
-    "current": "現在の連続日数",
-    "longest": "最長連続日数",
-    "days": "{count} 日",
-    "none": "今日練習して連続記録を始めましょう！",
-    "keep_going": "毎日練習して継続しましょう 🔥"
-  },
-  "offline": {
-    "banner": "オフラインです — 保存済みのページを表示しています。一部の機能には接続が必要です。"
-  },
-  "referral": {
-    "heading": "友達を招待",
-    "intro": "リンクを共有しましょう。友達が登録すると、あなたの招待にカウントされます。",
-    "your_link": "あなたの招待リンク",
-    "copy": "リンクをコピー",
-    "copied": "コピーしました ✓",
-    "share": "共有",
-    "invited": "{count, plural, =0 {まだ友達はいません} other {友達 {count} 人が参加}}",
-    "share_title": "TheoryLane で一緒に学びましょう",
-    "share_text": "TheoryLane で運転免許の学科試験を練習中です — 一緒にどうですか！"
-  },
-  "resourcesGuide": {
-    "breadcrumb_home": "← ホームへ戻る",
-    "breadcrumb_title": "学習ガイド",
-    "hero": {
-      "eyebrow": "学習教材",
-      "title": "学習ガイドと重要ポイント",
-      "lead": "試験形式・速度制限・飲酒基準・違反点数・停止距離・優先道路・駐車ルールなど、学科試験に必要な重要ポイントをまとめました。"
+     ]
     },
-    "note_label": "注:",
-    "back_home": "← ホームへ戻る",
-    "sg": {
-      "title": "シンガポール",
-      "test_format": {
-        "title": "学科試験の形式",
-        "items": [
-          {
-            "label": "BTT (基礎学科)",
-            "value": "50 Q",
-            "sub": "50分 · 45/50 (90%) 合格"
-          },
-          {
-            "label": "FTT (最終学科)",
-            "value": "50 Q",
-            "sub": "50分 · 45/50 (90%) 合格"
-          },
-          {
-            "label": "RTT (二輪学科)",
-            "value": "50 Q",
-            "sub": "50分 · 45/50 (90%) 合格"
-          },
-          {
-            "label": "BTT / FTT 有効期間",
-            "value": "2年",
-            "sub": "この期間内に実技を完了"
-          }
-        ]
+    {
+     "heading": "速度と車間距離",
+     "tips": [
+      {
+       "hook": "\"Only a fool breaks the 2-second rule\"",
+       "topic": "安全な車間距離",
+       "detail": "目印を選び、前の車が通過してから2秒以上経ってから自分が通過。雨天は4秒。"
       },
-      "speed_limits": {
-        "title": "速度制限",
-        "items": [
-          {
-            "label": "市街地",
-            "value": "50 km/h",
-            "sub": "標準の制限速度"
-          },
-          {
-            "label": "主要道路",
-            "value": "70 km/h",
-            "sub": "標識がある道路"
-          },
-          {
-            "label": "高速道路 (PIE, CTE…)",
-            "value": "90 km/h",
-            "sub": "標識がない場合"
-          },
-          {
-            "label": "スクールゾーン",
-            "value": "40 km/h",
-            "sub": "学校日 7am–7pm"
-          },
-          {
-            "label": "シルバーゾーン",
-            "value": "40 km/h",
-            "sub": "黄点滅灯が作動中"
-          }
-        ]
+      {
+       "hook": "\"50 in town, 90 on the E-way\"",
+       "topic": "標準速度",
+       "detail": "市街地50km/h、高速道路は標識がなければ90km/h。"
       },
-      "alcohol_limits": {
-        "title": "飲酒基準",
-        "items": [
-          {
-            "label": "呼気検査",
-            "value": "35 µg",
-            "sub": "呼気100 mlあたり"
-          },
-          {
-            "label": "血液検査",
-            "value": "80 mg",
-            "sub": "血液100 mlあたり"
-          },
-          {
-            "label": "新規ドライバー",
-            "value": "0",
-            "sub": "初年度はゼロ"
-          }
-        ],
-        "note": "基準超過は初回でも最大S$10,000の罰金または最長12か月の禁錮。免許停止となります。"
-      },
-      "demerit_points": {
-        "title": "違反点数",
-        "items": [
-          {
-            "label": "停止基準",
-            "value": "24 pts",
-            "sub": "2年以内"
-          },
-          {
-            "label": "新規ドライバー",
-            "value": "12 pts",
-            "sub": "初年度"
-          },
-          {
-            "label": "停止期間",
-            "value": "3か月",
-            "sub": "24点到達時"
-          },
-          {
-            "label": "取消し",
-            "value": "24 pts",
-            "sub": "停止歴ありの場合"
-          }
-        ],
-        "note": "主な違反：速度超過（+30km/hで6–24点）、赤信号無視12点、携帯使用6点。"
-      },
-      "stopping_distances": {
-        "title": "停止距離（乾燥路）",
-        "headers": [
-          "速度",
-          "空走距離(14–15 m/s)",
-          "制動距離",
-          "合計"
-        ],
-        "rows": [
-          [
-            "50 km/h",
-            "~14 m",
-            "~14 m",
-            "~28 m"
-          ],
-          [
-            "70 km/h",
-            "~19 m",
-            "~28 m",
-            "~47 m"
-          ],
-          [
-            "90 km/h",
-            "~25 m",
-            "~46 m",
-            "~71 m"
-          ]
-        ],
-        "note": "濡れた路面では距離は約2倍。通常は2秒の車間距離を保ちましょう。"
-      },
-      "right_of_way": {
-        "title": "優先道路と交差点",
-        "items": [
-          "信号のない交差点では右から来る車に譲る。",
-          "T字路では幹線道路・直進車が優先。",
-          "右折時は対向の直進・左折車に譲る。",
-          "ラウンドアバウトでは環状内の車が優先（右から進入する車に注意）。",
-          "合流時は本線の車が優先 — 速度を合わせ安全な間隔を確保。",
-          "緊急車両（警察・消防・救急）がサイレン点灯時は左に寄って停止。"
-        ]
-      },
-      "expressway_tunnel": {
-        "title": "高速道路・トンネル",
-        "items": [
-          "高速道路の最低速度は通常60km/h — 遅すぎて後続を妨げない。",
-          "高速道路は左側走行、追い越し時のみ右レーン使用。",
-          "緊急時以外、高速道路上での停止・後退・Uターン禁止。",
-          "トンネル進入時はライト点灯 — 昼間でも。",
-          "故障時は路肩へ移動、ハザード点灯、安全なら車外へ。",
-          "バスレーン・黄色ボックス：出口が空いている場合のみ進入。"
-        ],
-        "note": "路肩の妨害や高速道路上での停止は重大違反で、多くの違反点数が付きます。"
-      },
-      "crossings_parking": {
-        "title": "横断歩道・黄色ボックス・駐車",
-        "items": [
-          "黄色ボックス：交差交通を塞がずに通過できる場合のみ進入。",
-          "横断歩道前のジグザグ線：停止・駐車禁止（視界確保）。",
-          "シルバーゾーン（標識あり）：高齢者に注意 — 速度制限が低い場合あり。",
-          "二重黄線：常時駐車禁止。単線黄：標識時間帯は駐車禁止。",
-          "バス停：次のバス停方向へ標識から9m以内に駐車禁止。",
-          "スクールゾーン点滅：学校日は40km/h。"
-        ]
-      },
-      "key_rules_title": "重要ルール",
-      "key_rules": [
-        "前席・後席すべての乗員はシートベルト必須。",
-        "運転中の携帯使用は禁止（ハンズフリーのみ可）。",
-        "身長1.35m未満の子どもはチャイルドシート必須。",
-        "通常時の車間距離は2秒以上（雨天は4秒）。",
-        "横断歩道の点滅黄信号では歩行者優先。",
-        "赤信号やSTOP標識の停止線では完全停止。",
-        "追い越し時以外は左側走行。",
-        "バイクは常に認可ヘルメット着用。",
-        "制限時間中はバスレーン進入禁止（バス等を除く）。",
-        "信号付き横断歩道で青信号の歩行者に譲る。",
-        "Uターンは標識・路面標示で許可された場所のみ。",
-        "危険予測（FTT）：ビデオで発展する危険を早く識別する。"
-      ]
+      {
+       "hook": "\"School & silver = 40\"",
+       "topic": "低速ゾーン",
+       "detail": "スクールゾーン(学校日7–19時)とシルバーゾーン点滅時は40km/h。"
+      }
+     ]
     },
-    "jp": {
-      "title": "日本",
-      "test_format": {
-        "title": "学科試験の形式",
-        "items": [
-          {
-            "label": "仮免許 (仮免)",
-            "value": "50 Q",
-            "sub": "45分 · 正誤 · 45/50 (90%) 合格"
-          },
-          {
-            "label": "本免許 (本免)",
-            "value": "95 Q",
-            "sub": "50分 · 正誤 · 86/95 (90%) 合格"
-          },
-          {
-            "label": "二輪免許",
-            "value": "95 Q",
-            "sub": "50分 · 普通免許と同じ合格基準"
-          },
-          {
-            "label": "仮免 有効期間",
-            "value": "約6か月",
-            "sub": "期限前に本免を取得"
-          }
-        ]
+    {
+     "heading": "飲酒と安全",
+     "tips": [
+      {
+       "hook": "\"35 breath · 80 blood\"",
+       "topic": "飲酒基準",
+       "detail": "呼気35µg/100ml、血液80mg/100ml。新規ドライバーは初年度ゼロ。"
       },
-      "speed_limits": {
-        "title": "速度制限 (最高速度)",
-        "items": [
-          {
-            "label": "生活道路 / 学校周辺",
-            "value": "30 km/h",
-            "sub": "生活道路 / ゾーン30"
-          },
-          {
-            "label": "一般道路",
-            "value": "60 km/h",
-            "sub": "一般道路 (default)"
-          },
-          {
-            "label": "高速道路",
-            "value": "100 km/h",
-            "sub": "高速道路 (default)"
-          },
-          {
-            "label": "一部高速道路",
-            "value": "120 km/h",
-            "sub": "指定区間のみ"
-          }
-        ]
+      {
+       "hook": "\"Belt every seat\"",
+       "topic": "シートベルト",
+       "detail": "前後席すべて必須。身長1.35m未満はチャイルドシート。"
+      }
+     ]
+    },
+    {
+     "heading": "違反点数と標識",
+     "tips": [
+      {
+       "hook": "\"24 → out for 3\"",
+       "topic": "停止基準",
+       "detail": "24か月以内に24点で3か月停止。新規は初年度12点で停止。"
       },
-      "alcohol_limits": {
-        "title": "飲酒運転基準",
-        "items": [
-          {
-            "label": "酒気帯び (impaired)",
-            "value": "0.15 mg/L",
-            "sub": "breath / 0.3 mg/dL blood"
-          },
-          {
-            "label": "酔い (drunk)",
-            "value": "0.05 mg/L",
-            "sub": "breath / 0.1 mg/dL blood — harsher penalty"
-          },
-          {
-            "label": "Designated drivers",
-            "value": "0",
-            "sub": "代行・ハンドルキーパーは飲酒不可"
-          }
-        ],
-        "note": "飲酒運転と知りながら同乗した場合も罰則対象。運転者に酒を勧める行為も違法です。"
+      {
+       "hook": "\"Red says NO, Blue says GO\"",
+       "topic": "標識の色",
+       "detail": "赤輪は禁止、青は指示(左側走行など)。"
       },
-      "demerit_points": {
-        "title": "違反点数",
-        "items": [
-          {
-            "label": "30-day suspension",
-            "value": "6–8 pts",
-            "sub": "in 1 year (no prior offences)"
-          },
-          {
-            "label": "60-day suspension",
-            "value": "9–11 pts",
-            "sub": "in 1 year"
-          },
-          {
-            "label": "90-day suspension",
-            "value": "12–14 pts",
-            "sub": "in 1 year"
-          },
-          {
-            "label": "Revocation",
-            "value": "15+ pts",
-            "sub": "or prior suspension on record"
-          }
-        ],
-        "note": "速度超過30–50km/hは6点、信号無視2点、携帯使用3点。"
+      {
+       "hook": "\"Triangle = think ahead\"",
+       "topic": "警戒標識",
+       "detail": "赤枠三角は前方の危険を警告。"
       },
-      "stopping_distances": {
-        "title": "停止距離（乾燥路）",
-        "headers": [
-          "速度",
-          "空走距離(14–15 m/s)",
-          "制動距離",
-          "合計"
-        ],
-        "rows": [
-          [
-            "30 km/h",
-            "~7 m",
-            "~6 m",
-            "~13 m"
-          ],
-          [
-            "60 km/h",
-            "~14 m",
-            "~24 m",
-            "~38 m"
-          ],
-          [
-            "100 km/h",
-            "~23 m",
-            "~66 m",
-            "~89 m"
-          ]
-        ],
-        "note": "濡れ・凍結路では停止距離が約2倍。生活道路（30km/h）では徐行＝いつでも1m以内で止まれる速度。"
+      {
+       "hook": "\"Octagon = STOP\"",
+       "topic": "一時停止標識",
+       "detail": "八角形はSTOPのみ — 停止線で完全停止。"
+      }
+     ]
+    },
+    {
+     "heading": "優先道路と交差点",
+     "tips": [
+      {
+       "hook": "\"Uncontrolled = yield right\"",
+       "topic": "無信号交差点",
+       "detail": "信号・標識のない交差点は右側優先。"
       },
-      "key_rules_title": "重要事項",
-      "key_rules": [
-        "徐行 (joko) は「いつでも1m以内で止まれる速度で走る」こと。",
-        "標識のない交差点では右から来る車に譲る。",
-        "全席シートベルト必須。6歳未満はチャイルドシート必須。",
-        "運転中の携帯使用は禁止（赤信号停止中も含む）。",
-        "左折時は自転車・歩行者が優先。ミラーと死角を確認。",
-        "クラクションは緊急時または警笛鳴らせ区間のみ。",
-        "トンネル内や夜間はライト点灯（街灯があっても）。",
-        "交差点の優先: 広い道 > 狭い道、同等なら右側優先。",
-        "一時停止標識では完全停止し、左右確認後に進む。",
-        "横断歩道・交差点付近、見通しの悪いカーブ・坂では追い越し禁止。",
-        "高速道路の最低速度は通常50km/h — 遅すぎて交通を妨げない。",
-        "仮免許：仮マーク表示、3年以上の免許保持者または指導員の同乗が必要。"
-      ]
+      {
+       "hook": "\"Roundabout: give way to the circle\"",
+       "topic": "ラウンドアバウト",
+       "detail": "右から来る環状内の車に譲ってから進入。"
+      },
+      {
+       "hook": "\"Right turn waits for oncoming\"",
+       "topic": "右折",
+       "detail": "右折時は対向の直進・左折車に譲る。"
+      }
+     ]
+    },
+    {
+     "heading": "高速道路・横断歩道・駐車",
+     "tips": [
+      {
+       "hook": "\"Yellow box = don't block\"",
+       "topic": "黄色ボックス",
+       "detail": "出口が空いている場合のみ進入。"
+      },
+      {
+       "hook": "\"Zig-zag = no stop\"",
+       "topic": "横断歩道",
+       "detail": "ジグザグ線付近は停止・駐車禁止。"
+      },
+      {
+       "hook": "\"Left lane on the E-way\"",
+       "topic": "高速道路",
+       "detail": "左側走行、追い越し時のみ右。最低速度は通常60km/h。"
+      }
+     ]
     }
+   ]
   },
-  "resourcesRoadmap": {
-    "breadcrumb_home": "← ホームへ戻る",
-    "breadcrumb_title": "免許取得ロードマップ",
-    "hero": {
-      "eyebrow": "学習教材",
-      "title": "免許取得ロードマップ",
-      "lead": "登録から本免許までの全ステップ — シンガポールと日本の両方。"
-    },
-    "sg_title": "シンガポール — Class 3 / 3A 車免許",
-    "sg_timeline_label": "目安期間:",
-    "sg_timeline_body": "受講頻度により4–12か月。多くは3–6か月。学科試験は開始後1–2か月で受験可能。",
-    "jp_title": "日本 — 普通自動車免許（指定校）",
-    "jp_timeline_label": "目安期間:",
-    "jp_timeline_body": "定期的に通えば2–4か月。最低受講期間は法律で定められており短縮不可。繁忙期（3–4月、8月）は待機が長くなる場合あり。",
-    "back_home": "← ホームへ戻る",
-    "sg_steps": [
+  "jp": {
+   "title": "日本 — 覚え方",
+   "groups": [
+    {
+     "heading": "学科試験の形式",
+     "tips": [
       {
-        "n": 1,
-        "title": "公認教習所に登録",
-        "body": "BBDC（Bukit Batok）、CDC（ComfortDelGro）、SSDC（Serangoon）から選択。NRIC/FINが必要で、視力検査に合格する必要があります。最低年齢：車17歳、バイク18歳。"
+       "hook": "\"仮免 50 · 本免 95\"",
+       "topic": "試験問題数",
+       "detail": "仮免学科50問45分(45/50)、本免学科95問50分(86/95) — いずれも90%合格。"
       },
       {
-        "n": 2,
-        "title": "BTT（基礎学科試験）合格",
-        "body": "50問の択一式、合格点90%（45/50）。標識、交通ルール、危険予測を出題。OneMotoringで予約。料金$7.09（GST込）。"
-      },
-      {
-        "n": 3,
-        "title": "技能教習開始",
-        "body": "教習所で実技レッスンを開始。Class 3は通常20–35回（技能により変動）。1回1時間（場内または路上）。"
-      },
-      {
-        "n": 4,
-        "title": "FTT（最終学科試験）合格",
-        "body": "高度な運転、危険予測、高速道路、夜間運転など50問。予約には実技5回以上の修了が必要。料金$7.09。"
-      },
-      {
-        "n": 5,
-        "title": "残りの技能教習を修了",
-        "body": "教習所が受験可能と認定するまで継続。TP試験予約には一定基準の到達が必要。"
-      },
-      {
-        "n": 6,
-        "title": "TP（交通警察）運転試験合格",
-        "body": "TP試験官による45分の実技試験。ルートは教習所指定。減点18点以下で合格。料金$35.97（GST込）。"
-      },
-      {
-        "n": 7,
-        "title": "免許証の受け取り",
-        "body": "Traffic Police Road Safety Community ParkまたはOneMotoring窓口で受取。PDL（仮免許表示）を1年間車に掲示。"
+       "hook": "\"仮 before 本\"",
+       "topic": "免許の段階",
+       "detail": "指定校: 仮免学科+仮免技能 → 仮免取得 → 路上教習 → 本免学科。"
       }
-    ],
-    "jp_steps": [
+     ]
+    },
+    {
+     "heading": "速度と車線",
+     "tips": [
       {
-        "n": 1,
-        "title": "教習所に入学",
-        "body": "公安委員会指定の教習所を選択。必要：在留カード/住民票、写真、適性検査（視力・聴力など）。"
+       "hook": "\"60 general, 100 expressway\"",
+       "topic": "標準速度",
+       "detail": "一般道60km/h、高速100km/h。生活道路は30km/h。"
       },
       {
-        "n": 2,
-        "title": "第1段階（場内教習）",
-        "body": "MTは場内10時間、ATは9時間が最低。学科は標識・交通ルール・安全など10時間以上。"
+       "hook": "\"Keep left, pass right\"",
+       "topic": "車線",
+       "detail": "左側走行、追い越し時のみ右レーン。"
       },
       {
-        "n": 3,
-        "title": "仮免許試験",
-        "body": "学科50問（合格90%＝45/50）＋場内技能試験。合格で仮免許取得。"
-      },
-      {
-        "n": 4,
-        "title": "第2段階（路上教習）",
-        "body": "路上19時間以上、学科16時間以上（応急対応・高速走行を含む）。"
-      },
-      {
-        "n": 5,
-        "title": "卒業検定",
-        "body": "教習所の路上技能試験。合格で卒業証明書（1年有効）を取得し、免許センターの技能試験が免除。"
-      },
-      {
-        "n": 6,
-        "title": "本免許学科試験（免許センター）",
-        "body": "95問（車/バイク）、合格90%（86/95）。標識・交通ルール・事例問題。料金¥1,750。免許センターで予約。"
-      },
-      {
-        "n": 7,
-        "title": "免許証交付",
-        "body": "学科合格後、視力検査・写真等の手続きを済ませると当日に免許証が交付されます。"
+       "hook": "\"Joko = 1 metre stop\"",
+       "topic": "徐行",
+       "detail": "いつでも1m以内で止まれる速度 — 横断歩道付近で重要。"
       }
-    ]
-  },
-  "resourcesCosts": {
-    "breadcrumb_home": "← ホームへ戻る",
-    "breadcrumb_title": "費用・料金",
-    "hero": {
-      "eyebrow": "免許ガイド",
-      "title": "費用・料金",
-      "lead": "シンガポールと日本で免許取得に必要な試験費用、教習費用、総予算をまとめました。"
+     ]
     },
-    "table_headers": {
-      "item": "項目",
-      "fee": "料金",
-      "notes": "備考"
-    },
-    "note_label": "注:",
-    "sg_title": "シンガポール",
-    "sg": {
-      "theory_title": "学科試験費用（Traffic Police）",
-      "theory_rows": [
-        {
-          "item": "Basic Theory Test (BTT)",
-          "fee": "S$7.09",
-          "note": "GST 9%込み。OneMotoringで支払い。"
-        },
-        {
-          "item": "Final Theory Test (FTT)",
-          "fee": "S$7.09",
-          "note": "実技5回以上後に予約可能。"
-        },
-        {
-          "item": "Riding Theory Test (RTT) — motorcycle",
-          "fee": "S$7.09",
-          "note": "バイクはFTTの代わり。"
-        },
-        {
-          "item": "Re-test (any theory)",
-          "fee": "S$7.09",
-          "note": "再受験も同額。"
-        }
-      ],
-      "theory_note": "学科試験の料金はTraffic Policeが設定し、BBDC/CDC/SSDCで差はありません。",
-      "tp_title": "TP（Traffic Police）実技試験費用",
-      "tp_rows": [
-        {
-          "item": "Class 3 / 3A (car) — first attempt",
-          "fee": "S$35.97",
-          "note": "GST込み。"
-        },
-        {
-          "item": "Class 3 / 3A — re-test",
-          "fee": "S$35.97",
-          "note": "再試験は教習所経由で予約。"
-        },
-        {
-          "item": "Class 2B / 2A / 2 (motorcycle)",
-          "fee": "~S$33.00",
-          "note": "最新料金は教習所で確認。"
-        },
-        {
-          "item": "Class 4 / 5 (goods / bus)",
-          "fee": "~S$40–S$55",
-          "note": "車種により変動。"
-        }
-      ],
-      "lesson_title": "技能教習費用（1回あたり, 2026目安）",
-      "lesson_label_car": "車（Class 3/3A）",
-      "lesson_label_moto": "バイク",
-      "lesson_centres": [
-        {
-          "centre": "BBDC",
-          "area": "Bukit Batok",
-          "car": "S$26–S$34",
-          "moto": "S$19–S$26"
-        },
-        {
-          "centre": "CDC",
-          "area": "Ubi",
-          "car": "S$27–S$35",
-          "moto": "S$20–S$27"
-        },
-        {
-          "centre": "SSDC",
-          "area": "Serangoon",
-          "car": "S$25–S$33",
-          "moto": "S$18–S$25"
-        }
-      ],
-      "lesson_note": "繁忙時間（夜・週末）は料金が上がる場合があります。オフピークの予約がお得。GST込みの目安（2026）であり、最新は各校サイトで確認してください。",
-      "total_car_title": "総費用見積 — Class 3（車）",
-      "total_headers": {
-        "item": "項目",
-        "fast": "早い人",
-        "avg": "平均",
-        "slow": "多め"
-      },
-      "total_rows": [
-        {
-          "item": "BTT + FTT料金",
-          "fast": "S$14.18",
-          "avg": "S$21.27",
-          "slow": "S$28.36",
-          "note": "（再試験1–2回想定）"
-        },
-        {
-          "item": "技能教習（×回数）",
-          "fast": "S$600",
-          "avg": "S$1,000",
-          "slow": "S$1,500",
-          "note": "20 / 35 / 50回"
-        },
-        {
-          "item": "TP試験（1–2回）",
-          "fast": "S$36",
-          "avg": "S$72",
-          "slow": "S$108",
-          "note": ""
-        },
-        {
-          "item": "免許交付費用",
-          "fast": "S$50",
-          "avg": "S$50",
-          "slow": "S$50",
-          "note": "目安"
-        }
-      ],
-      "total_footer": "合計（目安）",
-      "total_note": "目安金額です。登録料や事務手数料は含みません。最新のパッケージはBBDC/CDC/SSDCの公式サイトで確認してください。",
-      "total_moto_title": "総費用見積 — Class 2B（バイク）",
-      "moto_highlight": "合計目安",
-      "moto_rows": [
-        {
-          "item": "BTT + RTT料金（各1回）",
-          "fee": "S$14.18",
-          "note": ""
-        },
-        {
-          "item": "技能教習（約15–25回）",
-          "fee": "S$285–S$675",
-          "note": "S$19–S$27/回"
-        },
-        {
-          "item": "TP試験（1–2回）",
-          "fee": "S$33–S$66",
-          "note": ""
-        },
-        {
-          "item": "ヘルメット（未所持の場合）",
-          "fee": "S$80–S$250",
-          "note": "試験・公道で認可ヘルメット必須"
-        },
-        {
-          "item": "合計目安",
-          "fee": "S$400–S$1,000",
-          "note": "能力と教習所で大きく変動"
-        }
-      ]
-    },
-    "jp_title": "日本",
-    "jp": {
-      "fees_title": "公式試験・免許費用（免許センター）",
-      "fee_rows": [
-        {
-          "item": "仮免許学科試験 (Provisional theory test)",
-          "fee": "¥1,700",
-          "note": "免許センターで受験"
-        },
-        {
-          "item": "仮免許技能試験 (Provisional skill test)",
-          "fee": "¥1,700",
-          "note": "1回ごと。同額で再試験。"
-        },
-        {
-          "item": "本免許学科試験 (Final theory test)",
-          "fee": "¥1,750",
-          "note": "95問・合格90%"
-        },
-        {
-          "item": "本免許技能試験 (Final skill test)",
-          "fee": "¥1,750",
-          "note": "一発試験の場合のみ"
-        },
-        {
-          "item": "免許証交付 (Licence issue fee)",
-          "fee": "¥2,050",
-          "note": "合格時に免許センターで支払う"
-        },
-        {
-          "item": "JAF translation (required for foreign holders)",
-          "fee": "¥3,000",
-          "note": "JAF翻訳（Japan Automobile Federation）"
-        }
-      ],
-      "fees_note": "料金は全国一律で都道府県差はありません。写真や住民票などの追加費用は通常¥300–¥600程度。",
-      "paths_title": "免許取得の2ルート",
-      "path_a": {
-        "label": "Path A",
-        "title": "指定教習所（Driving School）",
-        "badge": "最も確実",
-        "rows": [
-          {
-            "label": "教習費（第1・第2段階）",
-            "value": "¥250,000–¥400,000"
-          },
-          {
-            "label": "仮免＋校内試験（込み）",
-            "value": "—"
-          },
-          {
-            "label": "本免学科試験（免許センター）",
-            "value": "¥1,750"
-          },
-          {
-            "label": "免許交付費用",
-            "value": "¥2,050"
-          },
-          {
-            "label": "合計目安",
-            "value": "¥254,000–¥404,000",
-            "bold": true
-          }
-        ],
-        "note": "卒業検定に合格すれば免許センター技能試験は免除。学科試験のみ受験。"
-      },
-      "path_b": {
-        "label": "Path B",
-        "title": "一発試験（免許センター直接）",
-        "badge": "安いが難しい",
-        "rows": [
-          {
-            "label": "JAF翻訳（必要時）",
-            "value": "¥3,000"
-          },
-          {
-            "label": "仮免試験（複数回想定）",
-            "value": "¥5,000–¥15,000"
-          },
-          {
-            "label": "本免技能試験（複数回）",
-            "value": "¥3,000–¥10,500"
-          },
-          {
-            "label": "本免学科試験",
-            "value": "¥1,750"
-          },
-          {
-            "label": "免許交付費用",
-            "value": "¥2,050"
-          },
-          {
-            "label": "合計目安",
-            "value": "¥15,000–¥32,000",
-            "bold": true
-          }
-        ],
-        "note": "教習所なしだと技能試験は非常に難しく、複数回受験する人が多い。"
-      },
-      "myanmar_title": "ミャンマー国籍 — 推奨予算 🇲🇲",
-      "myanmar_intro": "ミャンマーと日本に相互協定がないため直接切替は不可。教習所に通うか一発試験を受ける必要があります。多くの人には Path A（指定教習所）がおすすめです。",
-      "myanmar_rows": [
-        {
-          "label": "指定教習所フルコース",
-          "value": "¥250,000–¥400,000"
-        },
-        {
-          "label": "本免学科試験（免許センター）",
-          "value": "¥1,750"
-        },
-        {
-          "label": "免許証交付（免許料）",
-          "value": "¥2,050"
-        },
-        {
-          "label": "住民票・写真など",
-          "value": "~¥1,500"
-        }
-      ],
-      "myanmar_total": "合計",
-      "myanmar_tip": "Tip: 外国人向け割引や英語対応スタッフがいる教習所もあります。入校時に確認してください。本免学科試験は教習修了後に受験します。"
-    },
-    "disclaimer_label": "免責事項:",
-    "disclaimer_text": "料金は目安で変更される可能性があります。シンガポールの料金は2026年時点のGST込み。日本の料金は警察庁の公表値に基づきます。予算計画前にTraffic Police / OneMotoring（SG）または各都道府県の免許センター（JP）で必ず確認してください。",
-    "back_home": "← ホームへ戻る"
-  },
-  "resourcesTutorials": {
-    "breadcrumb_home": "← ホームへ戻る",
-    "breadcrumb_title": "動画チュートリアル",
-    "hero": {
-      "eyebrow": "見て学ぶ",
-      "title": "動画チュートリアル",
-      "lead": "運転理論をステップごとに解説する厳選YouTubeレッスン — アプリを離れずにここで視聴できます。"
-    },
-    "loading": "動画を読み込み中…",
-    "empty": "チュートリアル動画はまだありません — また後でご確認ください。"
-  },
-  "resourcesFaq": {
-    "breadcrumb_home": "← ホームへ戻る",
-    "breadcrumb_title": "FAQ・料金",
-    "hero": {
-      "eyebrow": "学習教材",
-      "title": "FAQ・料金",
-      "lead": "公式試験料金、再試験ルール、新規ドライバーのよくある質問。"
-    },
-    "sg_title": "シンガポール",
-    "jp_title": "日本",
-    "sg_fees_title": "公式試験料金（GST 9%込み）",
-    "sg_table": {
-      "test": "試験",
-      "fee": "料金（GST前）",
-      "gst": "GST 9%込"
-    },
-    "sg_fees_note": "料金はTraffic Policeが設定し定期的に見直されます。教習料金は各校で異なり、BBDC/CDC/SSDCへ直接支払います。",
-    "sg_questions_title": "よくある質問",
-    "jp_fees_title": "公式試験料金",
-    "jp_table": {
-      "test": "試験",
-      "fee": "料金"
-    },
-    "jp_fees_note": "免許センターの料金は都道府県ごとに僅かに異なる場合があります。指定自動車教習所の料金は教習所へ直接支払います。",
-    "jp_questions_title": "よくある質問",
-    "sg_fees": [
+    {
+     "heading": "点数と飲酒",
+     "tips": [
       {
-        "test": "Basic Theory Test (BTT)",
-        "fee": "$6.50",
-        "gst": "$7.09",
-        "note": "技能教習開始前に受験"
+       "hook": "\"15 points = licence gone\"",
+       "topic": "取消し",
+       "detail": "15点(または停止歴ありでより少なく)で免許取消。"
       },
       {
-        "test": "Final Theory Test (FTT)",
-        "fee": "$6.50",
-        "gst": "$7.09",
-        "note": "実技5回以上後に受験"
+       "hook": "\"6-9-12-15\"",
+       "topic": "停止の段階",
+       "detail": "6–8点=30日、9–11=60日、12–14=90日、15+=取消。1年間の累計。"
       },
       {
-        "test": "Riding Theory Test (RTT)",
-        "fee": "$6.50",
-        "gst": "$7.09",
-        "note": "バイク免許（Class 2/2A/2B）"
-      },
-      {
-        "test": "Class 3 Driving Test",
-        "fee": "$33.00",
-        "gst": "$35.97",
-        "note": "Traffic Police 実技（車）"
-      },
-      {
-        "test": "Class 3A Driving Test",
-        "fee": "$33.00",
-        "gst": "$35.97",
-        "note": "AT限定車免許"
-      },
-      {
-        "test": "Class 2/2A/2B Riding Test",
-        "fee": "$33.00",
-        "gst": "$35.97",
-        "note": "Traffic Police 実技（バイク）"
+       "hook": "\"In Japan, aim for ZERO alcohol\"",
+       "topic": "飲酒運転",
+       "detail": "基準は非常に低く罰則も厳しい — 飲んでは運転しない。"
       }
-    ],
-    "jp_fees": [
-      {
-        "test": "本免許学科試験",
-        "fee": "¥1,750",
-        "note": "免許センターの学科試験"
-      },
-      {
-        "test": "本免許技能試験",
-        "fee": "¥7,200",
-        "note": "免許センター技能試験（指定校卒業は免除）"
-      },
-      {
-        "test": "仮免許試験（学科）",
-        "fee": "¥1,700",
-        "note": "仮免学科試験"
-      },
-      {
-        "test": "仮免許試験（技能）",
-        "fee": "¥2,850",
-        "note": "仮免技能試験"
-      },
-      {
-        "test": "指定校 full course",
-        "fee": "¥250,000–¥400,000",
-        "note": "教習所と地域で費用が変動"
-      }
-    ],
-    "sg_faq": [
-      {
-        "q": "BTT/FTT/RTTは何回まで再受験できますか？",
-        "a": "回数制限はありません。毎回料金がかかり、3日後から再予約可能です。"
-      },
-      {
-        "q": "実技が終わる前にFTTを予約できますか？",
-        "a": "FTT予約前にClass 3/3Aの実技を最低5回修了する必要があります。"
-      },
-      {
-        "q": "シンガポールの免許の有効期限は？",
-        "a": "Class 3/3Aの本免許は10年有効で、OneMotoringからオンライン更新できます。"
-      },
-      {
-        "q": "違反点数24点に達するとどうなりますか？",
-        "a": "免許が3か月停止。新規ドライバー（合格から1年以内）は12点で停止。"
-      },
-      {
-        "q": "BTTの最低年齢は？",
-        "a": "車（Class 3/3A）は17歳、バイク（Class 2/2A/2B）は18歳です。"
-      },
-      {
-        "q": "Traffic Policeの公認教習所は？",
-        "a": "BBDC（Bukit Batok）、CDC（ComfortDelGro）、SSDC（Serangoon）の3校です。"
-      }
-    ],
-    "jp_faq": [
-      {
-        "q": "本免許学科試験に落ちたらどうなる？",
-        "a": "再受験できます。費用は毎回かかります。次の受験日は翌日以降に予約可能です。"
-      },
-      {
-        "q": "指定校を卒業すると技能試験は免除されますか？",
-        "a": "はい。公安委員会指定の自動車教習所を卒業すると、免許センターでの技能試験が免除されます。学科試験のみ受験すれば取得できます。"
-      },
-      {
-        "q": "本免許の合格点は？",
-        "a": "95問中86問以上正解（90%）で合格です（二輪は同様）。"
-      },
-      {
-        "q": "日本の免許証の有効期間は？",
-        "a": "取得時の年齢や違反歴によって異なりますが、通常はゴールド免許で5年、一般免許で3年です。"
-      },
-      {
-        "q": "仮免許の有効期間は？",
-        "a": "6ヶ月間です。仮免取得後6ヶ月以内に路上教習・卒業試験を修了する必要があります。"
-      }
-    ],
-    "back_home": "← ホームへ戻る"
-  },
-  "resourcesGlossary": {
-    "breadcrumb_home": "← ホームへ戻る",
-    "breadcrumb_title": "三言語 交通用語集",
-    "hero": {
-      "eyebrow": "人間が確認済み",
-      "title": "三言語 交通用語集",
-      "lead": "英語・ミャンマー語・日本語の重要交通用語 — トピック別に整理し、誤訳で点を落とさないよう人間が確認しました。"
+     ]
     },
-    "table": {
-      "english": "English",
-      "my": "မြန်မာ",
-      "ja": "日本語"
-    },
-    "categories": {
-      "signs": "道路標識・路面標示",
-      "rules": "ルールと優先道路",
-      "vehicle": "車両と操作",
-      "licence": "免許と学科試験",
-      "penalties": "罰則と飲酒",
-      "expressway": "高速道路と特別区域"
-    },
-    "footer_note": "{count}語 · 2026年7月更新 · 人間が確認済み",
-    "back_home": "← ホームへ戻る"
-  },
-  "resourcesLicenceClasses": {
-    "breadcrumb_home": "← ホームへ戻る",
-    "breadcrumb_title": "免許区分",
-    "hero": {
-      "eyebrow": "免許ガイド",
-      "title": "免許区分",
-      "lead": "シンガポールと日本の全免許区分。対象車種、重量制限、最低年齢、重要な制限を整理。"
-    },
-    "sg_title": "シンガポール",
-    "sg_intro": "シンガポールの免許はTraffic Policeが発行。本アプリは最も一般的なClass 3/3A（車）とClass 2B（入門バイク）の学科試験をカバーします。",
-    "sg_note": "Class 3/3AはBTT + FTT + TP実技が必要。バイク（2B/2A/2）はBTT + RTT + TPが必要。GVW = 総車両重量。",
-    "jp_title": "日本",
-    "jp_intro": "日本の免許制度は道路交通法に基づきます。本アプリは普通自動車と普通二輪の本免許学科試験に対応 — ミャンマー出身者に多い2ルートです。",
-    "jp_note": "ミャンマー国籍は直接切替不可。知識試験（学科）と技能試験に合格するか、日本の教習所を修了する必要があります。詳しくは",
-    "foreigners_link": "外国人ガイド",
-    "common_badge": "主要",
-    "compare": {
-      "title": "クイック比較 — 最も一般的な区分",
-      "headers": [
-        "",
-        "Singapore Class 3",
-        "Singapore Class 2B",
-        "Japan 普通免許",
-        "Japan 普通二輪"
-      ],
-      "rows": [
-        {
-          "label": "学科試験",
-          "values": [
-            "BTT + FTT",
-            "BTT + RTT",
-            "仮免 + 本免 (学科)",
-            "仮免 + 本免 (学科)"
-          ]
-        },
-        {
-          "label": "実技試験",
-          "values": [
-            "TP test",
-            "TP test",
-            "指定校卒 or 技能試験",
-            "指定校卒 or 技能試験"
-          ]
-        },
-        {
-          "label": "最低年齢",
-          "values": [
-            "18",
-            "18",
-            "18",
-            "18（≤125ccは16）"
-          ]
-        },
-        {
-          "label": "合格基準",
-          "values": [
-            "90% (45/50)",
-            "90% (45/50)",
-            "90% (86/95)",
-            "90% (46/50)"
-          ]
-        },
-        {
-          "label": "有効期限",
-          "values": [
-            "10年",
-            "10年",
-            "3年（初回）",
-            "3年（初回）"
-          ]
-        }
-      ]
-    },
-    "sg_classes": [
+    {
+     "heading": "信号と標識",
+     "tips": [
       {
-        "code": "3",
-        "name": "車 — MT",
-        "vehicle": "セダン、MPV、SUV（MT）",
-        "limit": "最大3,000kg GVW · 乗員7名",
-        "age": "最低18歳",
-        "note": "最も一般的。BTT + FTT + TP実技が必要。",
-        "highlight": true
+       "hook": "\"赤 stop · 青 go · 黄 slow\"",
+       "topic": "信号",
+       "detail": "赤=停止、青=進行、黄=安全なら停止。黄信号を追いかけない。"
       },
       {
-        "code": "3A",
-        "name": "車 — AT",
-        "vehicle": "セダン、MPV、SUV（ATのみ）",
-        "limit": "最大3,000kg GVW · 乗員7名",
-        "age": "最低18歳",
-        "note": "AT車のみ運転可。MT車は不可。",
-        "highlight": true
+       "hook": "\"一時停止 = full stop + look both ways\"",
+       "topic": "一時停止",
+       "detail": "停止線で完全停止、左右確認後に進む。"
       },
       {
-        "code": "2B",
-        "name": "バイク — 入門",
-        "vehicle": "バイク / スクーター",
-        "limit": "≤ 200cc または ≤ 30kW",
-        "age": "最低18歳",
-        "note": "入門バイク免許。BTT + RTT + TP実技が必要。",
-        "highlight": true
-      },
-      {
-        "code": "2A",
-        "name": "バイク — 中級",
-        "vehicle": "バイク / スクーター",
-        "limit": "201–400cc または 26–47kW",
-        "age": "最低18歳",
-        "note": "Class 2Bを1年以上保有が必要。"
-      },
-      {
-        "code": "2",
-        "name": "バイク — 上級",
-        "vehicle": "バイク（排気量制限なし）",
-        "limit": "排気量・出力制限なし",
-        "age": "最低18歳",
-        "note": "Class 2Aを1年以上保有が必要。"
-      },
-      {
-        "code": "4",
-        "name": "小型貨物車",
-        "vehicle": "パネルバン、ライトトラック",
-        "limit": "3,001–5,000kg GVW",
-        "age": "最低18歳",
-        "note": "別途実技試験が必要。"
-      },
-      {
-        "code": "4A",
-        "name": "牽引小型貨物",
-        "vehicle": "連結小型貨物",
-        "limit": "3,001–5,000kg GVW",
-        "age": "最低21歳",
-        "note": "Class 3または4が必要。"
-      },
-      {
-        "code": "5",
-        "name": "バス",
-        "vehicle": "旅客バス全般",
-        "limit": "> 7名または > 3,000kg",
-        "age": "最低21歳",
-        "note": "バス向けの別訓練と試験が必要。"
+       "hook": "\"No sign = yield right\"",
+       "topic": "無標識交差点",
+       "detail": "右側優先。広い道>狭い道。"
       }
-    ],
-    "jp_classes": [
-      {
-        "code": "普通免許",
-        "name": "普通車",
-        "vehicle": "普通自動車 — standard car / MPV",
-        "limit": "≤ 3,500kg · ≤ 10名 · けん引≤750kg",
-        "age": "最低18歳",
-        "note": "指定教習所で取得する標準免許。日常車の大半をカバー。",
-        "highlight": true
-      },
-      {
-        "code": "準中型免許",
-        "name": "準中型",
-        "vehicle": "準中型自動車 — light-to-medium truck",
-        "limit": "≤ 7,500kg · ≤ 4名",
-        "age": "最低18歳",
-        "note": "2017年導入。18歳から配送トラックを運転可。"
-      },
-      {
-        "code": "中型免許",
-        "name": "中型",
-        "vehicle": "中型自動車 — medium truck / bus",
-        "limit": "≤ 11,000kg · ≤ 29名",
-        "age": "最低20歳 · 免許歴≥2年",
-        "note": "中型配送車やミニバス向け。"
-      },
-      {
-        "code": "大型免許",
-        "name": "大型",
-        "vehicle": "大型自動車 — large truck / coach",
-        "limit": "重量・乗員制限なし",
-        "age": "最低21歳 · 免許歴≥3年",
-        "note": "大型貨物車や大型バスに必要。"
-      },
-      {
-        "code": "普通二輪",
-        "name": "普通二輪",
-        "vehicle": "普通自動二輪車 — motorcycle / scooter",
-        "limit": "≤ 400cc",
-        "age": "最低16歳（小型≤125cc）/18歳（普通二輪）",
-        "note": "小型限定（≤125cc）は16歳から。普通二輪は400ccまで。",
-        "highlight": true
-      },
-      {
-        "code": "大型二輪",
-        "name": "大型二輪",
-        "vehicle": "大型自動二輪車 — large motorcycle",
-        "limit": "> 400cc、出力無制限",
-        "age": "最低18歳",
-        "note": "普通二輪の保有が必要。排気量制限なし。"
-      },
-      {
-        "code": "原付免許",
-        "name": "原付",
-        "vehicle": "原動機付自転車 — moped / scooter",
-        "limit": "≤ 50cc · 最高30km/h",
-        "age": "最低16歳",
-        "note": "最も簡易。免許センターで1日試験。"
-      },
-      {
-        "code": "大型特殊",
-        "name": "大型特殊",
-        "vehicle": "大型特殊自動車 — construction machinery",
-        "limit": "ブルドーザー・クレーン等の公道走行",
-        "age": "最低18歳",
-        "note": "公道の作業車に対応（オフロードは対象外）。"
-      }
-    ],
-    "back_home": "← ホームへ戻る"
-  },
-  "resourcesForeigners": {
-    "breadcrumb_home": "← Home",
-    "breadcrumb_title": "Foreigners' Guide",
-    "hero": {
-      "eyebrow": "Study material",
-      "title": "Foreigners' Guide",
-      "lead": "Converting an overseas licence, IDP rules, and what Myanmar nationals need to legally drive in Singapore and Japan."
+     ]
     },
-    "sg_title": "Singapore",
-    "jp_title": "Japan",
-    "sg": {
-      "tourist": {
-        "title": "観光客として外国免許を使う",
-        "p1": "有効な外国免許を持っている場合、入国日から最大12か月は免許の切替なしで運転できます（免許は英語、または英訳付きである必要があります）。",
-        "p2": "自国で発行された International Driving Permit (IDP) も同じ12か月間有効です。"
+    {
+     "heading": "左折・横断歩道・高速",
+     "tips": [
+      {
+       "hook": "\"Left turn: cyclists & walkers first\"",
+       "topic": "左折",
+       "detail": "左折時は自転車・歩行者優先。死角確認。"
       },
-      "convert": {
-        "title": "外国免許の切替（PR / ワークパス保有者）",
-        "bullets": [
-          "PR、EP、S Pass、WP、DP の有効保持者が対象です。",
-          "外国免許は有効で、認定国発行である必要があります（ミャンマーは対象）。",
-          "SLA Building, 8 Shenton Way の Traffic Police (OneMotoring) 窓口へ。",
-          "提出物：外国免許、英訳（英語でない場合）、FINカード、パスポート、写真1枚。",
-          "手数料は約 S$25–S$50（最新は OneMotoring を確認）。",
-          "暫定免許が発行され、無違反で1年後に本免許となります。"
-        ]
+      {
+       "hook": "\"Lights on in tunnels\"",
+       "topic": "ヘッドライト",
+       "detail": "トンネル内と夜間は点灯 — 街灯があっても。"
       },
-      "myanmar": {
-        "title": "ミャンマー国籍 — 特別要件 🇲🇲",
-        "bullets": [
-          "ミャンマー免許は切替対象で、Singapore BTT や実技試験は不要です。",
-          "ミャンマー免許を少なくとも1年保持し、運転経験が必要です。",
-          "持参：ミャンマー免許原本、英訳（公証/大使館）、パスポート、FINカード。",
-          "英語でない場合はシンガポールのミャンマー大使館または認定翻訳で英訳。",
-          "12か月以上滞在して未切替の場合、BTT が必要になる場合があります。"
-        ]
+      {
+       "hook": "\"Expressway min 50\"",
+       "topic": "高速道路",
+       "detail": "最低速度は通常50km/h — 遅すぎて妨げない。"
       }
-    },
-    "jp": {
-      "tourist": {
-        "title": "日本での外国免許 / IDP の利用",
-        "p1": "日本はジュネーブ条約1949の IDP を受け入れます。IDP の有効期間は日本への最終入国日から1年です（発行日ではありません）。",
-        "p2": "ウィーン条約1968の IDP は日本で無効です。自国の条約区分を確認してください。"
-      },
-      "convert": {
-        "title": "外国免許切替（外国免許切替）",
-        "p1": "日本は一部の国（ドイツ、フランス、オーストラリア等）と相互切替協定があります。ミャンマーは対象外のため、以下が必要です。",
-        "bullets": [
-          "JAF（Japan Automobile Federation）でミャンマー免許の日本語訳を取得。",
-          "免許センターへ提出：ミャンマー免許＋JAF訳、在留カード、パスポート、住民票、写真。",
-          "知識試験（10問・7/10合格）を受験（英語対応のセンターもあり）。",
-          "技能試験（場内）を受験し、基本操作とコース走行を確認。",
-          "合格後に免許発行。JAF翻訳料は約¥3,000。"
-        ]
-      },
-      "myanmar": {
-        "title": "ミャンマー国籍 — 最短ルート 🇲🇲",
-        "p1": "日本とミャンマーに相互協定がないため、最短の合法ルートは次の通りです。",
-        "options": [
-          "Option A — 自動車学校：指定自動車教習所に通学。費用は高い（¥250,000–¥400,000）が、学校の技能試験で免許センターの技能試験が免除されます。本免許学科試験のみ受験。",
-          "Option B — 免許センター直接：費用は安いが、技能試験は難しく初回合格が難しい。"
-        ],
-        "tip": "Tip: 本アプリは本免許学科試験対策に対応。Japan の模擬試験で準備できます。"
-      }
-    },
-    "disclaimer_label": "免責事項:",
-    "disclaimer_text": "本情報は一般的な案内です。要件は変更される可能性があるため、必ず Traffic Police（Singapore）または各都道府県の免許センター（Japan）、登録移民アドバイザーに確認してください。",
-    "back_home": "← Back to home"
-  },
-  "resourcesSigns": {
-    "breadcrumb_home": "← Home",
-    "breadcrumb_title": "Road Signs Library",
-    "hero": {
-      "eyebrow": "Study material",
-      "title": "Road Signs Library",
-      "lead": "Every regulatory, warning and informational sign — with what each one means and what you must do."
-    },
-    "sg_title": "シンガポールの標識",
-    "jp_title": "日本の標識",
-    "sg_sections": [
-      {
-        "category": "規制標識（必ず守る）",
-        "signs": [
-          {
-            "file": "stop.png",
-            "title": "停止",
-            "subtitle": "ရပ်ရမည်",
-            "desc": "停止線の手前で必ず停止してから進みます。"
-          },
-          {
-            "file": "give-way.png",
-            "title": "譲れ",
-            "subtitle": "လမ်းပေးရမည်",
-            "desc": "主要道路の車両に進路を譲ってから合流します。"
-          },
-          {
-            "file": "no-entry.png",
-            "title": "進入禁止",
-            "subtitle": "ဝင်ခွင့်မပြု",
-            "desc": "この道路への進入は禁止です。"
-          },
-          {
-            "file": "speed-50.png",
-            "title": "制限速度50",
-            "subtitle": "အမြန်နှုန်း ၅၀",
-            "desc": "この道路の最高速度は50 km/hです。"
-          },
-          {
-            "file": "no-overtaking.png",
-            "title": "追い越し禁止",
-            "subtitle": "ကျော်ဖြတ်ခွင့်မရှိ",
-            "desc": "この区間では追い越し禁止です。"
-          },
-          {
-            "file": "mandatory-sign.png",
-            "title": "指定方向",
-            "subtitle": "ညွှန်ကြားသောဘက် သွားရမည်",
-            "desc": "矢印の方向へ必ず進行してください。"
-          }
-        ]
-      },
-      {
-        "category": "警戒標識（危険注意）",
-        "signs": [
-          {
-            "file": "warning-sign.png",
-            "title": "注意",
-            "subtitle": "သတိပေး",
-            "desc": "前方に危険があるため注意してください。"
-          },
-          {
-            "file": "pedestrian-crossing.png",
-            "title": "横断歩道あり",
-            "subtitle": "လမ်းဖြတ်ကူးရှိ",
-            "desc": "速度を落とし、歩行者に注意します。"
-          },
-          {
-            "file": "school-zone.png",
-            "title": "スクールゾーン",
-            "subtitle": "ကျောင်းဇုန်",
-            "desc": "登下校時間は40 km/hまで減速します。"
-          },
-          {
-            "file": "traffic-signals-sign.png",
-            "title": "信号あり",
-            "subtitle": "မီးပွိုင့်ရှိ",
-            "desc": "前方に信号交差点があるため停止準備をします。"
-          }
-        ]
-      },
-      {
-        "category": "案内標識",
-        "signs": [
-          {
-            "file": "parking-sign.png",
-            "title": "駐車案内",
-            "subtitle": "ကားရပ်နားခြင်း",
-            "desc": "駐車の可否や時間制限は表示に従います。"
-          },
-          {
-            "file": "roundabout.png",
-            "title": "ラウンドアバウト",
-            "subtitle": "လည်ပတ်လမ်းဆုံ",
-            "desc": "ラウンドアバウト内の車両に進路を譲ります。"
-          }
-        ]
-      }
-    ],
-    "jp_sections": [
-      {
-        "category": "規制標識 — Regulatory",
-        "signs": [
-          {
-            "file": "jp-stop.png",
-            "title": "止まれ",
-            "subtitle": "Stop",
-            "desc": "停止線の手前で一時停止。"
-          },
-          {
-            "file": "jp-no-entry.png",
-            "title": "進入禁止",
-            "subtitle": "No Entry",
-            "desc": "この道路への進入は禁止。"
-          },
-          {
-            "file": "jp-speed-limit.png",
-            "title": "最高速度",
-            "subtitle": "Speed Limit",
-            "desc": "表示速度を超えてはいけない。"
-          },
-          {
-            "file": "jp-no-overtaking.png",
-            "title": "追い越し禁止",
-            "subtitle": "No Overtaking",
-            "desc": "この区間は追い越し禁止。"
-          },
-          {
-            "file": "jp-give-way.png",
-            "title": "徐行",
-            "subtitle": "Proceed Slowly",
-            "desc": "いつでも止まれる速度で徐行。"
-          },
-          {
-            "file": "jp-one-way.png",
-            "title": "一方通行",
-            "subtitle": "One Way",
-            "desc": "一方向のみ通行可。"
-          },
-          {
-            "file": "jp-parking.png",
-            "title": "駐車禁止",
-            "subtitle": "No Parking",
-            "desc": "駐車は禁止。"
-          }
-        ]
-      },
-      {
-        "category": "警戒標識 — Warning",
-        "signs": [
-          {
-            "file": "jp-pedestrian-cross.png",
-            "title": "横断歩道",
-            "subtitle": "Pedestrian Crossing",
-            "desc": "歩行者優先で通行します。"
-          },
-          {
-            "file": "jp-school-zone.png",
-            "title": "スクールゾーン",
-            "subtitle": "School Zone",
-            "desc": "子供が多い区域のため徐行。"
-          },
-          {
-            "file": "jp-warning.png",
-            "title": "警戒",
-            "subtitle": "Hazard Warning",
-            "desc": "前方に危険箇所あり。"
-          },
-          {
-            "file": "jp-pedestrian.png",
-            "title": "歩行者通行あり",
-            "subtitle": "Pedestrians Present",
-            "desc": "歩行者の通行に注意。"
-          }
-        ]
-      }
-    ],
-    "back_home": "← Back to home"
-  },
-  "rewardedAd": {
-    "button_default": "広告を見て再挑戦",
-    "modal_title": "短い広告を視聴",
-    "modal_body": "短い広告を見ると、無料で1回再挑戦できます。",
-    "modal_watch": "今すぐ見る",
-    "modal_cancel": "やめる",
-    "loading": "広告を読み込み中…",
-    "skipped": "広告をスキップしました — 再挑戦は解放されません"
-  },
-  "privacy": {
-    "meta_title": "プライバシーポリシー",
-    "meta_description": "TheoryLane 学科試験対策アプリのプライバシーポリシー。",
-    "title": "プライバシーポリシー",
-    "updated": "最終更新：2026年7月",
-    "back": "← {brand} に戻る",
-    "contact_title": "お問い合わせ",
-    "sections": [
-      {
-        "title": "1. 運営者について",
-        "paragraphs": [
-          "{brand}はシンガポール（BTT/FTT/RTT）と日本の学科試験対策プラットフォームで、{site} で提供しています。英語・ミャンマー語・日本語で学習を支援します。"
-        ]
-      },
-      {
-        "title": "2. 収集する情報",
-        "paragraphs": [
-          "サービス運営に必要な情報のみを収集します。"
-        ],
-        "bullets": [
-          "アカウント情報 — 登録時のメールアドレスとハッシュ化されたパスワード（Supabase Auth）",
-          "クイズ進捗 — ブラウザのlocalStorageおよびログイン時のデータベース上のスコア・履歴",
-          "利用データ — サービス改善のための匿名化された利用データ",
-          "Cookie — セッション用の機能Cookie。Cookieバナーで同意した場合、Google AdSenseの広告Cookie"
-        ]
-      },
-      {
-        "title": "3. 情報の利用目的",
-        "bullets": [
-          "クイズ・練習機能の提供と改善",
-          "進捗の記録と最高スコアの表示",
-          "アカウントとサブスクリプションの管理（該当する場合）",
-          "毎日の練習リマインダー（ベルアイコンでオプトインした場合のみ）",
-          "Google AdSenseによる広告表示（同意がある場合）"
-        ]
-      },
-      {
-        "title": "4. Google AdSenseと広告",
-        "paragraphs": [
-          "Google AdSenseで広告を表示します。GoogleはCookieとデバイス識別子を使い、本サイトや他サイトへの訪問に基づいて広告を配信することがあります。",
-          "パーソナライズ広告のオプトアウト: https://www.google.com/settings/ads または https://www.aboutads.info",
-          "Googleのデータ利用: https://policies.google.com/technologies/partner-sites"
-        ]
-      },
-      {
-        "title": "5. 第三者サービス",
-        "bullets": [
-          "Supabase — 認証・データベース（EU）。https://supabase.com/privacy",
-          "Vercel — ホスティング。https://vercel.com/legal/privacy-policy",
-          "Google AdSense — 広告パートナー。https://policies.google.com/privacy"
-        ]
-      },
-      {
-        "title": "6. データの保持",
-        "paragraphs": [
-          "アカウントデータはアカウントが有効な間保持します。削除はお問い合わせください。ブラウザデータ（クイズ進捗・リマインダー）はブラウザ設定でlocalStorageを削除できます。"
-        ]
-      },
-      {
-        "title": "7. お客様の権利",
-        "paragraphs": [
-          "お住まいの地域により、個人データへのアクセス・訂正・削除を求める権利がある場合があります。下記メールでご連絡ください。"
-        ]
-      },
-      {
-        "title": "8. 子どものプライバシー",
-        "paragraphs": [
-          "{brand}は13歳未満の子ども向けではありません。13歳未満から個人情報を収集したと思われる場合はご連絡ください。"
-        ]
-      },
-      {
-        "title": "9. ポリシーの変更",
-        "paragraphs": [
-          "本ポリシーは随時更新される場合があります。変更はこのページに日付とともに掲載します。継続利用は同意とみなします。"
-        ]
-      }
-    ]
-  },
-  "auth": {
-    "back_home": "← ホームに戻る",
-    "login_title": "ログイン",
-    "signup_title": "アカウント作成",
-    "login_sub": "練習履歴とプレミアム機能にアクセスします。",
-    "signup_sub": "無料登録ですぐに練習を始められます。",
-    "email": "メール",
-    "password": "パスワード",
-    "password_placeholder_signup": "8文字以上",
-    "please_wait": "お待ちください…",
-    "login_cta": "ログイン",
-    "signup_cta": "アカウント作成",
-    "no_account": "アカウントをお持ちでない方",
-    "signup_link": "無料登録",
-    "has_account": "すでにアカウントをお持ちの方",
-    "login_link": "ログイン",
-    "forgot_link": "パスワードをお忘れですか？",
-    "forgot_title": "パスワードをリセット",
-    "forgot_sub": "アカウントのメールアドレスを入力してください。新しいパスワードを設定するリンクを送信します。",
-    "forgot_cta": "リセットリンクを送信",
-    "forgot_sent_title": "メールを確認してください",
-    "forgot_sent_body": "{email} にアカウントがある場合、パスワードリセットリンクを送信しました。受信トレイと迷惑メールを確認してください。",
-    "reset_title": "新しいパスワード",
-    "reset_sub": "新しいパスワードを入力し、確認してください。",
-    "reset_password": "新しいパスワード",
-    "reset_confirm": "パスワード確認",
-    "reset_cta": "パスワードを更新",
-    "reset_success_body": "パスワードを更新しました。新しいパスワードでログインしてください。",
-    "reset_invalid_title": "リンクの期限切れ",
-    "reset_invalid_link": "このリンクは無効か期限切れです。新しいリセットメールをリクエストしてください。",
-    "back_login": "← ログインに戻る",
-    "check_email_title": "メールを確認してください",
-    "check_email_body": "確認リンクを {email} に送信しました。リンクを開いてからログインしてください。",
-    "check_email_cta": "ログイン →",
-    "errors": {
-      "generic": "問題が発生しました",
-      "device_register": "この端末を登録できませんでした。もう一度お試しください。",
-      "password_mismatch": "パスワードが一致しません"
-    },
-    "devices": {
-      "title": "端末の上限に達しました",
-      "body": "1アカウントは同時に2台まで利用できます。この端末で続けるには、以前のセッションの1つからログアウトしてください。",
-      "last_seen": "最終利用: {date}",
-      "current_hint": "現在お使いの端末です。",
-      "continue": "選択した端末をログアウトして続行",
-      "cancel": "ログインをキャンセル",
-      "working": "お待ちください…",
-      "error": "端末枠を空けられませんでした。もう一度お試しください。"
+     ]
     }
+   ]
   },
-  "cookies": {
-    "title": "Cookieの使用について",
-    "body": "当サイトの運営および、ご同意いただいた場合の広告表示のためにCookie等を使用します。詳細は",
-    "privacy_link": "プライバシーポリシー",
-    "accept": "同意する",
-    "reject": "必須以外を拒否"
+  "back_home": "ホームに戻る"
+ },
+ "resourcesDemerit": {
+  "breadcrumb_home": "ホーム",
+  "breadcrumb_title": "罰則・違反点数",
+  "hero": {
+   "eyebrow": "集中ガイド",
+   "title": "罰則・違反点数制度",
+   "lead": "違反点数のすべてを1か所に — 免許停止になる点数、よくある違反、そして安全に運転する方法。簡潔で、覚えやすく、完全です。"
   },
-  "terms": {
-    "meta_title": "利用規約",
-    "meta_description": "TheoryLane 学科試験対策サービスの利用規約。",
-    "title": "利用規約",
-    "updated": "最終更新：2026年7月",
-    "back": "← {brand} に戻る",
-    "contact_title": "お問い合わせ",
-    "sections": [
-      {
-        "title": "1. 同意",
-        "paragraphs": [
-          "TheoryLane（「本サービス」）を利用することで、本利用規約に同意したものとみなします。同意できない場合はご利用をお控えください。"
-        ]
-      },
-      {
-        "title": "2. 提供内容",
-        "paragraphs": [
-          "TheoryLaneは、シンガポール（BTT・FTT・RTT）および日本の運転免許学科試験向けの独立したオンライン学習プラットフォームです。レッスン、練習問題、模擬試験、学習リソースを複数言語で提供します。",
-          "シンガポール交通警察、日本の警察庁、教習所、政府の免許機関とは提携していません。当サービスで高得点を取っても、公式試験の合格を保証するものではありません。"
-        ]
-      },
-      {
-        "title": "3. アカウント",
-        "paragraphs": [
-          "有効なメールアドレスでアカウントを作成できます。ログイン情報の管理およびアカウント上のすべての行為について責任を負います。",
-          "本規約に違反したり、サービスを悪用したりするアカウントは停止または削除される場合があります。"
-        ]
-      },
-      {
-        "title": "4. 無料とプレミアム",
-        "paragraphs": [
-          "無料ユーザーは限定機能を利用できます（カテゴリごとに1日1回の模擬試験制限など）。プレミアム会員は有効な契約期間中、より多くの機能にアクセスできます。",
-          "機能制限は変更される場合があります。重要な変更については合理的な告知を行います。"
-        ]
-      },
-      {
-        "title": "5. お支払い",
-        "paragraphs": [
-          "プレミアムはアプリに表示される手動決済（KBZPay、WavePayなど）で購入できます。支払いスクリーンショットは手動で確認し、承認後にアクセスを付与します。",
-          "価格と契約期間は決済画面に表示されます。誤って支払った場合はご連絡ください。返金は個別に対応します。"
-        ]
-      },
-      {
-        "title": "6. 禁止事項",
-        "paragraphs": [
-          "問題バンクやコンテンツの無断複製・スクレイピング・再配布、制限の回避、ボット等による悪用、フィードバックへの有害・違法・誤解を招く内容の投稿を禁止します。",
-          "悪用が確認された場合、事前通知なくアクセスを制限することがあります。"
-        ]
-      },
-      {
-        "title": "7. 知的財産",
-        "paragraphs": [
-          "TheoryLane上の問題、図、ブランド、ソフトウェアは当社またはライセンサーに帰属します。個人の学習目的でのみ利用する非譲渡的ライセンスを付与します。"
-        ]
-      },
-      {
-        "title": "8. 免責事項",
-        "paragraphs": [
-          "本サービスは教育目的で「現状有姿」で提供されます。内容の完全性・最新性・正確性を保証しません。試験規則は必ず公式ハンドブックと所管機関でご確認ください。"
-        ]
-      },
-      {
-        "title": "9. 責任の制限",
-        "paragraphs": [
-          "法令で認められる最大限の範囲で、TheoryLaneおよび運営者は、本サービスの利用に起因する間接的・付随的・結果的損害（試験結果やデータ損失を含む）について責任を負いません。"
-        ]
-      },
-      {
-        "title": "10. 規約の変更",
-        "paragraphs": [
-          "本規約は随時更新される場合があります。変更後も利用を続けることで、更新後の規約に同意したものとみなします。"
-        ]
-      },
-      {
-        "title": "11. 準拠法",
-        "paragraphs": [
-          "本規約はシンガポール法に準拠します。紛争が生じた場合は、まずメールでご連絡ください。"
-        ]
-      }
-    ]
-  },
-  "refund": {
-    "meta_title": "返金ポリシー",
-    "meta_description": "TheoryLane Premium（KBZPay・WavePay）の返金ポリシー。",
-    "title": "返金ポリシー",
-    "updated": "最終更新：2026年7月",
-    "back": "← {brand} に戻る",
-    "contact_title": "お問い合わせ",
-    "sections": [
-      {
-        "title": "1. 概要",
-        "paragraphs": [
-          "TheoryLane Premiumはデジタルサブスクリプションです。手動審査後すぐにアクセスが付与されるため、返金は限定的で個別に対応します。"
-        ]
-      },
-      {
-        "title": "2. 返金の対象になりうる場合",
-        "paragraphs": ["次の場合、返金を検討します。"],
-        "bullets": [
-          "同一プランの二重支払い",
-          "プランまたは期間の誤承認",
-          "確認済み支払いから7日以内にプレミアムが有効化されなかった",
-          "支払いから14日以内の連絡で、プレミアム機能をほとんど利用していない"
-        ]
-      },
-      {
-        "title": "3. 通常返金しない場合",
-        "bullets": [
-          "プレミアム有効化後の単純な気変わり",
-          "公式学科試験の不合格",
-          "誤った取引IDやスクリーンショットによる遅延",
-          "期間終了後、またはプレミアムを大量に利用済み"
-        ]
-      },
-      {
-        "title": "4. 返金の申請方法",
-        "paragraphs": [
-          "アカウントメール、ウォレット（KBZPay/WavePay）、取引ID、支払日、理由をメールでお送りください。3〜5営業日以内に返信します。",
-          "手動ウォレット支払いは、可能な限り同じウォレットへ返金します。"
-        ]
-      },
-      {
-        "title": "5. サブスクリプションの延長",
-        "paragraphs": [
-          "プレミアム有効中に更新した場合、新しい日数は現在の有効期限に加算されます — 残り日数は失われません。"
-        ]
-      }
-    ]
-  },
-  "about": {
-    "meta_title": "会社概要・お問い合わせ",
-    "meta_description": "TheoryLaneについて — シンガポール・日本の学科試験対策（英語・ミャンマー語・日本語）。",
-    "title": "TheoryLaneについて",
-    "updated": "最終更新：2026年7月",
-    "back": "← {brand} に戻る",
-    "contact_title": "お問い合わせ",
-    "sections": [
-      {
-        "title": "ミッション",
-        "paragraphs": [
-          "TheoryLaneは、出稼ぎ労働者や学習者が、シンガポールと日本の学科試験に英語・ミャンマー語（Unicode）・日本語で備えられるよう支援します。",
-          "海外では公式資料が入手しにくく、二言語での説明と実践的な練習が必要な学習者のために作りました。"
-        ]
-      },
-      {
-        "title": "できること",
-        "paragraphs": [
-          "レッスンモードでトピック別に学習、練習モードで弱点を克服、本番形式の時間制限付き模擬試験に挑戦できます。",
-          "シンガポール：BTT・FTT・RTT。日本：自動車・バイク学科。標識ガイド、ハンドブック、FAQ、費用情報も用意しています。"
-        ]
-      },
-      {
-        "title": "独立した学習ツール",
-        "paragraphs": [
-          "TheoryLaneはシンガポール交通警察、日本の警察庁、CDC、教習所とは無関係です。問題と図はすべてオリジナルの学習教材であり、公式試験からの転載ではありません。",
-          "規則・費用・予約手続きは必ず所管機関または教習所でご確認ください。"
-        ]
-      },
-      {
-        "title": "プレミアムとサポート",
-        "paragraphs": [
-          "無料プランで毎日お試しいただけます。プレミアムでは模擬試験無制限と広告非表示になります。",
-          "お支払い、不具合、コンテンツのご意見はメールまたは問題報告フォームから — すべて確認しています。"
-        ]
-      }
-    ]
-  },
-  "footer": {
-    "tagline": "シンガポールと日本の学科試験対策を、あなたの言語で。",
-    "report": "問題を報告",
-    "report_title": "バグや不具合を見つけましたか？",
-    "report_desc": "状況を教えてください — すべての報告を確認し、迅速に対応します。",
-    "report_btn": "問題を報告する →",
-    "privacy": "プライバシーポリシー",
-    "terms": "利用規約",
-    "refund": "返金ポリシー",
-    "about": "会社概要",
-    "contact": "お問い合わせ",
-    "note": "独立した学習ツールです。シンガポール交通警察、日本の警察庁、いかなる教習所とも提携していません。すべての問題と図はオリジナルです。"
-  },
-  "feedback": {
-    "breadcrumb_home": "← ホーム",
-    "breadcrumb_title": "問題を報告",
-    "eyebrow": "改善にご協力ください",
-    "title": "問題の報告・フィードバック",
-    "lead": "バグ、使いにくい点、ご提案などがあればお知らせください。状況を確認して対応します。",
-    "type_label": "種類",
-    "type_bug": "バグ・不具合",
-    "type_difficulty": "使い方が難しい",
-    "type_feedback": "ご意見・提案",
-    "type_other": "その他",
-    "area_label": "該当する機能",
-    "area_quiz": "クイズ・模擬試験",
-    "area_account": "アカウント・ログイン",
-    "area_payment": "支払い・プレミアム",
-    "area_content": "問題・学習コンテンツ",
-    "area_ui": "デザイン・画面",
-    "area_other": "その他",
-    "subject_label": "件名",
-    "subject_placeholder": "例：12問目でクイズが止まる",
-    "body_label": "詳細",
-    "body_placeholder": "何をしていたか、期待した動作、実際に起きたこと",
-    "email_label": "メールアドレス（返信用）",
-    "email_placeholder": "you@example.com",
-    "email_hint": "未ログインの場合は必須です。報告への返信のみに使用します。",
-    "signed_in_as": "ログイン中",
-    "submit": "送信",
-    "submitting": "送信中…",
-    "success_title": "ありがとうございます。報告を受け付けました。",
-    "success_body": "チームが確認します。ログイン中は下でステータスを確認できます。",
-    "error_generic": "エラーが発生しました。もう一度お試しください。",
-    "my_reports": "あなたの報告",
-    "loading": "読み込み中…",
-    "no_reports": "まだ報告はありません。",
-    "status_pending": "未対応",
-    "status_reviewing": "確認中",
-    "status_resolved": "解決済み",
-    "status_dismissed": "クローズ",
-    "admin_reply": "チームからの返信",
-    "signin_hint": "ログインすると報告の追跡ができ、毎回メール入力が不要です。",
-    "signin_link": "ログイン"
-  },
-  "resourcesHandbook": {
-    "breadcrumb_home": "← ホーム",
-    "breadcrumb_title": "公式ハンドブック",
-    "hero": {
-      "eyebrow": "学習資料",
-      "title": "公式ハンドブックをダウンロード",
-      "lead": "シンガポールと日本の学科試験用の政府ハンドブックと学習ガイドへの無料リンク。"
+  "golden_label": "覚えるべき一つのルール",
+  "remember_label": "記憶のコツ:",
+  "note_label": "注:",
+  "stats_title": "ひと目でわかる",
+  "offences_title": "よくある違反と点数",
+  "offences_note": "点数は公式の警察・交通警察の基準に従い、変更されることがあります — 参考にする前に必ず公式情報で最新の数値を確認してください。",
+  "levels_title": "免許停止の段階",
+  "newdriver_title": "新規・初心運転者",
+  "sg": {
+   "title": "シンガポール (DIPS)",
+   "golden": "24か月以内に24点 = 3か月停止。",
+   "hook": "「24 in 24 → out for 3」— 24か月で24点なら3か月停止。",
+   "stats": [
+    {
+     "label": "Suspension threshold",
+     "value": "24 pts",
+     "sub": "within any 24 months"
     },
-    "disclaimer_label": "注意：",
-    "disclaimer": "これらのファイルは公式機関がホストしています。TheoryLaneは独立した学習ツールであり、政府機関とは提携していません。",
-    "download": "ダウンロード",
-    "back_home": "← ホームに戻る"
-  },
-  "experiences": {
-    "breadcrumb_home": "← ホーム",
-    "breadcrumb_title": "会員の体験談",
-    "hero": {
-      "eyebrow": "コミュニティ",
-      "title": "合格者からのヒント",
-      "lead": "プレミアム会員が実際の勉強法と試験当日の体験を共有。すべてのレビューは公開前にチームが確認します。"
+    {
+     "label": "New driver threshold",
+     "value": "12 pts",
+     "sub": "within first 12 months"
     },
-    "signin_prompt": "ログインして、学習者と体験を共有しましょう。",
-    "signin_btn": "ログイン",
-    "premium_prompt": "レビューの投稿はプレミアム会員のみ。アップグレードして体験を共有しましょう。",
-    "premium_btn": "プレミアムへ",
-    "write_prompt": "試験に合格しましたか？他の人を助けたいですか？体験を共有しましょう。",
-    "write_btn": "レビューを書く",
-    "form_title": "体験を共有",
-    "field_category": "試験 / トピック",
-    "field_name": "表示名（公開）",
-    "field_name_ph": "例：コーコー",
-    "field_title": "見出し",
-    "field_body": "体験とアドバイス",
-    "field_rating": "TheoryLaneはどれくらい役立ちましたか？",
-    "field_passed": "試験に合格しましたか？",
-    "passed_na": "答えたくない",
-    "passed_yes": "はい、合格しました",
-    "passed_no": "まだ勉強中",
-    "submit_btn": "審査に提出",
-    "submitting": "送信中…",
-    "cancel": "キャンセル",
-    "approval_note": "レビューは管理者の承認後に表示されます — 通常24時間以内。",
-    "submit_success": "ありがとうございます。レビューは審査待ちです。",
-    "my_reviews": "あなたの投稿",
-    "published_title": "公開済みレビュー",
-    "loading": "読み込み中…",
-    "empty": "まだ公開レビューがありません。最初のプレミアム会員として体験を共有しましょう！",
-    "badge_passed": "✓ 合格",
-    "badge_studying": "勉強中",
-    "status_pending": "審査待ち",
-    "status_approved": "公開済み",
-    "status_rejected": "非承認"
-  },
-  "practicalChecklist": {
-    "breadcrumb_home": "← ホーム",
-    "breadcrumb_title": "実技試験 減点ガイド",
-    "hero": {
-      "eyebrow": "シンガポール · Class 3 / 3A",
-      "title": "最終実技評価 減点ガイド"
+    {
+     "label": "First suspension",
+     "value": "3 months",
+     "sub": "for hitting 24 points"
     },
-    "sg_only_title": "シンガポール実技試験のみ",
-    "sg_only_lead": "Class 3/3Aの減点ガイドを見るには、ヘッダーで国をシンガポールに切り替えてください。",
-    "jp_only_eyebrow": "日本 · 技能試験",
-    "jp_only_title": "シンガポール専用の減点ガイド",
-    "jp_only_lead": "この減点一覧はシンガポール Class 3/3A 専用です。日本の技能試験は教習所卒業後の流れを、ライセンスロードマップと学習ガイドで確認してください。",
-    "jp_roadmap_link": "ライセンスロードマップ",
-    "jp_guide_link": "学習ガイド",
-    "pass_criteria_title": "合格・不合格の基準",
-    "pass_demerit_label": "減点の上限",
-    "pass_demerit_value": "{max}点未満",
-    "pass_demerit_detail": "減点合計は{max}点未満である必要があります。{max}点以上で不合格です。",
-    "pass_immediate_label": "即失格",
-    "pass_immediate_value": "1件でも",
-    "pass_immediate_detail": "丸印の項目（赤信号進行・事故など）が1つでもあれば、減点に関係なく試験終了です。",
-    "pass_items_label": "評価項目",
-    "pass_items_detail": "交通警察の公式用紙に基づく — 各行にそのミスの減点を表示。",
-    "legend_title": "用紙の印",
-    "legend_circle": "丸印 = 即失格",
-    "legend_box": "四角印 = 表示された減点",
-    "show_atm": "AT車項目を表示",
-    "show_atv": "ATVランプ項目を表示",
-    "expand_all": "すべて展開",
-    "collapse_all": "すべて閉じる",
-    "badge_if": "即失格",
-    "badge_zero": "0点",
-    "disclaimer": "交通警察Class 3/3A最終評価用紙に基づきます。学習用の参照ガイドであり、公式記録ではありません。",
-    "critical_title": "重要な場面 — 試験前に必読",
-    "critical_sub": "不合格の多い場面の手順と注意点を詳しく解説。",
-    "show_guide": "ヒントと解説を表示",
-    "sections_intro": "試験官が公式用紙にそのミスを記入した場合の減点を各行に表示しています。",
-    "steps_label": "手順",
-    "warnings_label": "注意",
-    "tips_label": "ヒント",
-    "examiner_focus": "試験官が見るポイント",
-    "procedure_label": "手順",
-    "how_to_avoid": "減点を避けるには",
-    "common_mistakes": "よくあるミス",
-    "show_tips": "詳しく",
-    "hide_tips": "閉じる",
-    "tips_short": "ヒント",
-    "jump_section": "減点セクションへ"
+    {
+     "label": "Repeat suspension",
+     "value": "Longer",
+     "sub": "6+ months / possible revocation"
+    },
+    {
+     "label": "Red light offence",
+     "value": "12 pts",
+     "sub": "one of the highest common offences"
+    },
+    {
+     "label": "Mobile phone",
+     "value": "6 pts",
+     "sub": "holding phone while driving"
+    }
+   ],
+   "offences_headers": [
+    "Offence",
+    "Demerit points"
+   ],
+   "offences": [
+    [
+     "Running a red light",
+     "12 pts"
+    ],
+    [
+     "Reckless driving",
+     "12 pts"
+    ],
+    [
+     "Driving against traffic flow",
+     "12 pts"
+    ],
+    [
+     "Drink-driving (above limit)",
+     "12 pts + court"
+    ],
+    [
+     "Speeding 31+ km/h over the limit",
+     "6–24 pts"
+    ],
+    [
+     "Speeding 21–30 km/h over the limit",
+     "6 pts"
+    ],
+    [
+     "Using a mobile phone while driving",
+     "6 pts"
+    ],
+    [
+     "Failing to give way to a pedestrian",
+     "6 pts"
+    ],
+    [
+     "Crossing double white lines",
+     "6 pts"
+    ],
+    [
+     "Not wearing a seat belt",
+     "3 pts"
+    ],
+    [
+     "Speeding 1–20 km/h over the limit",
+     "0 pts (fine only)"
+    ]
+   ],
+   "levels": [
+    {
+     "label": "24 points (1st time)",
+     "value": "3-month suspension"
+    },
+    {
+     "label": "24 points again within 12 months of restoration",
+     "value": "6-month suspension"
+    },
+    {
+     "label": "Suspended before + reach 24 again",
+     "value": "Licence revocation"
+    },
+    {
+     "label": "New driver: 12 points in first year",
+     "value": "Licence revoked — must re-sit all tests"
+    }
+   ],
+   "newdriver_body": "免許取得後12か月は試用期間。12点で免許取消 — 通常の半分の基準なので特に注意。",
+   "recovery_body": "違反点数は24か月のローリングで計算 — 24か月経過で古い違反はカウントから外れます。停止後はその期間クリーンに再スタートできますが、復帰後12か月以内の再犯はより長い停止に。安全運転が唯一の確実な方法です。"
+  },
+  "jp": {
+   "title": "日本 (違反点数)",
+   "golden": "違反点数15点 = 免許取消。",
+   "hook": "「6-9-12-15」— 6点から停止、15点で免許取消。",
+   "stats": [
+    {
+     "label": "30-day suspension",
+     "value": "6–8 pts",
+     "sub": "in 1 year, no prior record"
+    },
+    {
+     "label": "60-day suspension",
+     "value": "9–11 pts",
+     "sub": "in 1 year"
+    },
+    {
+     "label": "90-day suspension",
+     "value": "12–14 pts",
+     "sub": "in 1 year"
+    },
+    {
+     "label": "Revocation (取消)",
+     "value": "15+ pts",
+     "sub": "or with a prior suspension"
+    },
+    {
+     "label": "赤信号無視",
+     "value": "2 pts",
+     "sub": "信号無視"
+    },
+    {
+     "label": "携帯使用",
+     "value": "3 pts",
+     "sub": "ながら運転"
+    }
+   ],
+   "offences_headers": [
+    "Offence",
+    "Violation points"
+   ],
+   "offences": [
+    [
+     "Drink-driving — drunk (酔い)",
+     "25 pts + criminal"
+    ],
+    [
+     "Drink-driving — impaired (酒気帯び)",
+     "13 pts"
+    ],
+    [
+     "Speeding 30–50 km/h over (general road)",
+     "6 pts"
+    ],
+    [
+     "Speeding 25–30 km/h over",
+     "3 pts"
+    ],
+    [
+     "Using a mobile phone while driving",
+     "3 pts"
+    ],
+    [
+     "Running a red light",
+     "2 pts"
+    ],
+    [
+     "Failing to stop at 一時停止",
+     "2 pts"
+    ],
+    [
+     "Not yielding to pedestrian at crossing",
+     "2 pts"
+    ],
+    [
+     "Not wearing a seat belt",
+     "1 pt"
+    ],
+    [
+     "Illegal parking (dangerous location)",
+     "1–2 pts"
+    ]
+   ],
+   "levels": [
+    {
+     "label": "6–8 points",
+     "value": "30-day suspension"
+    },
+    {
+     "label": "9–11 points",
+     "value": "60-day suspension"
+    },
+    {
+     "label": "12–14 points",
+     "value": "90-day suspension"
+    },
+    {
+     "label": "15+ points",
+     "value": "Licence revocation"
+    },
+    {
+     "label": "停止歴あり",
+     "value": "Revocation at lower point totals"
+    }
+   ],
+   "newdriver_body": "本免取得後1年間は初心運転者ルール。3点以上で講習受講の対象 — 新規は点数が早くたまるので最初から安全運転を。",
+   "recovery_body": "停止判定は1年間の累計点数。停止を終えればその段階はリセット — ただし停止歴があると次回はより少ない点数で取消になります。講習は期限までに受講し、初年度は軽微な違反も避けましょう。"
+  },
+  "see_guide": "学習ガイド全体を見る →",
+  "see_memory": "覚えやすいコツを見る →",
+  "back_home": "ホームに戻る",
+  "recovery_title": "点数の経過と回復"
+ },
+ "faq": {
+  "eyebrow": "知っておきたいこと",
+  "heading": "よくある質問",
+  "sub_sg": "シンガポール BTT・FTT・RTT — 学習者向けの実用Q&A",
+  "sub_jp": "日本 普通免許・二輪免許 — 学習者向けの実用Q&A",
+  "sg": [
+   {
+    "q": "BTT・FTT・RTTの問題数と合格点は？",
+    "a": "各試験は50問・50分・90%合格（45問正解）。バイクはBTTの後FTTの代わりにRTTを受けます。TheoryLaneの模擬試験も同じ形式です。"
+   },
+   {
+    "q": "BTT・FTT・実技教習の順番は？",
+    "a": "BBDC/CDC/SSDCに登録 → BTT合格 → 実技教習開始 → 車は5回以上の教習後にFTT（バイクはRTT）→ Traffic Policeの技能試験予約。BTTは省略できません。"
+   },
+   {
+    "q": "学科試験の予約と受験料は？",
+    "a": "OneMotoring（onemotoring.lta.gov.sg）で予約。1回あたり約S$7.09（GST込）。不合格の場合は3日後に再予約でき、都度受験料がかかります。"
+   },
+   {
+    "q": "ミャンマー国籍 — 免許切替はできる？BTTは必要？",
+    "a": "有効なミャンマー免許とシンガポールの就労ビザ・PRがあればTraffic Policeで切替できる場合があり、BTTが不要なこともあります。Work Permitや入国12ヶ月超で未切替の場合はBTTが必要になることが多いです。OneMotoringでご自身の状況を確認してください。"
+   },
+   {
+    "q": "シンガポールの学科試験をミャンマー語で学習できる？",
+    "a": "はい。TheoryLaneはBTT/FTT/RTTの問題と解説を英語に加えミャンマー語で提供する数少ないサイトです。シンガポールで働くミャンマー人学習者に最適です。"
+   }
+  ],
+  "jp": [
+   {
+    "q": "本免許学科試験の問題数と合格点は？",
+    "a": "車・バイクの本免許学科試験は95問・50分・86問正解（90%）。教習所の仮免学科は50問・同じく90%合格です。"
+   },
+   {
+    "q": "ミャンマー国籍者の免許取得 — おすすめのルートは？",
+    "a": "ミャンマーとは免許切替協定がありません。指定教習所（高額だが確実）か免許センター一発試験（安いが教習なしは難しい）のどちらか。いずれも学科試験合格が必要です。"
+   },
+   {
+    "q": "仮免許と本免許学科試験はいつ受ける？",
+    "a": "教習所：第1段階で仮免学科・仮免技能に合格 → 仮免許取得 → 第2段階の路上教習 → 卒業検定 → 免許センターで本免許学科のみ受験。教習所卒業で技能試験が免除されます。"
+   },
+   {
+    "q": "危険予測（ア・イ・ウ）問題はある？",
+    "a": "はい。日本の学科試験には危険予測問題が含まれます。TheoryLaneでもイラスト付きで日本語・ミャンマー語の解説があります。"
+   },
+   {
+    "q": "日本の学科試験をミャンマー語で学習できる？",
+    "a": "はい。普通免許・二輪免許の練習問題を日本語とミャンマー語で提供。本免許学科試験の準備中のミャンマー人労働者に役立ちます。"
+   }
+  ],
+  "shared": [
+   {
+    "q": "本当に無料？",
+    "a": "はい。学習・練習はすべて無料。無料アカウントはカテゴリごとに1日1回模擬試験。プレミアムは広告なし・模擬試験無制限・履歴保存。"
+   },
+   {
+    "q": "プレミアムの支払いと開始時期は？",
+    "a": "月額か年額を選び、KBZPayまたはWavePayで送金し、取引IDとスクリーンショットを送信。手動承認（通常数時間以内）後、すぐにプレミアムが開始します。"
+   }
+  ]
+ },
+ "pricing": {
+  "eyebrow": "シンプルな料金",
+  "heading": "無料で開始。本気になったらプレミアムへ。",
+  "sub": "KBZPay・WavePayで支払い。プレミアムは手動確認、通常は数時間以内。",
+  "free": "無料",
+  "free_price": "無料",
+  "free_1": "学習・練習問題すべて",
+  "free_2": "模擬試験は1日1回",
+  "free_3": "広告つき",
+  "monthly": "月額プレミアム",
+  "monthly_price": "4,900 Ks",
+  "pro_1": "広告なし",
+  "pro_2": "模擬試験は無制限",
+  "pro_3": "クイズ履歴・ベストスコア",
+  "yearly": "年額プレミアム",
+  "yearly_price": "39,000 Ks",
+  "year_1": "月額の全機能",
+  "year_2": "30%以上お得",
+  "year_3": "優先確認",
+  "manual": "手動確認",
+  "cta_monthly": "月額を選ぶ",
+  "cta_yearly": "年額を選ぶ",
+  "ks": " Ks"
+ },
+ "premium": {
+  "eyebrow": "シンプルな料金",
+  "title": "プレミアムへ",
+  "lead": "広告なし、模擬試験が無制限、履歴管理も使えます。KBZPayまたはWavePayで支払い、手動確認は通常数時間以内。",
+  "best_value": "お得",
+  "plan_monthly_label": "月額プレミアム",
+  "plan_yearly_label": "年額プレミアム",
+  "plan_days": "{days}日",
+  "plan_monthly_note": "月ごとに支払い",
+  "plan_yearly_note": "30%以上お得",
+  "feature_1": "広告なし",
+  "feature_2": "模擬試験無制限",
+  "feature_3": "クイズ履歴・ベストスコア",
+  "feature_4": "優先サポート",
+  "feature_5": "プロフィールで間違えた問題を復習",
+  "choose_plan": "{plan}を選ぶ →",
+  "currency_ks": " Ks",
+  "back_home": "← ホームへ戻る",
+  "faq_prompt": "質問がある方は",
+  "faq_link": "FAQ"
+ },
+ "payment": {
+  "plan_monthly_label": "月額プレミアム",
+  "plan_yearly_label": "年額プレミアム",
+  "currency_ks": "Ks",
+  "eyebrow": "支払いを完了",
+  "step_method": "1. 支払い方法を選択",
+  "step_transfer": "2. {amount} Ks を送金",
+  "account_name": "口座名義",
+  "brand_name": "TheoryLane",
+  "copy": "コピー",
+  "step_txn": "3. 取引コードの下6桁を入力",
+  "txn_placeholder": "例: 123456",
+  "step_screenshot": "4. 支払いスクリーンショット（任意・承認が早くなります）",
+  "compressing": "スクリーンショットを最適化中…",
+  "screenshot_ready": "アップロード準備完了 · {size} KB",
+  "submitting": "送信中…",
+  "submit_cta": "支払い情報を送信 →",
+  "footer_note": "数時間以内にアカウントがアップグレードされます。",
+  "verify_name_note": "受取名義が {name} と一致することを確認してください。",
+  "submitted_title": "支払いを送信しました！",
+  "submitted_desc": "{plan} の支払い情報を受け取りました。確認後、数時間以内にアップグレードされます。",
+  "submitted_note": "承認は手動で行われます（通常数時間以内）。プレミアム状態は再ログイン後に更新してください。",
+  "submitted_contact": "24時間以内に反映されない場合は連絡してください",
+  "back_home": "← ホームへ戻る",
+  "error_generic": "エラーが発生しました",
+  "error_txn_digits": "取引コードの下6桁を入力してください"
+ },
+ "profile": {
+  "back_home": "← ホームへ戻る",
+  "member_since": "{date} からメンバー",
+  "sign_out": "ログアウト",
+  "current_plan": "現在のプラン",
+  "plan_free": "無料",
+  "plan_premium": "プレミアム",
+  "plan_monthly": "月額プレミアム",
+  "plan_yearly": "年額プレミアム",
+  "status_active": "● 有効",
+  "status_free": "○ 無料プラン",
+  "upgrade_cta": "プレミアムへアップグレード →",
+  "expires": "有効期限",
+  "features": "特典",
+  "features_value": "広告なし · 模擬試験無制限 · クイズ履歴・ベストスコア · 優先サポート",
+  "free_note": "無料プランはカテゴリーごとに1日1回の模擬試験が含まれます。無制限・広告なし・履歴管理のためにアップグレードしてください。",
+  "progress_heading": "進捗サマリー",
+  "attempts_label": "挑戦 {count} 回",
+  "no_attempts": "まだ未挑戦",
+  "best_score": "最高スコア",
+  "settings_heading": "アカウント設定",
+  "email_label": "メールアドレス",
+  "account_id_label": "アカウントID",
+  "email_verified_label": "メール認証",
+  "email_verified": "✓ 認証済み",
+  "email_not_verified": "✗ 未認証",
+  "payments_heading": "支払い履歴",
+  "payments_empty": "支払いはまだありません。",
+  "view_plans": "プランを見る →",
+  "rejection_note": "メモ: {note}",
+  "currency_ks": "Ks",
+  "wrong_answers_heading": "復習すべき問題",
+  "wrong_answers_empty": "練習で間違えた問題がここに保存されます。",
+  "wrong_answers_clear": "リストを消去",
+  "wrong_answers_practice_link": "もう一度練習",
+  "wrong_answers_more": "他 {count} 件保存中"
+ },
+ "countdown": {
+  "heading": "試験カウントダウン",
+  "intro": "試験日を設定すると、残り日数をお知らせします。",
+  "date_label": "試験日",
+  "set_cta": "日付を設定",
+  "change_cta": "変更",
+  "clear_cta": "クリア",
+  "save_cta": "保存",
+  "days_to_go": "あと {count} 日",
+  "today": "今日が試験日です — 頑張ってください！🚗",
+  "passed": "試験日が過ぎました。新しく設定しますか？",
+  "exam_on": "試験日：{date}"
+ },
+ "streak": {
+  "heading": "連続学習",
+  "current": "現在の連続日数",
+  "longest": "最長連続日数",
+  "days": "{count} 日",
+  "none": "今日練習して連続記録を始めましょう！",
+  "keep_going": "毎日練習して継続しましょう 🔥"
+ },
+ "offline": {
+  "banner": "オフラインです — 保存済みのページを表示しています。一部の機能には接続が必要です。"
+ },
+ "referral": {
+  "heading": "友達を招待",
+  "intro": "リンクを共有しましょう。友達が登録すると、あなたの招待にカウントされます。",
+  "your_link": "あなたの招待リンク",
+  "copy": "リンクをコピー",
+  "copied": "コピーしました ✓",
+  "share": "共有",
+  "invited": "{count, plural, =0 {まだ友達はいません} other {友達 {count} 人が参加}}",
+  "share_title": "TheoryLane で一緒に学びましょう",
+  "share_text": "TheoryLane で運転免許の学科試験を練習中です — 一緒にどうですか！"
+ },
+ "resourcesGuide": {
+  "breadcrumb_home": "← ホームへ戻る",
+  "breadcrumb_title": "学習ガイド",
+  "hero": {
+   "eyebrow": "学習教材",
+   "title": "学習ガイドと重要ポイント",
+   "lead": "試験形式・速度制限・飲酒基準・違反点数・停止距離・優先道路・駐車ルールなど、学科試験に必要な重要ポイントをまとめました。"
+  },
+  "note_label": "注:",
+  "back_home": "← ホームへ戻る",
+  "sg": {
+   "title": "シンガポール",
+   "test_format": {
+    "title": "学科試験の形式",
+    "items": [
+     {
+      "label": "BTT (基礎学科)",
+      "value": "50 Q",
+      "sub": "50分 · 45/50 (90%) 合格"
+     },
+     {
+      "label": "FTT (最終学科)",
+      "value": "50 Q",
+      "sub": "50分 · 45/50 (90%) 合格"
+     },
+     {
+      "label": "RTT (二輪学科)",
+      "value": "50 Q",
+      "sub": "50分 · 45/50 (90%) 合格"
+     },
+     {
+      "label": "BTT / FTT 有効期間",
+      "value": "2年",
+      "sub": "この期間内に実技を完了"
+     }
+    ]
+   },
+   "speed_limits": {
+    "title": "速度制限",
+    "items": [
+     {
+      "label": "市街地",
+      "value": "50 km/h",
+      "sub": "標準の制限速度"
+     },
+     {
+      "label": "主要道路",
+      "value": "70 km/h",
+      "sub": "標識がある道路"
+     },
+     {
+      "label": "高速道路 (PIE, CTE…)",
+      "value": "90 km/h",
+      "sub": "標識がない場合"
+     },
+     {
+      "label": "スクールゾーン",
+      "value": "40 km/h",
+      "sub": "学校日 7am–7pm"
+     },
+     {
+      "label": "シルバーゾーン",
+      "value": "40 km/h",
+      "sub": "黄点滅灯が作動中"
+     }
+    ]
+   },
+   "alcohol_limits": {
+    "title": "飲酒基準",
+    "items": [
+     {
+      "label": "呼気検査",
+      "value": "35 µg",
+      "sub": "呼気100 mlあたり"
+     },
+     {
+      "label": "血液検査",
+      "value": "80 mg",
+      "sub": "血液100 mlあたり"
+     },
+     {
+      "label": "新規ドライバー",
+      "value": "0",
+      "sub": "初年度はゼロ"
+     }
+    ],
+    "note": "基準超過は初回でも最大S$10,000の罰金または最長12か月の禁錮。免許停止となります。"
+   },
+   "demerit_points": {
+    "title": "違反点数",
+    "items": [
+     {
+      "label": "停止基準",
+      "value": "24 pts",
+      "sub": "2年以内"
+     },
+     {
+      "label": "新規ドライバー",
+      "value": "12 pts",
+      "sub": "初年度"
+     },
+     {
+      "label": "停止期間",
+      "value": "3か月",
+      "sub": "24点到達時"
+     },
+     {
+      "label": "取消し",
+      "value": "24 pts",
+      "sub": "停止歴ありの場合"
+     }
+    ],
+    "note": "主な違反：速度超過（+30km/hで6–24点）、赤信号無視12点、携帯使用6点。"
+   },
+   "stopping_distances": {
+    "title": "停止距離（乾燥路）",
+    "headers": [
+     "速度",
+     "空走距離(14–15 m/s)",
+     "制動距離",
+     "合計"
+    ],
+    "rows": [
+     [
+      "50 km/h",
+      "~14 m",
+      "~14 m",
+      "~28 m"
+     ],
+     [
+      "70 km/h",
+      "~19 m",
+      "~28 m",
+      "~47 m"
+     ],
+     [
+      "90 km/h",
+      "~25 m",
+      "~46 m",
+      "~71 m"
+     ]
+    ],
+    "note": "濡れた路面では距離は約2倍。通常は2秒の車間距離を保ちましょう。"
+   },
+   "right_of_way": {
+    "title": "優先道路と交差点",
+    "items": [
+     "信号のない交差点では右から来る車に譲る。",
+     "T字路では幹線道路・直進車が優先。",
+     "右折時は対向の直進・左折車に譲る。",
+     "ラウンドアバウトでは環状内の車が優先（右から進入する車に注意）。",
+     "合流時は本線の車が優先 — 速度を合わせ安全な間隔を確保。",
+     "緊急車両（警察・消防・救急）がサイレン点灯時は左に寄って停止。"
+    ]
+   },
+   "expressway_tunnel": {
+    "title": "高速道路・トンネル",
+    "items": [
+     "高速道路の最低速度は通常60km/h — 遅すぎて後続を妨げない。",
+     "高速道路は左側走行、追い越し時のみ右レーン使用。",
+     "緊急時以外、高速道路上での停止・後退・Uターン禁止。",
+     "トンネル進入時はライト点灯 — 昼間でも。",
+     "故障時は路肩へ移動、ハザード点灯、安全なら車外へ。",
+     "バスレーン・黄色ボックス：出口が空いている場合のみ進入。"
+    ],
+    "note": "路肩の妨害や高速道路上での停止は重大違反で、多くの違反点数が付きます。"
+   },
+   "crossings_parking": {
+    "title": "横断歩道・黄色ボックス・駐車",
+    "items": [
+     "黄色ボックス：交差交通を塞がずに通過できる場合のみ進入。",
+     "横断歩道前のジグザグ線：停止・駐車禁止（視界確保）。",
+     "シルバーゾーン（標識あり）：高齢者に注意 — 速度制限が低い場合あり。",
+     "二重黄線：常時駐車禁止。単線黄：標識時間帯は駐車禁止。",
+     "バス停：次のバス停方向へ標識から9m以内に駐車禁止。",
+     "スクールゾーン点滅：学校日は40km/h。"
+    ]
+   },
+   "key_rules_title": "重要ルール",
+   "key_rules": [
+    "前席・後席すべての乗員はシートベルト必須。",
+    "運転中の携帯使用は禁止（ハンズフリーのみ可）。",
+    "身長1.35m未満の子どもはチャイルドシート必須。",
+    "通常時の車間距離は2秒以上（雨天は4秒）。",
+    "横断歩道の点滅黄信号では歩行者優先。",
+    "赤信号やSTOP標識の停止線では完全停止。",
+    "追い越し時以外は左側走行。",
+    "バイクは常に認可ヘルメット着用。",
+    "制限時間中はバスレーン進入禁止（バス等を除く）。",
+    "信号付き横断歩道で青信号の歩行者に譲る。",
+    "Uターンは標識・路面標示で許可された場所のみ。",
+    "危険予測（FTT）：ビデオで発展する危険を早く識別する。"
+   ]
+  },
+  "jp": {
+   "title": "日本",
+   "test_format": {
+    "title": "学科試験の形式",
+    "items": [
+     {
+      "label": "仮免許 (仮免)",
+      "value": "50 Q",
+      "sub": "45分 · 正誤 · 45/50 (90%) 合格"
+     },
+     {
+      "label": "本免許 (本免)",
+      "value": "95 Q",
+      "sub": "50分 · 正誤 · 86/95 (90%) 合格"
+     },
+     {
+      "label": "二輪免許",
+      "value": "95 Q",
+      "sub": "50分 · 普通免許と同じ合格基準"
+     },
+     {
+      "label": "仮免 有効期間",
+      "value": "約6か月",
+      "sub": "期限前に本免を取得"
+     }
+    ]
+   },
+   "speed_limits": {
+    "title": "速度制限 (最高速度)",
+    "items": [
+     {
+      "label": "生活道路 / 学校周辺",
+      "value": "30 km/h",
+      "sub": "生活道路 / ゾーン30"
+     },
+     {
+      "label": "一般道路",
+      "value": "60 km/h",
+      "sub": "一般道路 (default)"
+     },
+     {
+      "label": "高速道路",
+      "value": "100 km/h",
+      "sub": "高速道路 (default)"
+     },
+     {
+      "label": "一部高速道路",
+      "value": "120 km/h",
+      "sub": "指定区間のみ"
+     }
+    ]
+   },
+   "alcohol_limits": {
+    "title": "飲酒運転基準",
+    "items": [
+     {
+      "label": "酒気帯び (impaired)",
+      "value": "0.15 mg/L",
+      "sub": "breath / 0.3 mg/dL blood"
+     },
+     {
+      "label": "酔い (drunk)",
+      "value": "0.05 mg/L",
+      "sub": "breath / 0.1 mg/dL blood — harsher penalty"
+     },
+     {
+      "label": "Designated drivers",
+      "value": "0",
+      "sub": "代行・ハンドルキーパーは飲酒不可"
+     }
+    ],
+    "note": "飲酒運転と知りながら同乗した場合も罰則対象。運転者に酒を勧める行為も違法です。"
+   },
+   "demerit_points": {
+    "title": "違反点数",
+    "items": [
+     {
+      "label": "30-day suspension",
+      "value": "6–8 pts",
+      "sub": "in 1 year (no prior offences)"
+     },
+     {
+      "label": "60-day suspension",
+      "value": "9–11 pts",
+      "sub": "in 1 year"
+     },
+     {
+      "label": "90-day suspension",
+      "value": "12–14 pts",
+      "sub": "in 1 year"
+     },
+     {
+      "label": "Revocation",
+      "value": "15+ pts",
+      "sub": "or prior suspension on record"
+     }
+    ],
+    "note": "速度超過30–50km/hは6点、信号無視2点、携帯使用3点。"
+   },
+   "stopping_distances": {
+    "title": "停止距離（乾燥路）",
+    "headers": [
+     "速度",
+     "空走距離(14–15 m/s)",
+     "制動距離",
+     "合計"
+    ],
+    "rows": [
+     [
+      "30 km/h",
+      "~7 m",
+      "~6 m",
+      "~13 m"
+     ],
+     [
+      "60 km/h",
+      "~14 m",
+      "~24 m",
+      "~38 m"
+     ],
+     [
+      "100 km/h",
+      "~23 m",
+      "~66 m",
+      "~89 m"
+     ]
+    ],
+    "note": "濡れ・凍結路では停止距離が約2倍。生活道路（30km/h）では徐行＝いつでも1m以内で止まれる速度。"
+   },
+   "key_rules_title": "重要事項",
+   "key_rules": [
+    "徐行 (joko) は「いつでも1m以内で止まれる速度で走る」こと。",
+    "標識のない交差点では右から来る車に譲る。",
+    "全席シートベルト必須。6歳未満はチャイルドシート必須。",
+    "運転中の携帯使用は禁止（赤信号停止中も含む）。",
+    "左折時は自転車・歩行者が優先。ミラーと死角を確認。",
+    "クラクションは緊急時または警笛鳴らせ区間のみ。",
+    "トンネル内や夜間はライト点灯（街灯があっても）。",
+    "交差点の優先: 広い道 > 狭い道、同等なら右側優先。",
+    "一時停止標識では完全停止し、左右確認後に進む。",
+    "横断歩道・交差点付近、見通しの悪いカーブ・坂では追い越し禁止。",
+    "高速道路の最低速度は通常50km/h — 遅すぎて交通を妨げない。",
+    "仮免許：仮マーク表示、3年以上の免許保持者または指導員の同乗が必要。"
+   ]
+  }
+ },
+ "resourcesRoadmap": {
+  "breadcrumb_home": "← ホームへ戻る",
+  "breadcrumb_title": "免許取得ロードマップ",
+  "hero": {
+   "eyebrow": "学習教材",
+   "title": "免許取得ロードマップ",
+   "lead": "登録から本免許までの全ステップ — シンガポールと日本の両方。"
+  },
+  "sg_title": "シンガポール — Class 3 / 3A 車免許",
+  "sg_timeline_label": "目安期間:",
+  "sg_timeline_body": "受講頻度により4–12か月。多くは3–6か月。学科試験は開始後1–2か月で受験可能。",
+  "jp_title": "日本 — 普通自動車免許（指定校）",
+  "jp_timeline_label": "目安期間:",
+  "jp_timeline_body": "定期的に通えば2–4か月。最低受講期間は法律で定められており短縮不可。繁忙期（3–4月、8月）は待機が長くなる場合あり。",
+  "back_home": "← ホームへ戻る",
+  "sg_steps": [
+   {
+    "n": 1,
+    "title": "公認教習所に登録",
+    "body": "BBDC（Bukit Batok）、CDC（ComfortDelGro）、SSDC（Serangoon）から選択。NRIC/FINが必要で、視力検査に合格する必要があります。最低年齢：車17歳、バイク18歳。"
+   },
+   {
+    "n": 2,
+    "title": "BTT（基礎学科試験）合格",
+    "body": "50問の択一式、合格点90%（45/50）。標識、交通ルール、危険予測を出題。OneMotoringで予約。料金$7.09（GST込）。"
+   },
+   {
+    "n": 3,
+    "title": "技能教習開始",
+    "body": "教習所で実技レッスンを開始。Class 3は通常20–35回（技能により変動）。1回1時間（場内または路上）。"
+   },
+   {
+    "n": 4,
+    "title": "FTT（最終学科試験）合格",
+    "body": "高度な運転、危険予測、高速道路、夜間運転など50問。予約には実技5回以上の修了が必要。料金$7.09。"
+   },
+   {
+    "n": 5,
+    "title": "残りの技能教習を修了",
+    "body": "教習所が受験可能と認定するまで継続。TP試験予約には一定基準の到達が必要。"
+   },
+   {
+    "n": 6,
+    "title": "TP（交通警察）運転試験合格",
+    "body": "TP試験官による45分の実技試験。ルートは教習所指定。減点18点以下で合格。料金$35.97（GST込）。"
+   },
+   {
+    "n": 7,
+    "title": "免許証の受け取り",
+    "body": "Traffic Police Road Safety Community ParkまたはOneMotoring窓口で受取。PDL（仮免許表示）を1年間車に掲示。"
+   }
+  ],
+  "jp_steps": [
+   {
+    "n": 1,
+    "title": "教習所に入学",
+    "body": "公安委員会指定の教習所を選択。必要：在留カード/住民票、写真、適性検査（視力・聴力など）。"
+   },
+   {
+    "n": 2,
+    "title": "第1段階（場内教習）",
+    "body": "MTは場内10時間、ATは9時間が最低。学科は標識・交通ルール・安全など10時間以上。"
+   },
+   {
+    "n": 3,
+    "title": "仮免許試験",
+    "body": "学科50問（合格90%＝45/50）＋場内技能試験。合格で仮免許取得。"
+   },
+   {
+    "n": 4,
+    "title": "第2段階（路上教習）",
+    "body": "路上19時間以上、学科16時間以上（応急対応・高速走行を含む）。"
+   },
+   {
+    "n": 5,
+    "title": "卒業検定",
+    "body": "教習所の路上技能試験。合格で卒業証明書（1年有効）を取得し、免許センターの技能試験が免除。"
+   },
+   {
+    "n": 6,
+    "title": "本免許学科試験（免許センター）",
+    "body": "95問（車/バイク）、合格90%（86/95）。標識・交通ルール・事例問題。料金¥1,750。免許センターで予約。"
+   },
+   {
+    "n": 7,
+    "title": "免許証交付",
+    "body": "学科合格後、視力検査・写真等の手続きを済ませると当日に免許証が交付されます。"
+   }
+  ]
+ },
+ "resourcesCosts": {
+  "breadcrumb_home": "← ホームへ戻る",
+  "breadcrumb_title": "費用・料金",
+  "hero": {
+   "eyebrow": "免許ガイド",
+   "title": "費用・料金",
+   "lead": "シンガポールと日本で免許取得に必要な試験費用、教習費用、総予算をまとめました。"
+  },
+  "table_headers": {
+   "item": "項目",
+   "fee": "料金",
+   "notes": "備考"
+  },
+  "note_label": "注:",
+  "sg_title": "シンガポール",
+  "sg": {
+   "theory_title": "学科試験費用（Traffic Police）",
+   "theory_rows": [
+    {
+     "item": "Basic Theory Test (BTT)",
+     "fee": "S$7.09",
+     "note": "GST 9%込み。OneMotoringで支払い。"
+    },
+    {
+     "item": "Final Theory Test (FTT)",
+     "fee": "S$7.09",
+     "note": "実技5回以上後に予約可能。"
+    },
+    {
+     "item": "Riding Theory Test (RTT) — motorcycle",
+     "fee": "S$7.09",
+     "note": "バイクはFTTの代わり。"
+    },
+    {
+     "item": "Re-test (any theory)",
+     "fee": "S$7.09",
+     "note": "再受験も同額。"
+    }
+   ],
+   "theory_note": "学科試験の料金はTraffic Policeが設定し、BBDC/CDC/SSDCで差はありません。",
+   "tp_title": "TP（Traffic Police）実技試験費用",
+   "tp_rows": [
+    {
+     "item": "Class 3 / 3A (car) — first attempt",
+     "fee": "S$35.97",
+     "note": "GST込み。"
+    },
+    {
+     "item": "Class 3 / 3A — re-test",
+     "fee": "S$35.97",
+     "note": "再試験は教習所経由で予約。"
+    },
+    {
+     "item": "Class 2B / 2A / 2 (motorcycle)",
+     "fee": "~S$33.00",
+     "note": "最新料金は教習所で確認。"
+    },
+    {
+     "item": "Class 4 / 5 (goods / bus)",
+     "fee": "~S$40–S$55",
+     "note": "車種により変動。"
+    }
+   ],
+   "lesson_title": "技能教習費用（1回あたり, 2026目安）",
+   "lesson_label_car": "車（Class 3/3A）",
+   "lesson_label_moto": "バイク",
+   "lesson_centres": [
+    {
+     "centre": "BBDC",
+     "area": "Bukit Batok",
+     "car": "S$26–S$34",
+     "moto": "S$19–S$26"
+    },
+    {
+     "centre": "CDC",
+     "area": "Ubi",
+     "car": "S$27–S$35",
+     "moto": "S$20–S$27"
+    },
+    {
+     "centre": "SSDC",
+     "area": "Serangoon",
+     "car": "S$25–S$33",
+     "moto": "S$18–S$25"
+    }
+   ],
+   "lesson_note": "繁忙時間（夜・週末）は料金が上がる場合があります。オフピークの予約がお得。GST込みの目安（2026）であり、最新は各校サイトで確認してください。",
+   "total_car_title": "総費用見積 — Class 3（車）",
+   "total_headers": {
+    "item": "項目",
+    "fast": "早い人",
+    "avg": "平均",
+    "slow": "多め"
+   },
+   "total_rows": [
+    {
+     "item": "BTT + FTT料金",
+     "fast": "S$14.18",
+     "avg": "S$21.27",
+     "slow": "S$28.36",
+     "note": "（再試験1–2回想定）"
+    },
+    {
+     "item": "技能教習（×回数）",
+     "fast": "S$600",
+     "avg": "S$1,000",
+     "slow": "S$1,500",
+     "note": "20 / 35 / 50回"
+    },
+    {
+     "item": "TP試験（1–2回）",
+     "fast": "S$36",
+     "avg": "S$72",
+     "slow": "S$108",
+     "note": ""
+    },
+    {
+     "item": "免許交付費用",
+     "fast": "S$50",
+     "avg": "S$50",
+     "slow": "S$50",
+     "note": "目安"
+    }
+   ],
+   "total_footer": "合計（目安）",
+   "total_note": "目安金額です。登録料や事務手数料は含みません。最新のパッケージはBBDC/CDC/SSDCの公式サイトで確認してください。",
+   "total_moto_title": "総費用見積 — Class 2B（バイク）",
+   "moto_highlight": "合計目安",
+   "moto_rows": [
+    {
+     "item": "BTT + RTT料金（各1回）",
+     "fee": "S$14.18",
+     "note": ""
+    },
+    {
+     "item": "技能教習（約15–25回）",
+     "fee": "S$285–S$675",
+     "note": "S$19–S$27/回"
+    },
+    {
+     "item": "TP試験（1–2回）",
+     "fee": "S$33–S$66",
+     "note": ""
+    },
+    {
+     "item": "ヘルメット（未所持の場合）",
+     "fee": "S$80–S$250",
+     "note": "試験・公道で認可ヘルメット必須"
+    },
+    {
+     "item": "合計目安",
+     "fee": "S$400–S$1,000",
+     "note": "能力と教習所で大きく変動"
+    }
+   ]
+  },
+  "jp_title": "日本",
+  "jp": {
+   "fees_title": "公式試験・免許費用（免許センター）",
+   "fee_rows": [
+    {
+     "item": "仮免許学科試験 (Provisional theory test)",
+     "fee": "¥1,700",
+     "note": "免許センターで受験"
+    },
+    {
+     "item": "仮免許技能試験 (Provisional skill test)",
+     "fee": "¥1,700",
+     "note": "1回ごと。同額で再試験。"
+    },
+    {
+     "item": "本免許学科試験 (Final theory test)",
+     "fee": "¥1,750",
+     "note": "95問・合格90%"
+    },
+    {
+     "item": "本免許技能試験 (Final skill test)",
+     "fee": "¥1,750",
+     "note": "一発試験の場合のみ"
+    },
+    {
+     "item": "免許証交付 (Licence issue fee)",
+     "fee": "¥2,050",
+     "note": "合格時に免許センターで支払う"
+    },
+    {
+     "item": "JAF translation (required for foreign holders)",
+     "fee": "¥3,000",
+     "note": "JAF翻訳（Japan Automobile Federation）"
+    }
+   ],
+   "fees_note": "料金は全国一律で都道府県差はありません。写真や住民票などの追加費用は通常¥300–¥600程度。",
+   "paths_title": "免許取得の2ルート",
+   "path_a": {
+    "label": "Path A",
+    "title": "指定教習所（Driving School）",
+    "badge": "最も確実",
+    "rows": [
+     {
+      "label": "教習費（第1・第2段階）",
+      "value": "¥250,000–¥400,000"
+     },
+     {
+      "label": "仮免＋校内試験（込み）",
+      "value": "—"
+     },
+     {
+      "label": "本免学科試験（免許センター）",
+      "value": "¥1,750"
+     },
+     {
+      "label": "免許交付費用",
+      "value": "¥2,050"
+     },
+     {
+      "label": "合計目安",
+      "value": "¥254,000–¥404,000",
+      "bold": true
+     }
+    ],
+    "note": "卒業検定に合格すれば免許センター技能試験は免除。学科試験のみ受験。"
+   },
+   "path_b": {
+    "label": "Path B",
+    "title": "一発試験（免許センター直接）",
+    "badge": "安いが難しい",
+    "rows": [
+     {
+      "label": "JAF翻訳（必要時）",
+      "value": "¥3,000"
+     },
+     {
+      "label": "仮免試験（複数回想定）",
+      "value": "¥5,000–¥15,000"
+     },
+     {
+      "label": "本免技能試験（複数回）",
+      "value": "¥3,000–¥10,500"
+     },
+     {
+      "label": "本免学科試験",
+      "value": "¥1,750"
+     },
+     {
+      "label": "免許交付費用",
+      "value": "¥2,050"
+     },
+     {
+      "label": "合計目安",
+      "value": "¥15,000–¥32,000",
+      "bold": true
+     }
+    ],
+    "note": "教習所なしだと技能試験は非常に難しく、複数回受験する人が多い。"
+   },
+   "myanmar_title": "ミャンマー国籍 — 推奨予算 🇲🇲",
+   "myanmar_intro": "ミャンマーと日本に相互協定がないため直接切替は不可。教習所に通うか一発試験を受ける必要があります。多くの人には Path A（指定教習所）がおすすめです。",
+   "myanmar_rows": [
+    {
+     "label": "指定教習所フルコース",
+     "value": "¥250,000–¥400,000"
+    },
+    {
+     "label": "本免学科試験（免許センター）",
+     "value": "¥1,750"
+    },
+    {
+     "label": "免許証交付（免許料）",
+     "value": "¥2,050"
+    },
+    {
+     "label": "住民票・写真など",
+     "value": "~¥1,500"
+    }
+   ],
+   "myanmar_total": "合計",
+   "myanmar_tip": "Tip: 外国人向け割引や英語対応スタッフがいる教習所もあります。入校時に確認してください。本免学科試験は教習修了後に受験します。"
+  },
+  "disclaimer_label": "免責事項:",
+  "disclaimer_text": "料金は目安で変更される可能性があります。シンガポールの料金は2026年時点のGST込み。日本の料金は警察庁の公表値に基づきます。予算計画前にTraffic Police / OneMotoring（SG）または各都道府県の免許センター（JP）で必ず確認してください。",
+  "back_home": "← ホームへ戻る"
+ },
+ "resourcesTutorials": {
+  "breadcrumb_home": "← ホームへ戻る",
+  "breadcrumb_title": "動画チュートリアル",
+  "hero": {
+   "eyebrow": "見て学ぶ",
+   "title": "動画チュートリアル",
+   "lead": "運転理論をステップごとに解説する厳選YouTubeレッスン — アプリを離れずにここで視聴できます。"
+  },
+  "loading": "動画を読み込み中…",
+  "empty": "チュートリアル動画はまだありません — また後でご確認ください。"
+ },
+ "resourcesFaq": {
+  "breadcrumb_home": "← ホームへ戻る",
+  "breadcrumb_title": "FAQ・料金",
+  "hero": {
+   "eyebrow": "学習教材",
+   "title": "FAQ・料金",
+   "lead": "公式試験料金、再試験ルール、新規ドライバーのよくある質問。"
+  },
+  "sg_title": "シンガポール",
+  "jp_title": "日本",
+  "sg_fees_title": "公式試験料金（GST 9%込み）",
+  "sg_table": {
+   "test": "試験",
+   "fee": "料金（GST前）",
+   "gst": "GST 9%込"
+  },
+  "sg_fees_note": "料金はTraffic Policeが設定し定期的に見直されます。教習料金は各校で異なり、BBDC/CDC/SSDCへ直接支払います。",
+  "sg_questions_title": "よくある質問",
+  "jp_fees_title": "公式試験料金",
+  "jp_table": {
+   "test": "試験",
+   "fee": "料金"
+  },
+  "jp_fees_note": "免許センターの料金は都道府県ごとに僅かに異なる場合があります。指定自動車教習所の料金は教習所へ直接支払います。",
+  "jp_questions_title": "よくある質問",
+  "sg_fees": [
+   {
+    "test": "Basic Theory Test (BTT)",
+    "fee": "$6.50",
+    "gst": "$7.09",
+    "note": "技能教習開始前に受験"
+   },
+   {
+    "test": "Final Theory Test (FTT)",
+    "fee": "$6.50",
+    "gst": "$7.09",
+    "note": "実技5回以上後に受験"
+   },
+   {
+    "test": "Riding Theory Test (RTT)",
+    "fee": "$6.50",
+    "gst": "$7.09",
+    "note": "バイク免許（Class 2/2A/2B）"
+   },
+   {
+    "test": "Class 3 Driving Test",
+    "fee": "$33.00",
+    "gst": "$35.97",
+    "note": "Traffic Police 実技（車）"
+   },
+   {
+    "test": "Class 3A Driving Test",
+    "fee": "$33.00",
+    "gst": "$35.97",
+    "note": "AT限定車免許"
+   },
+   {
+    "test": "Class 2/2A/2B Riding Test",
+    "fee": "$33.00",
+    "gst": "$35.97",
+    "note": "Traffic Police 実技（バイク）"
+   }
+  ],
+  "jp_fees": [
+   {
+    "test": "本免許学科試験",
+    "fee": "¥1,750",
+    "note": "免許センターの学科試験"
+   },
+   {
+    "test": "本免許技能試験",
+    "fee": "¥7,200",
+    "note": "免許センター技能試験（指定校卒業は免除）"
+   },
+   {
+    "test": "仮免許試験（学科）",
+    "fee": "¥1,700",
+    "note": "仮免学科試験"
+   },
+   {
+    "test": "仮免許試験（技能）",
+    "fee": "¥2,850",
+    "note": "仮免技能試験"
+   },
+   {
+    "test": "指定校 full course",
+    "fee": "¥250,000–¥400,000",
+    "note": "教習所と地域で費用が変動"
+   }
+  ],
+  "sg_faq": [
+   {
+    "q": "BTT/FTT/RTTは何回まで再受験できますか？",
+    "a": "回数制限はありません。毎回料金がかかり、3日後から再予約可能です。"
+   },
+   {
+    "q": "実技が終わる前にFTTを予約できますか？",
+    "a": "FTT予約前にClass 3/3Aの実技を最低5回修了する必要があります。"
+   },
+   {
+    "q": "シンガポールの免許の有効期限は？",
+    "a": "Class 3/3Aの本免許は10年有効で、OneMotoringからオンライン更新できます。"
+   },
+   {
+    "q": "違反点数24点に達するとどうなりますか？",
+    "a": "免許が3か月停止。新規ドライバー（合格から1年以内）は12点で停止。"
+   },
+   {
+    "q": "BTTの最低年齢は？",
+    "a": "車（Class 3/3A）は17歳、バイク（Class 2/2A/2B）は18歳です。"
+   },
+   {
+    "q": "Traffic Policeの公認教習所は？",
+    "a": "BBDC（Bukit Batok）、CDC（ComfortDelGro）、SSDC（Serangoon）の3校です。"
+   }
+  ],
+  "jp_faq": [
+   {
+    "q": "本免許学科試験に落ちたらどうなる？",
+    "a": "再受験できます。費用は毎回かかります。次の受験日は翌日以降に予約可能です。"
+   },
+   {
+    "q": "指定校を卒業すると技能試験は免除されますか？",
+    "a": "はい。公安委員会指定の自動車教習所を卒業すると、免許センターでの技能試験が免除されます。学科試験のみ受験すれば取得できます。"
+   },
+   {
+    "q": "本免許の合格点は？",
+    "a": "95問中86問以上正解（90%）で合格です（二輪は同様）。"
+   },
+   {
+    "q": "日本の免許証の有効期間は？",
+    "a": "取得時の年齢や違反歴によって異なりますが、通常はゴールド免許で5年、一般免許で3年です。"
+   },
+   {
+    "q": "仮免許の有効期間は？",
+    "a": "6ヶ月間です。仮免取得後6ヶ月以内に路上教習・卒業試験を修了する必要があります。"
+   }
+  ],
+  "back_home": "← ホームへ戻る"
+ },
+ "resourcesGlossary": {
+  "breadcrumb_home": "← ホームへ戻る",
+  "breadcrumb_title": "三言語 交通用語集",
+  "hero": {
+   "eyebrow": "人間が確認済み",
+   "title": "三言語 交通用語集",
+   "lead": "英語・ミャンマー語・日本語の重要交通用語 — トピック別に整理し、誤訳で点を落とさないよう人間が確認しました。"
+  },
+  "table": {
+   "english": "English",
+   "my": "မြန်မာ",
+   "ja": "日本語"
+  },
+  "categories": {
+   "signs": "道路標識・路面標示",
+   "rules": "ルールと優先道路",
+   "vehicle": "車両と操作",
+   "licence": "免許と学科試験",
+   "penalties": "罰則と飲酒",
+   "expressway": "高速道路と特別区域"
+  },
+  "footer_note": "{count}語 · 2026年7月更新 · 人間が確認済み",
+  "back_home": "← ホームへ戻る"
+ },
+ "resourcesLicenceClasses": {
+  "breadcrumb_home": "← ホームへ戻る",
+  "breadcrumb_title": "免許区分",
+  "hero": {
+   "eyebrow": "免許ガイド",
+   "title": "免許区分",
+   "lead": "シンガポールと日本の全免許区分。対象車種、重量制限、最低年齢、重要な制限を整理。"
+  },
+  "sg_title": "シンガポール",
+  "sg_intro": "シンガポールの免許はTraffic Policeが発行。本アプリは最も一般的なClass 3/3A（車）とClass 2B（入門バイク）の学科試験をカバーします。",
+  "sg_note": "Class 3/3AはBTT + FTT + TP実技が必要。バイク（2B/2A/2）はBTT + RTT + TPが必要。GVW = 総車両重量。",
+  "jp_title": "日本",
+  "jp_intro": "日本の免許制度は道路交通法に基づきます。本アプリは普通自動車と普通二輪の本免許学科試験に対応 — ミャンマー出身者に多い2ルートです。",
+  "jp_note": "ミャンマー国籍は直接切替不可。知識試験（学科）と技能試験に合格するか、日本の教習所を修了する必要があります。詳しくは",
+  "foreigners_link": "外国人ガイド",
+  "common_badge": "主要",
+  "compare": {
+   "title": "クイック比較 — 最も一般的な区分",
+   "headers": [
+    "",
+    "Singapore Class 3",
+    "Singapore Class 2B",
+    "Japan 普通免許",
+    "Japan 普通二輪"
+   ],
+   "rows": [
+    {
+     "label": "学科試験",
+     "values": [
+      "BTT + FTT",
+      "BTT + RTT",
+      "仮免 + 本免 (学科)",
+      "仮免 + 本免 (学科)"
+     ]
+    },
+    {
+     "label": "実技試験",
+     "values": [
+      "TP test",
+      "TP test",
+      "指定校卒 or 技能試験",
+      "指定校卒 or 技能試験"
+     ]
+    },
+    {
+     "label": "最低年齢",
+     "values": [
+      "18",
+      "18",
+      "18",
+      "18（≤125ccは16）"
+     ]
+    },
+    {
+     "label": "合格基準",
+     "values": [
+      "90% (45/50)",
+      "90% (45/50)",
+      "90% (86/95)",
+      "90% (46/50)"
+     ]
+    },
+    {
+     "label": "有効期限",
+     "values": [
+      "10年",
+      "10年",
+      "3年（初回）",
+      "3年（初回）"
+     ]
+    }
+   ]
+  },
+  "sg_classes": [
+   {
+    "code": "3",
+    "name": "車 — MT",
+    "vehicle": "セダン、MPV、SUV（MT）",
+    "limit": "最大3,000kg GVW · 乗員7名",
+    "age": "最低18歳",
+    "note": "最も一般的。BTT + FTT + TP実技が必要。",
+    "highlight": true
+   },
+   {
+    "code": "3A",
+    "name": "車 — AT",
+    "vehicle": "セダン、MPV、SUV（ATのみ）",
+    "limit": "最大3,000kg GVW · 乗員7名",
+    "age": "最低18歳",
+    "note": "AT車のみ運転可。MT車は不可。",
+    "highlight": true
+   },
+   {
+    "code": "2B",
+    "name": "バイク — 入門",
+    "vehicle": "バイク / スクーター",
+    "limit": "≤ 200cc または ≤ 30kW",
+    "age": "最低18歳",
+    "note": "入門バイク免許。BTT + RTT + TP実技が必要。",
+    "highlight": true
+   },
+   {
+    "code": "2A",
+    "name": "バイク — 中級",
+    "vehicle": "バイク / スクーター",
+    "limit": "201–400cc または 26–47kW",
+    "age": "最低18歳",
+    "note": "Class 2Bを1年以上保有が必要。"
+   },
+   {
+    "code": "2",
+    "name": "バイク — 上級",
+    "vehicle": "バイク（排気量制限なし）",
+    "limit": "排気量・出力制限なし",
+    "age": "最低18歳",
+    "note": "Class 2Aを1年以上保有が必要。"
+   },
+   {
+    "code": "4",
+    "name": "小型貨物車",
+    "vehicle": "パネルバン、ライトトラック",
+    "limit": "3,001–5,000kg GVW",
+    "age": "最低18歳",
+    "note": "別途実技試験が必要。"
+   },
+   {
+    "code": "4A",
+    "name": "牽引小型貨物",
+    "vehicle": "連結小型貨物",
+    "limit": "3,001–5,000kg GVW",
+    "age": "最低21歳",
+    "note": "Class 3または4が必要。"
+   },
+   {
+    "code": "5",
+    "name": "バス",
+    "vehicle": "旅客バス全般",
+    "limit": "> 7名または > 3,000kg",
+    "age": "最低21歳",
+    "note": "バス向けの別訓練と試験が必要。"
+   }
+  ],
+  "jp_classes": [
+   {
+    "code": "普通免許",
+    "name": "普通車",
+    "vehicle": "普通自動車 — standard car / MPV",
+    "limit": "≤ 3,500kg · ≤ 10名 · けん引≤750kg",
+    "age": "最低18歳",
+    "note": "指定教習所で取得する標準免許。日常車の大半をカバー。",
+    "highlight": true
+   },
+   {
+    "code": "準中型免許",
+    "name": "準中型",
+    "vehicle": "準中型自動車 — light-to-medium truck",
+    "limit": "≤ 7,500kg · ≤ 4名",
+    "age": "最低18歳",
+    "note": "2017年導入。18歳から配送トラックを運転可。"
+   },
+   {
+    "code": "中型免許",
+    "name": "中型",
+    "vehicle": "中型自動車 — medium truck / bus",
+    "limit": "≤ 11,000kg · ≤ 29名",
+    "age": "最低20歳 · 免許歴≥2年",
+    "note": "中型配送車やミニバス向け。"
+   },
+   {
+    "code": "大型免許",
+    "name": "大型",
+    "vehicle": "大型自動車 — large truck / coach",
+    "limit": "重量・乗員制限なし",
+    "age": "最低21歳 · 免許歴≥3年",
+    "note": "大型貨物車や大型バスに必要。"
+   },
+   {
+    "code": "普通二輪",
+    "name": "普通二輪",
+    "vehicle": "普通自動二輪車 — motorcycle / scooter",
+    "limit": "≤ 400cc",
+    "age": "最低16歳（小型≤125cc）/18歳（普通二輪）",
+    "note": "小型限定（≤125cc）は16歳から。普通二輪は400ccまで。",
+    "highlight": true
+   },
+   {
+    "code": "大型二輪",
+    "name": "大型二輪",
+    "vehicle": "大型自動二輪車 — large motorcycle",
+    "limit": "> 400cc、出力無制限",
+    "age": "最低18歳",
+    "note": "普通二輪の保有が必要。排気量制限なし。"
+   },
+   {
+    "code": "原付免許",
+    "name": "原付",
+    "vehicle": "原動機付自転車 — moped / scooter",
+    "limit": "≤ 50cc · 最高30km/h",
+    "age": "最低16歳",
+    "note": "最も簡易。免許センターで1日試験。"
+   },
+   {
+    "code": "大型特殊",
+    "name": "大型特殊",
+    "vehicle": "大型特殊自動車 — construction machinery",
+    "limit": "ブルドーザー・クレーン等の公道走行",
+    "age": "最低18歳",
+    "note": "公道の作業車に対応（オフロードは対象外）。"
+   }
+  ],
+  "back_home": "← ホームへ戻る"
+ },
+ "resourcesForeigners": {
+  "breadcrumb_home": "← Home",
+  "breadcrumb_title": "Foreigners' Guide",
+  "hero": {
+   "eyebrow": "Study material",
+   "title": "Foreigners' Guide",
+   "lead": "Converting an overseas licence, IDP rules, and what Myanmar nationals need to legally drive in Singapore and Japan."
+  },
+  "sg_title": "Singapore",
+  "jp_title": "Japan",
+  "sg": {
+   "tourist": {
+    "title": "観光客として外国免許を使う",
+    "p1": "有効な外国免許を持っている場合、入国日から最大12か月は免許の切替なしで運転できます（免許は英語、または英訳付きである必要があります）。",
+    "p2": "自国で発行された International Driving Permit (IDP) も同じ12か月間有効です。"
+   },
+   "convert": {
+    "title": "外国免許の切替（PR / ワークパス保有者）",
+    "bullets": [
+     "PR、EP、S Pass、WP、DP の有効保持者が対象です。",
+     "外国免許は有効で、認定国発行である必要があります（ミャンマーは対象）。",
+     "SLA Building, 8 Shenton Way の Traffic Police (OneMotoring) 窓口へ。",
+     "提出物：外国免許、英訳（英語でない場合）、FINカード、パスポート、写真1枚。",
+     "手数料は約 S$25–S$50（最新は OneMotoring を確認）。",
+     "暫定免許が発行され、無違反で1年後に本免許となります。"
+    ]
+   },
+   "myanmar": {
+    "title": "ミャンマー国籍 — 特別要件 🇲🇲",
+    "bullets": [
+     "ミャンマー免許は切替対象で、Singapore BTT や実技試験は不要です。",
+     "ミャンマー免許を少なくとも1年保持し、運転経験が必要です。",
+     "持参：ミャンマー免許原本、英訳（公証/大使館）、パスポート、FINカード。",
+     "英語でない場合はシンガポールのミャンマー大使館または認定翻訳で英訳。",
+     "12か月以上滞在して未切替の場合、BTT が必要になる場合があります。"
+    ]
+   }
+  },
+  "jp": {
+   "tourist": {
+    "title": "日本での外国免許 / IDP の利用",
+    "p1": "日本はジュネーブ条約1949の IDP を受け入れます。IDP の有効期間は日本への最終入国日から1年です（発行日ではありません）。",
+    "p2": "ウィーン条約1968の IDP は日本で無効です。自国の条約区分を確認してください。"
+   },
+   "convert": {
+    "title": "外国免許切替（外国免許切替）",
+    "p1": "日本は一部の国（ドイツ、フランス、オーストラリア等）と相互切替協定があります。ミャンマーは対象外のため、以下が必要です。",
+    "bullets": [
+     "JAF（Japan Automobile Federation）でミャンマー免許の日本語訳を取得。",
+     "免許センターへ提出：ミャンマー免許＋JAF訳、在留カード、パスポート、住民票、写真。",
+     "知識試験（10問・7/10合格）を受験（英語対応のセンターもあり）。",
+     "技能試験（場内）を受験し、基本操作とコース走行を確認。",
+     "合格後に免許発行。JAF翻訳料は約¥3,000。"
+    ]
+   },
+   "myanmar": {
+    "title": "ミャンマー国籍 — 最短ルート 🇲🇲",
+    "p1": "日本とミャンマーに相互協定がないため、最短の合法ルートは次の通りです。",
+    "options": [
+     "Option A — 自動車学校：指定自動車教習所に通学。費用は高い（¥250,000–¥400,000）が、学校の技能試験で免許センターの技能試験が免除されます。本免許学科試験のみ受験。",
+     "Option B — 免許センター直接：費用は安いが、技能試験は難しく初回合格が難しい。"
+    ],
+    "tip": "Tip: 本アプリは本免許学科試験対策に対応。Japan の模擬試験で準備できます。"
+   }
+  },
+  "disclaimer_label": "免責事項:",
+  "disclaimer_text": "本情報は一般的な案内です。要件は変更される可能性があるため、必ず Traffic Police（Singapore）または各都道府県の免許センター（Japan）、登録移民アドバイザーに確認してください。",
+  "back_home": "← Back to home"
+ },
+ "resourcesSigns": {
+  "breadcrumb_home": "← Home",
+  "breadcrumb_title": "Road Signs Library",
+  "hero": {
+   "eyebrow": "Study material",
+   "title": "Road Signs Library",
+   "lead": "Every regulatory, warning and informational sign — with what each one means and what you must do."
+  },
+  "sg_title": "シンガポールの標識",
+  "jp_title": "日本の標識",
+  "sg_sections": [
+   {
+    "category": "規制標識（必ず守る）",
+    "signs": [
+     {
+      "file": "stop.png",
+      "title": "停止",
+      "subtitle": "ရပ်ရမည်",
+      "desc": "停止線の手前で必ず停止してから進みます。"
+     },
+     {
+      "file": "give-way.png",
+      "title": "譲れ",
+      "subtitle": "လမ်းပေးရမည်",
+      "desc": "主要道路の車両に進路を譲ってから合流します。"
+     },
+     {
+      "file": "no-entry.png",
+      "title": "進入禁止",
+      "subtitle": "ဝင်ခွင့်မပြု",
+      "desc": "この道路への進入は禁止です。"
+     },
+     {
+      "file": "speed-50.png",
+      "title": "制限速度50",
+      "subtitle": "အမြန်နှုန်း ၅၀",
+      "desc": "この道路の最高速度は50 km/hです。"
+     },
+     {
+      "file": "no-overtaking.png",
+      "title": "追い越し禁止",
+      "subtitle": "ကျော်ဖြတ်ခွင့်မရှိ",
+      "desc": "この区間では追い越し禁止です。"
+     },
+     {
+      "file": "mandatory-sign.png",
+      "title": "指定方向",
+      "subtitle": "ညွှန်ကြားသောဘက် သွားရမည်",
+      "desc": "矢印の方向へ必ず進行してください。"
+     }
+    ]
+   },
+   {
+    "category": "警戒標識（危険注意）",
+    "signs": [
+     {
+      "file": "warning-sign.png",
+      "title": "注意",
+      "subtitle": "သတိပေး",
+      "desc": "前方に危険があるため注意してください。"
+     },
+     {
+      "file": "pedestrian-crossing.png",
+      "title": "横断歩道あり",
+      "subtitle": "လမ်းဖြတ်ကူးရှိ",
+      "desc": "速度を落とし、歩行者に注意します。"
+     },
+     {
+      "file": "school-zone.png",
+      "title": "スクールゾーン",
+      "subtitle": "ကျောင်းဇုန်",
+      "desc": "登下校時間は40 km/hまで減速します。"
+     },
+     {
+      "file": "traffic-signals-sign.png",
+      "title": "信号あり",
+      "subtitle": "မီးပွိုင့်ရှိ",
+      "desc": "前方に信号交差点があるため停止準備をします。"
+     }
+    ]
+   },
+   {
+    "category": "案内標識",
+    "signs": [
+     {
+      "file": "parking-sign.png",
+      "title": "駐車案内",
+      "subtitle": "ကားရပ်နားခြင်း",
+      "desc": "駐車の可否や時間制限は表示に従います。"
+     },
+     {
+      "file": "roundabout.png",
+      "title": "ラウンドアバウト",
+      "subtitle": "လည်ပတ်လမ်းဆုံ",
+      "desc": "ラウンドアバウト内の車両に進路を譲ります。"
+     }
+    ]
+   }
+  ],
+  "jp_sections": [
+   {
+    "category": "規制標識 — Regulatory",
+    "signs": [
+     {
+      "file": "jp-stop.png",
+      "title": "止まれ",
+      "subtitle": "Stop",
+      "desc": "停止線の手前で一時停止。"
+     },
+     {
+      "file": "jp-no-entry.png",
+      "title": "進入禁止",
+      "subtitle": "No Entry",
+      "desc": "この道路への進入は禁止。"
+     },
+     {
+      "file": "jp-speed-limit.png",
+      "title": "最高速度",
+      "subtitle": "Speed Limit",
+      "desc": "表示速度を超えてはいけない。"
+     },
+     {
+      "file": "jp-no-overtaking.png",
+      "title": "追い越し禁止",
+      "subtitle": "No Overtaking",
+      "desc": "この区間は追い越し禁止。"
+     },
+     {
+      "file": "jp-give-way.png",
+      "title": "徐行",
+      "subtitle": "Proceed Slowly",
+      "desc": "いつでも止まれる速度で徐行。"
+     },
+     {
+      "file": "jp-one-way.png",
+      "title": "一方通行",
+      "subtitle": "One Way",
+      "desc": "一方向のみ通行可。"
+     },
+     {
+      "file": "jp-parking.png",
+      "title": "駐車禁止",
+      "subtitle": "No Parking",
+      "desc": "駐車は禁止。"
+     }
+    ]
+   },
+   {
+    "category": "警戒標識 — Warning",
+    "signs": [
+     {
+      "file": "jp-pedestrian-cross.png",
+      "title": "横断歩道",
+      "subtitle": "Pedestrian Crossing",
+      "desc": "歩行者優先で通行します。"
+     },
+     {
+      "file": "jp-school-zone.png",
+      "title": "スクールゾーン",
+      "subtitle": "School Zone",
+      "desc": "子供が多い区域のため徐行。"
+     },
+     {
+      "file": "jp-warning.png",
+      "title": "警戒",
+      "subtitle": "Hazard Warning",
+      "desc": "前方に危険箇所あり。"
+     },
+     {
+      "file": "jp-pedestrian.png",
+      "title": "歩行者通行あり",
+      "subtitle": "Pedestrians Present",
+      "desc": "歩行者の通行に注意。"
+     }
+    ]
+   }
+  ],
+  "back_home": "← Back to home"
+ },
+ "rewardedAd": {
+  "button_default": "広告を見て再挑戦",
+  "modal_title": "短い広告を視聴",
+  "modal_body": "短い広告を見ると、無料で1回再挑戦できます。",
+  "modal_watch": "今すぐ見る",
+  "modal_cancel": "やめる",
+  "loading": "広告を読み込み中…",
+  "skipped": "広告をスキップしました — 再挑戦は解放されません"
+ },
+ "privacy": {
+  "meta_title": "プライバシーポリシー",
+  "meta_description": "TheoryLane 学科試験対策アプリのプライバシーポリシー。",
+  "title": "プライバシーポリシー",
+  "updated": "最終更新：2026年7月",
+  "back": "← {brand} に戻る",
+  "contact_title": "お問い合わせ",
+  "sections": [
+   {
+    "title": "1. 運営者について",
+    "paragraphs": [
+     "{brand}はシンガポール（BTT/FTT/RTT）と日本の学科試験対策プラットフォームで、{site} で提供しています。英語・ミャンマー語・日本語で学習を支援します。"
+    ]
+   },
+   {
+    "title": "2. 収集する情報",
+    "paragraphs": [
+     "サービス運営に必要な情報のみを収集します。"
+    ],
+    "bullets": [
+     "アカウント情報 — 登録時のメールアドレスとハッシュ化されたパスワード（Supabase Auth）",
+     "クイズ進捗 — ブラウザのlocalStorageおよびログイン時のデータベース上のスコア・履歴",
+     "利用データ — サービス改善のための匿名化された利用データ",
+     "Cookie — セッション用の機能Cookie。Cookieバナーで同意した場合、Google AdSenseの広告Cookie"
+    ]
+   },
+   {
+    "title": "3. 情報の利用目的",
+    "bullets": [
+     "クイズ・練習機能の提供と改善",
+     "進捗の記録と最高スコアの表示",
+     "アカウントとサブスクリプションの管理（該当する場合）",
+     "毎日の練習リマインダー（ベルアイコンでオプトインした場合のみ）",
+     "Google AdSenseによる広告表示（同意がある場合）"
+    ]
+   },
+   {
+    "title": "4. Google AdSenseと広告",
+    "paragraphs": [
+     "Google AdSenseで広告を表示します。GoogleはCookieとデバイス識別子を使い、本サイトや他サイトへの訪問に基づいて広告を配信することがあります。",
+     "パーソナライズ広告のオプトアウト: https://www.google.com/settings/ads または https://www.aboutads.info",
+     "Googleのデータ利用: https://policies.google.com/technologies/partner-sites"
+    ]
+   },
+   {
+    "title": "5. 第三者サービス",
+    "bullets": [
+     "Supabase — 認証・データベース（EU）。https://supabase.com/privacy",
+     "Vercel — ホスティング。https://vercel.com/legal/privacy-policy",
+     "Google AdSense — 広告パートナー。https://policies.google.com/privacy"
+    ]
+   },
+   {
+    "title": "6. データの保持",
+    "paragraphs": [
+     "アカウントデータはアカウントが有効な間保持します。削除はお問い合わせください。ブラウザデータ（クイズ進捗・リマインダー）はブラウザ設定でlocalStorageを削除できます。"
+    ]
+   },
+   {
+    "title": "7. お客様の権利",
+    "paragraphs": [
+     "お住まいの地域により、個人データへのアクセス・訂正・削除を求める権利がある場合があります。下記メールでご連絡ください。"
+    ]
+   },
+   {
+    "title": "8. 子どものプライバシー",
+    "paragraphs": [
+     "{brand}は13歳未満の子ども向けではありません。13歳未満から個人情報を収集したと思われる場合はご連絡ください。"
+    ]
+   },
+   {
+    "title": "9. ポリシーの変更",
+    "paragraphs": [
+     "本ポリシーは随時更新される場合があります。変更はこのページに日付とともに掲載します。継続利用は同意とみなします。"
+    ]
+   }
+  ]
+ },
+ "auth": {
+  "back_home": "← ホームに戻る",
+  "login_title": "ログイン",
+  "signup_title": "アカウント作成",
+  "login_sub": "練習履歴とプレミアム機能にアクセスします。",
+  "signup_sub": "無料登録ですぐに練習を始められます。",
+  "email": "メール",
+  "password": "パスワード",
+  "password_placeholder_signup": "8文字以上",
+  "please_wait": "お待ちください…",
+  "login_cta": "ログイン",
+  "signup_cta": "アカウント作成",
+  "no_account": "アカウントをお持ちでない方",
+  "signup_link": "無料登録",
+  "has_account": "すでにアカウントをお持ちの方",
+  "login_link": "ログイン",
+  "forgot_link": "パスワードをお忘れですか？",
+  "forgot_title": "パスワードをリセット",
+  "forgot_sub": "アカウントのメールアドレスを入力してください。新しいパスワードを設定するリンクを送信します。",
+  "forgot_cta": "リセットリンクを送信",
+  "forgot_sent_title": "メールを確認してください",
+  "forgot_sent_body": "{email} にアカウントがある場合、パスワードリセットリンクを送信しました。受信トレイと迷惑メールを確認してください。",
+  "reset_title": "新しいパスワード",
+  "reset_sub": "新しいパスワードを入力し、確認してください。",
+  "reset_password": "新しいパスワード",
+  "reset_confirm": "パスワード確認",
+  "reset_cta": "パスワードを更新",
+  "reset_success_body": "パスワードを更新しました。新しいパスワードでログインしてください。",
+  "reset_invalid_title": "リンクの期限切れ",
+  "reset_invalid_link": "このリンクは無効か期限切れです。新しいリセットメールをリクエストしてください。",
+  "back_login": "← ログインに戻る",
+  "check_email_title": "メールを確認してください",
+  "check_email_body": "確認リンクを {email} に送信しました。リンクを開いてからログインしてください。",
+  "check_email_cta": "ログイン →",
+  "errors": {
+   "generic": "問題が発生しました",
+   "device_register": "この端末を登録できませんでした。もう一度お試しください。",
+   "password_mismatch": "パスワードが一致しません"
+  },
+  "devices": {
+   "title": "端末の上限に達しました",
+   "body": "1アカウントは同時に2台まで利用できます。この端末で続けるには、以前のセッションの1つからログアウトしてください。",
+   "last_seen": "最終利用: {date}",
+   "current_hint": "現在お使いの端末です。",
+   "continue": "選択した端末をログアウトして続行",
+   "cancel": "ログインをキャンセル",
+   "working": "お待ちください…",
+   "error": "端末枠を空けられませんでした。もう一度お試しください。"
+  }
+ },
+ "cookies": {
+  "title": "Cookieの使用について",
+  "body": "当サイトの運営および、ご同意いただいた場合の広告表示のためにCookie等を使用します。詳細は",
+  "privacy_link": "プライバシーポリシー",
+  "accept": "同意する",
+  "reject": "必須以外を拒否"
+ },
+ "terms": {
+  "meta_title": "利用規約",
+  "meta_description": "TheoryLane 学科試験対策サービスの利用規約。",
+  "title": "利用規約",
+  "updated": "最終更新：2026年7月",
+  "back": "← {brand} に戻る",
+  "contact_title": "お問い合わせ",
+  "sections": [
+   {
+    "title": "1. 同意",
+    "paragraphs": [
+     "TheoryLane（「本サービス」）を利用することで、本利用規約に同意したものとみなします。同意できない場合はご利用をお控えください。"
+    ]
+   },
+   {
+    "title": "2. 提供内容",
+    "paragraphs": [
+     "TheoryLaneは、シンガポール（BTT・FTT・RTT）および日本の運転免許学科試験向けの独立したオンライン学習プラットフォームです。レッスン、練習問題、模擬試験、学習リソースを複数言語で提供します。",
+     "シンガポール交通警察、日本の警察庁、教習所、政府の免許機関とは提携していません。当サービスで高得点を取っても、公式試験の合格を保証するものではありません。"
+    ]
+   },
+   {
+    "title": "3. アカウント",
+    "paragraphs": [
+     "有効なメールアドレスでアカウントを作成できます。ログイン情報の管理およびアカウント上のすべての行為について責任を負います。",
+     "本規約に違反したり、サービスを悪用したりするアカウントは停止または削除される場合があります。"
+    ]
+   },
+   {
+    "title": "4. 無料とプレミアム",
+    "paragraphs": [
+     "無料ユーザーは限定機能を利用できます（カテゴリごとに1日1回の模擬試験制限など）。プレミアム会員は有効な契約期間中、より多くの機能にアクセスできます。",
+     "機能制限は変更される場合があります。重要な変更については合理的な告知を行います。"
+    ]
+   },
+   {
+    "title": "5. お支払い",
+    "paragraphs": [
+     "プレミアムはアプリに表示される手動決済（KBZPay、WavePayなど）で購入できます。支払いスクリーンショットは手動で確認し、承認後にアクセスを付与します。",
+     "価格と契約期間は決済画面に表示されます。誤って支払った場合はご連絡ください。返金は個別に対応します。"
+    ]
+   },
+   {
+    "title": "6. 禁止事項",
+    "paragraphs": [
+     "問題バンクやコンテンツの無断複製・スクレイピング・再配布、制限の回避、ボット等による悪用、フィードバックへの有害・違法・誤解を招く内容の投稿を禁止します。",
+     "悪用が確認された場合、事前通知なくアクセスを制限することがあります。"
+    ]
+   },
+   {
+    "title": "7. 知的財産",
+    "paragraphs": [
+     "TheoryLane上の問題、図、ブランド、ソフトウェアは当社またはライセンサーに帰属します。個人の学習目的でのみ利用する非譲渡的ライセンスを付与します。"
+    ]
+   },
+   {
+    "title": "8. 免責事項",
+    "paragraphs": [
+     "本サービスは教育目的で「現状有姿」で提供されます。内容の完全性・最新性・正確性を保証しません。試験規則は必ず公式ハンドブックと所管機関でご確認ください。"
+    ]
+   },
+   {
+    "title": "9. 責任の制限",
+    "paragraphs": [
+     "法令で認められる最大限の範囲で、TheoryLaneおよび運営者は、本サービスの利用に起因する間接的・付随的・結果的損害（試験結果やデータ損失を含む）について責任を負いません。"
+    ]
+   },
+   {
+    "title": "10. 規約の変更",
+    "paragraphs": [
+     "本規約は随時更新される場合があります。変更後も利用を続けることで、更新後の規約に同意したものとみなします。"
+    ]
+   },
+   {
+    "title": "11. 準拠法",
+    "paragraphs": [
+     "本規約はシンガポール法に準拠します。紛争が生じた場合は、まずメールでご連絡ください。"
+    ]
+   }
+  ]
+ },
+ "refund": {
+  "meta_title": "返金ポリシー",
+  "meta_description": "TheoryLane Premium（KBZPay・WavePay）の返金ポリシー。",
+  "title": "返金ポリシー",
+  "updated": "最終更新：2026年7月",
+  "back": "← {brand} に戻る",
+  "contact_title": "お問い合わせ",
+  "sections": [
+   {
+    "title": "1. 概要",
+    "paragraphs": [
+     "TheoryLane Premiumはデジタルサブスクリプションです。手動審査後すぐにアクセスが付与されるため、返金は限定的で個別に対応します。"
+    ]
+   },
+   {
+    "title": "2. 返金の対象になりうる場合",
+    "paragraphs": [
+     "次の場合、返金を検討します。"
+    ],
+    "bullets": [
+     "同一プランの二重支払い",
+     "プランまたは期間の誤承認",
+     "確認済み支払いから7日以内にプレミアムが有効化されなかった",
+     "支払いから14日以内の連絡で、プレミアム機能をほとんど利用していない"
+    ]
+   },
+   {
+    "title": "3. 通常返金しない場合",
+    "bullets": [
+     "プレミアム有効化後の単純な気変わり",
+     "公式学科試験の不合格",
+     "誤った取引IDやスクリーンショットによる遅延",
+     "期間終了後、またはプレミアムを大量に利用済み"
+    ]
+   },
+   {
+    "title": "4. 返金の申請方法",
+    "paragraphs": [
+     "アカウントメール、ウォレット（KBZPay/WavePay）、取引ID、支払日、理由をメールでお送りください。3〜5営業日以内に返信します。",
+     "手動ウォレット支払いは、可能な限り同じウォレットへ返金します。"
+    ]
+   },
+   {
+    "title": "5. サブスクリプションの延長",
+    "paragraphs": [
+     "プレミアム有効中に更新した場合、新しい日数は現在の有効期限に加算されます — 残り日数は失われません。"
+    ]
+   }
+  ]
+ },
+ "about": {
+  "meta_title": "会社概要・お問い合わせ",
+  "meta_description": "TheoryLaneについて — シンガポール・日本の学科試験対策（英語・ミャンマー語・日本語）。",
+  "title": "TheoryLaneについて",
+  "updated": "最終更新：2026年7月",
+  "back": "← {brand} に戻る",
+  "contact_title": "お問い合わせ",
+  "sections": [
+   {
+    "title": "ミッション",
+    "paragraphs": [
+     "TheoryLaneは、出稼ぎ労働者や学習者が、シンガポールと日本の学科試験に英語・ミャンマー語（Unicode）・日本語で備えられるよう支援します。",
+     "海外では公式資料が入手しにくく、二言語での説明と実践的な練習が必要な学習者のために作りました。"
+    ]
+   },
+   {
+    "title": "できること",
+    "paragraphs": [
+     "レッスンモードでトピック別に学習、練習モードで弱点を克服、本番形式の時間制限付き模擬試験に挑戦できます。",
+     "シンガポール：BTT・FTT・RTT。日本：自動車・バイク学科。標識ガイド、ハンドブック、FAQ、費用情報も用意しています。"
+    ]
+   },
+   {
+    "title": "独立した学習ツール",
+    "paragraphs": [
+     "TheoryLaneはシンガポール交通警察、日本の警察庁、CDC、教習所とは無関係です。問題と図はすべてオリジナルの学習教材であり、公式試験からの転載ではありません。",
+     "規則・費用・予約手続きは必ず所管機関または教習所でご確認ください。"
+    ]
+   },
+   {
+    "title": "プレミアムとサポート",
+    "paragraphs": [
+     "無料プランで毎日お試しいただけます。プレミアムでは模擬試験無制限と広告非表示になります。",
+     "お支払い、不具合、コンテンツのご意見はメールまたは問題報告フォームから — すべて確認しています。"
+    ]
+   }
+  ]
+ },
+ "footer": {
+  "tagline": "シンガポールと日本の学科試験対策を、あなたの言語で。",
+  "report": "問題を報告",
+  "report_title": "バグや不具合を見つけましたか？",
+  "report_desc": "状況を教えてください — すべての報告を確認し、迅速に対応します。",
+  "report_btn": "問題を報告する →",
+  "privacy": "プライバシーポリシー",
+  "terms": "利用規約",
+  "refund": "返金ポリシー",
+  "about": "会社概要",
+  "contact": "お問い合わせ",
+  "note": "独立した学習ツールです。シンガポール交通警察、日本の警察庁、いかなる教習所とも提携していません。すべての問題と図はオリジナルです。"
+ },
+ "feedback": {
+  "breadcrumb_home": "← ホーム",
+  "breadcrumb_title": "問題を報告",
+  "eyebrow": "改善にご協力ください",
+  "title": "問題の報告・フィードバック",
+  "lead": "バグ、使いにくい点、ご提案などがあればお知らせください。状況を確認して対応します。",
+  "type_label": "種類",
+  "type_bug": "バグ・不具合",
+  "type_difficulty": "使い方が難しい",
+  "type_feedback": "ご意見・提案",
+  "type_other": "その他",
+  "area_label": "該当する機能",
+  "area_quiz": "クイズ・模擬試験",
+  "area_account": "アカウント・ログイン",
+  "area_payment": "支払い・プレミアム",
+  "area_content": "問題・学習コンテンツ",
+  "area_ui": "デザイン・画面",
+  "area_other": "その他",
+  "subject_label": "件名",
+  "subject_placeholder": "例：12問目でクイズが止まる",
+  "body_label": "詳細",
+  "body_placeholder": "何をしていたか、期待した動作、実際に起きたこと",
+  "email_label": "メールアドレス（返信用）",
+  "email_placeholder": "you@example.com",
+  "email_hint": "未ログインの場合は必須です。報告への返信のみに使用します。",
+  "signed_in_as": "ログイン中",
+  "submit": "送信",
+  "submitting": "送信中…",
+  "success_title": "ありがとうございます。報告を受け付けました。",
+  "success_body": "チームが確認します。ログイン中は下でステータスを確認できます。",
+  "error_generic": "エラーが発生しました。もう一度お試しください。",
+  "my_reports": "あなたの報告",
+  "loading": "読み込み中…",
+  "no_reports": "まだ報告はありません。",
+  "status_pending": "未対応",
+  "status_reviewing": "確認中",
+  "status_resolved": "解決済み",
+  "status_dismissed": "クローズ",
+  "admin_reply": "チームからの返信",
+  "signin_hint": "ログインすると報告の追跡ができ、毎回メール入力が不要です。",
+  "signin_link": "ログイン"
+ },
+ "resourcesHandbook": {
+  "breadcrumb_home": "← ホーム",
+  "breadcrumb_title": "公式ハンドブック",
+  "hero": {
+   "eyebrow": "学習資料",
+   "title": "公式ハンドブックをダウンロード",
+   "lead": "シンガポールと日本の学科試験用の政府ハンドブックと学習ガイドへの無料リンク。"
+  },
+  "disclaimer_label": "注意：",
+  "disclaimer": "これらのファイルは公式機関がホストしています。TheoryLaneは独立した学習ツールであり、政府機関とは提携していません。",
+  "download": "ダウンロード",
+  "back_home": "← ホームに戻る",
+  "downloadTranslated": "ミャンマー語訳"
+ },
+ "experiences": {
+  "breadcrumb_home": "← ホーム",
+  "breadcrumb_title": "会員の体験談",
+  "hero": {
+   "eyebrow": "コミュニティ",
+   "title": "合格者からのヒント",
+   "lead": "プレミアム会員が実際の勉強法と試験当日の体験を共有。すべてのレビューは公開前にチームが確認します。"
+  },
+  "signin_prompt": "ログインして、学習者と体験を共有しましょう。",
+  "signin_btn": "ログイン",
+  "premium_prompt": "レビューの投稿はプレミアム会員のみ。アップグレードして体験を共有しましょう。",
+  "premium_btn": "プレミアムへ",
+  "write_prompt": "試験に合格しましたか？他の人を助けたいですか？体験を共有しましょう。",
+  "write_btn": "レビューを書く",
+  "form_title": "体験を共有",
+  "field_category": "試験 / トピック",
+  "field_name": "表示名（公開）",
+  "field_name_ph": "例：コーコー",
+  "field_title": "見出し",
+  "field_body": "体験とアドバイス",
+  "field_rating": "TheoryLaneはどれくらい役立ちましたか？",
+  "field_passed": "試験に合格しましたか？",
+  "passed_na": "答えたくない",
+  "passed_yes": "はい、合格しました",
+  "passed_no": "まだ勉強中",
+  "submit_btn": "審査に提出",
+  "submitting": "送信中…",
+  "cancel": "キャンセル",
+  "approval_note": "レビューは管理者の承認後に表示されます — 通常24時間以内。",
+  "submit_success": "ありがとうございます。レビューは審査待ちです。",
+  "my_reviews": "あなたの投稿",
+  "published_title": "公開済みレビュー",
+  "loading": "読み込み中…",
+  "empty": "まだ公開レビューがありません。最初のプレミアム会員として体験を共有しましょう！",
+  "badge_passed": "✓ 合格",
+  "badge_studying": "勉強中",
+  "status_pending": "審査待ち",
+  "status_approved": "公開済み",
+  "status_rejected": "非承認"
+ },
+ "practicalChecklist": {
+  "breadcrumb_home": "← ホーム",
+  "breadcrumb_title": "実技試験 減点ガイド",
+  "hero": {
+   "eyebrow": "シンガポール · Class 3 / 3A",
+   "title": "最終実技評価 減点ガイド"
+  },
+  "sg_only_title": "シンガポール実技試験のみ",
+  "sg_only_lead": "Class 3/3Aの減点ガイドを見るには、ヘッダーで国をシンガポールに切り替えてください。",
+  "jp_only_eyebrow": "日本 · 技能試験",
+  "jp_only_title": "シンガポール専用の減点ガイド",
+  "jp_only_lead": "この減点一覧はシンガポール Class 3/3A 専用です。日本の技能試験は教習所卒業後の流れを、ライセンスロードマップと学習ガイドで確認してください。",
+  "jp_roadmap_link": "ライセンスロードマップ",
+  "jp_guide_link": "学習ガイド",
+  "pass_criteria_title": "合格・不合格の基準",
+  "pass_demerit_label": "減点の上限",
+  "pass_demerit_value": "{max}点未満",
+  "pass_demerit_detail": "減点合計は{max}点未満である必要があります。{max}点以上で不合格です。",
+  "pass_immediate_label": "即失格",
+  "pass_immediate_value": "1件でも",
+  "pass_immediate_detail": "丸印の項目（赤信号進行・事故など）が1つでもあれば、減点に関係なく試験終了です。",
+  "pass_items_label": "評価項目",
+  "pass_items_detail": "交通警察の公式用紙に基づく — 各行にそのミスの減点を表示。",
+  "legend_title": "用紙の印",
+  "legend_circle": "丸印 = 即失格",
+  "legend_box": "四角印 = 表示された減点",
+  "show_atm": "AT車項目を表示",
+  "show_atv": "ATVランプ項目を表示",
+  "expand_all": "すべて展開",
+  "collapse_all": "すべて閉じる",
+  "badge_if": "即失格",
+  "badge_zero": "0点",
+  "disclaimer": "交通警察Class 3/3A最終評価用紙に基づきます。学習用の参照ガイドであり、公式記録ではありません。",
+  "critical_title": "重要な場面 — 試験前に必読",
+  "critical_sub": "不合格の多い場面の手順と注意点を詳しく解説。",
+  "show_guide": "ヒントと解説を表示",
+  "sections_intro": "試験官が公式用紙にそのミスを記入した場合の減点を各行に表示しています。",
+  "steps_label": "手順",
+  "warnings_label": "注意",
+  "tips_label": "ヒント",
+  "examiner_focus": "試験官が見るポイント",
+  "procedure_label": "手順",
+  "how_to_avoid": "減点を避けるには",
+  "common_mistakes": "よくあるミス",
+  "show_tips": "詳しく",
+  "hide_tips": "閉じる",
+  "tips_short": "ヒント",
+  "jump_section": "減点セクションへ"
+ },
+ "quiz": {
+  "lesson_title": "学習モード",
+  "practice_title": "練習モード",
+  "test_title": "模擬試験",
+  "next": "次へ",
+  "prev": "前へ",
+  "finish": "終了",
+  "submit": "回答する",
+  "unanswered": "未回答",
+  "restart": "やり直す",
+  "back": "試験一覧へ",
+  "explanation": "解説",
+  "question": "問題",
+  "of": "/",
+  "time_left": "残り時間",
+  "submit_test": "試験を提出",
+  "result_pass": "合格！",
+  "result_fail": "もう少し",
+  "result_score": "あなたのスコア",
+  "result_correct": "正解",
+  "result_points": "点",
+  "hazard_title": "危険予測 — ア・イ・ウに答える",
+  "hazard_true": "正しい（○）",
+  "hazard_false": "誤り（×）",
+  "tf_true": "正しい",
+  "tf_false": "誤り",
+  "your_answer": "あなたの答え",
+  "result_try_again": "もう一度",
+  "correct": "正解",
+  "wrong": "不正解",
+  "media_missing": "画像準備中",
+  "mode_lesson": "学ぶ",
+  "mode_practice": "練習",
+  "mode_test": "模擬試験",
+  "choose_mode": "モードを選ぶ",
+  "questions_count": "問",
+  "pass_mark": "合格点",
+  "time_limit": "制限時間",
+  "minutes": "分",
+  "gate_checking": "確認中…",
+  "gate_signin_title": "模擬試験にはログインが必要です",
+  "gate_signin_desc": "無料アカウントは1日カテゴリーごとに1回の模擬試験が利用できます。",
+  "gate_signin_btn": "ログイン",
+  "gate_signup_btn": "無料アカウント作成",
+  "gate_limit_title": "1日の利用制限に達しました",
+  "gate_limit_desc1": "明日また挑戦するか、プレミアムで無制限に受験できます。",
+  "gate_limit_desc2": "プレミアムは模擬試験無制限・広告なし・クイズ履歴管理が使えます。",
+  "gate_ad_title": "本日もう1回の模擬試験を解放",
+  "gate_ad_desc": "短い広告を見ると、このカテゴリーで本日もう1回の模擬試験が可能になります。",
+  "gate_ad_button": "広告を見て解放",
+  "ad_break_title": "小休止",
+  "ad_break_desc": "TheoryLaneで学習いただきありがとうございます。無料練習を続けるため、短い広告を表示します。",
+  "ad_break_continue": "学習を続ける",
+  "gate_premium": "プレミアムへ",
+  "result_attempts": "回",
+  "wrong_review": "間違えた問題を確認",
+  "correct_answer": "正解",
+  "retry_wrong": "間違えた問題をやり直す",
+  "practice_result": "練習完了",
+  "retry_result": "やり直し完了",
+  "retry_mode": "やり直し",
+  "all_correct": "完璧！全問正解！",
+  "shuffle_restart": "シャッフルして最初から",
+  "choose_set": "セットを選ぶ",
+  "set_label": "セット",
+  "set_desc": "1セット50問 · 各45分",
+  "set_hint": "各セットの問題は毎回シャッフルされます。",
+  "back_to_sets": "セット選択に戻る",
+  "sets": "セット一覧",
+  "set_desc_learn": "1セット50問 · 自分のペースで学習",
+  "set_desc_inspired": "試験形式12セット（500問） · 重要BTTトピック優先",
+  "set_desc_learn_inspired": "Inspired setを先に — 標識・規則・模擬レビューの順",
+  "inspired_set_badge": "Inspired set",
+  "set_hint_learn": "問題は順番に表示されます。じっくり学習してください。",
+  "self_paced": "自分のペース",
+  "loading": "問題を読み込み中…",
+  "load_error": "問題を読み込めませんでした。接続を確認してもう一度お試しください。",
+  "no_questions": "問題が見つかりません"
+ },
+ "growth": {
+  "share_cta": "友達にシェア →",
+  "share_title": "TheoryLane — 運転理論試験対策",
+  "share_text": "シンガポールBTT/FTT/RTTと日本の運転免許試験を無料練習 — 英語・ミャンマー語対応 | TheoryLane",
+  "copied": "リンクをコピーしました！シンガポール・日本で免許試験を受ける友達にシェアしてください。"
+ },
+ "seo": {
+  "site": {
+   "title": "シンガポール運転理論試験 — BTT・FTT・RTT対策 | TheoryLane",
+   "description": "シンガポールBTT・FTT・RTTの無料練習問題1,000問以上。英語・ミャンマー語対応 — シンガポール在住のミャンマー人労働者向け。日本の普通・二輪免許対策も。"
+  },
+  "common": {
+   "home": "← ホーム",
+   "home_label": "ホーム"
+  },
+  "home": {
+   "title": "シンガポール運転理論試験 — BTT・FTT・RTT無料練習 | TheoryLane",
+   "description": "シンガポールの学科試験に一発合格。ミャンマー人労働者向けBTT・FTT・RTT無料練習、模擬試験、道路標識 — 英語・ミャンマー語。日本在住者向け普通免許・二輪免許対策も。"
   },
   "quiz": {
-    "lesson_title": "学習モード",
-    "practice_title": "練習モード",
-    "test_title": "模擬試験",
-    "next": "次へ",
-    "prev": "前へ",
-    "finish": "終了",
-    "submit": "回答する",
-    "unanswered": "未回答",
-    "restart": "やり直す",
-    "back": "試験一覧へ",
-    "explanation": "解説",
-    "question": "問題",
-    "of": "/",
-    "time_left": "残り時間",
-    "submit_test": "試験を提出",
-    "result_pass": "合格！",
-    "result_fail": "もう少し",
-    "result_score": "あなたのスコア",
-    "result_correct": "正解",
-    "result_points": "点",
-    "hazard_title": "危険予測 — ア・イ・ウに答える",
-    "hazard_true": "正しい（○）",
-    "hazard_false": "誤り（×）",
-    "tf_true": "正しい",
-    "tf_false": "誤り",
-    "your_answer": "あなたの答え",
-    "result_try_again": "もう一度",
-    "correct": "正解",
-    "wrong": "不正解",
-    "media_missing": "画像準備中",
-    "mode_lesson": "学ぶ",
-    "mode_practice": "練習",
-    "mode_test": "模擬試験",
-    "choose_mode": "モードを選ぶ",
-    "questions_count": "問",
-    "pass_mark": "合格点",
-    "time_limit": "制限時間",
-    "minutes": "分",
-    "gate_checking": "確認中…",
-    "gate_signin_title": "模擬試験にはログインが必要です",
-    "gate_signin_desc": "無料アカウントは1日カテゴリーごとに1回の模擬試験が利用できます。",
-    "gate_signin_btn": "ログイン",
-    "gate_signup_btn": "無料アカウント作成",
-    "gate_limit_title": "1日の利用制限に達しました",
-    "gate_limit_desc1": "明日また挑戦するか、プレミアムで無制限に受験できます。",
-    "gate_limit_desc2": "プレミアムは模擬試験無制限・広告なし・クイズ履歴管理が使えます。",
-    "gate_ad_title": "本日もう1回の模擬試験を解放",
-    "gate_ad_desc": "短い広告を見ると、このカテゴリーで本日もう1回の模擬試験が可能になります。",
-    "gate_ad_button": "広告を見て解放",
-    "ad_break_title": "小休止",
-    "ad_break_desc": "TheoryLaneで学習いただきありがとうございます。無料練習を続けるため、短い広告を表示します。",
-    "ad_break_continue": "学習を続ける",
-    "gate_premium": "プレミアムへ",
-    "result_attempts": "回",
-    "wrong_review": "間違えた問題を確認",
-    "correct_answer": "正解",
-    "retry_wrong": "間違えた問題をやり直す",
-    "practice_result": "練習完了",
-    "retry_result": "やり直し完了",
-    "retry_mode": "やり直し",
-    "all_correct": "完璧！全問正解！",
-    "shuffle_restart": "シャッフルして最初から",
-    "choose_set": "セットを選ぶ",
-    "set_label": "セット",
-    "set_desc": "1セット50問 · 各45分",
-    "set_hint": "各セットの問題は毎回シャッフルされます。",
-    "back_to_sets": "セット選択に戻る",
-    "sets": "セット一覧",
-    "set_desc_learn": "1セット50問 · 自分のペースで学習",
-    "set_desc_inspired": "試験形式12セット（500問） · 重要BTTトピック優先",
-    "set_desc_learn_inspired": "Inspired setを先に — 標識・規則・模擬レビューの順",
-    "inspired_set_badge": "Inspired set",
-    "set_hint_learn": "問題は順番に表示されます。じっくり学習してください。",
-    "self_paced": "自分のペース",
-    "loading": "問題を読み込み中…",
-    "load_error": "問題を読み込めませんでした。接続を確認してもう一度お試しください。",
-    "no_questions": "問題が見つかりません"
+   "lesson_title": "{test} 学習モード — 交通ルール",
+   "practice_title": "{test} 練習問題 — 無料",
+   "test_title": "{test} 模擬試験 — 本番形式",
+   "description": "{test}の無料練習問題{count}問以上。模擬試験{mock}問・合格率{pass}%。TheoryLaneで英語・ミャンマー語学習。"
   },
-  "growth": {
-    "share_cta": "友達にシェア →",
-    "share_title": "TheoryLane — 運転理論試験対策",
-    "share_text": "シンガポールBTT/FTT/RTTと日本の運転免許試験を無料練習 — 英語・ミャンマー語対応 | TheoryLane",
-    "copied": "リンクをコピーしました！シンガポール・日本で免許試験を受ける友達にシェアしてください。"
-  },
-  "seo": {
-    "site": {
-      "title": "シンガポール運転理論試験 — BTT・FTT・RTT対策 | TheoryLane",
-      "description": "シンガポールBTT・FTT・RTTの無料練習問題1,000問以上。英語・ミャンマー語対応 — シンガポール在住のミャンマー人労働者向け。日本の普通・二輪免許対策も。"
+  "btt": {
+   "meta_title": "BTT練習問題シンガポール — Basic Theory Test無料 | TheoryLane",
+   "meta_description": "シンガポールBTT（基礎学科試験）無料練習565問以上。模擬試験50問・90%合格ライン。道路標識・交通ルールを英語・ミャンマー語で学習。",
+   "breadcrumb": "BTT練習",
+   "eyebrow": "Singapore · Basic Theory Test",
+   "h1": "BTT練習問題 — シンガポール基礎学科試験",
+   "lead": "シンガポールBTT（Basic Theory Test）の無料学習・練習・模擬試験。全問題に標識イラストと英語・ミャンマー語の解説付き。",
+   "about_title": "BTTとは？",
+   "about_p1": "Basic Theory Test（BTT）はシンガポールで運転免許を取得する最初の学科試験です。交通標識・路面標示・交通ルール・基本的な危険予測を扱い、実技教習の前に受験します。",
+   "about_p2": "本試験は50問・50分・90%合格（45問正解）。TheoryLaneは本番と同じ形式で練習できます。",
+   "format_title": "BTT試験形式",
+   "format_items": [
+    "50問の多肢選択",
+    "制限時間50分",
+    "90%合格（45/50）",
+    "標識・標示・ルール・安全",
+    "OneMotoringで予約 — 約S$7.09"
+   ],
+   "modes_title": "3つの学習モード",
+   "modes_learn": "学習 — 標識とルールを読む",
+   "modes_practice": "練習 — 自分のペースで即時フィードバック",
+   "modes_mock": "模擬試験 — 50問・時間制限あり",
+   "faq_title": "BTTよくある質問",
+   "faq": [
+    {
+     "q": "シンガポールBTTの問題数は？",
+     "a": "公式BTTは50問です。45問正解（90%）で合格します。"
     },
-    "common": {
-      "home": "← ホーム",
-      "home_label": "ホーム"
+    {
+     "q": "TheoryLaneのBTT練習は無料？",
+     "a": "はい。学習・練習は無料。無料アカウントは1日1回模擬試験。プレミアムで無制限。"
     },
-    "home": {
-      "title": "シンガポール運転理論試験 — BTT・FTT・RTT無料練習 | TheoryLane",
-      "description": "シンガポールの学科試験に一発合格。ミャンマー人労働者向けBTT・FTT・RTT無料練習、模擬試験、道路標識 — 英語・ミャンマー語。日本在住者向け普通免許・二輪免許対策も。"
+    {
+     "q": "ミャンマー語で学習できますか？",
+     "a": "はい。TheoryLaneは問題と解説のミャンマー語翻訳に対応しています。"
     },
-    "quiz": {
-      "lesson_title": "{test} 学習モード — 交通ルール",
-      "practice_title": "{test} 練習問題 — 無料",
-      "test_title": "{test} 模擬試験 — 本番形式",
-      "description": "{test}の無料練習問題{count}問以上。模擬試験{mock}問・合格率{pass}%。TheoryLaneで英語・ミャンマー語学習。"
-    },
-    "btt": {
-      "meta_title": "BTT練習問題シンガポール — Basic Theory Test無料 | TheoryLane",
-      "meta_description": "シンガポールBTT（基礎学科試験）無料練習565問以上。模擬試験50問・90%合格ライン。道路標識・交通ルールを英語・ミャンマー語で学習。",
-      "breadcrumb": "BTT練習",
-      "eyebrow": "Singapore · Basic Theory Test",
-      "h1": "BTT練習問題 — シンガポール基礎学科試験",
-      "lead": "シンガポールBTT（Basic Theory Test）の無料学習・練習・模擬試験。全問題に標識イラストと英語・ミャンマー語の解説付き。",
-      "about_title": "BTTとは？",
-      "about_p1": "Basic Theory Test（BTT）はシンガポールで運転免許を取得する最初の学科試験です。交通標識・路面標示・交通ルール・基本的な危険予測を扱い、実技教習の前に受験します。",
-      "about_p2": "本試験は50問・50分・90%合格（45問正解）。TheoryLaneは本番と同じ形式で練習できます。",
-      "format_title": "BTT試験形式",
-      "format_items": [
-        "50問の多肢選択",
-        "制限時間50分",
-        "90%合格（45/50）",
-        "標識・標示・ルール・安全",
-        "OneMotoringで予約 — 約S$7.09"
-      ],
-      "modes_title": "3つの学習モード",
-      "modes_learn": "学習 — 標識とルールを読む",
-      "modes_practice": "練習 — 自分のペースで即時フィードバック",
-      "modes_mock": "模擬試験 — 50問・時間制限あり",
-      "faq_title": "BTTよくある質問",
-      "faq": [
-        {
-          "q": "シンガポールBTTの問題数は？",
-          "a": "公式BTTは50問です。45問正解（90%）で合格します。"
-        },
-        {
-          "q": "TheoryLaneのBTT練習は無料？",
-          "a": "はい。学習・練習は無料。無料アカウントは1日1回模擬試験。プレミアムで無制限。"
-        },
-        {
-          "q": "ミャンマー語で学習できますか？",
-          "a": "はい。TheoryLaneは問題と解説のミャンマー語翻訳に対応しています。"
-        },
-        {
-          "q": "BTTはいつ受験できますか？",
-          "a": "指定教習所に登録後、OneMotoringで予約できます。車は17歳以上、バイクは18歳以上。"
-        }
-      ],
-      "cta_learn": "BTT学習を始める",
-      "cta_practice": "BTT練習問題",
-      "cta_mock": "BTT模擬試験",
-      "stats": "練習問題{count}問以上 · 模擬試験{mock}問 · 合格率{pass}%",
-      "related_title": "関連学習資料",
-      "related_signs": "道路標識ライブラリ",
-      "related_faq": "受験料・FAQ",
-      "related_guide": "学習ガイド"
-    },
-    "ftt": {
-      "meta_title": "FTT練習問題シンガポール — Final Theory Test模擬試験 | TheoryLane",
-      "meta_description": "シンガポールFTT（最終学科試験）無料練習516問以上。模擬試験50問・90%合格。危険予測・高速道路ルール対策。",
-      "breadcrumb": "FTT練習",
-      "eyebrow": "Singapore · Final Theory Test",
-      "h1": "FTT練習問題 — シンガポール最終学科試験",
-      "lead": "実技教習後のFinal Theory Test（FTT）対策。危険予測・高速道路・上級ルールを無料で練習。ミャンマー語対応。",
-      "about_title": "FTTとは？",
-      "about_p1": "Final Theory Test（FTT）は実技教習を5回以上終えた後に受ける学科試験です。BTTより高度な危険予測・高速道路・夜間運転などを扱います。",
-      "about_p2": "形式はBTTと同じ50問・50分・90%合格。FTT合格後にTraffic Policeの技能試験を予約できます。",
-      "format_title": "FTT試験形式",
-      "format_items": [
-        "50問・50分",
-        "90%合格",
-        "実技5回以上で予約可",
-        "危険予測・高速道路・上級ルール"
-      ],
-      "modes_title": "3つの学習モード",
-      "modes_learn": "学習 — 上級ルールと図解",
-      "modes_practice": "練習 — 解説付き無制限",
-      "modes_mock": "模擬試験 — FTT本番形式",
-      "faq_title": "FTTよくある質問",
-      "faq": [
-        {
-          "q": "BTTとFTTの違いは？",
-          "a": "BTTは基礎（実技前）。FTTは上級（実技5回後）— 危険予測など。"
-        },
-        {
-          "q": "FTT練習問題は何問？",
-          "a": "TheoryLaneに516問以上のFTT練習問題があります。"
-        },
-        {
-          "q": "FTTに落ちたら再受験できる？",
-          "a": "はい。回数制限なし。都度受験料。3日後に再予約可能。"
-        },
-        {
-          "q": "FTTの前にBTTが必要？",
-          "a": "はい。BTT合格 → 実技教習 → FTT合格の順です。"
-        }
-      ],
-      "cta_learn": "FTT学習開始",
-      "cta_practice": "FTT練習問題",
-      "cta_mock": "FTT模擬試験",
-      "stats": "練習問題{count}問以上 · 模擬試験{mock}問 · 合格率{pass}%",
-      "related_title": "関連資料",
-      "related_signs": "道路標識",
-      "related_faq": "FAQ",
-      "related_roadmap": "免許取得ロードマップ"
-    },
-    "rtt": {
-      "meta_title": "RTT練習問題シンガポール — Riding Theory Test | TheoryLane",
-      "meta_description": "シンガポールRTT（二輪学科試験）Class 2B/2A/2向け無料練習109問以上。模擬試験90%合格ライン。英語・ミャンマー語。",
-      "breadcrumb": "RTT練習",
-      "eyebrow": "Singapore · Riding Theory Test",
-      "h1": "RTT練習問題 — シンガポール二輪学科試験",
-      "lead": "バイク免許（Class 2B・2A・2）向けRiding Theory Test（RTT）の無料練習・模擬試験。",
-      "about_title": "RTTとは？",
-      "about_p1": "Riding Theory Test（RTT）はバイク免許用の学科試験で、FTTの代わりに受けます。BTT合格が先決です。",
-      "about_p2": "50問・50分・90%合格。バイク特有のルールと危険予測が中心です。",
-      "format_title": "RTT試験形式",
-      "format_items": [
-        "50問・50分",
-        "90%合格",
-        "Class 2B/2A/2",
-        "バイクはFTTの代わりにRTT"
-      ],
-      "modes_title": "3つの学習モード",
-      "modes_learn": "学習",
-      "modes_practice": "練習",
-      "modes_mock": "模擬試験",
-      "faq_title": "RTTよくある質問",
-      "faq": [
-        {
-          "q": "バイクはFTTかRTTか？",
-          "a": "バイクはRTTです。BTTは共通で先に合格が必要です。"
-        },
-        {
-          "q": "対象クラスは？",
-          "a": "Class 2B（200cc以下）、2A、2（大型二輪）。"
-        },
-        {
-          "q": "RTT練習は無料？",
-          "a": "はい。学習・練習無料。無料プランは1日1回模擬試験。"
-        },
-        {
-          "q": "合格点は？",
-          "a": "50問中45問正解（90%）。"
-        }
-      ],
-      "cta_learn": "RTT学習開始",
-      "cta_practice": "RTT練習",
-      "cta_mock": "RTT模擬試験",
-      "stats": "練習問題{count}問以上 · 模擬試験{mock}問 · 合格率{pass}%",
-      "related_title": "関連資料",
-      "related_signs": "標識ライブラリ",
-      "related_classes": "免許クラス",
-      "related_faq": "FAQ"
+    {
+     "q": "BTTはいつ受験できますか？",
+     "a": "指定教習所に登録後、OneMotoringで予約できます。車は17歳以上、バイクは18歳以上。"
     }
+   ],
+   "cta_learn": "BTT学習を始める",
+   "cta_practice": "BTT練習問題",
+   "cta_mock": "BTT模擬試験",
+   "stats": "練習問題{count}問以上 · 模擬試験{mock}問 · 合格率{pass}%",
+   "related_title": "関連学習資料",
+   "related_signs": "道路標識ライブラリ",
+   "related_faq": "受験料・FAQ",
+   "related_guide": "学習ガイド"
+  },
+  "ftt": {
+   "meta_title": "FTT練習問題シンガポール — Final Theory Test模擬試験 | TheoryLane",
+   "meta_description": "シンガポールFTT（最終学科試験）無料練習516問以上。模擬試験50問・90%合格。危険予測・高速道路ルール対策。",
+   "breadcrumb": "FTT練習",
+   "eyebrow": "Singapore · Final Theory Test",
+   "h1": "FTT練習問題 — シンガポール最終学科試験",
+   "lead": "実技教習後のFinal Theory Test（FTT）対策。危険予測・高速道路・上級ルールを無料で練習。ミャンマー語対応。",
+   "about_title": "FTTとは？",
+   "about_p1": "Final Theory Test（FTT）は実技教習を5回以上終えた後に受ける学科試験です。BTTより高度な危険予測・高速道路・夜間運転などを扱います。",
+   "about_p2": "形式はBTTと同じ50問・50分・90%合格。FTT合格後にTraffic Policeの技能試験を予約できます。",
+   "format_title": "FTT試験形式",
+   "format_items": [
+    "50問・50分",
+    "90%合格",
+    "実技5回以上で予約可",
+    "危険予測・高速道路・上級ルール"
+   ],
+   "modes_title": "3つの学習モード",
+   "modes_learn": "学習 — 上級ルールと図解",
+   "modes_practice": "練習 — 解説付き無制限",
+   "modes_mock": "模擬試験 — FTT本番形式",
+   "faq_title": "FTTよくある質問",
+   "faq": [
+    {
+     "q": "BTTとFTTの違いは？",
+     "a": "BTTは基礎（実技前）。FTTは上級（実技5回後）— 危険予測など。"
+    },
+    {
+     "q": "FTT練習問題は何問？",
+     "a": "TheoryLaneに516問以上のFTT練習問題があります。"
+    },
+    {
+     "q": "FTTに落ちたら再受験できる？",
+     "a": "はい。回数制限なし。都度受験料。3日後に再予約可能。"
+    },
+    {
+     "q": "FTTの前にBTTが必要？",
+     "a": "はい。BTT合格 → 実技教習 → FTT合格の順です。"
+    }
+   ],
+   "cta_learn": "FTT学習開始",
+   "cta_practice": "FTT練習問題",
+   "cta_mock": "FTT模擬試験",
+   "stats": "練習問題{count}問以上 · 模擬試験{mock}問 · 合格率{pass}%",
+   "related_title": "関連資料",
+   "related_signs": "道路標識",
+   "related_faq": "FAQ",
+   "related_roadmap": "免許取得ロードマップ"
+  },
+  "rtt": {
+   "meta_title": "RTT練習問題シンガポール — Riding Theory Test | TheoryLane",
+   "meta_description": "シンガポールRTT（二輪学科試験）Class 2B/2A/2向け無料練習109問以上。模擬試験90%合格ライン。英語・ミャンマー語。",
+   "breadcrumb": "RTT練習",
+   "eyebrow": "Singapore · Riding Theory Test",
+   "h1": "RTT練習問題 — シンガポール二輪学科試験",
+   "lead": "バイク免許（Class 2B・2A・2）向けRiding Theory Test（RTT）の無料練習・模擬試験。",
+   "about_title": "RTTとは？",
+   "about_p1": "Riding Theory Test（RTT）はバイク免許用の学科試験で、FTTの代わりに受けます。BTT合格が先決です。",
+   "about_p2": "50問・50分・90%合格。バイク特有のルールと危険予測が中心です。",
+   "format_title": "RTT試験形式",
+   "format_items": [
+    "50問・50分",
+    "90%合格",
+    "Class 2B/2A/2",
+    "バイクはFTTの代わりにRTT"
+   ],
+   "modes_title": "3つの学習モード",
+   "modes_learn": "学習",
+   "modes_practice": "練習",
+   "modes_mock": "模擬試験",
+   "faq_title": "RTTよくある質問",
+   "faq": [
+    {
+     "q": "バイクはFTTかRTTか？",
+     "a": "バイクはRTTです。BTTは共通で先に合格が必要です。"
+    },
+    {
+     "q": "対象クラスは？",
+     "a": "Class 2B（200cc以下）、2A、2（大型二輪）。"
+    },
+    {
+     "q": "RTT練習は無料？",
+     "a": "はい。学習・練習無料。無料プランは1日1回模擬試験。"
+    },
+    {
+     "q": "合格点は？",
+     "a": "50問中45問正解（90%）。"
+    }
+   ],
+   "cta_learn": "RTT学習開始",
+   "cta_practice": "RTT練習",
+   "cta_mock": "RTT模擬試験",
+   "stats": "練習問題{count}問以上 · 模擬試験{mock}問 · 合格率{pass}%",
+   "related_title": "関連資料",
+   "related_signs": "標識ライブラリ",
+   "related_classes": "免許クラス",
+   "related_faq": "FAQ"
   }
+ }
 }

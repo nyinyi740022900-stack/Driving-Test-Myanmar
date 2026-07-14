@@ -60,15 +60,28 @@ export default function HandbookPage() {
                   {pickHandbookText(hb, 'desc', locale)}
                 </p>
               </div>
-              <a
-                href={hb.downloadUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-                style={{ textDecoration: 'none', whiteSpace: 'nowrap', flexShrink: 0 }}
-              >
-                {t('download')} ↓
-              </a>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 8, flexShrink: 0 }}>
+                <a
+                  href={hb.downloadUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                  style={{ textDecoration: 'none', whiteSpace: 'nowrap' }}
+                >
+                  {t('download')} ↓
+                </a>
+                {hb.translatedUrl && (
+                  <a
+                    href={hb.translatedUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-ghost"
+                    style={{ textDecoration: 'none', whiteSpace: 'nowrap' }}
+                  >
+                    {t('downloadTranslated')} ↓
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>
