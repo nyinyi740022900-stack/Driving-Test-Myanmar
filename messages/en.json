@@ -101,8 +101,8 @@
   "open": "Open →",
   "human_reviewed": "Human-reviewed",
   "coming_soon": "Coming soon",
-  "r9_h": "Official handbooks",
-  "r9_p": "Download the Traffic Police handbooks and Japan licence study materials — free for everyone.",
+  "r9_h": "Official study links",
+  "r9_p": "Singapore handbook PDFs and Japan exam guidance from government sites — free official links.",
   "r10_h": "Member experiences",
   "r10_p": "Real tips from premium members who passed their tests — moderated before publishing.",
   "r11_h": "Practical test scoring guide",
@@ -2501,14 +2501,14 @@
  },
  "resourcesHandbook": {
   "breadcrumb_home": "← Home",
-  "breadcrumb_title": "Official handbooks",
+  "breadcrumb_title": "Official study links",
   "hero": {
    "eyebrow": "Study material",
-   "title": "Download official handbooks",
-   "lead": "Free links to government handbooks and study guides for Singapore and Japan theory tests."
+   "title": "Official study links",
+   "lead": "Free links to Singapore Traffic Police handbooks and Japan National Police Agency exam guidance. TheoryLane does not host these files."
   },
   "disclaimer_label": "Note:",
-  "disclaimer": "Official handbook files are hosted by the government authorities. TheoryLane is an independent study tool and is not affiliated with any government agency.",
+  "disclaimer": "These resources open on official government websites. TheoryLane links to them but does not host files or claim government affiliation.",
   "studyInApp_label": "Myanmar study support:",
   "studyInApp": "We do not host translated handbook PDFs. Use Learn and Practice in TheoryLane for original questions and explanations in English, Myanmar, and Japanese.",
   "studyInApp_cta": "Start learning in the app",
