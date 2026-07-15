@@ -2508,10 +2508,12 @@
    "lead": "Free links to government handbooks and study guides for Singapore and Japan theory tests."
   },
   "disclaimer_label": "Note:",
-  "disclaimer": "These files are hosted by the official authorities. TheoryLane is an independent study tool and is not affiliated with any government agency.",
-  "download": "Download",
-  "back_home": "← Back to home",
-  "downloadTranslated": "Myanmar translation"
+  "disclaimer": "Official handbook files are hosted by the government authorities. TheoryLane is an independent study tool and is not affiliated with any government agency.",
+  "studyInApp_label": "Myanmar study support:",
+  "studyInApp": "We do not host translated handbook PDFs. Use Learn and Practice in TheoryLane for original questions and explanations in English, Myanmar, and Japanese.",
+  "studyInApp_cta": "Start learning in the app",
+  "download": "Official link",
+  "back_home": "← Back to home"
  },
  "experiences": {
   "breadcrumb_home": "← Home",

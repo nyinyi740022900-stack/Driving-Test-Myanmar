@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useCountry } from '@/components/CountryProvider';
@@ -34,8 +35,21 @@ export default function HandbookPage() {
           </p>
         </div>
 
-        <div style={{ background: 'var(--paint-2)', border: '1px solid var(--line)', borderRadius: 12, padding: '14px 18px', marginBottom: 32, fontSize: '.88rem', color: 'var(--ink-soft)', lineHeight: 1.6 }}>
+        <div style={{ background: 'var(--paint-2)', border: '1px solid var(--line)', borderRadius: 12, padding: '14px 18px', marginBottom: 16, fontSize: '.88rem', color: 'var(--ink-soft)', lineHeight: 1.6 }}>
           <strong>{t('disclaimer_label')}</strong> {t('disclaimer')}
+        </div>
+
+        <div style={{ background: 'var(--guide-pale, #eef6f1)', border: '1px solid var(--guide-mid, #b8d4c4)', borderRadius: 12, padding: '16px 18px', marginBottom: 32, fontSize: '.9rem', color: 'var(--ink)', lineHeight: 1.6 }}>
+          <strong>{t('studyInApp_label')}</strong> {t('studyInApp')}
+          <div style={{ marginTop: 12 }}>
+            <Link
+              href={`/${locale}/quiz/${country === 'jp' ? 'jp_car' : 'sg_btt'}/lesson`}
+              className="btn btn-primary"
+              style={{ textDecoration: 'none', display: 'inline-block' }}
+            >
+              {t('studyInApp_cta')} →
+            </Link>
+          </div>
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -60,28 +74,15 @@ export default function HandbookPage() {
                   {pickHandbookText(hb, 'desc', locale)}
                 </p>
               </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 8, flexShrink: 0 }}>
-                <a
-                  href={hb.downloadUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary"
-                  style={{ textDecoration: 'none', whiteSpace: 'nowrap' }}
-                >
-                  {t('download')} ↓
-                </a>
-                {hb.translatedUrl && (
-                  <a
-                    href={hb.translatedUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-ghost"
-                    style={{ textDecoration: 'none', whiteSpace: 'nowrap' }}
-                  >
-                    {t('downloadTranslated')} ↓
-                  </a>
-                )}
-              </div>
+              <a
+                href={hb.downloadUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+                style={{ textDecoration: 'none', whiteSpace: 'nowrap', flexShrink: 0 }}
+              >
+                {t('download')} ↓
+              </a>
             </div>
           ))}
         </div>

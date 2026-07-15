@@ -12,8 +12,6 @@ export interface Handbook {
   descJa: string;
   /** Official PDF or resource URL — opens in new tab */
   downloadUrl: string;
-  /** Optional unofficial Myanmar-translated PDF hosted locally in /public */
-  translatedUrl?: string;
   sourceLabelEn: string;
   sourceLabelMy: string;
   sourceLabelJa: string;
@@ -31,7 +29,6 @@ export const HANDBOOKS: Handbook[] = [
     descMy: 'BTT အတွက် Traffic Police တရားဝင် handbook — ဆိုင်းဘုတ်၊ စည်းမျဉ်းနှင့် လုံခြုံမောင်းနှင်နည်း။',
     descJa: 'シンガポール基礎学科試験の公式ハンドブック。',
     downloadUrl: 'https://www.police.gov.sg/-/media/Spf/Files/TP/Online-Learning-Portal/FINAL-English-Updated-cover-v2-10th-Edition-BTT-(270218).pdf',
-    translatedUrl: '/handbooks/sg-btt-myanmar.pdf',
     sourceLabelEn: 'Singapore Police Force',
     sourceLabelMy: 'Singapore Police Force',
     sourceLabelJa: 'シンガポール警察',
@@ -47,7 +44,6 @@ export const HANDBOOKS: Handbook[] = [
     descMy: 'FTT အတွက် တရားဝင် handbook — အမြန်လမ်း၊ အန္တရာယ်နှင့် အဆင့်မြင့် စည်းမျဉ်းများ။',
     descJa: '最終学科試験の公式ハンドブック。',
     downloadUrl: 'https://www.police.gov.sg/E-Services/Practise-Driving-and-Riding-Theory-Test',
-    translatedUrl: '/handbooks/sg-ftt-myanmar.pdf',
     sourceLabelEn: 'Singapore Police Force — online portal',
     sourceLabelMy: 'Singapore Police Force — အွန်လိုင်း portal',
     sourceLabelJa: 'シンガポール警察オンラインポータル',

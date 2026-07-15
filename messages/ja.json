@@ -2508,10 +2508,12 @@
    "lead": "シンガポールと日本の学科試験用の政府ハンドブックと学習ガイドへの無料リンク。"
   },
   "disclaimer_label": "注意：",
-  "disclaimer": "これらのファイルは公式機関がホストしています。TheoryLaneは独立した学習ツールであり、政府機関とは提携していません。",
-  "download": "ダウンロード",
-  "back_home": "← ホームに戻る",
-  "downloadTranslated": "ミャンマー語訳"
+  "disclaimer": "公式ハンドブックは政府機関がホストしています。TheoryLaneは独立した学習ツールであり、政府機関とは提携していません。",
+  "studyInApp_label": "ミャンマー語での学習：",
+  "studyInApp": "翻訳ハンドブックのPDFは提供していません。英語・ミャンマー語・日本語のオリジナル問題と解説は、アプリ内の学習・練習モードをご利用ください。",
+  "studyInApp_cta": "アプリで学習を始める",
+  "download": "公式リンク",
+  "back_home": "← ホームに戻る"
  },
  "experiences": {
   "breadcrumb_home": "← ホーム",
