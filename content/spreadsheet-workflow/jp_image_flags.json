@@ -1,0 +1,405 @@
+{
+ "assigned": [
+  "jp_car_0003",
+  "jp_car_0004",
+  "jp_car_0005",
+  "jp_car_0007",
+  "jp_car_0011",
+  "jp_car_0015",
+  "jp_car_0079",
+  "jp_car_0080",
+  "jp_car_0082",
+  "jp_car_0085",
+  "jp_car_0141",
+  "jp_car_0144",
+  "jp_car_0145",
+  "jp_car_0148",
+  "jp_car_0151",
+  "jp_car_0152",
+  "jp_car_0154",
+  "jp_car_0155",
+  "jp_car_0156",
+  "jp_car_0157",
+  "jp_car_0160",
+  "jp_car_0255",
+  "jp_car_0257",
+  "jp_car_0261",
+  "jp_car_0264",
+  "jp_car_0266",
+  "jp_moto_0001",
+  "jp_moto_0003",
+  "jp_moto_0007",
+  "jp_moto_0008",
+  "jp_moto_0101",
+  "jp_moto_0102",
+  "jp_moto_0104",
+  "jp_moto_0112",
+  "jp_moto_0113",
+  "jp_moto_0114",
+  "jp_moto_0116",
+  "jp_moto_0118",
+  "jp_moto_0123"
+ ],
+ "hazard": [
+  "jp_car_0086",
+  "jp_car_0087",
+  "jp_car_0088",
+  "jp_car_0089",
+  "jp_car_0090",
+  "jp_car_0091",
+  "jp_car_0092",
+  "jp_car_0093",
+  "jp_car_0094",
+  "jp_car_0095",
+  "jp_car_0096",
+  "jp_car_0097",
+  "jp_car_0098",
+  "jp_car_0099",
+  "jp_car_0100",
+  "jp_car_0268",
+  "jp_car_0269",
+  "jp_car_0270",
+  "jp_car_0271",
+  "jp_car_0272",
+  "jp_car_0273",
+  "jp_car_0274",
+  "jp_car_0275",
+  "jp_car_0276",
+  "jp_car_0277",
+  "jp_car_0278",
+  "jp_car_0279",
+  "jp_car_0280",
+  "jp_car_0281",
+  "jp_car_0282",
+  "jp_car_0283",
+  "jp_car_0284",
+  "jp_car_0285",
+  "jp_car_0286",
+  "jp_car_0287",
+  "jp_car_0288",
+  "jp_car_0289",
+  "jp_moto_0091",
+  "jp_moto_0092",
+  "jp_moto_0093",
+  "jp_moto_0094",
+  "jp_moto_0095",
+  "jp_moto_0096",
+  "jp_moto_0097",
+  "jp_moto_0098",
+  "jp_moto_0099",
+  "jp_moto_0100",
+  "jp_moto_0229",
+  "jp_moto_0230",
+  "jp_moto_0231",
+  "jp_moto_0232",
+  "jp_moto_0233",
+  "jp_moto_0234",
+  "jp_moto_0235",
+  "jp_moto_0236",
+  "jp_moto_0237",
+  "jp_moto_0238",
+  "jp_moto_0239",
+  "jp_moto_0240",
+  "jp_moto_0241",
+  "jp_moto_0242",
+  "jp_moto_0243"
+ ],
+ "sign_none": [
+  [
+   "jp_car_0001",
+   "When a round sign shows \"30,\" it indicates the maximum speed for that "
+  ],
+  [
+   "jp_car_0002",
+   "Triangular warning signs with a yellow background and red border, plac"
+  ],
+  [
+   "jp_car_0006",
+   "\"Closed to vehicles\" and \"vehicles prohibited\" have the same meaning, "
+  ],
+  [
+   "jp_car_0008",
+   "Vehicles driving on roads with \"priority road\" signs do not have to yi"
+  ],
+  [
+   "jp_car_0009",
+   "Regulation signs that display \"Large Vehicles, etc.\" on the auxiliary "
+  ],
+  [
+   "jp_car_0010",
+   "If a \"no entry except in the direction shown\" sign displays only a rig"
+  ],
+  [
+   "jp_car_0012",
+   "Mopeds and light vehicles may also use roads marked with motor-vehicle"
+  ],
+  [
+   "jp_car_0013",
+   "A \"crosswalk\" sign indicates that there is a place for pedestrians to "
+  ],
+  [
+   "jp_car_0014",
+   "You cannot pass the vehicle in front of you in areas where there is a "
+  ],
+  [
+   "jp_car_0071",
+   "If only the right arrow is lit on an arrow signal, only vehicles makin"
+  ],
+  [
+   "jp_car_0072",
+   "At intersections where the traffic lights indicate \"pedestrian and veh"
+  ],
+  [
+   "jp_car_0073",
+   "At intersections with \"Left Turn Allowed\" signs, you can make a left t"
+  ],
+  [
+   "jp_car_0074",
+   "If the vehicle traffic light is green and the \"pedestrian/bicycle only"
+  ],
+  [
+   "jp_car_0075",
+   "Where there is a road marking (solid yellow line) indicating the \"cent"
+  ],
+  [
+   "jp_car_0076",
+   "Where there is a center line marked with a dashed white line, drivers "
+  ],
+  [
+   "jp_car_0077",
+   "A diamond-shaped mark on the road warns you that there is a crosswalk "
+  ],
+  [
+   "jp_car_0078",
+   "The \"Regulation Notice\" signboard indicates roughly the same regulatio"
+  ],
+  [
+   "jp_car_0081",
+   "Do not turn right from a lane marked with a straight ahead arrow on it"
+  ],
+  [
+   "jp_car_0083",
+   "At push-button crosswalks without traffic lights, cars do not have to "
+  ],
+  [
+   "jp_car_0084",
+   "Where there is a \"No Stopping Area\" sign (yellow grid frame), do not s"
+  ],
+  [
+   "jp_car_0142",
+   "A warning sign is an equilateral triangle with a black frame on a yell"
+  ],
+  [
+   "jp_car_0143",
+   "Regulatory signs include not only round signs with a red border, but a"
+  ],
+  [
+   "jp_car_0146",
+   "In areas where there is a \"No Passing\" sign, do not change course to p"
+  ],
+  [
+   "jp_car_0147",
+   "All overtaking is prohibited in areas where there is a sign that says "
+  ],
+  [
+   "jp_car_0149",
+   "On sections of the highway that have \"minimum speed\" signs, do not dri"
+  ],
+  [
+   "jp_car_0150",
+   "Auxiliary signs are never placed alone, but are always used in combina"
+  ],
+  [
+   "jp_car_0153",
+   "Guide signs are for the purpose of regulating and directing traffic, a"
+  ],
+  [
+   "jp_car_0158",
+   "A road with a sign indicating that it is a \"priority road\" can be used"
+  ],
+  [
+   "jp_car_0159",
+   "The number on the \"Parking Room\" sign indicates the width of the space"
+  ],
+  [
+   "jp_car_0161",
+   "Roads with \"Closed\" signs are closed to both vehicles and pedestrians."
+  ],
+  [
+   "jp_car_0162",
+   "Areas with \"safety zone\" signs are areas designed to ensure the safety"
+  ],
+  [
+   "jp_car_0163",
+   "Between regulatory signs and warning signs, warning signs have stronge"
+  ],
+  [
+   "jp_car_0246",
+   "A flashing yellow light indicates that you may proceed while paying at"
+  ],
+  [
+   "jp_car_0247",
+   "A flashing red signal indicates that you must stop and then proceed af"
+  ],
+  [
+   "jp_car_0248",
+   "If all the arrows on an arrow signal are off and only the red one is l"
+  ],
+  [
+   "jp_car_0249",
+   "At crosswalks with push-button signals, the light may not turn green u"
+  ],
+  [
+   "jp_car_0250",
+   "At intersections with pedestrian and vehicle separation signals, even "
+  ],
+  [
+   "jp_car_0251",
+   "At intersections where the traffic lights are out due to malfunction, "
+  ],
+  [
+   "jp_car_0252",
+   "When a police officer is directing traffic with his arms raised horizo"
+  ],
+  [
+   "jp_car_0253",
+   "Even if you are at a signal with an auxiliary sign that says \"right tu"
+  ],
+  [
+   "jp_car_0254",
+   "If the signal at a railroad crossing has turned blue, you may pass thr"
+  ],
+  [
+   "jp_car_0256",
+   "A sign indicating a \"bicycle crossing zone\" indicates that this is a p"
+  ],
+  [
+   "jp_car_0258",
+   "When the oncoming traffic light displays only a blue arrow (pointing t"
+  ],
+  [
+   "jp_car_0259",
+   "The \"lights on\" sign in front of the tunnel entrance instructs drivers"
+  ],
+  [
+   "jp_car_0260",
+   "When the traffic light you are facing turns yellow, you must stop if i"
+  ],
+  [
+   "jp_car_0262",
+   "Even if there are police officers arranging traffic by hand signal, th"
+  ],
+  [
+   "jp_car_0263",
+   "Road markings indicating \"no parking\" (such as broken yellow lines) ha"
+  ],
+  [
+   "jp_car_0265",
+   "Immediately after the traffic light turns green, you may start driving"
+  ],
+  [
+   "jp_car_0267",
+   "A restriction sign with an \"end\" auxiliary sign indicates that the res"
+  ],
+  [
+   "jp_moto_0002",
+   "When the yellow light signal is flashing, you can proceed with caution"
+  ],
+  [
+   "jp_moto_0004",
+   "When a police officer raises his right arm vertically, traffic in fron"
+  ],
+  [
+   "jp_moto_0005",
+   "The \"Prohibition of proceeding outside the specified direction\" sign p"
+  ],
+  [
+   "jp_moto_0006",
+   "If there is a single yellow line drawn on the road on a two-way road, "
+  ],
+  [
+   "jp_moto_0009",
+   "Even on roads where there are no \"maximum speed\" signs, mopeds are sub"
+  ],
+  [
+   "jp_moto_0010",
+   "The signal to turn right or left must be given at least 3 seconds befo"
+  ],
+  [
+   "jp_moto_0027",
+   "In areas where there is a \"No Passing\" sign, it is prohibited to overt"
+  ],
+  [
+   "jp_moto_0028",
+   "A \"No Vehicles\" sign prohibits all vehicles, including two-wheeled car"
+  ],
+  [
+   "jp_moto_0029",
+   "When approaching a railroad crossing without traffic lights, even if y"
+  ],
+  [
+   "jp_moto_0030",
+   "A hand signal indicating a right turn can be made by extending the rig"
+  ],
+  [
+   "jp_moto_0045",
+   "You must always honk your horn in areas where there is a \"honk your ho"
+  ],
+  [
+   "jp_moto_0103",
+   "It is illegal for a moped to ride the wrong way on a road marked with "
+  ],
+  [
+   "jp_moto_0105",
+   "The speed displayed on the \"maximum speed\" sign may be different for t"
+  ],
+  [
+   "jp_moto_0106",
+   "The legal maximum speed for mopeds is 30 kilometers per hour on public"
+  ],
+  [
+   "jp_moto_0107",
+   "In principle, mopeds can be used on expressways and automobile-only ro"
+  ],
+  [
+   "jp_moto_0108",
+   "A \"Road Closed\" sign prohibits the passage of all vehicles, including "
+  ],
+  [
+   "jp_moto_0109",
+   "Motorcycles and mopeds must not be parked in areas with \"No Bicycle Pa"
+  ],
+  [
+   "jp_moto_0110",
+   "Large motorcycles must not be ridden by two people on sections of the "
+  ],
+  [
+   "jp_moto_0111",
+   "One-way signs with a supplementary sign that says \"excluding light veh"
+  ],
+  [
+   "jp_moto_0115",
+   "Two mopeds are allowed to ride side by side on roads with supplementar"
+  ],
+  [
+   "jp_moto_0117",
+   "Mopeds are allowed to pass in lanes marked as \"Exclusive lanes (exclud"
+  ],
+  [
+   "jp_moto_0119",
+   "Only motorcycles and mopeds can pass on roads with signs that say \"Clo"
+  ],
+  [
+   "jp_moto_0120",
+   "If there is a sign indicating a \"exclusive lane\" at an intersection, m"
+  ],
+  [
+   "jp_moto_0121",
+   "Mopeds must also have headlights on at night."
+  ],
+  [
+   "jp_moto_0122",
+   "The \"Slow Down\" warning sign urges drivers to slow down depending on t"
+  ]
+ ]
+}

@@ -1,0 +1,553 @@
+{
+ "jp-speed-30-max.png": {
+  "serves": [
+   "jp_car_0001"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: a maximum-speed limit sign — a white circle with a thick RED border, and a large BLACK numeral '30' in the centre, NOT underlined (a plain, non-underlined black 30). No other marks."
+ },
+ "jp-jokou-slow.png": {
+  "serves": [
+   "jp_car_0157",
+   "jp_moto_0003"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: the 徐行 (SLOW) sign — a downward-pointing (inverted) equilateral triangle that is SOLID RED with a thin white border, with the white Japanese characters '徐行' on top and the white word 'SLOW' below, all in white. Solid red fill, white text."
+ },
+ "jp-tsukodome-closed.png": {
+  "serves": [
+   "jp_car_0161",
+   "jp_moto_0108"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: the 通行止 (road closed to all traffic including pedestrians) sign — a white circle with a thick red border and the red vertical Japanese text '通行止' in the centre."
+ },
+ "jp-no-vehicles.png": {
+  "serves": [
+   "jp_car_0006",
+   "jp_moto_0028"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: the 車両通行止め (no vehicles) sign — a plain sign that is a solid red disc with a wide white ring/border and a white centre, with NO symbol or text inside (a red ring on white)."
+ },
+ "jp-motor-only.png": {
+  "serves": [
+   "jp_car_0012",
+   "jp_moto_0107",
+   "jp_moto_0119"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: the 自動車専用 (motor-vehicle-only road) sign — a blue square with a white silhouette of a passenger car in the centre."
+ },
+ "jp-crosswalk-sign.png": {
+  "serves": [
+   "jp_car_0013",
+   "jp_car_0256"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: the 横断歩道 (pedestrian crossing) sign — a blue upward-pointing pentagon (house shape), with a white silhouette of a person walking on white crosswalk stripes in the centre."
+ },
+ "jp-priority-road.png": {
+  "serves": [
+   "jp_car_0008",
+   "jp_car_0158"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: the 優先道路 (priority road) sign — a blue square (point-up diamond orientation) containing a vertical white band that is wide in the middle and tapers narrow at the top and bottom (like a broad arrow shaft), indicating the priority through-route."
+ },
+ "jp-no-passing.png": {
+  "serves": [
+   "jp_car_0014",
+   "jp_car_0146",
+   "jp_car_0147",
+   "jp_moto_0027"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: the 追越し禁止 (no passing) sign — a white circle with a thick red border showing two cars one behind the other: the rear/overtaking car on the right is RED and the front car on the left is BLACK, with a white 'X'-free layout, and a small white rectangular auxiliary plate below it bearing the black text '追越し禁止'."
+ },
+ "jp-min-speed-30.png": {
+  "serves": [
+   "jp_car_0149"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: the 最低速度 (minimum speed) sign — a solid BLUE circle with a white numeral '30' that is UNDERLINED with a white line beneath it."
+ },
+ "jp-sound-horn.png": {
+  "serves": [
+   "jp_moto_0045"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: the 警笛鳴らせ (sound horn) sign — a solid BLUE circle with a white silhouette of a horn/trumpet (klaxon) shape with white sound lines."
+ },
+ "jp-direction-only-right.png": {
+  "serves": [
+   "jp_car_0010",
+   "jp_car_0258",
+   "jp_moto_0005"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: the 指定方向外進行禁止 (no entry except in the indicated direction) sign — a solid BLUE circle with a single white arrow bent to indicate RIGHT-turn only (an upward arrow curving to the right)."
+ },
+ "jp-safety-zone.png": {
+  "serves": [
+   "jp_car_0162"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: the 安全地帯 (safety zone) sign — a blue square containing a white downward-pointing triangle, and inside that triangle a smaller solid yellow downward triangle."
+ },
+ "jp-left-turn-ok.png": {
+  "serves": [
+   "jp_car_0073",
+   "jp_car_0253"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: the 左折可 (left turn permitted) signboard — a blue rectangular board (long horizontal) with a white arrow bending down-and-to-the-left and the white Japanese text '左折可'."
+ },
+ "jp-oneway-except-bicycle.png": {
+  "serves": [
+   "jp_moto_0103",
+   "jp_moto_0111"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: a one-way (一方通行) sign — a horizontal blue rectangle with a white left-pointing arrow — mounted above a small white rectangular auxiliary plate with the black text '自転車を除く'."
+ },
+ "jp-aux-large-vehicles.png": {
+  "serves": [
+   "jp_car_0009"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: a white rectangular auxiliary sign plate with a thin black border and the black Japanese text '大型車等' (nothing else)."
+ },
+ "jp-aux-end.png": {
+  "serves": [
+   "jp_car_0267"
+  ],
+  "prompt": "Photorealistic front-view photograph of a single official Japanese road sign mounted on a grey metal pole, centered and filling most of the frame, shot straight-on with no angle, against a plain pale grey sky background, soft even daylight, no other objects, no watermark, no extra text. It must exactly match the Japanese official standard: a white rectangular auxiliary sign plate with a thin black border, an upward black arrow and the black Japanese text 'ここまで' (indicating the end of a restriction)."
+ },
+ "jp-signal-arrow-right.png": {
+  "serves": [
+   "jp_car_0071",
+   "jp_car_0248",
+   "jp_car_0253",
+   "jp_car_0258"
+  ],
+  "prompt": "Photorealistic photo of a Japanese traffic signal, centered, plain pale-grey sky background, straight-on, no watermark, no extra text: a horizontal Japanese vehicle traffic light (three round lamps left-to-right: green, yellow, red) with the RED lamp lit, and a separate arrow panel mounted below showing a single green arrow pointing to the RIGHT, lit."
+ },
+ "jp-signal-flash-yellow.png": {
+  "serves": [
+   "jp_car_0246",
+   "jp_moto_0002"
+  ],
+  "prompt": "Photorealistic photo of a Japanese traffic signal, centered, plain pale-grey sky background, straight-on, no watermark, no extra text: a horizontal Japanese vehicle traffic light with only the YELLOW lamp lit (flashing yellow), the green and red lamps dark."
+ },
+ "jp-signal-flash-red.png": {
+  "serves": [
+   "jp_car_0247"
+  ],
+  "prompt": "Photorealistic photo of a Japanese traffic signal, centered, plain pale-grey sky background, straight-on, no watermark, no extra text: a horizontal Japanese vehicle traffic light with only the RED lamp lit (flashing red), the green and yellow lamps dark."
+ },
+ "jp-signal-pedestrian-button.png": {
+  "serves": [
+   "jp_car_0072",
+   "jp_car_0074",
+   "jp_car_0249",
+   "jp_car_0250"
+  ],
+  "prompt": "Photorealistic photo of a Japanese traffic signal, centered, plain pale-grey sky background, straight-on, no watermark, no extra text: a Japanese pedestrian signal (two-lamp: a red standing-person figure lit on top) mounted on a pole, with a small push-button control box on the pole below it."
+ },
+ "jp-police-arms-horizontal.png": {
+  "serves": [
+   "jp_car_0252"
+  ],
+  "prompt": "Clean semi-realistic illustration of a Japanese traffic police officer in dark-blue uniform and white cap standing on a road, full body, front view, plain light background, no text, no watermark: the officer is facing the viewer with BOTH arms stretched out horizontally to the left and right (this signals stop for traffic facing the arms)."
+ },
+ "jp-police-arm-up.png": {
+  "serves": [
+   "jp_car_0262",
+   "jp_moto_0004"
+  ],
+  "prompt": "Clean semi-realistic illustration of a Japanese traffic police officer in dark-blue uniform and white cap standing on a road, full body, front view, plain light background, no text, no watermark: the officer has the RIGHT arm raised straight up vertically overhead (this signals stop / caution)."
+ },
+ "jp-centerline-yellow-solid.png": {
+  "serves": [
+   "jp_car_0075",
+   "jp_moto_0006"
+  ],
+  "prompt": "Photorealistic top-down / high-angle photo of a Japanese asphalt road surface showing only the painted road marking, no vehicles, no text or watermark: a two-way road with a single SOLID YELLOW centre line down the middle (no-overtaking centre line)."
+ },
+ "jp-centerline-white-dashed.png": {
+  "serves": [
+   "jp_car_0076"
+  ],
+  "prompt": "Photorealistic top-down / high-angle photo of a Japanese asphalt road surface showing only the painted road marking, no vehicles, no text or watermark: a two-way road with a single WHITE DASHED (broken) centre line down the middle (overtaking permitted)."
+ },
+ "jp-diamond-marking.png": {
+  "serves": [
+   "jp_car_0077"
+  ],
+  "prompt": "Photorealistic top-down / high-angle photo of a Japanese asphalt road surface showing only the painted road marking, no vehicles, no text or watermark: two white DIAMOND (◇) shapes painted on the road surface of a lane, ahead of a crosswalk (the Japanese 'crosswalk / bicycle crossing ahead' road marking)."
+ },
+ "jp-no-stopping-grid.png": {
+  "serves": [
+   "jp_car_0084"
+  ],
+  "prompt": "Photorealistic top-down / high-angle photo of a Japanese asphalt road surface showing only the painted road marking, no vehicles, no text or watermark: a YELLOW hatched grid box (yellow diagonal cross-hatching inside a yellow rectangle) painted on the road — the 停止禁止部分 no-stopping zone marking."
+ },
+ "scene_jp_car_0086.png": {
+  "serves": [
+   "jp_car_0086"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, part of the dashboard and steering wheel rim visible at the bottom edge). Clean semi-realistic digital illustration, bright even daylight. A narrow residential street with houses, walls, hedges and utility poles on both sides. Directly ahead on the LEFT side of the road a delivery-style box truck is parked at the curb, partially blocking our lane, and we are about to pass it. The truck's front and side visually screen off the area beyond it, creating a blind spot from which a child or a bicycle could emerge. Show the low wall or gap beside the truck suggesting hidden space, but do NOT actually draw a child or bicycle jumping out. No traffic light nearby. Realistic proportions, wide framing showing the road ahead and both sides, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0087.png": {
+  "serves": [
+   "jp_car_0087"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, dashboard and steering wheel rim visible at the bottom edge). Clean semi-realistic digital illustration, bright even daylight. We are approaching an uncontrolled intersection with NO traffic lights on a residential/urban street. On both the left and right corners, buildings and walls come right up to the roadside so the cross street's left and right views are completely blocked until the intersection. Show the tight blind corners formed by the building walls, hinting that a car or bicycle could suddenly appear from behind them, but do NOT draw any car or bicycle actually crossing yet. Include Japanese-style road markings and a plain crossroad. Realistic proportions, wide framing, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0088.png": {
+  "serves": [
+   "jp_car_0088"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, dashboard and steering wheel rim faintly visible at the bottom edge). Clean semi-realistic digital NIGHT illustration, dark scene lit by headlights. On a two-way road at night, an oncoming car in the right-hand oncoming lane has bright glaring headlights shining toward us, causing dazzle/glare that washes out the view. On the LEFT edge of our road a pedestrian is walking along the shoulder in the same direction, dim and hard to see because of the oncoming glare. Convey the difficulty of seeing the pedestrian due to the headlight dazzle. Realistic proportions, wide framing, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0089.png": {
+  "serves": [
+   "jp_car_0089"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, dashboard and steering wheel rim visible at the bottom edge). Clean semi-realistic digital illustration, bright even daylight. A road with one lane in each direction (single lane per side, center line). Directly ahead in our lane a large passenger bus is stopped with its hazard lights (both amber turn signals) blinking. The bus blocks our forward view and could have passengers stepping off and crossing the road. Show the stopped bus and the latent risk of a pedestrian emerging near the front of the bus, but do NOT draw a person fully crossing yet. Include the oncoming lane with a center line. Realistic proportions, wide framing, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0090.png": {
+  "serves": [
+   "jp_car_0090"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, dashboard and steering wheel rim visible at the bottom edge). Clean semi-realistic digital illustration, bright even daylight. We are driving down a road that has a row of cars parked along the RIGHT side. The nearest parked car ahead on the right has its driver's door just beginning to open toward the roadway, suggesting an occupant is about to get out into our path. Show the door slightly ajar as an emerging hazard, but do NOT draw a person fully stepping out yet. Realistic proportions, wide framing showing the road ahead and the line of parked cars on the right, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0091.png": {
+  "serves": [
+   "jp_car_0091"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, dashboard and steering wheel rim visible at the bottom edge, wet windshield with light rain). Clean semi-realistic digital illustration, overcast RAINY day, wet reflective road surface. We are approaching an intersection and need to brake. Just ahead in our lane the road surface has a round metal MANHOLE cover and, at the intersection, the bold white painted lines of a pedestrian crosswalk, both glistening and wet, emphasizing slippery painted/metal surfaces. Convey the slick, reflective wet road with puddles. Realistic proportions, wide framing, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0092.png": {
+  "serves": [
+   "jp_car_0092"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, dashboard and steering wheel rim visible at the bottom edge). Clean semi-realistic digital illustration, bright even daylight. A wide road with TWO lanes in the same direction (two lanes per side, lane divider line). We are currently in the right lane's viewpoint considering the traffic; in the LEFT lane just ahead a large heavy truck is traveling, its size creating blind spots alongside and behind it. We are considering changing into the right lane. Suggest the truck's blind-spot zones where another vehicle could be hidden, and the possibility the truck could drift/change lanes. Show only the truck and empty right lane; do NOT draw a collision. Realistic proportions, wide framing, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0093.png": {
+  "serves": [
+   "jp_car_0093"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, dashboard and steering wheel rim visible at the bottom edge). Clean semi-realistic digital illustration, bright even daylight. We are approaching an intersection going straight. In the ONCOMING lane ahead, a car is positioned to turn right (toward crossing our path, since Japan drives on the left) with its right-turn signal blinking, but it has NOT yet stopped and is still edging forward, as if it may cut across in front of us. Show the oncoming car angled slightly to begin its right turn with its turn indicator lit, conveying the latent risk it may turn across our path; do NOT draw a crash. Include a normal signalized/plain intersection. Realistic proportions, wide framing, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0094.png": {
+  "serves": [
+   "jp_car_0094"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, dashboard and steering wheel rim visible at the bottom edge). Clean semi-realistic digital illustration, bright even daylight. On a two-way street ahead, a yellow kindergarten/school bus for small children is stopped in our lane, and young children are getting on and off around it near the roadside. Show small children near the bus and the risk that a child could move into the road; do NOT draw a child directly under our car or a collision. Include an oncoming lane with center line. Realistic proportions, wide framing, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0095.png": {
+  "serves": [
+   "jp_car_0095"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, dashboard and steering wheel rim visible at the bottom edge). Clean semi-realistic digital illustration, bright even daylight. We are driving on a multi-lane EXPRESSWAY/highway near an exit, with an off-ramp diverging to the LEFT ahead and blue-style directional gantry structures (no readable text). Directly ahead in our lane a car is braking and slowing abruptly, its brake lights on, as if it just noticed the exit and may suddenly slow or change lanes. Convey the sudden deceleration and rear-end risk; do NOT draw a crash. Realistic proportions, wide framing, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0096.png": {
+  "serves": [
+   "jp_car_0096"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, dashboard and steering wheel rim visible at the bottom edge). Clean semi-realistic digital illustration, bright even daylight. We are driving along a street that runs in front of a PARK (visible fence, trees and playground equipment on the left side). A colorful ball has just rolled/bounced out onto the road ahead from the park side. Show the ball in the road and the park behind it, implying a child may run out chasing it, but do NOT draw the child fully in the road yet. Realistic proportions, wide framing, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0097.png": {
+  "serves": [
+   "jp_car_0097"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, dashboard and steering wheel rim faintly visible at the bottom edge). Clean semi-realistic digital illustration, dim EVENING/low-light on a mountain or hillside road. We are approaching a sharp blind curve with poor visibility (trees, guardrail, hillside blocking the view around the bend). Beyond the curve, the glow of an oncoming car's HEADLIGHTS is visible rising from behind the curve, indicating an unseen oncoming vehicle approaching. Show the headlight glow spilling around the bend but the oncoming car itself still hidden by the curve. Include a center line and guardrail. Realistic proportions, wide framing, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0098.png": {
+  "serves": [
+   "jp_car_0098"
+  ],
+  "prompt": "First-person driver's-seat point of view looking straight through the windshield of a car in Japan (left-hand traffic, right-side steering, dashboard and steering wheel rim visible at the bottom edge). Clean semi-realistic digital illustration, bright even daylight. We are going straight through an intersection. From the LEFT side street a cyclist on a bicycle is entering the intersection WITHOUT stopping at the stop line, riding into our path. Show the bicycle approaching from the left about to cross in front of us as a latent hazard; do NOT draw a collision. Include Japanese intersection markings and a stop line on the side street. Realistic proportions, wide framing, 16:9. No text, no labels, no letters, no numbers, no watermark anywhere."
+ },
+ "scene_jp_car_0099.png": {
+  "serves": [
+   "jp_car_0099"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, bright daylight, realistic proportions, wide driver's-eye view, 16:9. A congested two-lane urban Japanese street with a line of cars stopped bumper-to-bumper in slow traffic ahead. Between two stopped vehicles just ahead, a pedestrian is beginning to step out to cross the road, partly emerging into the gap between the cars so the driver can barely see them. Ordinary Japanese storefronts and utility poles line the street. The pedestrian is only starting to appear in the gap, not fully in the middle of the road. Absolutely no text, letters, labels, signs with words, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0100.png": {
+  "serves": [
+   "jp_car_0100"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, bright daylight, realistic proportions, wide driver's-eye view, 16:9. Approaching a Japanese urban intersection with a traffic signal ahead. A large leafy roadside street tree stands near the left corner, its foliage partly blocking the view of the traffic light and the area behind it, creating a blind spot. A bicycle is partly hidden behind the street tree, just about to emerge into view. Typical Japanese street scene with utility poles and low buildings. The bicycle is only barely visible starting to come out, not fully in the road. Absolutely no text, letters, labels, worded signs, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0268.png": {
+  "serves": [
+   "jp_car_0268"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, bright daylight, realistic proportions, wide driver's-eye view, 16:9. Approaching a small intersection in a quiet Japanese residential neighborhood with low houses and walls. A concrete utility pole stands on the left side at the corner, creating a blind spot with poor visibility around it. A child on a bicycle is partly concealed behind the utility pole, just starting to emerge. Narrow residential street, no center line. The child on the bicycle is only barely beginning to appear from behind the pole, not fully out in the road. Absolutely no text, letters, labels, worded signs, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0269.png": {
+  "serves": [
+   "jp_car_0269"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, bright daylight, realistic proportions, wide driver's-eye view, 16:9. Driving along a Japanese street, about to pass a car parked along the left side of the road ahead. The parked car faces the same direction; a driver is visible seated inside in the driver's seat on the right side of the parked car, suggesting the door could open. Ordinary Japanese street with buildings and utility poles. The parked car's door is still closed but the seated driver is present, creating latent danger. Absolutely no text, letters, labels, worded signs, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0270.png": {
+  "serves": [
+   "jp_car_0270"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, bright daylight, realistic proportions, wide driver's-eye view, 16:9. A green-and-white Japanese route bus is stopped at a bus stop on the left side of the road just ahead, with passengers boarding and alighting at its doors. The area in front of the bus is hidden from the driver's view, a blind spot. Typical Japanese street with buildings and utility poles. No pedestrian is fully in front of the bus yet, keeping the danger latent. Absolutely no text, letters, labels, worded signs, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0271.png": {
+  "serves": [
+   "jp_car_0271"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, bright daylight, realistic proportions, wide driver's-eye view, 16:9. A narrow street in a Japanese shopping district (shotengai) lined with small shops, awnings, and storefronts. Ahead on the left, an elderly person is walking while pushing a hand cart (trolley) loaded with boxes and luggage, drifting out from the edge into the roadway. The narrow road forces the driver close to the elderly pedestrian. The elderly person is walking, slightly protruding into the car lane, creating latent danger. Absolutely no readable text, letters, labels, worded shop signs, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0272.png": {
+  "serves": [
+   "jp_car_0272"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, nighttime dark scene, realistic proportions, wide driver's-eye view, 16:9. Driving at night on a Japanese road. An oncoming car in the opposing lane has bright glaring headlights that dazzle and wash out part of the view. Along the dark left edge of the road, a pedestrian is faintly visible, hard to see because of the glare. Dim street with utility poles and low buildings. The pedestrian is only dimly and partly visible in shadow at the roadside, danger latent. Absolutely no text, letters, labels, worded signs, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0273.png": {
+  "serves": [
+   "jp_car_0273"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, overcast damp daylight just after heavy rain, wet reflective road surface, realistic proportions, wide driver's-eye view, 16:9. A large spreading puddle of standing water covers part of the Japanese road ahead, its surface opaque and reflective so what lies beneath is hidden, hinting a pothole could be concealed under it. Wet street with buildings, utility poles, and a green street tree. The puddle looks flat and innocent, its hidden depth not visible, danger latent. Absolutely no text, letters, labels, worded signs, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0274.png": {
+  "serves": [
+   "jp_car_0274"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, bright daylight, realistic proportions, wide driver's-eye view, 16:9. Approaching a Japanese intersection. In the opposing oncoming lane, a car is stopped waiting to turn right (across the driver's path), angled at the intersection center. Its body blocks the view of the lane behind it, and a motorcycle is just barely appearing from behind the waiting car heading straight toward the driver. Typical Japanese intersection with signal and utility poles. The motorcycle is only starting to emerge from behind the right-turning car, danger latent. Absolutely no text, letters, labels, worded signs, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0275.png": {
+  "serves": [
+   "jp_car_0275"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, bright afternoon daylight, realistic proportions, wide driver's-eye view, 16:9. A road through a quiet Japanese residential area during after-school hours. Ahead, a group of several school-age children in casual clothes with backpacks are walking spread out across the road, chatting together and taking up much of the lane. Low houses and walls line the street. The children are walking and talking, none yet darting, so the danger of one suddenly running is latent. Absolutely no text, letters, labels, worded signs, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0276.png": {
+  "serves": [
+   "jp_car_0276"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, bright daylight, realistic proportions, wide driver's-eye view, 16:9. Driving on a Japanese expressway at a merging section. To the left, an on-ramp acceleration lane runs alongside the main lanes, and a car in that acceleration lane is angling aggressively to force its way into the driver's main lane. Highway guardrails, overhead gantry structures, and greenery beyond. The merging car is beginning to cut in, danger latent. Absolutely no text, letters, labels, worded road signs, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0277.png": {
+  "serves": [
+   "jp_car_0277"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, bright daylight, realistic proportions, wide driver's-eye view, 16:9. Driving on a Japanese street near an intersection with a traffic signal ahead. On the left is a Japanese convenience store with a small parking lot fronting the road; a car is nosing out from that parking lot exit toward the road as if pulling out without checking left or right. Utility poles and low buildings around. The parking-lot car is just beginning to poke its nose onto the road, danger latent. Absolutely no readable text, letters, labels, worded store signs, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0278.png": {
+  "serves": [
+   "jp_car_0278"
+  ],
+  "prompt": "First-person point of view from the driver's seat looking through the windshield of a car in Japan, right-hand-drive with the steering wheel on the right, driving on the left side of the road. Clean semi-realistic digital illustration, bright daylight, realistic proportions, wide driver's-eye view, 16:9. A narrow street in a quiet Japanese residential neighborhood with low houses, fences, and walls. A ball has rolled out onto the road ahead and sits in the driver's path, implying a child may chase after it. The roadside gap between houses is where a child could appear. The ball is on the road but no child has yet run out, keeping the danger latent. Absolutely no text, letters, labels, worded signs, or watermark anywhere in the image."
+ },
+ "scene_jp_car_0279.png": {
+  "serves": [
+   "jp_car_0279"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the driver's seat of a car in Japan looking through the windshield, with the right-hand steering wheel and dashboard visible at the bottom. Japanese left-hand traffic. The car is entering a curving two-lane mountain road that bends to the left, bordered by steep forested slopes and a guardrail. Dense grey fog blankets the scene, visibility very poor, the road ahead fading into thick white mist within a short distance; faint hints of the opposing lane are barely visible through the fog where an oncoming vehicle could emerge. Damp asphalt, muted daylight diffused by the fog, no oncoming car fully shown yet. Realistic proportions, wide driver's view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_car_0280.png": {
+  "serves": [
+   "jp_car_0280"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the driver's seat of a car in Japan looking through the windshield, with the right-hand steering wheel and dashboard visible at the bottom. Japanese left-hand traffic. Ahead is a railroad crossing with the black-and-yellow striped barrier arms lowering (partway down) and the red crossing lights and warning signals near the tracks. A cyclist on a bicycle is rushing to force their way across the crossing before the barrier fully closes, positioned on the tracks. Typical Japanese suburban street with the crossing warning post, wires overhead and low buildings. Bright daylight, realistic proportions, wide driver's view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_car_0281.png": {
+  "serves": [
+   "jp_car_0281"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the driver's seat of a car in Japan looking through the windshield, with the right-hand steering wheel and dashboard visible at the bottom. Japanese left-hand traffic. Directly ahead on the left side of a narrow two-lane urban street, a delivery truck is stopped with its hazard lights (amber) flashing and its rear cargo door open, parcels visible. There is a concealed area behind and beside the truck from which the delivery driver could step out into the road. Typical Japanese residential shopping street with low buildings, utility poles and wires. Bright daylight, realistic proportions, wide driver's view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_car_0282.png": {
+  "serves": [
+   "jp_car_0282"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the driver's seat of a car in Japan looking through the windshield, with the right-hand steering wheel and dashboard visible at the bottom, headlights on. Japanese left-hand traffic. Night scene on a poorly lit road with very few street lamps, the surroundings dark. A pedestrian wearing dark clothing walks along the left edge of the road, barely illuminated by the headlights and hard to notice against the darkness. Dark asphalt with faint lane markings, dim ambient light. Realistic proportions, wide driver's view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_car_0283.png": {
+  "serves": [
+   "jp_car_0283"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the driver's seat of a car in Japan looking through the windshield, with the right-hand steering wheel and dashboard visible at the bottom. Japanese left-hand traffic. Driving on a snow-covered road, packed white snow and slush on the asphalt with snowbanks along the edges. Directly ahead in the same lane is another car with its red brake lights lit, beginning to skid on the slippery surface, its rear starting to slide slightly sideways. Overcast winter daylight, snow-dusted roadside. Realistic proportions, wide driver's view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_car_0284.png": {
+  "serves": [
+   "jp_car_0284"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the driver's seat of a car in Japan looking through the windshield, with the right-hand steering wheel and dashboard visible at the bottom. Japanese left-hand traffic. Stopped at an urban intersection where the traffic signal ahead has just turned green. On the crosswalk directly ahead, an elderly pedestrian is still slowly crossing, not yet reached the far side, using a cane. Typical Japanese city intersection with pedestrian signals, crosswalk stripes, and low buildings. Bright daylight, realistic proportions, wide driver's view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_car_0285.png": {
+  "serves": [
+   "jp_car_0285"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the driver's seat of a car in Japan looking through the windshield, with the right-hand steering wheel and dashboard visible at the bottom. Japanese left-hand traffic. Driving on a straight rural two-lane road marked as a no-overtaking zone with a solid yellow center line. Directly ahead in the same lane is a slow-moving farm tractor, forcing a gap where a driver might be tempted to pull into the oncoming lane. Green rice fields and farmland line both sides of the road. Bright daylight, realistic proportions, wide driver's view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_car_0286.png": {
+  "serves": [
+   "jp_car_0286"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the driver's seat of a car in Japan looking through the windshield, with the right-hand steering wheel and dashboard visible at the bottom. Japanese left-hand traffic. Driving through a station-front rotary (roundabout plaza) in front of a Japanese train station building. Several Japanese taxis are stopped and pulling in and out along the curb waiting for passengers, one just ahead abruptly braking. Curved roadway, taxi stand, station facade and pedestrians on the plaza. Bright daylight, realistic proportions, wide driver's view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_car_0287.png": {
+  "serves": [
+   "jp_car_0287"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the driver's seat of a car in Japan looking through the windshield, with the right-hand steering wheel and dashboard visible at the bottom, wipers active. Japanese left-hand traffic. Driving during an approaching typhoon: heavy rain, dark stormy sky, roadside street trees bending violently in strong wind with some broken branches and leaves scattering and beginning to fall onto the road ahead. Wet, reflective asphalt, gloomy stormy daylight. Realistic proportions, wide driver's view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_car_0288.png": {
+  "serves": [
+   "jp_car_0288"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the driver's seat of a car in Japan looking through the windshield, with the right-hand steering wheel and dashboard visible at the bottom. Japanese left-hand traffic. Approaching a sharp blind curve on a mountain road with poor visibility, the road bending around a forested rocky slope so the oncoming lane is hidden. A guardrail runs along the outer edge and a center line divides the lanes; the concealed opposing lane suggests an oncoming vehicle could drift over the center line. Bright daylight, green wooded mountainside. Realistic proportions, wide driver's view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_car_0289.png": {
+  "serves": [
+   "jp_car_0289"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the driver's seat of a car in Japan looking through the windshield, with the right-hand steering wheel and dashboard visible at the bottom. Japanese left-hand traffic. Driving slowly along a narrow residential-area street past the exit of a parking lot on the left. The parking lot exit is partly obscured by a wall and hedge, and a car inside is starting to reverse out toward the street, hard to notice. Typical Japanese suburban houses, low walls and utility poles. Bright daylight, realistic proportions, wide driver's view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_moto_0091.png": {
+  "serves": [
+   "jp_moto_0091"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the rider of a motorcycle in Japan, looking forward over the handlebars and instrument cluster and the front of the bike visible at the bottom. Japanese left-hand traffic. Riding on a narrow residential street where a bus is stopped ahead on the left side; passengers are getting off the bus and standing near it, with obscured space in front of and behind the bus from which a pedestrian could suddenly cross the road. Typical Japanese neighborhood with houses, low walls and utility poles. Bright daylight, realistic proportions, wide first-person view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_moto_0092.png": {
+  "serves": [
+   "jp_moto_0092"
+  ],
+  "prompt": "Clean semi-realistic digital illustration, first-person point of view from the rider of a motorcycle in Japan, looking forward over the handlebars and instrument cluster and the front of the bike visible at the bottom. Japanese left-hand traffic. Approaching an urban intersection where the traffic signal ahead is green. On the left just before the intersection a parked vehicle sits at the curb, and a bicycle is starting to emerge from behind it into the road, partly hidden by the parked car. Typical Japanese city street with crosswalk, shops and utility poles. Bright daylight, realistic proportions, wide first-person view, 16:9 aspect ratio. No text, no labels, no letters, no watermark anywhere."
+ },
+ "scene_jp_moto_0093.png": {
+  "serves": [
+   "jp_moto_0093"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Rainy night, wet reflective asphalt on a single-lane-each-way road; directly ahead in the same lane is a large box truck with glowing red tail lights that completely blocks the view of the road beyond it; blurred streetlights and rain streaks in the dark. The area in front of the truck is hidden."
+ },
+ "scene_jp_moto_0094.png": {
+  "serves": [
+   "jp_moto_0094"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Bright daylight on a two-lane one-way carriageway; ahead in the left lane a road-construction zone with barriers and cones and a worker in a uniform holding a signal baton directing traffic; a car just ahead is beginning to move toward the right lane to avoid the works. Keep the swerving car as a latent danger, not a crash."
+ },
+ "scene_jp_moto_0095.png": {
+  "serves": [
+   "jp_moto_0095"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime on a winding mountain road approaching a blind curve, a rock face on the left and a guardrail on the right with a valley beyond; a yellow diamond falling-rocks warning sign at the roadside; a few small rocks lie at the base of the slope. The road beyond the curve is hidden."
+ },
+ "scene_jp_moto_0096.png": {
+  "serves": [
+   "jp_moto_0096"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime on a residential street near a school at going-home time; several elementary-school children with backpacks are walking along the left-side sidewalk ahead, some near the curb. No child is in the road yet (latent danger)."
+ },
+ "scene_jp_moto_0097.png": {
+  "serves": [
+   "jp_moto_0097"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime approaching an intersection with no traffic signals; from the left a cyclist is rolling toward the intersection without stopping, about to cross the rider's path."
+ },
+ "scene_jp_moto_0098.png": {
+  "serves": [
+   "jp_moto_0098"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime, filtering slowly along the left edge past a line of stopped cars in a traffic jam; the stopped cars are close on the right; one car's driver-side door is very slightly ajar (latent danger)."
+ },
+ "scene_jp_moto_0099.png": {
+  "serves": [
+   "jp_moto_0099"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Dusk with warm low light, beginning a right turn at an intersection; an oncoming car is going straight, and partly hidden just behind it a cyclist is riding alongside, hard to see."
+ },
+ "scene_jp_moto_0100.png": {
+  "serves": [
+   "jp_moto_0100"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime on a narrow residential street; a car is parked in front of a house on the left ahead; an elderly person carrying shopping bags stands at the sidewalk edge about to step into the road near the parked car, not looking at the rider."
+ },
+ "scene_jp_moto_0229.png": {
+  "serves": [
+   "jp_moto_0229"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime in autumn on a mountain-road curve; the asphalt is covered with a layer of fallen leaves that is damp and slippery underneath; forested roadside with autumn colors."
+ },
+ "scene_jp_moto_0230.png": {
+  "serves": [
+   "jp_moto_0230"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime at an intersection; a large truck ahead on the left is beginning a left turn with its left indicator flashing, and the rider's motorcycle is positioned alongside the truck's left side near its rear wheels (left-turn blind-spot squeeze, latent danger)."
+ },
+ "scene_jp_moto_0231.png": {
+  "serves": [
+   "jp_moto_0231"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Rainy day, wet road approaching an intersection; a round metal manhole cover on the wet asphalt lies directly in the rider's path as the bike leans slightly to turn; slick reflective surface."
+ },
+ "scene_jp_moto_0232.png": {
+  "serves": [
+   "jp_moto_0232"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime, riding behind a truck ahead in the same lane whose flatbed is loaded with cargo that appears loosely tied and unstable, as if it could shift or fall."
+ },
+ "scene_jp_moto_0233.png": {
+  "serves": [
+   "jp_moto_0233"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime, passing a taxi parked on the left side of the road; a passenger is visible in the back seat; the rider is close alongside the taxi's right side (rear door could open, latent danger)."
+ },
+ "scene_jp_moto_0234.png": {
+  "serves": [
+   "jp_moto_0234"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime on a narrow residential street; a utility pole on the left ahead with a partly hidden space behind it (a small ball or shadow suggesting a child), but no child is in the road yet."
+ },
+ "scene_jp_moto_0235.png": {
+  "serves": [
+   "jp_moto_0235"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Night; an oncoming car's bright headlights glare and dazzle straight ahead; the dark road surface has a subtle step or level difference that is hard to see in the glare."
+ },
+ "scene_jp_moto_0236.png": {
+  "serves": [
+   "jp_moto_0236"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime on an expressway near a merge point; from the acceleration lane on the left a four-wheeled car is aggressively pushing into the main lane in front of the motorcycle (forced merge, latent danger)."
+ },
+ "scene_jp_moto_0237.png": {
+  "serves": [
+   "jp_moto_0237"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime approaching a railroad crossing whose warning lights are flashing and barrier arms are starting to lower; an elderly person on a bicycle is hurrying to cross the tracks."
+ },
+ "scene_jp_moto_0238.png": {
+  "serves": [
+   "jp_moto_0238"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime on a blind mountain-road curve with a painted centerline; the road bends sharply and an oncoming vehicle is just visible beginning to drift over the centerline into the rider's lane."
+ },
+ "scene_jp_moto_0239.png": {
+  "serves": [
+   "jp_moto_0239"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime approaching an intersection; in the oncoming lane a car is stopped waiting to turn right, and partly hidden behind it another car is coming straight through, hard to see."
+ },
+ "scene_jp_moto_0240.png": {
+  "serves": [
+   "jp_moto_0240"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime, dense fog on a mountain road with very low visibility; the curve ahead almost disappears into grey fog."
+ },
+ "scene_jp_moto_0241.png": {
+  "serves": [
+   "jp_moto_0241"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime, riding across an exposed bridge in strong wind; a river below, roadside grass and flags bent by the wind, the motorcycle leaning against a sudden crosswind gust."
+ },
+ "scene_jp_moto_0242.png": {
+  "serves": [
+   "jp_moto_0242"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime at an intersection just after the light turned green; an elderly pedestrian is still standing in the middle of the crosswalk directly ahead."
+ },
+ "scene_jp_moto_0243.png": {
+  "serves": [
+   "jp_moto_0243"
+  ],
+  "prompt": "First-person point of view from a motorcycle rider looking over the handlebars (handlebar grips, mirrors and instrument cluster visible at the bottom edge), riding in Japan with left-hand traffic (riding on the LEFT side). Clean semi-realistic digital illustration, realistic proportions, wide view, 16:9 aspect ratio. NO text, letters, labels or watermark anywhere. Daytime on a narrow shopping-street road with small shops on both sides; a shop clerk pushing a bicycle loaded with goods is walking partly out into the roadway on the left (latent danger)."
+ }
+}
