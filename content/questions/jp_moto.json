@@ -7542,6 +7542,15 @@
       "title": "Inspired Set 9 · 危険予測（イラスト）",
       "titleMy": "Inspired Set 9 · 危険予測 (hazard ア/イ/ウ)",
       "refPaper": "moto-9"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/scene_jp_moto_0098.png",
+      "alt": {
+        "ja": "次の場面を見て、ア〜ウの各記述が正しいか誤りか答えなさい。\n\n渋滞している道路の脇を二輪車で通行している際、停車中の車のドアが急に開く可能性がある。最も注意すべ",
+        "en": "Look at the following scene and answer whether each statement from A to C is tru",
+        "my": "အောက်ပါပုံစံအတွက် အ〜ဥ စာဖော်ပြချက်တစ်ခုစီ မှန်သည်မှားသည် ဖြေ"
+      }
     }
   },
   {
