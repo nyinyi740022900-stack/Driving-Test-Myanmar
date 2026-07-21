@@ -71,3 +71,23 @@ matches its question (first-person POV, Japan left-hand traffic, correct weather
 - **jp_car_0258** left imageless on purpose: the question describes a signal blue
   arrow pointing LEFT, but only a right-arrow signal image exists. Generate a
   left-arrow signal if you want it filled.
+
+---
+
+## UPDATE 2 — verified new images + descriptive renames
+
+- **jp_car_0258** left-arrow signal image verified correct (red + green left arrow)
+  and wired as `jp-signal-arrow-left.png`.
+- **jp_moto_0098** the supplied `scene_jp_moto_0098.png` is INCORRECT — it is a
+  car-interior POV showing an intersection with a cyclist, not the motorcycle-POV
+  "filtering past stopped cars in a jam, door may open" scene. Left imageless;
+  regenerate from the prompt in `jp_gemini_prompts.json` (motorcycle POV).
+- **All 22 remaining Gemini_Generated_* filenames renamed to descriptive names**
+  (e.g. `jp-stop.png`, `jp-no-two-riders.png`, `jp-moped-two-stage-right.png`),
+  re-verified against a labelled contact sheet — every name matches its image.
+- `徐行` consolidated: the colour-inverted Gemini version retired; all 徐行
+  questions now use the corrected `jp-jokou-slow.png`.
+- 22 now-orphaned public images removed.
+
+Final: **145 JP questions carry an image, 0 missing files, 0 cryptic filenames**
+(48 `jp-*` sign/signal/marking images + 61 `scene_*` hazard scenes).

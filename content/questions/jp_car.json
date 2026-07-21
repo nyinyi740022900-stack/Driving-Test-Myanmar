@@ -91,7 +91,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_dt6hg8dt6hg8dt6h.png",
+      "src": "/signs/jp/jp-max-width-2m2.png",
       "alt": {
         "ja": "「最大幅」を示す標識がある道路では、表示された幅を超える車幅の車両は通行できない。",
         "en": "On roads with a maximum-width sign, vehicles wider than the indicated width may ",
@@ -141,7 +141,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_egzgaegzgaegzgae.png",
+      "src": "/signs/jp/jp-no-parking.png",
       "alt": {
         "ja": "「駐車禁止」の標識がある場所でも、5分以内の荷物の積み下ろしのために停車することは認められる。",
         "en": "Even if there is a \"No Parking\" sign, you are allowed to stop for up to five min",
@@ -373,7 +373,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_48nb6648nb6648nb.png",
+      "src": "/signs/jp/jp-jokou-slow.png",
       "alt": {
         "ja": "「徐行」の標識がある場所では、車はすぐに停止できる速度まで落とさなければならない。",
         "en": "Where there is a \"slow down\" sign, vehicles must reduce their speed to a point w",
@@ -846,7 +846,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_m5ji1qm5ji1qm5ji.png",
+      "src": "/signs/jp/jp-no-uturn.png",
       "alt": {
         "ja": "「Uターン禁止」の標識がある区間では、転回はできないが、右折することは禁止されていない。",
         "en": "In sections with \"No U-turns\" signs, turning is not allowed, but right turns are",
@@ -896,7 +896,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_skvo95skvo95skvo.png",
+      "src": "/signs/jp/jp-no-large-trucks.png",
       "alt": {
         "ja": "「大型貨物自動車等通行止め」の標識がある道路には、普通乗用自動車も通行することができない。",
         "en": "Regular passenger cars are also not allowed to drive on roads marked with \"Large",
@@ -1046,7 +1046,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_13ce0b13ce0b13ce.png",
+      "src": "/signs/jp/jp-bus-priority-lane.png",
       "alt": {
         "ja": "「路線バス等優先通行帯」の車線は、路線バス以外の車両は一切通行することができない。",
         "en": "Vehicles other than route buses are not allowed to pass through the lanes design",
@@ -1237,7 +1237,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_7nkxq27nkxq27nkx.png",
+      "src": "/signs/jp/jp-oneway.png",
       "alt": {
         "ja": "「一方通行」の標識がある道路では、矢印で示された方向以外への進行は禁止されている。",
         "en": "On roads with \"one-way\" signs, it is prohibited to proceed in any direction othe",
@@ -1287,7 +1287,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_r69ma5r69ma5r69m.png",
+      "src": "/signs/jp/jp-stop.png",
       "alt": {
         "ja": "「止まれ」の標識がある交差点では、車は一時停止線で完全に停止する必要はなく減速すればよい。",
         "en": "At intersections with \"stop\" signs, cars do not need to come to a complete stop ",
@@ -1337,7 +1337,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_egzgaegzgaegzgae.png",
+      "src": "/signs/jp/jp-no-parking.png",
       "alt": {
         "ja": "「駐車禁止」の標識がある道路でも、5分以内であれば荷物の積み下ろしのために停車することができる。",
         "en": "Even on roads with \"no parking\" signs, you can stop for up to 5 minutes to load ",
@@ -1387,7 +1387,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_7saj5x7saj5x7saj.png",
+      "src": "/signs/jp/jp-railroad-crossing.png",
       "alt": {
         "ja": "信号機のない踏切の手前に設置されている「踏切あり」の警戒標識は、運転者に減速と注意を促すものである。",
         "en": "\"Railroad crossing ahead\" warning signs are placed before crossings without sign",
@@ -2594,7 +2594,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_r69ma5r69ma5r69m.png",
+      "src": "/signs/jp/jp-stop.png",
       "alt": {
         "ja": "逆三角形の「止まれ」の標識がある交差点では、停止線の直前で完全に停止しなければならない。",
         "en": "At intersections with inverted triangle \"stop\" signs, you must come to a complet",
@@ -2685,7 +2685,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_7nkxq27nkxq27nkx.png",
+      "src": "/signs/jp/jp-oneway.png",
       "alt": {
         "ja": "「一方通行」の標識がある道路では、矢印で示された方向以外へ進行してはならない。",
         "en": "On roads marked with \"one-way\" signs, do not proceed in any direction other than",
@@ -3728,7 +3728,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_mvytcnmvytcnmvyt.png",
+      "src": "/signs/jp/jp-speed-50-max.png",
       "alt": {
         "ja": "「最高速度」の標識に表示された数字は、その区間で出してもよい速度の上限を示している。",
         "en": "The number displayed on the \"Maximum Speed\" sign indicates the upper limit of sp",
@@ -3778,7 +3778,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_852syh852syh852s.png",
+      "src": "/signs/jp/jp-road-narrows.png",
       "alt": {
         "ja": "「幅員減少」の標識は、警戒標識の一種で、前方の道路の幅が狭くなることを予告している。",
         "en": "A \"width reduction\" sign is a type of warning sign that warns you that the road ",
@@ -3828,7 +3828,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_7saj5x7saj5x7saj.png",
+      "src": "/signs/jp/jp-railroad-crossing.png",
       "alt": {
         "ja": "「踏切あり」の標識は警戒標識であり、前方に鉄道の踏切があることを知らせている。",
         "en": "The \"Railway Crossing\" sign is a warning sign, informing you that there is a rai",
@@ -3878,7 +3878,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_r69ma5r69ma5r69m.png",
+      "src": "/signs/jp/jp-stop.png",
       "alt": {
         "ja": "「一時停止」の標識がある場所では、他に車も歩行者もいないと確認できても、必ず停止しなければならない。",
         "en": "You must stop wherever there is a \"stop\" sign, even if you can confirm that ther",
@@ -4078,7 +4078,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_5k3gal5k3gal5k3g.png",
+      "src": "/signs/jp/jp-weight-limit-5t5.png",
       "alt": {
         "ja": "「重量制限」の標識がある橋では、表示された重量を超える車両は、空車であれば通行してもよい。",
         "en": "On bridges with \"weight limit\" signs, vehicles that exceed the posted weight may",
@@ -4642,7 +4642,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_yv224eyv224eyv22.png",
+      "src": "/signs/jp/jp-bicycles-only.png",
       "alt": {
         "ja": "「自転車専用」の標識がある通行帯を普通自動車が走行することは認められている。",
         "en": "Regular cars are allowed to drive in lanes marked with \"bicycles only\" signs.",
@@ -4742,7 +4742,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_wokcn0wokcn0wokc.png",
+      "src": "/signs/jp/jp-bus-lane.png",
       "alt": {
         "ja": "「専用通行帯」の標示がある路線バス専用車線は、原則としてバス以外のすべての車両が通行できない。",
         "en": "As a general rule, all vehicles other than buses cannot pass through lanes desig",
@@ -4933,7 +4933,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_bc1v8wbc1v8wbc1v.png",
+      "src": "/signs/jp/jp-schoolchildren.png",
       "alt": {
         "ja": "「学校、幼稚園、保育所等あり」の標識がある区間では、必ず一時停止しなければならない。",
         "en": "You must always stop in sections where there is a sign that says \"Schools, kinde",
@@ -4980,6 +4980,15 @@
       "title": "Inspired Set 4 · 本免 標識・信号",
       "titleMy": "Inspired Set 4 · 本免 標識・信号 (တရားဝင်လိုင်စင်)",
       "refPaper": "honmen-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/jp/jp-signal-arrow-left.png",
+      "alt": {
+        "ja": "対面信号機が青色矢印（左向き）のみを表示しているときは、その方向への進行のみが認められる。",
+        "en": "When the oncoming traffic light displays only a blue arrow (pointing to the left",
+        "my": "ရှေ့မှမီးပွိုင့်သည် အစိမ်းရောင်မြှား (ဘယ်ဘက်ညွှန်) တစ်ခုတည်း"
+      }
     }
   },
   {
@@ -5115,7 +5124,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_gr2y7wgr2y7wgr2y.png",
+      "src": "/signs/jp/jp-lane-directions.png",
       "alt": {
         "ja": "交差点の手前にある「進行方向別通行区分」の標示は、車線ごとに進める方向を指定するものである。",
         "en": "The \"traffic division by direction\" sign in front of the intersection specifies ",
@@ -5215,7 +5224,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_bc1v8wbc1v8wbc1v.png",
+      "src": "/signs/jp/jp-schoolchildren.png",
       "alt": {
         "ja": "「学校、幼稚園・保育所等あり」の警戒標識は、付近で子供の飛び出しに注意するよう運転者に促すものである。",
         "en": "The warning sign \"School, Kindergarten, Daycare Center, etc.\" reminds drivers to",
@@ -11907,7 +11916,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_68reh368reh368re.png",
+      "src": "/signs/jp/jp-pedestrians-only.png",
       "alt": {
         "ja": "「歩行者専用」の標識がある道路や区域には、原則として車両は進入できない。",
         "en": "As a general rule, vehicles are not allowed to enter roads or areas marked with ",
@@ -13278,7 +13287,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_7nkxq27nkxq27nkx.png",
+      "src": "/signs/jp/jp-oneway.png",
       "alt": {
         "ja": "「一方通行」の標識がある道路の逆走は、重大な交通違反となる。",
         "en": "Driving the wrong way on a road with a \"one-way\" sign is a serious traffic viola",
@@ -13328,7 +13337,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_7saj5x7saj5x7saj.png",
+      "src": "/signs/jp/jp-railroad-crossing.png",
       "alt": {
         "ja": "信号機のない踏切には「踏切あり」の警戒標識が設置されている。",
         "en": "At level crossings without traffic lights, warning signs indicating \"Level Cross",

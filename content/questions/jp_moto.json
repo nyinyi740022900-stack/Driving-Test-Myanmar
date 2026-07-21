@@ -182,7 +182,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_ytru6lytru6lytru.png",
+      "src": "/signs/jp/jp-moped-two-stage-right.png",
       "alt": {
         "ja": "「原動機付自転車の右折方法（二段階右折）」の標識がある交差点では、小回り右折をしてはならない。",
         "en": "Do not make a short right turn at an intersection where there is a sign that say",
@@ -323,7 +323,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_ytru6lytru6lytru.png",
+      "src": "/signs/jp/jp-moped-two-stage-right.png",
       "alt": {
         "ja": "信号のある交差点で「二段階右折」の標示がある場合、原付は右折方向の信号が青でも直進車線側に一旦進んでから待つ。",
         "en": "If there is a \"two-step right turn\" sign at an intersection with a traffic light",
@@ -555,7 +555,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_7saj5x7saj5x7saj.png",
+      "src": "/signs/jp/jp-railroad-crossing.png",
       "alt": {
         "ja": "「踏切あり」の警戒標識は、踏切が近いことを知らせ、速度を落として安全確認をするよう促すものである。",
         "en": "The \"Level Crossing\" warning sign alerts you that a railroad crossing is near an",
@@ -746,7 +746,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_jwq7pijwq7pijwq7.png",
+      "src": "/signs/jp/jp-no-two-riders.png",
       "alt": {
         "ja": "「二人乗り通行禁止」の標識がある道路では、大型自動二輪車であっても二人乗りをしてはならない。",
         "en": "On roads where there is a sign saying \"Double Riders Prohibited\", do not ride wi",
@@ -887,7 +887,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_13ce0b13ce0b13ce.png",
+      "src": "/signs/jp/jp-bus-priority-lane.png",
       "alt": {
         "ja": "「路線バス等優先通行帯」がある道路では、二輪車もその車線の走行が制限されることがある。",
         "en": "On roads that have \"priority lanes for route buses,\" motorcycles may also be res",
@@ -937,7 +937,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_skvo95skvo95skvo.png",
+      "src": "/signs/jp/jp-no-large-trucks.png",
       "alt": {
         "ja": "自動二輪車は、「大型貨物自動車等通行止め」の標識がある道路を通行することができる。",
         "en": "Motorcycles are allowed to drive on roads marked with \"Large Trucks Closed\" sign",
@@ -2586,7 +2586,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_br6opfbr6opfbr6o.png",
+      "src": "/signs/jp/jp-no-stopping.png",
       "alt": {
         "ja": "「駐停車禁止」の標識は、二輪車には適用されず、四輪車のみが対象となる。",
         "en": "The \"No Parking\" sign does not apply to two-wheeled vehicles, only four-wheeled ",
@@ -2686,7 +2686,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_n6garrn6garrn6ga.png",
+      "src": "/signs/jp/jp-no-entry.png",
       "alt": {
         "ja": "「進入禁止」の標識は、逆走を防ぐために一方通行の出口側に設置されることが多い。",
         "en": "\"No Entry\" signs are often placed on the exit side of one-way streets to prevent",
@@ -2736,7 +2736,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_v4hyktv4hyktv4hy.png",
+      "src": "/signs/jp/jp-no-motorcycles.png",
       "alt": {
         "ja": "「二輪車通行禁止」の標識がある道路は、原動機付自転車も通行することができる。",
         "en": "Mopeds are also allowed on roads marked with \"No Motorcycles Allowed\" signs.",
@@ -8997,7 +8997,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_7nkxq27nkxq27nkx.png",
+      "src": "/signs/jp/jp-oneway.png",
       "alt": {
         "ja": "「一方通行」の標識がある道路では、二輪車も指定された方向以外に進んではいけない。",
         "en": "On roads with \"one-way\" signs, motorcycles are also prohibited from proceeding i",
@@ -9179,7 +9179,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_v4hyktv4hyktv4hy.png",
+      "src": "/signs/jp/jp-no-motorcycles.png",
       "alt": {
         "ja": "「二輪車通行止め」の標識がある道路には、原動機付自転車も自動二輪車も通行できない。",
         "en": "Mopeds and motorcycles are not allowed to pass on roads marked with \"No Motorcyc",
@@ -9361,7 +9361,7 @@
     },
     "media": {
       "type": "image",
-      "src": "/signs/jp/Gemini_Generated_Image_r69ma5r69ma5r69m.png",
+      "src": "/signs/jp/jp-stop.png",
       "alt": {
         "ja": "見通しの悪い交差点で「一時停止」の標識がある場合、二輪車も必ず停止線で停止しなければならない。",
         "en": "If there is a stop sign at an intersection with poor visibility, motorcycles mus",
