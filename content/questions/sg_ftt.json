@@ -212,6 +212,14 @@
       "title": "Inspired Set 1 · Advanced rules & junctions",
       "titleMy": "Inspired Set 1 · အဆင့်မြင့် စည်းမျဉ်းနှင့် junction",
       "refPaper": "ftt-set-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-pedestrian-flashing-green.png",
+      "alt": {
+        "en": "What is the rule for pedestrians when the green man is flashing at a crossing?",
+        "my": "Crossing တွင် အစိမ်းလူပုံ မှိတ်တုတ်မှိတ်တုတ် ဖြစ်နေသောအခါ လျ"
+      }
     }
   },
   {
@@ -255,6 +263,14 @@
       "title": "Inspired Set 1 · Advanced rules & junctions",
       "titleMy": "Inspired Set 1 · အဆင့်မြင့် စည်းမျဉ်းနှင့် junction",
       "refPaper": "ftt-set-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-no-stopping-white-x.png",
+      "alt": {
+        "en": "What does a white square sign with a red X mean?",
+        "my": "အနီ X ဖြင့် ဖြူ နှင့်ငြိ ဆိုင်းဘုတ် ဆိုသည် မည်သလဲ?"
+      }
     }
   },
   {
@@ -779,6 +795,14 @@
       "title": "Inspired Set 1 · Advanced rules & junctions",
       "titleMy": "Inspired Set 1 · အဆင့်မြင့် စည်းမျဉ်းနှင့် junction",
       "refPaper": "ftt-set-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-merge-from-right.png",
+      "alt": {
+        "en": "You approach a junction where a triangular red-bordered sign warns that traffic ",
+        "my": "ညာဘက်မှ ယာဉ်များ ပေါင်းစည်းလာကြောင်း သတိပေးသော အနီရောင်နယ်နိ"
+      }
     }
   },
   {
@@ -3103,6 +3127,14 @@
       "title": "Inspired Set 2 · Lanes & overtaking",
       "titleMy": "Inspired Set 2 · လမ်းကြောင်းနှင့် ကျော်ဖြတ်",
       "refPaper": "ftt-set-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-giveway-line-marking.png",
+      "alt": {
+        "en": "What is the purpose of a 'give way' line (broken white line across road)?",
+        "my": "'Give way' မျဉ်း (လမ်းကို ဖြတ်ကာ ဖြတ်တောက်သော ဖြူ မျဉ်း) ၏ ရ"
+      }
     }
   },
   {
@@ -3619,6 +3651,14 @@
       "title": "Inspired Set 2 · Lanes & overtaking",
       "titleMy": "Inspired Set 2 · လမ်းကြောင်းနှင့် ကျော်ဖြတ်",
       "refPaper": "ftt-set-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-giveway-line-marking.png",
+      "alt": {
+        "en": "What is a 'give way' line (broken white line across the road)?",
+        "my": "'give way' မျဉ်း (လမ်းပတ်ဝန်းကျင်တွင် ကျိုးကျိုးအဖြူ မျဉ်းကြ"
+      }
     }
   },
   {
@@ -3748,6 +3788,14 @@
       "title": "Inspired Set 3 · Expressway basics",
       "titleMy": "Inspired Set 3 · Expressway အခြေခံ",
       "refPaper": "ftt-set-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-tunnel-speed-limit.png",
+      "alt": {
+        "en": "What does a 'tunnel speed limit' sign mean and why must you follow it?",
+        "my": "'Tunnel speed limit' ဆိုင်းဘုတ် ဆိုသည် မည်သည်လဲ၊ မည်ကြောင့် "
+      }
     }
   },
   {
@@ -6610,6 +6658,14 @@
       "title": "Inspired Set 4 · Expressway hazards",
       "titleMy": "Inspired Set 4 · Expressway hazard",
       "refPaper": "ftt-set-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-erp-gantry-photo.png",
+      "alt": {
+        "en": "What does an ERP (Electronic Road Pricing) gantry on the expressway do?",
+        "my": "အမြန်လမ်းပေါ်ရှိ ERP (အီလက်ထရွန်နစ်လမ်းခွန်) ဂိတ်တံခါးသည် မည"
+      }
     }
   },
   {
@@ -6954,6 +7010,14 @@
       "title": "Inspired Set 4 · Expressway hazards",
       "titleMy": "Inspired Set 4 · Expressway hazard",
       "refPaper": "ftt-set-4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-fuel-pump-distance.png",
+      "alt": {
+        "en": "What does a sign showing a picture of a fuel pump with an arrow and distance on ",
+        "my": "အမြန်လမ်းပေါ်ရှိ ဆီစုပ်စက်ပုံနှင့် မြှားနှင့် အကွာအဝေးပြထားသ"
+      }
     }
   },
   {
@@ -7771,6 +7835,14 @@
       "title": "Inspired Set 5 · Vehicle maintenance",
       "titleMy": "Inspired Set 5 · ယာဉ်ထိန်းသိမ်းမှု",
       "refPaper": "ftt-set-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/Brake warning.png",
+      "alt": {
+        "en": "What does it mean when the brake warning light comes on while driving?",
+        "my": "ကားမောင်းနေစဉ် ဘရိတ် သတိပေး မီး ဖွင့်သောအခါ မည်သည် ဆိုလိုသလဲ"
+      }
     }
   },
   {
@@ -8201,6 +8273,14 @@
       "title": "Inspired Set 5 · Vehicle maintenance",
       "titleMy": "Inspired Set 5 · ယာဉ်ထိန်းသိမ်းမှု",
       "refPaper": "ftt-set-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/ABS warning.png",
+      "alt": {
+        "en": "What does it mean when the ABS warning light stays on?",
+        "my": "ABS သတိပေး မီး ထိုင်နေပါ ဆိုသည်မှာ မည်သလဲ?"
+      }
     }
   },
   {
@@ -10015,6 +10095,14 @@
       "title": "Inspired Set 6 · Eco driving",
       "titleMy": "Inspired Set 6 · Eco driving",
       "refPaper": "ftt-set-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/Engine temperature warning.png",
+      "alt": {
+        "en": "A red engine temperature warning light comes on while driving. What should you d",
+        "my": "မောင်းနှင်နေစဉ် အင်ဂျင်အပူချိန် အနီရောင်သတိပေးမီးထွန်းလာပါက "
+      }
     }
   },
   {
@@ -10961,6 +11049,14 @@
       "title": "Inspired Set 6 · Eco driving",
       "titleMy": "Inspired Set 6 · Eco driving",
       "refPaper": "ftt-set-6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/Engine warning.png",
+      "alt": {
+        "en": "What does a dashboard warning light shaped like an engine usually indicate?",
+        "my": "အင်ဂျင်ပုံစံပြသော ဒက်ရှ်ဘုတ်သတိပေးမီးသည် ပုံမှန်အားဖြင့် ဘာက"
+      }
     }
   },
   {
@@ -12541,6 +12637,14 @@
       "title": "Inspired Set 7 · Hazard & speed",
       "titleMy": "Inspired Set 7 · Hazard နှင့် speed",
       "refPaper": "ftt-set-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-min-speed-blue.png",
+      "alt": {
+        "en": "What does a circular blue sign with a white number indicate?",
+        "my": "အဖြူ နံပါတ် ဖြင့် စက်ဝိုင်း အပြာ ဆိုင်းဘုတ် ဆိုသည် မည်သလဲ?"
+      }
     }
   },
   {
@@ -12635,6 +12739,14 @@
       "title": "Inspired Set 7 · Hazard & speed",
       "titleMy": "Inspired Set 7 · Hazard နှင့် speed",
       "refPaper": "ftt-set-7"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-blue-direction-arrows.png",
+      "alt": {
+        "en": "What do white arrows on a blue rectangular sign indicate?",
+        "my": "အပြာ ထောင့်မှန်စတုဂံ ဆိုင်းဘုတ် ၌ ရှိသော အဖြူ မြှားများ ဆိုသ"
+      }
     }
   },
   {
@@ -17824,6 +17936,14 @@
       "title": "Inspired Set 10 · Vulnerable users & accidents",
       "titleMy": "Inspired Set 10 · vulnerable user နှင့် accident",
       "refPaper": "ftt-set-10"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-amber-flashing.png",
+      "alt": {
+        "en": "What does a flashing amber traffic light mean?",
+        "my": "မှိတ်တုတ်မှိတ်တုတ် အဝါရောင် မီးသွားမီးလာသည် မည်သည်ကို ဆိုလို"
+      }
     }
   },
   {
@@ -18356,6 +18476,14 @@
       "title": "Inspired Set 11 · Singapore & special vehicles",
       "titleMy": "Inspired Set 11 · Singapore rule & special vehicle",
       "refPaper": "ftt-set-11"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-orange-diamond-roadworks.png",
+      "alt": {
+        "en": "What does an orange diamond-shaped sign with a black outline indicate on Singapo",
+        "my": "စင်္ကာပူ လမ်းများပေါ်တွင် အနက်ရောင်နယ်နိမိတ်ပါ လိမ္မော်ရောင်"
+      }
     }
   },
   {
@@ -20608,6 +20736,14 @@
       "title": "Inspired Set 12 · FTT topic review",
       "titleMy": "Inspired Set 12 · FTT topic review",
       "refPaper": "ftt-set-12"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-double-yellow-kerb.png",
+      "alt": {
+        "en": "What do yellow kerb markings indicate?",
+        "my": "ဝါ kerb မျဉ်းများ ဆိုသည် မည်သလဲ?"
+      }
     }
   },
   {

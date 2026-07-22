@@ -39,6 +39,14 @@
       "title": "Inspired Set 1 · Signs & signals",
       "titleMy": "Inspired Set 1 · ဆိုင်းဘုတ်နှင့် signal",
       "refPaper": "rtt-set-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-motorcycle-slippery.png",
+      "alt": {
+        "en": "You see a warning sign showing a motorcycle skidding on a wavy line. What should",
+        "my": "လှိုင်းကွေးမျဉ်းပေါ် ဆိုင်ကယ်တစ်စီး ချောချွတ်နေသည့်ပုံပါသော "
+      }
     }
   },
   {
@@ -1899,6 +1907,14 @@
       "title": "Inspired Set 5 · Lane filtering B",
       "titleMy": "Inspired Set 5 · Lane filtering B",
       "refPaper": "rtt-set-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-police-one-arm-stop.png",
+      "alt": {
+        "en": "A police officer at a junction raises one arm straight up. What does this mean f",
+        "my": "လမ်းဆုံတွင် ရဲတစ်ဦးက လက်တစ်ဖက်ကို ဖြောင့်တန်းစွာ အပေါ်သို့ထေ"
+      }
     }
   },
   {

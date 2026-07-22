@@ -373,6 +373,14 @@
       "title": "Inspired Set 1 · Mandatory & prohibitory signs",
       "titleMy": "Inspired Set 1 · မဖြစ်မနေနှင့် တားမြစ်ဆိုင်းဘုတ်",
       "refPaper": "btt-test-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-cyclist-stop-signal.png",
+      "alt": {
+        "en": "Hand signal: a cyclist raises their right arm with the hand pointing upward (for",
+        "my": "လက်ဖြင့်အချက်ပြခြင်း: စက်ဘီးစီးသူသည် ညာဘက်လက်ကို အထက်သို့ ထေ"
+      }
     }
   },
   {
@@ -467,6 +475,14 @@
       "title": "Inspired Set 1 · Mandatory & prohibitory signs",
       "titleMy": "Inspired Set 1 · မဖြစ်မနေနှင့် တားမြစ်ဆိုင်းဘုတ်",
       "refPaper": "btt-test-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-deer-crossing.png",
+      "alt": {
+        "en": "What does a sign showing a silhouette of a deer or animal crossing mean?",
+        "my": "တောရိုင်းတိရစ္ဆာန် (သို့) သမင်ရိပ် ဖြတ်ကူးနေသည့်ပုံ ပါသော ဆိ"
+      }
     }
   },
   {
@@ -1675,6 +1691,14 @@
       "title": "Inspired Set 1 · Mandatory & prohibitory signs",
       "titleMy": "Inspired Set 1 · မဖြစ်မနေနှင့် တားမြစ်ဆိုင်းဘုတ်",
       "refPaper": "btt-test-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-wheelchair-pedestrian.png",
+      "alt": {
+        "en": "A warning sign shows a person walking with a cane next to a person in a wheelcha",
+        "my": "တုတ်ကိုင် လမ်းလျောက်သူနှင့် ကဲလတ်ကုလားထိုင် ပါ သတိပေး ဆိုင်း"
+      }
     }
   },
   {
@@ -2910,6 +2934,14 @@
       "title": "Inspired Set 2 · Warning & information signs",
       "titleMy": "Inspired Set 2 · သတိပေးနှင့် အချက်အလက်ဆိုင်းဘုတ်",
       "refPaper": "btt-test-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-parking-p-plain.png",
+      "alt": {
+        "en": "A blue rectangular sign with a white 'P' typically indicates what?",
+        "my": "အဖြူရောင် 'P' စာလုံးပါသော အပြာရောင်ထောင့်မှန်ဆိုင်းဘုတ်သည် မ"
+      }
     }
   },
   {
@@ -3490,6 +3522,14 @@
       "title": "Inspired Set 2 · Warning & information signs",
       "titleMy": "Inspired Set 2 · သတိပေးနှင့် အချက်အလက်ဆိုင်းဘုတ်",
       "refPaper": "btt-test-2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-parking-p-plain.png",
+      "alt": {
+        "en": "What does a rectangular blue sign with a white 'P' mean?",
+        "my": "အဖြူရောင် 'P' ပါ အပြာရောင် ထောင့်မှန်ကိုက်ဆိုင်းဘုတ်သည် ဘာကိ"
+      }
     }
   },
   {
@@ -4282,6 +4322,14 @@
       "title": "Inspired Set 3 · Signs & road markings",
       "titleMy": "Inspired Set 3 · ဆိုင်းဘုတ်နှင့် လမ်းအမှတ်",
       "refPaper": "btt-test-3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-pedestrian-flashing-green.png",
+      "alt": {
+        "en": "At a pedestrian crossing with a flashing green man, what does this mean?",
+        "my": "အစိမ်းလူပုံ မှိတ်တုတ်မှိတ်တုတ် ပြနေသော လမ်းလျောက်သူ ဖြတ်ကူးရ"
+      }
     }
   },
   {
@@ -7031,7 +7079,7 @@
     "syllabusRef": "btt.signs.markings",
     "media": {
       "type": "image",
-      "src": "/signs/sg/Broken White Line at Accelerating Lane.png",
+      "src": "/signs/sg/sg-centerline-broken-white.png",
       "alt": {
         "en": "What does a broken (dashed) white line between two lanes generally allow?",
         "my": "လိုင်းနှစ်ခုကြားရှိ ပြတ်တောက်နေသော (အစက်စက်) အဖြူရောင်မျဉ်းသ"
@@ -9867,6 +9915,14 @@
       "title": "Inspired Set 5 · Right of way & junctions",
       "titleMy": "Inspired Set 5 · လမ်းပေးခွင့်နှင့် junction",
       "refPaper": "btt-test-5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-double-yellow-kerb.png",
+      "alt": {
+        "en": "What does a double yellow line marked along the kerb indicate?",
+        "my": "လမ်းနောင်ဘေး ဆပ်ကြောင်းနှစ်ကြောင်း အဝါ မျဉ်းသည် ဘာကို ဆိုလို"
+      }
     }
   },
   {
@@ -13487,6 +13543,14 @@
       "title": "Inspired Set 7 · Lanes & overtaking",
       "titleMy": "Inspired Set 7 · လမ်းကြောင်းနှင့် ကျော်ဖြတ်",
       "refPaper": "driving-test-p1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-no-uturn.png",
+      "alt": {
+        "en": "At a signalised junction, the green arrow allows a U-turn. Oncoming traffic also",
+        "my": "မီး ပွိုင့် တွင် အစိမ်း မြှား ဖြင့် ယာဉ် ပြန်လှည့် ခွင့်ပြုပ"
+      }
     }
   },
   {
@@ -15048,6 +15112,14 @@
       "title": "Inspired Set 8 · Parking & stopping rules",
       "titleMy": "Inspired Set 8 · ရပ်နားခြင်းစည်းမျဉ်း",
       "refPaper": "driving-test-p2"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-fuel-pump-sign.png",
+      "alt": {
+        "en": "What does a sign with a picture of a fuel pump indicate?",
+        "my": "ဆီဖြည့်စက်ပုံ ပါသော ဆိုင်းဘုတ်သည် ဘာကို ဆိုလိုတာလဲ။"
+      }
     }
   },
   {
@@ -15486,6 +15558,14 @@
       "title": "Inspired Set 9 · Pedestrians & school zones",
       "titleMy": "Inspired Set 9 · လမ်းလျှောက်နှင့် ကျောင်းဧက",
       "refPaper": "driving-test-p3"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-school-bus-sign.png",
+      "alt": {
+        "en": "A school bus has stopped with hazard lights on and children are crossing behind ",
+        "my": "ကျောင်းဘတ်စ် အန္တရာယ် မီး ဖွင့်ပြီး ရပ်ထားပြီး ကလေးများ နောက"
+      }
     }
   },
   {
@@ -18856,6 +18936,14 @@
       "title": "Inspired Set 10 · Defensive & emergency",
       "titleMy": "Inspired Set 10 · ကာကွယ်မောင်းနှင်နှင့် emergency",
       "refPaper": "driving-test-p4"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-flagman-stop.png",
+      "alt": {
+        "en": "A flagman at road works signals you to stop although your lane looks clear. What",
+        "my": "လမ်း လုပ်ငန်း တွင် အလံပြသူ သည် သင် လမ်း ရှင်းနေပုံ ရှိသော်လည"
+      }
     }
   },
   {
@@ -20100,6 +20188,14 @@
       "title": "Inspired Set 11 · Special situations",
       "titleMy": "Inspired Set 11 · အခြေအနေအထူး",
       "refPaper": "driving-test-p5"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-school-bus-sign.png",
+      "alt": {
+        "en": "What should you do when you see a 'School Bus' sign on a bus stopping ahead?",
+        "my": "ရှေ့တွင် ရပ်နေသော ဘတ်စ်ကား ပေါ် 'ကျောင်းဘတ်စ်ကား' ဆိုင်းဘုတ်"
+      }
     }
   },
   {
@@ -22489,6 +22585,14 @@
       "title": "Inspired Set 12 · Full topic review",
       "titleMy": "Inspired Set 12 · topic review",
       "refPaper": "driving-test-p6"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-no-uturn.png",
+      "alt": {
+        "en": "You see a sign showing a U-turn arrow crossed out with a red slash. What does th",
+        "my": "ယာဉ် ပြန်လှည့် မြှား ကို အနီရောင် မျဉ်း ဖြတ်ထားသော ဆိုင်းဘုတ"
+      }
     }
   }
 ]
