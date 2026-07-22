@@ -1,0 +1,151 @@
+{
+ "dropped_wrong": [
+  [
+   "sg_btt_0014",
+   "I intend to stop.png",
+   "Image shows three different road users (car occupant, motorcyclist, cy"
+  ],
+  [
+   "sg_btt_0019",
+   "Animals.png",
+   "Sign depicts a horse (visible mane, thin legs, hooves), not a deer as "
+  ],
+  [
+   "sg_btt_0255",
+   "Elderly or handicapped pedestrians.png",
+   "Image shows two elderly pedestrians walking together (one using a cane"
+  ],
+  [
+   "sg_btt_0142",
+   "Parking Signboard.png",
+   "Image is a 3D 'Coupon Parking' URA signboard (rounded square, orange/b"
+  ],
+  [
+   "sg_btt_0274",
+   "Pedestrian signal ‘Green Man.png",
+   "Filename says 'Green Man' and question asks about a flashing green man"
+  ],
+  [
+   "sg_btt_0123",
+   "Unbroken Double Yellow Lines.png",
+   "Image shows an unbroken double yellow CENTERLINE down the middle of th"
+  ],
+  [
+   "sg_ftt_0186",
+   "No stopping.png",
+   "Question describes a 'white square sign with a red X'. The image is a "
+  ],
+  [
+   "sg_ftt_0284",
+   "Merging traffic.png",
+   "The triangular warning sign shown has its diagonal branch joining the "
+  ],
+  [
+   "sg_ftt_0213",
+   "Tunnel Ahead.png",
+   "Question is about a 'tunnel speed limit sign' (a regulatory speed-limi"
+  ],
+  [
+   "sg_ftt_0004",
+   "Gantry Sign.png",
+   "Question is specifically about ERP gantry function (automatic toll ded"
+  ],
+  [
+   "sg_rtt_0004",
+   "Slippery road.png",
+   "Question explicitly describes a warning sign showing a MOTORCYCLE skid"
+  ],
+  [
+   "sg_rtt_0023",
+   "Pricing Zone ahead.png",
+   "Question describes a sign showing a MOTORCYCLE icon plus the word 'ERP"
+  ]
+ ],
+ "dropped_ambiguous": [
+  [
+   "sg_btt_0007",
+   "Parking Signboard.png",
+   "Image is a specific 'Coupon Parking' signboard (blue circle P inside an orange/y"
+  ],
+  [
+   "sg_btt_0026",
+   "Light signals ahead.png",
+   "Image shows a real physical traffic-light module (red/amber/green lenses) mounte"
+  ],
+  [
+   "sg_btt_0544",
+   "School zone, 40km:h when lights.png",
+   "Image is a stacked composite of 'School Ahead' + speed-limit circle + 'Children "
+  ],
+  [
+   "sg_btt_0148",
+   "Works Ahead.png",
+   "Image is diamond-shaped (standard warning-sign diamond) with correct orange bg/b"
+  ],
+  [
+   "sg_btt_0136",
+   "No stopping.png",
+   "Shows the real red-cross-on-blue 'no stopping' sign (correct shape, correct mean"
+  ],
+  [
+   "sg_ftt_0476",
+   "Pedestrian signal ‘Green Man.png",
+   "Image shows a steady/walking green-man pedestrian signal. The question is specif"
+  ],
+  [
+   "sg_ftt_0107",
+   "THE ‘GIVE WAY’ RULE AT ROAD JUNCTIONS.png",
+   "Image is an aerial scene of a 4-way junction with a red car (facing straight, re"
+  ],
+  [
+   "sg_ftt_0196",
+   "THE ‘GIVE WAY’ RULE AT ROAD JUNCTIONS.png",
+   "Same aerial junction scene as sg_ftt_0107 — plausible but not a clear/explicit d"
+  ],
+  [
+   "sg_ftt_0281",
+   "School zone, 40km:h when lights.png",
+   "Composite shows School Ahead + Children Present signs correctly, but the speed-l"
+  ],
+  [
+   "sg_ftt_0289",
+   "Stop.png",
+   "Question asks specifically about a 'STOP' road MARKING (painted on the road) at "
+  ],
+  [
+   "sg_ftt_0323",
+   "Gantry Sign.png",
+   "Image is a green expressway directional/place-name gantry sign (Toa Payoh / Lave"
+  ],
+  [
+   "sg_ftt_0467",
+   "No overtaking .png",
+   "Correctly a real 'No Overtaking' regulatory sign (red circle, diagonal bar) and "
+  ],
+  [
+   "sg_ftt_0401",
+   "AMBER.png",
+   "Question asks specifically about a FLASHING amber light; AMBER.png shows a stead"
+  ],
+  [
+   "sg_rtt_0010",
+   "Steep upward slope.png",
+   "Filename says 'upward slope' but the pictogram shows the car positioned at the t"
+  ],
+  [
+   "sg_rtt_0005",
+   "T junction.png",
+   "Image is a red-bordered triangle warning sign with black 'T' (correct standard S"
+  ],
+  [
+   "sg_rtt_0007",
+   "Vehicles approaching Police Officer from all directions to stop..png",
+   "Question specifies the officer raises ONE arm straight up, but the assigned imag"
+  ],
+  [
+   "sg_rtt_0012",
+   "No entry for motorcycles .png",
+   "Question describes a round red-bordered sign with a black motorcycle on white ba"
+  ]
+ ]
+}
