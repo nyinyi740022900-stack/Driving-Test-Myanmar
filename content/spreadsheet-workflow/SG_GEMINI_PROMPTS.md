@@ -79,10 +79,11 @@ daylight, no other objects, no watermark, no extra text beyond what's specified.
 > (curving back on itself) crossed out by a diagonal red bar — the "No
 > U-turn" prohibition sign.
 
-## 14. `sg-double-yellow-kerb.png` — serves: sg_btt_0123
+## 14. `sg-double-yellow-kerb.png` — serves: sg_btt_0123, sg_ftt_0190
 > Top-down / low-angle photo of a road **kerb/curb edge painted with two
 > parallel continuous yellow lines** running along the kerb (not a road
-> centerline) — Singapore's "no stopping at any time" kerb marking.
+> centerline) — Singapore's "no stopping at any time" kerb marking. (Also
+> answers the general "what do yellow kerb markings indicate" question.)
 
 ## 15. `sg-amber-flashing.png` — serves: sg_ftt_0401, sg_ftt_0111 (if reused)
 > A traffic-light signal head showing only the **amber/yellow lamp lit**,
@@ -94,3 +95,57 @@ daylight, no other objects, no watermark, no extra text beyond what's specified.
 > **only the RIGHT arm raised straight up vertically overhead** (left arm at
 > side) — the single-arm "stop" traffic hand signal, distinct from the
 > both-arms-raised gesture.
+
+## More gaps found on a deeper pass (these are real signs, not text-rule questions)
+
+## 17. `sg-fuel-pump-sign.png` — serves: sg_btt_0016
+> A blue square sign with a **white fuel-pump/petrol-pump pictogram** —
+> Singapore's "fuel station ahead" informational sign.
+
+## 18. `sg-fuel-pump-distance.png` — serves: sg_ftt_0071
+> A blue rectangular sign with a **white fuel-pump pictogram, an arrow, and a
+> distance value (e.g. "800m")** printed below it — Singapore's expressway
+> fuel-station distance sign.
+
+## 19. `sg-school-bus-sign.png` — serves: sg_btt_0470, sg_btt_0515
+> A sign (yellow diamond or rectangular plate, black text) reading
+> **"SCHOOL BUS"** mounted on/near a bus — Singapore's school-bus-stopping
+> warning sign that alerts drivers a school bus ahead is picking up/dropping
+> off children.
+
+## 20. `sg-flagman-stop.png` — serves: sg_btt_0536
+> A road-works flagman/traffic marshal in a high-visibility vest, standing on
+> a road, **holding up a red "STOP" paddle sign** at arm's length toward the
+> viewer — the hand-held stop-paddle signal used at road-work sites.
+
+## 21. `sg-giveway-line-marking.png` — serves: sg_ftt_0291, sg_ftt_0377
+> Top-down photo of a road approaching a junction with a **single broken/
+> dashed white line painted across the full width of the lane** (short thick
+> dashes, distinct from a centerline) — Singapore's "give way" road marking,
+> not the triangular GIVE WAY sign.
+
+## 22. `sg-dashboard-warning-lights.png` (or 4 separate crops) — serves: sg_ftt_0145, sg_ftt_0222, sg_ftt_0015, sg_ftt_0082
+> A close-up photo of a car instrument cluster/dashboard showing four
+> illuminated warning icons clearly, ideally as 4 separate images:
+> - **Brake warning** — red icon of a circle with "(!)" inside parentheses.
+> - **ABS warning** — amber/yellow icon reading "ABS" inside a circle.
+> - **Engine temperature warning** — red thermometer-in-liquid icon.
+> - **Engine warning ("check engine")** — amber icon shaped like a simplified
+>   engine block.
+> Suggested filenames: `sg-dash-brake.png`, `sg-dash-abs.png`,
+> `sg-dash-temp.png`, `sg-dash-engine.png`.
+
+## 23. `sg-min-speed-blue.png` — serves: sg_ftt_0184
+> A **solid blue circular sign with a white number** (e.g. "50") centered —
+> Singapore's minimum-speed mandatory sign, distinct from the red-bordered
+> white maximum-speed sign.
+
+## 24. `sg-blue-direction-arrows.png` — serves: sg_ftt_0187
+> A **blue rectangular sign with white arrows** showing permitted directions
+> (e.g. straight + left) — Singapore's mandatory-direction sign, distinct
+> from the green place-name directional signs already in the library.
+
+## 25. `sg-orange-diamond-roadworks.png` — serves: sg_ftt_0495
+> An **orange diamond-shaped sign with a black border and black symbol/text**
+> — Singapore's temporary road-works warning sign (orange, distinct from the
+> library's permanent yellow warning signs).

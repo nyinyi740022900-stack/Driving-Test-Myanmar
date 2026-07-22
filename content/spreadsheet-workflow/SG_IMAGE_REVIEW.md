@@ -49,14 +49,26 @@ demerit points, fines, general driving advice, technique) now correctly has
   marking) were caught and dropped.
 
 ## Still needs images (gaps in the 225-image library)
-16 sign/marking/scenario types are referenced by questions but don't exist
-correctly in the library — see [SG_GEMINI_PROMPTS.md](SG_GEMINI_PROMPTS.md) for
-ready-to-use Gemini prompts (deer crossing, cyclist stop hand-signal,
-wheelchair-pedestrian sign, plain "P" parking sign, flashing green-man signal,
-proper broken white centerline, white-square no-stopping sign, right-side
-merge warning, tunnel speed-limit sign, real ERP gantry photo,
-motorcycle-specific slippery-road and ERP signs, No U-turn sign, double-yellow
-kerb marking, flashing amber signal, single-arm police stop signal).
+**25 sign/marking/scenario types** (not just 16) are referenced by questions but
+don't exist correctly in the library — see
+[SG_GEMINI_PROMPTS.md](SG_GEMINI_PROMPTS.md) for ready-to-use Gemini prompts:
+- 16 found from the WRONG/AMBIGUOUS verify-pass drops (deer crossing, cyclist
+  stop hand-signal, wheelchair-pedestrian sign, plain "P" parking sign,
+  flashing green-man signal, proper broken white centerline, white-square
+  no-stopping sign, right-side merge warning, tunnel speed-limit sign, real
+  ERP gantry photo, motorcycle-specific slippery-road and ERP signs, No
+  U-turn sign, double-yellow kerb marking, flashing amber signal, single-arm
+  police stop signal).
+- 9 more found on a follow-up pass through the edit-stage NONE reasons (real
+  signs the library simply never had, distinct from genuine text-rule
+  questions): fuel-pump sign (plain + expressway-distance variant), School
+  Bus sign, flagman stop-paddle, give-way road-marking (distinct from the
+  GIVE WAY sign), 4 dashboard warning-light icons (brake/ABS/temperature/
+  engine), blue minimum-speed sign, blue mandatory-direction sign, orange
+  road-works diamond sign.
+
+(Everything else left as NONE — several hundred questions — is a genuine
+text-only rule/definition/advice question with nothing to depict.)
 
 ## AMBIGUOUS items kept out (17) — review if you want to restore any
 Full detail in `sg_dropped_log.json` (scratchpad). Most are: correct sign but
