@@ -86,18 +86,17 @@ Gemini-generated sign) may reuse them.
 
 ---
 
-## UPDATE — 24 of 25 Gemini-generated images applied
+## UPDATE — all 25 Gemini-generated images applied
 
-All but one of the [SG_GEMINI_PROMPTS.md](SG_GEMINI_PROMPTS.md) images were
-generated and dropped into `images/sg/`. Fixed 6 filenames that had a stray
-double `.png` extension, then visually verified every image against its
-intended meaning (contact sheet + one full-size zoom check) before wiring:
-- All 24 present images are correct and now wired to their question(s).
-- **`sg-motorcycle-erp.png` was not generated** — `sg_rtt_0023` stays imageless
-  until it's added (prompt #12 in SG_GEMINI_PROMPTS.md).
+All 25 [SG_GEMINI_PROMPTS.md](SG_GEMINI_PROMPTS.md) images were generated and
+dropped into `images/sg/`. Fixed 6 filenames that had a stray double `.png`
+extension, then visually verified every image against its intended meaning
+(contact sheet + full-size zoom checks) before wiring — all 25 correct.
 - The 4 dashboard warning-light icons arrived under different (but correctly
   descriptive) filenames — `Brake warning.png`, `ABS warning.png`,
   `Engine temperature warning.png`, `Engine warning.png` — used as-is.
+- `sg-motorcycle-erp.png` (motorcycle silhouette + "ERP" text triangle, ERP
+  gantry visible in the background) arrived last and wired to `sg_rtt_0023`.
 
-**New total: 209/1100 SG questions carry a verified image, 0 missing files**
-(was 177 before this batch).
+**Final total: 210/1100 SG questions carry a verified image, 0 missing files**
+(was 177 before this batch of generated images).

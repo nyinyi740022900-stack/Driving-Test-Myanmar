@@ -323,6 +323,14 @@
       "title": "Inspired Set 1 · Signs & signals",
       "titleMy": "Inspired Set 1 · ဆိုင်းဘုတ်နှင့် signal",
       "refPaper": "rtt-set-1"
+    },
+    "media": {
+      "type": "image",
+      "src": "/signs/sg/sg-motorcycle-erp.png",
+      "alt": {
+        "en": "What does a sign showing a motorcycle with the word 'ERP' typically warn riders ",
+        "my": "'ERP' စာလုံးနှင့်အတူ ဆိုင်ကယ်ပုံပါသော ဆိုင်းဘုတ်သည် ယာဉ်မောင"
+      }
     }
   },
   {
