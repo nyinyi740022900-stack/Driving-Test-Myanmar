@@ -9,7 +9,6 @@ const PUBLIC_PATHS = [
   ...TEST_LANDING_PATHS,
   '/premium',
   '/feedback',
-  '/experiences',
   '/privacy',
   '/terms',
   '/refund',
