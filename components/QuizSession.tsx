@@ -83,6 +83,11 @@ function trackWrongIfNeeded(
 export default function QuizSession({ category, mode, questions, answersHidden = false }: Props) {
   const t = useTranslations('quiz');
   const locale = useLocale() as 'en' | 'my' | 'ja';
+  // The peek toggle always offers Myanmar<->English: Myanmar-locale users can
+  // peek English (and vice versa) the same way English/Japanese-locale users
+  // can already peek Myanmar.
+  const peekLocale = locale === 'my' ? 'en' : 'my';
+  const peekLabel = locale === 'my' ? '🇬🇧 English' : '🇲🇲 မြန်မာ';
   const meta = TEST_META.find(m => m.category === category)!;
   const { user, loading: authLoading } = useAuth();
 
@@ -821,12 +826,12 @@ export default function QuizSession({ category, mode, questions, answersHidden =
               </div>
             )}
 
-            {/* Card top row: question label + Myanmar toggle */}
+            {/* Card top row: question label + peek-translation toggle */}
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 12 }}>
               <div className="quiz-q-label">
                 {mode === 'lesson' ? 'Lesson' : mode === 'practice' ? 'Practice' : 'Mock Test'} · {idx + 1} / {pool.length}
               </div>
-              {(mode === 'lesson' || mode === 'practice') && locale !== 'my' && (
+              {(mode === 'lesson' || mode === 'practice') && (
                 <button
                   onClick={() => setShowMyanmar(v => !v)}
                   style={{
@@ -836,15 +841,15 @@ export default function QuizSession({ category, mode, questions, answersHidden =
                     borderRadius: 20, padding: '4px 14px', fontSize: '.75rem',
                     cursor: 'pointer', fontFamily: 'var(--display)', fontWeight: 700,
                   }}>
-                  🇲🇲 မြန်မာ
+                  {peekLabel}
                 </button>
               )}
             </div>
 
             <div className="qtext">{L(q.prompt)}</div>
-            {showMyanmar && locale !== 'my' && q.prompt['my'] && (
+            {showMyanmar && q.prompt[peekLocale] && (
               <div style={{ fontSize: '.9em', color: 'var(--ink-soft)', marginTop: -8, marginBottom: 16, lineHeight: 1.65 }}>
-                {q.prompt['my']}
+                {q.prompt[peekLocale]}
               </div>
             )}
 
@@ -913,8 +918,8 @@ export default function QuizSession({ category, mode, questions, answersHidden =
                     </span>
                     <span className="opt-text">
                       <span>{choiceLabel(choice.text)}</span>
-                      {showMyanmar && locale !== 'my' && choice.text['my'] && (
-                        <span className="opt-my">{choice.text['my']}</span>
+                      {showMyanmar && choice.text[peekLocale] && (
+                        <span className="opt-my">{choice.text[peekLocale]}</span>
                       )}
                     </span>
                   </button>
@@ -986,9 +991,9 @@ export default function QuizSession({ category, mode, questions, answersHidden =
                     <div style={{ fontSize: '.88rem', color: 'var(--ink)', lineHeight: 1.65 }}>
                       {L(q.explanation)}
                     </div>
-                    {showMyanmar && locale !== 'my' && q.explanation?.['my'] && (
+                    {showMyanmar && q.explanation?.[peekLocale] && (
                       <div style={{ fontSize: '.82rem', color: 'var(--ink-soft)', marginTop: 6, lineHeight: 1.6 }}>
-                        {q.explanation['my']}
+                        {q.explanation[peekLocale]}
                       </div>
                     )}
                   </div>
