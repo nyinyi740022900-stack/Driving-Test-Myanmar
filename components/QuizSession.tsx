@@ -6,7 +6,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import BackButton from './BackButton';
 import type { Category, Question } from '@/lib/types';
 import { TEST_META } from '@/lib/types';
-import { shuffleArray, pickLocalized, isJpTrueFalseChoice } from '@/lib/questions';
+import { shuffleArray, pickLocalized, isJpTrueFalseChoice, isJpCategory } from '@/lib/questions';
 import { buildQuestionSets, getInspiredSetQuestions } from '@/lib/inspired-sets';
 import { buildMockTestPool } from '@/lib/quiz-pool';
 import type { QuizAnswer } from '@/lib/quiz-answers';
@@ -83,11 +83,13 @@ function trackWrongIfNeeded(
 export default function QuizSession({ category, mode, questions, answersHidden = false }: Props) {
   const t = useTranslations('quiz');
   const locale = useLocale() as 'en' | 'my' | 'ja';
-  // The peek toggle always offers Myanmar<->English: Myanmar-locale users can
-  // peek English (and vice versa) the same way English/Japanese-locale users
-  // can already peek Myanmar.
-  const peekLocale = locale === 'my' ? 'en' : 'my';
-  const peekLabel = locale === 'my' ? '🇬🇧 English' : '🇲🇲 မြန်မာ';
+  const isJp = isJpCategory(category);
+  // Peek toggle: for JP tests, the useful second language is always Japanese
+  // (the exam terms/signs are Japanese), regardless of whether the UI is in
+  // Myanmar or English. For SG tests, it's a symmetric Myanmar<->English peek.
+  const peekLocale = isJp ? 'ja' : locale === 'my' ? 'en' : 'my';
+  const peekLabel = isJp ? '🇯🇵 日本語' : locale === 'my' ? '🇬🇧 English' : '🇲🇲 မြန်မာ';
+  const showPeekToggle = isJp ? locale !== 'ja' : true;
   const meta = TEST_META.find(m => m.category === category)!;
   const { user, loading: authLoading } = useAuth();
 
@@ -831,7 +833,7 @@ export default function QuizSession({ category, mode, questions, answersHidden =
               <div className="quiz-q-label">
                 {mode === 'lesson' ? 'Lesson' : mode === 'practice' ? 'Practice' : 'Mock Test'} · {idx + 1} / {pool.length}
               </div>
-              {(mode === 'lesson' || mode === 'practice') && (
+              {(mode === 'lesson' || mode === 'practice') && showPeekToggle && (
                 <button
                   onClick={() => setShowMyanmar(v => !v)}
                   style={{
