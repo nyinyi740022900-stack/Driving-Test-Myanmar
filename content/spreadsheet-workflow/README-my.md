@@ -114,6 +114,58 @@ spreadsheet-workflow/
 
 ---
 
+## ဘာသာပြန် (EN ↔ MY) စစ်ဆေးရေး Sheet — သီးသန့်
+
+ပုံနှင့် အခြား column များ မပါဘဲ **English ↔ Myanmar ဘာသာပြန် သီးသက်** ကို လွယ်ကူစွာ နှိုင်းယှဉ်စစ်ဆေးနိုင်ရန် Sheet အသစ်။ SG (BTT/FTT/RTT) နှင့် Japan (car/moto) နှစ်ခုစလုံး ပါဝင်သည်။
+
+### အဆင့် ၁ — ထုတ်မည်
+
+```bash
+cd web
+node scripts/translation-review-export.mjs
+```
+
+ရလဒ်ဖိုင်များ (`content/spreadsheet-workflow/sheets/` ထဲ):
+`translation_review_sg_btt.csv`, `translation_review_sg_ftt.csv`,
+`translation_review_sg_rtt.csv`, `translation_review_jp_car.csv`,
+`translation_review_jp_moto.csv`
+
+### အဆင့် ၂ — Google Sheets ထဲ တင်ပြီး စစ်ဆေးမည်
+
+1. Google Sheets အသစ် → File → Import → Upload → `.csv` ဖိုင် တင်ပါ
+2. `_en` ကော်လံနှင့် `_my` ကော်လံ ဘေးချင်းယှဉ်ကြည့်ပြီး ဘာသာပြန် မှန်မမှန် စစ်ပါ
+3. **မှားနေရင်** — `_my` ကော်လံထဲကို တိုက်ရိုက် ပြင်ရေးပါ (ဥပမာ `prompt_my`, `choice_a_my`, `explanation_my`, hazard မေးခွန်းအတွက် `hazard_p1_my` စသည်)
+
+### အဆင့် ၃ — `reviewed` ကော်လံ (စစ်ပြီးကြောင်း အမှတ်အသား)
+
+| တန်ဖိုး | အဓိပ္ပာယ် |
+|--------|----------|
+| `PENDING` | မစစ်ရသေး (default) — ဘာမှ မပြောင်း |
+| `OK` | စစ်ပြီး၊ ဘာသာပြန် မှန်ကန်သည် — ဘာမှ မပြင်ရ |
+| `FIX` | စစ်ပြီး၊ `_my` ကော်လံကို ပြင်ပြီးပြီ — JSON ထဲ ပြန်သွင်းမည် |
+
+### အဆင့် ၄ — Download ပြီး JSON ထဲ ပြန်သွင်းမည်
+
+1. Google Sheets → File → Download → **Comma-separated values (.csv)**
+2. `sheets/translation_review_<bank>.csv` အဟောင်းကို overwrite လုပ်ပါ
+3. ပြန်သွင်းမည်:
+
+```bash
+node scripts/translation-review-import.mjs
+```
+
+- Bank တစ်ခုတည်း: `node scripts/translation-review-import.mjs --bank sg_btt`
+- စမ်းကြည့်ရန် (JSON မပြင်သေး): `node scripts/translation-review-import.mjs --dry-run`
+
+`reviewed = FIX` ဖြစ်တဲ့ row တွေရဲ့ `_my` စာသားကိုသာ JSON ထဲ ရေးထည့်ပေးမည် — English၊ ပုံ၊ အဖြေများ လုံးဝ မထိပါ။
+
+### JP Sheet မှာ ထပ်ပါတဲ့ column
+
+- `prompt_ja` / `explanation_ja` — မူရင်း ဂျပန်စာသား (context အတွက်)
+- `hazard_p1..p3_ja/en/my` — အန္တရာယ်ခန့်မှန်းမေးခွန်း (ア/イ/ウ) ၏ ဘာသာပြန် အားလုံး (ပုံ-workflow sheet မှာ ဒါမပါခဲ့ပါ)
+
+---
+
 ## သတိပေးချက်
 
 - Official exam မေးခွန်း **စာသားကို မကူးပါ** — စာသားပြင်ဆင်သည်ဖြင့် Method A (ကိုယ်ပိုင် paraphrase) ကို လိုက်နာပါ

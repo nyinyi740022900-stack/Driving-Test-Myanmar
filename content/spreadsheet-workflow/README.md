@@ -72,3 +72,43 @@ content/spreadsheet-workflow/
 
 - CSV opens directly; Myanmar text needs UTF-8 (export includes BOM)
 - Save As → CSV UTF-8 when done
+
+---
+
+## Translation review (EN ↔ MY only)
+
+A separate, lighter set of sheets for manually checking English↔Myanmar
+translation quality — no image columns, so it's just the text to compare.
+
+```bash
+cd web
+
+# 1. Export EN/MY (JA for JP) pairs to review-friendly CSVs
+node scripts/translation-review-export.mjs
+
+# 2. Open sheets/translation_review_<bank>.csv in Google Sheets / Excel
+
+# 3. For each row, set `reviewed`:
+#      OK   — translation is correct, no change
+#      FIX  — you edited a *_my cell directly with the corrected text
+#    (leave PENDING to review later)
+
+# 4. Import corrections back into content/questions/<bank>.json
+node scripts/translation-review-import.mjs
+# preview without writing: add --dry-run
+# one bank only: add --bank sg_btt
+```
+
+Files: `translation_review_sg_btt.csv`, `translation_review_sg_ftt.csv`,
+`translation_review_sg_rtt.csv`, `translation_review_jp_car.csv`,
+`translation_review_jp_moto.csv`.
+
+- **SG columns**: prompt, choice A/B/C, explanation — each as an en/my pair.
+- **JP columns**: same, plus `prompt_ja`/`explanation_ja` for source context,
+  and `hazard_p1..p3_ja/en/my` for the 危険予測 (ア/イ/ウ) hazard questions,
+  which the image-workflow sheets don't include.
+- To fix a translation: edit the `*_my` cell(s) in that row directly, then
+  set `reviewed` to `FIX`. The import script writes exactly those `*_my`
+  values onto the matching question id — everything else (English, images,
+  answers) is untouched.
+- Google Sheets import/download steps are the same as above.
