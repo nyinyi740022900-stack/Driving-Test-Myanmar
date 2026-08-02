@@ -89,6 +89,23 @@ export default async function LocaleLayout({
             }}
           />
         )}
+        {/* AdSense verification crawler only fetches raw HTML — it never runs
+            client JS, so this must be a real <script> tag in <head>, not a
+            next/script lazyOnload injection (which only exists post-hydration). */}
+        {ADSENSE_ID && (
+          <>
+            <script
+              async
+              src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`}
+              crossOrigin="anonymous"
+            />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `window.adBreak=window.adConfig=function(o){(window.adsbygoogle=window.adsbygoogle||[]).push(o)};`,
+              }}
+            />
+          </>
+        )}
       </head>
       <body>
         {/* Analytics — deferred so it never competes with hydration or early taps.
@@ -101,19 +118,6 @@ export default async function LocaleLayout({
             />
             <Script id="ga-config" strategy="afterInteractive">
               {`gtag('js', new Date()); gtag('config', '${GA_MEASUREMENT_ID}', { send_page_view: false });`}
-            </Script>
-          </>
-        )}
-        {/* AdSense — lazy-loaded during idle so ads never block interaction. */}
-        {ADSENSE_ID && (
-          <>
-            <Script
-              src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`}
-              strategy="lazyOnload"
-              crossOrigin="anonymous"
-            />
-            <Script id="adsense-config" strategy="lazyOnload">
-              {`window.adBreak=window.adConfig=function(o){(window.adsbygoogle=window.adsbygoogle||[]).push(o)};`}
             </Script>
           </>
         )}
