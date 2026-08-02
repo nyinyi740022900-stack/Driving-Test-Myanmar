@@ -44,13 +44,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     }
 
+    // Quiz tool pages are thin, near-duplicate templates (same UI, only the
+    // category/mode label differs) reached via internal links from the
+    // content-rich test landing pages above. Listing 45 of them at high
+    // priority told crawlers these were primary content, which they are not
+    // — keep them crawlable but low-signal in the sitemap.
     for (const category of CATEGORIES) {
       for (const mode of QUIZ_MODES) {
         entries.push({
           url: `${SITE_URL}/${locale}/quiz/${category}/${mode}`,
           lastModified: now,
-          changeFrequency: 'weekly',
-          priority: 0.9,
+          changeFrequency: 'monthly',
+          priority: 0.3,
         });
       }
     }

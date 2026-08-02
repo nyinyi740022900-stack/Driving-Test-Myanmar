@@ -45,25 +45,11 @@ export default async function QuizPage({ params }: PageProps) {
   return (
     <>
       {meta && (
-        <section
-          className="sr-only"
-          aria-label="Quiz overview"
-          style={{
-            position: 'absolute',
-            width: 1,
-            height: 1,
-            padding: 0,
-            margin: -1,
-            overflow: 'hidden',
-            clip: 'rect(0,0,0,0)',
-            whiteSpace: 'nowrap',
-            border: 0,
-          }}
-        >
-          <h1>
+        <section aria-label="Quiz overview" style={{ padding: '16px 16px 0', maxWidth: 720, margin: '0 auto' }}>
+          <h1 style={{ fontSize: '1.15rem', fontWeight: 700, marginBottom: 4 }}>
             {t(`${mode}_title`, { test: meta.tag })}
           </h1>
-          <p>
+          <p style={{ fontSize: '.9rem', color: 'var(--ink-soft)' }}>
             {t('description', {
               test: meta.tag,
               count: meta.bankQuestionCount,
