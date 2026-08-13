@@ -5,7 +5,6 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import BackButton from '@/components/BackButton';
-import { useCountry } from '@/components/CountryProvider';
 import {
   SG_CLASS3_PRACTICAL,
   DEMERIT_FAIL_THRESHOLD,
@@ -29,7 +28,6 @@ import type { Locale } from '@/lib/types';
 export default function PracticalChecklist() {
   const params = useParams();
   const locale = (params?.locale as Locale) ?? 'en';
-  const { country } = useCountry();
   const t = useTranslations('practicalChecklist');
 
   const [showAtv, setShowAtv] = useState(false);
@@ -64,28 +62,6 @@ export default function PracticalChecklist() {
 
   const expandAll = () => setOpenSections(new Set(data.sections.map(s => s.id)));
   const collapseAll = () => setOpenSections(new Set());
-
-  if (country !== 'sg') {
-    return (
-      <div className="pcl-wrap">
-        <div className="pcl-hero">
-          <BackButton label={t('breadcrumb_home')} className="pcl-back" />
-          <div className="pcl-hero-inner">
-            <div className="eyebrow">{t('jp_only_eyebrow')}</div>
-            <p>{t('jp_only_lead')}</p>
-            <div className="pcl-jp-links">
-              <Link href={`/${locale}/resources/roadmap`} className="pcl-btn">
-                {t('jp_roadmap_link')} →
-              </Link>
-              <Link href={`/${locale}/resources/guide`} className="pcl-btn ghost">
-                {t('jp_guide_link')} →
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <div className="pcl-wrap">

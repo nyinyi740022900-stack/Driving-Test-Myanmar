@@ -54,7 +54,7 @@ export default function ResourceFaqPage() {
         </div>
 
         {/* Singapore */}
-        {country === 'sg' && (<div style={{ marginBottom: 64 }}>
+        <div style={{ marginBottom: 64 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 28 }}>
             <span style={{ fontSize: '1.4rem' }}>🇸🇬</span>
             <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{t('sg_title')}</h2>
@@ -112,10 +112,10 @@ export default function ResourceFaqPage() {
               );
             })}
           </div>
-        </div>)}
+        </div>
 
         {/* Japan */}
-        {country === 'jp' && (<div>
+        <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 28 }}>
             <span style={{ fontSize: '1.4rem' }}>🇯🇵</span>
             <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{t('jp_title')}</h2>
@@ -171,7 +171,7 @@ export default function ResourceFaqPage() {
               );
             })}
           </div>
-        </div>)}
+        </div>
 
         <div style={{ marginTop: 48, textAlign: 'center' }}>
           <BackButton label={t('back_home')} style={{ color: 'var(--guide-deep)', fontWeight: 600, fontSize: '.9rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} />

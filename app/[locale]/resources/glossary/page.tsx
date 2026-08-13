@@ -1,10 +1,21 @@
+import type { Metadata } from 'next';
 import BackButton from '@/components/BackButton';
+import StudyArticle from '@/components/StudyArticle';
 import { GLOSSARY_TERM_COUNT, TRAFFIC_GLOSSARY } from '@/lib/traffic-glossary';
 import { getTranslations } from 'next-intl/server';
+import { buildResourceMetadata } from '@/lib/resourceMetadata';
 
-export default async function GlossaryPage({ params }: { params: Promise<{ locale: string }> }) {
+type PageProps = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations('resourcesGlossary');
+  return buildResourceMetadata(locale, 'resourcesGlossary', '/resources/glossary');
+}
+
+export default async function GlossaryPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'resourcesGlossary' });
+  const articleParagraphs = t.raw('article.paragraphs') as string[];
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>
@@ -26,6 +37,8 @@ export default async function GlossaryPage({ params }: { params: Promise<{ local
             {t('hero.lead')}
           </p>
         </div>
+
+        <StudyArticle title={t('article.title')} paragraphs={articleParagraphs} />
 
         {TRAFFIC_GLOSSARY.map(category => (
           <div key={category.id} style={{ marginBottom: 36 }}>

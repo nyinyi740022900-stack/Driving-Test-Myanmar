@@ -2,13 +2,11 @@
 
 import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { useCountry } from '@/components/CountryProvider';
 import BackButton from '@/components/BackButton';
 
 export default function ForeignersPage() {
   const params = useParams();
   const locale = (params?.locale as string) ?? 'en';
-  const { country } = useCountry();
   const t = useTranslations('resourcesForeigners');
 
   return (
@@ -33,7 +31,7 @@ export default function ForeignersPage() {
         </div>
 
         {/* Singapore */}
-        {country === 'sg' && (<div style={{ marginBottom: 64 }}>
+        <div style={{ marginBottom: 64 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 28 }}>
             <span style={{ fontSize: '1.4rem' }}>🇸🇬</span>
             <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{t('sg_title')}</h2>
@@ -64,10 +62,10 @@ export default function ForeignersPage() {
               <li>{t('sg.myanmar.bullets.4')}</li>
             </ul>
           </InfoBlock>
-        </div>)}
+        </div>
 
         {/* Japan */}
-        {country === 'jp' && (<div>
+        <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 28 }}>
             <span style={{ fontSize: '1.4rem' }}>🇯🇵</span>
             <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{t('jp_title')}</h2>
@@ -97,7 +95,7 @@ export default function ForeignersPage() {
             </ol>
             <p style={{ marginTop: 10, fontSize: '.82rem', color: 'var(--ink-soft)' }}>{t('jp.myanmar.tip')}</p>
           </InfoBlock>
-        </div>)}
+        </div>
 
         <div style={{ background: 'var(--paint-2)', border: '1px solid var(--line)', borderRadius: 12, padding: '16px 20px', marginTop: 32, fontSize: '.82rem', color: 'var(--ink-soft)', lineHeight: 1.6 }}>
           <strong>{t('disclaimer_label')}</strong> {t('disclaimer_text')}

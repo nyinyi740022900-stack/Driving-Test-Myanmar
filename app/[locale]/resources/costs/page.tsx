@@ -1,11 +1,9 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useCountry } from '@/components/CountryProvider';
 import BackButton from '@/components/BackButton';
 
 export default function CostsPage() {
-  const { country } = useCountry();
   const t = useTranslations('resourcesCosts');
   const tableHeaders = t.raw('table_headers') as { item: string; fee: string; notes: string };
   const noteLabel = t('note_label');
@@ -43,7 +41,7 @@ export default function CostsPage() {
         </div>
 
         {/* ──────── SINGAPORE ──────── */}
-        {country === 'sg' && (<div style={{ marginBottom: 72 }}>
+        <div style={{ marginBottom: 72 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 28 }}>
             <span style={{ fontSize: '1.4rem' }}>🇸🇬</span>
             <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{t('sg_title')}</h2>
@@ -123,10 +121,10 @@ export default function CostsPage() {
           <Section title={t('sg.total_moto_title')}>
             <FeeTable rows={sgMotoRows} highlight={t('sg.moto_highlight')} headers={tableHeaders} />
           </Section>
-        </div>)}
+        </div>
 
         {/* ──────── JAPAN ──────── */}
-        {country === 'jp' && (<div>
+        <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 28 }}>
             <span style={{ fontSize: '1.4rem' }}>🇯🇵</span>
             <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{t('jp_title')}</h2>
@@ -183,7 +181,7 @@ export default function CostsPage() {
               </p>
             </div>
           </Section>
-        </div>)}
+        </div>
 
         <div style={{ background: 'var(--paint-2)', border: '1px solid var(--line)', borderRadius: 12, padding: '14px 18px', marginTop: 32, fontSize: '.8rem', color: 'var(--ink-soft)', lineHeight: 1.6 }}>
           <strong>{t('disclaimer_label')}</strong> {t('disclaimer_text')}

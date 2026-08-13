@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
 import QuizModeLink from '@/components/QuizModeLink';
+import FeaturedSigns from '@/components/FeaturedSigns';
 import { SITE_URL } from '@/lib/brand';
 import {
   TEST_SLUG_CATEGORY,
@@ -44,6 +45,9 @@ export default async function TestLanding({ slug, locale }: TestLandingProps) {
   const meta = TEST_META.find(m => m.category === category);
   const faq = t.raw('faq') as { q: string; a: string }[];
   const formatItems = t.raw('format_items') as string[];
+  const studyParagraphs = t.raw('study_paragraphs') as string[];
+  const mistakes = t.raw('mistakes') as string[];
+  const featured = t.raw('featured_signs') as { src: string; alt: string; caption: string }[];
   const pageUrl = `${SITE_URL}/${locale}/${slug}`;
 
   const jsonLd = [
@@ -130,6 +134,24 @@ export default async function TestLanding({ slug, locale }: TestLandingProps) {
             </h2>
             <p style={{ color: 'var(--ink-soft)', lineHeight: 1.7, marginBottom: 12 }}>{t('about_p1')}</p>
             <p style={{ color: 'var(--ink-soft)', lineHeight: 1.7 }}>{t('about_p2')}</p>
+            {studyParagraphs.map(paragraph => (
+              <p key={paragraph.slice(0, 40)} style={{ color: 'var(--ink-soft)', lineHeight: 1.7, marginTop: 12 }}>
+                {paragraph}
+              </p>
+            ))}
+          </section>
+
+          <FeaturedSigns title={t('featured_title')} items={featured} />
+
+          <section style={{ maxWidth: 720, margin: '0 auto 40px' }}>
+            <h2 style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '1.35rem', marginBottom: 16 }}>
+              {t('mistakes_title')}
+            </h2>
+            <ul style={{ paddingLeft: 20, color: 'var(--ink-soft)', lineHeight: 1.9 }}>
+              {mistakes.map(item => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
           </section>
 
           <section style={{ maxWidth: 720, margin: '0 auto 40px' }}>

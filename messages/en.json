@@ -1122,6 +1122,17 @@
     "Expressway minimum speed is typically 50 km/h — do not drive too slowly and block traffic.",
     "Temporary provisional licence (仮免): must display the 仮 mark and be accompanied by a licensed instructor or holder over 3 years."
    ]
+  },
+  "meta_title": "Driving Theory Study Guide — Speed Limits, Demerit Points, Stopping Distances",
+  "meta_description": "Key facts for Singapore BTT/FTT/RTT and Japan written tests: speed limits, alcohol limits, demerit points, stopping distances and right-of-way, written for Myanmar learners.",
+  "article": {
+   "title": "What this guide is for",
+   "paragraphs": [
+    "This page is a revision sheet, not a replacement for the official handbook. We gathered the numbers that come up again and again in practice: urban speed limits, school zones, drink-drive limits, and how many demerit points suspend a new licence.",
+    "If you are a Myanmar worker in Singapore, start with the Singapore block. Built-up roads default to 50 km/h unless a sign says otherwise. Expressways are typically 90 km/h. School zones drop to 40 km/h on school days. Mixing these three is one of the most common BTT errors we see in lesson mode.",
+    "If you are preparing for Japan’s written test, the Japan block lists 法定速度 and 点数 in the same layout so you can compare. Do not memorise Singapore numbers for a Japan exam — the systems are different.",
+    "After you read a section, open the matching lesson set and answer ten questions immediately. Reading without answering does not stick. TheoryLane explanations are original wording for learners; confirm fees and legal limits with the authority before you book."
+   ]
   }
  },
  "resourcesRoadmap": {
@@ -1669,7 +1680,17 @@
    "expressway": "Expressway & special zones"
   },
   "footer_note": "{count} terms · Updated July 2026 · Human-reviewed",
-  "back_home": "← Back to home"
+  "back_home": "← Back to home",
+  "meta_title": "Bilingual Traffic Glossary — English, Myanmar, Japanese",
+  "meta_description": "Human-checked traffic terms in English, Myanmar and Japanese so a mistranslation does not cost a mark on BTT, FTT, RTT or Japan written tests.",
+  "article": {
+   "title": "Why a three-language glossary belongs next to the question bank",
+   "paragraphs": [
+    "Exam questions often fail people on vocabulary, not on driving skill. “Give way”, “carriageway”, “diverge”, and “provisional licence” are everyday English in Singapore test papers. If you only know the Myanmar street word, you can still pick the wrong option.",
+    "We keep English, Myanmar and Japanese in one row so you can check a term in the language you think in, then look at the exam language. The translations are reviewed by a person. They are study aids, not a legal dictionary.",
+    "Use this page when a lesson explanation uses a word you do not know. Search with your eyes down the English column, read the Myanmar or Japanese cell, then go back to the question. That loop is faster than translating the whole paper with a phone camera in the test centre — which you cannot do anyway."
+   ]
+  }
  },
  "resourcesLicenceClasses": {
   "breadcrumb_home": "← Home",
@@ -2129,7 +2150,18 @@
     ]
    }
   ],
-  "back_home": "← Back to home"
+  "back_home": "← Back to home",
+  "meta_title": "Singapore & Japan Road Signs Library — Meanings and What To Do",
+  "meta_description": "Free illustrated road signs library for Singapore BTT/FTT/RTT and Japan written tests. Each sign shows the picture, the meaning, and the action you must take — in English, Myanmar, and Japanese.",
+  "article": {
+   "title": "How to study signs so they stick on test day",
+   "paragraphs": [
+    "Most theory-test mistakes are not about obscure rules. They are about mixing up two signs that look similar when you are tired. A red circle with a slash is a prohibition. A blue circle is a mandatory instruction. A red inverted triangle means give way. If you only remember those three families, you already avoid a large share of wrong answers.",
+    "Singapore learners sitting BTT should treat signs as actions, not names. When you see a school-zone sign, the exam is asking whether you slow to 40 km/h on school days, not whether you can spell the sign. Japan written tests do the same: 止まれ means a complete stop at the line, not a rolling pause.",
+    "Use this library with lesson mode. Look at the picture first, say the action out loud in your own language, then answer the practice question. Myanmar workers who study this way usually remember the rule in the test room even if the English wording feels unfamiliar.",
+    "TheoryLane drawings are original study illustrations. They are not copied from official exam papers. Always confirm the latest rules with Singapore Traffic Police or Japan’s National Police Agency before you book."
+   ]
+  }
  },
  "rewardedAd": {
   "button_default": "Watch ad to retry",
@@ -2441,6 +2473,26 @@
      "A free tier lets you try the platform daily. Premium unlocks unlimited mock tests and removes ads.",
      "For payment help, bugs, or content feedback, email us or use the Report issue form — we read every message."
     ]
+   },
+   {
+    "title": "Who we built this for",
+    "paragraphs": [
+     "TheoryLane started because Myanmar workers in Singapore and Japan were studying from screenshots, group-chat PDFs, and English papers they could not parse after a long shift. We wanted a phone-first practice tool with pictures on every question and explanations in Myanmar Unicode — not Zawgyi — plus English and Japanese.",
+     "The site is a study aid. It does not issue licences, book test slots, or represent any government. Booking still happens on OneMotoring in Singapore or at a designated driving school / licence centre in Japan."
+    ]
+   },
+   {
+    "title": "How the practice content is made",
+    "paragraphs": [
+     "Questions are written as original study items. We do not copy official exam papers. Illustrations are original or licensed study art. When a number such as a speed limit or fee appears, we treat it as publicly known information and tell you to confirm with the authority because fees change.",
+     "A person reviews Myanmar and Japanese wording before it goes live. If you spot a translation that would confuse a learner, use the Report issue form. We read those reports."
+    ]
+   },
+   {
+    "title": "Contact",
+    "paragraphs": [
+     "Email theorylanemm@gmail.com for payment checks, account help, or content mistakes. Include the question ID if you can. Do not send copies of official exam papers."
+    ]
    }
   ]
  },
@@ -2553,7 +2605,19 @@
   "badge_studying": "Still studying",
   "status_pending": "Pending approval",
   "status_approved": "Published",
-  "status_rejected": "Not approved"
+  "status_rejected": "Not approved",
+  "meta_title": "How Myanmar Learners Pass Singapore & Japan Theory Tests",
+  "meta_description": "Study habits that help Myanmar workers pass BTT, FTT, RTT and Japan written tests. Moderated member tips plus a practical revision plan from TheoryLane.",
+  "back_home": "← Back to home",
+  "article": {
+   "title": "A revision plan that works on a night-shift schedule",
+   "paragraphs": [
+    "Most of our learners are not full-time students. They finish a shift, eat, and have 25–40 minutes before sleep. That is enough if the session is specific. Do not open a random mock test when you are exhausted. Open one topic — mandatory signs, or school zones, or expressway rules — and finish a short lesson set.",
+    "A pattern that keeps showing up in passing stories: three short sessions a week in lesson mode, one timed practice on the rest day, and a mock test only when recent practice scores stay above 90%. Sitting a mock test every day without reviewing wrong answers trains you to repeat the same mistake.",
+    "Language matters. If English question wording feels heavy, switch the app to Myanmar, answer, then switch back to English for the last week before the booking. The official Singapore paper is in English. Japan’s paper is in Japanese. You need the idea in your language and the exam language in your eyes.",
+    "Member reviews below are checked by a person before they go public. They are not a substitute for official rules. Use them as morale and scheduling tips, then confirm booking steps with your driving centre or licence office."
+   ]
+  }
  },
  "practicalChecklist": {
   "breadcrumb_home": "← Home",
@@ -2756,7 +2820,41 @@
    "related_title": "Related study material",
    "related_signs": "Road signs library",
    "related_faq": "Test fees & FAQ",
-   "related_guide": "Study guide"
+   "related_guide": "Study guide",
+   "study_paragraphs": [
+    "BTT is the gate to practical lessons at BBDC, CDC or SSDC. You cannot start those lessons until you pass. That is why we recommend finishing signs and markings first, then rules of the road, then a timed mock only when untimed practice is already above 90%.",
+    "A practical week before booking: two evenings of lesson mode on signs, one evening on traffic rules, one short timed practice, then rest the night before the test. Cramming 200 questions at 1 a.m. after a shift raises panic more than scores."
+   ],
+   "mistakes_title": "Mistakes we see most in BTT practice",
+   "mistakes": [
+    "Treating a Give Way triangle like a Stop sign — or the reverse",
+    "Forgetting school-zone 40 km/h applies on school days, not every calendar day",
+    "Assuming every expressway is 90 km/h even when a lower sign is shown",
+    "Reading only the English option and skipping the picture"
+   ],
+   "featured_title": "Signs that appear early in BTT study",
+   "featured_signs": [
+    {
+     "src": "/signs/sg/stop.png",
+     "alt": "Singapore Stop sign",
+     "caption": "Stop — full halt"
+    },
+    {
+     "src": "/signs/sg/give-way.png",
+     "alt": "Singapore Give Way sign",
+     "caption": "Give way"
+    },
+    {
+     "src": "/signs/sg/no-entry.png",
+     "alt": "Singapore No Entry sign",
+     "caption": "No entry"
+    },
+    {
+     "src": "/signs/sg/school-zone.png",
+     "alt": "Singapore School Zone sign",
+     "caption": "School zone 40"
+    }
+   ]
   },
   "ftt": {
    "meta_title": "FTT Practice Test Singapore — Final Theory Test Mock Exam | TheoryLane",
@@ -2806,7 +2904,41 @@
    "related_title": "Related study material",
    "related_signs": "Road signs library",
    "related_faq": "Test fees & FAQ",
-   "related_roadmap": "Licensing roadmap"
+   "related_roadmap": "Licensing roadmap",
+   "study_paragraphs": [
+    "FTT is not a harder BTT. It assumes you have already been on the road in lessons. Questions lean into hazards, expressways, night driving and what a competent driver should notice before a situation becomes a crash.",
+    "If you passed BTT months ago and then paused lessons, revise BTT signs for two sessions before FTT mocks. Centres still expect the 90% pass mark. Five practical lessons is the usual booking gate — confirm with your centre."
+   ],
+   "mistakes_title": "Mistakes we see most in FTT practice",
+   "mistakes": [
+    "Answering from BTT memory without reading the hazard picture",
+    "Missing expressway-specific rules such as lane discipline and breakdown procedures",
+    "Booking FTT before five practical lessons and losing a test fee",
+    "Ignoring night-driving and weather questions because they feel rare"
+   ],
+   "featured_title": "Visual cues used in advanced theory",
+   "featured_signs": [
+    {
+     "src": "/signs/sg/traffic-signals.png",
+     "alt": "Traffic signals ahead sign",
+     "caption": "Signals ahead"
+    },
+    {
+     "src": "/signs/sg/pedestrian-crossing-ahead.png",
+     "alt": "Pedestrian crossing sign",
+     "caption": "Crossing ahead"
+    },
+    {
+     "src": "/signs/sg/slippery-road.png",
+     "alt": "General warning sign",
+     "caption": "Hazard warning"
+    },
+    {
+     "src": "/signs/sg/no-overtaking.png",
+     "alt": "No overtaking sign",
+     "caption": "No overtaking"
+    }
+   ]
   },
   "rtt": {
    "meta_title": "RTT Practice Test Singapore — Riding Theory Test | TheoryLane",
@@ -2856,7 +2988,41 @@
    "related_title": "Related study material",
    "related_signs": "Road signs library",
    "related_classes": "Licence classes",
-   "related_faq": "Test fees & FAQ"
+   "related_faq": "Test fees & FAQ",
+   "study_paragraphs": [
+    "Motorcycle riders take RTT instead of FTT. You still pass BTT first. RTT keeps the same 50-question, 90% format but the situations are two-wheel: filtering, group riding, and being less visible to cars.",
+    "If you already drive a car, do not skip RTT practice. Car habits (such as assuming other drivers see you) are a common source of wrong motorcycle answers. Sit a timed mock in RTT, not FTT, before you book."
+   ],
+   "mistakes_title": "Mistakes we see most in RTT practice",
+   "mistakes": [
+    "Using FTT car logic for motorcycle visibility and braking distance",
+    "Forgetting protective gear and passenger rules unique to Class 2B",
+    "Treating filtering as always legal without reading the scenario",
+    "Skipping BTT revision and losing easy sign marks on RTT day"
+   ],
+   "featured_title": "Signs and habits that matter on two wheels",
+   "featured_signs": [
+    {
+     "src": "/signs/sg/stop.png",
+     "alt": "Stop sign",
+     "caption": "Stop — complete halt"
+    },
+    {
+     "src": "/signs/sg/give-way.png",
+     "alt": "Give Way sign",
+     "caption": "Give way"
+    },
+    {
+     "src": "/signs/sg/no-entry.png",
+     "alt": "No Entry sign",
+     "caption": "No entry"
+    },
+    {
+     "src": "/signs/sg/ahead-only.png",
+     "alt": "Mandatory direction sign",
+     "caption": "Must follow arrow"
+    }
+   ]
   }
  }
 }

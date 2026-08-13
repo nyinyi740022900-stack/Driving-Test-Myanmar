@@ -5,14 +5,14 @@ import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useCountry } from '@/components/CountryProvider';
 import BackButton from '@/components/BackButton';
-import { getHandbooksForCountry, pickHandbookText } from '@/lib/handbooks';
+import { HANDBOOKS, pickHandbookText } from '@/lib/handbooks';
 
 export default function HandbookPage() {
   const params = useParams();
   const locale = (params?.locale as string) ?? 'en';
   const { country } = useCountry();
   const t = useTranslations('resourcesHandbook');
-  const handbooks = getHandbooksForCountry(country);
+  const handbooks = HANDBOOKS;
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>

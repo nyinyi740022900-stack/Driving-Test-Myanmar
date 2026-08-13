@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { useCountry } from '@/components/CountryProvider';
 import BackButton from '@/components/BackButton';
 
 type ClassInfo = {
@@ -19,7 +18,6 @@ type ClassInfo = {
 export default function LicenseClassesPage() {
   const params = useParams();
   const locale = (params?.locale as string) ?? 'en';
-  const { country } = useCountry();
   const t = useTranslations('resourcesLicenceClasses');
   const sgClasses = t.raw('sg_classes') as ClassInfo[];
   const jpClasses = t.raw('jp_classes') as ClassInfo[];
@@ -50,7 +48,7 @@ export default function LicenseClassesPage() {
         </div>
 
         {/* SG */}
-        {country === 'sg' && (<div style={{ marginBottom: 72 }}>
+        <div style={{ marginBottom: 72 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
             <span style={{ fontSize: '1.4rem' }}>🇸🇬</span>
             <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{t('sg_title')}</h2>
@@ -68,10 +66,10 @@ export default function LicenseClassesPage() {
           <Note>
             {t('sg_note')}
           </Note>
-        </div>)}
+        </div>
 
         {/* JP */}
-        {country === 'jp' && (<div>
+        <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
             <span style={{ fontSize: '1.4rem' }}>🇯🇵</span>
             <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{t('jp_title')}</h2>
@@ -92,7 +90,7 @@ export default function LicenseClassesPage() {
               {t('foreigners_link')}
             </Link>.
           </Note>
-        </div>)}
+        </div>
 
         {/* Quick compare */}
         <div style={{ marginTop: 56, background: '#fff', border: '1px solid var(--line)', borderRadius: 16, overflow: 'hidden' }}>

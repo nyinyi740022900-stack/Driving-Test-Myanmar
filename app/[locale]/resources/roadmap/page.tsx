@@ -1,13 +1,9 @@
 'use client';
 
-import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { useCountry } from '@/components/CountryProvider';
 import BackButton from '@/components/BackButton';
 
 export default function RoadmapPage() {
-  const params = useParams();
-  const { country } = useCountry();
   const t = useTranslations('resourcesRoadmap');
   const sgSteps = t.raw('sg_steps') as { n: number; title: string; body: string }[];
   const jpSteps = t.raw('jp_steps') as { n: number; title: string; body: string }[];
@@ -34,7 +30,7 @@ export default function RoadmapPage() {
         </div>
 
         {/* Singapore */}
-        {country === 'sg' && (<div style={{ marginBottom: 64 }}>
+        <div style={{ marginBottom: 64 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 32 }}>
             <span style={{ fontSize: '1.4rem' }}>🇸🇬</span>
             <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{t('sg_title')}</h2>
@@ -43,10 +39,10 @@ export default function RoadmapPage() {
           <div style={{ background: 'var(--paint-2)', border: '1px solid var(--line)', borderRadius: 12, padding: '16px 20px', marginTop: 16, fontSize: '.88rem', color: 'var(--ink-soft)', lineHeight: 1.6 }}>
             <strong>{t('sg_timeline_label')}</strong> {t('sg_timeline_body')}
           </div>
-        </div>)}
+        </div>
 
         {/* Japan */}
-        {country === 'jp' && (<div>
+        <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 32 }}>
             <span style={{ fontSize: '1.4rem' }}>🇯🇵</span>
             <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{t('jp_title')}</h2>
@@ -55,7 +51,7 @@ export default function RoadmapPage() {
           <div style={{ background: 'var(--paint-2)', border: '1px solid var(--line)', borderRadius: 12, padding: '16px 20px', marginTop: 16, fontSize: '.88rem', color: 'var(--ink-soft)', lineHeight: 1.6 }}>
             <strong>{t('jp_timeline_label')}</strong> {t('jp_timeline_body')}
           </div>
-        </div>)}
+        </div>
 
         <div style={{ marginTop: 48, textAlign: 'center' }}>
           <BackButton label={t('back_home')} style={{ color: 'var(--guide-deep)', fontWeight: 600, fontSize: '.9rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} />

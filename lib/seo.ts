@@ -146,7 +146,7 @@ export async function buildQuizMetadata(
       canonical: `${SITE_URL}/${locale}${path}`,
       ...localeAlternates(path),
     },
-    robots: mode === 'test' ? { index: true, follow: true } : { index: true, follow: true },
+    robots: { index: false, follow: true },
     openGraph: {
       title,
       description,

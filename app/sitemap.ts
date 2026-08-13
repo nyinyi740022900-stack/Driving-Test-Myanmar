@@ -2,7 +2,6 @@ import type { MetadataRoute } from 'next';
 import { SITE_URL } from '@/lib/brand';
 import { TEST_LANDING_PATHS } from '@/lib/seo';
 import { routing } from '@/i18n/routing';
-import type { Category } from '@/lib/types';
 
 const PUBLIC_PATHS = [
   '',
@@ -13,6 +12,7 @@ const PUBLIC_PATHS = [
   '/terms',
   '/refund',
   '/about',
+  '/experiences',
   '/resources/faq',
   '/resources/guide',
   '/resources/handbook',
@@ -27,9 +27,6 @@ const PUBLIC_PATHS = [
   '/resources/demerit-points',
 ] as const;
 
-const CATEGORIES: Category[] = ['sg_btt', 'sg_ftt', 'sg_rtt', 'jp_car', 'jp_moto'];
-const QUIZ_MODES = ['lesson', 'practice', 'test'] as const;
-
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const entries: MetadataRoute.Sitemap = [];
@@ -42,22 +39,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: path === '' ? 'weekly' : path.match(/^\/(btt|ftt|rtt)$/) ? 'weekly' : 'monthly',
         priority: path === '' ? 1 : path.match(/^\/(btt|ftt|rtt)$/) ? 0.95 : path.startsWith('/resources') ? 0.8 : 0.7,
       });
-    }
-
-    // Quiz tool pages are thin, near-duplicate templates (same UI, only the
-    // category/mode label differs) reached via internal links from the
-    // content-rich test landing pages above. Listing 45 of them at high
-    // priority told crawlers these were primary content, which they are not
-    // — keep them crawlable but low-signal in the sitemap.
-    for (const category of CATEGORIES) {
-      for (const mode of QUIZ_MODES) {
-        entries.push({
-          url: `${SITE_URL}/${locale}/quiz/${category}/${mode}`,
-          lastModified: now,
-          changeFrequency: 'monthly',
-          priority: 0.3,
-        });
-      }
     }
   }
 

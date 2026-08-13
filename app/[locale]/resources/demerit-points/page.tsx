@@ -3,7 +3,6 @@
 import type React from 'react';
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
-import { useCountry } from '@/components/CountryProvider';
 import BackButton from '@/components/BackButton';
 
 interface Stat {
@@ -19,18 +18,11 @@ interface Level {
 
 export default function DemeritPointsPage() {
   const locale = useLocale();
-  const { country } = useCountry();
   const t = useTranslations('resourcesDemerit');
-
-  const title = t(`${country}.title`);
-  const golden = t(`${country}.golden`);
-  const hook = t(`${country}.hook`);
-  const stats = t.raw(`${country}.stats`) as Stat[];
-  const offenceHeaders = t.raw(`${country}.offences_headers`) as string[];
-  const offences = t.raw(`${country}.offences`) as string[][];
-  const levels = t.raw(`${country}.levels`) as Level[];
-  const newdriverBody = t(`${country}.newdriver_body`);
-  const recoveryBody = t(`${country}.recovery_body`);
+  const countries: Array<{ code: 'sg' | 'jp'; flag: string }> = [
+    { code: 'sg', flag: '🇸🇬' },
+    { code: 'jp', flag: '🇯🇵' },
+  ];
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>
@@ -53,8 +45,20 @@ export default function DemeritPointsPage() {
           </p>
         </div>
 
+        {countries.map(({ code, flag }) => {
+          const title = t(`${code}.title`);
+          const golden = t(`${code}.golden`);
+          const hook = t(`${code}.hook`);
+          const stats = t.raw(`${code}.stats`) as Stat[];
+          const offenceHeaders = t.raw(`${code}.offences_headers`) as string[];
+          const offences = t.raw(`${code}.offences`) as string[][];
+          const levels = t.raw(`${code}.levels`) as Level[];
+          const newdriverBody = t(`${code}.newdriver_body`);
+          const recoveryBody = t(`${code}.recovery_body`);
+          return (
+        <div key={code} style={{ marginBottom: 64 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 24 }}>
-          <span style={{ fontSize: '1.4rem' }}>{country === 'sg' ? '🇸🇬' : '🇯🇵'}</span>
+          <span style={{ fontSize: '1.4rem' }}>{flag}</span>
           <h2 style={{ fontFamily: 'var(--display)', fontSize: '1.4rem', fontWeight: 800 }}>{title}</h2>
         </div>
 
@@ -138,6 +142,9 @@ export default function DemeritPointsPage() {
             {recoveryBody}
           </div>
         </Section>
+        </div>
+          );
+        })}
 
         {/* Cross links */}
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, marginTop: 8 }}>

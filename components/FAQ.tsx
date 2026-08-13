@@ -1,17 +1,16 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useCountry } from './CountryProvider';
 
 type FaqItem = { q: string; a: string };
 
 export default function FAQ() {
   const t = useTranslations('faq');
-  const { country } = useCountry();
 
-  const countryFaqs = t.raw(country === 'sg' ? 'sg' : 'jp') as FaqItem[];
+  const sgFaqs = t.raw('sg') as FaqItem[];
+  const jpFaqs = t.raw('jp') as FaqItem[];
   const sharedFaqs = t.raw('shared') as FaqItem[];
-  const items = [...countryFaqs, ...sharedFaqs];
+  const items = [...sgFaqs, ...jpFaqs, ...sharedFaqs];
 
   return (
     <section id="faq" style={{ background: 'var(--paint-2)' }}>
@@ -20,7 +19,7 @@ export default function FAQ() {
           <div className="eyebrow">{t('eyebrow')}</div>
           <h2>{t('heading')}</h2>
           <p style={{ color: 'var(--ink-soft)', fontSize: '.95rem', marginTop: 8 }}>
-            {country === 'sg' ? t('sub_sg') : t('sub_jp')}
+            {t('sub_sg')} {t('sub_jp')}
           </p>
         </div>
         <div className="faq">
