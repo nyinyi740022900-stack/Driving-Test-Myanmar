@@ -22,6 +22,9 @@ export type AdPlacement =
 /** Interstitial every N questions in lesson/practice (free users). */
 export const QUESTIONS_PER_INTERSTITIAL = 50;
 
+/** Quiz-screen ads are held back until AdSense site approval, then re-enabled. */
+export const ADS_ON_QUIZ_SCREENS = false;
+
 export function adsConfigured(): boolean {
   return Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID);
 }
@@ -37,11 +40,12 @@ export function canShowPlacement(
   switch (placement) {
     case 'home_mid':
     case 'home_footer':
+      return true;
     case 'quiz_lesson_practice':
     case 'quiz_result':
     case 'quiz_interstitial':
     case 'rewarded_unlock':
-      return true;
+      return ADS_ON_QUIZ_SCREENS;
     case 'quiz_test':
       // No ads during timed mock exams — reduces stress and abandonment.
       return false;

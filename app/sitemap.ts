@@ -7,7 +7,6 @@ const PUBLIC_PATHS = [
   '',
   ...TEST_LANDING_PATHS,
   '/premium',
-  '/feedback',
   '/privacy',
   '/terms',
   '/refund',
@@ -25,6 +24,7 @@ const PUBLIC_PATHS = [
   '/resources/practical-checklist',
   '/resources/memory-tips',
   '/resources/demerit-points',
+  '/resources/tutorials',
 ] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {

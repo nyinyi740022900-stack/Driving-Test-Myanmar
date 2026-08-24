@@ -1,45 +1,58 @@
-'use client';
-
-import { useParams } from 'next/navigation';
-import { useTranslations } from 'next-intl';
-import { useEffect, useState } from 'react';
-import { useCountry } from '@/components/CountryProvider';
+import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 import BackButton from '@/components/BackButton';
 import YouTubeEmbed from '@/components/YouTubeEmbed';
-import { extractYouTubeId } from '@/lib/youtube';
+import { buildResourceMetadata } from '@/lib/resourceMetadata';
+import { getPublishedTutorials, pickTutorialText, type TutorialWithVideo } from '@/lib/tutorials';
 
-interface DbTutorial {
-  id: string;
-  title_en: string; title_my: string; title_ja: string;
-  description_en: string; description_my: string; description_ja: string;
-  youtube_url: string;
+type PageProps = { params: Promise<{ locale: string }> };
+
+export const revalidate = 300;
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  return buildResourceMetadata(locale, 'resourcesTutorials', '/resources/tutorials');
 }
 
-function pick(row: DbTutorial, field: 'title' | 'description', locale: string): string {
-  const map = row as unknown as Record<string, string>;
-  return map[`${field}_${locale}`] || map[`${field}_en`] || map[`${field}_my`] || map[`${field}_ja`] || '';
+function VideoGrid({ videos, locale }: { videos: TutorialWithVideo[]; locale: string }) {
+  if (videos.length === 0) return null;
+  return (
+    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 24 }}>
+      {videos.map(({ videoId, ...row }) => {
+        const title = pickTutorialText(row, 'title', locale);
+        const description = pickTutorialText(row, 'description', locale);
+        return (
+          <div key={row.id} style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 16, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+            <div style={{ padding: 12, paddingBottom: 0 }}>
+              <YouTubeEmbed videoId={videoId} title={title} />
+            </div>
+            <div style={{ padding: '14px 18px 18px' }}>
+              <h3 style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: '1rem', lineHeight: 1.4, marginBottom: description ? 6 : 0 }}>
+                {title}
+              </h3>
+              {description && (
+                <p style={{ fontSize: '.85rem', color: 'var(--ink-soft)', lineHeight: 1.55 }}>{description}</p>
+              )}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
-export default function ResourceTutorialsPage() {
-  const params = useParams();
-  const locale = (params?.locale as string) ?? 'en';
-  const { country } = useCountry();
-  const t = useTranslations('resourcesTutorials');
-  const [tutorials, setTutorials] = useState<DbTutorial[]>([]);
-  const [loaded, setLoaded] = useState(false);
+export default async function ResourceTutorialsPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations('resourcesTutorials');
+  const [sgVideos, jpVideos] = await Promise.all([
+    getPublishedTutorials('sg'),
+    getPublishedTutorials('jp'),
+  ]);
 
-  useEffect(() => {
-    setLoaded(false);
-    fetch(`/api/tutorials?country=${country}`)
-      .then(r => r.json())
-      .then(data => setTutorials(Array.isArray(data) ? data : []))
-      .catch(() => {})
-      .finally(() => setLoaded(true));
-  }, [country]);
-
-  const videos = tutorials
-    .map(row => ({ row, videoId: extractYouTubeId(row.youtube_url) }))
-    .filter((v): v is { row: DbTutorial; videoId: string } => v.videoId !== null);
+  const sections = [
+    { key: 'sg' as const, videos: sgVideos, title: t('section_sg'), lead: t('section_sg_lead') },
+    { key: 'jp' as const, videos: jpVideos, title: t('section_jp'), lead: t('section_jp_lead') },
+  ];
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>
@@ -62,39 +75,15 @@ export default function ResourceTutorialsPage() {
           </p>
         </div>
 
-        {!loaded && (
-          <div style={{ textAlign: 'center', padding: '48px 0', color: 'var(--ink-soft)', fontSize: '.92rem' }}>
-            {t('loading')}
-          </div>
-        )}
-
-        {loaded && videos.length === 0 && (
-          <div style={{ textAlign: 'center', padding: '48px 0', color: 'var(--ink-soft)', fontSize: '.92rem' }}>
-            {t('empty')}
-          </div>
-        )}
-
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 24 }}>
-          {videos.map(({ row, videoId }) => {
-            const title = pick(row, 'title', locale);
-            const description = pick(row, 'description', locale);
-            return (
-              <div key={row.id} style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 16, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
-                <div style={{ padding: 12, paddingBottom: 0 }}>
-                  <YouTubeEmbed videoId={videoId} title={title} />
-                </div>
-                <div style={{ padding: '14px 18px 18px' }}>
-                  <h3 style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: '1rem', lineHeight: 1.4, marginBottom: description ? 6 : 0 }}>
-                    {title}
-                  </h3>
-                  {description && (
-                    <p style={{ fontSize: '.85rem', color: 'var(--ink-soft)', lineHeight: 1.55 }}>{description}</p>
-                  )}
-                </div>
-              </div>
-            );
-          })}
-        </div>
+        {sections.map((section, i) => (
+          <section key={section.key} aria-labelledby={`tutorials-${section.key}`} style={{ marginTop: i === 0 ? 0 : 56 }}>
+            <h2 id={`tutorials-${section.key}`} style={{ fontFamily: 'var(--display)', fontSize: '1.35rem', fontWeight: 800, marginBottom: 6 }}>
+              {section.title}
+            </h2>
+            <p style={{ color: 'var(--ink-soft)', fontSize: '.95rem', marginBottom: 22 }}>{section.lead}</p>
+            <VideoGrid videos={section.videos} locale={locale} />
+          </section>
+        ))}
       </div>
     </div>
   );
