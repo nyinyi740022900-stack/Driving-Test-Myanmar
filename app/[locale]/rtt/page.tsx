@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import AdSenseScript from '@/components/AdSenseScript';
 import TestLanding from '@/components/TestLanding';
 import { buildTestLandingMetadata } from '@/lib/seo';
 
@@ -11,5 +12,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function RttPage({ params }: PageProps) {
   const { locale } = await params;
-  return <TestLanding slug="rtt" locale={locale} />;
+  return (
+    <>
+      <AdSenseScript />
+      <TestLanding slug="rtt" locale={locale} />
+    </>
+  );
 }

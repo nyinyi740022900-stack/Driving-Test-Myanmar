@@ -343,7 +343,14 @@
     }
    ]
   },
-  "back_home": "ホームに戻る"
+  "back_home": "ホームに戻る",
+  "meta_title": "Memory Tips for Driving Theory Tests",
+  "meta_description": "Evidence-based study techniques for remembering road signs, speed limits and right-of-way rules for the Singapore and Japan theory tests.",
+  "article": {
+   "title": "Remembering rules you will still know on test day",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesDemerit": {
   "breadcrumb_home": "ホーム",
@@ -578,7 +585,14 @@
   "see_guide": "学習ガイド全体を見る →",
   "see_memory": "覚えやすいコツを見る →",
   "back_home": "ホームに戻る",
-  "recovery_title": "点数の経過と回復"
+  "recovery_title": "点数の経過と回復",
+  "meta_title": "Demerit Points & Driving Penalties Explained",
+  "meta_description": "How demerit point systems work in practice, why new drivers are treated differently, and how to study penalty rules for the Singapore and Japan theory tests.",
+  "article": {
+   "title": "What demerit systems are actually for",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "faq": {
   "eyebrow": "知っておきたいこと",
@@ -681,42 +695,42 @@
   "feature_5": "プロフィールで間違えた問題を復習",
   "choose_plan": "{plan}を選ぶ →",
   "currency_ks": " Ks",
-   "back_home": "← ホームへ戻る",
-   "meta_title": "プレミアム — 広告なし・模擬試験無制限 | TheoryLane",
-   "meta_description": "TheoryLaneプレミアムで広告を非表示にし、シンガポールBTT/FTT/RTTと日本の運転免許学科試験の模擬試験を無制限に練習。KBZPay/WavePayで月額・年額プランを購入できます。",
-   "compare_title": "無料版とプレミアムの比較",
-   "compare_col_feature": "機能",
-   "compare_col_free": "無料",
-   "compare_col_premium": "プレミアム",
-   "compare_row_lessons": "レッスン・練習問題",
-   "compare_row_mock": "模擬試験",
-   "compare_row_ads": "広告",
-   "compare_row_history": "クイズ履歴・ベストスコア",
-   "compare_row_review": "間違えた問題の復習リスト",
-   "compare_row_support": "サポート",
-   "compare_val_unlimited": "無制限",
-   "compare_val_one_daily": "1日1回",
-   "compare_val_with_ads": "広告あり",
-   "compare_val_no_ads": "広告なし",
-   "compare_val_yes": "✓ 利用可",
-   "compare_val_no": "—",
-   "compare_val_standard": "通常",
-   "compare_val_priority": "優先",
-   "how_title": "アップグレードの手順",
-   "how_1": "プランを選び、KBZPayまたはWavePayで送金します。",
-   "how_2": "支払いページでアカウントのメールアドレスと一緒に送金スクリーンショットを送信します。",
-   "how_3": "支払いを確認してプレミアムを有効化します — 通常数時間以内。",
-   "faq_title": "プレミアムFAQ",
-   "faq_1_q": "有効化までどのくらいかかりますか？",
-   "faq_1_a": "支払いは手動で確認するため通常数時間以内です。24時間以上経過した場合はスクリーンショットを添えてご連絡ください。",
-   "faq_2_q": "複数の端末で使えますか？",
-   "faq_2_a": "はい。プレミアムはアカウントに紐づくため、同じメールアドレスでログインすればどの端末でも利用できます。",
-   "faq_3_q": "プランが期限切れになったら？",
-   "faq_3_a": "アカウントは無料プランに戻ります。学習履歴は保存されたままなので、いつでも再購入できます。",
-   "faq_4_q": "レッスンや練習は無料のままですか？",
-   "faq_4_a": "はい。レッスンと練習問題は誰でも無料です。プレミアムは模擬試験の無制限利用、広告なし、履歴管理が追加されます。",
-   "faq_prompt": "質問がある方は",
-   "faq_link": "FAQ"
+  "back_home": "← ホームへ戻る",
+  "meta_title": "プレミアム — 広告なし・模擬試験無制限 | TheoryLane",
+  "meta_description": "TheoryLaneプレミアムで広告を非表示にし、シンガポールBTT/FTT/RTTと日本の運転免許学科試験の模擬試験を無制限に練習。KBZPay/WavePayで月額・年額プランを購入できます。",
+  "compare_title": "無料版とプレミアムの比較",
+  "compare_col_feature": "機能",
+  "compare_col_free": "無料",
+  "compare_col_premium": "プレミアム",
+  "compare_row_lessons": "レッスン・練習問題",
+  "compare_row_mock": "模擬試験",
+  "compare_row_ads": "広告",
+  "compare_row_history": "クイズ履歴・ベストスコア",
+  "compare_row_review": "間違えた問題の復習リスト",
+  "compare_row_support": "サポート",
+  "compare_val_unlimited": "無制限",
+  "compare_val_one_daily": "1日1回",
+  "compare_val_with_ads": "広告あり",
+  "compare_val_no_ads": "広告なし",
+  "compare_val_yes": "✓ 利用可",
+  "compare_val_no": "—",
+  "compare_val_standard": "通常",
+  "compare_val_priority": "優先",
+  "how_title": "アップグレードの手順",
+  "how_1": "プランを選び、KBZPayまたはWavePayで送金します。",
+  "how_2": "支払いページでアカウントのメールアドレスと一緒に送金スクリーンショットを送信します。",
+  "how_3": "支払いを確認してプレミアムを有効化します — 通常数時間以内。",
+  "faq_title": "プレミアムFAQ",
+  "faq_1_q": "有効化までどのくらいかかりますか？",
+  "faq_1_a": "支払いは手動で確認するため通常数時間以内です。24時間以上経過した場合はスクリーンショットを添えてご連絡ください。",
+  "faq_2_q": "複数の端末で使えますか？",
+  "faq_2_a": "はい。プレミアムはアカウントに紐づくため、同じメールアドレスでログインすればどの端末でも利用できます。",
+  "faq_3_q": "プランが期限切れになったら？",
+  "faq_3_a": "アカウントは無料プランに戻ります。学習履歴は保存されたままなので、いつでも再購入できます。",
+  "faq_4_q": "レッスンや練習は無料のままですか？",
+  "faq_4_a": "はい。レッスンと練習問題は誰でも無料です。プレミアムは模擬試験の無制限利用、広告なし、履歴管理が追加されます。",
+  "faq_prompt": "質問がある方は",
+  "faq_link": "FAQ"
  },
  "payment": {
   "plan_monthly_label": "月額プレミアム",
@@ -1256,7 +1270,14 @@
     "title": "免許証交付",
     "body": "学科合格後、視力検査・写真等の手続きを済ませると当日に免許証が交付されます。"
    }
-  ]
+  ],
+  "meta_title": "Driving Licence Roadmap — Singapore & Japan Step by Step",
+  "meta_description": "The full path from registration to a full driving licence in Singapore and Japan, in order, with the practical decisions Myanmar learners face at each stage.",
+  "article": {
+   "title": "Reading the roadmap as a sequence of decisions",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesCosts": {
   "breadcrumb_home": "← ホームへ戻る",
@@ -1538,7 +1559,14 @@
   },
   "disclaimer_label": "免責事項:",
   "disclaimer_text": "料金は目安で変更される可能性があります。シンガポールの料金は2026年時点のGST込み。日本の料金は警察庁の公表値に基づきます。予算計画前にTraffic Police / OneMotoring（SG）または各都道府県の免許センター（JP）で必ず確認してください。",
-  "back_home": "← ホームへ戻る"
+  "back_home": "← ホームへ戻る",
+  "meta_title": "Driving Licence Costs — Singapore & Japan Budget Guide",
+  "meta_description": "How to build a realistic budget for getting a driving licence in Singapore or Japan, including the costs learners routinely forget.",
+  "article": {
+   "title": "Building a budget that survives contact with reality",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesTutorials": {
   "breadcrumb_home": "← ホームへ戻る",
@@ -1550,12 +1578,17 @@
   },
   "loading": "動画を読み込み中…",
   "empty": "チュートリアル動画はまだありません — また後でご確認ください。",
-  "meta_title": "運転理論動画チュートリアル — SG・JP | TheoryLane",
+  "meta_title": "運転理論動画チュートリアル — SG・JP",
   "meta_description": "シンガポールBTT・FTT・RTTと日本の運転免許学科試験のための厳選無料動画レッスン — 英語・ミャンマー語・日本語でステップごとに解説します。",
   "section_sg": "🇸🇬 シンガポール — BTT・FTT・RTT",
   "section_sg_lead": "シンガポールのBasic Theory Test、Final Theory Test、Riding Theory Test向け動画レッスン。",
   "section_jp": "🇯🇵 日本 — 普通車・二輪",
-  "section_jp_lead": "日本の運転免許学科試験（普通車・二輪）向け動画レッスン。"
+  "section_jp_lead": "日本の運転免許学科試験（普通車・二輪）向け動画レッスン。",
+  "article": {
+   "title": "Getting real value out of video lessons",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesFaq": {
   "breadcrumb_home": "← ホームへ戻る",
@@ -1695,7 +1728,14 @@
     "a": "6ヶ月間です。仮免取得後6ヶ月以内に路上教習・卒業試験を修了する必要があります。"
    }
   ],
-  "back_home": "← ホームへ戻る"
+  "back_home": "← ホームへ戻る",
+  "meta_title": "Driving Theory Test FAQ — Fees, Retakes & Booking",
+  "meta_description": "Straight answers to the questions Myanmar learners ask most about the Singapore BTT, FTT and RTT and the Japan written test — booking, retakes, what to bring, and how long preparation really takes.",
+  "article": {
+   "title": "The questions behind the questions",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesGlossary": {
   "breadcrumb_home": "← ホームへ戻る",
@@ -1941,7 +1981,14 @@
     "note": "公道の作業車に対応（オフロードは対象外）。"
    }
   ],
-  "back_home": "← ホームへ戻る"
+  "back_home": "← ホームへ戻る",
+  "meta_title": "Driving Licence Classes — Singapore & Japan Compared",
+  "meta_description": "How licence classes are structured in Singapore and Japan, how to work out which class you need, and why choosing the wrong one costs money.",
+  "article": {
+   "title": "Choosing the right class before you pay for anything",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesForeigners": {
   "breadcrumb_home": "← Home",
@@ -2010,7 +2057,14 @@
   },
   "disclaimer_label": "免責事項:",
   "disclaimer_text": "本情報は一般的な案内です。要件は変更される可能性があるため、必ず Traffic Police（Singapore）または各都道府県の免許センター（Japan）、登録移民アドバイザーに確認してください。",
-  "back_home": "← Back to home"
+  "back_home": "← Back to home",
+  "meta_title": "Foreigners' Driving Guide — Singapore & Japan",
+  "meta_description": "What Myanmar nationals need to know about converting an overseas licence, international permits, and legally driving in Singapore and Japan — plus how to verify your own situation.",
+  "article": {
+   "title": "Why conversion advice is so often wrong, and how to check yours",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesSigns": {
   "breadcrumb_home": "← Home",
@@ -2604,7 +2658,14 @@
   "studyInApp": "翻訳ハンドブックのPDFは提供していません。英語・ミャンマー語・日本語のオリジナル問題と解説は、アプリ内の学習・練習モードをご利用ください。",
   "studyInApp_cta": "アプリで学習を始める",
   "download": "公式リンク",
-  "back_home": "← ホームに戻る"
+  "back_home": "← ホームに戻る",
+  "meta_title": "Official Driving Theory Handbooks — Singapore & Japan",
+  "meta_description": "Where to find the official Singapore Traffic Police theory handbooks and Japan's National Police Agency exam guidance, and how to actually study them if English is not your first language.",
+  "article": {
+   "title": "How to study the official handbooks without drowning in them",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "experiences": {
   "breadcrumb_home": "← ホーム",

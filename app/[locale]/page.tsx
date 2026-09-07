@@ -12,6 +12,7 @@ import Pricing from '@/components/Pricing';
 import Footer from '@/components/Footer';
 import Reveal from '@/components/Reveal';
 import AdBanner from '@/components/AdBanner';
+import AdSenseScript from '@/components/AdSenseScript';
 import { AD_SLOTS } from '@/lib/ad-strategy';
 import JsonLd from '@/components/JsonLd';
 import { buildHomeMetadata, organizationJsonLd, webSiteJsonLd } from '@/lib/seo';
@@ -33,6 +34,7 @@ export default async function HomePage({ params }: PageProps) {
 
   return (
     <>
+      <AdSenseScript />
       <JsonLd
         data={[
           organizationJsonLd(),

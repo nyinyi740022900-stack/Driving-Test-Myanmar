@@ -89,23 +89,12 @@ export default async function LocaleLayout({
             }}
           />
         )}
-        {/* AdSense verification crawler only fetches raw HTML — it never runs
-            client JS, so this must be a real <script> tag in <head>, not a
-            next/script lazyOnload injection (which only exists post-hydration). */}
-        {ADSENSE_ID && (
-          <>
-            <script
-              async
-              src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`}
-              crossOrigin="anonymous"
-            />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `window.adBreak=window.adConfig=function(o){(window.adsbygoogle=window.adsbygoogle||[]).push(o)};`,
-              }}
-            />
-          </>
-        )}
+        {/* The adsbygoogle loader is intentionally NOT here. A loader in the
+            shared <head> puts Google-served ads on every screen, including
+            auth, payment, profile, feedback and the near-identical quiz
+            screens — an AdSense policy violation ("Google-served ads on
+            screens with replicated content"). Pages with real publisher
+            content render <AdSenseScript /> themselves. */}
       </head>
       <body>
         {/* Analytics — deferred so it never competes with hydration or early taps.

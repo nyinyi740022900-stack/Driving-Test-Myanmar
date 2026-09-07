@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 import { useCountry } from '@/components/CountryProvider';
 import BackButton from '@/components/BackButton';
+import StudyArticle from '@/components/StudyArticle';
 
 interface DbFaq {
   id: string;
@@ -52,6 +53,8 @@ export default function ResourceFaqPage() {
             {t('hero.lead')}
           </p>
         </div>
+
+        <StudyArticle title={t('article.title')} paragraphs={t.raw('article.paragraphs') as string[]} />
 
         {/* Singapore */}
         <div style={{ marginBottom: 64 }}>

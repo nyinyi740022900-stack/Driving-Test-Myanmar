@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import BackButton from '@/components/BackButton';
+import StudyArticle from '@/components/StudyArticle';
 
 type ClassInfo = {
   code: string;
@@ -46,6 +47,8 @@ export default function LicenseClassesPage() {
             {t('hero.lead')}
           </p>
         </div>
+
+        <StudyArticle title={t('article.title')} paragraphs={t.raw('article.paragraphs') as string[]} />
 
         {/* SG */}
         <div style={{ marginBottom: 72 }}>

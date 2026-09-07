@@ -343,7 +343,21 @@
     }
    ]
   },
-  "back_home": "Back to home"
+  "back_home": "Back to home",
+  "meta_title": "Memory Tips for Driving Theory Tests",
+  "meta_description": "Evidence-based study techniques for remembering road signs, speed limits and right-of-way rules for the Singapore and Japan theory tests.",
+  "article": {
+   "title": "Remembering rules you will still know on test day",
+   "paragraphs": [
+    "There is a specific failure mode in theory revision that almost everyone experiences: you study for hours, you feel like you know the material, and then in the exam hall the rule you were most confident about simply does not arrive. This is not bad luck and it is not a memory defect. It is the predictable result of studying by rereading, which builds familiarity with the text rather than the ability to retrieve the content without it.",
+    "The correction is to make yourself retrieve. Close the page and try to state the rule before you check. It will feel worse than rereading, because you will be wrong more often and the effort is unpleasant. That difficulty is the mechanism — the effort of pulling something out of memory is what makes it available later. Comfortable study produces confident failure; uncomfortable study produces unglamorous success.",
+    "Space the retrieval out. Ten minutes today, ten minutes in three days and ten minutes next week will beat forty minutes tonight, by a wide margin and for months longer. Every time you successfully recall something after having partly forgotten it, you strengthen it considerably more than a recall while it is still fresh. This is why cramming the night before produces a pass followed by total evaporation, which matters if you have a practical test ahead of you or, more importantly, a road.",
+    "Mix the topics. Studying all the signs, then all the speed limits, then all the penalties feels organised, but within a block you stop having to work out which category a question belongs to — the block tells you. Real exam questions arrive in no order at all, and the skill of identifying what kind of question you are looking at is a skill you have to practise separately. Shuffled practice feels less productive and performs better.",
+    "For signs specifically, learn the grammar rather than the vocabulary. Sign systems are designed to be readable by shape and colour before you read any text: a circle constrains, a triangle warns, red generally prohibits, blue generally instructs. A learner who knows the grammar can make a well-founded guess at a sign they have never seen; a learner who has memorised two hundred individual pictures cannot. This is also why signs transfer reasonably well between countries while specific figures do not.",
+    "Mnemonics have a narrow but real use. They are excellent for arbitrary lists where the order matters and there is no logic to lean on, and they are a waste of effort for anything that has an underlying reason — for those, understanding the reason is faster and more robust. Build a memory hook only after you have failed to find a reason, not instead of looking.",
+    "Finally, use your wrong answers deliberately. A question you missed is worth ten you answered correctly, because it has located a gap precisely. Keep a short list of every rule you have got wrong more than once, and revise only that list in the final days. It is almost always much shorter than you fear, and it is exactly where your remaining marks are."
+   ]
+  }
  },
  "resourcesDemerit": {
   "breadcrumb_home": "Home",
@@ -578,7 +592,20 @@
   },
   "see_guide": "See the full study guide →",
   "see_memory": "See easy-to-remember tips →",
-  "back_home": "Back to home"
+  "back_home": "Back to home",
+  "meta_title": "Demerit Points & Driving Penalties Explained",
+  "meta_description": "How demerit point systems work in practice, why new drivers are treated differently, and how to study penalty rules for the Singapore and Japan theory tests.",
+  "article": {
+   "title": "What demerit systems are actually for",
+   "paragraphs": [
+    "Demerit point systems are widely misread as fines with extra steps. They are not. A fine prices a single offence; a demerit system tracks a pattern. The design intent is that one lapse should be correctable, while a habit of the same lapse should progressively remove your licence. Understanding that intent makes the specific rules much easier to remember, because almost every detail follows from it.",
+    "It explains, for instance, why points expire. If the system is measuring a pattern of behaviour, then behaviour from several years ago should stop counting once you have demonstrated a clean stretch. It explains why offences that create risk for others — speed, priority violations, phone use, drink driving — attract heavier weightings than administrative failures. And it explains why the thresholds are set low enough that a driver who genuinely does not change will reach them.",
+    "It also explains the treatment of new drivers. In both Singapore and Japan, drivers in their probationary period face tighter limits than experienced ones. This is not a punishment for inexperience; it is a shorter feedback loop applied at the point where driving habits are actually forming. A new driver who accumulates points quickly is on a trajectory, and the system intervenes before the trajectory becomes permanent.",
+    "For the theory test, penalty questions are among the most reliably scored topics, because the material is finite and factual. But it is also where rote memorisation fails most visibly, because examiners like to test the boundaries — what happens at the threshold rather than below it, what applies during probation rather than after, what the consequence is on a second occurrence rather than a first. If you only memorise headline numbers you will answer the easy version of the question and miss the real one.",
+    "The study technique that works here is to learn the structure before the figures. Know that there is a threshold, that the threshold is lower during probation, that there is a suspension consequence, that the suspension lengthens on repetition, and that points decay over time. Once that skeleton is solid, the specific numbers attach to it easily and stay attached. Learned as an unstructured list, the same numbers slide off within days.",
+    "Penalty schedules and thresholds are set by legislation and are amended from time to time. Verify current figures against the official handbook or authority website for the country you are testing in before relying on them — including any figures shown elsewhere on this site."
+   ]
+  }
  },
  "faq": {
   "eyebrow": "Good to know",
@@ -681,42 +708,42 @@
   "feature_5": "Wrong-answer review list on profile",
   "choose_plan": "Choose {plan} →",
   "currency_ks": " Ks",
-   "back_home": "← Back to home",
-   "meta_title": "Premium — No Ads & Unlimited Mock Tests | TheoryLane",
-   "meta_description": "Go Premium on TheoryLane: remove ads, unlock unlimited mock tests for Singapore BTT, FTT, RTT and Japan driving theory, and keep quiz history with wrong-answer reviews. Monthly or yearly plans via KBZPay and WavePay.",
-   "compare_title": "Free vs Premium",
-   "compare_col_feature": "Feature",
-   "compare_col_free": "Free",
-   "compare_col_premium": "Premium",
-   "compare_row_lessons": "Lessons & practice questions",
-   "compare_row_mock": "Mock tests",
-   "compare_row_ads": "Ads",
-   "compare_row_history": "Quiz history & best scores",
-   "compare_row_review": "Wrong-answer review list",
-   "compare_row_support": "Support",
-   "compare_val_unlimited": "Unlimited",
-   "compare_val_one_daily": "1 per day",
-   "compare_val_with_ads": "With ads",
-   "compare_val_no_ads": "No ads",
-   "compare_val_yes": "✓ Included",
-   "compare_val_no": "—",
-   "compare_val_standard": "Standard",
-   "compare_val_priority": "Priority",
-   "how_title": "How to upgrade",
-   "how_1": "Choose a plan and transfer the amount via KBZPay or WavePay.",
-   "how_2": "Submit your payment screenshot on the payment page together with your account email.",
-   "how_3": "We verify your payment and activate Premium — usually within a few hours.",
-   "faq_title": "Premium FAQ",
-   "faq_1_q": "How long does activation take?",
-   "faq_1_a": "Payments are verified manually, usually within a few hours. If it has been more than 24 hours, contact us with your payment screenshot.",
-   "faq_2_q": "Can I use Premium on more than one device?",
-   "faq_2_a": "Yes. Premium is tied to your account — sign in with the same email on any phone, tablet or computer.",
-   "faq_3_q": "What happens when my plan expires?",
-   "faq_3_a": "Your account returns to the free plan. Your progress, streaks and history stay saved, and you can renew any time.",
-   "faq_4_q": "Do lessons and practice stay free?",
-   "faq_4_a": "Yes. All lessons and practice questions are free for everyone. Premium adds unlimited mock tests, an ad-free experience and history tracking.",
-   "faq_prompt": "Questions? See our",
-   "faq_link": "FAQ"
+  "back_home": "← Back to home",
+  "meta_title": "Premium — No Ads & Unlimited Mock Tests | TheoryLane",
+  "meta_description": "Go Premium on TheoryLane: remove ads, unlock unlimited mock tests for Singapore BTT, FTT, RTT and Japan driving theory, and keep quiz history with wrong-answer reviews. Monthly or yearly plans via KBZPay and WavePay.",
+  "compare_title": "Free vs Premium",
+  "compare_col_feature": "Feature",
+  "compare_col_free": "Free",
+  "compare_col_premium": "Premium",
+  "compare_row_lessons": "Lessons & practice questions",
+  "compare_row_mock": "Mock tests",
+  "compare_row_ads": "Ads",
+  "compare_row_history": "Quiz history & best scores",
+  "compare_row_review": "Wrong-answer review list",
+  "compare_row_support": "Support",
+  "compare_val_unlimited": "Unlimited",
+  "compare_val_one_daily": "1 per day",
+  "compare_val_with_ads": "With ads",
+  "compare_val_no_ads": "No ads",
+  "compare_val_yes": "✓ Included",
+  "compare_val_no": "—",
+  "compare_val_standard": "Standard",
+  "compare_val_priority": "Priority",
+  "how_title": "How to upgrade",
+  "how_1": "Choose a plan and transfer the amount via KBZPay or WavePay.",
+  "how_2": "Submit your payment screenshot on the payment page together with your account email.",
+  "how_3": "We verify your payment and activate Premium — usually within a few hours.",
+  "faq_title": "Premium FAQ",
+  "faq_1_q": "How long does activation take?",
+  "faq_1_a": "Payments are verified manually, usually within a few hours. If it has been more than 24 hours, contact us with your payment screenshot.",
+  "faq_2_q": "Can I use Premium on more than one device?",
+  "faq_2_a": "Yes. Premium is tied to your account — sign in with the same email on any phone, tablet or computer.",
+  "faq_3_q": "What happens when my plan expires?",
+  "faq_3_a": "Your account returns to the free plan. Your progress, streaks and history stay saved, and you can renew any time.",
+  "faq_4_q": "Do lessons and practice stay free?",
+  "faq_4_a": "Yes. All lessons and practice questions are free for everyone. Premium adds unlimited mock tests, an ad-free experience and history tracking.",
+  "faq_prompt": "Questions? See our",
+  "faq_link": "FAQ"
  },
  "payment": {
   "plan_monthly_label": "Monthly Premium",
@@ -1256,7 +1283,20 @@
     "title": "免許証交付 — Receive Your Licence",
     "body": "After passing the theory test and completing any remaining formalities (vision check, photo) at the licence centre, your 運転免許証 is issued the same day."
    }
-  ]
+  ],
+  "meta_title": "Driving Licence Roadmap — Singapore & Japan Step by Step",
+  "meta_description": "The full path from registration to a full driving licence in Singapore and Japan, in order, with the practical decisions Myanmar learners face at each stage.",
+  "article": {
+   "title": "Reading the roadmap as a sequence of decisions",
+   "paragraphs": [
+    "A licensing roadmap looks like a list of steps, but it is more useful to read it as a list of decisions. Each stage has a point where you choose something — a school or a private instructor, a test date, whether to sit the next stage now or wait — and the quality of those decisions determines how long and how expensive the whole process becomes far more than raw ability does.",
+    "The first real decision is where you learn. Both Singapore and Japan support a school route and, in various forms, a more independent route. The school route costs more up front and gives you structure, a predictable schedule, and staff who deal with the licensing bureaucracy every day. The independent route can be cheaper and more flexible but transfers all the scheduling and paperwork risk to you. Neither is objectively better; what matters is honestly assessing how much administrative load you can carry alongside work.",
+    "The second decision is when to sit the theory test. There is a strong temptation to book it early as a motivational deadline. This works well if you are already scoring consistently in practice and need a reason to finish; it works badly if you are still learning the material, because a failed attempt costs you a waiting period that is usually longer than the study time you were trying to save.",
+    "The third is pacing between theory and practical. Because theory is a prerequisite for road practice in both systems, the gap between passing theory and starting lessons is dead time in which knowledge decays. Try to have your practical arrangements at least provisionally in place before your theory result arrives, so the momentum carries.",
+    "For Myanmar nationals there is an additional layer that the standard roadmaps do not show: your immigration and residence status affects which route is open to you, what documents you must produce, and sometimes how long each stage takes. This is the part most worth verifying in person, early, with the authority or the school — before you pay for anything. Requirements here change and vary by individual circumstance, so treat any second-hand account, including advice from friends who went through it a year ago, as a starting point to confirm rather than as fact.",
+    "Finally, expect the roadmap to take longer than the sum of its stages. The delays are almost never in the tests themselves; they are in waiting for slots, for documents, and for the next available instructor. Building that expectation in from the start is the difference between a process that feels slow and one that feels like it is going wrong."
+   ]
+  }
  },
  "resourcesCosts": {
   "breadcrumb_home": "← Home",
@@ -1538,7 +1578,20 @@
   },
   "disclaimer_label": "Disclaimer:",
   "disclaimer_text": "All fees are approximate and may change. Singapore fees include GST as of 2026. Japan fees are as published by the 警察庁. Always verify with the relevant authority (Traffic Police / OneMotoring for SG; your prefecture's 免許センター for JP) before budgeting.",
-  "back_home": "← Back to home"
+  "back_home": "← Back to home",
+  "meta_title": "Driving Licence Costs — Singapore & Japan Budget Guide",
+  "meta_description": "How to build a realistic budget for getting a driving licence in Singapore or Japan, including the costs learners routinely forget.",
+  "article": {
+   "title": "Building a budget that survives contact with reality",
+   "paragraphs": [
+    "Nearly every learner underestimates the total cost of a licence, and the reason is consistent: published prices describe a first attempt that goes perfectly. The advertised figure is for the course, the test and the licence itself. The real figure includes the retakes, the extra lessons your instructor recommends, the rescheduling fees, and the travel to a centre that is rarely near where you live.",
+    "The largest single variable is lesson count, and it is almost entirely outside the advertised price. Two people on the same course, at the same school, paying the same headline fee, routinely end up hundreds of dollars apart because one needed eight extra hours behind the wheel and the other needed none. Anyone who tells you confidently what your licence will cost is really telling you what theirs cost.",
+    "This is where theory preparation pays for itself in a way that is easy to miss. Instructor time is the expensive resource. Every minute your instructor spends explaining a rule you could have learned for free from a handbook or a practice app is a minute not spent on clutch control, observation or manoeuvring. Arriving at your first lesson already fluent in the rules genuinely reduces the number of paid hours you need — which is why free theory practice has an outsized effect on a paid budget.",
+    "The costs learners most often forget: retest fees and the administrative charges around rebooking; the medical or eyesight check where one is required; photographs meeting a specific specification; travel and the working hours lost to appointments during office hours; and, if you are converting a foreign licence, translation or certification of documents. None of these are large individually. Together they are frequently the difference between the budget and the bill.",
+    "A workable planning method is to take the published course price, add the cost of two additional lessons and one retest, and treat that as your realistic figure. If you come in under it you have money left; if you come in over it you were going to be over it regardless, and you found out early. Building the buffer in also removes the pressure to sit a test before you are ready in order to avoid another lesson fee — a false economy that produces exactly the retest you were trying to avoid.",
+    "Fees are set by driving centres and licensing authorities and change regularly. Treat every figure elsewhere on this page as an indication of scale to help you plan, and confirm current prices directly with your centre or the authority before budgeting on them."
+   ]
+  }
  },
  "resourcesTutorials": {
   "breadcrumb_home": "← Home",
@@ -1550,12 +1603,23 @@
   },
   "loading": "Loading videos…",
   "empty": "No tutorial videos yet — check back soon.",
-  "meta_title": "Driving Theory Video Tutorials — SG & JP | TheoryLane",
+  "meta_title": "Driving Theory Video Tutorials — SG & JP",
   "meta_description": "Free hand-picked video lessons for the Singapore BTT, FTT, RTT and Japan driving theory tests — step-by-step explanations in English, Myanmar and Japanese.",
   "section_sg": "🇸🇬 Singapore — BTT · FTT · RTT",
   "section_sg_lead": "Video lessons for the Singapore Basic Theory Test, Final Theory Test and Riding Theory Test.",
   "section_jp": "🇯🇵 Japan — Car & Motorcycle",
-  "section_jp_lead": "Video lessons for the Japan driving licence written test (car and motorcycle)."
+  "section_jp_lead": "Video lessons for the Japan driving licence written test (car and motorcycle).",
+  "article": {
+   "title": "Getting real value out of video lessons",
+   "paragraphs": [
+    "Video is the fastest way to understand anything spatial — lane discipline, filtering, junction priority, how a roundabout actually resolves. A diagram in a handbook shows you a frozen moment; a video shows you the moment developing, which is much closer to what your brain has to do in the driver's seat. For those topics, watching is genuinely more efficient than reading.",
+    "Video is much weaker for anything you have to recall precisely: figures, thresholds, categories, the exact wording of a rule. Watching a clear explanation produces a strong feeling of understanding that fades within a day, because you never had to retrieve anything yourself. This is the single most common mistake we see — hours of watching, a confident feeling, and a disappointing mock score.",
+    "The fix is simple and slightly uncomfortable: after every video, close it and answer questions on the same topic before you watch the next one. Getting three questions wrong immediately after a video you thought you understood is not a sign that the video was bad. It is the information you needed, delivered at the only point where it is cheap to act on.",
+    "Watch at a speed that lets you pause. When an explanation covers a situation you have never encountered — an expressway merge, a level crossing, a road you would not normally drive on — stop the video and describe out loud what you would do before the presenter tells you. Prediction before explanation is what turns a passive viewing into practice.",
+    "Be careful with videos made for other countries. A great explanation of a roundabout filmed for a right-hand-drive market may still get priority conventions wrong for the country you are testing in, and rules around speed, alcohol limits and penalties differ substantially between Singapore and Japan. Use video for the physical skill and the spatial reasoning; verify every number against the official handbook for the country whose test you are sitting.",
+    "The lessons collected here are chosen for clarity and for relevance to the Singapore and Japan theory syllabuses. They are a starting point, not a syllabus in themselves — pair each one with question practice in the same topic and you will get far more out of the same hour."
+   ]
+  }
  },
  "resourcesFaq": {
   "breadcrumb_home": "← Home",
@@ -1695,7 +1759,20 @@
     "a": "6ヶ月間です。仮免取得後6ヶ月以内に路上教習・卒業試験を修了する必要があります。"
    }
   ],
-  "back_home": "← Back to home"
+  "back_home": "← Back to home",
+  "meta_title": "Driving Theory Test FAQ — Fees, Retakes & Booking",
+  "meta_description": "Straight answers to the questions Myanmar learners ask most about the Singapore BTT, FTT and RTT and the Japan written test — booking, retakes, what to bring, and how long preparation really takes.",
+  "article": {
+   "title": "The questions behind the questions",
+   "paragraphs": [
+    "Most of the questions people send us are not really about fees or booking. They are versions of one underlying worry: am I doing this the normal way, or have I misunderstood something everyone else already knows? If that is where you are, you are in ordinary company. The licensing process in both Singapore and Japan is bureaucratic by design, the sequencing is not obvious, and almost nobody gets through it without at least one wasted trip.",
+    "The most useful thing to internalise early is that theory is a gate, not a hurdle to be scraped through. In both countries the written test exists to make sure you know the rules before you are allowed to practise on public roads with an instructor. Passing it comfortably rather than narrowly makes every practical lesson afterwards cheaper, because you are spending instructor time on car control instead of on rules you should already know.",
+    "On timing: the honest answer is that preparation length depends far more on your English or Japanese reading speed than on your driving knowledge. Learners who are comfortable in the test language often need a couple of focused weeks. Learners reading in a second language frequently need longer, not because the concepts are harder but because every question carries a small translation cost that adds up across a timed paper. If that is you, build reading speed deliberately: practise in the test language even when a translation is available, and use the translation only to check yourself afterwards.",
+    "On retakes: a failed attempt is a scheduling problem, not a verdict. Both systems allow you to sit again after a waiting period, and the candidates who pass on the second attempt overwhelmingly do one specific thing — they find out which topics they failed on rather than simply revising everything again. If your result gives you any topic breakdown, that breakdown is the most valuable thing you will receive that day.",
+    "On what to bring and how to book: procedures, identity requirements and fees are set by the licensing authority and are revised from time to time. Always confirm the current requirements on the official website or with your driving centre before travelling to an appointment. We deliberately do not restate fee figures in this article, because an out-of-date number here would cost you a trip.",
+    "And on the question people are most embarrassed to ask — no, you are not too old, and no, having failed once does not follow you around. The test measures whether you know the rules today."
+   ]
+  }
  },
  "resourcesGlossary": {
   "breadcrumb_home": "← Home",
@@ -1941,7 +2018,20 @@
     "note": "Covers slow-moving construction vehicles on public roads (not off-road operation)."
    }
   ],
-  "back_home": "← Back to home"
+  "back_home": "← Back to home",
+  "meta_title": "Driving Licence Classes — Singapore & Japan Compared",
+  "meta_description": "How licence classes are structured in Singapore and Japan, how to work out which class you need, and why choosing the wrong one costs money.",
+  "article": {
+   "title": "Choosing the right class before you pay for anything",
+   "paragraphs": [
+    "Licence classes exist because the skill required to control a vehicle scales with its mass, its length and how it behaves under braking. A system that let anyone who could handle a small car drive a heavy goods vehicle would be indifferent to physics. So each class is a statement about a category of vehicle, and the boundaries between classes are usually drawn on weight, seating capacity, engine displacement or transmission type rather than on anything visible from the outside.",
+    "That last one — transmission — is where most avoidable mistakes happen. In both Singapore and Japan it is possible to qualify on an automatic vehicle and receive a licence restricted to automatics. This is faster and often cheaper, and for many people it is entirely sufficient. But if you may later need to drive a manual vehicle, whether for work or when visiting family, an automatic-only licence will not permit it and lifting the restriction means going back for further assessment. Decide this deliberately at the start rather than defaulting to whatever the school suggests.",
+    "The second common mistake is qualifying for a class narrower than the job you actually want. If your plan involves driving for a living — delivery, goods, passengers, or riding commercially — the class you need may be different from, and require prior possession of, the ordinary class most learners take. Working backwards from the job to the class is much cheaper than discovering the gap after you have paid for a full course.",
+    "Motorcycle classes deserve their own thought. They are typically graded by engine capacity or power, and a licence for a smaller machine does not automatically extend upward. Riders often start on a smaller class because it is quicker to obtain, then find that the bike they actually want sits above the limit. If you already know what you intend to ride, checking which class covers it before booking anything will save you an entire cycle of training and testing.",
+    "When you compare across countries, resist the instinct to map classes one to one. Singapore and Japan both group vehicles sensibly, but they draw the lines in different places and use different naming conventions, so a rough equivalence is not a legal equivalence. This matters especially if you hold a licence from one country and are looking at the other — recognition is decided by the receiving authority's own categories, not by which names sound similar.",
+    "Category definitions, weight limits and age requirements are set in regulation and can be revised. Confirm the current definition of any class with the licensing authority before committing to a course."
+   ]
+  }
  },
  "resourcesForeigners": {
   "breadcrumb_home": "← Home",
@@ -2010,7 +2100,20 @@
   },
   "disclaimer_label": "Disclaimer:",
   "disclaimer_text": "This information is for general guidance only. Requirements may change — always verify with the Traffic Police (Singapore), your prefecture's 免許センター (Japan), or a registered immigration adviser before making decisions.",
-  "back_home": "← Back to home"
+  "back_home": "← Back to home",
+  "meta_title": "Foreigners' Driving Guide — Singapore & Japan",
+  "meta_description": "What Myanmar nationals need to know about converting an overseas licence, international permits, and legally driving in Singapore and Japan — plus how to verify your own situation.",
+  "article": {
+   "title": "Why conversion advice is so often wrong, and how to check yours",
+   "paragraphs": [
+    "Almost every foreign driver receives conflicting advice about licence conversion, and the reason is structural rather than malicious. Conversion rules depend on a combination of factors — which country issued your licence, which agreements exist between that country and your destination, your residence status, how long you have held the licence, and how long you have been in the country. Change any one of those and the correct answer changes. So two people can both give you accurate accounts of their own experience and still leave you with the wrong plan.",
+    "The practical consequence is that you should treat everything you read about conversion, here included, as a map of the questions rather than a list of answers. The questions that determine your route are: does my destination recognise a licence issued in Myanmar for conversion purposes, or must I take the local tests from the beginning? Does my residence status permit me to hold a local licence at all? Is there a grace period during which an international permit or a foreign licence is valid, and when exactly does it start counting? What is the deadline after which driving on my current documents stops being legal?",
+    "That last question is the one that catches people out. Grace periods generally run from a date on your immigration record, not from the day you first drove, and they can expire while your application is still being processed. Working backwards from an expiry date — rather than forwards from the day you decide to start — is the single habit that prevents the most serious problems.",
+    "There is also a difference between being allowed to drive and being properly insured. Insurance policies commonly require that the driver holds a licence valid in that country, and an invalid or expired arrangement can quietly void cover in an accident. Verify the licence question and the insurance question separately; a yes to one is not a yes to the other.",
+    "Even where conversion is available, it usually still involves a theory component, because the rules of the road genuinely differ. Driving side, priority conventions, speed regimes, motorway rules, alcohol thresholds and penalty systems are all country-specific, and experienced drivers frequently underestimate this — confidence built over years elsewhere makes it easy to skim the parts of the syllabus that contradict habit. If you are converting rather than learning from scratch, spend most of your study time precisely on the rules that differ from what you are used to.",
+    "Because these requirements are set by government agencies and revised periodically, confirm your specific case with the licensing authority directly, and keep a written record of what you are told."
+   ]
+  }
  },
  "resourcesSigns": {
   "breadcrumb_home": "← Home",
@@ -2604,7 +2707,20 @@
   "studyInApp": "We do not host translated handbook PDFs. Use Learn and Practice in TheoryLane for original questions and explanations in English, Myanmar, and Japanese.",
   "studyInApp_cta": "Start learning in the app",
   "download": "Official link",
-  "back_home": "← Back to home"
+  "back_home": "← Back to home",
+  "meta_title": "Official Driving Theory Handbooks — Singapore & Japan",
+  "meta_description": "Where to find the official Singapore Traffic Police theory handbooks and Japan's National Police Agency exam guidance, and how to actually study them if English is not your first language.",
+  "article": {
+   "title": "How to study the official handbooks without drowning in them",
+   "paragraphs": [
+    "The official handbooks are the source of truth for every theory question you will be asked, but they were written as reference documents, not as study guides. They are organised by topic the way a legal text is organised — completely, in order, with no sense of what matters most on test day. Reading one cover to cover in a language you are still learning is the slowest possible route to a pass, and it is the route most first-time candidates take.",
+    "A better approach is to read the handbook second, not first. Start with practice questions, get things wrong, and let the wrong answers tell you which chapters you actually need. If you miss three questions about right of way at an unmarked junction, that is your signal to open the handbook at that chapter and read it properly. You will read a quarter of the book and remember far more of it, because every page you open is answering a question you already care about.",
+    "For learners whose first language is Myanmar, the hardest part of the official texts is rarely the driving concept — it is the vocabulary. Terms like \"give way\", \"carriageway\", \"kerb\", \"overtaking\" and \"right of way\" appear constantly and are assumed knowledge. It is worth building a personal list of the twenty or thirty terms that keep tripping you up and learning those as vocabulary, separately from the rules themselves. Our glossary page exists for exactly this reason. Once the words are stable, the rules read much faster.",
+    "Read the handbook with a pen. Not to highlight everything — highlighting is a way of feeling productive without deciding anything. Instead, at the end of each chapter, write one sentence in your own words summarising the rule you would most likely get wrong. If you cannot write that sentence, you have not understood the chapter yet, and rereading it immediately is cheaper than discovering the gap in the exam hall.",
+    "Finally, treat the handbook as the tie-breaker. Practice apps, YouTube explanations and advice from friends who passed last year are all useful, but they drift. When two sources disagree, or when a practice explanation does not match what you remember, go back to the official document and let it settle the argument. That habit is also what keeps you safe after you pass, because the rules in those books are the ones enforced on the road, not the ones circulating in group chats.",
+    "TheoryLane does not host or reproduce these documents. The links below go to the publishing authorities' own websites so that you always get the current edition — handbooks are revised, and studying an outdated PDF someone shared with you is a genuine way to lose marks on rules that changed."
+   ]
+  }
  },
  "experiences": {
   "breadcrumb_home": "← Home",

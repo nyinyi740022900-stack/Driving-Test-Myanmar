@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import AdSenseScript from '@/components/AdSenseScript';
 import ResourceChrome, { CountryBlock } from '@/components/ResourceChrome';
 import { getSgSignLibrary, pickSignText } from '@/lib/signs-library';
 import { buildResourceMetadata } from '@/lib/resourceMetadata';
@@ -22,6 +23,8 @@ export default async function SignsPage({ params }: PageProps) {
   const articleParagraphs = t.raw('article.paragraphs') as string[];
 
   return (
+    <>
+    <AdSenseScript />
     <ResourceChrome
       breadcrumbHome={t('breadcrumb_home')}
       breadcrumbTitle={t('breadcrumb_title')}
@@ -192,5 +195,6 @@ export default async function SignsPage({ params }: PageProps) {
         ))}
       </CountryBlock>
     </ResourceChrome>
+    </>
   );
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import type React from 'react';
 import { getTranslations } from 'next-intl/server';
+import AdSenseScript from '@/components/AdSenseScript';
 import ResourceChrome, { CountryBlock } from '@/components/ResourceChrome';
 import { buildResourceMetadata } from '@/lib/resourceMetadata';
 
@@ -38,6 +39,8 @@ export default async function GuidePage({ params }: PageProps) {
   const jpKeyRules = t.raw('jp.key_rules') as string[];
 
   return (
+    <>
+    <AdSenseScript />
     <ResourceChrome
       breadcrumbHome={t('breadcrumb_home')}
       breadcrumbTitle={t('breadcrumb_title')}
@@ -107,6 +110,7 @@ export default async function GuidePage({ params }: PageProps) {
         </Section>
       </CountryBlock>
     </ResourceChrome>
+    </>
   );
 }
 

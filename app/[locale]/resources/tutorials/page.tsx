@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import BackButton from '@/components/BackButton';
+import StudyArticle from '@/components/StudyArticle';
+import AdSenseScript from '@/components/AdSenseScript';
 import YouTubeEmbed from '@/components/YouTubeEmbed';
 import { buildResourceMetadata } from '@/lib/resourceMetadata';
 import { getPublishedTutorials, pickTutorialText, type TutorialWithVideo } from '@/lib/tutorials';
@@ -56,6 +58,7 @@ export default async function ResourceTutorialsPage({ params }: PageProps) {
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>
+      <AdSenseScript />
       <div style={{ background: 'var(--paint-2)', borderBottom: '1px solid var(--line)', padding: '20px 24px' }}>
         <div style={{ maxWidth: 900, margin: '0 auto', display: 'flex', alignItems: 'center', gap: 16 }}>
           <BackButton label={t('breadcrumb_home')} style={{ fontSize: '.82rem', color: 'var(--ink-soft)', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} />
@@ -74,6 +77,8 @@ export default async function ResourceTutorialsPage({ params }: PageProps) {
             {t('hero.lead')}
           </p>
         </div>
+
+        <StudyArticle title={t('article.title')} paragraphs={t.raw('article.paragraphs') as string[]} />
 
         {sections.map((section, i) => (
           <section key={section.key} aria-labelledby={`tutorials-${section.key}`} style={{ marginTop: i === 0 ? 0 : 56 }}>

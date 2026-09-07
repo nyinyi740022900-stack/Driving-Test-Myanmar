@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { pageAlternates } from '@/lib/seo';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { getPlans } from '@/lib/subscription';
@@ -13,6 +14,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: { absolute: t('meta_title') },
     description: t('meta_description'),
+    alternates: pageAlternates(locale, '/premium'),
   };
 }
 

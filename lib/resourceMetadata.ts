@@ -1,21 +1,24 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { BRAND_LOGO_URL, SITE_URL } from '@/lib/brand';
-import { routing } from '@/i18n/routing';
+import { pageAlternates } from '@/lib/seo';
 
-function localeAlternates(path: string): Metadata['alternates'] {
-  const languages: Record<string, string> = {};
-  for (const locale of routing.locales) {
-    languages[locale] = `${SITE_URL}/${locale}${path}`;
-  }
-  return { languages };
+interface ResourceMetadataOptions {
+  /**
+   * Set false for pages that reproduce official material (e.g. the Traffic
+   * Police assessment form) or that are only a list of outbound links. Those
+   * add no original value to the index and read as replicated content.
+   */
+  index?: boolean;
 }
 
 export async function buildResourceMetadata(
   locale: string,
   namespace: string,
   path: string,
+  options: ResourceMetadataOptions = {},
 ): Promise<Metadata> {
+  const { index = true } = options;
   const t = await getTranslations({ locale, namespace });
   const title = t('meta_title');
   const description = t('meta_description');
@@ -23,10 +26,8 @@ export async function buildResourceMetadata(
   return {
     title,
     description,
-    alternates: {
-      canonical: `${SITE_URL}/${locale}${path}`,
-      ...localeAlternates(path),
-    },
+    alternates: pageAlternates(locale, path),
+    ...(index ? {} : { robots: { index: false, follow: true } }),
     openGraph: {
       title,
       description,

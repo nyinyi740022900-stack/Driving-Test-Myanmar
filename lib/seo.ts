@@ -22,12 +22,29 @@ const MODE_LABEL_KEY: Record<QuizMode, string> = {
   test: 'test_title',
 };
 
-function localeAlternates(path: string): Metadata['alternates'] {
+/**
+ * hreflang set for one page path. Every locale variant of the SAME path, plus
+ * an x-default pointing at the default locale.
+ *
+ * Never call this with a path that does not match the page being rendered —
+ * a page that advertises `hreflang="en" href="/en"` while living at
+ * `/en/resources/costs` is telling Google it is a duplicate of the homepage.
+ */
+export function localeAlternates(path: string): Metadata['alternates'] {
   const languages: Record<string, string> = {};
   for (const locale of routing.locales) {
     languages[locale] = `${SITE_URL}/${locale}${path}`;
   }
+  languages['x-default'] = `${SITE_URL}/${routing.defaultLocale}${path}`;
   return { languages };
+}
+
+/** Canonical + hreflang for any locale-prefixed page path (path starts with `/`, or ''). */
+export function pageAlternates(locale: string, path: string): Metadata['alternates'] {
+  return {
+    canonical: `${SITE_URL}/${locale}${path}`,
+    ...localeAlternates(path),
+  };
 }
 
 export async function buildSiteMetadata(locale: string): Promise<Metadata> {
@@ -41,7 +58,11 @@ export async function buildSiteMetadata(locale: string): Promise<Metadata> {
     },
     description: t('description'),
     metadataBase: new URL(SITE_URL),
-    alternates: localeAlternates(''),
+    // Deliberately NO `alternates` here. Next.js metadata is inherited, so a
+    // root-level canonical/hreflang would be re-emitted verbatim on every page
+    // that does not override it — which previously made ~12 routes declare
+    // themselves as language alternates of the homepage (duplicate content).
+    // Each page supplies its own via `pageAlternates()`.
     icons: {
       icon: [
         { url: faviconHref('/favicon.svg'), type: 'image/svg+xml' },
@@ -82,10 +103,7 @@ export async function buildHomeMetadata(locale: string): Promise<Metadata> {
   return {
     title: { absolute: t('title') },
     description: t('description'),
-    alternates: {
-      canonical: `${SITE_URL}/${locale}`,
-      ...localeAlternates(''),
-    },
+    alternates: pageAlternates(locale, ''),
     openGraph: {
       title: t('title'),
       description: t('description'),
@@ -105,10 +123,7 @@ export async function buildTestLandingMetadata(
   return {
     title: { absolute: t('meta_title') },
     description: t('meta_description'),
-    alternates: {
-      canonical: `${SITE_URL}/${locale}${path}`,
-      ...localeAlternates(path),
-    },
+    alternates: pageAlternates(locale, path),
     openGraph: {
       title: t('meta_title'),
       description: t('meta_description'),
@@ -142,10 +157,7 @@ export async function buildQuizMetadata(
   return {
     title,
     description,
-    alternates: {
-      canonical: `${SITE_URL}/${locale}${path}`,
-      ...localeAlternates(path),
-    },
+    alternates: pageAlternates(locale, path),
     robots: { index: false, follow: true },
     openGraph: {
       title,

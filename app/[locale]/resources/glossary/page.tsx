@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import AdSenseScript from '@/components/AdSenseScript';
 import BackButton from '@/components/BackButton';
 import StudyArticle from '@/components/StudyArticle';
 import { GLOSSARY_TERM_COUNT, TRAFFIC_GLOSSARY } from '@/lib/traffic-glossary';
@@ -19,6 +20,7 @@ export default async function GlossaryPage({ params }: PageProps) {
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>
+      <AdSenseScript />
       <div style={{ background: 'var(--paint-2)', borderBottom: '1px solid var(--line)', padding: '20px 24px' }}>
         <div style={{ maxWidth: 900, margin: '0 auto', display: 'flex', alignItems: 'center', gap: 16 }}>
           <BackButton label={t('breadcrumb_home')} style={{ fontSize: '.82rem', color: 'var(--ink-soft)', textDecoration: 'none', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} />

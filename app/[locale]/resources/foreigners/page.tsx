@@ -3,6 +3,7 @@
 import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import BackButton from '@/components/BackButton';
+import StudyArticle from '@/components/StudyArticle';
 
 export default function ForeignersPage() {
   const params = useParams();
@@ -29,6 +30,8 @@ export default function ForeignersPage() {
             {t('hero.lead')}
           </p>
         </div>
+
+        <StudyArticle title={t('article.title')} paragraphs={t.raw('article.paragraphs') as string[]} />
 
         {/* Singapore */}
         <div style={{ marginBottom: 64 }}>

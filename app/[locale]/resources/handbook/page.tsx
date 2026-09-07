@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useCountry } from '@/components/CountryProvider';
 import BackButton from '@/components/BackButton';
+import StudyArticle from '@/components/StudyArticle';
 import { HANDBOOKS, pickHandbookText } from '@/lib/handbooks';
 
 export default function HandbookPage() {
@@ -34,6 +35,8 @@ export default function HandbookPage() {
             {t('hero.lead')}
           </p>
         </div>
+
+        <StudyArticle title={t('article.title')} paragraphs={t.raw('article.paragraphs') as string[]} />
 
         <div style={{ background: 'var(--paint-2)', border: '1px solid var(--line)', borderRadius: 12, padding: '14px 18px', marginBottom: 16, fontSize: '.88rem', color: 'var(--ink-soft)', lineHeight: 1.6 }}>
           <strong>{t('disclaimer_label')}</strong> {t('disclaimer')}

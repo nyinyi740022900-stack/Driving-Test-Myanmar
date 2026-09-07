@@ -3,6 +3,7 @@
 import type React from 'react';
 import { useTranslations } from 'next-intl';
 import BackButton from '@/components/BackButton';
+import StudyArticle from '@/components/StudyArticle';
 
 interface Tip {
   hook: string;
@@ -39,6 +40,8 @@ export default function MemoryTipsPage() {
             {t('hero.lead')}
           </p>
         </div>
+
+        <StudyArticle title={t('article.title')} paragraphs={t.raw('article.paragraphs') as string[]} />
 
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 32 }}>
           <span style={{ fontSize: '1.4rem' }}>🇸🇬</span>

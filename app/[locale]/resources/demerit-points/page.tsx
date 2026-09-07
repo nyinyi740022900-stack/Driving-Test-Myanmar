@@ -4,6 +4,7 @@ import type React from 'react';
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import BackButton from '@/components/BackButton';
+import StudyArticle from '@/components/StudyArticle';
 
 interface Stat {
   label: string;
@@ -44,6 +45,8 @@ export default function DemeritPointsPage() {
             {t('hero.lead')}
           </p>
         </div>
+
+        <StudyArticle title={t('article.title')} paragraphs={t.raw('article.paragraphs') as string[]} />
 
         {countries.map(({ code, flag }) => {
           const title = t(`${code}.title`);

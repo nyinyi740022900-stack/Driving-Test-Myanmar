@@ -343,7 +343,14 @@
     }
    ]
   },
-  "back_home": "ပင်မသို့ ပြန်သွားရန်"
+  "back_home": "ပင်မသို့ ပြန်သွားရန်",
+  "meta_title": "Memory Tips for Driving Theory Tests",
+  "meta_description": "Evidence-based study techniques for remembering road signs, speed limits and right-of-way rules for the Singapore and Japan theory tests.",
+  "article": {
+   "title": "Remembering rules you will still know on test day",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesDemerit": {
   "breadcrumb_home": "ပင်မ",
@@ -578,7 +585,14 @@
   },
   "see_guide": "study guide အပြည့်အစုံ ကြည့်ရန် →",
   "see_memory": "အလွယ်မှတ်နည်းများ ကြည့်ရန် →",
-  "back_home": "ပင်မသို့ ပြန်သွားရန်"
+  "back_home": "ပင်မသို့ ပြန်သွားရန်",
+  "meta_title": "Demerit Points & Driving Penalties Explained",
+  "meta_description": "How demerit point systems work in practice, why new drivers are treated differently, and how to study penalty rules for the Singapore and Japan theory tests.",
+  "article": {
+   "title": "What demerit systems are actually for",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "faq": {
   "eyebrow": "သိထားသင့်တာ",
@@ -681,42 +695,42 @@
   "feature_5": "မှားခဲ့သော မေးခွန်း ပြန်လေ့လာရန် စာရင်း",
   "choose_plan": "{plan} ရွေးချယ်မည် →",
   "currency_ks": " ကျပ်",
-   "back_home": "← ပင်မသို့ ပြန်",
-   "meta_title": "Premium — ကြော်ငြာမရှိ၊ Mock Test အကန့်အသတ်မရှိ | TheoryLane",
-   "meta_description": "TheoryLane Premium ဖြင့် ကြော်ငြာမမြင်ရတော့ပါ။ Singapore BTT/FTT/RTT နှင့် ဂျပန် မောင်းသင်သီအိုရီအတွက် Mock Test အကန့်အသတ်မရှိ လေ့ကျင့်ပါ။ KBZPay/WavePay ဖြင့် လစဉ်/နှစ်စဉ် ဝယ်ယူနိုင်ပါတယ်။",
-   "compare_title": "Free နှင့် Premium နှိုင်းယှဉ်ချက်",
-   "compare_col_feature": "အင်္ဂါရပ်",
-   "compare_col_free": "Free",
-   "compare_col_premium": "Premium",
-   "compare_row_lessons": "သင်ခန်းစာနှင့် လေ့ကျင့်ခန်းမေးခွန်းများ",
-   "compare_row_mock": "Mock Test",
-   "compare_row_ads": "ကြော်ငြာ",
-   "compare_row_history": "Quiz မှတ်တမ်းနှင့် အကောင်းဆုံးရမှတ်",
-   "compare_row_review": "မှားသောမေးခွန်း ပြန်လေ့လာခြင်း",
-   "compare_row_support": "အကူအညီ",
-   "compare_val_unlimited": "အကန့်အသတ်မရှိ",
-   "compare_val_one_daily": "တစ်ရက် ၁ ကြိမ်",
-   "compare_val_with_ads": "ကြော်ငြာနှင့်အတူ",
-   "compare_val_no_ads": "ကြော်ငြာမရှိ",
-   "compare_val_yes": "✓ ပါဝင်",
-   "compare_val_no": "—",
-   "compare_val_standard": "ပုံမှန်",
-   "compare_val_priority": "ဦးစားပေး",
-   "how_title": "Premium ဝယ်နည်း",
-   "how_1": "Plan ရွေးပြီး KBZPay သို့ WavePay ဖြင့် ငွေလွှဲပါ။",
-   "how_2": "Payment page တွင် သင့် account email နှင့်အတူ ငွေလွှဲပြေစာ screenshot တင်ပါ။",
-   "how_3": "ငွေလွှဲမှု စစ်ဆေးပြီး Premium ဖွင့်ပေးမည် — များသောအားဖြင့် နာရီအနည်းငယ်အတွင်း။",
-   "faq_title": "Premium မေးခွန်းများ",
-   "faq_1_q": "ဖွင့်ရန် အချိန် ဘယ်လောက်ကြာမလဲ?",
-   "faq_1_a": "ငွေလွှဲပြေစာကို လက်ဖြင့် စစ်ဆေးသည် — များသောအားဖြင့် နာရီအနည်းငယ်အတွင်း။ ၂၄ နာရီကျော်သွားပါက ပြေစာနှင့်အတူ ဆက်သွယ်ပါ။",
-   "faq_2_q": "စက်တစ်ခုထက်ပို၍ သုံးနိုင်မလား?",
-   "faq_2_a": "ရပါတယ်။ Premium က သင့် account နဲ့ ဆက်စပ်နေတာမို့ email တူဖြင့် ဖုန်း/တက်ဘလက်/ကွန်ပျူတာ မည်သည့်ခုမဆို ဝင်သုံးနိုင်ပါတယ်။",
-   "faq_3_q": "သက်တမ်းကုန်သွားရင် ဘာဖြစ်မလဲ?",
-   "faq_3_a": "Account သည် Free plan သို့ ပြန်ရောက်မည်။ လေ့လာမှုမှတ်တမ်းများ မပျက်မကွယ် ရှိနေပြီး အချိန်မရွေး ပြန်ဆက်ဝယ်နိုင်ပါတယ်။",
-   "faq_4_q": "သင်ခန်းစာနှင့် လေ့ကျင့်ခန်းတွေ အခမဲ့ဆဲလား?",
-   "faq_4_a": "ဟုတ်ကိုး။ သင်ခန်းစာနှင့် လေ့ကျင့်ခန်းမေးခွန်းအားလုံး အခမဲ့ဖြစ်ပါတယ်။ Premium တွင် Mock Test အကန့်အသတ်မရှိခြင်း၊ ကြော်ငြာမရှိခြင်းနှင့် မှတ်တမ်းစနစ် ထည့်သွင်းပေးထားခြင်းသာ ဖြစ်ပါတယ်။",
-   "faq_prompt": "မေးခွန်းရှိလား? ကြည့်ရန်",
-   "faq_link": "FAQ"
+  "back_home": "← ပင်မသို့ ပြန်",
+  "meta_title": "Premium — ကြော်ငြာမရှိ၊ Mock Test အကန့်အသတ်မရှိ | TheoryLane",
+  "meta_description": "TheoryLane Premium ဖြင့် ကြော်ငြာမမြင်ရတော့ပါ။ Singapore BTT/FTT/RTT နှင့် ဂျပန် မောင်းသင်သီအိုရီအတွက် Mock Test အကန့်အသတ်မရှိ လေ့ကျင့်ပါ။ KBZPay/WavePay ဖြင့် လစဉ်/နှစ်စဉ် ဝယ်ယူနိုင်ပါတယ်။",
+  "compare_title": "Free နှင့် Premium နှိုင်းယှဉ်ချက်",
+  "compare_col_feature": "အင်္ဂါရပ်",
+  "compare_col_free": "Free",
+  "compare_col_premium": "Premium",
+  "compare_row_lessons": "သင်ခန်းစာနှင့် လေ့ကျင့်ခန်းမေးခွန်းများ",
+  "compare_row_mock": "Mock Test",
+  "compare_row_ads": "ကြော်ငြာ",
+  "compare_row_history": "Quiz မှတ်တမ်းနှင့် အကောင်းဆုံးရမှတ်",
+  "compare_row_review": "မှားသောမေးခွန်း ပြန်လေ့လာခြင်း",
+  "compare_row_support": "အကူအညီ",
+  "compare_val_unlimited": "အကန့်အသတ်မရှိ",
+  "compare_val_one_daily": "တစ်ရက် ၁ ကြိမ်",
+  "compare_val_with_ads": "ကြော်ငြာနှင့်အတူ",
+  "compare_val_no_ads": "ကြော်ငြာမရှိ",
+  "compare_val_yes": "✓ ပါဝင်",
+  "compare_val_no": "—",
+  "compare_val_standard": "ပုံမှန်",
+  "compare_val_priority": "ဦးစားပေး",
+  "how_title": "Premium ဝယ်နည်း",
+  "how_1": "Plan ရွေးပြီး KBZPay သို့ WavePay ဖြင့် ငွေလွှဲပါ။",
+  "how_2": "Payment page တွင် သင့် account email နှင့်အတူ ငွေလွှဲပြေစာ screenshot တင်ပါ။",
+  "how_3": "ငွေလွှဲမှု စစ်ဆေးပြီး Premium ဖွင့်ပေးမည် — များသောအားဖြင့် နာရီအနည်းငယ်အတွင်း။",
+  "faq_title": "Premium မေးခွန်းများ",
+  "faq_1_q": "ဖွင့်ရန် အချိန် ဘယ်လောက်ကြာမလဲ?",
+  "faq_1_a": "ငွေလွှဲပြေစာကို လက်ဖြင့် စစ်ဆေးသည် — များသောအားဖြင့် နာရီအနည်းငယ်အတွင်း။ ၂၄ နာရီကျော်သွားပါက ပြေစာနှင့်အတူ ဆက်သွယ်ပါ။",
+  "faq_2_q": "စက်တစ်ခုထက်ပို၍ သုံးနိုင်မလား?",
+  "faq_2_a": "ရပါတယ်။ Premium က သင့် account နဲ့ ဆက်စပ်နေတာမို့ email တူဖြင့် ဖုန်း/တက်ဘလက်/ကွန်ပျူတာ မည်သည့်ခုမဆို ဝင်သုံးနိုင်ပါတယ်။",
+  "faq_3_q": "သက်တမ်းကုန်သွားရင် ဘာဖြစ်မလဲ?",
+  "faq_3_a": "Account သည် Free plan သို့ ပြန်ရောက်မည်။ လေ့လာမှုမှတ်တမ်းများ မပျက်မကွယ် ရှိနေပြီး အချိန်မရွေး ပြန်ဆက်ဝယ်နိုင်ပါတယ်။",
+  "faq_4_q": "သင်ခန်းစာနှင့် လေ့ကျင့်ခန်းတွေ အခမဲ့ဆဲလား?",
+  "faq_4_a": "ဟုတ်ကိုး။ သင်ခန်းစာနှင့် လေ့ကျင့်ခန်းမေးခွန်းအားလုံး အခမဲ့ဖြစ်ပါတယ်။ Premium တွင် Mock Test အကန့်အသတ်မရှိခြင်း၊ ကြော်ငြာမရှိခြင်းနှင့် မှတ်တမ်းစနစ် ထည့်သွင်းပေးထားခြင်းသာ ဖြစ်ပါတယ်။",
+  "faq_prompt": "မေးခွန်းရှိလား? ကြည့်ရန်",
+  "faq_link": "FAQ"
  },
  "payment": {
   "plan_monthly_label": "လစဉ် Premium",
@@ -1256,7 +1270,14 @@
     "title": "免許証交付 — လိုင်စင်ထုတ်ပေးခြင်း",
     "body": "စာဖြေအောင်ပြီးနောက် 免許センター တွင် ကျန်ရှိသည့် စစ်ဆေးမှုများ (မျက်စိ၊ ဓာတ်ပုံ) ပြီးလျှင် တစ်ရက်တည်း 運転免許証 ထုတ်ပေးသည်။"
    }
-  ]
+  ],
+  "meta_title": "Driving Licence Roadmap — Singapore & Japan Step by Step",
+  "meta_description": "The full path from registration to a full driving licence in Singapore and Japan, in order, with the practical decisions Myanmar learners face at each stage.",
+  "article": {
+   "title": "Reading the roadmap as a sequence of decisions",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesCosts": {
   "breadcrumb_home": "← ပင်မသို့ ပြန်",
@@ -1538,7 +1559,14 @@
   },
   "disclaimer_label": "သတိပြုရန်:",
   "disclaimer_text": "အခကြေးငွေများသည် ခန့်မှန်းသာဖြစ်ပြီး ပြောင်းလဲနိုင်သည်။ Singapore အခကြေးငွေများတွင် 2026 GST ပါဝင်သည်။ Japan အခကြေးငွေများသည် 警察庁 ထုတ်ပြန်ချက်အရ ဖြစ်သည်။ ဘတ်ဂျက်ခန့်မှန်းမီ Traffic Police / OneMotoring (SG) သို့မဟုတ် မိမိခရိုင် 免許センター (JP) နှင့် စစ်ဆေးပါ။",
-  "back_home": "← ပင်မသို့ ပြန်"
+  "back_home": "← ပင်မသို့ ပြန်",
+  "meta_title": "Driving Licence Costs — Singapore & Japan Budget Guide",
+  "meta_description": "How to build a realistic budget for getting a driving licence in Singapore or Japan, including the costs learners routinely forget.",
+  "article": {
+   "title": "Building a budget that survives contact with reality",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesTutorials": {
   "breadcrumb_home": "← ပင်မသို့ ပြန်",
@@ -1550,12 +1578,17 @@
   },
   "loading": "ဗီဒီယိုများ တင်နေသည်…",
   "empty": "သင်ခန်းစာ ဗီဒီယို မရှိသေးပါ — မကြာမီ ပြန်လာကြည့်ပါ။",
-  "meta_title": "ယာဉ်မောင်း ဗီဒီယို သင်ခန်းစာများ — SG & JP | TheoryLane",
+  "meta_title": "ယာဉ်မောင်း ဗီဒီယို သင်ခန်းစာများ — SG & JP",
   "meta_description": "Singapore BTT, FTT, RTT နှင့် ဂျပန် ယာဉ်မောင်းသီအိုရီ စာမေးပွဲများအတွက် အခမဲ့ ရွေးချယ်ထားသည့် ဗီဒီယို သင်ခန်းစာများ — အင်္ဂလိပ်၊ မြန်မာ၊ ဂျပန်ဘာသာဖြင့် အဆင့်ဆင့် ရှင်းပြထားပါသည်။",
   "section_sg": "🇸🇬 စင်ကာပူ — BTT · FTT · RTT",
   "section_sg_lead": "စင်ကာပူ Basic Theory Test, Final Theory Test နှင့် Riding Theory Test အတွက် ဗီဒီယို သင်ခန်းစာများ။",
   "section_jp": "🇯🇵 ဂျပန် — ကားနှင့် မော်တော်ဆိုင်း",
-  "section_jp_lead": "ဂျပန် ယာဉ်မောင်းလိုင်စင် စာမေးပွဲ (ကားနှင့် မော်တော်ဆိုင်း) အတွက် ဗီဒီယို သင်ခန်းစာများ။"
+  "section_jp_lead": "ဂျပန် ယာဉ်မောင်းလိုင်စင် စာမေးပွဲ (ကားနှင့် မော်တော်ဆိုင်း) အတွက် ဗီဒီယို သင်ခန်းစာများ။",
+  "article": {
+   "title": "Getting real value out of video lessons",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesFaq": {
   "breadcrumb_home": "← ပင်မသို့ ပြန်",
@@ -1695,7 +1728,14 @@
     "a": "6 လဖြစ်သည်။ 仮免 ရပြီး 6 လအတွင်း လမ်းပေါ်သင်ခန်းနှင့် 卒業試験 ပြီးရမည်။"
    }
   ],
-  "back_home": "← ပင်မသို့ ပြန်"
+  "back_home": "← ပင်မသို့ ပြန်",
+  "meta_title": "Driving Theory Test FAQ — Fees, Retakes & Booking",
+  "meta_description": "Straight answers to the questions Myanmar learners ask most about the Singapore BTT, FTT and RTT and the Japan written test — booking, retakes, what to bring, and how long preparation really takes.",
+  "article": {
+   "title": "The questions behind the questions",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesGlossary": {
   "breadcrumb_home": "← ပင်မသို့ ပြန်",
@@ -1941,7 +1981,14 @@
     "note": "အများပြည်သူလမ်းပေါ်ရှိ စက်ယာဉ်များကို ဖုံးလွှမ်းသည်။"
    }
   ],
-  "back_home": "← ပင်မသို့ ပြန်"
+  "back_home": "← ပင်မသို့ ပြန်",
+  "meta_title": "Driving Licence Classes — Singapore & Japan Compared",
+  "meta_description": "How licence classes are structured in Singapore and Japan, how to work out which class you need, and why choosing the wrong one costs money.",
+  "article": {
+   "title": "Choosing the right class before you pay for anything",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesForeigners": {
   "breadcrumb_home": "← ပင်မသို့",
@@ -2010,7 +2057,14 @@
   },
   "disclaimer_label": "သတိပြုရန်:",
   "disclaimer_text": "ဤအချက်အလက်များသည် အထွေထွေလမ်းညွှန်သာဖြစ်သည်။ စည်းကမ်းများ ပြောင်းလဲနိုင်သောကြောင့် Traffic Police (Singapore)၊ မိမိခရိုင် 免許センター (Japan) သို့မဟုတ် အကြံပေးပုဂ္ဂိုလ်နှင့် အမြဲစစ်ဆေးပါ။",
-  "back_home": "← ပင်မသို့ ပြန်"
+  "back_home": "← ပင်မသို့ ပြန်",
+  "meta_title": "Foreigners' Driving Guide — Singapore & Japan",
+  "meta_description": "What Myanmar nationals need to know about converting an overseas licence, international permits, and legally driving in Singapore and Japan — plus how to verify your own situation.",
+  "article": {
+   "title": "Why conversion advice is so often wrong, and how to check yours",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "resourcesSigns": {
   "breadcrumb_home": "← ပင်မသို့",
@@ -2604,7 +2658,14 @@
   "studyInApp": "ဘာသာပြန် လက်စွဲစာအုပ် PDF များကို ကျွန်ုပ်တို့ မထားရှိပါ။ အင်္ဂလိပ်၊ မြန်မာ၊ ဂျပန် ဘာသာဖြင့် မူရင်းမေးခွန်းနဲ့ ရှင်းလင်းချက်များအတွက် Learn နှင့် Practice ကို သုံးပါ။",
   "studyInApp_cta": "အက်ပ်ထဲမှာ လေ့လာရန် စတင်ပါ",
   "download": "တရားဝင် လင့်ခ်",
-  "back_home": "← ပင်မစာမျက်နှာသို့"
+  "back_home": "← ပင်မစာမျက်နှာသို့",
+  "meta_title": "Official Driving Theory Handbooks — Singapore & Japan",
+  "meta_description": "Where to find the official Singapore Traffic Police theory handbooks and Japan's National Police Agency exam guidance, and how to actually study them if English is not your first language.",
+  "article": {
+   "title": "How to study the official handbooks without drowning in them",
+   "paragraphs": [],
+   "TODO_TRANSLATE": "English source in messages/en.json — translate paragraphs, then remove this key."
+  }
  },
  "experiences": {
   "breadcrumb_home": "← ပင်မစာမျက်နှာ",

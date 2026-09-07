@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { pageAlternates } from '@/lib/seo';
 import { getTranslations } from 'next-intl/server';
 import LegalDocument, { type LegalSection } from '@/components/LegalDocument';
 import { BRAND_NAME, SITE_URL, SUPPORT_EMAIL } from '@/lib/brand';
@@ -12,6 +13,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     metadataBase: new URL(SITE_URL),
     title: t('meta_title'),
     description: t('meta_description'),
+    alternates: pageAlternates(locale, '/privacy'),
   };
 }
 
