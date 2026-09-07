@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import BackButton from '@/components/BackButton';
 import StudyArticle from '@/components/StudyArticle';
-import AdSenseScript from '@/components/AdSenseScript';
 import YouTubeEmbed from '@/components/YouTubeEmbed';
 import { buildResourceMetadata } from '@/lib/resourceMetadata';
 import { getPublishedTutorials, pickTutorialText, type TutorialWithVideo } from '@/lib/tutorials';
@@ -43,6 +42,12 @@ function VideoGrid({ videos, locale }: { videos: TutorialWithVideo[]; locale: st
   );
 }
 
+/* No <AdSenseScript /> on this route. The page's primary content is YouTube
+   embeds from other creators, which is the literal wording of the policy this
+   site was flagged under ("content embedded ... from others"). The article
+   above the grid is original commentary and probably clears the bar, but this
+   is the one page where the violation string matches word for word, so it runs
+   ad-free until the site is approved. */
 export default async function ResourceTutorialsPage({ params }: PageProps) {
   const { locale } = await params;
   const t = await getTranslations('resourcesTutorials');
@@ -58,7 +63,6 @@ export default async function ResourceTutorialsPage({ params }: PageProps) {
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--paint)', paddingBottom: 80 }}>
-      <AdSenseScript />
       <div style={{ background: 'var(--paint-2)', borderBottom: '1px solid var(--line)', padding: '20px 24px' }}>
         <div style={{ maxWidth: 900, margin: '0 auto', display: 'flex', alignItems: 'center', gap: 16 }}>
           <BackButton label={t('breadcrumb_home')} style={{ fontSize: '.82rem', color: 'var(--ink-soft)', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }} />
