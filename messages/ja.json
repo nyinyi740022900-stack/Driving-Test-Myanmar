@@ -344,8 +344,8 @@
    ]
   },
   "back_home": "ホームに戻る",
-  "meta_title": "Memory Tips for Driving Theory Tests",
-  "meta_description": "Evidence-based study techniques for remembering road signs, speed limits and right-of-way rules for the Singapore and Japan theory tests.",
+  "meta_title": "学科試験のための記憶術",
+  "meta_description": "標識・速度制限・優先権のルールを覚えるための、根拠のある学習法。シンガポールと日本の学科試験に対応。",
   "article": {
    "title": "Remembering rules you will still know on test day",
    "paragraphs": [],
@@ -586,8 +586,8 @@
   "see_memory": "覚えやすいコツを見る →",
   "back_home": "ホームに戻る",
   "recovery_title": "点数の経過と回復",
-  "meta_title": "Demerit Points & Driving Penalties Explained",
-  "meta_description": "How demerit point systems work in practice, why new drivers are treated differently, and how to study penalty rules for the Singapore and Japan theory tests.",
+  "meta_title": "違反点数と罰則のしくみ",
+  "meta_description": "違反点数制度が実際にどう機能するか、初心運転者が別扱いされる理由、シンガポールと日本の学科試験に向けた罰則規定の学び方。",
   "article": {
    "title": "What demerit systems are actually for",
    "paragraphs": [],
@@ -1271,8 +1271,8 @@
     "body": "学科合格後、視力検査・写真等の手続きを済ませると当日に免許証が交付されます。"
    }
   ],
-  "meta_title": "Driving Licence Roadmap — Singapore & Japan Step by Step",
-  "meta_description": "The full path from registration to a full driving licence in Singapore and Japan, in order, with the practical decisions Myanmar learners face at each stage.",
+  "meta_title": "運転免許取得の道のり — シンガポールと日本",
+  "meta_description": "登録から本免許取得までの全工程を順を追って解説。各段階でミャンマー出身の学習者が直面する実際の選択も併せて紹介。",
   "article": {
    "title": "Reading the roadmap as a sequence of decisions",
    "paragraphs": [],
@@ -1560,8 +1560,8 @@
   "disclaimer_label": "免責事項:",
   "disclaimer_text": "料金は目安で変更される可能性があります。シンガポールの料金は2026年時点のGST込み。日本の料金は警察庁の公表値に基づきます。予算計画前にTraffic Police / OneMotoring（SG）または各都道府県の免許センター（JP）で必ず確認してください。",
   "back_home": "← ホームへ戻る",
-  "meta_title": "Driving Licence Costs — Singapore & Japan Budget Guide",
-  "meta_description": "How to build a realistic budget for getting a driving licence in Singapore or Japan, including the costs learners routinely forget.",
+  "meta_title": "運転免許の費用 — シンガポールと日本",
+  "meta_description": "シンガポールまたは日本で免許を取るための現実的な予算の立て方。学習者が見落としがちな費用も含めて解説。",
   "article": {
    "title": "Building a budget that survives contact with reality",
    "paragraphs": [],
@@ -1729,8 +1729,8 @@
    }
   ],
   "back_home": "← ホームへ戻る",
-  "meta_title": "Driving Theory Test FAQ — Fees, Retakes & Booking",
-  "meta_description": "Straight answers to the questions Myanmar learners ask most about the Singapore BTT, FTT and RTT and the Japan written test — booking, retakes, what to bring, and how long preparation really takes.",
+  "meta_title": "学科試験のよくある質問 — 費用・再受験・予約",
+  "meta_description": "シンガポールのBTT・FTT・RTTと日本の学科試験について、ミャンマー出身の学習者から最も多い質問への率直な回答。予約、再受験、持ち物、実際に必要な準備期間。",
   "article": {
    "title": "The questions behind the questions",
    "paragraphs": [],
@@ -1743,10 +1743,10 @@
   "hero": {
    "eyebrow": "人間が確認済み",
    "title": "三言語 交通用語集",
-   "lead": "英語・ミャンマー語・日本語の重要交通用語 — トピック別に整理し、誤訳で点を落とさないよう人間が確認しました。"
+   "lead": "交通用語を英語・ミャンマー語・日本語で——各語に、学科試験で実際にどう問われるかの短い解説付き。"
   },
   "table": {
-   "english": "English",
+   "english": "英語の用語と試験メモ",
    "my": "မြန်မာ",
    "ja": "日本語"
   },
@@ -1768,7 +1768,8 @@
     "不合格の原因は運転技能ではなく語彙であることが多いです。Give way、carriageway、diverge、provisional licence はシンガポールの問題では日常語です。路上のミャンマー語だけ知っていると、誤選択肢を選ぶことがあります。",
     "英語・ミャンマー語・日本語を一行に並べているので、考える言語で確認してから試験言語を見られます。訳は人が確認しています。法令辞書ではありません。",
     "レッスン解説に知らない語が出たらこのページを開いてください。英語列を目で探し、ミャンマー語または日本語を読み、問題に戻る。試験会場で紙全体をカメラ翻訳することはできません。"
-   ]
+   ],
+   "TODO_TRANSLATE": "hero.lead and table.english updated; article.paragraphs still describe the old plain translation table and should be refreshed from en.json"
   }
  },
  "resourcesLicenceClasses": {
@@ -1982,8 +1983,8 @@
    }
   ],
   "back_home": "← ホームへ戻る",
-  "meta_title": "Driving Licence Classes — Singapore & Japan Compared",
-  "meta_description": "How licence classes are structured in Singapore and Japan, how to work out which class you need, and why choosing the wrong one costs money.",
+  "meta_title": "運転免許の種類 — シンガポールと日本の比較",
+  "meta_description": "シンガポールと日本の免許区分のしくみ、自分に必要な種類の見極め方、そして選び間違えると費用がかさむ理由。",
   "article": {
    "title": "Choosing the right class before you pay for anything",
    "paragraphs": [],
@@ -2058,8 +2059,8 @@
   "disclaimer_label": "免責事項:",
   "disclaimer_text": "本情報は一般的な案内です。要件は変更される可能性があるため、必ず Traffic Police（Singapore）または各都道府県の免許センター（Japan）、登録移民アドバイザーに確認してください。",
   "back_home": "← Back to home",
-  "meta_title": "Foreigners' Driving Guide — Singapore & Japan",
-  "meta_description": "What Myanmar nationals need to know about converting an overseas licence, international permits, and legally driving in Singapore and Japan — plus how to verify your own situation.",
+  "meta_title": "外国人のための運転ガイド — シンガポールと日本",
+  "meta_description": "海外免許の切替え、国際運転許可証、シンガポールと日本で合法的に運転するためにミャンマー国籍の方が知っておくべきこと。自分の状況の確認方法も。",
   "article": {
    "title": "Why conversion advice is so often wrong, and how to check yours",
    "paragraphs": [],
@@ -2659,8 +2660,8 @@
   "studyInApp_cta": "アプリで学習を始める",
   "download": "公式リンク",
   "back_home": "← ホームに戻る",
-  "meta_title": "Official Driving Theory Handbooks — Singapore & Japan",
-  "meta_description": "Where to find the official Singapore Traffic Police theory handbooks and Japan's National Police Agency exam guidance, and how to actually study them if English is not your first language.",
+  "meta_title": "公式の学科教本 — シンガポールと日本",
+  "meta_description": "シンガポール交通警察の公式学科教本と日本の警察庁の試験案内の入手先、そして英語が母語でない場合の実際の読み進め方。",
   "article": {
    "title": "How to study the official handbooks without drowning in them",
    "paragraphs": [],

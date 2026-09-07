@@ -1780,10 +1780,10 @@
   "hero": {
    "eyebrow": "Human-reviewed",
    "title": "Bilingual Traffic Glossary",
-   "lead": "Every key traffic term in English, Myanmar (Burmese) and Japanese — organised by topic and checked by a human so a mistranslation never costs you a mark."
+   "lead": "Every key traffic term in English, Myanmar and Japanese — each one with a short note on how it is actually used in test papers and which distinction the examiner is checking."
   },
   "table": {
-   "english": "English",
+   "english": "English term & exam note",
    "my": "မြန်မာ",
    "ja": "日本語"
   },
@@ -1795,16 +1795,17 @@
    "penalties": "Penalties & alcohol",
    "expressway": "Expressway & special zones"
   },
-  "footer_note": "{count} terms · Updated July 2026 · Human-reviewed",
+  "footer_note": "{count} terms · Updated September 2026 · Human-reviewed",
   "back_home": "← Back to home",
   "meta_title": "Bilingual Traffic Glossary — English, Myanmar, Japanese",
   "meta_description": "Human-checked traffic terms in English, Myanmar and Japanese so a mistranslation does not cost a mark on BTT, FTT, RTT or Japan written tests.",
   "article": {
-   "title": "Why a three-language glossary belongs next to the question bank",
+   "title": "How to use a glossary without wasting the hour",
    "paragraphs": [
-    "Exam questions often fail people on vocabulary, not on driving skill. “Give way”, “carriageway”, “diverge”, and “provisional licence” are everyday English in Singapore test papers. If you only know the Myanmar street word, you can still pick the wrong option.",
-    "We keep English, Myanmar and Japanese in one row so you can check a term in the language you think in, then look at the exam language. The translations are reviewed by a person. They are study aids, not a legal dictionary.",
-    "Use this page when a lesson explanation uses a word you do not know. Search with your eyes down the English column, read the Myanmar or Japanese cell, then go back to the question. That loop is faster than translating the whole paper with a phone camera in the test centre — which you cannot do anyway."
+    "Exam questions fail people on vocabulary far more often than on driving skill. “Give way”, “carriageway”, “diverge” and “provisional licence” are ordinary English in a Singapore paper. If you only know the street word in Myanmar, you can understand the road perfectly and still tick the wrong box.",
+    "A plain translation table only solves half of that. Knowing what “give way” means does not tell you that the examinable point is its contrast with a Stop sign — one is conditional, the other is not. So every row here carries a short note on what the term does inside a question, written for candidates rather than copied from a dictionary.",
+    "The notes deliberately contain no figures. Speed limits, alcohol limits, demerit thresholds and fine amounts differ between Singapore and Japan and they change over time; a number memorised from the wrong country is worse than no number at all. Where a figure matters the note says so and sends you to the official handbook for it.",
+    "Use the page reactively rather than as a reading list. When a lesson explanation contains a word you do not know, find it here, read the note, then go straight back to the question that raised it. Looking a term up at the moment you needed it is what makes it stick — reading the table end to end will not."
    ]
   }
  },

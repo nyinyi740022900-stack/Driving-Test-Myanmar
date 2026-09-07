@@ -65,9 +65,14 @@ export default async function GlossaryPage({ params }: PageProps) {
                         background: i % 2 === 0 ? '#fff' : 'var(--paint)',
                       }}
                     >
-                      <td style={{ padding: '12px 20px', fontFamily: 'var(--display)', fontWeight: 700 }}>{term.en}</td>
-                      <td style={{ padding: '12px 20px', color: 'var(--ink-soft)' }}>{term.my}</td>
-                      <td style={{ padding: '12px 20px', color: 'var(--ink-soft)' }}>{term.ja}</td>
+                      <td style={{ padding: '12px 20px', verticalAlign: 'top', width: '46%' }}>
+                        <div style={{ fontFamily: 'var(--display)', fontWeight: 700 }}>{term.en}</div>
+                        <p style={{ marginTop: 5, fontSize: '.82rem', lineHeight: 1.5, color: 'var(--ink-soft)', fontWeight: 400 }}>
+                          {term.note}
+                        </p>
+                      </td>
+                      <td style={{ padding: '12px 20px', color: 'var(--ink-soft)', verticalAlign: 'top' }}>{term.my}</td>
+                      <td style={{ padding: '12px 20px', color: 'var(--ink-soft)', verticalAlign: 'top' }}>{term.ja}</td>
                     </tr>
                   ))}
                 </tbody>
