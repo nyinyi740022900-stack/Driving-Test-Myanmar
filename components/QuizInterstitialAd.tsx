@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import AdSlot from './AdSlot';
+import { adSlotFor } from '@/lib/ad-strategy';
 
 declare global {
   interface Window {
@@ -28,6 +29,8 @@ export default function QuizInterstitialAd({ onContinue }: QuizInterstitialAdPro
       afterAd: () => {},
     });
   }, [isDev]);
+
+  const interstitialSlot = adSlotFor('quiz_interstitial');
 
   return (
     <div
@@ -69,7 +72,9 @@ export default function QuizInterstitialAd({ onContinue }: QuizInterstitialAdPro
         <p style={{ color: 'var(--ink-soft)', fontSize: '.9rem', textAlign: 'center', marginBottom: 18, lineHeight: 1.55 }}>
           {t('ad_break_desc')}
         </p>
-        <AdSlot slot="5983088447" format="rectangle" className="quiz-ad" />
+        {interstitialSlot && (
+          <AdSlot slot={interstitialSlot} format="rectangle" className="quiz-ad" />
+        )}
         <button
           type="button"
           className="btn btn-primary"

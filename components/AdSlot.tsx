@@ -64,6 +64,9 @@ export default function AdSlot({ slot, format = 'auto', className = '' }: AdSlot
   }
 
   if (!canShowAds) return null;
+  // No unit id configured for this placement yet — render nothing rather than
+  // an <ins> pointing at a slot that does not exist in the AdSense account.
+  if (!slot) return null;
 
   return (
     <div className={className} style={{ textAlign: 'center', overflow: 'hidden' }}>

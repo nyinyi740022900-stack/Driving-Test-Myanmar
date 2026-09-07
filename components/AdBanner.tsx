@@ -7,7 +7,8 @@ import { usePremiumStatus } from '@/hooks/usePremiumStatus';
 
 interface Props {
   placement: AdPlacement;
-  slot: string;
+  /** Undefined while no ad unit has been created for this placement yet. */
+  slot: string | undefined;
   format?: 'auto' | 'horizontal' | 'rectangle';
   className?: string;
 }
@@ -16,6 +17,7 @@ export default function AdBanner({ placement, slot, format = 'auto', className =
   const { isPremiumUser, loading } = usePremiumStatus();
 
   if (loading) return null;
+  if (!slot) return null;
   if (!canShowPlacement(placement, { isPremium: isPremiumUser, hasConsent: hasAdConsent() })) {
     return null;
   }
