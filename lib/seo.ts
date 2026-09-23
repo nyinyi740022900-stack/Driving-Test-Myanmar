@@ -39,6 +39,22 @@ export function localeAlternates(path: string): Metadata['alternates'] {
   return { languages };
 }
 
+/**
+ * The branded 1200x630 share card for a locale (app/[locale]/opengraph-image.tsx).
+ *
+ * Next.js only auto-attaches a file-convention image to pages living in the
+ * SAME route segment as the file — it does not cascade down into nested
+ * segments the way title/description inheritance does. Since the real
+ * generated image lives at app/[locale]/opengraph-image.tsx, only the home
+ * page (also at that exact segment) picked it up automatically; every nested
+ * route (/btt, /resources/*, ...) got no image at all once the old hardcoded
+ * icon override was removed. Pointing every page at this URL explicitly
+ * works everywhere, regardless of nesting.
+ */
+function ogImage(locale: string) {
+  return [{ url: `${SITE_URL}/${locale}/opengraph-image`, width: 1200, height: 630, alt: BRAND_NAME }];
+}
+
 /** Canonical + hreflang for any locale-prefixed page path (path starts with `/`, or ''). */
 export function pageAlternates(locale: string, path: string): Metadata['alternates'] {
   return {
@@ -75,26 +91,19 @@ export async function buildSiteMetadata(locale: string): Promise<Metadata> {
       apple: [{ url: faviconHref('/apple-icon.png'), sizes: '180x180', type: 'image/png' }],
       shortcut: faviconHref('/icons/favicon-32x32.png'),
     },
-    // No explicit `images` here: the site has a real 1200x630 branded card at
-    // app/opengraph-image.tsx (headline, question count, SG/JP tags) generated
-    // via next/og. Setting `images` explicitly — as this used to, pointing at
-    // the 192x192 app icon — overrides Next.js's file-convention detection of
-    // that route, so every shared link (the main channel this app grows
-    // through: Facebook/Telegram groups for Myanmar migrant workers) rendered
-    // a tiny cropped icon instead of the actual preview card. Leaving `images`
-    // unset lets Next.js resolve it to /opengraph-image on every route that
-    // does not set its own.
     openGraph: {
       title: t('title'),
       description: t('description'),
       type: 'website',
       siteName: BRAND_NAME,
       url: `${SITE_URL}/${locale}`,
+      images: ogImage(locale),
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
+      images: ogImage(locale),
     },
     appleWebApp: {
       capable: true,
@@ -115,6 +124,7 @@ export async function buildHomeMetadata(locale: string): Promise<Metadata> {
       title: t('title'),
       description: t('description'),
       url: `${SITE_URL}/${locale}`,
+      images: ogImage(locale),
     },
   };
 }
@@ -134,6 +144,7 @@ export async function buildTestLandingMetadata(
       title: t('meta_title'),
       description: t('meta_description'),
       url: `${SITE_URL}/${locale}${path}`,
+      images: ogImage(locale),
     },
   };
 }
@@ -168,6 +179,7 @@ export async function buildQuizMetadata(
       title,
       description,
       url: `${SITE_URL}/${locale}${path}`,
+      images: ogImage(locale),
     },
   };
 }

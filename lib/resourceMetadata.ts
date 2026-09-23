@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { SITE_URL } from '@/lib/brand';
+import { BRAND_NAME, SITE_URL } from '@/lib/brand';
 import { pageAlternates } from '@/lib/seo';
 
 interface ResourceMetadataOptions {
@@ -28,13 +28,15 @@ export async function buildResourceMetadata(
     description,
     alternates: pageAlternates(locale, path),
     ...(index ? {} : { robots: { index: false, follow: true } }),
-    // No explicit `images` — falls back to the branded 1200x630 card at
-    // app/[locale]/opengraph-image.tsx instead of a cropped app icon. See
-    // lib/seo.ts for the fuller explanation.
+    // Points at the real branded 1200x630 card (app/[locale]/opengraph-image.tsx)
+    // explicitly rather than relying on Next.js's file-convention auto-image,
+    // which only attaches to pages in that exact route segment, not nested
+    // ones like every page under /resources/*. See lib/seo.ts's ogImage().
     openGraph: {
       title,
       description,
       url: `${SITE_URL}/${locale}${path}`,
+      images: [{ url: `${SITE_URL}/${locale}/opengraph-image`, width: 1200, height: 630, alt: BRAND_NAME }],
     },
   };
 }
