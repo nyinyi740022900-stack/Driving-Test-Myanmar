@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { BRAND_LOGO_URL, SITE_URL } from '@/lib/brand';
+import { SITE_URL } from '@/lib/brand';
 import { pageAlternates } from '@/lib/seo';
 
 interface ResourceMetadataOptions {
@@ -28,11 +28,13 @@ export async function buildResourceMetadata(
     description,
     alternates: pageAlternates(locale, path),
     ...(index ? {} : { robots: { index: false, follow: true } }),
+    // No explicit `images` — falls back to the branded 1200x630 card at
+    // app/[locale]/opengraph-image.tsx instead of a cropped app icon. See
+    // lib/seo.ts for the fuller explanation.
     openGraph: {
       title,
       description,
       url: `${SITE_URL}/${locale}${path}`,
-      images: [{ url: BRAND_LOGO_URL, width: 192, height: 192, alt: title }],
     },
   };
 }
