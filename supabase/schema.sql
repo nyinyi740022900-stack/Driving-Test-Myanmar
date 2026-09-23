@@ -137,7 +137,12 @@ insert into public.app_settings (key, value, label) values
   ('wavepay_number', '09740022900', 'WavePay Number'),
   ('monthly_price',  '4900',        'Monthly Price (Ks)'),
   ('yearly_price',   '39000',       'Yearly Price (Ks)'),
-  ('announcement',   '',            'Announcement Banner (leave empty to hide)')
+  ('announcement',   '',            'Announcement Banner (leave empty to hide)'),
+  -- ISO datetime string; empty = off. When set and in the future, every user
+  -- (signed in or not, paying or not) gets full Premium — see isPremium() in
+  -- lib/subscription.ts. Edited from the admin panel's "Free premium for
+  -- everyone" card, not the generic settings list.
+  ('premium_free_until', '', 'Free Premium For Everyone Until (ISO datetime, blank = off)')
 on conflict (key) do nothing;
 
 

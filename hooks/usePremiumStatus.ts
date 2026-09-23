@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useAuth } from '@/components/AuthProvider';
 import { createClient } from '@/lib/supabase';
-import { isPremium } from '@/lib/subscription';
+import { isPremium, isPromoFreeActive } from '@/lib/subscription';
 
 export function usePremiumStatus() {
   const { user, loading: authLoading } = useAuth();
@@ -12,13 +12,19 @@ export function usePremiumStatus() {
 
   useEffect(() => {
     if (authLoading) return;
-    if (!user || !process.env.NEXT_PUBLIC_SUPABASE_URL) {
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL) {
       setIsPremiumUser(false);
       setLoading(false);
       return;
     }
     let cancelled = false;
-    isPremium(createClient(), user.id)
+    const supabase = createClient();
+    // Signed-in users: real subscription (isPremium already checks the
+    // site-wide free promo first). Signed-out visitors have no user id to
+    // check a subscription for, but should still see no ads during the
+    // promo, so check it directly.
+    const check = user ? isPremium(supabase, user.id) : isPromoFreeActive(supabase);
+    check
       .then((premium) => {
         if (!cancelled) setIsPremiumUser(premium);
       })

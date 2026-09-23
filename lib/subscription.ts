@@ -12,7 +12,29 @@ export async function getUserSubscription(supabase: SupabaseClient, userId: stri
   return data;
 }
 
+/**
+ * Site-wide "free for everyone" promo, set from the admin panel
+ * (app_settings.premium_free_until, an ISO datetime string; empty = off).
+ *
+ * Used to open every premium feature to all users — paying or not, signed
+ * in or not — while the site has no ad revenue yet (AdSense pending) and
+ * needs real usage and reviews to show Google. Reading app_settings is safe
+ * with any client (anon or service role): RLS allows SELECT to everyone.
+ */
+export async function isPromoFreeActive(supabase: SupabaseClient): Promise<boolean> {
+  const { data } = await supabase
+    .from('app_settings')
+    .select('value')
+    .eq('key', 'premium_free_until')
+    .maybeSingle();
+  const until = data?.value;
+  if (!until) return false;
+  const parsed = new Date(until);
+  return !Number.isNaN(parsed.getTime()) && parsed.getTime() > Date.now();
+}
+
 export async function isPremium(supabase: SupabaseClient, userId: string): Promise<boolean> {
+  if (await isPromoFreeActive(supabase)) return true;
   const sub = await getUserSubscription(supabase, userId);
   if (!sub || sub.status !== 'premium') return false;
   if (!sub.expires_at) return false;

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useAuth } from '@/components/AuthProvider';
 import { BRAND_NAME } from '@/lib/brand';
@@ -836,6 +836,15 @@ export default function AdminDashboard({
         {tab === 'content' && (
           <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
 
+            {/* Free-for-everyone promo */}
+            <PremiumPromoCard
+              currentValue={settings.find(s => s.key === 'premium_free_until')?.value ?? ''}
+              busy={settingBusy === 'premium_free_until'}
+              saved={settingSaved === 'premium_free_until'}
+              error={settingError['premium_free_until'] ?? ''}
+              onSave={v => saveSetting('premium_free_until', v)}
+            />
+
             {/* App Settings editor */}
             <div style={{ background: '#fff', borderRadius: 14, border: '1px solid var(--line)', overflow: 'hidden' }}>
               <div style={{ padding: '16px 22px', borderBottom: '1px solid var(--line)' }}>
@@ -843,7 +852,7 @@ export default function AdminDashboard({
                 <div style={{ fontSize: '.78rem', color: 'var(--ink-soft)', marginTop: 2 }}>Wallet numbers, pricing, announcement banner</div>
               </div>
               <div style={{ padding: '16px 22px', display: 'flex', flexDirection: 'column', gap: 16 }}>
-                {settings.map(s => (
+                {settings.filter(s => s.key !== 'premium_free_until').map(s => (
                   <SettingEditor
                     key={s.key}
                     setting={s}
@@ -1290,6 +1299,92 @@ function SettingRow({ label, value, mono }: { label: string; value: string; mono
     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px 0', borderBottom: '1px solid var(--line)', gap: 12, flexWrap: 'wrap' }}>
       <span style={{ fontSize: '.85rem', color: 'var(--ink-soft)' }}>{label}</span>
       <span style={{ fontSize: '.85rem', fontFamily: mono ? 'monospace' : 'var(--display)', fontWeight: 600 }}>{value}</span>
+    </div>
+  );
+}
+
+function PremiumPromoCard({
+  currentValue, busy, saved, error, onSave,
+}: {
+  currentValue: string;
+  busy: boolean;
+  saved: boolean;
+  error: string;
+  onSave: (value: string) => void;
+}) {
+  const toLocalInputValue = (iso: string) => {
+    if (!iso) return '';
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return '';
+    const pad = (n: number) => String(n).padStart(2, '0');
+    return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  };
+
+  const [draft, setDraft] = useState(toLocalInputValue(currentValue));
+  useEffect(() => setDraft(toLocalInputValue(currentValue)), [currentValue]);
+
+  const activeUntil = currentValue ? new Date(currentValue) : null;
+  const isActive = !!activeUntil && !Number.isNaN(activeUntil.getTime()) && activeUntil.getTime() > Date.now();
+
+  return (
+    <div style={{ background: '#fff', borderRadius: 14, border: '1px solid var(--line)', overflow: 'hidden' }}>
+      <div style={{ padding: '16px 22px', borderBottom: '1px solid var(--line)' }}>
+        <div style={{ fontFamily: 'var(--display)', fontWeight: 800, fontSize: '.95rem' }}>🎁 Free Premium for everyone</div>
+        <div style={{ fontSize: '.78rem', color: 'var(--ink-soft)', marginTop: 2 }}>
+          Unlocks unlimited mock tests and hides ads for every visitor — signed in or not, paying or not — until this date/time. Useful while AdSense isn&apos;t live yet and the site needs real usage.
+        </div>
+      </div>
+      <div style={{ padding: '16px 22px', display: 'flex', flexDirection: 'column', gap: 12 }}>
+        <div
+          style={{
+            padding: '10px 14px', borderRadius: 8, fontSize: '.85rem', fontWeight: 600,
+            background: isActive ? '#dcfce7' : '#f3f4f6',
+            color: isActive ? '#166534' : 'var(--ink-soft)',
+          }}
+        >
+          {isActive
+            ? `✓ Active — everyone gets Premium free until ${activeUntil!.toLocaleString()}`
+            : 'Not active — normal premium/payment rules apply'}
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+          <input
+            type="datetime-local"
+            value={draft}
+            onChange={e => setDraft(e.target.value)}
+            className="field-input"
+            style={{ padding: '7px 12px', borderRadius: 8, border: '1px solid var(--line)', fontSize: '.88rem' }}
+          />
+          <button
+            onClick={() => onSave(draft ? new Date(draft).toISOString() : '')}
+            disabled={busy || !draft}
+            style={{
+              padding: '7px 16px', borderRadius: 8, border: 'none', cursor: draft ? 'pointer' : 'default',
+              background: saved ? '#1B9C56' : '#1a1a1a', color: '#fff',
+              fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.82rem',
+              opacity: busy || !draft ? .6 : 1,
+            }}
+          >
+            {saved ? '✓ Saved' : busy ? 'Saving…' : 'Save'}
+          </button>
+          {isActive && (
+            <button
+              onClick={() => { setDraft(''); onSave(''); }}
+              disabled={busy}
+              style={{
+                padding: '7px 16px', borderRadius: 8, cursor: 'pointer',
+                background: '#fff', color: '#dc2626', border: '1px solid #dc2626',
+                fontFamily: 'var(--display)', fontWeight: 700, fontSize: '.82rem',
+                opacity: busy ? .6 : 1,
+              }}
+            >
+              Turn off now
+            </button>
+          )}
+        </div>
+        {error && (
+          <span style={{ color: '#dc2626', fontSize: '.78rem', fontWeight: 600 }}>{error}</span>
+        )}
+      </div>
     </div>
   );
 }
