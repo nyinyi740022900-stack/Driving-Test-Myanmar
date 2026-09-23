@@ -75,19 +75,26 @@ export async function buildSiteMetadata(locale: string): Promise<Metadata> {
       apple: [{ url: faviconHref('/apple-icon.png'), sizes: '180x180', type: 'image/png' }],
       shortcut: faviconHref('/icons/favicon-32x32.png'),
     },
+    // No explicit `images` here: the site has a real 1200x630 branded card at
+    // app/opengraph-image.tsx (headline, question count, SG/JP tags) generated
+    // via next/og. Setting `images` explicitly — as this used to, pointing at
+    // the 192x192 app icon — overrides Next.js's file-convention detection of
+    // that route, so every shared link (the main channel this app grows
+    // through: Facebook/Telegram groups for Myanmar migrant workers) rendered
+    // a tiny cropped icon instead of the actual preview card. Leaving `images`
+    // unset lets Next.js resolve it to /opengraph-image on every route that
+    // does not set its own.
     openGraph: {
       title: t('title'),
       description: t('description'),
       type: 'website',
       siteName: BRAND_NAME,
       url: `${SITE_URL}/${locale}`,
-      images: [{ url: BRAND_LOGO_URL, width: 192, height: 192, alt: BRAND_NAME }],
     },
     twitter: {
-      card: 'summary',
+      card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-      images: [BRAND_LOGO_URL],
     },
     appleWebApp: {
       capable: true,
@@ -108,7 +115,6 @@ export async function buildHomeMetadata(locale: string): Promise<Metadata> {
       title: t('title'),
       description: t('description'),
       url: `${SITE_URL}/${locale}`,
-      images: [{ url: BRAND_LOGO_URL, width: 192, height: 192, alt: BRAND_NAME }],
     },
   };
 }
@@ -128,7 +134,6 @@ export async function buildTestLandingMetadata(
       title: t('meta_title'),
       description: t('meta_description'),
       url: `${SITE_URL}/${locale}${path}`,
-      images: [{ url: BRAND_LOGO_URL, width: 192, height: 192, alt: BRAND_NAME }],
     },
   };
 }
