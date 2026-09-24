@@ -6,25 +6,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "You see a warning sign showing a motorcycle skidding on a wavy line. What should you do?",
-      "my": "လှိုင်းကွေးမျဉ်းပေါ် ဆိုင်ကယ်တစ်စီး ချောချွတ်နေသည့်ပုံပါသော သတိပေးဆိုင်းဘုတ်ကို မြင်လျှင် ဘာလုပ်သင့်သလဲ။"
+      "my": "ဆိုင်ကယ်ချော်နေသည့်ပုံပါသော သတိပေးဆိုင်းဘုတ်ကို တွေ့လျှင် ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Ignore it; it only applies to cars",
-          "my": "ဂရုမစိုက်ပါနှင့်၊ ကားများအတွက်သာဖြစ်သည်"
+          "my": "လျစ်လျူရှုပါ — ကားများအတွက်သာ သက်ဆိုင်သည်"
         }
       },
       {
         "text": {
           "en": "Slow down and ride cautiously as the road surface ahead may be slippery",
-          "my": "ရှေ့လမ်းမျက်နှာပြင်သည် ချော်လွယ်နိုင်သောကြောင့် မြန်နှုန်းလျှော့ပြီး သတိနှင့်မောင်းပါ"
+          "my": "ရှေ့လမ်းမျက်နှာပြင် ချော်နိုင်သဖြင့် အရှိန်လျှော့ပြီး သတိထားမောင်းပါ"
         }
       },
       {
         "text": {
           "en": "Accelerate quickly to pass the slippery section",
-          "my": "ချော်လွယ်သောနေရာကို မြန်မြန်ဖြတ်သွားရန် အမြန်မောင်းပါ"
+          "my": "ချော်နိုင်သည့်နေရာကို မြန်မြန်ကျော်နိုင်ရန် အရှိန်မြှင့်ပါ"
         }
       }
     ],
@@ -56,25 +56,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "At a junction, the traffic light shows a steady amber after green. What should a rider do?",
-      "my": "လမ်းဆုံတွင် မီးစိမ်းပြီးနောက် မီးဝါ တည်ငြိမ်စွာ ပြသည်။ ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      "my": "လမ်းဆုံတွင် မီးစိမ်းပြီးနောက် မီးဝါတည်ငြိမ်စွာ ပြောင်းသွားပါက ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Stop if it is safe to do so; proceed only if already too close to stop safely",
-          "my": "ဘေးကင်းစွာ ရပ်နိုင်လျှင် ရပ်ပါ၊ ရပ်ရန်မဖြစ်နိုင်အောင် နီးကပ်နေပါမှသာ ဆက်သွားပါ"
+          "my": "ဘေးကင်းစွာ ရပ်နိုင်ပါက ရပ်ပါ။ ရပ်ရန်အလွန်နီးကပ်နေမှသာ ဆက်သွားပါ"
         }
       },
       {
         "text": {
           "en": "Always accelerate to cross before it turns red",
-          "my": "မီးနီမပြောင်းခင် ဖြတ်ရန် အမြဲတမ်း အရှိန်မြှင့်ပါ"
+          "my": "မီးနီမပြောင်းမီ ဖြတ်နိုင်ရန် အမြဲအရှိန်မြှင့်ပါ"
         }
       },
       {
         "text": {
           "en": "Amber means stop only for cars, not motorcycles",
-          "my": "မီးဝါသည် ကားများအတွက်သာ ရပ်ရန်ဖြစ်သည်၊ ဆိုင်ကယ်အတွက် မဟုတ်"
+          "my": "မီးဝါတွင် ကားများသာ ရပ်ရပြီး ဆိုင်ကယ်များ ရပ်ရန်မလိုပါ"
         }
       }
     ],
@@ -106,25 +106,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a rider signal by extending the right arm straight out horizontally?",
-      "my": "ညာဘက်လက်ကို ဘေးတိုက်ဖြောင့်တန်းညှင်းလျှင် ယာဉ်မောင်းသူက ဘာအချက်ပြသလဲ။"
+      "my": "ညာဘက်လက်ကို ဘေးတိုက် အလျားလိုက်ဆန့်ထားလျှင် ဘာကို အချက်ပြသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Intention to stop",
-          "my": "ရပ်မည်ဟု ရည်ရွယ်ချက်"
+          "my": "ရပ်မည်ဟု အချက်ပြခြင်း"
         }
       },
       {
         "text": {
           "en": "Intention to slow down only",
-          "my": "မြန်နှုန်းလျှော့ရုံသာ ရည်ရွယ်ချက်"
+          "my": "အရှိန်လျှော့မည်ဟု အချက်ပြခြင်း"
         }
       },
       {
         "text": {
           "en": "Intention to turn right",
-          "my": "ညာဘက်ကွေ့မည်ဟု ရည်ရွယ်ချက်"
+          "my": "ညာဘက်ကွေ့မည်ဟု အချက်ပြခြင်း"
         }
       }
     ],
@@ -156,25 +156,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a sign showing a steep upward arrow with the figure '10%' mean for a rider?",
-      "my": "'10%' ဂဏန်းနှင့်အတူ ရှေ့သို့ မြင့်တက်နေသော မြှားပုံဆိုင်းဘုတ်သည် ယာဉ်မောင်းသူအတွက် ဘာကို ဆိုလိုသလဲ။"
+      "my": "ရှေ့သို့တက်နေသော မြှားနှင့် “10%” ဂဏန်းပါ ဆိုင်းဘုတ်က ဘာကို ဆိုလိုသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "A speed bump ahead",
-          "my": "ရှေ့တွင် မြန်နှုန်းလျှော့ကုန်းရှိသည်"
+          "my": "ရှေ့တွင် အရှိန်လျှော့ခုံးရှိသည်"
         }
       },
       {
         "text": {
           "en": "A steep gradient ahead; adjust speed and gear before climbing or descending",
-          "my": "ရှေ့တွင် တောင်ကုန်းစောက်ရှိသည်၊ တက်/ဆင်းမီ မြန်နှုန်းနှင့် ဂီယာကို ညှိပါ"
+          "my": "ရှေ့တွင် မတ်စောက်သော တောင်စောင်းရှိသည် — တက်သည့်အခါ သို့မဟုတ် ဆင်းသည့်အခါ အရှိန်နှင့် ဂီယာကို သင့်တော်အောင် ချိန်ညှိပါ"
         }
       },
       {
         "text": {
           "en": "A 10 km speed limit zone",
-          "my": "10 km/h အမြန်နှုန်းကန့်သတ်ဇုန်"
+          "my": "အမြန်နှုန်းကန့်သတ်ချက် တစ်နာရီ ၁၀ ကီလိုမီတာဖြစ်သည်"
         }
       }
     ],
@@ -198,25 +198,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a sign showing two opposing arrows curving around each other indicate?",
-      "my": "တစ်ခုနှင့်တစ်ခု ဆန့်ကျင်ဘက်ပတ်ပတ်လည်ကွေ့နေသော မြှားနှစ်ချောင်းပါသော ဆိုင်းဘုတ်သည် ဘာကိုဆိုလိုသလဲ။"
+      "my": "ဆန့်ကျင်ဘက်သို့ ကွေ့ထားသော မြှားနှစ်ခုပါ ဆိုင်းဘုတ်က ဘာကို ဆိုလိုသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Two-way traffic begins",
-          "my": "ယာဉ်နှစ်လမ်းသွား စတင်သည်"
+          "my": "တစ်လမ်းသွားယာဉ်ကြော စတင်သည်"
         }
       },
       {
         "text": {
           "en": "A roundabout ahead",
-          "my": "ရှေ့တွင် အလှည့်ဝန်းရှိသည်"
+          "my": "ရှေ့တွင် အဝိုင်းလမ်းဆုံရှိသည်"
         }
       },
       {
         "text": {
           "en": "U-turn permitted here",
-          "my": "ဒီနေရာတွင် ပြန်လှည့်ခွင့်ရှိသည်"
+          "my": "ဤနေရာတွင် ယူကွေ့ခွင့်ရှိသည်"
         }
       }
     ],
@@ -248,13 +248,13 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does it mean when a rider ahead of you extends their left arm and moves it up and down?",
-      "my": "ရှေ့မှ ယာဉ်မောင်းသူသည် ဘယ်ဘက်လက်ကို ညှင်းပြီး အပေါ်အောက်လှုပ်လျှင် ဘာကိုဆိုလိုသလဲ။"
+      "my": "ရှေ့မှယာဉ်မောင်းသူက ဘယ်လက်ကို ဆန့်ထုတ်ပြီး အပေါ်အောက် လှုပ်ပြလျှင် ဘာကို ဆိုလိုသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Slowing down or stopping",
-          "my": "မြန်နှုန်းလျှော့သည် သို့မဟုတ် ရပ်တော့မည်"
+          "my": "အရှိန်လျှော့မည် သို့မဟုတ် ရပ်မည်"
         }
       },
       {
@@ -290,25 +290,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does a sign showing a motorcycle with the word 'ERP' typically warn riders about?",
-      "my": "'ERP' စာလုံးနှင့်အတူ ဆိုင်ကယ်ပုံပါသော ဆိုင်းဘုတ်သည် ယာဉ်မောင်းသူများကို အများအားဖြင့် ဘာကို သတိပေးသလဲ။"
+      "my": "ဆိုင်ကယ်ပုံနှင့် “ERP” စာလုံးပါ ဆိုင်းဘုတ်က ဘာကို သတိပေးသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "A motorcycle racing track exit is ahead",
-          "my": "ရှေ့တွင် ဆိုင်ကယ်ပြိုင်ကွင်း အထွက်ရှိသည်"
+          "my": "ရှေ့တွင် ဆိုင်ကယ်ပြိုင်ကွင်းအဝင်ရှိသည်"
         }
       },
       {
         "text": {
           "en": "An Electronic Road Pricing gantry is ahead where charges may apply",
-          "my": "ရှေ့တွင် အခကြေးငွေ ကောက်ခံနိုင်သော Electronic Road Pricing (ERP) တံခါးရှိသည်"
+          "my": "ရှေ့တွင် ယာဉ်အသုံးပြုခကောက်ခံနိုင်သော အီလက်ထရွန်နစ်လမ်းအသုံးပြုခစနစ် (ERP) ဂိတ်ရှိသည်"
         }
       },
       {
         "text": {
           "en": "An emergency repair point for motorcycles is ahead",
-          "my": "ရှေ့တွင် ဆိုင်ကယ်အရေးပေါ် ပြုပြင်ရေးနေရာရှိသည်"
+          "my": "ရှေ့တွင် ဆိုင်ကယ်အရေးပေါ်ပြင်ဆင်ရေးနေရာရှိသည်"
         }
       }
     ],
@@ -432,13 +432,13 @@
     "difficulty": "medium",
     "prompt": {
       "en": "When an ambulance with flashing lights and siren approaches from behind, what should a rider do?",
-      "my": "မီးတောက်တောက်ပြီး ဆိုင်ရင်းအော်သံပါသော ဆေးရုံကားက နောက်ကျောမှ ချဥ်းကပ်လာလျှင် ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      "my": "မီးဖွင့်ပြီး ဥဩသံမြည်နေသော လူနာတင်ယာဉ်တစ်စီး နောက်မှချဉ်းကပ်လာပါက ဆိုင်ကယ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Safely move aside and let it pass without sudden braking",
-          "my": "ရုတ်တရက် ဘရိတ်ကိုက်ခြင်း မလုပ်ဘဲ ဘေးကင်းစွာ ဖယ်ပေးပါ"
+          "my": "ရုတ်တရက်ဘရိတ်မအုပ်ဘဲ ဘေးကင်းစွာ လမ်းဖယ်ပေးပါ"
         }
       },
       {
@@ -450,7 +450,7 @@
       {
         "text": {
           "en": "Speed up to clear the way faster",
-          "my": "လမ်းကို ပိုမြန်ရှင်းရန် အရှိန်မြှင့်ပါ"
+          "my": "လမ်းရှင်းပေးရန် အရှိန်မြှင့်ပါ"
         }
       }
     ],
@@ -474,13 +474,13 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Two motorcycles approach a zebra crossing where pedestrians are actively crossing. What is required?",
-      "my": "လူများ တက်ကြွစွာ ဖြတ်ကျော်နေသော ဇီဘရာလူကူးမျဉ်းသို့ ဆိုင်ကယ်နှစ်စီး ချဥ်းကပ်လာလျှင် ဘာလုပ်ရန် လိုအပ်သလဲ။"
+      "my": "လူကူးသူများ ဖြတ်ကူးနေသော ကျားကြားလူကူးမျဉ်းသို့ ဆိုင်ကယ်နှစ်စီး ချဉ်းကပ်လာပါက ဘာလုပ်ရမလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "They may proceed slowly around the pedestrians",
-          "my": "လူများ ဘေးမှ နှေးနှေးဖြတ်နိုင်သည်"
+          "my": "ဆိုင်ကယ်များက လူကူးသူများ၏ ဘေးမှ ဖြည်းဖြည်းဖြတ်သွားနိုင်သည်"
         }
       },
       {
@@ -492,7 +492,7 @@
       {
         "text": {
           "en": "Both must stop and wait until pedestrians finish crossing",
-          "my": "နှစ်စီးစလုံး ရပ်ပြီး လူများ ဖြတ်ပြီးသည်အထိ စောင့်ရမည်"
+          "my": "ဆိုင်ကယ်နှစ်စီးလုံး ရပ်ပြီး လူကူးသူများ ဖြတ်ကူးပြီးသည်အထိ စောင့်ရမည်"
         }
       }
     ],
@@ -524,25 +524,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "When approaching a give-way junction, a rider must do what before entering the main road?",
-      "my": "လမ်းဖယ်ရန် လမ်းဆုံသို့ ချဥ်းကပ်သောအခါ ယာဉ်မောင်းသူသည် အဓိကလမ်းမသို့ ဝင်မီ ဘာလုပ်ရမည်လဲ။"
+      "my": "“လမ်းပေးရန်” ဆိုင်းဘုတ်ရှိသော လမ်းဆုံမှ အဓိကလမ်းပေါ်သို့ ဝင်မည်ဆိုလျှင် ဘာလုပ်ရမလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Slow down, check both directions, and give way to traffic on the main road",
-          "my": "မြန်နှုန်းလျှော့ပြီး ဘက်နှစ်ဖက်ကို စစ်ဆေးကာ အဓိကလမ်းမပေါ်ရှိ ယာဉ်များကို လမ်းဖယ်ပေးပါ"
+          "my": "အရှိန်လျှော့ပြီး နှစ်ဘက်စလုံးကို စစ်ဆေးကာ အဓိကလမ်းပေါ်ရှိ ယာဉ်များကို ဦးစားပေးပါ"
         }
       },
       {
         "text": {
           "en": "Stop completely regardless of traffic conditions",
-          "my": "ယာဉ်အခြေအနေမရွေး လုံးဝရပ်ပါ"
+          "my": "ယာဉ်ရှိမရှိမရွေး အပြည့်အဝရပ်ပါ"
         }
       },
       {
         "text": {
           "en": "Sound the horn and proceed at the same speed",
-          "my": "ဟွန်းတီးပြီး အရှိန်အတိုင်း ဆက်သွားပါ"
+          "my": "ဟွန်းတီးပြီး အရှိန်မလျှော့ဘဲ ဆက်သွားပါ"
         }
       }
     ],
@@ -574,25 +574,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "When emerging from a side road onto a major road with a 'Give Way' sign, traffic on the major road has priority. What if the major road is empty?",
-      "my": "'လမ်းဖယ်' ဆိုင်းဘုတ်ပါသော ဘေးလမ်းမှ အဓိကလမ်းသို့ ဝင်သောအခါ အဓိကလမ်းပေါ်ရှိ ယာဉ်များက ဦးစားပေးခွင့်ရှိသည်။ အဓိကလမ်းတွင် ယာဉ်မရှိလျှင် ဘယ်လိုလုပ်ရမလဲ။"
+      "my": "“လမ်းပေးရန်” ဆိုင်းဘုတ်ရှိသော ဘေးလမ်းမှ အဓိကလမ်းပေါ်သို့ ဝင်မည်။ အဓိကလမ်းပေါ်တွင် ယာဉ်မရှိပါက ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Still slow down, check both ways, and proceed only when clearly safe",
-          "my": "မြန်နှုန်းလျှော့ပြီး ဘက်နှစ်ဖက်ကို စစ်ဆေးကာ ဘေးကင်းရှင်းလင်းမှသာ ဆက်သွားပါ"
+          "my": "အရှိန်လျှော့ပြီး နှစ်ဘက်စလုံးကို စစ်ဆေးကာ လမ်းရှင်းပြီး ဘေးကင်းမှသာ ဆက်သွားပါ"
         }
       },
       {
         "text": {
           "en": "Proceed at full speed since the road is empty",
-          "my": "လမ်းတွင်ယာဉ်မရှိသောကြောင့် အပြည့်အဝမြန်နှုန်းနှင့် ဆက်သွားပါ"
+          "my": "လမ်းပေါ်တွင် ယာဉ်မရှိသောကြောင့် အရှိန်အပြည့်ဖြင့် ဆက်သွားပါ"
         }
       },
       {
         "text": {
           "en": "The give-way rule no longer applies if no traffic is visible",
-          "my": "ယာဉ်မမြင်ရလျှင် လမ်းဖယ်စည်းမျဉ်း မသက်ဆိုင်တော့ပါ"
+          "my": "ယာဉ်မမြင်ရပါက လမ်းပေးရမည့်စည်းကမ်း မလိုက်နာရတော့ပါ"
         }
       }
     ],
@@ -624,25 +624,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "At a junction controlled by traffic police only (no working traffic light), what must drivers and riders do?",
-      "my": "ယာဉ်အချက်ပြမီး အလုပ်မလုပ်ဘဲ ရဲမှသာ ထိန်းချုပ်နေသော လမ်းဆုံတွင် ယာဉ်မောင်းသူများ ဘာလုပ်ရမည်လဲ။"
+      "my": "မီးပွိုင့်ပျက်နေပြီး လမ်းဆုံကို ရဲက ထိန်းချုပ်နေပါက ယာဉ်မောင်းသူများ ဘာလုပ်ရမလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Wait for the lights to be repaired before moving",
-          "my": "ရွေ့မီ မီးပြများကို ပြန်ပြင်သည်အထိ စောင့်ပါ"
+          "my": "မောင်းမထွက်မီ မီးပွိုင့်ပြင်ပြီးသည်အထိ စောင့်ပါ"
         }
       },
       {
         "text": {
           "en": "Follow only the traffic light, since it takes precedence over the officer",
-          "my": "ရဲထက် ယာဉ်အချက်ပြမီးက ဦးစားပေးခွင့်ရှိသောကြောင့် မီးပြကိုသာ လိုက်နာပါ"
+          "my": "ရဲ၏ အချက်ပြမှုထက် မီးပွိုင့်ကို ဦးစားပေးပြီး လိုက်နာပါ"
         }
       },
       {
         "text": {
           "en": "Obey the police officer's hand signals, ignoring the malfunctioning lights",
-          "my": "ပျက်နေသော မီးပြများကို ဂရုမစိုက်ဘဲ ရဲ၏ လက်အချက်ပြများကို လိုက်နာပါ"
+          "my": "ပျက်နေသောမီးပွိုင့်ကို လျစ်လျူရှုပြီး ရဲ၏ လက်အချက်ပြမှုများကို လိုက်နာပါ"
         }
       }
     ],
@@ -674,25 +674,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What should a rider do when approaching a school zone sign during school hours?",
-      "my": "ကျောင်းချိန်အတွင်း ကျောင်းဇုန်ဆိုင်းဘုတ်ကို ချဥ်းကပ်လာသောအခါ ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      "my": "ကျောင်းဖွင့်ချိန်တွင် ကျောင်းဇုန်ဆိုင်းဘုတ်ကို ချဉ်းကပ်လာပါက ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Reduce speed and watch carefully for children crossing",
-          "my": "မြန်နှုန်းလျှော့ပြီး ကလေးများ ဖြတ်ကျော်မှုကို သတိနှင့်ကြည့်ပါ"
+          "my": "အရှိန်လျှော့ပြီး ကလေးများ ဖြတ်ကူးနိုင်သည်ကို သတိထားကြည့်ပါ"
         }
       },
       {
         "text": {
           "en": "Maintain normal speed since motorcycles are exempt",
-          "my": "ဆိုင်ကယ်များ ကင်းလွတ်ခွင့်ရှိသောကြောင့် ပုံမှန်မြန်နှုန်းကို ဆက်ထားပါ"
+          "my": "ဆိုင်ကယ်များ ကင်းလွတ်ခွင့်ရှိသောကြောင့် ပုံမှန်အရှိန်အတိုင်း ဆက်မောင်းပါ"
         }
       },
       {
         "text": {
           "en": "Sound the horn continuously to clear the path",
-          "my": "လမ်းကိုရှင်းရန် ဟွန်းကို မရပ်တမ်းတီးပါ"
+          "my": "လမ်းရှင်းစေရန် ဟွန်းကို မနားတမ်းတီးပါ"
         }
       }
     ],
@@ -724,25 +724,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "A motorcycle is travelling on a single-lane road and reaches a narrow bridge where only one vehicle can pass at a time, with a vehicle already on the bridge from the opposite side. What should the rider do?",
-      "my": "လမ်းကြောတစ်ကြောင်းတည်းပါသော လမ်းပေါ်တွင် ဆိုင်ကယ်တစ်စီးသည် တစ်ကြိမ်လျှင် ယာဉ်တစ်စီးသာ ဖြတ်နိုင်သော ကျဉ်းမြောင်းသည့်တံတားသို့ ရောက်လျှင် ဆန့်ကျင်ဘက်မှ ယာဉ်တစ်စီး တံတားပေါ်တွင် ရှိနေပြီးသား ဖြစ်နေသည်။ ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      "my": "လမ်းတစ်ကြောတည်းသာရှိသော ကျဉ်းမြောင်းသည့်တံတားတွင် တစ်ကြိမ်လျှင် ယာဉ်တစ်စီးသာ ဖြတ်နိုင်သည်။ ဆန့်ကျင်ဘက်မှ ယာဉ်တစ်စီး တံတားပေါ်တွင် ရှိနေပါက ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Enter the bridge and expect the other vehicle to reverse",
-          "my": "တံတားသို့ဝင်ပြီး အခြားယာဉ်က နောက်ပြန်ဆုတ်မည်ဟု မျှော်လင့်ပါ"
+          "my": "တံတားပေါ်တက်ပြီး တစ်ဖက်ယာဉ် နောက်ပြန်ဆုတ်မည်ဟု မျှော်လင့်ပါ"
         }
       },
       {
         "text": {
           "en": "Wait at the entrance until the other vehicle clears the bridge",
-          "my": "အခြားယာဉ်က တံတားကို ရှင်းသွားသည်အထိ တံတားဝင်ပေါက်တွင် စောင့်ပါ"
+          "my": "တစ်ဖက်ယာဉ် တံတားမှ ထွက်သွားသည်အထိ တံတားဝင်ပေါက်တွင် စောင့်ပါ"
         }
       },
       {
         "text": {
           "en": "Increase speed to cross before the other vehicle reaches the middle",
-          "my": "အခြားယာဉ် အလယ်ကို မရောက်မီ ဖြတ်ရန် မြန်နှုန်းမြှင့်ပါ"
+          "my": "တစ်ဖက်ယာဉ် တံတားအလယ်မရောက်မီ ဖြတ်နိုင်ရန် အရှိန်မြှင့်ပါ"
         }
       }
     ],
@@ -766,25 +766,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "A motorcycle is stopped at a red light in the leftmost lane marked for 'left turn only'. The rider wants to go straight. What should the rider do?",
-      "my": "ဆိုင်ကယ်တစ်စီးသည် 'ဘယ်ဘက်ကွေ့ရန်သာ' ဟု အမှတ်အသားပြုထားသော ဘယ်ဘက်အစွန်ဆုံးလမ်းကြောတွင် မီးနီအတွင်း ရပ်နားနေသည်။ ယာဉ်မောင်းသူသည် တည့်တည့်သွားလိုသည်။ ဘာလုပ်သင့်သလဲ။"
+      "my": "ဆိုင်ကယ်မောင်းသူသည် မီးနီတွင် ဘယ်ဘက်အစွန်ဆုံး၊ ဘယ်ဘက်ကွေ့ရန်သာ ခွင့်ပြုသောလမ်းကြော၌ ရပ်နေသည်။ တည့်တည့်သွားလိုပါက ဘာလုပ်ရမလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Wait for a safe gap, signal, and move into a lane that permits going straight before the junction",
-          "my": "ဘေးကင်းသော ကြားကွက်ကို စောင့်ပြီး အချက်ပြကာ လမ်းဆုံမရောက်မီ တည့်တည့်သွားခွင့်ရှိသောလမ်းကြောသို့ ပြောင်းပါ"
+          "my": "ဘေးကင်းသောအကွာအဝေးရသည့်အခါ အချက်ပြပြီး လမ်းဆုံမတိုင်မီ တည့်တည့်သွားခွင့်ရှိသော လမ်းကြောသို့ ပြောင်းပါ"
         }
       },
       {
         "text": {
           "en": "Go straight from the left-turn-only lane since it is a minor rule",
-          "my": "သေးငယ်သောစည်းမျဉ်းဖြစ်သောကြောင့် ဘယ်ဘက်ကွေ့ရန်သာလမ်းကြောမှ တည့်တည့်သွားပါ"
+          "my": "စည်းကမ်းအသေးအဖွဲဖြစ်သောကြောင့် အဲဒီလမ်းကြောမှ တည့်တည့်သွားပါ"
         }
       },
       {
         "text": {
           "en": "Turn left first then make an immediate U-turn",
-          "my": "ဦးစွာဘယ်ဘက်ကွေ့ပြီးမှ ချက်ချင်း ပြန်လှည့်ပါ"
+          "my": "အရင်ဘယ်ဘက်ကွေ့ပြီး ချက်ချင်း လမ်းပြန်လှည့်ပါ"
         }
       }
     ],
@@ -808,25 +808,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "A rider is found riding a Class 2B motorcycle while holding only a Class 3 (car) licence with no motorcycle licence. What is the legal consequence?",
-      "my": "ဆိုင်ကယ်လိုင်စင်မရှိဘဲ Class 3 (ကား) လိုင်စင်သာရှိသူက Class 2B ဆိုင်ကယ်ကို မောင်းနှင်နေလျှင် ဥပဒေအရ ဆက်လက်ဖြစ်ပေါ်မှုက ဘာလဲ။"
+      "my": "ဆိုင်ကယ်လိုင်စင်မရှိဘဲ Class 3 ကားလိုင်စင်သာရှိသူက Class 2B ဆိုင်ကယ်ကို မောင်းပါက ဥပဒေအရ ဘာဖြစ်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "It is allowed only if accompanied by a licensed rider",
-          "my": "လိုင်စင်ရှိသော ယာဉ်မောင်းသူနှင့်အတူ လိုက်ပါလျှင်သာ ခွင့်ပြုသည်"
+          "my": "ဆိုင်ကယ်လိုင်စင်ရှိသူတစ်ဦး လိုက်ပါပါက ခွင့်ပြုသည်"
         }
       },
       {
         "text": {
           "en": "It is an offence of riding without a valid licence for that vehicle class",
-          "my": "ထိုယာဉ်အတန်းအစားအတွက် တရားဝင်လိုင်စင်မရှိဘဲ မောင်းနှင်ခြင်း ပြစ်မှုဖြစ်သည်"
+          "my": "သက်ဆိုင်ရာယာဉ်အမျိုးအစားအတွက် လိုင်စင်မရှိဘဲ မောင်းနှင်ခြင်းသည် ပြစ်မှုဖြစ်သည်"
         }
       },
       {
         "text": {
           "en": "It is allowed since a Class 3 licence covers all vehicle types",
-          "my": "Class 3 လိုင်စင်သည် ယာဉ်အမျိုးအစားအားလုံးကို လွှမ်းခြုံသောကြောင့် ခွင့်ပြုသည်"
+          "my": "Class 3 လိုင်စင်က ယာဉ်အမျိုးအစားအားလုံးကို ခွင့်ပြုသောကြောင့် တရားဝင်သည်"
         }
       }
     ],
@@ -850,25 +850,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Where are motorcycles strictly prohibited from parking?",
-      "my": "ဆိုင်ကယ်များ ရပ်နားခွင့်လုံးဝမရှိသော နေရာများကား မည်သည့်နေရာများဖြစ်သလဲ။"
+      "my": "ဆိုင်ကယ်ကို ဘယ်နေရာတွေမှာ ရပ်နားခွင့်မရှိသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "In multi-storey carparks designated for motorcycles",
-          "my": "ဆိုင်ကယ်အတွက် သတ်မှတ်ထားသော ထပ်ကာကားပါကင်တွင်"
+          "my": "ဆိုင်ကယ်အတွက် သတ်မှတ်ထားသော အထပ်များပါ ကားပါကင်တွင်"
         }
       },
       {
         "text": {
           "en": "In any motorcycle parking lot marked on the road",
-          "my": "လမ်းပေါ်တွင် အမှတ်အသားပြုထားသော ဆိုင်ကယ်ရပ်နားနေရာများတွင်"
+          "my": "လမ်းပေါ်ရှိ အမှတ်အသားပြထားသော ဆိုင်ကယ်ရပ်နားနေရာတွင်"
         }
       },
       {
         "text": {
           "en": "On a pedestrian footpath or within a designated no-parking zone",
-          "my": "ခြေလျင်လမ်းကောင် သို့မဟုတ် ရပ်နားခွင့်မရှိဇုန်တွင်"
+          "my": "လူသွားစင်္ကြံပေါ် သို့မဟုတ် ယာဉ်ရပ်နားခွင့်မရှိသောနေရာတွင်"
         }
       }
     ],
@@ -892,25 +892,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Can a motorcycle legally tow another vehicle or trailer on a public road in Singapore?",
-      "my": "Singapore ရှိ အများသုံးလမ်းပေါ်တွင် ဆိုင်ကယ်တစ်စီးသည် အခြားယာဉ် သို့မဟုတ် ဒရွတ်တစ်စီးကို တရားဝင် ဆွဲနိုင်ပါသလား။"
+      "my": "စင်ကာပူရှိ အများသုံးလမ်းပေါ်တွင် ဆိုင်ကယ်ဖြင့် အခြားယာဉ် သို့မဟုတ် နောက်တွဲကို ဆွဲနိုင်သလား။"
     },
     "choices": [
       {
         "text": {
           "en": "Yes, as long as the towed item weighs less than 50 kg",
-          "my": "ရပါသည်၊ ဆွဲနေသောအရာသည် ၅၀ ကီလိုဂရမ်အောက် ရှိရင် ရသည်"
+          "my": "ဆွဲမည့်အရာက ၅၀ ကီလိုဂရမ်အောက်ဆိုလျှင် ရသည်"
         }
       },
       {
         "text": {
           "en": "No, motorcycles are not permitted to tow trailers or other vehicles",
-          "my": "မရပါ၊ ဆိုင်ကယ်များသည် ဒရွတ် သို့မဟုတ် အခြားယာဉ်များကို ဆွဲခွင့်မရှိပါ"
+          "my": "မရပါ — ဆိုင်ကယ်ဖြင့် နောက်တွဲ သို့မဟုတ် အခြားယာဉ်ကို ဆွဲခွင့်မရှိပါ"
         }
       },
       {
         "text": {
           "en": "Yes, but only on expressways",
-          "my": "ရပါသည်၊ သို့သော် အဝှေးလမ်းမများတွင်သာ"
+          "my": "ရသည်၊ သို့သော် အဝေးပြေးလမ်းမပေါ်တွင်သာ"
         }
       }
     ],
@@ -934,25 +934,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What does Singapore law require regarding the maximum number of motorcycles allowed to ride abreast in a single lane?",
-      "my": "Singapore ဥပဒေအရ လမ်းကြောတစ်ကြောင်းတည်းတွင် ဆိုင်ကယ်များ တန်းလျားစီ မောင်းနှင်ရန် ခွင့်ပြုထားသော အများဆုံးအရေအတွက်ကို ဘယ်လို သတ်မှတ်ထားသလဲ။"
+      "my": "စင်ကာပူဥပဒေအရ လမ်းကြောတစ်ကြောတည်းတွင် ဆိုင်ကယ်များ ဘေးချင်းယှဉ်မောင်းနိုင်သည့် အများဆုံးအရေအတွက်ကို ဘယ်လိုသတ်မှတ်ထားသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Up to four motorcycles may ride abreast in a single lane",
-          "my": "လမ်းကြောတစ်ကြောင်းတည်းတွင် ဆိုင်ကယ်လေးစီးအထိ တန်းလျားစီ မောင်းနှင်ခွင့်ရှိသည်"
+          "my": "လမ်းကြောတစ်ကြောတည်းတွင် ဆိုင်ကယ်လေးစီးအထိ ဘေးချင်းယှဉ်မောင်းနိုင်သည်"
         }
       },
       {
         "text": {
           "en": "There is no legal limit on the number riding abreast",
-          "my": "တန်းလျားစီအရေအတွက်တွင် ဥပဒေကန့်သတ်ချက် လုံးဝမရှိ"
+          "my": "ဘေးချင်းယှဉ်မောင်းနှင်မှုအတွက် ဥပဒေကန့်သတ်ချက်မရှိပါ"
         }
       },
       {
         "text": {
           "en": "No more than two motorcycles may ride abreast in a single lane",
-          "my": "လမ်းကြောတစ်ကြောင်းတည်းတွင် ဆိုင်ကယ်နှစ်စီးထက်ပို၍ တန်းလျားစီ မောင်းနှင်ခွင့်မရှိ"
+          "my": "လမ်းကြောတစ်ကြောတည်းတွင် ဆိုင်ကယ်နှစ်စီးထက်ပို၍ ဘေးချင်းယှဉ်မောင်းခွင့်မရှိပါ"
         }
       }
     ],
@@ -976,25 +976,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "On a road with a continuous (solid) white line separating lanes, what does this mean for a rider?",
-      "my": "လမ်းကြောများကို ပိုင်းခြားထားသော အဆက်မပြတ် (အစဥ်အမြဲ) အဖြူရောင်မျဉ်းရှိသောလမ်းတွင် ယာဉ်မောင်းသူအတွက် ဘာကိုဆိုလိုသလဲ။"
+      "my": "လမ်းကြောများကို ခွဲထားသော မပြတ်သည့် အဖြူရောင်မျဉ်းတစ်ကြောင်းရှိပါက ဘာကို ဆိုလိုသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Crossing or straddling the line is not allowed except in an emergency",
-          "my": "အရေးပေါ်အခြေအနေမှလွဲ၍ မျဉ်းကို ဖြတ်ကျော် သို့မဟုတ် နှစ်ဘက်ကြားနင်းခြင်း ခွင့်မပြုပါ"
+          "my": "အရေးပေါ်အခြေအနေမှအပ မျဉ်းကို ဖြတ်ကျော်ခြင်း သို့မဟုတ် မျဉ်းပေါ်မောင်းခြင်း မပြုရ"
         }
       },
       {
         "text": {
           "en": "The line only applies to heavy vehicles",
-          "my": "ဒီမျဉ်းသည် ယာဉ်ကြီးများအတွက်သာ သက်ဆိုင်သည်"
+          "my": "ဤစည်းကမ်းသည် ယာဉ်ကြီးများအတွက်သာ သက်ဆိုင်သည်"
         }
       },
       {
         "text": {
           "en": "Overtaking across the line is always allowed for motorcycles",
-          "my": "ဆိုင်ကယ်များအတွက် မျဉ်းဖြတ်ကျော်ကာ ကျော်တက်ခြင်း အမြဲခွင့်ပြုသည်"
+          "my": "ဆိုင်ကယ်များက မျဉ်းကို အမြဲဖြတ်ကျော်ပြီး ကျော်တက်နိုင်သည်"
         }
       }
     ],
@@ -1026,25 +1026,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A motorcyclist wants to make a U-turn at a junction where a 'No U-Turn' sign is displayed. What should the rider do?",
-      "my": "'ပြန်လှည့်ခွင့်မရှိ' ဆိုင်းဘုတ်ရှိသော လမ်းဆုံတွင် ပြန်လှည့်လိုသော ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      "my": "“လမ်းပြန်လှည့်ခြင်း မပြုရ” ဆိုင်းဘုတ်ရှိသော လမ်းဆုံတွင် လမ်းပြန်လှည့်ခြင်း (U-turn) လုပ်လိုပါက ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "U-turn only if no other vehicles are visible",
-          "my": "အခြားယာဉ်များ မမြင်ရလျှင် ပြန်လှည့်နိုင်သည်"
+          "my": "အခြားယာဉ်မရှိပါက ပြန်လှည့်နိုင်သည်"
         }
       },
       {
         "text": {
           "en": "Find an alternative junction or turning point where it is permitted",
-          "my": "ခွင့်ပြုထားသော အခြားလမ်းဆုံ သို့မဟုတ် ပြန်လှည့်နေရာကို ရှာပါ"
+          "my": "ခွင့်ပြုထားသော အခြားလမ်းဆုံ သို့မဟုတ် လမ်းပြန်လှည့်နိုင်သည့်နေရာကို ရှာပါ"
         }
       },
       {
         "text": {
           "en": "U-turn anyway since motorcycles are exempt from this sign",
-          "my": "ဆိုင်ကယ်များသည် ဒီဆိုင်းဘုတ်မှ ကင်းလွတ်ခွင့်ရှိသောကြောင့် မည်သို့ပင်ဖြစ်စေ ပြန်လှည့်ပါ"
+          "my": "ဆိုင်ကယ်များသည် ဤဆိုင်းဘုတ်မှ ကင်းလွတ်သောကြောင့် မည်သို့ပင်ဖြစ်စေ ပြန်လှည့်ပါ"
         }
       }
     ],
@@ -1068,25 +1068,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "At a roundabout, which traffic generally has the right of way?",
-      "my": "အလှည့်ဝန်းတွင် မည်သည့်ယာဉ်များက ပုံမှန်အားဖြင့် ဦးစားပေးခွင့်ရှိသလဲ။"
+      "my": "အဝိုင်းပတ်လမ်းတွင် ပုံမှန်အားဖြင့် ဘယ်ယာဉ်များကို ဦးစားပေးရမလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Whichever vehicle is larger",
-          "my": "ပိုကြီးသော ယာဉ်"
+          "my": "ပိုကြီးသော ယာဉ်များ"
         }
       },
       {
         "text": {
           "en": "Traffic entering the roundabout",
-          "my": "အလှည့်ဝန်းသို့ ဝင်လာသော ယာဉ်များ"
+          "my": "အဝိုင်းပတ်လမ်းထဲသို့ ဝင်လာသော ယာဉ်များ"
         }
       },
       {
         "text": {
           "en": "Traffic already circulating within the roundabout",
-          "my": "အလှည့်ဝန်းအတွင်း လှည့်ပတ်နေနှင့်ပြီးသော ယာဉ်များ"
+          "my": "အဝိုင်းပတ်လမ်းအတွင်း မောင်းနှင်နေပြီးသား ယာဉ်များ"
         }
       }
     ],
@@ -1118,25 +1118,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What is the general speed limit on Singapore expressways unless otherwise signposted?",
-      "my": "ဆိုင်းဘုတ်က အခြားနည်းမဖော်ပြလျှင် Singapore အဝှေးလမ်းမများ၏ ပုံမှန်အမြန်နှုန်းကန့်သတ်ချက်မှာ ဘယ်လောက်လဲ။"
+      "my": "ဆိုင်းဘုတ်က အခြားကန့်သတ်ချက် မဖော်ပြထားပါက စင်ကာပူအမြန်လမ်းမများတွင် ပုံမှန်သတ်မှတ်ထားသော အမြန်နှုန်းကန့်သတ်ချက်က ဘယ်လောက်လဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "90 km/h",
-          "my": "၉၀ km/h"
+          "my": "တစ်နာရီ ၉၀ ကီလိုမီတာ"
         }
       },
       {
         "text": {
           "en": "120 km/h",
-          "my": "၁၂၀ km/h"
+          "my": "တစ်နာရီ ၁၂၀ ကီလိုမီတာ"
         }
       },
       {
         "text": {
           "en": "50 km/h",
-          "my": "၅၀ km/h"
+          "my": "တစ်နာရီ ၅၀ ကီလိုမီတာ"
         }
       }
     ],
@@ -1210,25 +1210,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What is the minimum age requirement and licence class needed to ride a Class 2B motorcycle in Singapore?",
-      "my": "Singapore တွင် Class 2B ဆိုင်ကယ်မောင်းနှင်ရန် လိုအပ်သော အသက်အနည်းဆုံးနှင့် လိုင်စင်အတန်းအစားမှာ ဘာလဲ။"
+      "my": "စင်ကာပူတွင် Class 2B ဆိုင်ကယ်လိုင်စင်ရရန် အနည်းဆုံးအသက်နှင့် လိုင်စင်အတန်းအစား ဘာလိုအပ်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "At least 18 years old with a valid Class 2B licence",
-          "my": "အနည်းဆုံး အသက် ၁၈ နှစ်ပြည့်ပြီး တရားဝင် Class 2B လိုင်စင်ရှိရမည်"
+          "my": "အနည်းဆုံး အသက် ၁၈ နှစ်ပြည့်ပြီး Class 2B လိုင်စင်ရှိရမည်"
         }
       },
       {
         "text": {
           "en": "No minimum age as long as supervised by an adult",
-          "my": "လူကြီးတစ်ဦးက ကြီးကြပ်ပါက အသက်အနည်းဆုံး မရှိပါ"
+          "my": "လူကြီးတစ်ဦးက ကြီးကြပ်ပါက အသက်ကန့်သတ်ချက်မရှိပါ"
         }
       },
       {
         "text": {
           "en": "At least 16 years old with any driving licence",
-          "my": "အနည်းဆုံး အသက် ၁၆ နှစ်ပြည့်ပြီး မောင်းနှင်ခွင့်လိုင်စင် တစ်မျိုးမျိုးရှိရမည်"
+          "my": "အနည်းဆုံး အသက် ၁၆ နှစ်ပြည့်ပြီး မည်သည့်ယာဉ်မောင်းလိုင်စင်မဆို ရှိရမည်"
         }
       }
     ],
@@ -1378,25 +1378,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What is the safest road position for a motorcycle when riding in the centre of a lane behind a car?",
-      "my": "ကားတစ်စီးနောက်တွင် လမ်းကြောအလယ်၌ မောင်းနှင်သောအခါ ဆိုင်ကယ်အတွက် အဘေးကင်းဆုံးနေရာက ဘာလဲ။"
+      "my": "ကားတစ်စီးနောက်က လမ်းကြောအလယ်ပိုင်းမှာ ဆိုင်ကယ်စီးတဲ့အခါ ဘယ်နေရာမှာမောင်းတာ ဘေးအကင်းဆုံးလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Slightly offset to one side to be visible in the car's mirror, while keeping a safe following distance",
-          "my": "ကားကြေးမှန်တွင် မြင်နိုင်ရန် ဘက်တစ်ဖက်သို့ အနည်းငယ်ရွေ့လျား၍ ဘေးကင်းသောနောက်ခံအကွာအဝေးကို ထားရှိပါ"
+          "my": "ကားနောက်ကြည့်မှန်ထဲမှာ မြင်နိုင်အောင် တစ်ဖက်ကို အနည်းငယ်ရွှေ့မောင်းပြီး ရှေ့ယာဉ်နဲ့ ဘေးကင်းတဲ့အကွာအဝေးထားပါ"
         }
       },
       {
         "text": {
           "en": "Directly behind the car as close as possible",
-          "my": "ကားနောက်ကျောမှ တတ်နိုင်သမျှ နီးကပ်စွာ"
+          "my": "ကားနောက်က အတတ်နိုင်ဆုံးကပ်မောင်းပါ"
         }
       },
       {
         "text": {
           "en": "It does not matter as long as speed is controlled",
-          "my": "မြန်နှုန်းကို ထိန်းချုပ်ထားသမျှ မည်သည့်နေရာမှ အရေးမကြီးပါ"
+          "my": "အရှိန်ထိန်းထားနိုင်ရင် ဘယ်နေရာမောင်းမောင်း အရေးမကြီးပါ"
         }
       }
     ],
@@ -1462,25 +1462,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Before filtering past a long queue of stopped vehicles, what should a rider check first?",
-      "my": "ရပ်နားနေသော ယာဉ်တန်းရှည်ကို ဖြတ်ကျော်မီ ယာဉ်မောင်းသူ ဦးစွာ ဘာကို စစ်ဆေးသင့်သလဲ။"
+      "my": "ရပ်နေတဲ့ယာဉ်တန်းရှည်ကို ကြားကနေဖြတ်မောင်းခင် ဘာတွေကို အရင်စစ်ဆေးသင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Only the colour of the vehicles in the queue",
-          "my": "ယာဉ်တန်းရှိ ယာဉ်များ၏ အရောင်ကိုသာ"
+          "my": "ယာဉ်တန်းထဲက ကားတွေရဲ့အရောင်ကိုပဲ"
         }
       },
       {
         "text": {
           "en": "Whether filtering is permitted there and if there is enough safe space between the vehicles",
-          "my": "ထိုနေရာတွင် ဖြတ်ကျော်ခွင့်ရှိမရှိနှင့် ယာဉ်များကြားတွင် လုံလောက်သော ဘေးကင်းသည့်နေရာ ရှိမရှိ"
+          "my": "အဲဒီနေရာမှာ ယာဉ်တန်းကြားက ဖြတ်မောင်းခွင့်ရှိမရှိနဲ့ ယာဉ်တွေကြားမှာ ဘေးကင်းဖို့ နေရာလုံလောက်မလောက်"
         }
       },
       {
         "text": {
           "en": "Whether the queue has more than ten vehicles",
-          "my": "ယာဉ်တန်းတွင် ယာဉ်ဆယ်စီးထက်ပိုမိုပါသလားကိုသာ"
+          "my": "ယာဉ်တန်းထဲမှာ ကားဆယ်စီးကျော် ရှိမရှိကိုပဲ"
         }
       }
     ],
@@ -1504,25 +1504,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "When approaching a row of parked vehicles on the left, what lane position helps avoid being struck by a suddenly opened car door?",
-      "my": "ဘယ်ဘက်ရှိ ရပ်နားထားသောယာဉ်တန်းကို ချဥ်းကပ်သောအခါ ရုတ်တရက်ဖွင့်လှစ်လာသော ကားတံခါးတွင် မထိမိရန် မည်သည့်လမ်းကြောနေရာက အကူအညီပေးသလဲ။"
+      "my": "ဘယ်ဘက်မှာ ရပ်ထားတဲ့ယာဉ်တန်းကို ဖြတ်မောင်းတဲ့အခါ ကားတံခါး ရုတ်တရက်ဖွင့်လာရင် မတိုက်မိအောင် ဘယ်လိုမောင်းသင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Position does not matter if riding slowly",
-          "my": "နှေးနှေးမောင်းလျှင် နေရာက အရေးမကြီးပါ"
+          "my": "ဖြည်းဖြည်းမောင်းရင် ဘယ်နေရာမှာမောင်းမောင်း အရေးမကြီးပါ"
         }
       },
       {
         "text": {
           "en": "Position as close as possible to the parked vehicles",
-          "my": "ရပ်နားထားသောယာဉ်များနှင့် တတ်နိုင်သမျှနီးကပ်စွာ နေရာယူပါ"
+          "my": "ရပ်ထားတဲ့ယာဉ်တွေနဲ့ တတ်နိုင်သမျှကပ်မောင်းပါ"
         }
       },
       {
         "text": {
           "en": "Position further toward the right of the lane, away from the parked vehicles",
-          "my": "ရပ်နားထားသောယာဉ်များမှ ဝေးကွာစေရန် လမ်းကြောညာဘက်သို့ ပိုမိုနေရာယူပါ"
+          "my": "ရပ်ထားတဲ့ယာဉ်တွေနဲ့ ခပ်ဝေးဝေးဖြစ်အောင် လမ်းကြောရဲ့ညာဘက်ခြမ်းမှာ မောင်းပါ"
         }
       }
     ],
@@ -1546,25 +1546,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What is a key reason to avoid riding in a heavy vehicle's blind spot for a long period?",
-      "my": "ယာဉ်ကြီးတစ်စီး၏ မျက်စိမမြင်ရသောနေရာတွင် ကြာရှည်စွာ မောင်းနှင်ခြင်းကို ရှောင်ကြဥ်ရန် အဓိကအကြောင်းရင်းက ဘာလဲ။"
+      "my": "ယာဉ်ကြီးတစ်စီးရဲ့ မျက်ကွယ်နေရာမှာ ကြာကြာမောင်းတာကို ဘာကြောင့်ရှောင်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "It uses more fuel to ride beside a heavy vehicle",
-          "my": "ယာဉ်ကြီးဘေးတွင် မောင်းနှင်ခြင်းသည် လောင်စာဆီပိုသုံးသည်"
+          "my": "ယာဉ်ကြီးဘေးမှာမောင်းရင် ဆီပိုစားလို့"
         }
       },
       {
         "text": {
           "en": "The heavy vehicle's driver cannot see the motorcycle and may change lanes or turn without warning",
-          "my": "ယာဉ်ကြီးယာဉ်မောင်းသူသည် ဆိုင်ကယ်ကို မမြင်နိုင်ဘဲ သတိပေးချက်မပါဘဲ လမ်းကြောပြောင်း သို့မဟုတ် ကွေ့နိုင်သည်"
+          "my": "ယာဉ်ကြီးမောင်းသူက ဆိုင်ကယ်ကို မမြင်နိုင်တာကြောင့် သတိမပေးဘဲ လမ်းကြောပြောင်းတာ၊ ကွေ့တာ လုပ်နိုင်လို့"
         }
       },
       {
         "text": {
           "en": "It is against the law to ride near any heavy vehicle",
-          "my": "ယာဉ်ကြီးအနီးတွင် မောင်းနှင်ခြင်းသည် ဥပဒေနှင့်မညီ"
+          "my": "ယာဉ်ကြီးအနီးမှာ မောင်းတာ ဥပဒေနဲ့မညီလို့"
         }
       }
     ],
@@ -1588,25 +1588,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "On a multi-lane road, which lane position generally gives a rider the best forward visibility of traffic and hazards?",
-      "my": "လမ်းကြောအများရှိသောလမ်းတွင် ယာဉ်မောင်းသူအတွက် ယာဉ်အသွားအလာနှင့် အန္တရာယ်များကို အရှေ့ဘက်မှ အကောင်းဆုံးမြင်နိုင်စွမ်းပေးသော လမ်းကြောနေရာက ဘာလဲ။"
+      "my": "လမ်းကြောများတဲ့လမ်းမှာ ရှေ့လမ်းနဲ့ အန္တရာယ်တွေကို ပိုမြင်နိုင်ဖို့ ဆိုင်ကယ်ကို ဘယ်နေရာမှာ မောင်းသင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "A position offset from directly behind other vehicles, allowing a clear view ahead",
-          "my": "အခြားယာဉ်များ၏ တိုက်ရိုက်နောက်ကျောမှ ရွေ့လျားထားသော နေရာသည် ရှေ့ကို ကြည်လင်စွာမြင်နိုင်စေသည်"
+          "my": "တခြားယာဉ်တွေရဲ့ တည့်တည့်နောက်မှာမဟုတ်ဘဲ ဘေးနည်းနည်းရွှေ့မောင်းပြီး ရှေ့လမ်းကို ရှင်းရှင်းမြင်အောင်ထားပါ"
         }
       },
       {
         "text": {
           "en": "As far left as physically possible at all times",
-          "my": "အချိန်တိုင်း ဘယ်ဘက်ဆုံးအထိ"
+          "my": "အချိန်တိုင်း လမ်းရဲ့ဘယ်အစွန်ဆုံးမှာ မောင်းပါ"
         }
       },
       {
         "text": {
           "en": "Directly behind the largest vehicle on the road",
-          "my": "လမ်းပေါ်ရှိ အကြီးဆုံးယာဉ်၏ တိုက်ရိုက်နောက်ကျော"
+          "my": "လမ်းပေါ်က အကြီးဆုံးယာဉ်နောက်မှာ တည့်တည့်လိုက်မောင်းပါ"
         }
       }
     ],
@@ -1630,25 +1630,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "When stopping behind a car at a red light, where should a motorcyclist position the motorcycle?",
-      "my": "မီးနီတွင် ကားနောက်ရပ်နားသောအခါ ဆိုင်ကယ်မောင်းသူသည် ဆိုင်ကယ်ကို မည်သည့်နေရာတွင် ထားရှိသင့်သလဲ။"
+      "my": "မီးနီမှာ ကားတစ်စီးရဲ့နောက် ရပ်တဲ့အခါ ဆိုင်ကယ်ကို ဘယ်နေရာမှာ ရပ်ထားသင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Slightly to one side and a safe distance back, with an escape route in mind",
-          "my": "ဘက်တစ်ဖက်သို့ အနည်းငယ်ရွေ့လျားပြီး ဘေးကင်းသောအကွာအဝေးနှင့် ထွက်ပေါက်လမ်းကြောင်းကို စဉ်းစားထားပါ"
+          "my": "တစ်ဖက်ကို အနည်းငယ်ရွှေ့ပြီး ဘေးကင်းတဲ့အကွာအဝေးမှာ ရပ်ပါ။ လိုအပ်ရင် ရှောင်ထွက်မယ့်လမ်းကိုလည်း စဉ်းစားထားပါ"
         }
       },
       {
         "text": {
           "en": "Directly touching the rear bumper of the car",
-          "my": "ကား၏ နောက်ဘန်ဖာကို တိုက်ရိုက်ထိနေအောင်"
+          "my": "ကားနောက်ဘန်ဘာနဲ့ ထိကပ်အောင် ရပ်ပါ"
         }
       },
       {
         "text": {
           "en": "As far left as possible regardless of road conditions",
-          "my": "လမ်းအခြေအနေမရွေး ဘယ်ဘက်ဆုံးအထိ"
+          "my": "လမ်းအခြေအနေကိုမကြည့်ဘဲ ဘယ်အစွန်ဆုံးမှာ ရပ်ပါ"
         }
       }
     ],
@@ -1672,25 +1672,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Where should a motorcyclist position themselves within a lane on a multi-lane road?",
-      "my": "လမ်းကြောင်းများစွာပါသော လမ်းပေါ်တွင် ဆိုင်ကယ်မောင်းသူသည် မိမိ လမ်းကြောင်းအတွင်း ဘယ်နေရာတွင် နေသင့်သလဲ။"
+      "my": "လမ်းကြောများတဲ့လမ်းမှာ ဆိုင်ကယ်စီးသူက ကိုယ့်လမ်းကြောအတွင်း ဘယ်နေရာမှာ မောင်းသင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Always ride in the centre of the lane",
-          "my": "အမြဲ လမ်းကြောင်း အလယ်ဗဟိုတွင် မောင်းပါ"
+          "my": "လမ်းကြောအလယ်မှာ အမြဲမောင်းပါ"
         }
       },
       {
         "text": {
           "en": "On the right side of the lane to be seen by drivers ahead",
-          "my": "ရှေ့ ယာဉ်မောင်းသူများ မြင်နိုင်ရန် လမ်းကြောင်း ညာဘက်တွင်"
+          "my": "ရှေ့ယာဉ်မောင်းတွေ မြင်နိုင်အောင် လမ်းကြောရဲ့ညာဘက်မှာ မောင်းပါ"
         }
       },
       {
         "text": {
           "en": "In the most visible position — usually right-of-centre away from parked cars and drains",
-          "my": "အများဆုံး မြင်နိုင်သော နေရာ — ပုံမှန်အားဖြင့် ရပ်ထားသော ယာဉ်နှင့် မြောင်းများမှ ဝေးသော ညာဗဟို"
+          "my": "အခြားသူတွေ အလွယ်တကူမြင်နိုင်တဲ့နေရာမှာ မောင်းပါ — ပုံမှန်အားဖြင့် ညာဘက်အလယ်ပိုင်း၊ ရပ်ထားတဲ့ကားနဲ့ ရေမြောင်းတွေကနေ ခွာပြီး"
         }
       }
     ],
@@ -1714,25 +1714,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "Lane filtering refers to what action by a motorcyclist?",
-      "my": "လမ်းကြောဖြတ်ကျော်မောင်းနှင်ခြင်း (Lane filtering) ဆိုသည်မှာ ဆိုင်ကယ်မောင်းသူ၏ မည်သည့်လုပ်ဆောင်ချက်ကို ဆိုလိုသလဲ။"
+      "my": "“လမ်းကြောတွေကြားက ဖြတ်မောင်းခြင်း” ဆိုတာ ဆိုင်ကယ်မောင်းသူ ဘာလုပ်တာကို ဆိုလိုသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Riding between lanes of slow-moving or stationary traffic",
-          "my": "နှေးနှေးသွားနေသော သို့မဟုတ် ရပ်နားနေသော ယာဉ်လမ်းကြောများကြားမှ မောင်းနှင်ခြင်း"
+          "my": "ယာဉ်ကြောနှေးနေချိန် ဒါမှမဟုတ် ရပ်နေချိန်မှာ လမ်းကြောတွေကြားက ဆိုင်ကယ်မောင်းဖြတ်တာ"
         }
       },
       {
         "text": {
           "en": "Overtaking on the right shoulder of an expressway",
-          "my": "အဝှေးလမ်းမ၏ ညာဘက်အစွန်းတွင် ကျော်တက်ခြင်း"
+          "my": "အမြန်လမ်းရဲ့ ညာဘက်ပခုံးသားကနေ ကျော်တက်တာ"
         }
       },
       {
         "text": {
           "en": "Riding in a dedicated motorcycle-only lane",
-          "my": "ဆိုင်ကယ်သီးသန့်လမ်းကြောတွင် မောင်းနှင်ခြင်း"
+          "my": "ဆိုင်ကယ်သီးသန့်လမ်းကြောမှာ မောင်းတာ"
         }
       }
     ],
@@ -1798,25 +1798,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What is the recommended following distance behind a vehicle in normal dry conditions for a motorcyclist?",
-      "my": "ပုံမှန်ခြောက်သွေ့သောအခြေအနေတွင် ယာဉ်တစ်စီးနောက်ကျောတွင် ဆိုင်ကယ်မောင်းသူအတွက် အကြံပြုထားသော နောက်ခံအကွာအဝေးက ဘာလဲ။"
+      "my": "ပုံမှန်ခြောက်သွေ့တဲ့လမ်းမှာ ဆိုင်ကယ်စီးသူက ရှေ့ယာဉ်နဲ့ ဘယ်လောက်အကွာအဝေးထားသင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "As close as possible to save time",
-          "my": "အချိန်ချွေတာရန် တတ်နိုင်သမျှနီးကပ်စွာ"
+          "my": "အချိန်သက်သာဖို့ တတ်နိုင်သမျှကပ်မောင်းပါ"
         }
       },
       {
         "text": {
           "en": "At least a two-second gap, increased in poor conditions",
-          "my": "အနည်းဆုံး စက္ကန့်နှစ်စက္ကန့် အကွာအဝေး၊ အခြေအနေဆိုးသောအခါ ပိုမိုတိုးချဲ့ပါ"
+          "my": "အနည်းဆုံး ၂ စက္ကန့်စာ အကွာအဝေးထားပြီး လမ်းအခြေအနေမကောင်းရင် ပိုချန်ထားပါ"
         }
       },
       {
         "text": {
           "en": "Exactly one motorcycle length regardless of speed",
-          "my": "မြန်နှုန်းမရွေး ဆိုင်ကယ်တစ်စီးအလျား အတိအကျ"
+          "my": "အရှိန်ဘယ်လောက်ပဲဖြစ်ဖြစ် ဆိုင်ကယ်တစ်စီးစာအရှည်အတိအကျ"
         }
       }
     ],
@@ -1840,25 +1840,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "Why should a rider avoid riding in the gutter or extreme edge of the lane near the kerb?",
-      "my": "ယာဉ်မောင်းသူသည် လမ်းကြောအစွန်း သို့မဟုတ် လမ်းဘေးရေမြောင်းအနီးတွင် မောင်းနှင်ခြင်းကို ဘာကြောင့် ရှောင်ကြဥ်သင့်သလဲ။"
+      "my": "လမ်းကြောအစွန်း သို့မဟုတ် လမ်းဘေးရေမြောင်းနားတွင် မောင်းနှင်ခြင်းကို ဘာကြောင့် ရှောင်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "It is the fastest part of the lane to ride in",
-          "my": "လမ်းကြောတွင် အမြန်ဆုံးမောင်းနှင်နိုင်သောအပိုင်းဖြစ်သည်"
+          "my": "လမ်းကြောအစွန်းက အမြန်ဆုံးမောင်းနိုင်တဲ့နေရာဖြစ်လို့"
         }
       },
       {
         "text": {
           "en": "Riding there is always required by law",
-          "my": "ထိုနေရာတွင် မောင်းနှင်ခြင်းကို ဥပဒေက အမြဲတမ်း တောင်းဆိုသည်"
+          "my": "အဲဒီနေရာမှာ မောင်းဖို့ ဥပဒေက အမြဲသတ်မှတ်ထားလို့"
         }
       },
       {
         "text": {
           "en": "Debris, drain covers, and uneven surfaces often collect there, increasing the risk of losing control",
-          "my": "ထိုနေရာတွင် အညစ်အကြေး၊ စွန်ပြုစစင်အုပ်နှင့် မညီညွတ်သောမျက်နှာပြင်များ စုစည်းနေတတ်ပြီး ထိန်းချုပ်မှုဆုံးရှုံးနိုင်ခြေကို တိုးမြှင့်သည်"
+          "my": "အဲဒီနေရာမှာ အမှိုက်၊ ရေမြောင်းအဖုံးနဲ့ မညီညာတဲ့လမ်းမျက်နှာပြင်တွေ ရှိတတ်ပြီး ယာဉ်ထိန်းချုပ်မှု ပျောက်နိုင်ခြေများလို့"
         }
       }
     ],
@@ -1974,25 +1974,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "A rider enters a corner faster than expected and realises mid-turn they are running wide toward the opposite lane. What is the safest correction?",
-      "my": "ယာဉ်မောင်းသူသည် မျှော်မှန်းထားသည်ထက် ပိုမြန်စွာ ကွေ့ချိုးသို့ ဝင်ပြီး ကွေ့ဆဲတွင် ဆန့်ကျင်ဘက်လမ်းကြောသို့ ကျယ်ကျယ်ထွက်နေကြောင်း သတိရလျှင် အဘေးကင်းဆုံး ပြုပြင်ချက်က ဘာဖြစ်သလဲ။"
+      "my": "မျှော်ထားတာထက် အရှိန်မြန်မြန်နဲ့ ကွေ့ဝင်မိပြီး ဆိုင်ကယ်က ဆန့်ကျင်ဘက်လမ်းကြောဘက်ကို ထွက်သွားတော့မယ်ဆိုတာ ကွေ့နေတုန်း သတိထားမိရင် ဘယ်လိုပြင်ဆင်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Brake hard with the front brake immediately",
-          "my": "ချက်ချင်း ရှေ့ဘရိတ်ကို ပြင်းပြင်းကိုက်ပါ"
+          "my": "ရှေ့ဘရိတ်ကို ချက်ချင်း ပြင်းပြင်းအုပ်ပါ"
         }
       },
       {
         "text": {
           "en": "Look further into the corner, gently lean more, and avoid sudden braking",
-          "my": "ကွေ့ချိုးအတွင်းသို့ ပိုကြည့်ပြီး ညင်သာစွာ ပိုယိမ်းကာ ရုတ်တရက် ဘရိတ်ကိုက်ခြင်းကို ရှောင်ပါ"
+          "my": "ကွေ့သွားမယ့်လမ်းကြောင်းကို ကြည့်ပြီး ဆိုင်ကယ်ကို ညင်သာစွာ ပိုစောင်းပါ၊ ရုတ်တရက်ဘရိတ်မအုပ်ပါနဲ့"
         }
       },
       {
         "text": {
           "en": "Stand up on the footpegs and accelerate straight",
-          "my": "ခြေတင်ထောက်ပေါ်တွင် မတ်တပ်ရပ်ပြီး တည့်တည့် အရှိန်မြှင့်ပါ"
+          "my": "ခြေနင်းပေါ် မတ်တပ်ရပ်ပြီး တည့်တည့်အရှိန်မြှင့်ပါ"
         }
       }
     ],
@@ -2016,25 +2016,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "Approaching a downhill corner with a decreasing radius (the corner gets sharper), what is the correct approach?",
-      "my": "ထောင့်ရှင်းလာသော (ကွေ့ချိုးက ပိုစောက်လာသော) တောင်ကုန်းအောက်ကွေ့ချိုးသို့ ချဥ်းကပ်သောအခါ မှန်ကန်သော နည်းလမ်းက ဘာလဲ။"
+      "my": "အောက်ဆင်းလမ်းတွင် ကွေ့ပိုကျဉ်းလာသော ကွေ့တစ်ခုကို ချဉ်းကပ်ပါက မှန်ကန်သောနည်းလမ်းက ဘာလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Enter at normal speed and accelerate through the apex",
-          "my": "ပုံမှန်မြန်နှုန်းနှင့်ဝင်ပြီး အလယ်ကွေ့ချက်တွင် အရှိန်မြှင့်ပါ"
+          "my": "ပုံမှန်အရှိန်ဖြင့် ဝင်ပြီး ကွေ့အလယ်တွင် အရှိန်မြှင့်ပါ"
         }
       },
       {
         "text": {
           "en": "Brake before entering, then enter slower than usual to allow margin for the tightening curve",
-          "my": "ဝင်မီ ဘရိတ်ကိုက်ပြီး ကျဥ်းလာသောကွေ့ချိုးအတွက် နေရာချန်ထားရန် ပုံမှန်ထက်နှေးနှေးဝင်ပါ"
+          "my": "မဝင်မီ အရှိန်လျှော့ပြီး ကျဉ်းလာသည့်ကွေ့အတွက် နေရာချန်ထားကာ ဖြည်းဖြည်းဝင်ပါ"
         }
       },
       {
         "text": {
           "en": "Brake hard in the middle of the corner once it tightens",
-          "my": "ကွေ့ချိုးကျဥ်းလာသောအခါ အလယ်တွင် ပြင်းထန်စွာ ဘရိတ်ကိုက်ပါ"
+          "my": "ကွေ့ကျဉ်းလာသည့်အခါ အလယ်တွင် ဘရိတ်ပြင်းပြင်းအုပ်ပါ"
         }
       }
     ],
@@ -2058,25 +2058,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What is the correct technique for braking while a motorcycle is leaning through a corner?",
-      "my": "ဆိုင်ကယ်တစ်စီးသည် ကွေ့ချိုးတစ်ခုကို ယိမ်းကွေ့ဖြတ်နေစဉ် မှန်ကန်သော ဘရိတ်ကိုက်နည်းပညာက ဘာလဲ။"
+      "my": "ကွေ့ရာတွင် ဆိုင်ကယ်ကို ယိမ်းထားစဉ် ဘရိတ်အုပ်ရန် လိုအပ်ပါက ဘယ်နည်းလမ်းကို သုံးသင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Avoid hard braking while leaning; straighten up first, then brake if needed",
-          "my": "ယိမ်းကွေ့နေစဉ် ပြင်းထန်စွာ ဘရိတ်ကိုက်ခြင်းကို ရှောင်ပါ၊ လိုအပ်လျှင် ဦးစွာတည့်အောင်ထားပြီးမှ ဘရိတ်ကိုက်ပါ"
+          "my": "ပြင်းပြင်းဘရိတ်အုပ်ခြင်းကို ရှောင်ပါ။ ဖြစ်နိုင်လျှင် ဆိုင်ကယ်ကို အရင်တည့်အောင်ထားပြီးမှ ဘရိတ်အုပ်ပါ"
         }
       },
       {
         "text": {
           "en": "Brake only with the rear brake regardless of lean angle",
-          "my": "ယိမ်းထောင့်မရွေး နောက်ဘရိတ်ကိုသာ အသုံးပြုပါ"
+          "my": "ယိမ်းသည့်ထောင့်မရွေး နောက်ဘရိတ်ကိုသာ သုံးပါ"
         }
       },
       {
         "text": {
           "en": "Apply maximum front brake immediately while still leaning",
-          "my": "ယိမ်းကွေ့နေဆဲတွင် ချက်ချင်း ရှေ့ဘရိတ်ကို အများဆုံးကိုက်ပါ"
+          "my": "ယိမ်းနေဆဲတွင် ရှေ့ဘရိတ်ကို ချက်ချင်း အပြည့်အဝအုပ်ပါ"
         }
       }
     ],
@@ -2100,25 +2100,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Why is loose gravel on the road particularly hazardous when cornering on a motorcycle?",
-      "my": "ကွေ့ချိုးကို ဖြတ်သန်းစဉ် လမ်းပေါ်ရှိ ကျောက်စရစ်များသည် ဆိုင်ကယ်အတွက် အထူးအန္တရာယ်ရှိခြင်းမှာ ဘာကြောင့်လဲ။"
+      "my": "ကွေ့ရာတွင် လမ်းပေါ်ရှိ ကျောက်စရစ်များက ဆိုင်ကယ်အတွက် ဘာကြောင့် အထူးအန္တရာယ်ရှိသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "It only affects four-wheeled vehicles",
-          "my": "ဘီးလေးဘီးယာဉ်များကိုသာ ထိခိုက်စေသည်"
+          "my": "ဘီးလေးဘီးတပ်ယာဉ်များကိုသာ ထိခိုက်စေသည်"
         }
       },
       {
         "text": {
           "en": "It improves traction for motorcycle tyres",
-          "my": "ဆိုင်ကယ်တာယာအတွက် ကိုက်ညီမှုကို တိုးတက်စေသည်"
+          "my": "ဆိုင်ကယ်တာယာ၏ လမ်းကိုက်အားကို ပိုကောင်းစေသည်"
         }
       },
       {
         "text": {
           "en": "It reduces tyre grip suddenly, which can cause the wheels to slide out from under the rider",
-          "my": "တာယာ၏ ကိုက်ညီမှုကို ရုတ်တရက်လျှော့ချနိုင်ပြီး ဆိုင်ကယ်ဘီးများ ချော်ချွတ်လမ်းဖယ်သွားနိုင်သည်"
+          "my": "တာယာ၏ လမ်းကိုက်အားကို ရုတ်တရက်လျော့ကျစေပြီး ဘီးချော်ထွက်နိုင်သည်"
         }
       }
     ],
@@ -2142,25 +2142,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Why should a rider reduce speed before crossing railway tracks or metal road plates at an angle?",
-      "my": "သံချပ် သို့မဟုတ် မြေအောက်ရထားလမ်းကြောင်းကို ထောင့်ဖြတ်ကျော်မီ ယာဉ်မောင်းသူ ဘာကြောင့် မြန်နှုန်းလျှော့သင့်သလဲ။"
+      "my": "ရထားလမ်း ဒါမှမဟုတ် လမ်းပေါ်သံပြားကို ထောင့်ဖြတ်ကူးခါနီး ဘာကြောင့် အရှိန်လျှော့သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "It is required by law to stop completely at every metal plate",
-          "my": "သတ္တုချပ်တိုင်းတွင် လုံးဝရပ်ရန် ဥပဒေက တောင်းဆိုသည်"
+          "my": "သံပြားရှိသည့်နေရာတိုင်းတွင် ဥပဒေအရ အပြည့်အဝရပ်ရမည်"
         }
       },
       {
         "text": {
           "en": "Smooth metal surfaces reduce tyre grip and can destabilise the motorcycle, especially if crossed at a sharp angle",
-          "my": "ချောမွတ်သောသတ္တုမျက်နှာပြင်များသည် တာယာကိုက်ညီမှုကို လျှော့ချပြီး အထူးသဖြင့် ထောင့်ကျဉ်းစွာဖြတ်ကျော်လျှင် ဆိုင်ကယ်ကို မတည်ငြိမ်စေနိုင်သည်"
+          "my": "သံမျက်နှာပြင် ချောသောကြောင့် တာယာ၏ လမ်းကိုက်အားလျော့နိုင်ပြီး၊ အထူးသဖြင့် ထောင့်ကျဉ်းကျဉ်းမှ ဖြတ်လျှင် ဆိုင်ကယ်မတည်ငြိမ်ဖြစ်နိုင်သည်"
         }
       },
       {
         "text": {
           "en": "Metal surfaces always damage motorcycle tyres permanently",
-          "my": "သတ္တုမျက်နှာပြင်များသည် ဆိုင်ကယ်တာယာများကို အမြဲထာဝစဉ်ပျက်စီးစေသည်"
+          "my": "သံမျက်နှာပြင်များက ဆိုင်ကယ်တာယာကို အမြဲတမ်းပျက်စီးစေသည်"
         }
       }
     ],
@@ -2184,25 +2184,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Painted road markings such as arrows or lane lines can become a hazard for motorcycles when cornering because they are often what?",
-      "my": "မြှားများ သို့မဟုတ် လမ်းကြောမျဉ်းများကဲ့သို့ ပန်းချီအမှတ်အသားများသည် ကွေ့ချိုးတွင် ဆိုင်ကယ်များအတွက် အန္တရာယ်ဖြစ်လာသည်မှာ ၎င်းတို့သည် မည်သို့ဖြစ်တတ်ခြင်းကြောင့်လဲ။"
+      "my": "ဆိုင်ကယ်ကွေ့နေချိန် လမ်းပေါ်က မြှား၊ လမ်းကြောမျဉ်းလို ဆေးခြယ်ထားတဲ့အမှတ်အသားတွေက ဘာကြောင့် အန္တရာယ်ရှိနိုင်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Higher in elevation than the rest of the road",
-          "my": "လမ်းအခြားအပိုင်းထက် အမြင့်ပိုများသည်"
+          "my": "လမ်းမျက်နှာပြင်ထက် အမြဲမြင့်နေလို့"
         }
       },
       {
         "text": {
           "en": "Smoother and more slippery than the surrounding road surface, especially when wet",
-          "my": "ပတ်ဝန်းကျင်လမ်းမျက်နှာပြင်ထက် ပိုချောမွတ်ပြီး အထူးသဖြင့် စိုစွတ်နေသောအခါ ပိုချော်လွယ်သည်"
+          "my": "လမ်းမျက်နှာပြင်ထက် ပိုချောတတ်ပြီး အထူးသဖြင့် စိုနေချိန်မှာ ချော်လွယ်လို့"
         }
       },
       {
         "text": {
           "en": "Always located on the outside of every corner",
-          "my": "ကွေ့ချိုးတိုင်း၏ အပြင်ဘက်တွင် အမြဲတည်ရှိသည်"
+          "my": "ကွေ့တိုင်းရဲ့ အပြင်ဘက်မှာပဲ ရှိလို့"
         }
       }
     ],
@@ -2226,25 +2226,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "When riding two-up (with a pillion) through corners, how does the extra weight typically affect the motorcycle's handling?",
-      "my": "ကွေ့ချိုးများကို နောက်ကုန်တင်(ပီလီယွန်)နှင့်အတူ မောင်းနှင်သောအခါ အပိုဝန်သည် ဆိုင်ကယ်၏ ကိုင်တွယ်မှုကို ပုံမှန်အားဖြင့် မည်သို့ ထိခိုက်စေသလဲ။"
+      "my": "နောက်ထိုင်ခုံခရီးသည်တင်ပြီး ကွေ့ရာတွင် ထပ်တိုးအလေးချိန်က ဆိုင်ကယ်ကို ဘယ်လိုသက်ရောက်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "It increases stopping distance and changes balance, requiring earlier braking and gentler lean angles",
-          "my": "ရပ်တန့်ရန် အကွာအဝေးကို တိုးစေပြီး ညီမျှမှုကို ပြောင်းလဲစေသောကြောင့် စောစီးစွာဘရိတ်ကိုက်ခြင်းနှင့် ညင်သာသောယိမ်းထောင့်များ လိုအပ်သည်"
+          "my": "ရပ်တန့်ရန်အကွာအဝေး ပိုရှည်လာပြီး ဟန်ချက်ပြောင်းသွားနိုင်သည်။ ထို့ကြောင့် စောစောဘရိတ်အုပ်ကာ ညင်သာစွာကွေ့ပါ"
         }
       },
       {
         "text": {
           "en": "It allows for sharper, faster cornering than riding solo",
-          "my": "တစ်ဦးတည်းမောင်းနှင်ခြင်းထက် ပိုမြန်ပြီးပိုစောက်စွာ ကွေ့နိုင်စေသည်"
+          "my": "တစ်ယောက်တည်းစီးသည်ထက် ပိုမြန်ပြီး ပိုစောက်စောက်ကွေ့နိုင်သည်"
         }
       },
       {
         "text": {
           "en": "It has no effect on handling at any speed",
-          "my": "မြန်နှုန်းမရွေး ကိုင်တွယ်မှုအပေါ် ထိခိုက်မှု လုံးဝမရှိ"
+          "my": "အရှိန်မည်မျှပင်ဖြစ်စေ ကိုင်တွယ်မောင်းနှင်မှုအပေါ် သက်ရောက်မှုမရှိပါ"
         }
       }
     ],
@@ -2268,25 +2268,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "When cornering on a wet road, what should a motorcyclist do?",
-      "my": "ရွှံ့ပြေနေသော လမ်းတွင် ကွေ့ကောက်သောအခါ ဆိုင်ကယ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      "my": "လမ်းစိုနေချိန် ဆိုင်ကယ်ကွေ့မယ်ဆိုရင် ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Brake firmly inside the corner to reduce speed",
-          "my": "ကွေ့ကောက်မှုအတွင်း အရှိန်လျှော့ရန် ဘရိတ်ကျပ်ကျပ်နှိပ်ပါ"
+          "my": "ကွေ့နေစဉ် အရှိန်လျှော့ရန် ဘရိတ်ကို ပြင်းပြင်းအုပ်ပါ"
         }
       },
       {
         "text": {
           "en": "Slow down before the corner, maintain a steady throttle through it, and avoid sudden braking",
-          "my": "ကွေ့မတိုင်ခင် နှေးချပြီး ကွေ့ကောက်မှုတွင် အရှိန်တည်ငြိမ်ထားကာ ဘရိတ်ကို ရုတ်တရက် မနှိပ်ပါနှင့်"
+          "my": "ကွေ့မဝင်မီ အရှိန်လျှော့ပြီး ကွေ့နေစဉ် အရှိန်တည်ငြိမ်စွာထားပါ။ ရုတ်တရက်ဘရိတ်မအုပ်ပါနှင့်"
         }
       },
       {
         "text": {
           "en": "Lean further to maintain speed through the corner",
-          "my": "ကွေ့ကောက်မှုတွင် အရှိန်ထိန်းရန် ပိုကိုင်းနိမ့်ပါ"
+          "my": "အရှိန်ထိန်းရန် ကွေ့နေစဉ် ကိုယ်ကို ပိုငုံ့ပါ"
         }
       }
     ],
@@ -2310,25 +2310,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "How does carrying a pillion passenger change a motorcycle's handling that a rider must adjust for?",
-      "my": "ပွဲတွဲစီးသူ ဆောင်ရွက်ခြင်းသည် ဆိုင်ကယ်၏ ကိုင်တွယ်မှုကို မည်သို့ပြောင်းလဲစေပြီး ယာဉ်မောင်းသူ မည်သို့ညှိရမည်လဲ။"
+      "my": "နောက်ထိုင်ခုံခရီးသည်ပါလာခြင်းက ဆိုင်ကယ်ကို ကိုင်တွယ်မောင်းနှင်ရာတွင် ဘယ်လိုသက်ရောက်သလဲ၊ မောင်းသူက ဘယ်လိုညှိနှိုင်းရမလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "The extra weight raises braking distance and changes balance — the rider should brake earlier and corner more gently",
-          "my": "ထပ်တိုးအလေးချိန်သည် ဘရိတ်ရပ်ရန်အကွာအဝေးကို တိုးစေပြီး ဟန်ချက်ကို ပြောင်းလဲစေသည် — ယာဉ်မောင်းသူသည် ပိုစောစီးစွာ ဘရိတ်နှိပ်ပြီး ပိုညင်သာစွာ ကွေ့သင့်သည်"
+          "my": "ထပ်တိုးအလေးချိန်ကြောင့် ရပ်တန့်ရန်အကွာအဝေး ပိုရှည်လာပြီး ဟန်ချက်ပြောင်းနိုင်သည် — စောစောဘရိတ်အုပ်ကာ ညင်သာစွာကွေ့ပါ"
         }
       },
       {
         "text": {
           "en": "A pillion has no measurable effect on handling",
-          "my": "ပွဲတွဲစီးသူသည် ကိုင်တွယ်မှုကို တိုင်းတာနိုင်သော အကျိုးသက်ရောက်မှု မရှိပါ"
+          "my": "ခရီးသည်ရှိခြင်းက မောင်းနှင်မှုအပေါ် သိသာသောသက်ရောက်မှုမရှိပါ"
         }
       },
       {
         "text": {
           "en": "Carrying a pillion always makes the motorcycle easier to control",
-          "my": "ပွဲတွဲစီးသူ ဆောင်ရွက်ခြင်းသည် ဆိုင်ကယ်ကို ပိုထိန်းချုပ်ရလွယ်စေသည်"
+          "my": "ခရီးသည်ပါလျှင် ဆိုင်ကယ်ကို ပိုထိန်းချုပ်ရလွယ်သည်"
         }
       }
     ],
@@ -2352,25 +2352,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "What is the main safety concern with wearing dark, non-reflective clothing while riding at night?",
-      "my": "ညဘက်ဆိုင်ကယ်မောင်းနှင်ချိန် မှောင်ပြီး အလင်းမထောင်ပြန်သော အဝတ်အထည်ဝတ်ဆင်ခြင်းတွင် အဓိက ဘေးကင်းရေးစိုးရိမ်မှုက ဘာဖြစ်သလဲ။"
+      "my": "ညဘက် ဆိုင်ကယ်စီးရာတွင် အလင်းပြန်မပါသော အနက်ရောင်အဝတ်အစား ဝတ်ဆင်ခြင်းက ဘာအန္တရာယ်ရှိသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "There is no visibility difference between dark and bright clothing",
-          "my": "မှောင်သောနှင့် ထွန်းလင်းသော အဝတ်များကြား မြင်နိုင်စွမ်း ခြားနားချက်မရှိပါ"
+          "my": "အနက်ရောင်နှင့် အလင်းရောင်ရှိသော အဝတ်အစားတို့၏ မြင်သာမှု ကွာခြားချက်မရှိပါ"
         }
       },
       {
         "text": {
           "en": "Dark clothing makes the motorcycle's engine louder",
-          "my": "မှောင်သောအဝတ်သည် ဆိုင်ကယ်အင်ဂျင်ကို ပိုကျယ်လောင်စေသည်"
+          "my": "အနက်ရောင်အဝတ်က ဆိုင်ကယ်အင်ဂျင်ကို ပိုကျယ်လောင်စေသည်"
         }
       },
       {
         "text": {
           "en": "It makes the rider much harder for other road users to see, increasing collision risk",
-          "my": "အခြားလမ်းသုံးသူများ ယာဉ်မောင်းသူကို မြင်ရန်ပိုခက်ခဲစေပြီး တိုက်မိနိုင်ခြေကို တိုးစေသည်"
+          "my": "အခြားလမ်းသုံးသူများက မောင်းသူကို မြင်ရခက်စေပြီး တိုက်မိနိုင်ခြေ တိုးလာသည်"
         }
       }
     ],
@@ -2394,25 +2394,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Why is wearing a helmet with the chin strap unfastened considered unsafe, even if the helmet is on?",
-      "my": "ဦးထုပ်ဆောင်းထားသော်လည်း ပါးစေ့ကြိုးကို မချည်ထားလျှင် ဘေးကင်းမှုမရှိဟု သတ်မှတ်ရသည် ဘာကြောင့်လဲ။"
+      "my": "ဦးထုပ်ဆောင်းထားသော်လည်း မေးသိုင်းကြိုးကို မချည်ထားလျှင် ဘာကြောင့် အန္တရာယ်ရှိသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "It only matters for full-face helmets, not open-face helmets",
-          "my": "မျက်နှာအပြည့်ဖုံးဦးထုပ်များအတွက်သာ အရေးကြီးပြီး မျက်နှာဖွင့်ဦးထုပ်များအတွက် မဟုတ်ပါ"
+          "my": "မျက်နှာအပြည့်ဖုံးဦးထုပ်အတွက်သာ အရေးကြီးပြီး မျက်နှာဖွင့်ဦးထုပ်အတွက် မလိုပါ"
         }
       },
       {
         "text": {
           "en": "An unfastened helmet can fly off the head during a fall, providing no protection when it is needed most",
-          "my": "ကြိုးမချည်ထားသော ဦးထုပ်သည် ကျရှုံးချိန် ခေါင်းမှ ပျံကျသွားနိုင်ပြီး အလိုအရဆုံးအချိန်တွင် ကာကွယ်မှု မရှိနိုင်ပါ"
+          "my": "မတော်တဆမှုဖြစ်ချိန်တွင် ကြိုးမချည်ထားသော ဦးထုပ်သည် ခေါင်းမှကျွတ်ထွက်နိုင်ပြီး ကာကွယ်မှုမပေးနိုင်တော့ပါ"
         }
       },
       {
         "text": {
           "en": "The chin strap is purely for comfort and has no safety function",
-          "my": "ပါးစေ့ကြိုးသည် အဆင်ပြေမှုအတွက်သာ ဖြစ်ပြီး ဘေးကင်းရေးလုပ်ငန်းမှု မရှိပါ"
+          "my": "မေးသိုင်းကြိုးသည် သက်သောင့်သက်သာရှိစေရန်သာဖြစ်ပြီး ဘေးကင်းရေးအတွက် မဟုတ်ပါ"
         }
       }
     ],
@@ -2436,25 +2436,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Besides a helmet, why are riding gloves, a jacket, and over-the-ankle footwear recommended even on short rides?",
-      "my": "ဦးထုပ်အပြင် ဆိုင်ကယ်လက်အိတ်၊ ဂျာကင်နှင့် ခြေဖနောင့်အထက် ဖိနပ်များကို ခရီးတိုများအတွက်ပင် အကြံပြုထားသည် ဘာကြောင့်လဲ။"
+      "my": "ဦးထုပ်အပြင် ဆိုင်ကယ်လက်အိတ်၊ ဂျာကင်နှင့် ခြေကျင်းဝတ်ဖုံးသော ဖိနပ်များကို ခရီးတိုအတွက်ပါ ဘာကြောင့် အကြံပြုသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Protective clothing is unnecessary for short distances",
-          "my": "ခရီးတိုများအတွက် ကာကွယ်ရေးအဝတ်အထည် မလိုအပ်ပါ"
+          "my": "ခရီးတိုတွင် အကာအကွယ်အဝတ်အစား မလိုအပ်ပါ"
         }
       },
       {
         "text": {
           "en": "They are only useful in cold weather, not for safety",
-          "my": "ရေခဲဆက်ရာသီတွင်သာ အသုံးဝင်ပြီး ဘေးကင်းရေးအတွက် မဟုတ်ပါ"
+          "my": "အေးသောရာသီတွင်သာ အသုံးဝင်ပြီး ဘေးကင်းရေးအတွက် မဟုတ်ပါ"
         }
       },
       {
         "text": {
           "en": "They reduce the severity of abrasion and impact injuries to the skin and joints in a fall, even at low speed",
-          "my": "နိမ့်သောအမြန်နှုန်းတွင်ပင် ကျရှုံးပါက အရေပြားနှင့် အဆစ်များကို ပွတ်တိုက်ခြင်းနှင့် ထိခိုက်ဒဏ်ရာများကို လျှော့ချသည်"
+          "my": "အရှိန်နည်းနည်းဖြင့် မတော်တဆဖြစ်သော်လည်း အရေပြားပွန်းပဲ့ဒဏ်ရာနှင့် အဆစ်ထိခိုက်မှုကို လျှော့ချပေးသည်"
         }
       }
     ],
@@ -2478,25 +2478,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What should a rider check about a helmet's visor before a night ride?",
-      "my": "ညဘက် ဆိုင်ကယ်မောင်းမီ ဦးထုပ်၏ မျက်နှာစောင်းနှင့်ပတ်သက်၍ ဘာကို စစ်ဆေးသင့်သလဲ။"
+      "my": "ညဘက် ဆိုင်ကယ်မမောင်းမီ ဦးထုပ်၏ မျက်နှာကာကို ဘာတွေစစ်ဆေးသင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Only that the visor matches the colour of the helmet",
-          "my": "မျက်နှာစောင်းသည် ဦးထုပ်အရောင်နှင့် ကိုက်ညီခြင်းကိုသာ"
+          "my": "ဦးထုပ်နဲ့ အရောင်တူမတူကိုပဲ စစ်ပါ"
         }
       },
       {
         "text": {
           "en": "Visors do not need any checking",
-          "my": "မျက်နှာစောင်းများကို မည်သည့်စစ်ဆေးမှုမှ မလိုအပ်ပါ"
+          "my": "မျက်နှာကာကို စစ်ဆေးစရာမလိုပါ"
         }
       },
       {
         "text": {
           "en": "That it is clean, not heavily scratched, and not a heavily tinted visor that reduces night vision",
-          "my": "သန့်ရှင်းသည်၊ ပြင်းပြင်းကွဲအက်ခြင်း မရှိပါ၊ ညဘက်မြင်ကွင်းကို လျော့ချသော မှောင်နေသော မျက်နှာစောင်းမဟုတ်ပါကြောင်း"
+          "my": "သန့်ရှင်းမသန့်ရှင်း၊ ခြစ်ရာများမများနဲ့ ညဘက်အမြင်ကိုလျော့စေတဲ့ အရောင်ရင့်မှန် မဟုတ်မဟုတ် စစ်ပါ"
         }
       }
     ],
@@ -2520,25 +2520,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Why should a pillion passenger hold onto the rider or designated grab handles rather than the rider's shoulders?",
-      "my": "ပွဲတွဲစီးသူသည် ယာဉ်မောင်းသူ၏ ပခုံးအစား ယာဉ်မောင်းသူကိုယ်တိုင် သို့မဟုတ် သတ်မှတ်ထားသော ကိုင်တွယ်ကြိုးကို ကိုင်ထားသင့်သည် ဘာကြောင့်လဲ။"
+      "my": "နောက်ထိုင်ခုံက ခရီးသည်က ဆိုင်ကယ်မောင်းသူရဲ့ ပခုံးကိုကိုင်မယ့်အစား မောင်းသူကိုဖက်ကိုင်တာ ဒါမှမဟုတ် သတ်မှတ်ထားတဲ့လက်ကိုင်တွေကို ကိုင်တာ ဘာကြောင့်ပိုကောင်းသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "There is no difference in safety either way",
-          "my": "မည်သို့ကိုင်ထားစေ ဘေးကင်းမှုတွင် ခြားနားချက်မရှိပါ"
+          "my": "ဘေးကင်းရေးအရ ဘာမှမကွာပါ"
         }
       },
       {
         "text": {
           "en": "Holding the shoulders can restrict the rider's movement and ability to see and steer safely",
-          "my": "ပခုံးကို ကိုင်ထားခြင်းသည် ယာဉ်မောင်းသူ၏ လှုပ်ရှားမှုနှင့် ဘေးကင်းစွာ ကြည့်/ထိန်းချုပ်နိုင်စွမ်းကို ကန့်သတ်စေနိုင်သည်"
+          "my": "ပခုံးကိုကိုင်ထားရင် မောင်းသူရဲ့လှုပ်ရှားမှုကို ကန့်သတ်ပြီး လုံခြုံစွာကြည့်တာ၊ စတီယာရင်ထိန်းတာကို အနှောင့်အယှက်ဖြစ်နိုင်တယ်"
         }
       },
       {
         "text": {
           "en": "It is more comfortable for the rider in every case",
-          "my": "ယာဉ်မောင်းသူအတွက် မည်သည့်အခြေအနေတွင်မဆို ပိုအဆင်ပြေသည်"
+          "my": "ဘယ်အခြေအနေမှာမဆို မောင်းသူအတွက် ပိုသက်သာတယ်"
         }
       }
     ],
@@ -2562,13 +2562,13 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Why is it unsafe for a pillion passenger to lean or look around independently of the rider while the motorcycle is turning?",
-      "my": "ဆိုင်ကယ်ကွေ့နေချိန် ပွဲတွဲစီးသူ ယာဉ်မောင်းသူနှင့် သီးခြားစွာ ညိမ့်ခြင်း သို့မဟုတ် လှည့်ကြည့်ခြင်းသည် ဘေးကင်းမှုမရှိသည် ဘာကြောင့်လဲ။"
+      "my": "ကွေ့နေစဉ် နောက်ထိုင်ခုံခရီးသည်က မောင်းသူနှင့် မလိုက်ဘဲ သီးခြားယိမ်းခြင်း သို့မဟုတ် လှည့်ကြည့်ခြင်းက ဘာကြောင့် အန္တရာယ်ရှိသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "It shifts the combined centre of gravity unexpectedly, making the motorcycle harder for the rider to balance",
-          "my": "ပေါင်းစည်းထားသော ဗဟိုချိန်ခွင်ကို မမျှော်လင့်ဘဲ ပြောင်းလဲစေပြီး ယာဉ်မောင်းသူအတွက် ဟန်ချက်ထိန်းရန် ပိုခက်ခဲစေသည်"
+          "my": "ဆိုင်ကယ်၏ ဟန်ချက်ဗဟိုကို ရုတ်တရက်ပြောင်းစေပြီး မောင်းသူအတွက် ဟန်ချက်ထိန်းရန် ခက်ခဲစေသည်"
         }
       },
       {
@@ -2580,7 +2580,7 @@
       {
         "text": {
           "en": "It only matters at very high speeds",
-          "my": "အမြန်နှုန်းအလွန်မြင့်ချိန်တွင်သာ အရေးကြီးသည်"
+          "my": "အရှိန်အလွန်မြင့်သည့်အခါမှသာ အရေးကြီးသည်"
         }
       }
     ],
@@ -2604,25 +2604,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What is the minimum protective gear legally required to ride a motorcycle in Singapore?",
-      "my": "Singapore တွင် ဆိုင်ကယ်မောင်းရန် ဥပဒေအရ လိုအပ်သော အနိမ့်ဆုံး ကာကွယ်ရေးပစ္စည်းက ဘာဖြစ်သလဲ။"
+      "my": "စင်ကာပူတွင် ဆိုင်ကယ်စီးရာ၌ ဥပဒေအရ မဖြစ်မနေဝတ်ဆင်ရသော ဘေးကင်းရေးပစ္စည်းက ဘာလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Gloves only",
-          "my": "လက်အိတ်တစ်ခုတည်း"
+          "my": "လက်အိတ်တစ်စုံသာ"
         }
       },
       {
         "text": {
           "en": "No protective gear is legally required",
-          "my": "ဥပဒေအရ ကာကွယ်ရေးပစ္စည်း မလိုအပ်ပါ"
+          "my": "ဥပဒေအရ ဘေးကင်းရေးပစ္စည်း မလိုအပ်ပါ"
         }
       },
       {
         "text": {
           "en": "An approved, properly fastened safety helmet",
-          "my": "ထောက်ခံထားသော၊ မှန်ကန်စွာတပ်ဆင်ထားသော ဘေးကင်းရေးဦးထုပ်"
+          "my": "အသိအမှတ်ပြုထားပြီး ခေါင်းနှင့်တော်အောင် မှန်ကန်စွာဆောင်းထားသော ဦးထုပ်"
         }
       }
     ],
@@ -2646,25 +2646,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "A rider notices a car's right turn signal blinking while the car is in the lane to the rider's left, slightly ahead. What is the safest assumption?",
-      "my": "ယာဉ်မောင်းသူ၏ ဘယ်ဘက်လမ်းကြောတွင် အနည်းငယ်ရှေ့ကရှိသော ကားတစ်စီး၏ ညာဘက်ကွေ့မီးပြ မှိတ်တုတ်နေသည်ကို တွေ့ရလျှင် အဘေးကင်းဆုံး ယူဆချက်က ဘာဖြစ်သလဲ။"
+      "my": "ကိုယ့်ဘယ်ဘက်လမ်းကြောမှာ ကိုယ့်ရှေ့နည်းနည်းကရှိတဲ့ကားက ညာကွေ့အချက်ပြမီးပြနေတာကို တွေ့ရင် ဘေးအကင်းဆုံးအနေနဲ့ ဘာကို ကြိုတွက်ထားသင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Signal lights on cars have no bearing on motorcyclists",
-          "my": "ကား၏ မီးပြများသည် ဆိုင်ကယ်မောင်းသူများအတွက် မသက်ဆိုင်ပါ"
+          "my": "ကားရဲ့အချက်ပြမီးက ဆိုင်ကယ်သမားနဲ့ မသက်ဆိုင်ပါဘူး"
         }
       },
       {
         "text": {
           "en": "The car will definitely stay in its current lane",
-          "my": "ကားသည် လက်ရှိလမ်းကြောတွင် သေချာစွာ ဆက်နေမည်"
+          "my": "ကားက လက်ရှိလမ်းကြောမှာပဲ ဆက်နေမှာ သေချာတယ်"
         }
       },
       {
         "text": {
           "en": "The car may move into the rider's lane soon, so the rider should be ready to adjust position or speed",
-          "my": "ကားသည် မကြာမီ ယာဉ်မောင်းသူ၏လမ်းကြောသို့ ရွေ့လှားလာနိုင်သောကြောင့် နေရာ သို့မဟုတ် မြန်နှုန်းကို ညှိရန် အသင့်ပြင်ထားသင့်သည်"
+          "my": "ကားက ကိုယ့်လမ်းကြောထဲ မကြာခင်ဝင်လာနိုင်လို့ ကိုယ့်နေရာ ဒါမှမဟုတ် အရှိန်ပြောင်းဖို့ အသင့်ပြင်ထားရမယ်"
         }
       }
     ],
@@ -2688,25 +2688,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "While overtaking a slow-moving lorry, a rider should be most cautious of which blind spot zone?",
-      "my": "နှေးနှေးသွားနေသော ကုန်တင်ကားကို ကျော်တက်နေစဉ် ယာဉ်မောင်းသူသည် မည်သည့် မျက်စိမမြင်ရသောနေရာအတွက် အထူးသတိထားသင့်သလဲ။"
+      "my": "နှေးနှေးသွားနေတဲ့ ကုန်တင်ကားတစ်စီးကို ကျော်တက်တဲ့အခါ ဘယ်မျက်ကွယ်နေရာကို အထူးသတိထားသင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "The area directly in front of the lorry",
-          "my": "ကုန်တင်ကား၏ တိုက်ရိုက်ရှေ့ရှိနေရာ"
+          "my": "ကုန်တင်ကားရဲ့ တည့်တည့်ရှေ့မှာ"
         }
       },
       {
         "text": {
           "en": "The area directly beside and slightly behind the driver's cab, where the rider lingers longest during overtaking",
-          "my": "ကျော်တက်စဉ် ယာဉ်မောင်းသူ အကြာရှည်ဆုံးနေသော ယာဉ်မောင်းခန်းဘေးနှင့် အနည်းငယ်နောက်ကျောရှိနေရာ"
+          "my": "ယာဉ်မောင်းခန်းရဲ့ ဘေးနဲ့ အနည်းငယ်နောက်ဘက်မှာ — ကျော်တက်နေချိန် ဆိုင်ကယ်က အဲဒီနေရာမှာ ကြာကြာရှိနေနိုင်လို့"
         }
       },
       {
         "text": {
           "en": "There is no blind spot risk when overtaking a lorry",
-          "my": "ကုန်တင်ကားကို ကျော်တက်ရာတွင် မျက်စိမမြင်ရသောနေရာ အန္တရာယ် လုံးဝမရှိ"
+          "my": "ကုန်တင်ကားကို ကျော်တက်တဲ့အခါ မျက်ကွယ်နေရာအန္တရာယ်မရှိပါ"
         }
       }
     ],
@@ -2736,19 +2736,19 @@
       {
         "text": {
           "en": "Loose clothing with no specific colour requirement",
-          "my": "သီးသန့်အရောင်လိုအပ်ချက်မရှိသော ကျယ်သောအထည်"
+          "my": "အရောင်သတ်မှတ်ချက်မရှိတဲ့ ချောင်ချောင်ဝတ်စုံ"
         }
       },
       {
         "text": {
           "en": "All-black gear with no reflective elements",
-          "my": "အလင်းပြန်ပစ္စည်းမပါသော အနက်ရောင်အထည်"
+          "my": "အလင်းပြန်ပစ္စည်းမပါတဲ့ အနက်ရောင်ဝတ်စုံအပြည့်"
         }
       },
       {
         "text": {
           "en": "Reflective or brightly coloured riding gear",
-          "my": "အလင်းပြန်ဖြစ်သော သို့မဟုတ် တောက်ပသောအရောင်ပါ ယာဉ်မောင်းအထည်"
+          "my": "အလင်းပြန်တဲ့ပစ္စည်းပါသော သို့မဟုတ် အရောင်တောက်တဲ့ ဆိုင်ကယ်စီးဝတ်စုံ"
         }
       }
     ],
@@ -2772,25 +2772,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Why should a rider avoid lingering directly beside a large vehicle at a junction?",
-      "my": "လမ်းဆုံတွင် ယာဉ်ကြီးတစ်စီးဘေးတွင် တိုက်ရိုက်ကြာရှည်ရပ်နားခြင်းကို ယာဉ်မောင်းသူ ဘာကြောင့် ရှောင်ကြဥ်သင့်သလဲ။"
+      "my": "လမ်းဆုံမှာ ယာဉ်ကြီးတစ်စီးရဲ့ ဘေးတည့်တည့်မှာ ကပ်မမောင်းဘဲ ကြာကြာမနေတာ ဘာကြောင့်အရေးကြီးသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "It is illegal to stop next to a large vehicle",
-          "my": "ယာဉ်ကြီးတစ်စီးဘေးတွင် ရပ်နားခြင်းသည် ဥပဒေနှင့်မညီ"
+          "my": "ယာဉ်ကြီးဘေးမှာ ရပ်တာ ဥပဒေနဲ့မညီလို့"
         }
       },
       {
         "text": {
           "en": "Large vehicles always have right of way over motorcycles",
-          "my": "ယာဉ်ကြီးများသည် ဆိုင်ကယ်များအပေါ် အမြဲဦးစားပေးခွင့်ရှိသည်"
+          "my": "ယာဉ်ကြီးတွေက ဆိုင်ကယ်ကို အမြဲဦးစားပေးရလို့"
         }
       },
       {
         "text": {
           "en": "The driver may not see the motorcycle and could turn into its path",
-          "my": "ယာဉ်မောင်းသူသည် ဆိုင်ကယ်ကို မမြင်နိုင်ဘဲ ၎င်း၏လမ်းကြောင်းသို့ ကွေ့နိုင်သည်"
+          "my": "ယာဉ်မောင်းက ဆိုင်ကယ်ကို မမြင်ဘဲ ကိုယ့်လမ်းကြောင်းကို ဖြတ်ကွေ့လာနိုင်လို့"
         }
       }
     ],
@@ -2814,7 +2814,7 @@
     "difficulty": "medium",
     "prompt": {
       "en": "When riding behind a bus that is about to depart from a bus stop, what should a rider be aware of?",
-      "my": "ဘတ်စ်ကားမှတ်တိုင်မှ ထွက်ခွာတော့မည့် ဘတ်စ်ကားနောက်တွင် မောင်းနှင်စဉ် ယာဉ်မောင်းသူ ဘာကို သတိရှိသင့်သလဲ။"
+      "my": "ဘတ်စ်ကားမှတ်တိုင်ကနေ ထွက်တော့မယ့် ဘတ်စ်ကားနောက်မှာ ဆိုင်ကယ်မောင်းတဲ့အခါ ဘာကို သတိထားရမလဲ။"
     },
     "choices": [
       {
@@ -2856,25 +2856,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What riding technique helps make a motorcycle more visible when approaching a junction with parked vehicles obstructing the view?",
-      "my": "ရပ်နားထားသောယာဉ်များက အမြင်ကို ပိတ်ဆို့နေသော လမ်းဆုံသို့ ချဥ်းကပ်သောအခါ ဆိုင်ကယ်ကို ပိုမြင်နိုင်စေရန် မည်သည့်မောင်းနှင်ပညာက အကူအညီပေးသလဲ။"
+      "my": "ရပ်ထားတဲ့ယာဉ်တွေကြောင့် မြင်ကွင်းပိတ်နေတဲ့ လမ်းဆုံကို ချဉ်းကပ်တဲ့အခါ ကိုယ့်ကို တခြားသူတွေ ပိုမြင်အောင် ဘယ်လိုမောင်းသင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Accelerating past the parked vehicles quickly",
-          "my": "ရပ်နားထားသောယာဉ်များကို မြန်မြန်ဖြတ်ကျော်ပါ"
+          "my": "ရပ်ထားတဲ့ယာဉ်တွေကို အမြန်ကျော်သွားပါ"
         }
       },
       {
         "text": {
           "en": "Closing the eyes momentarily to reduce glare",
-          "my": "အလင်းရောင်လျှော့ချရန် ခေတ္တမျက်စိမှိတ်ပါ"
+          "my": "အလင်းစူးတာလျော့အောင် ခဏမျက်စိမှိတ်ပါ"
         }
       },
       {
         "text": {
           "en": "Moving slightly within the lane to create a sightline around the obstruction before proceeding",
-          "my": "ပိတ်ဆို့နေသောအရာပတ်လည် မြင်နိုင်ရန် ဆက်မသွားမီ လမ်းကြောအတွင်း အနည်းငယ်ရွေ့လျားပါ"
+          "my": "မဆက်မောင်းခင် အတားအဆီးနားက မြင်ကွင်းရအောင် လမ်းကြောအတွင်း အနည်းငယ်ရွှေ့မောင်းပါ"
         }
       }
     ],
@@ -2898,25 +2898,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Why are motorcyclists particularly vulnerable at signalised intersections?",
-      "my": "ဆိုင်ကယ်မောင်းသူများသည် မီးပွိုင့် ထားသော လမ်းဆုံများတွင် အဘယ်ကြောင့် အထူးသဖြင့် ထိခိုက်နိုင်ဖွယ်ရှိသလဲ။"
+      "my": "မီးပွိုင့်ရှိတဲ့လမ်းဆုံတွေမှာ ဆိုင်ကယ်စီးသူတွေ ဘာကြောင့် အထူးသတိထားရသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Because motorcycles have no indicator lights",
-          "my": "ဆိုင်ကယ်တွင် ညွှန်းမီးများ မပါသောကြောင့်"
+          "my": "ဆိုင်ကယ်မှာ အချက်ပြမီးမပါတာကြောင့်"
         }
       },
       {
         "text": {
           "en": "Because motorcycles travel faster than cars",
-          "my": "ဆိုင်ကယ်သည် ကားထက် ပိုမြန်သောကြောင့်"
+          "my": "ဆိုင်ကယ်က ကားထက် ပိုမြန်တာကြောင့်"
         }
       },
       {
         "text": {
           "en": "Because turning drivers may not see a motorcycle in their mirrors or blind spots",
-          "my": "ကွေ့ကောက်မောင်းနေသော ယာဉ်မောင်းသူသည် မှန်ဆိုင်ကပ်ဆက် သို့ မမြင်ရသောနေရာတွင် ဆိုင်ကယ်ကို မတွေ့ နိုင်သောကြောင့်"
+          "my": "ကွေ့မယ့်ယာဉ်မောင်းက မှန်ထဲမှာဖြစ်စေ မျက်ကွယ်နေရာမှာဖြစ်စေ ဆိုင်ကယ်ကို မမြင်လိုက်နိုင်တာကြောင့်"
         }
       }
     ],
@@ -2940,25 +2940,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "Why are motorcycles especially vulnerable to other drivers' blind spots?",
-      "my": "ဆိုင်ကယ်များသည် အခြားယာဉ်မောင်းသူများ၏ မျက်စိမမြင်ရသောနေရာများတွင် အထူးထိခိုက်လွယ်ခြင်းမှာ ဘာကြောင့်လဲ။"
+      "my": "တခြားယာဉ်မောင်းတွေရဲ့ မျက်ကွယ်နေရာမှာ ဆိုင်ကယ်တွေ အထူးသဖြင့် မမြင်ရလွယ်တာ ဘာကြောင့်လဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Motorcycles do not have working mirrors",
-          "my": "ဆိုင်ကယ်များတွင် အလုပ်လုပ်သော ကြေးမှန်မရှိ"
+          "my": "ဆိုင်ကယ်တွေမှာ အလုပ်လုပ်တဲ့မှန်မပါလို့"
         }
       },
       {
         "text": {
           "en": "Their smaller size makes them easy to miss in mirrors and shoulder checks",
-          "my": "ပိုသေးငယ်သောအရွယ်အစားကြောင့် ကြေးမှန်နှင့် ပခုံးလှည့်စစ်ဆေးမှုတွင် လွတ်ကျော်တတ်သည်"
+          "my": "ဆိုင်ကယ်အရွယ်အစားသေးလို့ မှန်ထဲမှာဖြစ်စေ ပခုံးကျော်ကြည့်တဲ့အခါဖြစ်စေ သတိမထားမိဘဲ လွတ်သွားနိုင်လို့"
         }
       },
       {
         "text": {
           "en": "Motorcycles are required to ride only in blind spots",
-          "my": "ဆိုင်ကယ်များသည် မျက်စိမမြင်ရသောနေရာများတွင်သာ မောင်းနှင်ရန် လိုအပ်သည်"
+          "my": "ဆိုင်ကယ်တွေကို မျက်ကွယ်နေရာမှာပဲ မောင်းဖို့ သတ်မှတ်ထားလို့"
         }
       }
     ],
@@ -2982,25 +2982,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "In strong gusty crosswinds (e.g. when passing a gap between buildings), what should a rider do?",
-      "my": "အင်အားကြီး လေတိုက်ထောင့်လေများ (ဥပမာ အဆောက်အအုံများကြားမှ ဖြတ်သန်းချိန်) ၌ ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      "my": "အဆောက်အအုံကြားက လေတိုက်ကွင်းကို ဖြတ်တဲ့အခါလို လေပြင်းတိုက်ခတ်ရင် ဆိုင်ကယ်စီးသူ ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Reduce speed, keep a firm grip, and be ready for a sudden push from the wind",
-          "my": "အမြန်နှုန်းလျှော့ပြီး၊ ဘီးကို လက်တင်းကိုင်ထားကာ၊ လေမှ ရုတ်တရက်တွန်းအားအတွက် အသင့်ထားပါ"
+          "my": "အရှိန်လျှော့၊ လက်ကိုင်ကိုမြဲမြဲကိုင်ပြီး လေက ရုတ်တရက်တွန်းနိုင်တာကို အသင့်ပြင်ထားပါ"
         }
       },
       {
         "text": {
           "en": "Lean away from the wind direction at all times",
-          "my": "လေတိုက်ရာဘက်နှင့် ဆန့်ကျင်ဖက်သို့ အမြဲတမ်း ညိမ့်ထားပါ"
+          "my": "လေတိုက်လာတဲ့ဘက်ကနေ အမြဲဆန့်ကျင်ဘက်ကို ယိမ်းထားပါ"
         }
       },
       {
         "text": {
           "en": "Increase speed to pass through the gust quickly",
-          "my": "လေတိုက်နေသောနေရာကို မြန်မြန်ဖြတ်ရန် အရှိန်တိုးပါ"
+          "my": "လေတိုက်တဲ့နေရာကို မြန်မြန်ကျော်ဖို့ အရှိန်မြှင့်ပါ"
         }
       }
     ],
@@ -3024,25 +3024,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "On a hot day, why might road tar feel different to ride over compared to a cooler day?",
-      "my": "နေပူသောနေ့တွင် လမ်းကတ္တရာသည် အေးသောနေ့နှင့် နှိုင်းယှဉ်ပါက ယာဉ်မောင်းနှင်ရန် ကွဲပြားသော ခံစားမှုဖြစ်နိုင်သည် ဘာကြောင့်လဲ။"
+      "my": "နေ့ပူတဲ့အခါ လမ်းကတ္တရာကို ဖြတ်မောင်းရာမှာ အေးတဲ့နေ့နဲ့ ဘယ်လိုကွာနိုင်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Tar can soften and become slightly sticky or uneven, subtly affecting tyre grip and handling",
-          "my": "ကတ္တရာသည် နူးညံ့သွားကာ ကပ်ငြိနေခြင်း သို့မဟုတ် မညီမညွတ်ဖြစ်နိုင်ပြီး ဘီးကိုက်မှုနှင့် ကိုင်တွယ်မှုကို သိသိသိမသိ ထိခိုက်စေသည်"
+          "my": "ကတ္တရာပျော့ပြီး အနည်းငယ်စေးကပ်တာ၊ မညီညာတာဖြစ်နိုင်လို့ တာယာလမ်းကပ်အားနဲ့ ဆိုင်ကယ်ထိန်းပုံကို သက်ရောက်နိုင်တယ်"
         }
       },
       {
         "text": {
           "en": "Heat always makes the road perfectly grippy with no change",
-          "my": "အပူသည် လမ်းကို အမြဲတမ်း ကိုက်မှုပြည့်ဝစေပြီး ပြောင်းလဲမှုမရှိပါ"
+          "my": "ပူရင် လမ်းက အမြဲပိုကပ်ပြီး ဘာမှမပြောင်းလဲဘူး"
         }
       },
       {
         "text": {
           "en": "Tar only changes colour, never texture",
-          "my": "ကတ္တရာသည် အရောင်ကိုသာ ပြောင်းလဲပြီး အသွင်အပြင်ကို ဘယ်တော့မှ မပြောင်းလဲပါ"
+          "my": "ကတ္တရာက အရောင်ပဲပြောင်းတယ်၊ မျက်နှာပြင်မပြောင်းဘူး"
         }
       }
     ],
@@ -3066,25 +3066,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Why is a painted lane marking or metal manhole cover especially hazardous for a motorcycle in the rain?",
-      "my": "မိုးထဲတွင် ဆိုင်ကယ်အတွက် ပန်းချီရေးသား လမ်းကြောင်းအမှတ်အသား သို့မဟုတ် သံပြားလျှောထောင့်ဖုံး အထူးအန္တရာယ်ရှိသည် ဘာကြောင့်လဲ။"
+      "my": "မိုးရွာတဲ့အခါ လမ်းပေါ်က ဆေးခြယ်ထားတဲ့မျဉ်း ဒါမှမဟုတ် သံရေမြောင်းအဖုံးက ဆိုင်ကယ်အတွက် ဘာကြောင့် အန္တရာယ်ရှိသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "These surfaces become very slippery when wet and can cause the wheels to lose grip suddenly",
-          "my": "ဒီမျက်နှာပြင်များသည် စွတ်စိုသွားချိန် အလွန်ချော်လိမ့်လာပြီး ဘီးများ ရုတ်တရက် ကိုက်မှုပျောက်စေနိုင်သည်"
+          "my": "စိုသွားရင် အရမ်းချော်နိုင်ပြီး တာယာလမ်းကပ်အား ရုတ်တရက်ပျောက်သွားစေနိုင်တယ်"
         }
       },
       {
         "text": {
           "en": "They only affect car tyres, not motorcycle tyres",
-          "my": "ကားဘီးများကိုသာ ထိခိုက်ပြီး ဆိုင်ကယ်ဘီးများကို မထိခိုက်ပါ"
+          "my": "ကားတာယာကိုပဲ ထိခိုက်ပြီး ဆိုင်ကယ်တာယာကို မထိခိုက်ဘူး"
         }
       },
       {
         "text": {
           "en": "They are only a problem at night",
-          "my": "ညအချိန်တွင်သာ ပြသနာဖြစ်သည်"
+          "my": "ညဘက်မှာပဲ ပြဿနာရှိတယ်"
         }
       }
     ],
@@ -3108,25 +3108,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Why are loose gravel or sand patches particularly dangerous for motorcycles?",
-      "my": "ကျောက်စရစ် သို့မဟုတ် သဲလွတ်ကျိုးများသော နေရာများသည် ဆိုင်ကယ်များအတွက် အထူးအန္တရာယ်ရှိသည် ဘာကြောင့်လဲ။"
+      "my": "လမ်းပေါ်က ကျောက်စရစ် ဒါမှမဟုတ် သဲတွေက ဆိုင်ကယ်အတွက် ဘာကြောင့် အထူးအန္တရာယ်ရှိသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "They only matter for very heavy motorcycles",
-          "my": "အလေးချိန်များသော ဆိုင်ကယ်များအတွက်သာ အရေးကြီးသည်"
+          "my": "အလေးချိန်များတဲ့ ဆိုင်ကယ်တွေအတွက်ပဲ အရေးကြီးတယ်"
         }
       },
       {
         "text": {
           "en": "They reduce tyre grip significantly and can cause a sudden slide, especially while turning",
-          "my": "ဘီးကိုက်မှုကို သိသိသာသာ လျော့ချပြီး အထူးသဖြင့် ကွေ့နေချိန် ရုတ်တရက် ချော်လိမ့်စေနိုင်သည်"
+          "my": "တာယာလမ်းကပ်အားကို အများကြီးလျှော့စေပြီး အထူးသဖြင့် ကွေ့ချိန်မှာ ရုတ်တရက်ချော်စေနိုင်တယ်"
         }
       },
       {
         "text": {
           "en": "They have no effect on two-wheeled vehicles",
-          "my": "ဘီးနှစ်ခုပါ ယာဉ်များကို မထိခိုက်ပါ"
+          "my": "ဘီးနှစ်ဘီးတပ်ယာဉ်ကို မထိခိုက်ဘူး"
         }
       }
     ],
@@ -3150,25 +3150,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Why is the first 10-15 minutes of rainfall often the most slippery time to ride?",
-      "my": "မိုးစတင်ရွာသွန်းချိန် ပထမ ၁၀-၁၅ မိနစ်သည် ယာဉ်မောင်းရန် အချော်လိမ့်ဆုံးအချိန် ဖြစ်တတ်သည် ဘာကြောင့်လဲ။"
+      "my": "မိုးစရွာပြီး ပထမ ၁၀–၁၅ မိနစ်အတွင်း လမ်းက အချော်ဆုံးဖြစ်တတ်တာ ဘာကြောင့်လဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Rain mixes with accumulated oil and dust on the road surface, creating a very slippery film before it washes away",
-          "my": "မိုးရေသည် လမ်းမျက်နှာပြင်ပေါ်ရှိ စုပုံနေသော ဆီနှင့် မြူများနှင့် ရောနှောကာ ဖျောက်မသွားမီ အလွန်ချော်လိမ့်သော အလွှာကို ဖြစ်စေသည်"
+          "my": "မိုးရေက လမ်းပေါ်စုပုံနေတဲ့ ဆီနဲ့ ဖုန်မှုန့်တွေကို ရောစေပြီး ဆေးကြောမသွားခင် ချော်လွှာဖြစ်စေလို့"
         }
       },
       {
         "text": {
           "en": "The road actually has more grip when first wet",
-          "my": "လမ်းသည် ပထမစွတ်စိုချိန် ကိုက်မှု ပိုများသည်"
+          "my": "မိုးစရွာခါစမှာ လမ်းက ပိုကပ်လို့"
         }
       },
       {
         "text": {
           "en": "This only affects cars, not motorcycles",
-          "my": "ကားများကိုသာ ထိခိုက်ပြီး ဆိုင်ကယ်များကို မထိခိုက်ပါ"
+          "my": "ကားတွေကိုပဲ ထိခိုက်ပြီး ဆိုင်ကယ်တွေကို မထိခိုက်လို့"
         }
       }
     ],
@@ -3192,25 +3192,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "Why should a rider increase following distance behind a heavy vehicle during rain?",
-      "my": "မိုးရွာချိန် ယာဉ်ကြီးတစ်စီးနောက်တွင် နောက်လိုက်အကွာအဝေးကို တိုးသင့်သည် ဘာကြောင့်လဲ။"
+      "my": "မိုးရွာနေချိန် ယာဉ်ကြီးတစ်စီးနောက်တွင် လိုက်မောင်းပါက ဘာကြောင့် အကွာအဝေးပိုထားသင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Heavy vehicles brake faster than motorcycles, so distance can be reduced",
-          "my": "ယာဉ်ကြီးများသည် ဆိုင်ကယ်ထက် ပိုမြန်စွာဘရိတ်ရပ်သောကြောင့် အကွာအဝေးကို လျှော့ချနိုင်သည်"
+          "my": "ယာဉ်ကြီးတွေက ဆိုင်ကယ်ထက် ပိုမြန်မြန်ရပ်နိုင်လို့ အကွာအဝေးလျှော့ထားလို့ရတယ်"
         }
       },
       {
         "text": {
           "en": "Spray from its tyres can reduce visibility and braking distances increase on wet roads",
-          "my": "ထိုယာဉ်၏ ဘီးများမှ ရေပန်းသည် မြင်နိုင်စွမ်းကို လျော့ချနိုင်ပြီး စွတ်စိုသောလမ်းများတွင် ဘရိတ်ရပ်ရန်အကွာအဝေးလည်း တိုးလာသည်"
+          "my": "ယာဉ်ကြီးဘီးက ရေစင်လို့ မြင်ကွင်းမရှင်းနိုင်သလို လမ်းစိုရင် ရပ်ဖို့အကွာအဝေး ပိုလိုတယ်"
         }
       },
       {
         "text": {
           "en": "Following distance does not matter in the rain",
-          "my": "မိုးရွာချိန် နောက်လိုက်အကွာအဝေးသည် အရေးမကြီးပါ"
+          "my": "မိုးရွာရင် ရှေ့ယာဉ်နဲ့အကွာအဝေးထားတာ အရေးမကြီးဘူး"
         }
       }
     ],
@@ -3234,25 +3234,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What additional risk do fallen leaves or wet leaf litter on the road create for a rider?",
-      "my": "လမ်းပေါ်ရှိ ကျသွားသော သစ်ရွက်များ သို့မဟုတ် စွတ်စိုနေသော သစ်ရွက်အစများသည် ယာဉ်မောင်းသူအတွက် ဘာအန္တရာယ် ထပ်ဆောင်းဖြစ်စေသလဲ။"
+      "my": "လမ်းပေါ်ရှိ သစ်ရွက်များ၊ အထူးသဖြင့် စိုစွတ်နေသောသစ်ရွက်များက ဘာအန္တရာယ်ဖြစ်စေသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Leaves only affect bicycles, not motorcycles",
-          "my": "စက်ဘီးများကိုသာ ထိခိုက်ပြီး ဆိုင်ကယ်များကို မထိခိုက်ပါ"
+          "my": "သစ်ရွက်တွေက စက်ဘီးကိုပဲ ထိခိုက်ပြီး ဆိုင်ကယ်ကို မထိခိုက်ဘူး"
         }
       },
       {
         "text": {
           "en": "Leaves improve tyre grip",
-          "my": "သစ်ရွက်များသည် ဘီးကိုက်မှုကို တိုးတက်စေသည်"
+          "my": "သစ်ရွက်တွေက တာယာလမ်းကပ်အားကို ပိုကောင်းစေတယ်"
         }
       },
       {
         "text": {
           "en": "Wet leaves can be as slippery as ice and hide the actual road surface underneath",
-          "my": "စွတ်စိုနေသော သစ်ရွက်များသည် ရေခဲကဲ့သို့ ချော်လိမ့်နိုင်ပြီး အောက်ရှိ လမ်းမျက်နှာပြင် အစစ်ကိုလည်း ဖျောက်ထားသည်"
+          "my": "စိုနေတဲ့သစ်ရွက်တွေက ရေခဲလို ချော်နိုင်ပြီး အောက်ကလမ်းမျက်နှာပြင်ကို ဖုံးထားနိုင်တယ်"
         }
       }
     ],
@@ -3276,25 +3276,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What should a rider do when riding through a puddle or pool of standing water of unknown depth?",
-      "my": "အနက်မသိသော ရေအိုင် သို့မဟုတ် ရေတိုက်ခြင်းကို ဖြတ်သန်းချိန် ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      "my": "အနက်မသိတဲ့ ရေအိုင်ကို ဖြတ်မောင်းရတော့မယ်ဆိုရင် ဆိုင်ကယ်စီးသူ ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Slow down and, if possible, avoid it or pass through slowly and steadily",
-          "my": "အရှိန်လျှော့ပြီး၊ ဖြစ်နိုင်ပါက ရှောင်ရှားပါ သို့မဟုတ် နှေးနှေးနှင့် တည်ငြိမ်စွာ ဖြတ်သွားပါ"
+          "my": "အရှိန်လျှော့ပြီး ဖြစ်နိုင်ရင် ရှောင်ပါ။ မရှောင်နိုင်ရင် ဖြည်းဖြည်းမှန်မှန် ဖြတ်ပါ"
         }
       },
       {
         "text": {
           "en": "Brake hard while inside the puddle",
-          "my": "ရေအိုင်အတွင်းရှိနေချိန် ပြင်းပြင်းဘရိတ်နှိပ်ပါ"
+          "my": "ရေအိုင်ထဲမှာ ဘရိတ်ပြင်းပြင်းအုပ်ပါ"
         }
       },
       {
         "text": {
           "en": "Accelerate quickly to get through before losing balance",
-          "my": "ဟန်ချက်မပျောက်မီ မြန်မြန်ဖြတ်ရန် အရှိန်တိုးပါ"
+          "my": "ဟန်ချက်မပျောက်ခင် ဖြတ်ဖို့ အရှိန်မြှင့်ပါ"
         }
       }
     ],
@@ -3318,7 +3318,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What does an octagonal red sign with the word 'STOP' require?",
-      "my": "'STOP' စာလုံးပါသော ရှစ်ဒေါင့်ပုံ အနီရောင်ဆိုင်းဘုတ်သည် ဘာလုပ်ရန် လိုအပ်သလဲ။"
+      "my": "အနီရောင် ရှစ်ထောင့်ဆိုင်းဘုတ်ပေါ်မှာ “STOP” (ရပ်ရန်) လို့ ရေးထားရင် ဘာလုပ်ရမလဲ။"
     },
     "choices": [
       {
@@ -3330,7 +3330,7 @@
       {
         "text": {
           "en": "Slow down but not necessarily stop",
-          "my": "မြန်နှုန်းလျှော့ပါ၊ မရပ်တန်းမရပ်"
+          "my": "အရှိန်လျှော့ပြီး ရပ်မနေဘဲ ဆက်သွားပါ"
         }
       },
       {
@@ -3430,13 +3430,13 @@
       {
         "text": {
           "en": "Maximum speed limit of 70 km/h",
-          "my": "အများဆုံး အမြန်နှုန်းကန့်သတ်ချက် 70 km/h"
+          "my": "အများဆုံး အမြန်နှုန်းကန့်သတ်ချက် 70 ကီလိုမီတာ/နာရီ"
         }
       },
       {
         "text": {
           "en": "Minimum speed limit of 70 km/h",
-          "my": "အနည်းဆုံး အမြန်နှုန်းကန့်သတ်ချက် 70 km/h"
+          "my": "အနည်းဆုံး အမြန်နှုန်းကန့်သတ်ချက် 70 ကီလိုမီတာ/နာရီ"
         }
       }
     ],
@@ -3468,25 +3468,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "You approach a junction with flashing red traffic lights but no officer present. What is the correct action?",
-      "my": "ရဲမရှိသော လမ်းဆုံတွင် မီးနီ တဖျတ်ဖျတ်ပြနေသည်ကို တွေ့ရလျှင် မှန်ကန်သောလုပ်ဆောင်ချက်က ဘာလဲ။"
+      "my": "ရဲအရာရှိမရှိတဲ့ လမ်းဆုံမှာ မီးနီမှိတ်တုတ်မှိတ်တုတ် ပြနေရင် ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Slow down slightly and continue without stopping",
-          "my": "အနည်းငယ် မြန်နှုန်းလျှော့ပြီး မရပ်ဘဲ ဆက်သွားပါ"
+          "my": "အရှိန်နည်းနည်းလျှော့ပြီး မရပ်ဘဲ ဆက်သွားပါ"
         }
       },
       {
         "text": {
           "en": "It has no legal meaning if no officer is present",
-          "my": "ရဲမရှိလျှင် ဥပဒေရေးရာ အဓိပ္ပါယ်မရှိပါ"
+          "my": "ရဲမရှိရင် ဥပဒေအရ ဘာအဓိပ္ပာယ်မှ မရှိပါ"
         }
       },
       {
         "text": {
           "en": "Treat it like a stop sign: stop fully, then proceed only when safe",
-          "my": "ရပ်ဆိုင်းဘုတ်ကဲ့သို့ သတ်မှတ်ပါ — အပြည့်အဝရပ်ပြီး ဘေးကင်းမှသာ ဆက်သွားပါ"
+          "my": "ရပ်ဆိုင်းဆိုင်းဘုတ်လို သဘောထားပါ — လုံးဝရပ်ပြီး ဘေးကင်းမှ ဆက်သွားပါ"
         }
       }
     ],
@@ -3510,25 +3510,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "At an unsignalised pedestrian crossing, a pedestrian is waiting at the curb but has not stepped onto the crossing. What should a rider do?",
-      "my": "မီးပြမရှိသော လူကူးမျဉ်းတွင် လူတစ်ဦးသည် လမ်းကောင်ဘေးတွင် စောင့်နေသော်လည်း လူကူးမျဉ်းပေါ်သို့ မလှမ်းရသေးပါက ယာဉ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
+      "my": "မီးပွိုင့်မရှိတဲ့ လူကူးမျဉ်းကြားမှာ လူတစ်ယောက် လမ်းဘေးကနေ စောင့်နေပြီး မျဉ်းကြားပေါ် မတက်သေးပါဘူး။ ဆိုင်ကယ်မောင်းသူ ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Maintain speed since the pedestrian has not stepped onto the crossing yet",
-          "my": "လူက လူကူးမျဉ်းပေါ်သို့ မလှမ်းရသေးသောကြောင့် မြန်နှုန်းကို ဆက်ထားပါ"
+          "my": "လူကူးမျဉ်းပေါ် မတက်ရသေးသဖြင့် အရှိန်အတိုင်း ဆက်မောင်းပါ"
         }
       },
       {
         "text": {
           "en": "Slow down and be prepared to stop in case the pedestrian steps onto the crossing",
-          "my": "လူသည် လူကူးမျဉ်းပေါ်သို့ လှမ်းနိုင်သောကြောင့် မြန်နှုန်းလျှော့ပြီး ရပ်ရန် အသင့်ပြင်ထားပါ"
+          "my": "လူကူးသူ လမ်းပေါ်တက်လာနိုင်သဖြင့် အရှိန်လျှော့ပြီး ရပ်ရန် အသင့်ပြင်ထားပါ"
         }
       },
       {
         "text": {
           "en": "Sound the horn to warn the pedestrian not to cross",
-          "my": "လူကို မဖြတ်ရန် သတိပေးရန် ဟွန်းတီးပါ"
+          "my": "လမ်းမဖြတ်ရန် သတိပေးသည့်အနေဖြင့် ဟွန်းတီးပါ"
         }
       }
     ],
@@ -3552,25 +3552,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "A flashing amber arrow at a signalised junction allows you to turn in that direction provided what condition is met?",
-      "my": "ယာဉ်မီးပြလမ်းဆုံတွင် မီးဝါမြှား တဖျတ်ဖျတ်ပြနေလျှင် မည်သည့်အခြေအနေနှင့် ကိုက်ညီမှသာ ထိုဘက်သို့ ကွေ့နိုင်သလဲ။"
+      "my": "မီးပွိုင့်ရှိတဲ့လမ်းဆုံမှာ မီးဝါမှိတ်တုတ်မှိတ်တုတ်နဲ့ မြှားပြနေပါတယ်။ ဘယ်အခြေအနေမှာ မြှားညွှန်တဲ့ဘက်ကို ကွေ့နိုင်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Any oncoming vehicle has already stopped completely",
-          "my": "ဆန့်ကျင်ဘက်ယာဉ်တိုင်း အပြည့်အဝရပ်ပြီးသွားသည်"
+          "my": "တစ်ဖက်ယာဉ်အားလုံး ရပ်ပြီးသွားတဲ့အခါ"
         }
       },
       {
         "text": {
           "en": "You sound the horn before turning",
-          "my": "ကွေ့မီ ဟွန်းတီးရမည်"
+          "my": "ကွေ့မဝင်ခင် ဟွန်းတီးတဲ့အခါ"
         }
       },
       {
         "text": {
           "en": "You give way to pedestrians and oncoming traffic before turning",
-          "my": "ကွေ့မီ လူသွားလူလာနှင့် ဆန့်ကျင်ဘက်ယာဉ်များကို လမ်းဖယ်ပေးရမည်"
+          "my": "မကွေ့ခင် လူကူးသူတွေနဲ့ တစ်ဖက်ကလာတဲ့ယာဉ်တွေကို လမ်းပေးတဲ့အခါ"
         }
       }
     ],
@@ -3594,25 +3594,25 @@
     "difficulty": "hard",
     "prompt": {
       "en": "Two riders approach a junction from opposite directions, both wanting to turn right with no signal control. Who has priority?",
-      "my": "ယာဉ်မီးပြမရှိသော လမ်းဆုံသို့ ယာဉ်မောင်းသူနှစ်ဦးသည် ဆန့်ကျင်ဘက်လမ်းကြောင်းများမှ ညာဘက်ကွေ့ရန် လာကြသည်။ ဘယ်သူက ဦးစားပေးခွင့်ရှိသလဲ။"
+      "my": "မီးပွိုင့်မရှိတဲ့ လမ်းဆုံကို ဆန့်ကျင်ဘက်ကနေ ဆိုင်ကယ်မောင်းသူနှစ်ဦးချဉ်းကပ်လာပြီး နှစ်ယောက်လုံး ညာကွေ့ချင်နေပါတယ်။ ဘယ်သူက ဦးစားပေးရမလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Whichever rider arrives first may proceed without caution",
-          "my": "ဦးဆုံးရောက်ရှိလာသော ယာဉ်မောင်းသူသည် သတိမစိုက်ဘဲ ဆက်သွားနိုင်သည်"
+          "my": "အရင်ရောက်တဲ့သူက သတိမထားဘဲ အရင်မောင်းသွားနိုင်တယ်"
         }
       },
       {
         "text": {
           "en": "The vehicle on the left always has automatic priority",
-          "my": "ဘယ်ဘက်ရှိယာဉ်က အမြဲတမ်း အလိုအလျောက် ဦးစားပေးခွင့်ရှိသည်"
+          "my": "ဘယ်ဘက်ကယာဉ်က အမြဲတမ်း အလိုအလျောက် ဦးစားပေးရတယ်"
         }
       },
       {
         "text": {
           "en": "Both should slow down, make eye contact if possible, and proceed only when it is clearly safe",
-          "my": "နှစ်ဦးစလုံး မြန်နှုန်းလျှော့ပြီး ဖြစ်နိုင်ရင် မျက်လုံးချင်းဆုံပြီး ရှင်းရှင်းလင်းလင်း ဘေးကင်းမှသာ ဆက်သွားသင့်သည်"
+          "my": "နှစ်ယောက်လုံး အရှိန်လျှော့ပြီး ဖြစ်နိုင်ရင် မျက်လုံးချင်းဆုံကာ ဘေးကင်းတာ သေချာမှ ဆက်သွားသင့်တယ်"
         }
       }
     ],
@@ -3642,19 +3642,19 @@
       {
         "text": {
           "en": "End of all restrictions",
-          "my": "ကန့်သတ်ချက်အားလုံး ပြီးဆုံးခြင်း"
+          "my": "ကန့်သတ်ချက်အားလုံး ပြီးဆုံးကြောင်း"
         }
       },
       {
         "text": {
           "en": "School zone ahead",
-          "my": "ရှေ့တွင် ကျောင်းဇုန်ရှိသည်"
+          "my": "ရှေ့မှာ ကျောင်းဇုန်ရှိကြောင်း"
         }
       },
       {
         "text": {
           "en": "A general hazard not covered by a specific symbol",
-          "my": "သတ်မှတ်အမှတ်အသားနှင့် မကိုက်ညီသော ဘုံအန္တရာယ်"
+          "my": "သီးခြားသင်္ကေတနဲ့ မဖော်ပြထားတဲ့ အထွေထွေအန္တရာယ်တစ်ခုရှိကြောင်း"
         }
       }
     ],
@@ -3686,25 +3686,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What is the legal requirement for a motorcycle's headlight during daytime riding in Singapore?",
-      "my": "Singapore တွင် နေ့ဘက်မောင်းနှင်စဉ် ဆိုင်ကယ်၏ ရှေ့မီးအတွက် ဥပဒေအရ လိုအပ်ချက်က ဘာလဲ။"
+      "my": "စင်ကာပူတွင် နေ့ဘက် ဆိုင်ကယ်စီးရာ၌ ရှေ့မီးကို ဘယ်လိုထားရမလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "The headlight may be switched off during heavy traffic",
-          "my": "ယာဉ်အသွားအလာများသောအခါ ရှေ့မီးကို ပိတ်ထားနိုင်သည်"
+          "my": "ယာဉ်ကြပ်ချိန်တွင် ရှေ့မီးပိတ်နိုင်သည်"
         }
       },
       {
         "text": {
           "en": "The headlight is only required after sunset",
-          "my": "ရှေ့မီးသည် နေဝင်ပြီးမှသာ လိုအပ်သည်"
+          "my": "နေဝင်ပြီးမှသာ ရှေ့မီးလိုအပ်သည်"
         }
       },
       {
         "text": {
           "en": "The headlight must be kept switched on at all times while riding",
-          "my": "မောင်းနှင်နေစဉ် ရှေ့မီးကို အချိန်တိုင်း ဖွင့်ထားရမည်"
+          "my": "ဆိုင်ကယ်စီးနေစဉ် ရှေ့မီးကို အမြဲဖွင့်ထားရမည်"
         }
       }
     ],
@@ -3728,25 +3728,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What must a motorcyclist do before changing lanes?",
-      "my": "လမ်းကြောပြောင်းမီ ဆိုင်ကယ်မောင်းသူ ဘာလုပ်ရမည်လဲ။"
+      "my": "လမ်းကြောမပြောင်းခင် ဆိုင်ကယ်စီးသူ ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Simply signal and change immediately",
-          "my": "အချက်ပြရုံသာလုပ်ပြီး ချက်ချင်းပြောင်းပါ"
+          "my": "အချက်ပြပြီး ချက်ချင်း လမ်းကြောပြောင်းပါ"
         }
       },
       {
         "text": {
           "en": "Check mirrors and blind spots, signal, then move only when safe",
-          "my": "ကြေးမှန်နှင့် မျက်စိမမြင်ရသောနေရာများကို စစ်ဆေးပြီး အချက်ပြကာ ဘေးကင်းမှသာ ပြောင်းပါ"
+          "my": "နောက်ကြည့်မှန်နှင့် မျက်ကွယ်နေရာကို စစ်ဆေး၊ အချက်ပြပြီး ဘေးကင်းမှ လမ်းကြောပြောင်းပါ"
         }
       },
       {
         "text": {
           "en": "Sound the horn and change without checking mirrors",
-          "my": "ကြေးမှန်ကို မစစ်ဆေးဘဲ ဟွန်းတီးပြီး ပြောင်းပါ"
+          "my": "နောက်ကြည့်မှန်မစစ်ဘဲ ဟွန်းတီးပြီး လမ်းကြောပြောင်းပါ"
         }
       }
     ],
@@ -3770,25 +3770,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "What effect does a strong crosswind have on a motorcycle?",
-      "my": "ပြင်းထန်သော အလျားကိုင်ကွေ့လေသည် ဆိုင်ကယ်အပေါ် မည်သို့ သက်ရောက်သလဲ။"
+      "my": "ပြင်းထန်သော ဘေးတိုက်လေက ဆိုင်ကယ်ကို ဘယ်လိုသက်ရောက်နိုင်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "It increases engine power and helps acceleration",
-          "my": "အင်ဂျင်ကွမ်းအားကို တိုးပြီး အရှိန်မြင့်မားရာ ကူညီသည်"
+          "my": "အင်ဂျင်ပါဝါတိုးပြီး အရှိန်မြှင့်ရာတွင် အထောက်အကူဖြစ်စေသည်"
         }
       },
       {
         "text": {
           "en": "It reduces the stopping distance on dry roads",
-          "my": "ခြောက်သောသော လမ်းပေါ် ရပ်ရသောအကွာ လျှော့ချပေးသည်"
+          "my": "ခြောက်သွေ့သောလမ်းတွင် ရပ်တန့်ရန်အကွာအဝေးကို လျှော့ချပေးသည်"
         }
       },
       {
         "text": {
           "en": "It pushes the motorcycle sideways, destabilising the rider",
-          "my": "ဆိုင်ကယ်ကို ဘေးတိုက် တွန်းပြီး မောင်းသူကို မတည်ငြိမ်အောင် ဖြစ်စေသည်"
+          "my": "ဆိုင်ကယ်ကို ဘေးတိုက်တွန်းသဖြင့် မောင်းသူ၏ ဟန်ချက်ပျက်စေနိုင်သည်"
         }
       }
     ],
@@ -3812,25 +3812,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What should a rider do with their eyes when going through a corner?",
-      "my": "ကွေ့ချိုးကို ဖြတ်သန်းစဉ် ယာဉ်မောင်းသူသည် မျက်စိကို ဘယ်ဘက်သို့ ထားရှိသင့်သလဲ။"
+      "my": "ဆိုင်ကယ်နဲ့ ကွေ့တဲ့အခါ ဘယ်နေရာကို ကြည့်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Look ahead through the corner toward where they want to go",
-          "my": "သွားလိုသောဦးတည်ရာသို့ ကွေ့ချိုးကို ဖြတ်သန်း၍ ရှေ့ကိုကြည့်ပါ"
+          "my": "သွားလိုသည့်ဘက်ကို ကြည့်ပြီး ကွေ့ရှေ့လမ်းကို ကြည့်ပါ"
         }
       },
       {
         "text": {
           "en": "Look down at the front wheel",
-          "my": "ရှေ့ဘီးကို အောက်သို့ကြည့်ပါ"
+          "my": "ရှေ့ဘီးကို ငုံ့ကြည့်ပါ"
         }
       },
       {
         "text": {
           "en": "Look at the edge of the road closest to them",
-          "my": "၎င်းတို့နှင့် နီးကပ်ဆုံး လမ်းအစွန်းကို ကြည့်ပါ"
+          "my": "ကိုယ်နှင့်အနီးဆုံး လမ်းအစွန်းကို ကြည့်ပါ"
         }
       }
     ],
@@ -3854,7 +3854,7 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What riding technique helps maintain stability and control while cornering on a motorcycle?",
-      "my": "ဆိုင်ကယ်ဖြင့် ကွေ့ချိုးကိုဖြတ်သန်းစဉ် တည်ငြိမ်မှုနှင့်ထိန်းချုပ်မှုကို ထိန်းသိမ်းရန် မည်သည့်မောင်းနှင်ပညာက အကူအညီပေးသလဲ။"
+      "my": "ဆိုင်ကယ်ကွေ့နေစဉ် ဟန်ချက်နဲ့ ထိန်းချုပ်မှုမပျောက်အောင် ဘယ်လိုမောင်းသင့်သလဲ။"
     },
     "choices": [
       {
@@ -3896,25 +3896,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "Before changing lanes, in addition to checking the mirrors, what else should a rider do?",
-      "my": "လမ်းကြောမပြောင်းမီ ကြေးမှန်ကို စစ်ဆေးခြင်းအပြင် ယာဉ်မောင်းသူ ဘာထပ်လုပ်ရမည်လဲ။"
+      "my": "နောက်ကြည့်မှန်စစ်ဆေးတာအပြင် လမ်းကြောမပြောင်းခင် ဘာလုပ်သင့်သလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Perform a shoulder check (look over the shoulder) for the blind spot",
-          "my": "မျက်စိမမြင်ရသောနေရာအတွက် ပခုံးလှည့်ကြည့်ပါ"
+          "my": "မျက်ကွယ်နေရာကို စစ်ရန် ပခုံးကျော်ကြည့်ပါ"
         }
       },
       {
         "text": {
           "en": "Close the eyes briefly to focus",
-          "my": "အာရုံစူးစိုက်ရန် မျက်စိကို ခေတ္တမှိတ်ပါ"
+          "my": "အာရုံစိုက်နိုင်ရန် ခဏ မျက်စိမှိတ်ပါ"
         }
       },
       {
         "text": {
           "en": "Sound the horn loudly",
-          "my": "ဟွန်းကို ကျယ်လောင်စွာ တီးပါ"
+          "my": "ဟွန်းကို ကျယ်ကျယ်တီးပါ"
         }
       }
     ],
@@ -3938,25 +3938,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What is the purpose of a motorcycle's tail light flashing brighter during hard braking, if equipped?",
-      "my": "ဆိုင်ကယ်တွင် ပါရှိလျှင် ပြင်းထန်စွာ ဘရိတ်ကိုက်စဉ် နောက်မီးပိုတောက်ပစေခြင်း၏ ရည်ရွယ်ချက်က ဘာလဲ။"
+      "my": "ဆိုင်ကယ်မှာ အဲဒီစနစ်ပါရင် ပြင်းပြင်းဘရိတ်အုပ်တဲ့အခါ နောက်မီးပိုတောက်လာတာက ဘာအတွက်လဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "To save battery power",
-          "my": "ဘက်ထရီစွမ်းအင်ချွေတာရန်"
+          "my": "ဘက်ထရီအားချွေတာဖို့"
         }
       },
       {
         "text": {
           "en": "To indicate the motorcycle is turning left",
-          "my": "ဆိုင်ကယ် ဘယ်ဘက်ကွေ့နေကြောင်း ညွှန်ပြရန်"
+          "my": "ဆိုင်ကယ်ဘယ်ဘက်ကွေ့မယ်လို့ ပြဖို့"
         }
       },
       {
         "text": {
           "en": "To alert following drivers more clearly that the motorcycle is slowing suddenly",
-          "my": "ဆိုင်ကယ် ရုတ်တရက်မြန်နှုန်းလျှော့နေကြောင်း နောက်ကလာသောယာဉ်မောင်းသူများကို ပိုရှင်းလင်းစွာ သတိပေးရန်"
+          "my": "ဆိုင်ကယ်အရှိန်ရုတ်တရက်လျှော့နေတာကို နောက်ကယာဉ်မောင်းတွေ ပိုသိသာအောင် သတိပေးဖို့"
         }
       }
     ],
@@ -3980,25 +3980,25 @@
     "difficulty": "medium",
     "prompt": {
       "en": "A sign shows a motorcycle and a car side by side with an arrow merging into one lane. What does this mean?",
-      "my": "ဆိုင်ကယ်နှင့်ကားကို တန်းလျားကွပ်ပြီး လမ်းကြောတစ်ကြောင်းတည်းသို့ ပေါင်းစည်းနေသည့် မြှားပါသော ဆိုင်းဘုတ်သည် ဘာကိုဆိုလိုသလဲ။"
+      "my": "ဆိုင်ကယ်နဲ့ကားပုံတွေက ရှေ့မှာ လမ်းကြောတစ်ကြောတည်း ပေါင်းသွားတဲ့ မြှားပုံပါတဲ့ ဆိုင်းဘုတ်က ဘာကိုဆိုလိုသလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "A motorcycle-only lane begins here",
-          "my": "ဒီနေရာမှ ဆိုင်ကယ်သီးသန့်လမ်းကြော စတင်သည်"
+          "my": "ဤနေရာမှ ဆိုင်ကယ်သီးသန့်လမ်းကြော စတင်သည်"
         }
       },
       {
         "text": {
           "en": "Lanes are merging ahead; merge carefully and watch for other vehicles",
-          "my": "ရှေ့တွင် လမ်းကြောများ ပေါင်းစည်းမည်ဖြစ်သောကြောင့် သတိနှင့်ပေါင်းစည်းပြီး အခြားယာဉ်များကို ကြည့်ပါ"
+          "my": "ရှေ့တွင် လမ်းကြောများ ပေါင်းဝင်မည်ဖြစ်၍ သတိထားပြီး အခြားယာဉ်များကို ကြည့်ပါ"
         }
       },
       {
         "text": {
           "en": "Motorcycles must always give way to cars at this point",
-          "my": "ဒီနေရာတွင် ဆိုင်ကယ်သည် ကားကို အမြဲလမ်းဖယ်ပေးရမည်"
+          "my": "ဤနေရာတွင် ဆိုင်ကယ်က ကားကို အမြဲလမ်းဖယ်ပေးရမည်"
         }
       }
     ],
@@ -4176,7 +4176,7 @@
       {
         "text": {
           "en": "An informatory/direction sign",
-          "my": "သတင်းအချက်အလက်/ လမ်းညွှန်ဆိုင်းဘုတ်"
+          "my": "နေရာညွှန်ပြတဲ့ ဆိုင်းဘုတ်"
         }
       },
       {
@@ -4214,25 +4214,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What does the rider need to ensure before allowing someone to ride as a pillion passenger?",
-      "my": "တစ်စုံတစ်ယောက်ကို ပွဲတွဲတစီးနင်းခွင့်ပြုမီ ယာဉ်မောင်းသူ ဘာကို သေချာလုပ်ရမည်လဲ။"
+      "my": "နောက်ထိုင်ခုံမှာ ခရီးသည်တင်မယ်ဆိုရင် ဆိုင်ကယ်မောင်းသူက ဘာတွေ သေချာစေရမလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "The pillion has their own properly fastened helmet and uses the footrests provided",
-          "my": "ပွဲတွဲသည် မှန်ကန်စွာချည်ထားသော ပိုင်ဆိုင်သည့် ဦးထုပ်ရှိပြီး ပံ့ပိုးထားသော ခြေနင်းကို အသုံးပြုသည်ကို သေချာစေသည်"
+          "my": "ခရီးသည်မှာ သင့်တော်တဲ့ဦးထုပ်ရှိပြီး သေချာကြိုးချည်ထားတာ၊ ခြေတင်ခုံပေါ် ခြေတင်ထားတာ သေချာစေပါ"
         }
       },
       {
         "text": {
           "en": "There are no requirements for carrying a pillion",
-          "my": "ပွဲတွဲစီးခွင့်ပြုရန် မည်သည့်လိုအပ်ချက်မှ မရှိပါ"
+          "my": "ခရီးသည်တင်ဖို့ ဘာစည်းကမ်းမှမရှိပါ"
         }
       },
       {
         "text": {
           "en": "The pillion can stand on the rear seat for a better view",
-          "my": "ပွဲတွဲသည် ပိုကောင်းသော မြင်ကွင်းအတွက် နောက်ထိုင်ခုံပေါ်တွင် ရပ်နေနိုင်သည်"
+          "my": "ပိုမြင်ရဖို့ ခရီးသည်က နောက်ခုံပေါ် မတ်တပ်ရပ်လို့ရတယ်"
         }
       }
     ],
@@ -4256,25 +4256,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "Is it legal to carry more than one pillion passenger on a standard Class 2B motorcycle?",
-      "my": "စံ Class 2B ဆိုင်ကယ်တစ်စီးတွင် ပွဲတွဲစီးသူတစ်ဦးထက်ပို၍ ဆောင်ရွက်ခွင့် ဥပဒေအရ ရှိသလော။"
+      "my": "Class 2B ပုံမှန်ဆိုင်ကယ်တွင် နောက်ထိုင်ခုံခရီးသည် တစ်ဦးထက်ပို၍ တင်ဆောင်ခွင့်ရှိသလား။"
     },
     "choices": [
       {
         "text": {
           "en": "Yes, as long as all passengers wear helmets",
-          "my": "ရှိသည်၊ ခရီးသွားအားလုံး ဦးထုပ်ဆောင်းသမျှ"
+          "my": "ရှိသည် — ခရီးသည်အားလုံး ဦးထုပ်ဆောင်းထားပါက"
         }
       },
       {
         "text": {
           "en": "Yes — up to three passengers may be carried",
-          "my": "ရှိသည် — ခရီးသွားသုံးဦးအထိ ဆောင်ရွက်နိုင်သည်"
+          "my": "ရှိသည် — ခရီးသည် သုံးဦးအထိ တင်နိုင်သည်"
         }
       },
       {
         "text": {
           "en": "No — only one pillion passenger is allowed on a standard motorcycle seat",
-          "my": "မရှိပါ — စံဆိုင်ကယ်ထိုင်ခုံတွင် ပွဲတွဲစီးသူတစ်ဦးသာ ခွင့်ပြုသည်"
+          "my": "မရှိပါ — ပုံမှန်ဆိုင်ကယ်တွင် နောက်ထိုင်ခုံခရီးသည် တစ်ဦးသာ တင်နိုင်သည်"
         }
       }
     ],
@@ -4298,25 +4298,25 @@
     "difficulty": "easy",
     "prompt": {
       "en": "What standard must a motorcycle helmet meet to be legally worn in Singapore?",
-      "my": "Singapore တွင် တရားဝင် ဆိုင်ကယ် ဦးထုပ်သည် မည်သည့် စံနှုန်းနှင့် ကိုက်ညီရမည်လဲ။"
+      "my": "စင်ကာပူတွင် ဆိုင်ကယ်ဦးထုပ် တရားဝင်ဆောင်းနိုင်ရန် ဘယ်စံနှုန်းကို ပြည့်မီရမလဲ။"
     },
     "choices": [
       {
         "text": {
           "en": "Any full-face helmet regardless of certification",
-          "my": "သက်သေခံချက်မဆိုင်ဘဲ မည်သည့် မျက်နှာပြည့် ဦးထုပ်မဆို"
+          "my": "အသိအမှတ်ပြုစံနှုန်းမလိုဘဲ မည်သည့်မျက်နှာအပြည့်ဖုံးဦးထုပ်မဆို"
         }
       },
       {
         "text": {
           "en": "A helmet approved under an accepted international standard (e.g. ECE 22, SIRIM)",
-          "my": "လက်ခံထားသော နိုင်ငံတကာ စံနှုန်းဖြင့် အတည်ပြုထားသော ဦးထုပ် (ဥပမာ ECE 22, SIRIM)"
+          "my": "လက်ခံထားသော နိုင်ငံတကာစံနှုန်း (ဥပမာ ECE 22 သို့မဟုတ် SIRIM) အရ အသိအမှတ်ပြုထားသော ဦးထုပ်"
         }
       },
       {
         "text": {
           "en": "Any branded helmet sold in a sports shop",
-          "my": "အားကစားဆိုင်တွင် ရောင်းသော မည်သည့် brand ဦးထုပ်မဆို"
+          "my": "အားကစားဆိုင်တွင် ရောင်းသော မည်သည့်အမှတ်တံဆိပ်ပါဦးထုပ်မဆို"
         }
       }
     ],
